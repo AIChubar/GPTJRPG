@@ -1,0 +1,210 @@
+{ 
+  "narrativeData": {
+    "worldName": "Terrandor",
+    "story": "The land of Terrandor is in turmoil as dark forces rise from the depths of the earth. The ancient creatures that once roamed in peace are now corrupted and seek destruction.",
+    "greetingGameMessage": "Welcome, brave adventurer, to the world of Terrandor. Your journey to save our land begins now.",
+    "finalGameMessage": "Congratulations, hero! With your courage and strength, you have vanquished the evil that threatened Terrandor. Peace reigns once again."
+  },
+  "mainCharacter": {
+    "name": "Eldric",
+    "race": "Human",
+    "characterClass": "Paladin",
+    "occupation": "Knight Commander",
+    "backStory": "Eldric, a noble warrior of Terrandor, has sworn an oath to protect the innocent and uphold justice in the realm."
+  },
+  "levels": [
+    {
+      "levelName": "The Dark Woods",
+      "friendlyCharacter": "Ranger Loria",
+      "monologue": "The trees whisper warnings of the approaching darkness. Be on your guard, for the creatures of the forest have turned hostile.",
+      "enemyGroups": [
+        {
+          "groupName": "Corrupted Fauna",
+          "units": [
+            {
+              "enemyName": "centaur_warrior",
+              "health": 100,
+              "damage": 20
+            },
+            {
+              "enemyName": "dryad",
+              "health": 80,
+              "damage": 15
+            },
+            {
+              "enemyName": "faun",
+              "health": 70,
+              "damage": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Lurking Shadows",
+          "units": [
+            {
+              "enemyName": "shadow_imp",
+              "health": 60,
+              "damage": 25
+            },
+            {
+              "enemyName": "moth_of_suppression",
+              "health": 50,
+              "damage": 20
+            }
+          ]
+        },
+        {
+          "groupName": "Fury of the Elements",
+          "units": [
+            {
+              "enemyName": "fire_drake",
+              "health": 120,
+              "damage": 30
+            },
+            {
+              "enemyName": "swamp_drake",
+              "health": 100,
+              "damage": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Savage Trolls",
+          "units": [
+            {
+              "enemyName": "rock_troll",
+              "health": 150,
+              "damage": 35
+            },
+            {
+              "enemyName": "ice_troll",
+              "health": 130,
+              "damage": 30
+            }
+          ]
+        },
+        {
+          "groupName": "Minions of Chaos",
+          "units": [
+            {
+              "enemyName": "necromancer",
+              "health": 90,
+              "damage": 25
+            },
+            {
+              "enemyName": "demonspawn",
+              "health": 110,
+              "damage": 30
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "forest_guardian",
+        "dark_spirit"
+      ],
+      "walkableTile": {
+        "colour": "green",
+        "texture": "leafy"
+      },
+      "nonWalkableTile": {
+        "colour": "brown",
+        "texture": "rocky"
+      }
+    },
+    {
+      "levelName": "The Blazing Caverns",
+      "friendlyCharacter": "Mage Acolyte Zephyr",
+      "monologue": "The searing heat of the caverns hides ancient secrets and dangerous foes. Proceed with caution, for the flames do not forgive.",
+      "enemyGroups": [
+        {
+          "groupName": "Inferno Dwellers",
+          "units": [
+            {
+              "enemyName": "fire_giant",
+              "health": 180,
+              "damage": 40
+            },
+            {
+              "enemyName": "lava_worm",
+              "health": 140,
+              "damage": 35
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Sorcerers",
+          "units": [
+            {
+              "enemyName": "salamander_mystic",
+              "health": 120,
+              "damage": 30
+            },
+            {
+              "enemyName": "naga_mage",
+              "health": 100,
+              "damage": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Fiery Guardians",
+          "units": [
+            {
+              "enemyName": "orb_guardian",
+              "health": 160,
+              "damage": 35
+            },
+            {
+              "enemyName": "phoenix",
+              "health": 200,
+              "damage": 45
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Miners",
+          "units": [
+            {
+              "enemyName": "deep_dwarf",
+              "health": 110,
+              "damage": 25
+            },
+            {
+              "enemyName": "labrat_unseen",
+              "health": 90,
+              "damage": 20
+            }
+          ]
+        },
+        {
+          "groupName": "Brimstone Horrors",
+          "units": [
+            {
+              "enemyName": "fire_drake",
+              "health": 120,
+              "damage": 30
+            },
+            {
+              "enemyName": "infernal_hound",
+              "health": 80,
+              "damage": 20
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "fire_elemental",
+        "cave_demon"
+      ],
+      "walkableTile": {
+        "colour": "red",
+        "texture": "cracked"
+      },
+      "nonWalkableTile": {
+        "colour": "black",
+        "texture": "molten"
+      }
+    }
+  ]
+}

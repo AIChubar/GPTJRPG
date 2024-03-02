@@ -1,0 +1,63 @@
+{
+  "narrativeData": {
+      "story": "In the distant past, a powerful wizard named Zoltar constructed a tower to hone his magical abilities. He filled it with various creatures, traps, and puzzles to challenge himself. However, Zoltar's power eventually grew beyond his control, and he disappeared without a trace. The tower remained abandoned for centuries, and rumors spread that it was cursed.\nOne day, a brave adventurer appeared and decided to explore the tower's depths. He encountered various challenges on each level, including fearsome monsters and deadly traps. Along the way, he met several friendly characters who offered him advice and insights into the tower's history.\nThe first level was a lush forest filled with giant mushrooms and towering trees. The friendly character, a wise old elf, told the adventurer about Zoltar's obsession with nature and how he spent years studying the forest's secrets. The adventurer fought off vicious wolves and nimble goblins to reach the level's exit.\nThe second level was a desolate wasteland of black sand and scorching sun. The friendly character, a nomadic warrior, told the adventurer about how Zoltar sought to harness the power of fire and how he unleashed a terrible curse upon the land. The adventurer battled fiery salamanders and swift sandworms to reach the level's exit.\nThe third level was a frozen tundra of glittering ice and frigid winds. The friendly character, a frost giant, told the adventurer about how Zoltar experimented with ice magic and how he accidentally froze an entire village. The adventurer fought against frost golems and howling yetis to reach the level's exit.\nThe fourth level was a labyrinthine network of ancient ruins and dark catacombs. The friendly character, a knowledgeable historian, told the adventurer about how Zoltar delved into the mysteries of the past and how he uncovered an eldritch artifact that drove him insane. The adventurer faced off against spectral wraiths and reanimated skeletons to reach the level's exit.\nThe fifth and final level was the pinnacle of Zoltar's power, a massive chamber filled with arcane runes and mystical machinery. The friendly character, a reclusive wizard, told the adventurer about how Zoltar sought to ascend to godhood and how he attempted a dangerous ritual that caused the tower to become cursed. The adventurer battled against Zoltar's most powerful creations and finally faced off against the mad wizard himself. In the end, the adventurer emerged victorious and claimed the tower's ultimate prize: knowledge of the arcane that few mortals could ever comprehend.\n",
+      "greetingGameMessage": "Welcome, brave adventurer. You have been drawn to the cursed tower, a place of great danger and ancient mystery. Descend its depths, conquer its challenges, and claim the ultimate prize that lies at the top. But beware, for the tower's curse will test your will and sanity.\n",
+      "finalGameMessage": "Congratulations, brave adventurer. You have proven yourself worthy of the tower's secrets. May your newfound knowledge serve you well, and may the tower remain forever sealed to those who seek its power for evil.\n"
+  },
+  
+  "mainCharacter": {
+      "name": "Kaida",
+      "race": "Human",
+      "characterClass": "Paladin",
+      "occupation": "Adventurer",
+      "backStory": "Kaida grew up in a small village in the countryside. Her parents were farmers and they taught her the value of hard work and perseverance. When Kaida was a teenager, a group of bandits raided the village, killing many and burning down homes. Kaida was one of the few survivors, and from that day on, she made a vow to protect others from harm. She trained in combat and eventually became a Paladin, dedicating her life to fighting evil and protecting the innocent."
+  },
+  
+  "levels": [
+    {
+      "name": "The Forest",
+      "friendlyCharacter": "Wise Old Elf",
+      "monologue": "Welcome to the first level of the tower. You find yourself in a lush forest, filled with towering trees and giant mushrooms. This forest used to be home to many magical creatures, including Zoltar himself. He spent many years studying its secrets and learning from the creatures that lived here. Be careful though, for there are dangers lurking in these woods. Vicious wolves and nimble goblins roam these paths, looking for unwary adventurers like yourself.",
+      "enemies": ["Wolves", "Goblins"],
+      "uniqueSprites": ["Giant mushrooms", "towering trees"],
+      "walkableTile": {"colour": "Green", "texture": "Grass"},
+      "nonWalkableTile": {"colour": "Brown", "texture": "Tree trunks"}
+    },
+    {
+      "name": "The Burning Wasteland",
+      "friendlyCharacter": "Nomadic warrior",
+      "monologue": "Welcome, adventurer. You've arrived at the burning wasteland, once a thriving desert, now cursed by Zoltar's magic. Legend has it that he was fascinated with the power of fire and decided to test his abilities by unleashing a devastating spell that burned everything in its path. He never thought about the consequences of his actions and doomed this land to eternal damnation. Be careful, the scorching sand and the fiery creatures that inhabit this place will make your journey challenging.",
+      "enemies": ["Fiery salamanders", "swift sandworms"],
+      "uniqueSprites": ["Charred cacti", "molten rocks"],
+      "walkableTile": {"colour": "Black", "texture": "Sand"},
+      "nonWalkableTile": {"colour": "Orange", "texture": "Lava"}
+    },
+    {
+      "name": "The Frozen Tundra",
+      "friendlyCharacter": "Frost giant",
+      "monologue": "Greetings, adventurer. You've ventured far to reach the frozen tundra, a place once blessed with life but now cursed by Zoltar's experiments with ice magic. He was a foolish wizard who thought he could bend the elements to his will without considering the consequences. He unleashed a deadly blizzard that froze everything in its path, including an entire village. Beware of the frost golems and howling yetis that roam these lands.",
+      "enemies": ["Frost golems", "howling yetis"],
+      "uniqueSprites": ["Frozen trees", "icy boulders"],
+      "walkableTile": {"colour": "White", "texture": "Snow"},
+      "nonWalkableTile": {"colour": "Blue", "texture": "Ice"}
+    },
+    {
+      "name": "The Dark Catacombs",
+      "friendlyCharacter": "Knowledgeable historian",
+      "monologue": "Greetings, adventurer. You've come far to reach the dark catacombs, a place steeped in ancient history and cursed by Zoltar's discovery of an eldritch artifact that drove him insane. He delved too deep into the mysteries of the past and unleashed a curse that still haunts this place. You'll face spectral wraiths and reanimated skeletons as you make your way through these dark halls.",
+      "enemies": ["Spectral wraiths", "reanimated skeletons"],
+      "uniqueSprites": ["Crumbling pillars", "ancient hieroglyphics"],
+      "walkableTile": {"colour": "Brown", "texture": "Dirt"},
+      "nonWalkableTile": {"colour": "Grey", "texture": "Stones"}
+    },
+    {
+      "name": "The Arcane Chamber",
+      "friendlyCharacter": "Reclusive wizard",
+      "monologue": "Ah, adventurer, you've come a long way to reach the arcane chamber, the pinnacle of Zoltar's power. This is where he sought to ascend to godhood and performed a dangerous ritual that cursed the tower. You'll face his most powerful creations and eventually, Zoltar himself. Be warned, his madness has made him a formidable foe. But if you're able to overcome him, the knowledge you'll gain is priceless.",
+      "enemies": ["Golems of all types", "ancient elemental monsters", "Zoltar himself"],
+      "uniqueSprites": ["Ancient runes", "floating crystals", "pulsating magical nodes"],
+      "walkableTile": {"colour": "Purple", "texture": "arcane energy"},
+      "nonWalkableTile": {"colour": "Black", "texture": "void"}
+    }
+  ]
+}

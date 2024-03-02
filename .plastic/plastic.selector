@@ -1,0 +1,4 @@
+repository "GPT JRPG@ilovepolosina@cloud"
+  path "/"
+    br "/main"
+    co "/main"

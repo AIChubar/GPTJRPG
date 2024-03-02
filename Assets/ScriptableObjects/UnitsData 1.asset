@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeec98d01f806714db54722042795c99, type: 3}
+  m_Name: UnitsData 1
+  m_EditorClassIdentifier: 
+  unitGroups:
+  - name: Shadow Legion
+    units:
+    - name: shadow_imp
+      maxHP: 80
+      currentHP: 80
+      damage: 20
+      friendly: 0
+    - name: siren_water_new
+      maxHP: 120
+      currentHP: 120
+      damage: 25
+      friendly: 0
+    - name: gnoll_shaman
+      maxHP: 100
+      currentHP: 100
+      damage: 30
+      friendly: 0
+  - name: Forest Guardians
+    units:
+    - name: salamander_firebrand
+      maxHP: 150
+      currentHP: 150
+      damage: 35
+      friendly: 0
+    - name: tengu_reaver
+      maxHP: 180
+      currentHP: 180
+      damage: 40
+      friendly: 0
+    - name: siren_old
+      maxHP: 200
+      currentHP: 200
+      damage: 45
+      friendly: 0
+  - name: Wraithstalkers
+    units:
+    - name: deep_elf_knight_old
+      maxHP: 220
+      currentHP: 220
+      damage: 50
+      friendly: 0
+    - name: merfolk_javelineer_new
+      maxHP: 240
+      currentHP: 240
+      damage: 55
+      friendly: 0
+    - name: deep_troll_shaman
+      maxHP: 260
+      currentHP: 260
+      damage: 60
+      friendly: 0
+  - name: Cursed Spirits
+    units:
+    - name: deep_dwarf
+      maxHP: 280
+      currentHP: 280
+      damage: 65
+      friendly: 0
+    - name: orc_sorcerer_new
+      maxHP: 300
+      currentHP: 300
+      damage: 70
+      friendly: 0
+    - name: harpy
+      maxHP: 320
+      currentHP: 320
+      damage: 75
+      friendly: 0
+  - name: Ancient Guardians
+    units:
+    - name: deep_elf_mage
+      maxHP: 350
+      currentHP: 350
+      damage: 80
+      friendly: 0
+    - name: guardian_naga
+      maxHP: 380
+      currentHP: 380
+      damage: 85
+      friendly: 0
+    - name: yaktaur_captain_old
+      maxHP: 400
+      currentHP: 400
+      damage: 90
+      friendly: 0

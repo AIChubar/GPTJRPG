@@ -1,0 +1,220 @@
+{
+  "narrativeData": {
+    "worldName" : "Eldorania",
+    "story": "In the ancient land of Eldoria, a great evil has awakened threatening the peace of the realm. As the chosen hero, you must embark on a perilous journey to vanquish the darkness and restore balance.",
+    "greetingGameMessage": "Welcome, brave adventurer, to the world of Eldoria! Your courage and skills will be tested as you face formidable foes and unravel the mysteries of this land.",
+    "finalGameMessage": "Congratulations, noble hero! With your bravery and determination, you have triumphed over the forces of evil and saved Eldoria from destruction."
+  },
+  "mainCharacter": {
+    "name": "Valeria",
+    "race": "Human",
+    "characterClass": "Ranger",
+    "occupation": "Guardian of the Forest",
+    "backStory": "Valeria grew up in the enchanted forests of Eldoria, honing her archery skills and deep connection with nature. When darkness threatened her home, she answered the call to protect the land she loves."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Forest",
+      "friendlyCharacter": "Elder Druid",
+      "monologue": "The whispers of the trees foretell of great danger approaching. Be on your guard, for the shadows hold secrets that only the brave can uncover.",
+      "enemyGroups": [
+        {
+          "groupName": "Sylvan Guardians",
+          "units": [
+            {
+              "enemyName": "centaur_warrior",
+              "health": "150",
+              "damage": "20"
+            },
+            {
+              "enemyName": "faun",
+              "health": "120",
+              "damage": "15"
+            },
+            {
+              "enemyName": "dryad",
+              "health": "100",
+              "damage": "10"
+            }
+          ]
+        },
+        {
+          "groupName": "Fire Giants",
+          "units": [
+            {
+              "enemyName": "fire_giant_old",
+              "health": "200",
+              "damage": "25"
+            },
+            {
+              "enemyName": "fire_giant_new",
+              "health": "220",
+              "damage": "30"
+            }
+          ]
+        },
+        {
+          "groupName": "Merfolk Alliance",
+          "units": [
+            {
+              "enemyName": "merfolk",
+              "health": "100",
+              "damage": "15"
+            },
+            {
+              "enemyName": "merfolk_javelineer_water_old",
+              "health": "120",
+              "damage": "20"
+            },
+            {
+              "enemyName": "merfolk_plain",
+              "health": "80",
+              "damage": "10"
+            }
+          ]
+        },
+        {
+          "groupName": "Orc Legion",
+          "units": [
+            {
+              "enemyName": "orc_knight_old",
+              "health": "180",
+              "damage": "20"
+            },
+            {
+              "enemyName": "orc_warrior_new",
+              "health": "160",
+              "damage": "18"
+            }
+          ]
+        },
+        {
+          "groupName": "Troll Tribe",
+          "units": [
+            {
+              "enemyName": "rock_troll_monk_ghost",
+              "health": "250",
+              "damage": "30"
+            },
+            {
+              "enemyName": "deep_troll_earth_mage",
+              "health": "220",
+              "damage": "25"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "forest_guardian",
+        "mystical_tree"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Tree Roots"
+      }
+    },
+    {
+      "levelName": "Cursed Caverns",
+      "friendlyCharacter": "Dwarven Miner",
+      "monologue": "The depths of the earth hide treasures beyond imagination, but beware, for malevolent creatures lurk in the shadows hungry for unwary souls.",
+      "enemyGroups": [
+        {
+          "groupName": "Underworld Terrors",
+          "units": [
+            {
+              "enemyName": "lava_worm",
+              "health": "180",
+              "damage": "25"
+            },
+            {
+              "enemyName": "fire_drake",
+              "health": "200",
+              "damage": "30"
+            }
+          ]
+        },
+        {
+          "groupName": "Cave Dwellers",
+          "units": [
+            {
+              "enemyName": "cyclops_old",
+              "health": "220",
+              "damage": "28"
+            },
+            {
+              "enemyName": "gnoll_new",
+              "health": "150",
+              "damage": "20"
+            },
+            {
+              "enemyName": "ogre_mage_new",
+              "health": "180",
+              "damage": "22"
+            }
+          ]
+        },
+        {
+          "groupName": "Ghostly Phantoms",
+          "units": [
+            {
+              "enemyName": "human_monk_ghost",
+              "health": "120",
+              "damage": "18"
+            },
+            {
+              "enemyName": "iron_troll_monk_ghost",
+              "health": "180",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Summoners",
+          "units": [
+            {
+              "enemyName": "necromancer_new",
+              "health": "160",
+              "damage": "20"
+            },
+            {
+              "enemyName": "deep_elf_demonologist",
+              "health": "200",
+              "damage": "25"
+            }
+          ]
+        },
+        {
+          "groupName": "Ancient Guardians",
+          "units": [
+            {
+              "enemyName": "guardian_naga",
+              "health": "220",
+              "damage": "30"
+            },
+            {
+              "enemyName": "sphinx_old",
+              "health": "240",
+              "damage": "35"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "underworld_sentinel",
+        "glowing_crystals"
+      ],
+      "walkableTile": {
+        "colour": "Brown",
+        "texture": "Stone"
+      },
+      "nonWalkableTile": {
+        "colour": "Black",
+        "texture": "Lava Flow"
+      }
+    }
+  ]
+}

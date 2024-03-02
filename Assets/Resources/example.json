@@ -1,0 +1,366 @@
+{
+  "narrativeData": {
+    "story": "Placeholder",
+    "greetingGameMessage": "Placeholder",
+    "finalGameMessage": "Placeholder"
+  },
+  "mainCharacter": {
+    "name": "Placeholder",
+    "race": "Placeholder",
+    "characterClass": "Placeholder",
+    "occupation": "Placeholder",
+    "backStory": "Placeholder"
+  },
+  "levels": [
+    {
+      "levelName": "Placeholder",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": ["Placeholder"],
+      "walkableTile": {"colour": "Placeholder", "texture": "Placeholder"},
+      "nonWalkableTile": {"colour": "Placeholder", "texture": "Placeholder"}
+    },
+    {
+      "levelName": "Placeholder",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": ["Placeholder"],
+      "walkableTile": {"colour": "Placeholder", "texture": "Placeholder"},
+      "nonWalkableTile": {"colour": "Placeholder", "texture": "Placeholder"}
+    },
+    {
+      "levelName": "Placeholder",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": ["Placeholder"],
+      "walkableTile": {"colour": "Placeholder", "texture": "Placeholder"},
+      "nonWalkableTile": {"colour": "Placeholder", "texture": "Placeholder"}
+    },
+    {
+      "levelName": "Placeholder",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": ["Placeholder"],
+      "walkableTile": {"colour": "Placeholder", "texture": "Placeholder"},
+      "nonWalkableTile": {"colour": "Placeholder", "texture": "Placeholder"}
+    },
+    {
+      "levelName": "Placeholder",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Placeholder",
+          "units": [
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "Placeholder",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": ["Placeholder"],
+      "walkableTile": {"colour": "Placeholder", "texture": "Placeholder"},
+      "nonWalkableTile": {"colour": "Placeholder", "texture": "Placeholder"}
+    }
+  ]
+}
