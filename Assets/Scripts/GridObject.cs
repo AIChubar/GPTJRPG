@@ -26,7 +26,7 @@ public class GridObject : MonoBehaviour
         { 
             objectHolding = Instantiate(GameManager.gameManager.battleData.battleEnemyPrefab, transform.position,Quaternion.identity);
             //obj = GameManager.gameManager.MapToBattle(obj, friendly);
-            objectHolding.GetComponent<SpriteRenderer>().sprite = GameManager.gameManager.atlas.GetSprite(ud.name);
+            objectHolding.GetComponent<SpriteRenderer>().sprite = GameManager.gameManager.atlas.GetSprite(ud.id.Substring(ud.id.IndexOf('_') + 1));
             objectHolding.GetComponent<Unit>().SetData(ud);
             objectHolding.transform.localScale = new Vector3(1.5f,1.5f, 1);
             objectHolding.transform.Translate(0f, obj.GetComponent<SpriteRenderer>().bounds.size.y/5*2, 0f);

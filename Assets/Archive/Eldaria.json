@@ -1,0 +1,205 @@
+{
+  "narrativeData": {
+    "worldName": "Eldaria",
+    "story": "The land of Eldaria has been plunged into darkness by the evil sorcerer, Malvorn. Your quest is to gather allies, uncover ancient artifacts, and vanquish Malvorn from the realm.",
+    "greetingGameMessage": "Welcome to the mystical world of Eldaria. Prepare yourself for a journey filled with danger and magic.",
+    "finalGameMessage": "Congratulations! With Malvorn defeated, Eldaria is once again bathed in light. You are hailed as the hero of the realm."
+  },
+  "mainCharacter": {
+    "name": "Aria",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Guardian of the Sacred Grove",
+    "backStory": "Aria, born under the light of the Eldar Moon, possesses a deep connection to nature and a fierce loyalty to her homeland. Her skills with the bow are unmatched, and her bravery is renowned throughout Eldaria."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Forest",
+      "friendlyCharacter": "Sylvan Sentinel",
+      "monologue": "The ancient trees whisper warnings as you enter the Enchanted Forest. Be wary, for Malvorn's minions lurk within the shadows.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadowed Thicket",
+          "units": [
+            {
+              "enemyName": "lava_worm",
+              "health": 50,
+              "damage": 15
+            },
+            {
+              "enemyName": "deep_elf_summoner",
+              "health": 40,
+              "damage": 20
+            }
+          ]
+        },
+        {
+          "groupName": "Moonlit Glade",
+          "units": [
+            {
+              "enemyName": "ice_beast",
+              "health": 60,
+              "damage": 18
+            },
+            {
+              "enemyName": "naga_sharpshooter",
+              "health": 45,
+              "damage": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Hollow",
+          "units": [
+            {
+              "enemyName": "sphinx_new",
+              "health": 70,
+              "damage": 22
+            },
+            {
+              "enemyName": "tengu_conjurer",
+              "health": 55,
+              "damage": 28
+            }
+          ]
+        },
+        {
+          "groupName": "Starfall Glade",
+          "units": [
+            {
+              "enemyName": "cyclops_new",
+              "health": 80,
+              "damage": 25
+            },
+            {
+              "enemyName": "deep_dwarf_artificer",
+              "health": 65,
+              "damage": 30
+            }
+          ]
+        },
+        {
+          "groupName": "Sunset Vale",
+          "units": [
+            {
+              "enemyName": "salamander_stormcaller",
+              "health": 90,
+              "damage": 28
+            },
+            {
+              "enemyName": "merfolk_aquamancer_water_old",
+              "health": 75,
+              "damage": 35
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "EnchantedTree",
+        "GlowingFlower"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Rock"
+      }
+    },
+    {
+      "levelName": "Frozen Peaks",
+      "friendlyCharacter": "Frostborn Shaman",
+      "monologue": "The Frozen Peaks are treacherous and unforgiving. Only those with the strength of will can withstand the bitter cold and the fierce creatures that dwell here.",
+      "enemyGroups": [
+        {
+          "groupName": "Icy Caverns",
+          "units": [
+            {
+              "enemyName": "frost_giant_new",
+              "health": 100,
+              "damage": 30
+            },
+            {
+              "enemyName": "ice_beast",
+              "health": 60,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Blizzard Pass",
+          "units": [
+            {
+              "enemyName": "winter_wyrm",
+              "health": 120,
+              "damage": 35
+            },
+            {
+              "enemyName": "snow_owl",
+              "health": 50,
+              "damage": 20
+            }
+          ]
+        },
+        {
+          "groupName": "Frostbite Crag",
+          "units": [
+            {
+              "enemyName": "frost_dragon",
+              "health": 150,
+              "damage": 40
+            },
+            {
+              "enemyName": "ice_elemental",
+              "health": 80,
+              "damage": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Glacial Summit",
+          "units": [
+            {
+              "enemyName": "glacial_titan",
+              "health": 180,
+              "damage": 45
+            },
+            {
+              "enemyName": "frost_giant_old",
+              "health": 70,
+              "damage": 30
+            }
+          ]
+        },
+        {
+          "groupName": "Avalanche Ridge",
+          "units": [
+            {
+              "enemyName": "snow_unicorn",
+              "health": 200,
+              "damage": 50
+            },
+            {
+              "enemyName": "icicle_goat",
+              "health": 90,
+              "damage": 35
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "FrozenTree",
+        "Snowdrift"
+      ],
+      "walkableTile": {
+        "colour": "White",
+        "texture": "Snow"
+      },
+      "nonWalkableTile": {
+        "colour": "Blue",
+        "texture": "Ice"
+      }
+    }
+  ]
+}

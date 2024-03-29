@@ -1,0 +1,203 @@
+{
+  "narrativeData": {
+    "worldName": "Zephyrathia",
+    "story": "The land of Zephyrathia is filled with magic and mystery, where ancient creatures roam and powerful artifacts lie hidden.",
+    "greetingGameMessage": "Welcome to the realm of Zephyrathia! Prepare yourself for an epic adventure full of danger and intrigue.",
+    "finalGameMessage": "Congratulations on completing your journey through Zephyrathia. May your legend live on in the annals of history."
+  },
+  "mainCharacter": {
+    "name": "Valeria Stormbringer",
+    "race": "Human",
+    "characterClass": "Sorcerer",
+    "occupation": "Seeker of Lost Knowledge",
+    "backStory": "Valeria Stormbringer, a powerful sorcerer from the city of Arcanum, has dedicated her life to uncovering ancient secrets and unraveling the mysteries of the arcane."
+  },
+  "levels": [
+    {
+      "levelName": "The Enchanted Forest",
+      "friendlyCharacter": "Eldric the Elven Archer",
+      "monologue": "Beware, brave adventurer, for the Enchanted Forest is home to creatures both beautiful and deadly. Stay sharp and trust in your skills to survive.",
+      "enemyGroups": [
+        {
+          "groupName": "Sylvan Guardians",
+          "units": [
+            {
+              "enemyName": "dryad",
+              "health": 100,
+              "damage": 20
+            },
+            {
+              "enemyName": "centaur_warrior",
+              "health": 120,
+              "damage": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Terrors",
+          "units": [
+            {
+              "enemyName": "shadow_imp",
+              "health": 80,
+              "damage": 15
+            },
+            {
+              "enemyName": "moth_of_suppression",
+              "health": 90,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Guardians",
+          "units": [
+            {
+              "enemyName": "naga_mage",
+              "health": 110,
+              "damage": 22
+            },
+            {
+              "enemyName": "siren_old",
+              "health": 100,
+              "damage": 20
+            }
+          ]
+        },
+        {
+          "groupName": "Forest Spirits",
+          "units": [
+            {
+              "enemyName": "lindwurm",
+              "health": 150,
+              "damage": 30
+            },
+            {
+              "enemyName": "forest_drake",
+              "health": 140,
+              "damage": 28
+            }
+          ]
+        },
+        {
+          "groupName": "Ancient Protectors",
+          "units": [
+            {
+              "enemyName": "guardian_naga",
+              "health": 130,
+              "damage": 26
+            },
+            {
+              "enemyName": "ent-walker",
+              "health": 160,
+              "damage": 32
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "forest_guardian_sprite"
+      ],
+      "walkableTile": {
+        "colour": "green",
+        "texture": "grass"
+      },
+      "nonWalkableTile": {
+        "colour": "brown",
+        "texture": "trees"
+      }
+    },
+    {
+      "levelName": "The Crystal Caverns",
+      "friendlyCharacter": "Thormar Stonehammer",
+      "monologue": "Deep within the Crystal Caverns, glimmering treasures and deadly foes await those brave enough to venture forth. Steel your resolve and prepare for battle.",
+      "enemyGroups": [
+        {
+          "groupName": "Crystal Guardians",
+          "units": [
+            {
+              "enemyName": "crystal_golem",
+              "health": 200,
+              "damage": 40
+            },
+            {
+              "enemyName": "crystal_elemental",
+              "health": 180,
+              "damage": 36
+            }
+          ]
+        },
+        {
+          "groupName": "Forgotten Undead",
+          "units": [
+            {
+              "enemyName": "skeletal_warrior",
+              "health": 150,
+              "damage": 30
+            },
+            {
+              "enemyName": "wraith",
+              "health": 160,
+              "damage": 32
+            }
+          ]
+        },
+        {
+          "groupName": "Glimmering Horrors",
+          "units": [
+            {
+              "enemyName": "crystal_spider",
+              "health": 170,
+              "damage": 34
+            },
+            {
+              "enemyName": "shardbeast",
+              "health": 190,
+              "damage": 38
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Crystal Cultists",
+          "units": [
+            {
+              "enemyName": "crystal_warlock",
+              "health": 180,
+              "damage": 36
+            },
+            {
+              "enemyName": "dark_shardmancer",
+              "health": 170,
+              "damage": 34
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Behemoths",
+          "units": [
+            {
+              "enemyName": "crystal_colossus",
+              "health": 250,
+              "damage": 50
+            },
+            {
+              "enemyName": "crystal_titan",
+              "health": 300,
+              "damage": 60
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "crystal_caverns_sprite"
+      ],
+      "walkableTile": {
+        "colour": "blue",
+        "texture": "crystals"
+      },
+      "nonWalkableTile": {
+        "colour": "grey",
+        "texture": "rocks"
+      }
+    }
+  ]
+}

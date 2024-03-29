@@ -1,0 +1,255 @@
+{
+  "narrativeData": {
+    "worldName": "Sylvanar",
+    "story": "In the mystical realm of Sylvanar, ancient forests whisper secrets of forgotten magic. Creatures of all shapes and sizes roam the lands, some protectors of nature, others corrupted by dark forces.",
+    "greetingGameMessage": "Welcome to Sylvanar, brave adventurer! Prepare to face the challenges that await in the enchanted forests.",
+    "finalGameMessage": "Congratulations on your journey through Sylvanar! May the magic of the ancient forests always guide your path."
+  },
+  "mainCharacter": {
+    "name": "Eldric",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Forest Guardian",
+    "backStory": "Eldric, a skilled archer and tracker, has sworn to protect the forests of Sylvanar from any threats that may arise. His bond with nature gives him an edge in navigating the enchanted woods."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Woods",
+      "friendlyCharacter": "Sylvan Sprite",
+      "monologue": "The whispers of the ancient trees guide us through these enchanted woods. Beware, for dark creatures lurk in the shadows.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadow Guardians",
+          "units": [
+            {
+              "enemyID": "086_merfolk_javelineer_old",
+              "enemyName": "Merfolk Javelineer",
+              "health": "Medium",
+              "damage": "High"
+            },
+            {
+              "enemyID": "125_labrat_unseen",
+              "enemyName": "Unseen Labrat",
+              "health": "Low",
+              "damage": "Low"
+            },
+            {
+              "enemyID": "208_gnome",
+              "enemyName": "Gnome",
+              "health": "Low",
+              "damage": "Medium"
+            }
+          ]
+        },
+        {
+          "groupName": "Nature's Wrath",
+          "units": [
+            {
+              "enemyID": "173_gnoll_old",
+              "enemyName": "Old Gnoll",
+              "health": "High",
+              "damage": "Medium"
+            },
+            {
+              "enemyID": "140_salamander_firebrand",
+              "enemyName": "Firebrand Salamander",
+              "health": "Medium",
+              "damage": "High"
+            },
+            {
+              "enemyID": "108_frost_giant_old",
+              "enemyName": "Old Frost Giant",
+              "health": "High",
+              "damage": "High"
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Creatures",
+          "units": [
+            {
+              "enemyID": "197_goblin_old",
+              "enemyName": "Old Goblin",
+              "health": "Low",
+              "damage": "Low"
+            },
+            {
+              "enemyID": "091_naga_mage",
+              "enemyName": "Naga Mage",
+              "health": "Medium",
+              "damage": "High"
+            }
+          ]
+        },
+        {
+          "groupName": "Forest Guardians",
+          "units": [
+            {
+              "enemyID": "058_formicid_venom_mage",
+              "enemyName": "Venom Mage Formicid",
+              "health": "Low",
+              "damage": "Medium"
+            },
+            {
+              "enemyID": "157_dwarf_old",
+              "enemyName": "Old Dwarf",
+              "health": "Medium",
+              "damage": "Medium"
+            },
+            {
+              "enemyID": "166_titan_old",
+              "enemyName": "Old Titan",
+              "health": "High",
+              "damage": "High"
+            }
+          ]
+        },
+        {
+          "groupName": "Elder Beasts",
+          "units": [
+            {
+              "enemyID": "189_merfolk_fighter_water",
+              "enemyName": "Water Fighter Merfolk",
+              "health": "Medium",
+              "damage": "High"
+            },
+            {
+              "enemyID": "114_death_drake",
+              "enemyName": "Death Drake",
+              "health": "High",
+              "damage": "High"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Enchanted Tree",
+        "Sylvan Spirit"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Tree"
+      }
+    },
+    {
+      "levelName": "Mystic Grove",
+      "friendlyCharacter": "Forest Faerie",
+      "monologue": "Welcome to the heart of the Mystic Grove, where magic flows through every leaf and petal. Beware of the ancient guardians who protect these lands.",
+      "enemyGroups": [
+        {
+          "groupName": "Spectral Protectors",
+          "units": [
+            {
+              "enemyID": "055_naga_warrior_unique",
+              "enemyName": "Unique Naga Warrior",
+              "health": "High",
+              "damage": "High"
+            },
+            {
+              "enemyID": "166_titan_old",
+              "enemyName": "Old Titan",
+              "health": "High",
+              "damage": "High"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Spirits",
+          "units": [
+            {
+              "enemyID": "086_merfolk_javelineer_old",
+              "enemyName": "Merfolk Javelineer",
+              "health": "Medium",
+              "damage": "High"
+            },
+            {
+              "enemyID": "136_lindwurm",
+              "enemyName": "Lindwurm",
+              "health": "High",
+              "damage": "High"
+            },
+            {
+              "enemyID": "196_necromancer_old",
+              "enemyName": "Old Necromancer",
+              "health": "Low",
+              "damage": "Medium"
+            }
+          ]
+        },
+        {
+          "groupName": "Moonlit Shadows",
+          "units": [
+            {
+              "enemyID": "141_yaktaur_old",
+              "enemyName": "Old Yaktaur",
+              "health": "Medium",
+              "damage": "High"
+            },
+            {
+              "enemyID": "075_killer_klown_purple",
+              "enemyName": "Purple Killer Klown",
+              "health": "Low",
+              "damage": "High"
+            },
+            {
+              "enemyID": "055_naga_warrior_unique",
+              "enemyName": "Unique Naga Warrior",
+              "health": "High",
+              "damage": "High"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Guardians",
+          "units": [
+            {
+              "enemyID": "209_hell_knight_new",
+              "enemyName": "New Hell Knight",
+              "health": "Medium",
+              "damage": "High"
+            },
+            {
+              "enemyID": "190_spriggan_enchanter",
+              "enemyName": "Spriggan Enchanter",
+              "health": "Low",
+              "damage": "Medium"
+            }
+          ]
+        },
+        {
+          "groupName": "Celestial Beings",
+          "units": [
+            {
+              "enemyID": "205_formicid",
+              "enemyName": "Formicid",
+              "health": "Medium",
+              "damage": "Low"
+            },
+            {
+              "enemyID": "114_death_drake",
+              "enemyName": "Death Drake",
+              "health": "High",
+              "damage": "High"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Moonlit Flower",
+        "Mystic Orb"
+      ],
+      "walkableTile": {
+        "colour": "Purple",
+        "texture": "Moss"
+      },
+      "nonWalkableTile": {
+        "colour": "Grey",
+        "texture": "Rock"
+      }
+    }
+  ]
+}

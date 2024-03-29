@@ -19,6 +19,8 @@ using UnityEngine;
     [Serializable]
     public class UnitData
     {
+        public string id;
+        
         public string name;
 
         public int maxHP;

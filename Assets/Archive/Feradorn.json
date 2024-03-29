@@ -1,0 +1,243 @@
+{
+  "narrativeData": {
+    "worldName": "Feradorn",
+    "story": "Placeholder",
+    "greetingGameMessage": "Placeholder",
+    "finalGameMessage": "Placeholder"
+  },
+  "mainCharacter": {
+    "name": "Valeria",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Wilderness Scout",
+    "backStory": "Placeholder"
+  },
+  "levels": [
+    {
+      "levelName": "Emerald Forest",
+      "friendlyCharacter": "Druid Liara",
+      "monologue": "The ancient trees of the Emerald Forest whisper tales of old...",
+      "enemyGroups": [
+        {
+          "groupName": "Forest Guardians",
+          "units": [
+            {
+              "enemyName": "sylvan_sprite",
+              "health": "100",
+              "damage": "15"
+            },
+            {
+              "enemyName": "ent_guardian",
+              "health": "150",
+              "damage": "20"
+            },
+            {
+              "enemyName": "mossy_treant",
+              "health": "200",
+              "damage": "25"
+            }
+          ]
+        },
+        {
+          "groupName": "Elder Beasts",
+          "units": [
+            {
+              "enemyName": "ancient_direwolf",
+              "health": "120",
+              "damage": "18"
+            },
+            {
+              "enemyName": "celestial_unicorn",
+              "health": "180",
+              "damage": "22"
+            },
+            {
+              "enemyName": "spirit_bear",
+              "health": "220",
+              "damage": "28"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadow Dwellers",
+          "units": [
+            {
+              "enemyName": "dusk_panther",
+              "health": "110",
+              "damage": "17"
+            },
+            {
+              "enemyName": "nightshade_wraith",
+              "health": "160",
+              "damage": "21"
+            },
+            {
+              "enemyName": "umbra_spider",
+              "health": "210",
+              "damage": "26"
+            }
+          ]
+        },
+        {
+          "groupName": "Forest Sprites",
+          "units": [
+            {
+              "enemyName": "fey_nymph",
+              "health": "90",
+              "damage": "14"
+            },
+            {
+              "enemyName": "will-o'-wisp",
+              "health": "130",
+              "damage": "19"
+            },
+            {
+              "enemyName": "glowmoth_fairy",
+              "health": "190",
+              "damage": "24"
+            }
+          ]
+        },
+        {
+          "groupName": "Thorn Bramble",
+          "units": [
+            {
+              "enemyName": "poison_thornling",
+              "health": "95",
+              "damage": "16"
+            },
+            {
+              "enemyName": "needle_spitter",
+              "health": "140",
+              "damage": "20"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    },
+    {
+      "levelName": "Frozen Peaks",
+      "friendlyCharacter": "Wizard Thaddeus",
+      "monologue": "The icy winds of the Frozen Peaks conceal ancient mysteries...",
+      "enemyGroups": [
+        {
+          "groupName": "Frost Giants",
+          "units": [
+            {
+              "enemyName": "ice_giant",
+              "health": "250",
+              "damage": "30"
+            },
+            {
+              "enemyName": "snow_wraith",
+              "health": "180",
+              "damage": "25"
+            },
+            {
+              "enemyName": "frozen_drake",
+              "health": "200",
+              "damage": "28"
+            }
+          ]
+        },
+        {
+          "groupName": "Glacial Spirits",
+          "units": [
+            {
+              "enemyName": "frost_specter",
+              "health": "150",
+              "damage": "22"
+            },
+            {
+              "enemyName": "blizzard_hound",
+              "health": "120",
+              "damage": "18"
+            },
+            {
+              "enemyName": "cryomancer",
+              "health": "160",
+              "damage": "24"
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Horrors",
+          "units": [
+            {
+              "enemyName": "frost_ghoul",
+              "health": "130",
+              "damage": "20"
+            },
+            {
+              "enemyName": "frost_banshee",
+              "health": "140",
+              "damage": "21"
+            },
+            {
+              "enemyName": "frozen_skeleton",
+              "health": "110",
+              "damage": "17"
+            }
+          ]
+        },
+        {
+          "groupName": "Icicle Creepers",
+          "units": [
+            {
+              "enemyName": "frost_spider",
+              "health": "100",
+              "damage": "15"
+            },
+            {
+              "enemyName": "ice_weaver",
+              "health": "95",
+              "damage": "14"
+            },
+            {
+              "enemyName": "glacial_revenant",
+              "health": "190",
+              "damage": "26"
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Terrors",
+          "units": [
+            {
+              "enemyName": "arctic_wyrm",
+              "health": "220",
+              "damage": "27"
+            },
+            {
+              "enemyName": "frost_fiend",
+              "health": "210",
+              "damage": "26"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    }
+  ]
+}

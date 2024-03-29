@@ -3,28 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using TMPro;
 
 public class WorldManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    [HideInInspector]
+    public List<WorldButton> _worldButtons = new List<WorldButton>();
+    [HideInInspector]
+    public WorldButton currentWorld;
 
-    private List<Button> _worldButtons;
+    public Dictionary<string ,JSONReader.GameWorld> Worlds = new Dictionary<string, JSONReader.GameWorld>();
+    
     public GameObject worldButtonPrefab;
     public GameObject worldButtonParent;
-    void Start()
+    public static WorldManager worldManager  { get; private set; }
+    void Awake()
     {
-        var info = new DirectoryInfo(Application.dataPath + @"/Resources/Worlds" + "\"");
-        var fileInfo = info.GetFiles();
-        foreach (var file  in fileInfo)
+        if (worldManager != null)
         {
-            _worlds
+            Destroy(gameObject);
         }
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        else
+        {
+            worldManager = this;
+        }
         
     }
+   
+
+    public void AddButton(string worldName)
+    {
+        GameObject go = Instantiate(worldButtonPrefab);
+        go.GetComponent<WorldButton>().SetButton(worldName);
+        go.transform.SetParent(worldButtonParent.transform);
+        go.transform.localScale = new Vector3(1, 1, 1);
+        _worldButtons.Add(go.GetComponent<WorldButton>());
+    }
+    
+    
 }

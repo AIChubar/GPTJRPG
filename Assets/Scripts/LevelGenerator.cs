@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
 
-public class LevelGenerator : MonoBehaviour
+public class  LevelGenerator : MonoBehaviour
 {
     [Header("Top left point of spawning area")]
     [SerializeField]
@@ -54,7 +54,7 @@ public class LevelGenerator : MonoBehaviour
         
         var sp = ob.GetComponent<SpriteRenderer>();
 
-        sp.sprite = GameManager.gameManager.atlas.GetSprite(gd.units[0].name);
+        sp.sprite = GameManager.gameManager.atlas.GetSprite(gd.units[0].id.Substring(gd.units[0].id.IndexOf('_') + 1));
         
         var we = ob.GetComponent<WorldEnemy>();
         

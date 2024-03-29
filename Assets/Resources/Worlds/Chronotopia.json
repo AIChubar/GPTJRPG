@@ -1,0 +1,247 @@
+{
+  "narrativeData": {
+    "worldName": "Chronotopia",
+    "story": "In the land of Chronotopia, time is a fragile concept, with past, present, and future intertwining in mysterious ways. The fate of the world hangs in the balance as dark forces threaten to disrupt the flow of time itself.",
+    "greetingGameMessage": "Welcome to the realm of Chronotopia, brave adventurer! Prepare to face the challenges that come with unraveling the mysteries of time.",
+    "finalGameMessage": "Congratulations, hero! By restoring the balance of time in Chronotopia, you have secured the future for generations to come."
+  },
+  "mainCharacter": {
+    "name": "Elysia",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Guardian of the Time Tree",
+    "backStory": "Elysia, a skilled ranger of elven descent, was chosen to protect the ancient Time Tree, a mystical entity that maintains the harmony of time in Chronotopia."
+  },
+  "levels": [
+    {
+      "levelName": "Timeless Woods",
+      "friendlyCharacter": "Elder Oakheart",
+      "monologue": "Welcome, brave adventurer, to the Timeless Woods. Be wary, for the fabric of time is fragile here, and dark forces seek to disrupt its flow.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of Eternity",
+          "units": [
+            {
+              "enemyID": "060_salamander_mystic",
+              "enemyName": "Sablethorn Mystic",
+              "health": "75",
+              "damage": "12"
+            },
+            {
+              "enemyID": "122_merfolk_water",
+              "enemyName": "Abyssal Triton",
+              "health": "90",
+              "damage": "15"
+            },
+            {
+              "enemyID": "183_deep_troll_shaman",
+              "enemyName": "Grimtotem Shaman",
+              "health": "80",
+              "damage": "14"
+            }
+          ]
+        },
+        {
+          "groupName": "Temporal Phantoms",
+          "units": [
+            {
+              "enemyID": "165_quasit",
+              "enemyName": "Temporal Specter",
+              "health": "70",
+              "damage": "10"
+            },
+            {
+              "enemyID": "187_manticore",
+              "enemyName": "Chrono Mantikor",
+              "health": "110",
+              "damage": "18"
+            },
+            {
+              "enemyID": "215_deep_dwarf_death_knight",
+              "enemyName": "Timebane Dreadknight",
+              "health": "120",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Hourglass Legion",
+          "units": [
+            {
+              "enemyID": "093_deep_elf_sorcerer",
+              "enemyName": "Cronotheurge Sorcerer",
+              "health": "85",
+              "damage": "16"
+            },
+            {
+              "enemyID": "055_naga_warrior_unique",
+              "enemyName": "Eternal Serpentguard",
+              "health": "100",
+              "damage": "17"
+            }
+          ]
+        },
+        {
+          "groupName": "Eternal Watchers",
+          "units": [
+            {
+              "enemyID": "076_deep_elf_conjurer",
+              "enemyName": "Aeon Summoner",
+              "health": "95",
+              "damage": "18"
+            },
+            {
+              "enemyID": "167_stone_giant_old",
+              "enemyName": "Chronoshard Golem",
+              "health": "130",
+              "damage": "22"
+            }
+          ]
+        },
+        {
+          "groupName": "Clockwork Sentinels",
+          "units": [
+            {
+              "enemyID": "102_merfolk_impaler_new",
+              "enemyName": "Temporal Harpooner",
+              "health": "100",
+              "damage": "20"
+            },
+            {
+              "enemyID": "133_entropy_weaver",
+              "enemyName": "Chaosweft Spinner",
+              "health": "90",
+              "damage": "19"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Elder Oakheart"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Tree"
+      }
+    },
+    {
+      "levelName": "Caverns of Time",
+      "friendlyCharacter": "Chronomancer Celene",
+      "monologue": "You have entered the Caverns of Time, where echoes of past and future resonate. Beware, for the time-bending creatures within will stop at nothing to disrupt the balance.",
+      "enemyGroups": [
+        {
+          "groupName": "Temporal Defilers",
+          "units": [
+            {
+              "enemyID": "036_enchantress_human",
+              "enemyName": "Temporal Enchantress",
+              "health": "80",
+              "damage": "14"
+            },
+            {
+              "enemyID": "208_gnome",
+              "enemyName": "Clockwork Gnomeling",
+              "health": "70",
+              "damage": "12"
+            },
+            {
+              "enemyID": "065_frost_giant_new",
+              "enemyName": "Glacial Titan",
+              "health": "120",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Echo Hunters",
+          "units": [
+            {
+              "enemyID": "044_swamp_drake",
+              "enemyName": "Spectral Serpent",
+              "health": "90",
+              "damage": "15"
+            },
+            {
+              "enemyID": "106_salamander_stormcaller",
+              "enemyName": "Thunderclap Salamander",
+              "health": "100",
+              "damage": "18"
+            },
+            {
+              "enemyID": "178_orc_sorcerer_old",
+              "enemyName": "Temporal Warlock",
+              "health": "85",
+              "damage": "16"
+            }
+          ]
+        },
+        {
+          "groupName": "Aeon Beasts",
+          "units": [
+            {
+              "enemyID": "040_deep_troll_earth_mage",
+              "enemyName": "Chronoearth Shaman",
+              "health": "95",
+              "damage": "17"
+            },
+            {
+              "enemyID": "119_hill_giant_new",
+              "enemyName": "Temporal Behemoth",
+              "health": "130",
+              "damage": "22"
+            }
+          ]
+        },
+        {
+          "groupName": "Time Warp Drakes",
+          "units": [
+            {
+              "enemyID": "101_cyclops_new",
+              "enemyName": "Temporal Beholder",
+              "health": "110",
+              "damage": "19"
+            },
+            {
+              "enemyID": "144_kenku_winged",
+              "enemyName": "Temporal Raven",
+              "health": "70",
+              "damage": "13"
+            }
+          ]
+        },
+        {
+          "groupName": "Eternal Shadows",
+          "units": [
+            {
+              "enemyID": "123_centaur-melee",
+              "enemyName": "Phantom Centaur",
+              "health": "100",
+              "damage": "18"
+            },
+            {
+              "enemyID": "135_harpy",
+              "enemyName": "Echo Harpy",
+              "health": "85",
+              "damage": "16"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Chronomancer Celene"
+      ],
+      "walkableTile": {
+        "colour": "Grey",
+        "texture": "Stone"
+      },
+      "nonWalkableTile": {
+        "colour": "Black",
+        "texture": "Void"
+      }
+    }
+  ]
+}

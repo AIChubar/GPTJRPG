@@ -1,0 +1,203 @@
+{
+  "narrativeData": {
+    "worldName": "Mysticaria",
+    "story": "Placeholder",
+    "greetingGameMessage": "Placeholder",
+    "finalGameMessage": "Placeholder"
+  },
+  "mainCharacter": {
+    "name": "Eldron",
+    "race": "Humanoid",
+    "characterClass": "Mage",
+    "occupation": "Loremaster",
+    "backStory": "Placeholder"
+  },
+  "levels": [
+    {
+      "levelName": "Emerald Canyon",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "As you enter the canyon, the echoes of ancient battles surround you.",
+      "enemyGroups": [
+        {
+          "groupName": "Green Guardians",
+          "units": [
+            {
+              "enemyName": "naga_ritualist",
+              "health": "High",
+              "damage": "Moderate"
+            },
+            {
+              "enemyName": "merfolk_impaler_water_old",
+              "health": "Moderate",
+              "damage": "High"
+            },
+            {
+              "enemyName": "spriggan_enchanter",
+              "health": "Low",
+              "damage": "Low"
+            }
+          ]
+        },
+        {
+          "groupName": "Crimson Horde",
+          "units": [
+            {
+              "enemyName": "orc_warrior_new",
+              "health": "Moderate",
+              "damage": "High"
+            },
+            {
+              "enemyName": "deep_elf_mage",
+              "health": "Low",
+              "damage": "Low"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowstalkers",
+          "units": [
+            {
+              "enemyName": "sphinx_new",
+              "health": "High",
+              "damage": "Moderate"
+            }
+          ]
+        },
+        {
+          "groupName": "Raging Elements",
+          "units": [
+            {
+              "enemyName": "fire_drake",
+              "health": "High",
+              "damage": "High"
+            },
+            {
+              "enemyName": "water_nymph",
+              "health": "Low",
+              "damage": "Moderate"
+            }
+          ]
+        },
+        {
+          "groupName": "Arcane Keepers",
+          "units": [
+            {
+              "enemyName": "deep_elf_conjurer",
+              "health": "Moderate",
+              "damage": "High"
+            },
+            {
+              "enemyName": "goblin_new",
+              "health": "Low",
+              "damage": "Low"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    },
+    {
+      "levelName": "Frozen Peaks",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "The icy winds howl as you ascend the Frozen Peaks.",
+      "enemyGroups": [
+        {
+          "groupName": "Frostbitten Legion",
+          "units": [
+            {
+              "enemyName": "frost_giant_new",
+              "health": "High",
+              "damage": "High"
+            },
+            {
+              "enemyName": "ice_beast",
+              "health": "Moderate",
+              "damage": "Moderate"
+            }
+          ]
+        },
+        {
+          "groupName": "Glacial Spirits",
+          "units": [
+            {
+              "enemyName": "siren_water_new",
+              "health": "Moderate",
+              "damage": "High"
+            },
+            {
+              "enemyName": "ice_beast",
+              "health": "Low",
+              "damage": "Low"
+            }
+          ]
+        },
+        {
+          "groupName": "Avalanche Brutes",
+          "units": [
+            {
+              "enemyName": "hill_giant_old",
+              "health": "High",
+              "damage": "Moderate"
+            },
+            {
+              "enemyName": "ice_beast",
+              "health": "Low",
+              "damage": "Low"
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Shades",
+          "units": [
+            {
+              "enemyName": "deep_elf_sorcerer",
+              "health": "Moderate",
+              "damage": "High"
+            },
+            {
+              "enemyName": "siren_water_new",
+              "health": "Low",
+              "damage": "Low"
+            }
+          ]
+        },
+        {
+          "groupName": "Glacier Guardians",
+          "units": [
+            {
+              "enemyName": "lich",
+              "health": "High",
+              "damage": "Moderate"
+            },
+            {
+              "enemyName": "siren_water_new",
+              "health": "Low",
+              "damage": "Low"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    }
+  ]
+}

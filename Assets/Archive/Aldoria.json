@@ -1,0 +1,205 @@
+{
+  "narrativeData": {
+    "worldName": "Aldoria",
+    "story": "The land of Aldoria is filled with ancient mysteries and hidden dangers.",
+    "greetingGameMessage": "Welcome to the realm of Aldoria, brave adventurer! Are you ready to face the challenges ahead?",
+    "finalGameMessage": "Congratulations on completing your journey in Aldoria. May your tales be sung for generations to come!"
+  },
+  "mainCharacter": {
+    "name": "Eirian",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Outlander",
+    "backStory": "Eirian hails from the forests of Aldoria, where they learned the ways of the wild and honed their skills as a master archer."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Woods",
+      "friendlyCharacter": "Sylva the Druid",
+      "monologue": "The Enchanted Woods are home to creatures both magical and menacing. Stay alert, for danger lurks in every shadow.",
+      "enemyGroups": [
+        {
+          "groupName": "Sylvan Guardians",
+          "units": [
+            {
+              "enemyName": "unicorn",
+              "health": 100,
+              "damage": 20
+            },
+            {
+              "enemyName": "treant",
+              "health": 120,
+              "damage": 18
+            },
+            {
+              "enemyName": "satyr",
+              "health": 80,
+              "damage": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Fey Tricksters",
+          "units": [
+            {
+              "enemyName": "pixie",
+              "health": 50,
+              "damage": 15
+            },
+            {
+              "enemyName": "nymph",
+              "health": 70,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Stalkers",
+          "units": [
+            {
+              "enemyName": "darkling",
+              "health": 60,
+              "damage": 22
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Guardians",
+          "units": [
+            {
+              "enemyName": "dryad",
+              "health": 90,
+              "damage": 17
+            },
+            {
+              "enemyName": "griffon",
+              "health": 110,
+              "damage": 21
+            }
+          ]
+        },
+        {
+          "groupName": "Eldritch Conjurers",
+          "units": [
+            {
+              "enemyName": "harpy",
+              "health": 65,
+              "damage": 20
+            },
+            {
+              "enemyName": "lindwurm",
+              "health": 130,
+              "damage": 15
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "forest_sprite",
+        "mystic_beast"
+      ],
+      "walkableTile": {
+        "colour": "green",
+        "texture": "leafy_ground"
+      },
+      "nonWalkableTile": {
+        "colour": "brown",
+        "texture": "thick_tree_trunk"
+      }
+    },
+    {
+      "levelName": "Forgotten Ruins",
+      "friendlyCharacter": "Rorik the Archaeologist",
+      "monologue": "The ruins hold secrets of the past, but beware, for the spirits of the ancient dwell within.",
+      "enemyGroups": [
+        {
+          "groupName": "Ancient Spirits",
+          "units": [
+            {
+              "enemyName": "wraith",
+              "health": 150,
+              "damage": 25
+            },
+            {
+              "enemyName": "spectre",
+              "health": 120,
+              "damage": 30
+            }
+          ]
+        },
+        {
+          "groupName": "Lost Souls",
+          "units": [
+            {
+              "enemyName": "shade",
+              "health": 90,
+              "damage": 18
+            },
+            {
+              "enemyName": "banshee",
+              "health": 110,
+              "damage": 22
+            }
+          ]
+        },
+        {
+          "groupName": "Forgotten Guardians",
+          "units": [
+            {
+              "enemyName": "gargoyle",
+              "health": 100,
+              "damage": 20
+            },
+            {
+              "enemyName": "mummy",
+              "health": 130,
+              "damage": 23
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Relics",
+          "units": [
+            {
+              "enemyName": "golem",
+              "health": 180,
+              "damage": 28
+            },
+            {
+              "enemyName": "lich",
+              "health": 160,
+              "damage": 26
+            }
+          ]
+        },
+        {
+          "groupName": "Haunted Keepers",
+          "units": [
+            {
+              "enemyName": "poltergeist",
+              "health": 80,
+              "damage": 24
+            },
+            {
+              "enemyName": "wight",
+              "health": 140,
+              "damage": 19
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "ruin_spirit",
+        "ancient_golem"
+      ],
+      "walkableTile": {
+        "colour": "grey",
+        "texture": "crumbled_stone_floor"
+      },
+      "nonWalkableTile": {
+        "colour": "black",
+        "texture": "cracked_wall"
+      }
+    }
+  ]
+}

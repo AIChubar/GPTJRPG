@@ -1,0 +1,259 @@
+{
+  "narrativeData": {
+    "worldName": "Gorgothar",
+    "story": "In the land of Gorgothar, darkness looms over the once peaceful realm. Evil creatures have started to appear, threatening the safety of its inhabitants. As a brave warrior, you have been summoned to protect the land and restore peace.",
+    "greetingGameMessage": "Welcome to the world of Gorgothar! Prepare yourself for battle and may your courage never falter.",
+    "finalGameMessage": "Congratulations on restoring peace to Gorgothar! Your bravery and strength have saved the realm from the darkness that threatened to consume it."
+  },
+  "mainCharacter": {
+    "name": "Auron",
+    "race": "Human",
+    "characterClass": "Warrior",
+    "occupation": "Royal Knight",
+    "backStory": "Auron, a skilled warrior from a long line of noble knights, has dedicated his life to serving and protecting the kingdom. Known for his unwavering courage and loyalty, he now faces his greatest challenge in the dark land of Gorgothar."
+  },
+  "levels": [
+    {
+      "levelName": "Forest of Shadows",
+      "friendlyCharacter": "Elara the Enchantress",
+      "monologue": "Beware, brave warrior, for the Forest of Shadows is filled with sinister creatures waiting to strike. Stay vigilant and may the light guide your path.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadow Stalkers",
+          "units": [
+            {
+              "enemyID": "022_shadow_imp",
+              "enemyName": "Shadow Imp",
+              "health": "70",
+              "damage": "12"
+            },
+            {
+              "enemyID": "061_orc_new",
+              "enemyName": "Orc",
+              "health": "90",
+              "damage": "15"
+            },
+            {
+              "enemyID": "087_human_monk_ghost",
+              "enemyName": "Ghostly Monk",
+              "health": "80",
+              "damage": "14"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Guardians",
+          "units": [
+            {
+              "enemyID": "055_naga_warrior_unique",
+              "enemyName": "Naga Warrior",
+              "health": "120",
+              "damage": "18"
+            },
+            {
+              "enemyID": "195_deep_elf_annihilator",
+              "enemyName": "Annihilator Elf",
+              "health": "100",
+              "damage": "20"
+            },
+            {
+              "enemyID": "144_kenku_winged",
+              "enemyName": "Winged Kenku",
+              "health": "80",
+              "damage": "16"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Spirits",
+          "units": [
+            {
+              "enemyID": "113_pulsating_lump",
+              "enemyName": "Pulsating Lump",
+              "health": "60",
+              "damage": "10"
+            },
+            {
+              "enemyID": "123_centaur-melee",
+              "enemyName": "Centaur Warrior",
+              "health": "110",
+              "damage": "17"
+            },
+            {
+              "enemyID": "202_yaktaur_new",
+              "enemyName": "Yaktaur",
+              "health": "100",
+              "damage": "18"
+            }
+          ]
+        },
+        {
+          "groupName": "Nightmare Horde",
+          "units": [
+            {
+              "enemyID": "055_naga_warrior_unique",
+              "enemyName": "Naga Warrior",
+              "health": "120",
+              "damage": "18"
+            },
+            {
+              "enemyID": "195_deep_elf_annihilator",
+              "enemyName": "Annihilator Elf",
+              "health": "100",
+              "damage": "20"
+            },
+            {
+              "enemyID": "144_kenku_winged",
+              "enemyName": "Winged Kenku",
+              "health": "80",
+              "damage": "16"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Beasts",
+          "units": [
+            {
+              "enemyID": "136_lindwurm",
+              "enemyName": "Lindwurm",
+              "health": "150",
+              "damage": "22"
+            },
+            {
+              "enemyID": "019_necromancer_new",
+              "enemyName": "Necromancer",
+              "health": "90",
+              "damage": "19"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "ForestSpirit"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Trees"
+      }
+    },
+    {
+      "levelName": "Caverns of Despair",
+      "friendlyCharacter": "Varian the Sorcerer",
+      "monologue": "The depths of the Caverns of Despair hold unspeakable horrors. Brace yourself, brave one, for the darkness here is unlike any other.",
+      "enemyGroups": [
+        {
+          "groupName": "Fungal Infestation",
+          "units": [
+            {
+              "enemyID": "182_water_nymph",
+              "enemyName": "Water Nymph",
+              "health": "80",
+              "damage": "14"
+            },
+            {
+              "enemyID": "185_minotaur",
+              "enemyName": "Minotaur",
+              "health": "140",
+              "damage": "20"
+            },
+            {
+              "enemyID": "198_ice_beast",
+              "enemyName": "Ice Beast",
+              "health": "100",
+              "damage": "18"
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Guardians",
+          "units": [
+            {
+              "enemyID": "194_ogre_new",
+              "enemyName": "Ogre",
+              "health": "120",
+              "damage": "17"
+            },
+            {
+              "enemyID": "213_jelly",
+              "enemyName": "Jelly",
+              "health": "90",
+              "damage": "15"
+            },
+            {
+              "enemyID": "208_gnome",
+              "enemyName": "Gnome",
+              "health": "80",
+              "damage": "12"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowy Specters",
+          "units": [
+            {
+              "enemyID": "166_titan_old",
+              "enemyName": "Ancient Titan",
+              "health": "160",
+              "damage": "23"
+            },
+            {
+              "enemyID": "195_deep_elf_annihilator",
+              "enemyName": "Annihilator Elf",
+              "health": "100",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Terrors",
+          "units": [
+            {
+              "enemyID": "198_ice_beast",
+              "enemyName": "Ice Beast",
+              "health": "100",
+              "damage": "18"
+            },
+            {
+              "enemyID": "144_kenku_winged",
+              "enemyName": "Winged Kenku",
+              "health": "80",
+              "damage": "16"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Fiends",
+          "units": [
+            {
+              "enemyID": "113_pulsating_lump",
+              "enemyName": "Pulsating Lump",
+              "health": "60",
+              "damage": "10"
+            },
+            {
+              "enemyID": "109_orc_sorcerer_new",
+              "enemyName": "Dark Sorcerer",
+              "health": "110",
+              "damage": "19"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "CavernBeast"
+      ],
+      "walkableTile": {
+        "colour": "Gray",
+        "texture": "Rock"
+      },
+      "nonWalkableTile": {
+        "colour": "Black",
+        "texture": "Lava"
+      }
+    }
+  ]
+}

@@ -8,6 +8,26 @@
   "mainCharacter": {
     "name": "Placeholder",
     "race": "Placeholder",
+    "characterGroup" : [
+        {
+          "allyID": "Placeholder",
+          "allyName": "Placeholder",
+          "health": "Placeholder",
+          "damage": "Placeholder"
+        },
+        {
+          "allyID": "Placeholder",
+          "allyName": "Placeholder",
+          "health": "Placeholder",
+          "damage": "Placeholder"
+        },
+        {
+          "allyID": "Placeholder",
+          "allyName": "Placeholder",
+          "health": "Placeholder",
+          "damage": "Placeholder"
+        }
+    ],
     "characterClass": "Placeholder",
     "occupation": "Placeholder",
     "backStory": "Placeholder"
@@ -22,16 +42,19 @@
           "groupName": "Placeholder",
           "units": [
             {
+              "enemyID": "Placeholder",
               "enemyName": "Placeholder",
               "health": "Placeholder",
               "damage": "Placeholder"
             },
             {
+              "enemyID": "Placeholder",
               "enemyName": "Placeholder",
               "health": "Placeholder",
               "damage": "Placeholder"
             },
             {
+              "enemyID": "Placeholder",
               "enemyName": "Placeholder",
               "health": "Placeholder",
               "damage": "Placeholder"

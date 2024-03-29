@@ -5,14 +5,11 @@ using UnityEngine.U2D;
 
 public class GameManager : MonoBehaviour
 {
-    public BattleData battleData;
+    public GameData battleData;
     
     public Hero hero;
 
-    public JSONReader.GameWorld gameWorld;
-    
     public SpriteAtlas atlas;
-
     
     [SerializeField] private Material outlineMaterial;
     [SerializeField] private Material defaultMaterial;
@@ -63,12 +60,11 @@ public class GameManager : MonoBehaviour
         return ob;
     }
 
-    public void OutlineObject(GameObject ob, bool outlined)
+    public void OutlineObject(GameObject ob, bool outlined) 
     {
         ob.GetComponent<Renderer>().material = outlined ? outlineMaterial : defaultMaterial;
     }
     
-    public 
     
     // Start is called before the first frame update
     void Start()

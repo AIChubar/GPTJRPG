@@ -1,0 +1,200 @@
+{
+  "narrativeData": {
+    "worldName": "Zyrrindor",
+    "story": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum luctus mauris, in congue odio malesuada vel.",
+    "greetingGameMessage": "Welcome to the land of Zyrrindor! Prepare for an epic adventure to save the realm from darkness.",
+    "finalGameMessage": "Congratulations on defeating the final boss and restoring peace to Zyrrindor!"
+  },
+  "mainCharacter": {
+    "name": "Aeliana",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Protector of the Forest",
+    "backStory": "Aeliana, a skilled archer from the enchanted forests of Zyrrindor, is on a quest to protect her homeland from evil forces."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Woods",
+      "friendlyCharacter": "Fey Spirit",
+      "monologue": "The whispers of the ancient trees guide us. Beware, dark creatures lurk within the shadows.",
+      "enemyGroups": [
+        {
+          "groupName": "Forest Guardians",
+          "units": [
+            {
+              "enemyName": "dryad",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "enemyName": "lindwurm",
+              "health": 80,
+              "damage": 15
+            },
+            {
+              "enemyName": "faun",
+              "health": 40,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Shadow Beasts",
+          "units": [
+            {
+              "enemyName": "shadow_imp",
+              "health": 30,
+              "damage": 8
+            },
+            {
+              "enemyName": "moth_of_suppression",
+              "health": 45,
+              "damage": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Creatures",
+          "units": [
+            {
+              "enemyName": "salamander_mystic",
+              "health": 60,
+              "damage": 12
+            },
+            {
+              "enemyName": "siren_old",
+              "health": 55,
+              "damage": 11
+            }
+          ]
+        },
+        {
+          "groupName": "Forest Spirits",
+          "units": [
+            {
+              "enemyName": "spriggan_enchanter",
+              "health": 35,
+              "damage": 9
+            }
+          ]
+        },
+        {
+          "groupName": "Moonlit Guardians",
+          "units": [
+            {
+              "enemyName": "anubis_guard",
+              "health": 70,
+              "damage": 14
+            },
+            {
+              "enemyName": "siren_water_old",
+              "health": 60,
+              "damage": 13
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Enchanted_Tree",
+        "Fey_Spirit"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Leaves"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Roots"
+      }
+    },
+    {
+      "levelName": "Fiery Caverns",
+      "friendlyCharacter": "Dwarven Miner",
+      "monologue": "The heat of the underground forges strength. Beware, the flames conceal deadly foes.",
+      "enemyGroups": [
+        {
+          "groupName": "Lava Guardians",
+          "units": [
+            {
+              "enemyName": "fire_giant_old",
+              "health": 90,
+              "damage": 18
+            },
+            {
+              "enemyName": "lava_worm",
+              "health": 65,
+              "damage": 14
+            }
+          ]
+        },
+        {
+          "groupName": "Forgotten Demons",
+          "units": [
+            {
+              "enemyName": "hell_knight_old",
+              "health": 75,
+              "damage": 16
+            },
+            {
+              "enemyName": "death_knight",
+              "health": 85,
+              "damage": 17
+            }
+          ]
+        },
+        {
+          "groupName": "Inferno Spirits",
+          "units": [
+            {
+              "enemyName": "salamander_firebrand",
+              "health": 55,
+              "damage": 12
+            },
+            {
+              "enemyName": "fire_drake",
+              "health": 70,
+              "damage": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Devourers",
+          "units": [
+            {
+              "enemyName": "lava_worm",
+              "health": 65,
+              "damage": 14
+            }
+          ]
+        },
+        {
+          "groupName": "Blazing Knights",
+          "units": [
+            {
+              "enemyName": "fire_giant_new",
+              "health": 100,
+              "damage": 20
+            },
+            {
+              "enemyName": "salamander_stormcaller",
+              "health": 80,
+              "damage": 16
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Lava_Pit",
+        "Fire_Elemental"
+      ],
+      "walkableTile": {
+        "colour": "Red",
+        "texture": "Lava"
+      },
+      "nonWalkableTile": {
+        "colour": "Black",
+        "texture": "Obsidian"
+      }
+    }
+  ]
+}

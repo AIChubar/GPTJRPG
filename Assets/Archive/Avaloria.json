@@ -1,0 +1,208 @@
+{
+  "narrativeData": {
+    "worldName": "Avaloria",
+    "story": "The land of Avaloria is shrouded in chaos and darkness. The once peaceful realm is now overrun by sinister forces seeking to dominate all. As a brave hero, you must rise to the challenge and restore peace to Avaloria before it's too late.",
+    "greetingGameMessage": "Welcome to the world of Avaloria! Prepare yourself for an epic journey filled with danger and glory.",
+    "finalGameMessage": "Congratulations on your heroic deeds in saving Avaloria. The realm is forever grateful for your courage and sacrifice."
+  },
+  "mainCharacter": {
+    "name": "Sirathel",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Guardian of the Enchanted Forest",
+    "backStory": "Sirathel, a skilled archer and protector of the Enchanted Forest, has been called upon to embark on a quest to rid Avaloria of the darkness that plagues it."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Forest",
+      "friendlyCharacter": "Enchanted Dryad",
+      "monologue": "The ancient trees whisper of approaching danger. The Enchanted Forest must be defended at all costs.",
+      "enemyGroups": [
+        {
+          "groupName": "Sylvan Shadows",
+          "units": [
+            {
+              "enemyName": "spriggan_enchanter",
+              "health": "75",
+              "damage": "10"
+            },
+            {
+              "enemyName": "centaur_warrior",
+              "health": "100",
+              "damage": "15"
+            },
+            {
+              "enemyName": "merfolk_aquamancer_new",
+              "health": "80",
+              "damage": "12"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkling Horde",
+          "units": [
+            {
+              "enemyName": "shadow_imp",
+              "health": "60",
+              "damage": "8"
+            },
+            {
+              "enemyName": "orc_knight_new",
+              "health": "120",
+              "damage": "18"
+            }
+          ]
+        },
+        {
+          "groupName": "Lurking Menace",
+          "units": [
+            {
+              "enemyName": "fire_drake",
+              "health": "150",
+              "damage": "20"
+            },
+            {
+              "enemyName": "merfolk_javelineer_new",
+              "health": "90",
+              "damage": "14"
+            }
+          ]
+        },
+        {
+          "groupName": "Ancient Guardians",
+          "units": [
+            {
+              "enemyName": "sphinx_old",
+              "health": "200",
+              "damage": "25"
+            },
+            {
+              "enemyName": "rock_troll_monk_ghost",
+              "health": "180",
+              "damage": "22"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Terrors",
+          "units": [
+            {
+              "enemyName": "moth_of_suppression",
+              "health": "70",
+              "damage": "9"
+            },
+            {
+              "enemyName": "fire_giant_old",
+              "health": "250",
+              "damage": "30"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "ForestSpiritSprite"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Mossy"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Rocky"
+      }
+    },
+    {
+      "levelName": "Crystal Caverns",
+      "friendlyCharacter": "Crystal Golem",
+      "monologue": "Beneath the surface lies a labyrinth of shimmering crystals, but beware of the creatures that lurk in the shadows.",
+      "enemyGroups": [
+        {
+          "groupName": "Crystal Crawlers",
+          "units": [
+            {
+              "enemyName": "quasit",
+              "health": "55",
+              "damage": "12"
+            },
+            {
+              "enemyName": "anubis_guard",
+              "health": "90",
+              "damage": "18"
+            }
+          ]
+        },
+        {
+          "groupName": "Glimmering Guardians",
+          "units": [
+            {
+              "enemyName": "siren_old",
+              "health": "80",
+              "damage": "15"
+            },
+            {
+              "enemyName": "deep_dwarf",
+              "health": "110",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Shard Spiders",
+          "units": [
+            {
+              "enemyName": "goblin_new",
+              "health": "70",
+              "damage": "14"
+            },
+            {
+              "enemyName": "lava_worm",
+              "health": "120",
+              "damage": "22"
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Phantoms",
+          "units": [
+            {
+              "enemyName": "naga_mage",
+              "health": "100",
+              "damage": "16"
+            },
+            {
+              "enemyName": "ice_beast",
+              "health": "130",
+              "damage": "24"
+            }
+          ]
+        },
+        {
+          "groupName": "Frost Crystals",
+          "units": [
+            {
+              "enemyName": "frost_giant_new",
+              "health": "220",
+              "damage": "35"
+            },
+            {
+              "enemyName": "deep_elf_sorcerer",
+              "health": "150",
+              "damage": "28"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "CrystalGolemSprite"
+      ],
+      "walkableTile": {
+        "colour": "Blue",
+        "texture": "Crystalized"
+      },
+      "nonWalkableTile": {
+        "colour": "Grey",
+        "texture": "Hardened Stone"
+      }
+    }
+  ]
+}

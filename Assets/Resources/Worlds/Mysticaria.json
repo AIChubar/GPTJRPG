@@ -1,0 +1,283 @@
+{
+  "narrativeData": {
+    "worldName": "Mysticaria",
+    "story": "In the realm of Mysticaria, a great evil has awakened, threatening the balance of the world. As a brave adventurer, you must journey through treacherous lands, face formidable foes, and ultimately confront the source of darkness to restore peace.",
+    "greetingGameMessage": "Welcome to the world of Mysticaria! Prepare yourself for a perilous adventure filled with challenges and mysteries.",
+    "finalGameMessage": "Congratulations on your victory in Mysticaria! You have vanquished the evil that loomed over the realm and brought back harmony to the land."
+  },
+  "mainCharacter": {
+    "name": "Aria",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Guardian of the Forest",
+    "backStory": "Aria, a skilled archer from the Elven kingdom, was chosen to protect the ancient forests of Mysticaria from any threat that may arise. With unmatched precision and a deep connection to nature, Aria sets out on a quest to preserve the balance of the realm."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Woods",
+      "friendlyCharacter": "Forest Guardian",
+      "monologue": "The Enchanted Woods whisper ancient secrets as you tread carefully, for danger lurks behind every tree.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadowstalkers",
+          "units": [
+            {
+              "enemyID": "122_merfolk_water",
+              "enemyName": "Merfolk Water Shaman",
+              "health": "120",
+              "damage": "15"
+            },
+            {
+              "enemyID": "136_lindwurm",
+              "enemyName": "Lindwurm",
+              "health": "180",
+              "damage": "20"
+            },
+            {
+              "enemyID": "145_hill_giant_old",
+              "enemyName": "Elder Hill Giant",
+              "health": "250",
+              "damage": "25"
+            }
+          ]
+        },
+        {
+          "groupName": "Fire Reavers",
+          "units": [
+            {
+              "enemyID": "167_stone_giant_old",
+              "enemyName": "Ancient Stone Giant",
+              "health": "300",
+              "damage": "30"
+            },
+            {
+              "enemyID": "180_boggart_new",
+              "enemyName": "Fiery Boggart",
+              "health": "140",
+              "damage": "18"
+            },
+            {
+              "enemyID": "186_titan_new",
+              "enemyName": "Raging Titan",
+              "health": "350",
+              "damage": "35"
+            }
+          ]
+        },
+        {
+          "groupName": "Frostbite Pack",
+          "units": [
+            {
+              "enemyID": "108_frost_giant_old",
+              "enemyName": "Frost Giant Overlord",
+              "health": "280",
+              "damage": "28"
+            },
+            {
+              "enemyID": "161_salamander",
+              "enemyName": "Ice Salamander",
+              "health": "160",
+              "damage": "21"
+            },
+            {
+              "enemyID": "195_deep_elf_annihilator",
+              "enemyName": "Frozen Elf Annihilator",
+              "health": "200",
+              "damage": "23"
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Guardians",
+          "units": [
+            {
+              "enemyID": "123_centaur-melee",
+              "enemyName": "Mystical Centaur Warrior",
+              "health": "200",
+              "damage": "22"
+            },
+            {
+              "enemyID": "151_ettin_new",
+              "enemyName": "Enigmatic Ettin",
+              "health": "260",
+              "damage": "27"
+            },
+            {
+              "enemyID": "213_jelly",
+              "enemyName": "Shimmering Jelly",
+              "health": "180",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Sorcery",
+          "units": [
+            {
+              "enemyID": "207_merfolk_avatar_water",
+              "enemyName": "Abyssal Merfolk Avatar",
+              "health": "320",
+              "damage": "32"
+            },
+            {
+              "enemyID": "175_deep_elf_soldier",
+              "enemyName": "Cursed Elf Soldier",
+              "health": "180",
+              "damage": "20"
+            },
+            {
+              "enemyID": "164_killer_klown_red",
+              "enemyName": "Malevolent Killer Klown",
+              "health": "140",
+              "damage": "18"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "ForestGuardianSprite"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Trees"
+      }
+    },
+    {
+      "levelName": "Crystal Caverns",
+      "friendlyCharacter": "Crystal Keeper",
+      "monologue": "The Crystal Caverns shimmer with untold riches, but beware, for the gems are guarded by formidable foes.",
+      "enemyGroups": [
+        {
+          "groupName": "Gemstone Guardians",
+          "units": [
+            {
+              "enemyID": "193_golden_dragon",
+              "enemyName": "Gilded Dragon",
+              "health": "400",
+              "damage": "40"
+            },
+            {
+              "enemyID": "129_rock_troll",
+              "enemyName": "Crystal Rock Troll",
+              "health": "220",
+              "damage": "24"
+            },
+            {
+              "enemyID": "209_hell_knight_new",
+              "enemyName": "Infernal Hell Knight",
+              "health": "280",
+              "damage": "30"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Guardians",
+          "units": [
+            {
+              "enemyID": "196_necromancer_old",
+              "enemyName": "Shadowed Necromancer",
+              "health": "260",
+              "damage": "27"
+            },
+            {
+              "enemyID": "191_orc_wizard_new",
+              "enemyName": "Arcane Orc Wizard",
+              "health": "180",
+              "damage": "20"
+            },
+            {
+              "enemyID": "044_swamp_drake",
+              "enemyName": "Ethereal Swamp Drake",
+              "health": "240",
+              "damage": "26"
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Constructs",
+          "units": [
+            {
+              "enemyID": "063_orc_warrior_old",
+              "enemyName": "Crystal Orc Warrior",
+              "health": "200",
+              "damage": "22"
+            },
+            {
+              "enemyID": "146_deep_troll_berserker",
+              "enemyName": "Crystalline Troll Berserker",
+              "health": "280",
+              "damage": "30"
+            },
+            {
+              "enemyID": "032_merfolk_javelineer_water_old",
+              "enemyName": "Frostbitten Merfolk Javelineer",
+              "health": "160",
+              "damage": "21"
+            }
+          ]
+        },
+        {
+          "groupName": "Shard Shapers",
+          "units": [
+            {
+              "enemyID": "062_deep_elf_summoner",
+              "enemyName": "Shard Summoning Elf",
+              "health": "240",
+              "damage": "26"
+            },
+            {
+              "enemyID": "135_harpy",
+              "enemyName": "Crystal Harpy",
+              "health": "180",
+              "damage": "20"
+            },
+            {
+              "enemyID": "105_angel",
+              "enemyName": "Shattered Angel",
+              "health": "300",
+              "damage": "32"
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Guardians",
+          "units": [
+            {
+              "enemyID": "063_orc_warrior_old",
+              "enemyName": "Crystal Orc Warrior",
+              "health": "200",
+              "damage": "22"
+            },
+            {
+              "enemyID": "213_jelly",
+              "enemyName": "Shimmering Jelly",
+              "health": "180",
+              "damage": "20"
+            },
+            {
+              "enemyID": "171_siren_water_new",
+              "enemyName": "Mystical Siren",
+              "health": "260",
+              "damage": "27"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "CrystalKeeperSprite"
+      ],
+      "walkableTile": {
+        "colour": "Blue",
+        "texture": "Crystals"
+      },
+      "nonWalkableTile": {
+        "colour": "Grey",
+        "texture": "Rocks"
+      }
+    }
+  ]
+}

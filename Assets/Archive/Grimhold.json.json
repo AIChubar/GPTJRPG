@@ -1,0 +1,223 @@
+{
+  "narrativeData": {
+    "worldName": "Grimhold.json",
+    "story": "Placeholder",
+    "greetingGameMessage": "Placeholder",
+    "finalGameMessage": "Placeholder"
+  },
+  "mainCharacter": {
+    "name": "Erik",
+    "race": "Human",
+    "characterClass": "Knight",
+    "occupation": "Baron",
+    "backStory": "Placeholder"
+  },
+  "levels": [
+    {
+      "levelName": "Shadowed Woods",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Dark Forest Dwellers",
+          "units": [
+            {
+              "enemyName": "lava_worm",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "faun",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "centaur_warrior",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Thicket Trio",
+          "units": [
+            {
+              "enemyName": "fire_giant_old",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "kobold_new",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Shroud Ensemble",
+          "units": [
+            {
+              "enemyName": "merfolk",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "spriggan_berserker",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "orc_knight_old",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Vexing Vine Squad",
+          "units": [
+            {
+              "enemyName": "killer_klown_blue",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "iron_troll",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Phantom Woodland Pack",
+          "units": [
+            {
+              "enemyName": "rock_troll_monk_ghost",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "human_slave",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    },
+    {
+      "levelName": "Forgotten Ruins",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Ancient Guardians",
+          "units": [
+            {
+              "enemyName": "sphinx_old",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "fire_drake",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "hell_knight_old",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Dusty Sentinels",
+          "units": [
+            {
+              "enemyName": "necromancer_new",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "troll",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Lost Spirits",
+          "units": [
+            {
+              "enemyName": "moth_of_suppression",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "shadow_imp",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "fire_giant_new",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Echoing Apparitions",
+          "units": [
+            {
+              "enemyName": "sphinx_new",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "merfolk_javelineer_water_new",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Ruined Protectors",
+          "units": [
+            {
+              "enemyName": "yaktaur_captain-melee_old",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "giant_orange_brain",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    }
+  ]
+}

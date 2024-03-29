@@ -1,0 +1,205 @@
+{
+  "narrativeData": {
+    "worldName": "Brelloria",
+    "story": "The land of Brelloria is filled with mystery and danger. Long ago, a powerful enchantress cursed the land, causing chaos and strife among its inhabitants. The main quest is to find the source of the curse and bring peace back to Brelloria.",
+    "greetingGameMessage": "Welcome to Brelloria, brave adventurer! The fate of this land rests in your hands.",
+    "finalGameMessage": "Congratulations, hero! Thanks to your courage and determination, Brelloria is now free from the curse."
+  },
+  "mainCharacter": {
+    "name": "Lyra",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Protector of the Forest",
+    "backStory": "Lyra was raised by wise druids in the heart of the enchanted forest. Her bond with nature grants her exceptional skills in archery and tracking."
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Woods",
+      "friendlyCharacter": "Druid Elenia",
+      "monologue": "The whispers of the trees foretell danger approaching. We must protect the heart of the forest at all costs.",
+      "enemyGroups": [
+        {
+          "groupName": "Darkwood Sentries",
+          "units": [
+            {
+              "enemyName": "shadow_imp",
+              "health": 50,
+              "damage": 8
+            },
+            {
+              "enemyName": "necromancer_new",
+              "health": 80,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Thorn Guardians",
+          "units": [
+            {
+              "enemyName": "spriggan_berserker",
+              "health": 70,
+              "damage": 10
+            },
+            {
+              "enemyName": "swamp_drake",
+              "health": 90,
+              "damage": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Vines",
+          "units": [
+            {
+              "enemyName": "lava_worm",
+              "health": 60,
+              "damage": 9
+            },
+            {
+              "enemyName": "fire_giant_new",
+              "health": 100,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Moonlight Wisps",
+          "units": [
+            {
+              "enemyName": "moth_of_suppression",
+              "health": 40,
+              "damage": 7
+            }
+          ]
+        },
+        {
+          "groupName": "Spirit Shades",
+          "units": [
+            {
+              "enemyName": "troll",
+              "health": 75,
+              "damage": 11
+            },
+            {
+              "enemyName": "death_knight",
+              "health": 120,
+              "damage": 20
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Enchanted_Tree",
+        "Dark_Spirit"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Mud"
+      }
+    },
+    {
+      "levelName": "Cursed Caverns",
+      "friendlyCharacter": "Dwarf Miner Borin",
+      "monologue": "Ye be enterin' dangerous territory, laddie. Watch yer step, fer the caverns be filled with cursed creatures.",
+      "enemyGroups": [
+        {
+          "groupName": "Stonefiend Miners",
+          "units": [
+            {
+              "enemyName": "goblin_new",
+              "health": 55,
+              "damage": 10
+            },
+            {
+              "enemyName": "salamander_firebrand",
+              "health": 85,
+              "damage": 14
+            },
+            {
+              "enemyName": "ice_beast",
+              "health": 70,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Wyrm Pack",
+          "units": [
+            {
+              "enemyName": "crystal_wyrm",
+              "health": 95,
+              "damage": 16
+            },
+            {
+              "enemyName": "stone_giant",
+              "health": 110,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Shadow Stalkers",
+          "units": [
+            {
+              "enemyName": "shadow_imp",
+              "health": 50,
+              "damage": 8
+            },
+            {
+              "enemyName": "tengu_reaver",
+              "health": 65,
+              "damage": 11
+            }
+          ]
+        },
+        {
+          "groupName": "Luminous Golems",
+          "units": [
+            {
+              "enemyName": "luminous_golem",
+              "health": 75,
+              "damage": 13
+            },
+            {
+              "enemyName": "fire_drake",
+              "health": 105,
+              "damage": 17
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Spirits",
+          "units": [
+            {
+              "enemyName": "necromancer_old",
+              "health": 90,
+              "damage": 15
+            },
+            {
+              "enemyName": "siren_old",
+              "health": 80,
+              "damage": 14
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Cursed_Crystal",
+        "Shadow_Stalker"
+      ],
+      "walkableTile": {
+        "colour": "Gray",
+        "texture": "Rock"
+      },
+      "nonWalkableTile": {
+        "colour": "Black",
+        "texture": "Lava"
+      }
+    }
+  ]
+}

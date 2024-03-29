@@ -1,13 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
-
 public class JSONReader : MonoBehaviour
 {
-
-    public TextAsset gameWorldJson;
-    
+    private GameWorld gameWorld;
     public UnitsData unitsData;
     
     [System.Serializable]
@@ -21,7 +16,7 @@ public class JSONReader : MonoBehaviour
     [System.Serializable]
     public class NarrativeData
     {
-        public string WorldName;
+        public string worldName;
         public string story;
         public string greetingGameMessage;
         public string finalGameMessage;
@@ -55,28 +50,23 @@ public class JSONReader : MonoBehaviour
         public string colour;
         public string texture;
     }
-    
     [System.Serializable]
     public class EnemyGroup
     {
         public string groupName;
         public UnitJSON[] units;
     }
-    
     [System.Serializable]
     public class UnitJSON
     {
         public string enemyName;
+        public string enemyID;
         public int health;
         public int damage;
     }
-    
-    public GameWorld gameWorld;
-    // Start is called before the first frame update
     void Awake()
     {
-        gameWorld = JsonUtility.FromJson<GameWorld>(gameWorldJson.text);
-        GameManager.gameManager.gameWorld = gameWorld;
+        gameWorld = WorldManager.worldManager.Worlds[WorldManager.worldManager.currentWorld.worldName.text];
     
         unitsData.unitGroups = new List<GroupData>();
         foreach (var t in gameWorld.levels[0].enemyGroups)
@@ -88,17 +78,12 @@ public class JSONReader : MonoBehaviour
             {
                 UnitData newUnit = new UnitData();
                 newUnit.name = k.enemyName;
+                newUnit.id = k.enemyID;
                 newUnit.damage = k.damage;
                 newUnit.currentHP = newUnit.maxHP = k.health;
                 newGroup.units.Add(newUnit);
             }
             unitsData.unitGroups.Add(newGroup);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

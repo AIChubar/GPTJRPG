@@ -1,0 +1,198 @@
+{
+  "narrativeData": {
+    "worldName": "Arkanvale",
+    "story": "Placeholder",
+    "greetingGameMessage": "Placeholder",
+    "finalGameMessage": "Placeholder"
+  },
+  "mainCharacter": {
+    "name": "Valeria",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Scout",
+    "backStory": "Placeholder"
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Forest",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Sylvan Guardians",
+          "units": [
+            {
+              "enemyName": "faun",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "centaur_warrior",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "dryad",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Forest Spirits",
+          "units": [
+            {
+              "enemyName": "lindwurm",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "sprite",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowy Thicket",
+          "units": [
+            {
+              "enemyName": "gnoll_new",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "dark_elf",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Glade",
+          "units": [
+            {
+              "enemyName": "nymph",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "shapeshifter",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Emerald Thorns",
+          "units": [
+            {
+              "enemyName": "ent",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    },
+    {
+      "levelName": "Ancient Ruins",
+      "friendlyCharacter": "Placeholder",
+      "monologue": "Placeholder",
+      "enemyGroups": [
+        {
+          "groupName": "Lost Souls",
+          "units": [
+            {
+              "enemyName": "ghost",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "skeleton",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Guardians of the Past",
+          "units": [
+            {
+              "enemyName": "golem",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "elemental",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Phantoms",
+          "units": [
+            {
+              "enemyName": "wraith",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "lich",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Warriors",
+          "units": [
+            {
+              "enemyName": "spectre",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            },
+            {
+              "enemyName": "demon",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        },
+        {
+          "groupName": "Forgotten Guardians",
+          "units": [
+            {
+              "enemyName": "wight",
+              "health": "Placeholder",
+              "damage": "Placeholder"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    }
+  ]
+}

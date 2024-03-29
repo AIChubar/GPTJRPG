@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 //[CreateAssetMenu(fileName = "BattleData", menuName = "ScriptableObjects/BattleData", order = 1)]
-public class BattleData : MonoBehaviour
+public class GameData : MonoBehaviour
 {
     public GameObject battleEnemyPrefab;
     

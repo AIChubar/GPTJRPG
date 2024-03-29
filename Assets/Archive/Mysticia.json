@@ -1,0 +1,188 @@
+{
+  "narrativeData": {
+    "worldName": "Mysticia",
+    "story": "Placeholder",
+    "greetingGameMessage": "Placeholder",
+    "finalGameMessage": "Placeholder"
+  },
+  "mainCharacter": {
+    "name": "Zephyrus",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Wanderer",
+    "backStory": "Placeholder"
+  },
+  "levels": [
+    {
+      "levelName": "Forest of Whispers",
+      "friendlyCharacter": "Fae Guide",
+      "monologue": "The ancient trees whisper secrets of old.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadowed Ensemble",
+          "units": [
+            {
+              "enemyName": "lava_worm",
+              "health": "100",
+              "damage": "20"
+            },
+            {
+              "enemyName": "siren_old",
+              "health": "120",
+              "damage": "15"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Guardians",
+          "units": [
+            {
+              "enemyName": "deep_troll",
+              "health": "150",
+              "damage": "25"
+            }
+          ]
+        },
+        {
+          "groupName": "Luminous Sprites",
+          "units": [
+            {
+              "enemyName": "merfolk_plain_water",
+              "health": "80",
+              "damage": "18"
+            },
+            {
+              "enemyName": "spriggan_rider",
+              "health": "90",
+              "damage": "22"
+            }
+          ]
+        },
+        {
+          "groupName": "Celestial Watchers",
+          "units": [
+            {
+              "enemyName": "angel",
+              "health": "200",
+              "damage": "30"
+            }
+          ]
+        },
+        {
+          "groupName": "Moonlit Stalkers",
+          "units": [
+            {
+              "enemyName": "naga_warrior_unique",
+              "health": "180",
+              "damage": "28"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    },
+    {
+      "levelName": "Caves of Echoes",
+      "friendlyCharacter": "Dwarf Miner",
+      "monologue": "The dark caves echo with unseen dangers.",
+      "enemyGroups": [
+        {
+          "groupName": "Subterranean Horde",
+          "units": [
+            {
+              "enemyName": "labrat_unseen",
+              "health": "70",
+              "damage": "10"
+            },
+            {
+              "enemyName": "salamander_firebrand",
+              "health": "90",
+              "damage": "15"
+            },
+            {
+              "enemyName": "orc_sorcerer_old",
+              "health": "110",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Guardians",
+          "units": [
+            {
+              "enemyName": "deep_elf_fighter_new",
+              "health": "120",
+              "damage": "22"
+            },
+            {
+              "enemyName": "boggart_new",
+              "health": "80",
+              "damage": "18"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Blades",
+          "units": [
+            {
+              "enemyName": "merfolk_impaler_old",
+              "health": "100",
+              "damage": "20"
+            },
+            {
+              "enemyName": "deep_elf_mage",
+              "health": "130",
+              "damage": "25"
+            }
+          ]
+        },
+        {
+          "groupName": "Obsidian Sentinels",
+          "units": [
+            {
+              "enemyName": "deep_troll_shaman",
+              "health": "140",
+              "damage": "27"
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Guardians",
+          "units": [
+            {
+              "enemyName": "salamander_stormcaller",
+              "health": "160",
+              "damage": "30"
+            },
+            {
+              "enemyName": "big_kobold_new",
+              "health": "90",
+              "damage": "17"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Placeholder"
+      ],
+      "walkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      },
+      "nonWalkableTile": {
+        "colour": "Placeholder",
+        "texture": "Placeholder"
+      }
+    }
+  ]
+}

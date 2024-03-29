@@ -1,0 +1,195 @@
+{
+  "narrativeData": {
+    "worldName": "Chronoria",
+    "story": "Chronoria is a realm divided by five distinct regions, each ruled by powerful beings known as the Chronarchs. The land is in turmoil as the balance of power shifts among the Chronarchs, leading to conflicts and battles that threaten the stability of the world.",
+    "greetingGameMessage": "Welcome to the realm of Chronoria, where your choices will shape the fate of the land. Are you ready to embark on this epic journey?",
+    "finalGameMessage": "The fate of Chronoria is now in your hands. Will you bring peace and harmony to the realm, or will chaos reign supreme?"
+  },
+  "mainCharacter": {
+    "name": "Lyra Shadowthorn",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Protector of the Forest",
+    "backStory": "Lyra Shadowthorn was born under the canopy of the ancient Elderwood Forest. Trained by the wise druids of the forest, she has sworn to defend the natural world against any threat that may arise."
+  },
+  "levels": [
+    {
+      "levelName": "Elderwood Enclave",
+      "friendlyCharacter": "Druid Elders",
+      "monologue": "The Elderwood Enclave has stood for centuries as a bastion of nature's magic. But dark forces now threaten to corrupt its ancient power.",
+      "enemyGroups": [
+        {
+          "groupName": "Corrupted Spirits",
+          "units": [
+            {
+              "enemyName": "Shadow Wraith",
+              "health": "80",
+              "damage": "15"
+            },
+            {
+              "enemyName": "Bladeleaf Lurker",
+              "health": "60",
+              "damage": "10"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Drakes",
+          "units": [
+            {
+              "enemyName": "Duskwing Drake",
+              "health": "100",
+              "damage": "20"
+            },
+            {
+              "enemyName": "Nightfire Wyrm",
+              "health": "120",
+              "damage": "25"
+            }
+          ]
+        },
+        {
+          "groupName": "Fungal Horde",
+          "units": [
+            {
+              "enemyName": "Sporecrawler",
+              "health": "50",
+              "damage": "8"
+            },
+            {
+              "enemyName": "Mycelium Fiend",
+              "health": "70",
+              "damage": "12"
+            }
+          ]
+        },
+        {
+          "groupName": "Ancient Sentinels",
+          "units": [
+            {
+              "enemyName": "Mossbeard Guardian",
+              "health": "150",
+              "damage": "30"
+            }
+          ]
+        },
+        {
+          "groupName": "Sylvan Shadows",
+          "units": [
+            {
+              "enemyName": "Thornweave Assassin",
+              "health": "90",
+              "damage": "18"
+            },
+            {
+              "enemyName": "Silentroot Stalker",
+              "health": "70",
+              "damage": "15"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Elderwood Treant",
+        "Ancient Dryad"
+      ],
+      "walkableTile": {
+        "colour": "Green",
+        "texture": "ForestFloor"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "RockyCliff"
+      }
+    },
+    {
+      "levelName": "Frozen Peaks",
+      "friendlyCharacter": "Ice Shamans",
+      "monologue": "The Frozen Peaks are home to fierce ice creatures and the chilling winds of winter. Only the bravest dare to venture into this icy domain.",
+      "enemyGroups": [
+        {
+          "groupName": "Glacial Beasts",
+          "units": [
+            {
+              "enemyName": "Frostbite Yeti",
+              "health": "120",
+              "damage": "22"
+            },
+            {
+              "enemyName": "Blizzard Hound",
+              "health": "80",
+              "damage": "16"
+            }
+          ]
+        },
+        {
+          "groupName": "Avalanche Riders",
+          "units": [
+            {
+              "enemyName": "Snowstorm Centaur",
+              "health": "100",
+              "damage": "18"
+            },
+            {
+              "enemyName": "Hailstride Yak",
+              "health": "90",
+              "damage": "20"
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Elementals",
+          "units": [
+            {
+              "enemyName": "Ice Shard Golem",
+              "health": "140",
+              "damage": "25"
+            },
+            {
+              "enemyName": "Frostcrystal Sprite",
+              "health": "60",
+              "damage": "12"
+            }
+          ]
+        },
+        {
+          "groupName": "Glacier Guardians",
+          "units": [
+            {
+              "enemyName": "Icicle Colossus",
+              "health": "180",
+              "damage": "35"
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Spirits",
+          "units": [
+            {
+              "enemyName": "Soulchill Banshee",
+              "health": "90",
+              "damage": "20"
+            },
+            {
+              "enemyName": "Frostgale Specter",
+              "health": "70",
+              "damage": "15"
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "Frozen Yeti",
+        "Shardling Ice Elemental"
+      ],
+      "walkableTile": {
+        "colour": "White",
+        "texture": "IceCrystals"
+      },
+      "nonWalkableTile": {
+        "colour": "Blue",
+        "texture": "FrozenLake"
+      }
+    }
+  ]
+}
