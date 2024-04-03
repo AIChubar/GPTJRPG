@@ -27,6 +27,7 @@ public class JSONReader : MonoBehaviour
     {
         public string name;
         public string race;
+        public UnitGroup characterGroup;
         public string characterClass;
         public string occupation;
         public string backStory;
@@ -38,7 +39,7 @@ public class JSONReader : MonoBehaviour
         public string name;
         public string friendlyCharacter;
         public string monologue;
-        public EnemyGroup[] enemyGroups;
+        public UnitGroup[] enemyGroups;
         public string[] uniqueSprites;
         public Tile walkableTile;
         public Tile nonWalkableTile;
@@ -51,16 +52,17 @@ public class JSONReader : MonoBehaviour
         public string texture;
     }
     [System.Serializable]
-    public class EnemyGroup
+    public class UnitGroup
     {
         public string groupName;
         public UnitJSON[] units;
     }
+    
     [System.Serializable]
     public class UnitJSON
     {
-        public string enemyName;
-        public string enemyID;
+        public string unitName;
+        public string unitID;
         public int health;
         public int damage;
     }
@@ -68,22 +70,38 @@ public class JSONReader : MonoBehaviour
     {
         gameWorld = WorldManager.worldManager.Worlds[WorldManager.worldManager.currentWorld.worldName.text];
     
-        unitsData.unitGroups = new List<GroupData>();
+        unitsData.enemyGroups = new List<GroupData>();
         foreach (var t in gameWorld.levels[0].enemyGroups)
         {
             GroupData newGroup = new GroupData();
             newGroup.units = new List<UnitData>();
             newGroup.name = t.groupName;
-            foreach (var k in t.units)
+            foreach (var unit in t.units)
             {
                 UnitData newUnit = new UnitData();
-                newUnit.name = k.enemyName;
-                newUnit.id = k.enemyID;
-                newUnit.damage = k.damage;
-                newUnit.currentHP = newUnit.maxHP = k.health;
+                newUnit.name = unit.unitName;
+                newUnit.id = unit.unitID;
+                newUnit.damage = unit.damage;
+                newUnit.currentHP = newUnit.maxHP = unit.health;
                 newGroup.units.Add(newUnit);
             }
-            unitsData.unitGroups.Add(newGroup);
+            unitsData.enemyGroups.Add(newGroup);
         }
+        
+        GroupData allyGroup = new GroupData();
+        allyGroup.units = new List<UnitData>();
+        allyGroup.name = gameWorld.mainCharacter.name;
+        foreach (var unit in gameWorld.mainCharacter.characterGroup.units)
+        {
+            
+            UnitData newUnit = new UnitData();
+            newUnit.name = unit.unitName;
+            newUnit.id = unit.unitID;
+            newUnit.damage = unit.damage;
+            newUnit.currentHP = newUnit.maxHP = unit.health;
+            allyGroup.units.Add(newUnit);
+        }
+
+        unitsData.allyGroup = allyGroup;
     }
 }

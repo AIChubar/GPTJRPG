@@ -5,7 +5,12 @@ using UnityEngine.U2D;
 
 public class GameManager : MonoBehaviour
 {
-    public GameData battleData;
+    public GameData gameData;
+    
+    public UnitsData unitsData;
+
+    [HideInInspector]
+    public JSONReader.GameWorld world;
     
     public Hero hero;
 
@@ -29,6 +34,7 @@ public class GameManager : MonoBehaviour
         }
 
         writer.Close();*/
+        world = WorldManager.worldManager.Worlds[WorldManager.worldManager.currentWorld.worldName.text];
         if (gameManager != null)
         {
             Destroy(gameObject);
@@ -62,7 +68,8 @@ public class GameManager : MonoBehaviour
 
     public void OutlineObject(GameObject ob, bool outlined) 
     {
-        ob.GetComponent<Renderer>().material = outlined ? outlineMaterial : defaultMaterial;
+        if (ob)
+            ob.GetComponent<Renderer>().material = outlined ? outlineMaterial : defaultMaterial;
     }
     
     

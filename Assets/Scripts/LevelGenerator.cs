@@ -12,21 +12,20 @@ public class  LevelGenerator : MonoBehaviour
     [Header("Bottom right point of spawning area")]
     [SerializeField]
     private Transform bottomRight;
-
-    
     
     public GameObject enemyPrefab;
     
-    public UnitsData unitsData;
+    private UnitsData _unitsData;
     
-     
     // Start is called before the first frame update
     void Start()
     {
-        foreach (var i in unitsData.unitGroups)
+        _unitsData = GameManager.gameManager.unitsData;
+        foreach (var i in _unitsData.enemyGroups)
         {
             SpawnObject(i);
         }
+
     }
     // only enemies
     private void SpawnObject(GroupData gd)

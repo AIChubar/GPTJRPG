@@ -21,7 +21,7 @@ public class UnitHUD : MonoBehaviour
     {
         if (unitImage != null)
         {
-            unitImage.sprite = GameManager.gameManager.atlas.GetSprite(unitData.name);
+            unitImage.sprite = GameManager.gameManager.atlas.GetSprite(unitData.id.Substring(unitData.id.IndexOf('_') + 1));
         }
         _currentUnitData = unitData;
         UpdateHUD();

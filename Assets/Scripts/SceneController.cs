@@ -32,12 +32,21 @@ public class SceneController : MonoBehaviour
             fader.rectTransform.sizeDelta = new Vector2(Screen.width + 2000, Screen.height + 2000);
             fader.gameObject.SetActive(false);
         }
-        if(SceneManager.GetActiveScene().buildIndex == 1)
-            _map = GameObject.FindWithTag("Map");
+        
     }
     
-    void Start()
+    void OnEnable()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.buildIndex == 1)
+            _map = GameObject.FindWithTag("Map");
+    }
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     public static void LoadScene(int index, float closingDuration = 1f, float openingDuration = 1f, float waitTime = 0f, bool additive = false, bool toUnload = false)
@@ -64,21 +73,18 @@ public class SceneController : MonoBehaviour
 
         if (additive)
         {
+            SceneManager.LoadScene(index, LoadSceneMode.Additive);
+            _map.SetActive(false);
+        }
+        else
+        {
             if (toUnload)
             {
                 SceneManager.UnloadSceneAsync(index);
                 _map.SetActive(true);
-
             }
             else
-            {
-                SceneManager.LoadScene(index, LoadSceneMode.Additive);
-                _map.SetActive(false);
-            }
-        }
-        else
-        {
-            SceneManager.LoadScene(index);
+                SceneManager.LoadScene(index);
         }
 
         yield return new WaitForSeconds(waitTime);

@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
     [CreateAssetMenu(fileName = "UnitsData", menuName = "ScriptableObjects/UnitsData", order = 1)]
     public class UnitsData : ScriptableObject
     {
-        public List<GroupData> unitGroups;
+        public List<GroupData> enemyGroups;
+
+        public GroupData allyGroup;
     }
     
     [Serializable]

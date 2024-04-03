@@ -14,13 +14,15 @@ public class WorldEnemy : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out Hero bm))
         {
-            GameManager.gameManager.battleData.AssignAllyGroup(bm.allyGroup);
+            GetComponent<Collider2D>().enabled = false;
             
-            GameManager.gameManager.battleData.AssignEnemyGroup(groupData);
+            GameManager.gameManager.gameData.AssignAllyGroup(bm.allyGroup);
+            
+            GameManager.gameManager.gameData.AssignEnemyGroup(groupData);
 
-            SceneController.LoadScene(2, 1, 1, 0.2f);
+            SceneController.LoadScene(2, 1, 1, 0.2f, true);
             
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject, 0.1f);
         }
     }
 }

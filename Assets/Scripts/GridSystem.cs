@@ -10,13 +10,13 @@ public class GridSystem : MonoBehaviour
     {
         for (int i = 0; i < allyGridObjects.Length; i++)
         {
-            if (GameManager.gameManager.battleData.allies == null)
+            if (GameManager.gameManager.gameData.allies == null)
                 break;
-            allyGridObjects[i].AssignObject(GameManager.gameManager.battleData.battleEnemyPrefab, GameManager.gameManager.battleData.allies.units[i]);
+            allyGridObjects[i].AssignObject(GameManager.gameManager.gameData.battleEnemyPrefab, GameManager.gameManager.gameData.allies.units[i]);
         }
-        for (int i = 0; i < GameManager.gameManager.battleData.enemies.units.Count; i++)
+        for (int i = 0; i < GameManager.gameManager.gameData.enemies.units.Count; i++)
         {
-            enemyGridObjects[i].AssignObject(GameManager.gameManager.battleData.battleEnemyPrefab, GameManager.gameManager.battleData.enemies.units[i]);
+            enemyGridObjects[i].AssignObject(GameManager.gameManager.gameData.battleEnemyPrefab, GameManager.gameManager.gameData.enemies.units[i]);
         }
     }
  

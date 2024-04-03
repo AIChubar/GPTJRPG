@@ -20,11 +20,11 @@ public class GridObject : MonoBehaviour
         
     }
 
-    public void AssignObject(GameObject obj, UnitData ud)
+    public void AssignObject(GameObject obj, UnitData ud)//??????????????????????
     {
         if (obj != null)
         { 
-            objectHolding = Instantiate(GameManager.gameManager.battleData.battleEnemyPrefab, transform.position,Quaternion.identity);
+            objectHolding = Instantiate(GameManager.gameManager.gameData.battleEnemyPrefab, transform.position,Quaternion.identity);
             //obj = GameManager.gameManager.MapToBattle(obj, friendly);
             objectHolding.GetComponent<SpriteRenderer>().sprite = GameManager.gameManager.atlas.GetSprite(ud.id.Substring(ud.id.IndexOf('_') + 1));
             objectHolding.GetComponent<Unit>().SetData(ud);

@@ -8,26 +8,32 @@
   "mainCharacter": {
     "name": "Placeholder",
     "race": "Placeholder",
-    "characterGroup" : [
+    "characterGroup" :
+    {
+      "groupName": "Placeholder",
+      "units" :
+      [
+
         {
-          "allyID": "Placeholder",
-          "allyName": "Placeholder",
-          "health": "Placeholder",
-          "damage": "Placeholder"
+          "unitID": "Placeholder",
+          "unitName": "Placeholder",
+          "health": 0,
+          "damage": 0
         },
         {
-          "allyID": "Placeholder",
-          "allyName": "Placeholder",
-          "health": "Placeholder",
-          "damage": "Placeholder"
+          "unitID": "Placeholder",
+          "unitName": "Placeholder",
+          "health": 0,
+          "damage": 0
         },
         {
-          "allyID": "Placeholder",
-          "allyName": "Placeholder",
-          "health": "Placeholder",
-          "damage": "Placeholder"
+          "unitID": "Placeholder",
+          "unitName": "Placeholder",
+          "health": 0,
+          "damage": 0
         }
-    ],
+      ]
+},
     "characterClass": "Placeholder",
     "occupation": "Placeholder",
     "backStory": "Placeholder"
@@ -42,22 +48,22 @@
           "groupName": "Placeholder",
           "units": [
             {
-              "enemyID": "Placeholder",
-              "enemyName": "Placeholder",
-              "health": "Placeholder",
-              "damage": "Placeholder"
+              "unitID": "Placeholder",
+              "unitName": "Placeholder",
+              "health": 0,
+              "damage": 0
             },
             {
-              "enemyID": "Placeholder",
-              "enemyName": "Placeholder",
-              "health": "Placeholder",
-              "damage": "Placeholder"
+              "unitID": "Placeholder",
+              "unitName": "Placeholder",
+              "health": 0,
+              "damage": 0
             },
             {
-              "enemyID": "Placeholder",
-              "enemyName": "Placeholder",
-              "health": "Placeholder",
-              "damage": "Placeholder"
+              "unitID": "Placeholder",
+              "unitName": "Placeholder",
+              "health": 0,
+              "damage": 0
             }
           ]
         },

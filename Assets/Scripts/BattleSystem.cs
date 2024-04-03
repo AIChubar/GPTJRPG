@@ -92,7 +92,7 @@ public class BattleSystem : MonoBehaviour
             _battleState = BattleState.WIN; 
             GameEvents.gameEvents.OnUnitHPChanged -= GameEvents_OnUnitHPChanged;
             GameEvents.gameEvents.OnUnitKilled -= GameEvents_OnUnitKilled;
-            SceneController.UnloadScene(1);
+            SceneController.UnloadScene(2);
 
         }
         else if (_remainingAllies <= 0)
@@ -100,7 +100,7 @@ public class BattleSystem : MonoBehaviour
             _battleState = BattleState.LOST;
             GameEvents.gameEvents.OnUnitHPChanged -= GameEvents_OnUnitHPChanged;
             GameEvents.gameEvents.OnUnitKilled -= GameEvents_OnUnitKilled;
-            SceneController.UnloadScene(1);
+            SceneController.UnloadScene(2);
         }
     }
     

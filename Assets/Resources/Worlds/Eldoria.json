@@ -1,123 +1,140 @@
 {
   "narrativeData": {
     "worldName": "Eldoria",
-    "story": "In the land of Eldoria, dark forces are rising, threatening the peace and harmony of the realm. As a brave adventurer, you are called upon to embark on a perilous journey to defeat these evil creatures and restore balance to the world.",
-    "greetingGameMessage": "Welcome to Eldoria, warrior! Prepare yourself for battle and may your courage never falter.",
-    "finalGameMessage": "Congratulations, brave hero! With your unwavering determination, you have vanquished the darkness that once loomed over Eldoria. The realm is now safe thanks to your heroic deeds."
+    "story": "In the mystical land of Eldoria, ancient creatures and powerful beings roam the land, shaping the fate of all who dwell within.",
+    "greetingGameMessage": "Welcome to Eldoria, where your destiny awaits!",
+    "finalGameMessage": "The tale of Eldoria has only just begun. Until we meet again, brave adventurer."
   },
   "mainCharacter": {
     "name": "Aria",
     "race": "Human",
-    "characterClass": "Ranger",
-    "occupation": "Wanderer",
-    "backStory": "Aria, a skilled ranger known for her exceptional archery skills, wandered the forests of Eldoria in search of adventure and challenges to test her abilities. When the call for heroes came, she knew her destiny was to fight against the encroaching darkness."
+    "characterGroup": {
+      "groupName": "Guardians of Light",
+      "units": [
+        {
+          "unitID": "001_centaur_warrior",
+          "unitName": "Centaur Warrior",
+          "health": 1010,
+          "damage": 210
+        },
+        {
+          "unitID": "028_halfling_new",
+          "unitName": "Halfling",
+          "health": 810,
+          "damage": 115
+        },
+        {
+          "unitID": "077_merfolk_plain_water",
+          "unitName": "Merfolk Plain",
+          "health": 1210,
+          "damage": 118
+        }
+      ]
+    },
+    "characterClass": "Paladin",
+    "occupation": "Protector of the Realm",
+    "backStory": "Aria, a valiant Paladin, sworn to defend Eldoria from darkness and evil forces."
   },
   "levels": [
     {
-      "levelName": "Forest of Shadows",
-      "friendlyCharacter": "Elf Guide",
-      "monologue": "Beware, traveler, for the Forest of Shadows is teeming with malevolent creatures seeking to corrupt the land. Stay vigilant and may the light guide your path.",
+      "levelName": "Forest of Whispers",
+      "friendlyCharacter": "Eldorin the Wise",
+      "monologue": "The whispers of the forest foretell of great danger ahead. Beware, brave adventurer.",
       "enemyGroups": [
         {
-          "groupName": "Darkwood Marauders",
+          "groupName": "Shadowed Horde",
           "units": [
             {
-              "enemyID": "056_cyclops_old",
-              "enemyName": "Cyclops Brute",
-              "health": "150",
-              "damage": "20"
+              "unitID": "063_orc_new",
+              "unitName": "Orc",
+              "health": 80,
+              "damage": 12
             },
             {
-              "enemyID": "101_cyclops_new",
-              "enemyName": "Cyclops Crusher",
-              "health": "180",
-              "damage": "25"
+              "unitID": "108_frost_giant_old",
+              "unitName": "Frost Giant",
+              "health": 150,
+              "damage": 25
             },
             {
-              "enemyID": "160_gnoll_sergeant",
-              "enemyName": "Gnoll Sergeant",
-              "health": "120",
-              "damage": "15"
+              "unitID": "147_deep_troll_berserker",
+              "unitName": "Deep Troll Berserker",
+              "health": 110,
+              "damage": 20
             }
           ]
         },
         {
-          "groupName": "Shadowstalkers",
+          "groupName": "Coven of Sorcery",
           "units": [
             {
-              "enemyID": "022_shadow_imp",
-              "enemyName": "Shadow Imp",
-              "health": "80",
-              "damage": "10"
+              "unitID": "036_enchantress_human",
+              "unitName": "Enchantress",
+              "health": 90,
+              "damage": 16
             },
             {
-              "enemyID": "183_deep_troll_shaman",
-              "enemyName": "Troll Shaman",
-              "health": "100",
-              "damage": "15"
+              "unitID": "140_salamander_firebrand",
+              "unitName": "Salamander Firebrand",
+              "health": 100,
+              "damage": 18
             },
             {
-              "enemyID": "144_kenku_winged",
-              "enemyName": "Winged Kenku",
-              "health": "90",
-              "damage": "12"
+              "unitID": "197_goblin_old",
+              "unitName": "Goblin",
+              "health": 70,
+              "damage": 10
             }
           ]
         },
         {
-          "groupName": "Dreadroot Terrors",
+          "groupName": "Lurking Shadows",
           "units": [
             {
-              "enemyID": "097_merfolk_aquamancer_water_old",
-              "enemyName": "Aquamancer",
-              "health": "110",
-              "damage": "18"
+              "unitID": "022_shadow_imp",
+              "unitName": "Shadow Imp",
+              "health": 60,
+              "damage": 8
             },
             {
-              "enemyID": "039_dryad",
-              "enemyName": "Enchanted Dryad",
-              "health": "130",
-              "damage": "20"
-            },
-            {
-              "enemyID": "185_minotaur",
-              "enemyName": "Minotaur",
-              "health": "160",
-              "damage": "22"
+              "unitID": "091_naga_mage",
+              "unitName": "Naga Mage",
+              "health": 95,
+              "damage": 15
             }
           ]
         },
         {
-          "groupName": "Nightshade Cultists",
+          "groupName": "Beasts of the Wild",
           "units": [
             {
-              "enemyID": "036_enchantress_human",
-              "enemyName": "Enchantress",
-              "health": "100",
-              "damage": "16"
+              "unitID": "148_forest_drake",
+              "unitName": "Forest Drake",
+              "health": 120,
+              "damage": 22
             },
             {
-              "enemyID": "126_ogre_old",
-              "enemyName": "Ancient Ogre",
-              "health": "140",
-              "damage": "21"
+              "unitID": "184_boggart_old",
+              "unitName": "Boggart",
+              "health": 70,
+              "damage": 12
             }
           ]
         },
         {
-          "groupName": "Moonlit Revenants",
+          "groupName": "Frozen Legion",
           "units": [
             {
-              "enemyID": "034_gnoll_new",
-              "enemyName": "Feral Gnoll",
-              "health": "90",
-              "damage": "14"
+              "unitID": "065_frost_giant_new",
+              "unitName": "Frost Giant",
+              "health": 140,
+              "damage": 24
             },
             {
-              "enemyID": "083_yaktaur_captain_new",
-              "enemyName": "Yaktaur Captain",
-              "health": "120",
-              "damage": "18"
+              "unitID": "107_killer_klown_yellow",
+              "unitName": "Killer Klown",
+              "health": 75,
+              "damage": 14
             }
           ]
         }
@@ -135,124 +152,118 @@
       }
     },
     {
-      "levelName": "Caverns of Despair",
-      "friendlyCharacter": "Dwarven Miner",
-      "monologue": "The Caverns of Despair are filled with treacherous foes lurking in the shadows. Only the bravest souls dare to venture into its depths. Proceed with caution, for danger awaits at every turn.",
+      "levelName": "Mountains of Destiny",
+      "friendlyCharacter": "Raelin the Swift",
+      "monologue": "The winds of fate howl through the mountains, guiding you towards your ultimate test.",
       "enemyGroups": [
         {
-          "groupName": "Gloomstone Goblins",
+          "groupName": "Rockslide Brutes",
           "units": [
             {
-              "enemyID": "073_goblin_new",
-              "enemyName": "Goblin Skulker",
-              "health": "80",
-              "damage": "12"
+              "unitID": "129_rock_troll",
+              "unitName": "Rock Troll",
+              "health": 130,
+              "damage": 20
             },
             {
-              "enemyID": "057_kobold_demonologist",
-              "enemyName": "Kobold Sorcerer",
-              "health": "100",
-              "damage": "15"
+              "unitID": "166_titan_old",
+              "unitName": "Titan",
+              "health": 180,
+              "damage": 30
             },
             {
-              "enemyID": "196_necromancer_old",
-              "enemyName": "Ancient Necromancer",
-              "health": "120",
-              "damage": "18"
+              "unitID": "202_yaktaur_new",
+              "unitName": "Yaktaur",
+              "health": 100,
+              "damage": 18
             }
           ]
         },
         {
-          "groupName": "Crystal Crawler Pack",
+          "groupName": "Skyward Guardians",
           "units": [
             {
-              "enemyID": "037_orc_warlord",
-              "enemyName": "Orc Warlord",
-              "health": "140",
-              "damage": "20"
+              "unitID": "135_harpy",
+              "unitName": "Harpy",
+              "health": 90,
+              "damage": 14
             },
             {
-              "enemyID": "066_juggernaut",
-              "enemyName": "Juggernaut",
-              "health": "160",
-              "damage": "22"
+              "unitID": "197_goblin_old",
+              "unitName": "Goblin",
+              "health": 70,
+              "damage": 10
             },
             {
-              "enemyID": "131_orc_knight_new",
-              "enemyName": "Orc Knight",
-              "health": "120",
-              "damage": "18"
+              "unitID": "147_deep_troll_berserker",
+              "unitName": "Deep Troll Berserker",
+              "health": 110,
+              "damage": 20
             }
           ]
         },
         {
-          "groupName": "Shadowfiend Legion",
+          "groupName": "Firestorm Legion",
           "units": [
             {
-              "enemyID": "014_human_slave",
-              "enemyName": "Cursed Slave",
-              "health": "90",
-              "damage": "14"
+              "unitID": "055_naga_warrior_unique",
+              "unitName": "Naga Warrior",
+              "health": 100,
+              "damage": 16
             },
             {
-              "enemyID": "068_merfolk_avatar",
-              "enemyName": "Merfolk Avatar",
-              "health": "110",
-              "damage": "16"
-            },
-            {
-              "enemyID": "202_yaktaur_new",
-              "enemyName": "Yaktaur Charger",
-              "health": "130",
-              "damage": "20"
+              "unitID": "085_gnoll_shaman",
+              "unitName": "Gnoll Shaman",
+              "health": 80,
+              "damage": 12
             }
           ]
         },
         {
-          "groupName": "Silentshade Stalkers",
+          "groupName": "Blazing Drakes",
           "units": [
             {
-              "enemyID": "015_orc_warrior_new",
-              "enemyName": "Vicious Orc Warrior",
-              "health": "100",
-              "damage": "16"
+              "unitID": "061_orc_new",
+              "unitName": "Orc",
+              "health": 80,
+              "damage": 12
             },
             {
-              "enemyID": "081_deep_elf_knight_new",
-              "enemyName": "Dreadful Elf Knight",
-              "health": "120",
-              "damage": "18"
+              "unitID": "137_anubis_guard",
+              "unitName": "Anubis Guard",
+              "health": 110,
+              "damage": 18
             }
           ]
         },
         {
-          "groupName": "Spectral Phantasms",
+          "groupName": "Crystal Hoarders",
           "units": [
             {
-              "enemyID": "027_giant_orange_brain",
-              "enemyName": "Mindflayer",
-              "health": "130",
-              "damage": "20"
+              "unitID": "125_labrat_unseen",
+              "unitName": "Labrat Unseen",
+              "health": 75,
+              "damage": 11
             },
             {
-              "enemyID": "092_siren_old",
-              "enemyName": "Siren Temptress",
-              "health": "110",
-              "damage": "15"
+              "unitID": "214_spriggan_defender_shieldless",
+              "unitName": "Spriggan Defender",
+              "health": 95,
+              "damage": 14
             }
           ]
         }
       ],
       "uniqueSprites": [
-        "CrystalGolem"
+        "MountainGuardian"
       ],
       "walkableTile": {
         "colour": "Grey",
         "texture": "Rock"
       },
       "nonWalkableTile": {
-        "colour": "Blue",
-        "texture": "Crystals"
+        "colour": "White",
+        "texture": "Snow"
       }
     }
   ]
