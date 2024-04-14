@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -43,32 +44,51 @@ public class ScriptRunner : MonoBehaviour
     {
         StartCoroutine(RunScriptAndManageObject());
     }
+    
+    public void DeleteCurrentWorld()
+    {
+        if (WorldManager.worldManager.currentWorld == null)
+            return;
+        File.Delete(Application.dataPath + @"/Resources/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json");
+        File.Delete(Application.dataPath + @"/Resources/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json.meta");
+        WorldManager.worldManager.Worlds.Remove(WorldManager.worldManager.currentWorld.worldName.text);
+        Destroy(WorldManager.worldManager.currentWorld.gameObject);
+    }
 
     private bool CheckUnits(JSONReader.GameWorld world)
     {
-        foreach (var level in world.levels)
-            foreach (var group in level.enemyGroups)
-                foreach (var enemy in group.units)
-                    if (!_units.Contains(enemy.unitID))
-                    {
-                        var withoutNum = enemy.unitID.Substring(enemy.unitID.IndexOf('_') + 1);
-                        string rightID = _units.FirstOrDefault(stringToCheck => stringToCheck.Contains(withoutNum));
-                        if (rightID == null)
-                            return false;
-                        enemy.unitID = rightID;
-                    }
-
-        foreach (var ally in world.mainCharacter.characterGroup.units)
+        try
         {
-            if (!_units.Contains(ally.unitID))
+            foreach (var level in world.levels)
+                foreach (var group in level.enemyGroups)
+                    foreach (var enemy in group.units)
+                        if (!_units.Contains(enemy.unitID))
+                        {
+                            var withoutNum = enemy.unitID.Substring(enemy.unitID.IndexOf('_') + 1);
+                            string rightID = _units.FirstOrDefault(stringToCheck => stringToCheck.Contains(withoutNum));
+                            if (rightID == null)
+                                return false;
+                            enemy.unitID = rightID;
+                        }
+
+            foreach (var ally in world.mainCharacter.characterGroup.units)
             {
-                var withoutNum = ally.unitID.Substring(ally.unitID.IndexOf('_') + 1);
-                string rightID = _units.FirstOrDefault(stringToCheck => stringToCheck.Contains(withoutNum));
-                if (rightID == null)
-                    return false;
-                ally.unitID = rightID;
+                if (!_units.Contains(ally.unitID))
+                {
+                    var withoutNum = ally.unitID.Substring(ally.unitID.IndexOf('_') + 1);
+                    string rightID = _units.FirstOrDefault(stringToCheck => stringToCheck.Contains(withoutNum));
+                    if (rightID == null)
+                        return false;
+                    ally.unitID = rightID;
+                }
             }
         }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return false;
+        }
+        
         return true;
     }
 

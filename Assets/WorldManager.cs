@@ -8,8 +8,8 @@ using TMPro;
 public class WorldManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    [HideInInspector]
-    public List<WorldButton> _worldButtons = new List<WorldButton>();
+    /*[HideInInspector]
+    public List<WorldButton> _worldButtons = new List<WorldButton>();*/
     [HideInInspector]
     public WorldButton currentWorld;
 
@@ -28,7 +28,6 @@ public class WorldManager : MonoBehaviour
         {
             worldManager = this;
         }
-        
     }
    
 
@@ -38,7 +37,6 @@ public class WorldManager : MonoBehaviour
         go.GetComponent<WorldButton>().SetButton(worldName);
         go.transform.SetParent(worldButtonParent.transform);
         go.transform.localScale = new Vector3(1, 1, 1);
-        _worldButtons.Add(go.GetComponent<WorldButton>());
     }
     
     

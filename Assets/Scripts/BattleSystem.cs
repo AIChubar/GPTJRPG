@@ -89,23 +89,26 @@ public class BattleSystem : MonoBehaviour
 
         if (_remainingEnemies <= 0 )
         {
-            _battleState = BattleState.WIN; 
+            _battleState = BattleState.WIN;
             GameEvents.gameEvents.OnUnitHPChanged -= GameEvents_OnUnitHPChanged;
             GameEvents.gameEvents.OnUnitKilled -= GameEvents_OnUnitKilled;
-            SceneController.UnloadScene(2);
-
+            GameManager.gameManager.battleResult = _battleState;
+            SceneController.UnloadScene(2, 0.5f, 0.5f, 0.5f);
         }
         else if (_remainingAllies <= 0)
         {
             _battleState = BattleState.LOST;
             GameEvents.gameEvents.OnUnitHPChanged -= GameEvents_OnUnitHPChanged;
             GameEvents.gameEvents.OnUnitKilled -= GameEvents_OnUnitKilled;
-            SceneController.UnloadScene(2);
+            GameManager.gameManager.battleResult = _battleState;
+            SceneController.UnloadScene(2, 0.5f, 0.5f, 0.5f);
         }
     }
-    
+
     private void CheckIfBattleEnds(bool friendly)
-    {}
+    {
+        
+    }
 
     private IEnumerator BeginBattle()
     {
@@ -193,7 +196,6 @@ public class BattleSystem : MonoBehaviour
 
         EnemyAction();
     }
-    
     private IEnumerator EnemyAttack()
     {
         
@@ -201,6 +203,12 @@ public class BattleSystem : MonoBehaviour
         
         yield return new WaitForSeconds(0.5f);
 
+        for (int i = 0; i < _allies.Count; i++)
+        {
+            if (!_allies[i])
+                _allies.RemoveAt(i);
+        }
+        
         int attackedAllyIndex = Random.Range(0, _allies.Count - 1);
 
         var attackedAlly = _allies[attackedAllyIndex];

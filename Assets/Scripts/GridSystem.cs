@@ -8,7 +8,7 @@ public class GridSystem : MonoBehaviour
 
     private void Awake()
     {
-        for (int i = 0; i < allyGridObjects.Length; i++)
+        for (int i = 0; i < GameManager.gameManager.gameData.allies.units.Count; i++)
         {
             if (GameManager.gameManager.gameData.allies == null)
                 break;

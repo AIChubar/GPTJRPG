@@ -707,7 +707,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1326097689}
         m_TargetAssemblyTypeName: ScriptRunner, Assembly-CSharp
-        m_MethodName: GenerateNewWorld
+        m_MethodName: DeleteCurrentWorld
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1046,7 +1046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 250ff7c03d3f1c34aaf8b1431eb8c3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldButtons: []
   currentWorld: {fileID: 0}
   worldButtonPrefab: {fileID: 2374125954380036481, guid: a8cdc798f9c237b4697f9a30bdd9e182, type: 3}
   worldButtonParent: {fileID: 1007703993}
@@ -1748,7 +1747,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.19607843}
     m_PressedColor: {r: 0, g: 0, b: 0, a: 0.39215687}
     m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1926,7 +1925,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.19607843}
     m_PressedColor: {r: 0, g: 0, b: 0, a: 0.39215687}
     m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

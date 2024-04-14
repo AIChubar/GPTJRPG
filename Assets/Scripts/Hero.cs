@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class Hero : MonoBehaviour
@@ -8,8 +9,9 @@ public class Hero : MonoBehaviour
 
     public bool movementsEnabled = true;
 
-    [HideInInspector]
-    public GroupData allyGroup;
+    [SerializeField] private float movementSpeed = 3.0f;
+
+    [HideInInspector] public GroupData allyGroup;
 
     [HideInInspector]
     public string heroName;
@@ -45,7 +47,12 @@ public class Hero : MonoBehaviour
         heroClass = GameManager.gameManager.world.mainCharacter.characterClass;
         heroProfession = GameManager.gameManager.world.mainCharacter.occupation;
         heroBackStory = GameManager.gameManager.world.mainCharacter.backStory;
+        GameEvents.gameEvents.OnUnitKilled += GameEvents_OnUnitKilled;
+    }
 
+    private void GameEvents_OnUnitKilled(Unit unit)
+    {
+        allyGroup.units.Remove(unit.unitData);
     }
     
     private void OnEnable()
@@ -61,10 +68,10 @@ public class Hero : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (movementsEnabled)
+        if (GameManager.gameManager == null ||!GameManager.gameManager.transitioning)
         {
             var movement = playerInput.Player.Move.ReadValue<Vector2>();
-            rb.MovePosition(rb.position + movement * (3.0f * Time.fixedDeltaTime));
+            rb.MovePosition(rb.position + movement * (movementSpeed * Time.fixedDeltaTime));
         }
     }
 }

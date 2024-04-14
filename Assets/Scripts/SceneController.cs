@@ -61,6 +61,8 @@ public class SceneController : MonoBehaviour
 
     private IEnumerator FadeScene(int index, float closingDuration, float openingDuration, float waitTime, bool additive, bool toUnload)
     {
+        if (currentSceneIndex >= 1)
+            GameManager.gameManager.transitioning = true;
         Time.timeScale = 1.0f;
         fader.gameObject.SetActive(true);
         for (float t = 0; t < 1; t += Time.deltaTime / closingDuration)
@@ -73,7 +75,7 @@ public class SceneController : MonoBehaviour
 
         if (additive)
         {
-            SceneManager.LoadScene(index, LoadSceneMode.Additive);
+            SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
             _map.SetActive(false);
         }
         else
@@ -82,10 +84,12 @@ public class SceneController : MonoBehaviour
             {
                 SceneManager.UnloadSceneAsync(index);
                 _map.SetActive(true);
+
             }
             else
-                SceneManager.LoadScene(index);
+                SceneManager.LoadSceneAsync(index);
         }
+        
 
         yield return new WaitForSeconds(waitTime);
 
@@ -95,8 +99,15 @@ public class SceneController : MonoBehaviour
             fader.color = new Color(0, 0, 0, Mathf.Lerp(1, 0, t));
             yield return null;
         }
+        
+        if (toUnload)
+        {
+            GameManager.gameManager.SceneUnloaded();
+        }
 
         fader.gameObject.SetActive(false);
+        if (currentSceneIndex >= 1)
+            GameManager.gameManager.transitioning = false;
 
         currentSceneIndex = index;
     }

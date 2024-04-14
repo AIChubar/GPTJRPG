@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -209,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5202813198758811230, guid: 750799ebefcdba941837975630c0f789, type: 3}
       propertyPath: m_text
-      value: 121
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5202813198758811230, guid: 750799ebefcdba941837975630c0f789, type: 3}
       propertyPath: m_fontSize
@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6799156319872678660, guid: 750799ebefcdba941837975630c0f789, type: 3}
       propertyPath: m_text
-      value: 212121
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6799156319872678660, guid: 750799ebefcdba941837975630c0f789, type: 3}
       propertyPath: m_fontSize
@@ -241,7 +241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8931893542734410742, guid: 750799ebefcdba941837975630c0f789, type: 3}
       propertyPath: m_text
-      value: 12121
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8931893542734410742, guid: 750799ebefcdba941837975630c0f789, type: 3}
       propertyPath: m_fontSize
@@ -255,7 +255,8 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1858401924064405121, guid: 750799ebefcdba941837975630c0f789, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2872483688581663319, guid: 750799ebefcdba941837975630c0f789, type: 3}

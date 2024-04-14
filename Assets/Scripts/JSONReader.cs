@@ -82,6 +82,7 @@ public class JSONReader : MonoBehaviour
                 newUnit.name = unit.unitName;
                 newUnit.id = unit.unitID;
                 newUnit.damage = unit.damage;
+                newUnit.friendly = false;
                 newUnit.currentHP = newUnit.maxHP = unit.health;
                 newGroup.units.Add(newUnit);
             }
@@ -99,9 +100,12 @@ public class JSONReader : MonoBehaviour
             newUnit.id = unit.unitID;
             newUnit.damage = unit.damage;
             newUnit.currentHP = newUnit.maxHP = unit.health;
+            newUnit.friendly = true;
             allyGroup.units.Add(newUnit);
         }
 
         unitsData.allyGroup = allyGroup;
+        
+        GameManager.gameManager.world = gameWorld;
     }
 }

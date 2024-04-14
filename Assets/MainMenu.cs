@@ -24,25 +24,23 @@ public class MainMenu : MonoBehaviour
     }
     public void OnPlayGameClicked()
     {
-        //ButtonClickedSound();
-        //DataPersistenceManager.instance.NewGame();
         SceneController.LoadScene(1, 1, 1, 0.2f);
         DisableMenuButtons();
     }
     
     public void CheckNewGame()
+    {
+        if (WorldManager.worldManager.currentWorld == null)
         {
-            if (WorldManager.worldManager.currentWorld == null)
-            {
-                newGameButton.gameObject.GetComponent<Button>().interactable = false;
-                _newGameText.color = new Color(1, 1, 1, 0.4f);
-            }
-            else
-            {
-                newGameButton.gameObject.GetComponent<Button>().interactable = true;
-                _newGameText.color = new Color(1, 1, 1, 1f);
-            }
+            newGameButton.gameObject.GetComponent<Button>().interactable = false;
+            _newGameText.color = new Color(1, 1, 1, 0.4f);
         }
+        else
+        {
+            newGameButton.gameObject.GetComponent<Button>().interactable = true;
+            _newGameText.color = new Color(1, 1, 1, 1f);
+        }
+    }
     
     public void WClicked()
     {

@@ -7,19 +7,11 @@ using UnityEngine.Serialization;
 
 public class GridObject : MonoBehaviour
 {
-    //[HideInInspector]
+    [HideInInspector]
     [SerializeField] public GameObject objectHolding;
 
     public bool friendly;
     
-    //[SerializeField]
-    //private GridSystem _gridSystem;
-
-    void Start()
-    {
-        
-    }
-
     public void AssignObject(GameObject obj, UnitData ud)//??????????????????????
     {
         if (obj != null)
@@ -31,10 +23,6 @@ public class GridObject : MonoBehaviour
             objectHolding.transform.localScale = new Vector3(1.5f,1.5f, 1);
             objectHolding.transform.Translate(0f, obj.GetComponent<SpriteRenderer>().bounds.size.y/5*2, 0f);
         }
-    }
-
-    private void Update()
-    {
     }
 }
   

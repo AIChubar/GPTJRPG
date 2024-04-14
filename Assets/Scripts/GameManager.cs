@@ -9,10 +9,16 @@ public class GameManager : MonoBehaviour
     
     public UnitsData unitsData;
 
+    public bool transitioning = false;
+
+    public BattleSystem.BattleState battleResult = BattleSystem.BattleState.START;
+
     [HideInInspector]
     public JSONReader.GameWorld world;
     
     public Hero hero;
+
+    public Pause pauseMenu;
 
     public SpriteAtlas atlas;
     
@@ -23,18 +29,6 @@ public class GameManager : MonoBehaviour
     public static GameManager gameManager  { get; private set; }
     private void Awake()
     {
-        /*string path = "Assets/Resources/Monsters.txt";
-        Sprite[] sprites =  new Sprite[atlas.spriteCount];
-        atlas.GetSprites(sprites);
-        StreamWriter writer = new StreamWriter(path, true);
-
-        for (int i = 0; i < sprites.Length; i++)
-        {
-            writer.WriteLine(sprites[i].name);
-        }
-
-        writer.Close();*/
-        world = WorldManager.worldManager.Worlds[WorldManager.worldManager.currentWorld.worldName.text];
         if (gameManager != null)
         {
             Destroy(gameObject);
@@ -46,42 +40,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public GameObject MapToBattle(GameObject ob, bool friendly)
+
+    public void SceneUnloaded()
     {
-        /*var components = ob.GetComponents(typeof(Component))
-            .Where(o => o is not (SpriteRenderer or Transform or Collider2D or Rigidbody2D));
- 
-        foreach(var comp in components)
+        if (battleResult == BattleSystem.BattleState.LOST)
         {
-            Destroy(comp);
-        }*/
-
-        var unit = ob.AddComponent<Unit>();
-        unit.unitData.friendly = friendly;
-
-        if (!friendly)
-        {
-            ob.layer = 3;
+            pauseMenu.ShowGameOverMenu();
         }
-        return ob;
+        else if (battleResult == BattleSystem.BattleState.WIN)
+        {
+            pauseMenu.ShowWinMenu();
+        }
     }
+    
 
     public void OutlineObject(GameObject ob, bool outlined) 
     {
         if (ob)
             ob.GetComponent<Renderer>().material = outlined ? outlineMaterial : defaultMaterial;
-    }
-    
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }   
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

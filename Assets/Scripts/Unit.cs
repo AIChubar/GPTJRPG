@@ -6,12 +6,7 @@ using UnityEngine;
 public class Unit : MonoBehaviour
 {
     public UnitData unitData;
-
-
-    private void Awake()
-    {
-    }
-
+    
     public void SetData(UnitData ud)
     {
         unitData = ud;
@@ -27,6 +22,7 @@ public class Unit : MonoBehaviour
         GameEvents.gameEvents.UnitHPChanged(this);
         if (unitData.currentHP <= 0)
         {
+            unitData.currentHP = 0;
             GameEvents.gameEvents.UnitKilled(this);
             StartCoroutine(DeathAnimation(0.5f));
         }
