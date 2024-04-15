@@ -33,6 +33,7 @@ response = openai.chat.completions.create(
                        "6. Use at most two same unitID in each group. There should be at least two enemies in each enemyGroup. \n"
                        "7. Two levels. Five enemy groups in each level. \n"
                        "8. Do not use same ids for enemies and allies, try to use logically different units for enemies and allies. \n"
+                       "9. Never include .json in worldName. WorldName can consist of several words. \n"
         },
         {
             "role": "user",

@@ -17,21 +17,22 @@ public class ScriptRunner : MonoBehaviour
     
     void Start()
     {
-        using StreamReader sr = new StreamReader(Application.dataPath + "/Resources/API/enemies.txt");
+        using StreamReader sr = new StreamReader(Application.streamingAssetsPath + "/API/enemies.txt");
         while (sr.ReadLine() is { } line)
         {
             _units.Add(line);
         }
         
-        var info = new DirectoryInfo(Application.dataPath + @"/Resources/Worlds");
+        var info = new DirectoryInfo(Application.streamingAssetsPath + @"/Worlds");
         var fileInfo = info.GetFiles();
         foreach (var file  in fileInfo)
         {
-            if (file.Name.Contains(".meta"))
+            var fileName = file.Name;
+            if (fileName.Contains(".meta"))
                 continue;
             var worldName = file.Name.Substring(0, file.Name.Length - 5);
             var jsonWorld =
-                JsonUtility.FromJson<JSONReader.GameWorld>(Resources.Load<TextAsset>("Worlds/" + worldName).text);
+                JsonUtility.FromJson<JSONReader.GameWorld>(File.ReadAllText(Application.streamingAssetsPath + "/Worlds/" + fileName));
             if (!CheckUnits(jsonWorld))
                 continue;
             WorldManager.worldManager.Worlds.Add(worldName, jsonWorld);
@@ -49,8 +50,8 @@ public class ScriptRunner : MonoBehaviour
     {
         if (WorldManager.worldManager.currentWorld == null)
             return;
-        File.Delete(Application.dataPath + @"/Resources/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json");
-        File.Delete(Application.dataPath + @"/Resources/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json.meta");
+        File.Delete(Application.streamingAssetsPath + @"/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json");
+        File.Delete(Application.streamingAssetsPath + @"/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json.meta");
         WorldManager.worldManager.Worlds.Remove(WorldManager.worldManager.currentWorld.worldName.text);
         Destroy(WorldManager.worldManager.currentWorld.gameObject);
     }
@@ -99,7 +100,7 @@ public class ScriptRunner : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         // Run the script
-        var scriptArguments = "-ExecutionPolicy Bypass -File \"" + Application.dataPath + @"/Resources/API/PSscript.ps1" + "\"";
+        var scriptArguments = "-ExecutionPolicy Bypass -File \"" + Application.streamingAssetsPath + @"/API/PSscript.ps1" + "\"";
         var processStartInfo = new ProcessStartInfo("powershell.exe", scriptArguments);
         processStartInfo.RedirectStandardOutput = true;
         processStartInfo.RedirectStandardError = true;

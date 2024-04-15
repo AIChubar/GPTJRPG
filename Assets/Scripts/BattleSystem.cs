@@ -209,7 +209,7 @@ public class BattleSystem : MonoBehaviour
                 _allies.RemoveAt(i);
         }
         
-        int attackedAllyIndex = Random.Range(0, _allies.Count - 1);
+        int attackedAllyIndex = Random.Range(0, _allies.Count);
 
         var attackedAlly = _allies[attackedAllyIndex];
         

@@ -49,12 +49,12 @@ public class SceneController : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    public static void LoadScene(int index, float closingDuration = 1f, float openingDuration = 1f, float waitTime = 0f, bool additive = false, bool toUnload = false)
+    public static void LoadScene(int index, float closingDuration = 1f, float openingDuration = 1f, float waitTime = 0.4f, bool additive = false, bool toUnload = false)
     {
         instance.StartCoroutine(instance.FadeScene(index, closingDuration, openingDuration, waitTime, additive, toUnload));
     }
     
-    public static void UnloadScene(int index, float closingDuration = 1f, float openingDuration = 1f, float waitTime = 0f, bool additive = false, bool toUnload = true)
+    public static void UnloadScene(int index, float closingDuration = 1f, float openingDuration = 1f, float waitTime = 0.4f, bool additive = false, bool toUnload = true)
     {
         instance.StartCoroutine(instance.FadeScene(index, closingDuration, openingDuration, waitTime, additive, toUnload));
     }
@@ -71,7 +71,7 @@ public class SceneController : MonoBehaviour
             yield return null;
         }
         
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(waitTime/2f);
 
         if (additive)
         {
@@ -91,7 +91,7 @@ public class SceneController : MonoBehaviour
         }
         
 
-        yield return new WaitForSeconds(waitTime);
+        yield return new WaitForSeconds(waitTime/2f);
 
 
         for (float t = 0; t < 1; t += Time.deltaTime / openingDuration)

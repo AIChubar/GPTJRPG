@@ -1,0 +1,266 @@
+{
+  "narrativeData": {
+    "worldName": "Valandor",
+    "story": "In the realm of Valandor, a great war has erupted between the forces of light and darkness. The fate of the world hangs in the balance as brave heroes rise to confront the malevolent enemies threatening to plunge Valandor into eternal chaos.",
+    "greetingGameMessage": "Welcome to the epic adventure in Valandor! Prepare to lead your allies to victory and vanquish the evil that threatens to consume the realm.",
+    "finalGameMessage": "Congratulations on completing the quest in Valandor! Your valor and leadership have saved the realm from destruction. Until next time, brave adventurer!"
+  },
+  "mainCharacter": {
+    "name": "Ariana",
+    "race": "Human",
+    "characterGroup": {
+      "groupName": "Valiant Vanguard",
+      "units": [
+        {
+          "unitID": "001_centaur_warrior",
+          "unitName": "Centaur Warrior",
+          "health": 80,
+          "damage": 15
+        },
+        {
+          "unitID": "039_dryad",
+          "unitName": "Dryad",
+          "health": 90,
+          "damage": 20
+        },
+        {
+          "unitID": "070_orc_priest_new",
+          "unitName": "Orc Priest",
+          "health": 85,
+          "damage": 18
+        }
+      ]
+    },
+    "characterClass": "Warrior",
+    "occupation": "Knight",
+    "backStory": "Ariana, a skilled warrior with a noble heart, has dedicated her life to protecting the innocent and upholding justice in the realm of Valandor."
+  },
+  "levels": [
+    {
+      "levelName": "Forest of Shadows",
+      "friendlyCharacter": "Ariana",
+      "monologue": "As Ariana ventures into the dark Forest of Shadows, she senses a malevolent presence lurking within the haunted woods. The Valiant Vanguard must stay vigilant and prepare to face the enemies that await.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadow Assassins",
+          "units": [
+            {
+              "unitID": "057_kobold_demonologist",
+              "unitName": "Kobold Demonologist",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "unitID": "166_titan_old",
+              "unitName": "Old Titan",
+              "health": 55,
+              "damage": 12
+            },
+            {
+              "unitID": "192_siren_water_new",
+              "unitName": "Water Siren",
+              "health": 60,
+              "damage": 14
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Minions",
+          "units": [
+            {
+              "unitID": "156_stone_giant_new",
+              "unitName": "Stone Giant",
+              "health": 53,
+              "damage": 11
+            },
+            {
+              "unitID": "185_minotaur",
+              "unitName": "Minotaur",
+              "health": 58,
+              "damage": 13
+            }
+          ]
+        },
+        {
+          "groupName": "Nightmare Horde",
+          "units": [
+            {
+              "unitID": "054_death_knight",
+              "unitName": "Death Knight",
+              "health": 65,
+              "damage": 15
+            },
+            {
+              "unitID": "084_deep_elf_priest",
+              "unitName": "Deep Elf Priest",
+              "health": 70,
+              "damage": 17
+            }
+          ]
+        },
+        {
+          "groupName": "Dreadful Beasts",
+          "units": [
+            {
+              "unitID": "180_boggart_new",
+              "unitName": "Boggart",
+              "health": 48,
+              "damage": 9
+            },
+            {
+              "unitID": "213_jelly",
+              "unitName": "Jelly",
+              "health": 52,
+              "damage": 11
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Spirits",
+          "units": [
+            {
+              "unitID": "169_guardian_serpent_new",
+              "unitName": "Guardian Serpent",
+              "health": 63,
+              "damage": 14
+            },
+            {
+              "unitID": "200_killer_klown_green",
+              "unitName": "Green Killer Klown",
+              "health": 68,
+              "damage": 16
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "ShadowAssassin.png",
+        "DarkMinion.png",
+        "NightmareHorde.png",
+        "DreadfulBeast.png",
+        "CursedSpirit.png"
+      ],
+      "walkableTile": {
+        "colour": "DarkGreen",
+        "texture": "Grassy"
+      },
+      "nonWalkableTile": {
+        "colour": "Brown",
+        "texture": "Muddy"
+      }
+    },
+    {
+      "levelName": "Citadel of Light",
+      "friendlyCharacter": "Ariana",
+      "monologue": "Arriving at the majestic Citadel of Light, Ariana stands before the grand fortress that radiates with divine energy. The final battle against the forces of darkness awaits within its hallowed halls.",
+      "enemyGroups": [
+        {
+          "groupName": "Ethereal Guardians",
+          "units": [
+            {
+              "unitID": "105_angel",
+              "unitName": "Angel",
+              "health": 55,
+              "damage": 10
+            },
+            {
+              "unitID": "194_ogre_new",
+              "unitName": "Ogre",
+              "health": 60,
+              "damage": 12
+            },
+            {
+              "unitID": "083_yaktaur_captain_new",
+              "unitName": "Yaktaur Captain",
+              "health": 65,
+              "damage": 14
+            }
+          ]
+        },
+        {
+          "groupName": "Celestial Warriors",
+          "units": [
+            {
+              "unitID": "127_deep_troll",
+              "unitName": "Deep Troll",
+              "health": 58,
+              "damage": 11
+            },
+            {
+              "unitID": "083_yaktaur_captain_new",
+              "unitName": "Yaktaur Captain",
+              "health": 65,
+              "damage": 14
+            }
+          ]
+        },
+        {
+          "groupName": "Radiant Protectors",
+          "units": [
+            {
+              "unitID": "105_angel",
+              "unitName": "Angel",
+              "health": 55,
+              "damage": 10
+            },
+            {
+              "unitID": "194_ogre_new",
+              "unitName": "Ogre",
+              "health": 60,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Divine Sentinels",
+          "units": [
+            {
+              "unitID": "105_angel",
+              "unitName": "Angel",
+              "health": 55,
+              "damage": 10
+            },
+            {
+              "unitID": "194_ogre_new",
+              "unitName": "Ogre",
+              "health": 60,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Luminous Wardens",
+          "units": [
+            {
+              "unitID": "105_angel",
+              "unitName": "Angel",
+              "health": 55,
+              "damage": 10
+            },
+            {
+              "unitID": "194_ogre_new",
+              "unitName": "Ogre",
+              "health": 60,
+              "damage": 12
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "EtherealGuardian.png",
+        "CelestialWarrior.png",
+        "RadiantProtector.png",
+        "DivineSentinel.png",
+        "LuminousWarden.png"
+      ],
+      "walkableTile": {
+        "colour": "LightBlue",
+        "texture": "Smooth"
+      },
+      "nonWalkableTile": {
+        "colour": "Gray",
+        "texture": "Stone"
+      }
+    }
+  ]
+}
