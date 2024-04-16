@@ -8,6 +8,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 
 public class ScriptRunner : MonoBehaviour
 {
@@ -109,17 +110,33 @@ public class ScriptRunner : MonoBehaviour
 
         using (var process = new Process())
         {
-            JSONReader.GameWorld world;
+            int attempts = 0;
+            JSONReader.GameWorld world = null;
             do
             {
+                if (attempts >= 3)
+                {
+                    Debug.LogError("Too many attempts!");
+                    yield break;
+                }
+                attempts++;
                 process.StartInfo = processStartInfo;
                 process.Start();
-
+            
                 string output = process.StandardOutput.ReadToEnd();
                 string error = process.StandardError.ReadToEnd();
-                world = JsonUtility.FromJson<JSONReader.GameWorld>(output);
-                
-            } while (!CheckUnits(world));
+                if (error != "")
+                    Debug.LogError(error);
+                try
+                {
+                    world = JsonUtility.FromJson<JSONReader.GameWorld>(output);
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError("Not JSON parsable output: \n" + output);
+                    throw;
+                }
+            } while (world == null || !CheckUnits(world));
             WorldManager.worldManager.Worlds.Add(world.narrativeData.worldName, world);
             AddNewButton(world.narrativeData.worldName);
         }

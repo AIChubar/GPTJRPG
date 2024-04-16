@@ -24,6 +24,13 @@ $StreamingAssetsPath = Find-StreamingAssetsFolder -FolderPath .
 # Check if StreamingAssets folder was found
 if ($StreamingAssetsPath) {
     Set-Location $StreamingAssetsPath
+
+    $null = python3 -m pip install --upgrade pip > $null
+    # Install openai module without displaying any output
+    $null = python3 -m pip install --upgrade openai > $null
+    # Install jsons module without displaying any output
+    $null = python3 -m pip install --upgrade jsons > $null
+    
     python3 main.py
 } else {
     Write-Host "StreamingAssets folder not found in any subdirectory."

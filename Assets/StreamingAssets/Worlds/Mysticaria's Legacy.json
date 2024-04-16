@@ -1,0 +1,260 @@
+{
+  "narrativeData": {
+    "worldName": "Mysticaria's Legacy",
+    "story": "In the realm of Mysticaria, ancient powers are awakening, threatening the balance of the world. As a brave warrior, you must embark on a quest to restore peace and harmony.",
+    "greetingGameMessage": "Welcome to Mysticaria's Legacy! Get ready to face challenging battles and make crucial decisions that will shape the fate of the realm.",
+    "finalGameMessage": "Congratulations on completing Mysticaria's Legacy! Your valor and wisdom have saved the realm from darkness."
+  },
+  "mainCharacter": {
+    "name": "Eldric",
+    "race": "Human",
+    "characterGroup": {
+      "groupName": "Guardians of Light",
+      "units": [
+        {
+          "unitID": "001_centaur_warrior",
+          "unitName": "Centaur Guardian",
+          "health": 80,
+          "damage": 18
+        },
+        {
+          "unitID": "030_deep_elf_demonologist",
+          "unitName": "Elf Enchanter",
+          "health": 75,
+          "damage": 20
+        },
+        {
+          "unitID": "055_naga_warrior_unique",
+          "unitName": "Naga Sentinel",
+          "health": 85,
+          "damage": 15
+        }
+      ]
+    },
+    "characterClass": "Warrior",
+    "occupation": "Knight",
+    "backStory": "Eldric, a valiant knight from the kingdom of Mysticaria, is known for his unwavering courage and dedication to protecting the realm."
+  },
+  "levels": [
+    {
+      "levelName": "Forest of Shadows",
+      "friendlyCharacter": "Eldric",
+      "monologue": "Darkness looms over the Forest of Shadows. Eldric must navigate through the dense woods and confront the malevolent creatures lurking within.",
+      "enemyGroups": [
+        {
+          "groupName": "Shadowy Horrors",
+          "units": [
+            {
+              "unitID": "058_formicid_venom_mage",
+              "unitName": "Venomous Formicid",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "unitID": "109_orc_sorcerer_new",
+              "unitName": "Orc Sorcerer",
+              "health": 55,
+              "damage": 12
+            },
+            {
+              "unitID": "174_big_kobold_new",
+              "unitName": "Giant Kobold",
+              "health": 45,
+              "damage": 8
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Spirits",
+          "units": [
+            {
+              "unitID": "143_orc_wizard_old",
+              "unitName": "Ancient Orc Wizard",
+              "health": 60,
+              "damage": 14
+            },
+            {
+              "unitID": "162_deep_dwarf",
+              "unitName": "Dwarven Defender",
+              "health": 65,
+              "damage": 16
+            },
+            {
+              "unitID": "184_boggart_old",
+              "unitName": "Malevolent Boggart",
+              "health": 55,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Guardians",
+          "units": [
+            {
+              "unitID": "006_spriggan_berserker",
+              "unitName": "Ethereal Spriggan",
+              "health": 70,
+              "damage": 15
+            },
+            {
+              "unitID": "044_swamp_drake",
+              "unitName": "Misty Drake",
+              "health": 75,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Phantom Stalkers",
+          "units": [
+            {
+              "unitID": "083_yaktaur_captain_new",
+              "unitName": "Shadow Yaktaur",
+              "health": 70,
+              "damage": 16
+            },
+            {
+              "unitID": "117_tengu_conjurer",
+              "unitName": "Illusive Tengu",
+              "health": 65,
+              "damage": 14
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Warriors",
+          "units": [
+            {
+              "unitID": "109_orc_sorcerer_new",
+              "unitName": "Dark Orc Sorcerer",
+              "health": 60,
+              "damage": 13
+            },
+            {
+              "unitID": "136_lindwurm",
+              "unitName": "Spectral Lindwurm",
+              "health": 70,
+              "damage": 17
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "ShadowyTree",
+        "EtherealMist"
+      ],
+      "walkableTile": {
+        "colour": "DarkGreen",
+        "texture": "Grass"
+      },
+      "nonWalkableTile": {
+        "colour": "Gray",
+        "texture": "Rock"
+      }
+    },
+    {
+      "levelName": "Ruins of Eldoria",
+      "friendlyCharacter": "Eldric",
+      "monologue": "The ancient ruins of Eldoria hold secrets of the past and dangers of the present. Eldric must uncover the mysteries within to save Mysticaria.",
+      "enemyGroups": [
+        {
+          "groupName": "Forgotten Guardians",
+          "units": [
+            {
+              "unitID": "098_naga_sharpshooter",
+              "unitName": "Forgotten Naga",
+              "health": 55,
+              "damage": 12
+            },
+            {
+              "unitID": "053_hydrataur",
+              "unitName": "Hydrataur",
+              "health": 60,
+              "damage": 13
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Knights",
+          "units": [
+            {
+              "unitID": "026_yaktaur_captain-melee_old",
+              "unitName": "Wraith Yaktaur",
+              "health": 65,
+              "damage": 14
+            },
+            {
+              "unitID": "108_frost_giant_old",
+              "unitName": "Frosty Giant",
+              "health": 70,
+              "damage": 16
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Revenants",
+          "units": [
+            {
+              "unitID": "145_hill_giant_old",
+              "unitName": "Cursed Hill Giant",
+              "health": 75,
+              "damage": 17
+            },
+            {
+              "unitID": "025_merfolk_javelineer_water_new",
+              "unitName": "Drowned Merfolk",
+              "health": 80,
+              "damage": 19
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Keepers",
+          "units": [
+            {
+              "unitID": "054_death_knight",
+              "unitName": "Shadowed Knight",
+              "health": 70,
+              "damage": 15
+            },
+            {
+              "unitID": "027_giant_orange_brain",
+              "unitName": "Cerebral Behemoth",
+              "health": 75,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Ancient Sorcerers",
+          "units": [
+            {
+              "unitID": "203_brown_ooze",
+              "unitName": "Ancient Ooze",
+              "health": 65,
+              "damage": 14
+            },
+            {
+              "unitID": "192_siren_water_old",
+              "unitName": "Siren of Eldoria",
+              "health": 70,
+              "damage": 16
+            }
+          ]
+        }
+      ],
+      "uniqueSprites": [
+        "EldorianRuins",
+        "SpectralKnight"
+      ],
+      "walkableTile": {
+        "colour": "DarkGray",
+        "texture": "Stone"
+      },
+      "nonWalkableTile": {
+        "colour": "Black",
+        "texture": "Abyss"
+      }
+    }
+  ]
+}
