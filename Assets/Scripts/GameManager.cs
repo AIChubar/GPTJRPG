@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public JSONReader.GameWorld world;
     
+    [HideInInspector]
+    public int levelIndex = 0;
+    
     public Hero hero;
 
     public Pause pauseMenu;

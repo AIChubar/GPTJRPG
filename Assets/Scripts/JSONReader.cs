@@ -40,17 +40,9 @@ public class JSONReader : MonoBehaviour
         public string friendlyCharacter;
         public string monologue;
         public UnitGroup[] enemyGroups;
-        public string[] uniqueSprites;
-        public Tile walkableTile;
-        public Tile nonWalkableTile;
+        public string tilePalette;
     }
 
-    [System.Serializable]
-    public class Tile
-    {
-        public string colour;
-        public string texture;
-    }
     [System.Serializable]
     public class UnitGroup
     {

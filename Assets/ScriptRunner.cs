@@ -38,7 +38,6 @@ public class ScriptRunner : MonoBehaviour
                 continue;
             WorldManager.worldManager.Worlds.Add(worldName, jsonWorld);
             WorldManager.worldManager.AddButton(worldName);
-            
         }
     }
 
