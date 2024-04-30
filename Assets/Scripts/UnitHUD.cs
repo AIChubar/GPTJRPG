@@ -19,7 +19,7 @@ public class UnitHUD : MonoBehaviour
 
     public void SetHUD(UnitData unitData)
     {
-        if (unitImage != null)
+        if (unitImage is not null)
         {
             unitImage.sprite = GameManager.gameManager.atlas.GetSprite(unitData.id.Substring(unitData.id.IndexOf('_') + 1));
             unitImage.color = Color.white;

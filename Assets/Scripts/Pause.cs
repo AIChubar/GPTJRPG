@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
 {
-    public enum UIState { WIN, GAMEOVER, ESCPAUSE, UNPAUSED, HEROINFO, GROUPINFO }
+    public enum UIState { WIN, GAMEOVER, BATTLESTART, ESCPAUSE, UNPAUSED, HEROINFO, GROUPINFO }
 
     [Header("UI Elements")]
     [SerializeField] private GameObject pauseCanvas;
@@ -15,6 +15,11 @@ public class Pause : MonoBehaviour
     [SerializeField] private GameObject loseMenu;
     [SerializeField] private GameObject heroInfoMenu;
     [SerializeField] private GameObject groupInfoMenu;
+    [SerializeField] private GameObject battleStartMenu;
+
+    [SerializeField] private DialogueHUD battleStartHUD;
+    [SerializeField] private DialogueHUD winHUD;
+    [SerializeField] private DialogueHUD loseHUD;
 
     private PlayerInput playerInput;
     private UIState currentState = UIState.UNPAUSED;
@@ -38,6 +43,8 @@ public class Pause : MonoBehaviour
 
     private void TogglePause(InputAction.CallbackContext context)
     {
+        if (currentState is UIState.WIN or UIState.GAMEOVER or UIState.BATTLESTART)
+            return;
         currentState = currentState == UIState.UNPAUSED ? UIState.ESCPAUSE : UIState.UNPAUSED;
         UpdateUI();
     }
@@ -46,7 +53,7 @@ public class Pause : MonoBehaviour
     {
         Time.timeScale = currentState == UIState.UNPAUSED ? 1f : 0f;
         pauseCanvas.SetActive(currentState != UIState.UNPAUSED);
-
+        battleStartMenu.SetActive(currentState == UIState.BATTLESTART);
         pauseMenu.SetActive(currentState == UIState.ESCPAUSE);
         winMenu.SetActive(currentState == UIState.WIN);
         loseMenu.SetActive(currentState == UIState.GAMEOVER);
@@ -54,18 +61,32 @@ public class Pause : MonoBehaviour
         groupInfoMenu.SetActive(currentState == UIState.GROUPINFO);
     }
 
+    public void ShowBattleStartMenu()
+    {
+        currentState = UIState.BATTLESTART;
+        UpdateUI();
+        battleStartHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.battleStartMonologue);
+    }
+    
     public void ShowWinMenu()
     {
         currentState = UIState.WIN;
         UpdateUI();
+        winHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.winMonologue);
     }
 
     public void ShowGameOverMenu()
     {
         currentState = UIState.GAMEOVER;
         UpdateUI();
+        loseHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.lostMonologue);
     }
 
+    public void BeginBattle()
+    {
+        ResumeGame();
+        SceneController.LoadScene(2, 1, 1, 0.2f, true);
+    }
     public void ResumeGame()
     {
         currentState = UIState.UNPAUSED;

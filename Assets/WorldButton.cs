@@ -28,5 +28,4 @@ public class WorldButton : MonoBehaviour
         worldName = GetComponentInChildren<TextMeshProUGUI>();
         worldName.text = fileName;
     }
-    
 }

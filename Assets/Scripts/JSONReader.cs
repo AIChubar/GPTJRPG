@@ -27,34 +27,35 @@ public class JSONReader : MonoBehaviour
     {
         public string name;
         public string race;
-        public UnitGroup characterGroup;
         public string characterClass;
         public string occupation;
         public string backStory;
+        public UnitJSON[] characterGroup;
     }
 
     [System.Serializable]
     public class Level
     {
-        public string name;
-        public string friendlyCharacter;
-        public string monologue;
-        public UnitGroup[] enemyGroups;
+        public string levelName;
         public string tilePalette;
+        public UnitGroup[] enemyGroups;
     }
 
     [System.Serializable]
     public class UnitGroup
     {
         public string groupName;
+        public string battleStartMonologue;
+        public string winMonologue;
+        public string lostMonologue;
         public UnitJSON[] units;
     }
     
     [System.Serializable]
     public class UnitJSON
     {
-        public string unitName;
         public string unitID;
+        public string unitName;
         public int health;
         public int damage;
     }
@@ -68,6 +69,10 @@ public class JSONReader : MonoBehaviour
             GroupData newGroup = new GroupData();
             newGroup.units = new List<UnitData>();
             newGroup.name = t.groupName;
+            newGroup.battleStartMonologue = t.battleStartMonologue;
+            newGroup.winMonologue = t.winMonologue;
+            newGroup.lostMonologue = t.lostMonologue;
+
             foreach (var unit in t.units)
             {
                 UnitData newUnit = new UnitData();
@@ -83,8 +88,7 @@ public class JSONReader : MonoBehaviour
         
         GroupData allyGroup = new GroupData();
         allyGroup.units = new List<UnitData>();
-        allyGroup.name = gameWorld.mainCharacter.name;
-        foreach (var unit in gameWorld.mainCharacter.characterGroup.units)
+        foreach (var unit in gameWorld.mainCharacter.characterGroup)
         {
             
             UnitData newUnit = new UnitData();

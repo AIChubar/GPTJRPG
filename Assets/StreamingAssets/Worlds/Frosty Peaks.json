@@ -1,0 +1,255 @@
+{
+  "narrativeData": {
+    "worldName": "Frosty Peaks",
+    "story": "In the land of Frosty Peaks, a great blizzard has descended upon the once peaceful region, causing chaos and destruction. The inhabitants look to you for guidance and strength to overcome the icy threats.",
+    "greetingGameMessage": "Welcome to Frosty Peaks! Get ready to battle the chilling enemies lurking in the snow.",
+    "finalGameMessage": "Congratulations on conquering the Frosty Peaks! You have brought peace back to the frozen land."
+  },
+  "mainCharacter": {
+    "name": "Aria Iceheart",
+    "race": "Human",
+    "characterClass": "Ice Mage",
+    "occupation": "Protector of the Frozen Realm",
+    "backStory": "Aria Iceheart, a skilled Ice Mage, was born in the heart of the Frosty Peaks. She has dedicated her life to mastering the icy elements to protect her homeland from any threats.",
+    "characterGroup": [
+      {
+        "unitID": "195_deep_elf_annihilator",
+        "unitName": "Elara Frostshard",
+        "health": 100,
+        "damage": 20
+      },
+      {
+        "unitID": "213_jelly",
+        "unitName": "Gelatinous Blob",
+        "health": 120,
+        "damage": 15
+      },
+      {
+        "unitID": "169_guardian_serpent_new",
+        "unitName": "Viper Guardian",
+        "health": 90,
+        "damage": 25
+      }
+    ]
+  },
+  "levels": [
+    {
+      "levelName": "Icy Caverns",
+      "tilePalette": "49_snow_hole",
+      "enemyGroups": [
+        {
+          "groupName": "Blizzard Brigade",
+          "battleStartMonologue": "You dare to challenge the might of the Frosty Peaks? Prepare to be frozen in your tracks by our icy power!",
+          "winMonologue": "Well fought, traveler. Perhaps you possess the strength to survive the frozen trials ahead.",
+          "lostMonologue": "Ha! The cold always claims the weak. Your fate is sealed in the icy embrace of the Frosty Peaks.",
+          "units": [
+            {
+              "unitID": "108_frost_giant_old",
+              "unitName": "Frostbite Giant",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "unitID": "119_hill_giant_new",
+              "unitName": "Snowstorm Hill Giant",
+              "health": 70,
+              "damage": 15
+            },
+            {
+              "unitID": "185_minotaur",
+              "unitName": "Frost Minotaur",
+              "health": 60,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Glacial Goblins",
+          "battleStartMonologue": "Intruders in our frozen domain? The Glacial Goblins will make quick work of you!",
+          "winMonologue": "Impressive! You have bested the Glacial Goblins. But can you withstand the true chill of the Frosty Peaks?",
+          "lostMonologue": "The Frosty Peaks claim another victim. Your bones will freeze in the depths of our icy caverns.",
+          "units": [
+            {
+              "unitID": "158_hobgoblin_old",
+              "unitName": "Frostbite Hobgoblin",
+              "health": 45,
+              "damage": 9
+            },
+            {
+              "unitID": "186_titan_new",
+              "unitName": "Frozen Titan",
+              "health": 75,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Avalanche Orcs",
+          "battleStartMonologue": "The Avalanche Orcs will crush you like the falling snow! Prepare for a cold defeat!",
+          "winMonologue": "You have proven yourself against the Avalanche Orcs. But can you survive the true blizzard coming your way?",
+          "lostMonologue": "The Frosty Peaks do not forgive trespassers. Your fate is sealed by the icy winds of our mountains.",
+          "units": [
+            {
+              "unitID": "071_giant_amoeba_old",
+              "unitName": "Frozen Amoeba",
+              "health": 40,
+              "damage": 8
+            },
+            {
+              "unitID": "163_ettin_old",
+              "unitName": "Blizzard Ettin",
+              "health": 80,
+              "damage": 16
+            }
+          ]
+        },
+        {
+          "groupName": "Snowflake Spirits",
+          "battleStartMonologue": "The Snowflake Spirits dance through the air, bringing a frosty demise to all who challenge them!",
+          "winMonologue": "You have melted the icy hearts of the Snowflake Spirits. But can you withstand the blizzard's true fury?",
+          "lostMonologue": "The Snowflake Spirits leave no survivors. Your essence will become one with the eternal snow.",
+          "units": [
+            {
+              "unitID": "140_salamander_firebrand",
+              "unitName": "Frozen Salamander",
+              "health": 55,
+              "damage": 11
+            },
+            {
+              "unitID": "145_hill_giant_old",
+              "unitName": "Snowfall Giant",
+              "health": 85,
+              "damage": 17
+            }
+          ]
+        },
+        {
+          "groupName": "Icicle Imps",
+          "battleStartMonologue": "The Icicle Imps will pierce your heart with icy shards! Tremble before our frosty power!",
+          "winMonologue": "You have shattered the Icicle Imps with your strength. But can you survive the cold embrace of the Frosty Peaks?",
+          "lostMonologue": "Your warmth fades in the presence of the Icicle Imps. The Frosty Peaks claim another victim.",
+          "units": [
+            {
+              "unitID": "084_deep_elf_priest",
+              "unitName": "Frost Priest",
+              "health": 65,
+              "damage": 13
+            },
+            {
+              "unitID": "100_merfolk_plain",
+              "unitName": "Frozen Merfolk",
+              "health": 95,
+              "damage": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frozen Citadel",
+      "tilePalette": "50_snow_lava",
+      "enemyGroups": [
+        {
+          "groupName": "Blizzard Behemoths",
+          "battleStartMonologue": "Behold the might of the Blizzard Behemoths! Your end comes swiftly in the freezing winds of the Frosty Peaks.",
+          "winMonologue": "Impressive, traveler. You have bested the Blizzard Behemoths. Now face the true challenge that lies ahead.",
+          "lostMonologue": "The Blizzard Behemoths do not tolerate weakness. Your fate is frozen in the icy heart of the mountains.",
+          "units": [
+            {
+              "unitID": "108_frost_giant_old",
+              "unitName": "Blizzard Giant",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "unitID": "186_titan_new",
+              "unitName": "Frozen Titan",
+              "health": 75,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Icebound Trolls",
+          "battleStartMonologue": "Prepare to be frozen solid by the Icebound Trolls! Your warmth will be a distant memory in our icy domain.",
+          "winMonologue": "You have thawed the Icebound Trolls. But can you withstand the true chill of the Frozen Citadel?",
+          "lostMonologue": "The Frozen Citadel claims another victim. Your fate is sealed in the icy embrace of the Frosty Peaks.",
+          "units": [
+            {
+              "unitID": "159_yaktaur_captain-melee_old",
+              "unitName": "Frostbite Yaktaur Captain",
+              "health": 55,
+              "damage": 11
+            },
+            {
+              "unitID": "175_big_kobold_new",
+              "unitName": "Icy Kobold",
+              "health": 85,
+              "damage": 17
+            }
+          ]
+        },
+        {
+          "groupName": "Snowstorm Shamans",
+          "battleStartMonologue": "The Snowstorm Shamans call upon the blizzard to strike you down! Feel the chill of our icy magic!",
+          "winMonologue": "You have weathered the Snowstorm Shamans' wrath. But can you endure the true frost of the Frozen Citadel?",
+          "lostMonologue": "Your warmth fades before the Snowstorm Shamans' power. The Frozen Citadel claims another victim.",
+          "units": [
+            {
+              "unitID": "170_deep_elf_master_archer",
+              "unitName": "Frost Archer",
+              "health": 60,
+              "damage": 12
+            },
+            {
+              "unitID": "190_spriggan_enchanter",
+              "unitName": "Icy Spriggan",
+              "health": 90,
+              "damage": 18
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Wyverns",
+          "battleStartMonologue": "The Frozen Wyverns will swoop down from the icy skies to freeze you in your tracks! Prepare for a frosty demise!",
+          "winMonologue": "You have grounded the Frozen Wyverns. But can you endure the true cold of the Frozen Citadel?",
+          "lostMonologue": "The Frozen Wyverns leave no survivors in their icy wake. Your fate is sealed by the frosty winds.",
+          "units": [
+            {
+              "unitID": "136_lindwurm",
+              "unitName": "Icy Lindwurm",
+              "health": 65,
+              "damage": 13
+            },
+            {
+              "unitID": "156_stone_giant_new",
+              "unitName": "Frozen Stone Giant",
+              "health": 95,
+              "damage": 19
+            }
+          ]
+        },
+        {
+          "groupName": "Blizzard Banshees",
+          "battleStartMonologue": "The chilling wails of the Blizzard Banshees will freeze your very soul! Tremble before our icy wrath!",
+          "winMonologue": "You have silenced the Blizzard Banshees' icy cries. But can you survive the true blizzard's fury?",
+          "lostMonologue": "Your warmth fades in the presence of the Blizzard Banshees. The Frozen Citadel claims another victim.",
+          "units": [
+            {
+              "unitID": "147_deep_troll_berserker",
+              "unitName": "Frost Berserker",
+              "health": 70,
+              "damage": 14
+            },
+            {
+              "unitID": "171_siren_water_new",
+              "unitName": "Icy Siren",
+              "health": 100,
+              "damage": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

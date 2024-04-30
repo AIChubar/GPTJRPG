@@ -15,6 +15,12 @@ using UnityEngine;
     public class GroupData
     {
         public string name;
+
+        public string battleStartMonologue;
+        
+        public string winMonologue;
+
+        public string lostMonologue;
         
         public List<UnitData> units;
     }

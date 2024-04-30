@@ -8,44 +8,41 @@
   "mainCharacter": {
     "name": "Placeholder",
     "race": "Placeholder",
-    "characterGroup" :
-    {
-      "groupName": "Placeholder",
-      "units" :
-      [
-
-        {
-          "unitID": "Placeholder",
-          "unitName": "Placeholder",
-          "health": 0,
-          "damage": 0
-        },
-        {
-          "unitID": "Placeholder",
-          "unitName": "Placeholder",
-          "health": 0,
-          "damage": 0
-        },
-        {
-          "unitID": "Placeholder",
-          "unitName": "Placeholder",
-          "health": 0,
-          "damage": 0
-        }
-      ]
-},
     "characterClass": "Placeholder",
     "occupation": "Placeholder",
-    "backStory": "Placeholder"
+    "backStory": "Placeholder",
+    "characterGroup" :
+    [
+      {
+        "unitID": "Placeholder",
+        "unitName": "Placeholder",
+        "health": 0,
+        "damage": 0
+      },
+      {
+        "unitID": "Placeholder",
+        "unitName": "Placeholder",
+        "health": 0,
+        "damage": 0
+      },
+      {
+        "unitID": "Placeholder",
+        "unitName": "Placeholder",
+        "health": 0,
+        "damage": 0
+      }
+    ]
   },
   "levels": [
     {
       "levelName": "Placeholder",
-      "friendlyCharacter": "Placeholder",
-      "monologue": "Placeholder",
+      "tilePalette" : "Placeholder",
       "enemyGroups": [
         {
           "groupName": "Placeholder",
+          "battleStartMonologue" : "Placeholder",
+          "winMonologue" : "Placeholder",
+          "lostMonologue" : "Placeholder",
           "units": [
             {
               "unitID": "Placeholder",
@@ -55,8 +52,7 @@
             }
           ]
         }
-      ],
-      "tilePalette" : "Placeholder"
+      ]
     }
   ]
 }

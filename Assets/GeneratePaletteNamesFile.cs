@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class GeneratePaletteNamesFile : MonoBehaviour
 {
-    [MenuItem("Tools/Generate palette list file")]
+    /*[MenuItem("Tools/Generate palette list file")]
     public static void GenerateFile()
     {
         var info = new DirectoryInfo(Application.dataPath + @"/TilePalettes/Palettes");
@@ -22,5 +22,5 @@ public class GeneratePaletteNamesFile : MonoBehaviour
                 writer.WriteLine(fileName.Substring(0, file.Name.Length - 7));
             }
         }
-    }
+    }*/
 }

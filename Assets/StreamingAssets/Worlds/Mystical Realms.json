@@ -1,0 +1,255 @@
+{
+  "narrativeData": {
+    "worldName": "Mystical Realms",
+    "story": "In the land of Mystical Realms, powerful magic and ancient creatures coexist. The balance of the world is threatened, and heroes must rise to protect it.",
+    "greetingGameMessage": "Welcome to the Mystical Realms! Get ready to embark on an epic adventure filled with danger and magic.",
+    "finalGameMessage": "Congratulations on completing your journey in the Mystical Realms. The world is now safe thanks to your bravery."
+  },
+  "mainCharacter": {
+    "name": "Aria Moonshadow",
+    "race": "Elf",
+    "characterClass": "Ranger",
+    "occupation": "Guardian of the Forest",
+    "backStory": "Aria Moonshadow, an expert archer, has dedicated her life to protecting the ancient forests of Mystical Realms from dark forces.",
+    "characterGroup": [
+      {
+        "unitID": "001_centaur_warrior",
+        "unitName": "Centaur Warrior",
+        "health": 80,
+        "damage": 18
+      },
+      {
+        "unitID": "032_merfolk_javelineer_water_old",
+        "unitName": "Merfolk Javelineer",
+        "health": 75,
+        "damage": 15
+      },
+      {
+        "unitID": "086_merfolk_javelineer_old",
+        "unitName": "Merfolk Javelineer",
+        "health": 75,
+        "damage": 15
+      }
+    ]
+  },
+  "levels": [
+    {
+      "levelName": "Enchanted Forest",
+      "tilePalette": "23_grass_water",
+      "enemyGroups": [
+        {
+          "groupName": "Forest Guardians",
+          "battleStartMonologue": "You dare enter our sacred forest, human? Prepare to face the wrath of the guardians that protect these lands!",
+          "winMonologue": "Impressive, human. You have proven yourself worthy to walk among the trees. Leave in peace, and may you remember the strength of the forest.",
+          "lostMonologue": "Your kind has brought destruction to our home. Now face the consequences of your actions as the forest claims its vengeance.",
+          "units": [
+            {
+              "unitID": "145_hill_giant_old",
+              "unitName": "Hill Giant",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "unitID": "109_orc_sorcerer_new",
+              "unitName": "Orc Sorcerer",
+              "health": 55,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Serpent Sirens",
+          "battleStartMonologue": "Mortals intrude upon our waters? You shall feel the icy embrace of the deep if you dare challenge the Serpent Sirens!",
+          "winMonologue": "You have bested us, land-dweller. Take your victory and leave, but remember the Serpent Sirens of the deep.",
+          "lostMonologue": "Foolish surface-dweller, you should have stayed in your world. Now, face the punishment for your arrogance.",
+          "units": [
+            {
+              "unitID": "171_siren_water_new",
+              "unitName": "Siren",
+              "health": 60,
+              "damage": 13
+            },
+            {
+              "unitID": "101_cyclops_new",
+              "unitName": "Cyclops",
+              "health": 52,
+              "damage": 11
+            }
+          ]
+        },
+        {
+          "groupName": "Shadow Guardians",
+          "battleStartMonologue": "Intruder, your presence casts a shadow upon our realm. Prepare to face the darkness that lurks within the enchanted forest!",
+          "winMonologue": "You have proven yourself strong, mortal. The shadows retreat for now, but remember the darkness that lies within the forest.",
+          "lostMonologue": "Your light is extinguished, intruder. The shadows claim another victim, lost in the depths of the enchanted forest.",
+          "units": [
+            {
+              "unitID": "022_shadow_imp",
+              "unitName": "Shadow Imp",
+              "health": 45,
+              "damage": 9
+            },
+            {
+              "unitID": "093_deep_elf_sorcerer",
+              "unitName": "Deep Elf Sorcerer",
+              "health": 58,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Ancient Treants",
+          "battleStartMonologue": "Interlopers, you disturb the peace of the forest. Prepare to face the ancient guardians that have stood for eons!",
+          "winMonologue": "Respect the balance, travelers. The ancient Treants acknowledge your strength. Leave, and do not disturb the forest again.",
+          "lostMonologue": "Your actions have consequences, intruders. The forest mourns your intrusion as you become one with the earth.",
+          "units": [
+            {
+              "unitID": "150_phoenix",
+              "unitName": "Phoenix",
+              "health": 65,
+              "damage": 14
+            },
+            {
+              "unitID": "129_rock_troll",
+              "unitName": "Rock Troll",
+              "health": 53,
+              "damage": 11
+            }
+          ]
+        },
+        {
+          "groupName": "Enchanted Guardians",
+          "battleStartMonologue": "You are not welcome in our domain, outsiders. Feel the magic of the enchanted forest as it strikes back against your intrusion!",
+          "winMonologue": "Your strength is undeniable, travelers. The forest recognizes your valor. Leave now, and do not return.",
+          "lostMonologue": "The magic of the forest prevails, intruders. Your kind will never understand the true power of nature.",
+          "units": [
+            {
+              "unitID": "206_orc_high_priest_old",
+              "unitName": "Orc High Priest",
+              "health": 55,
+              "damage": 12
+            },
+            {
+              "unitID": "192_siren_water_old",
+              "unitName": "Siren",
+              "health": 60,
+              "damage": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Crystal Caverns",
+      "tilePalette": "04_dark-grass_deep-dark-hole",
+      "enemyGroups": [
+        {
+          "groupName": "Crystal Golems",
+          "battleStartMonologue": "Intruders in the Crystal Caverns? You shall face the might of the Crystal Golems, guardians of the underground realm!",
+          "winMonologue": "You have shattered our defenses, surface-dwellers. Leave the Crystal Caverns in peace, but remember the strength of the earth.",
+          "lostMonologue": "Your presence soils our sacred caverns, intruders. Now, become one with the crystals as your essence merges with the earth.",
+          "units": [
+            {
+              "unitID": "181_giant_amoeba_new",
+              "unitName": "Giant Amoeba",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "unitID": "077_merfolk_plain_water",
+              "unitName": "Merfolk",
+              "health": 65,
+              "damage": 14
+            },
+            {
+              "unitID": "046_deep_dwarf_artificer",
+              "unitName": "Deep Dwarf Artificer",
+              "health": 70,
+              "damage": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Lava Elementals",
+          "battleStartMonologue": "Foolish mortals, you dare to challenge the Lava Elementals of the Crystal Caverns? Prepare to be consumed by the flames!",
+          "winMonologue": "Your strength is unmatched, travelers. The Lava Elementals yield to your power. Leave now, and do not disturb the fiery depths again.",
+          "lostMonologue": "Your arrogance leads to your demise, intruders. The flames of the caverns will be your eternal prison.",
+          "units": [
+            {
+              "unitID": "030_deep_elf_demonologist",
+              "unitName": "Deep Elf Demonologist",
+              "health": 72,
+              "damage": 15
+            },
+            {
+              "unitID": "031_merfolk_javelineer_new",
+              "unitName": "Merfolk Javelineer",
+              "health": 75,
+              "damage": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Spirits",
+          "battleStartMonologue": "Interlopers, your presence disrupts the harmony of the Crystal Caverns. Prepare to face the ethereal guardians that dwell in the depths!",
+          "winMonologue": "You have proven yourselves worthy, surface-dwellers. The Crystal Spirits acknowledge your strength. Leave now, and disturb the caverns no more.",
+          "lostMonologue": "Your intrusion brings discord to the depths, intruders. Now, become part of the crystal essence and fade into eternity.",
+          "units": [
+            {
+              "unitID": "153_glowing_shapeshifter",
+              "unitName": "Glowing Shapeshifter",
+              "health": 58,
+              "damage": 12
+            },
+            {
+              "unitID": "058_formicid_venom_mage",
+              "unitName": "Formicid Venom Mage",
+              "health": 62,
+              "damage": 13
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Crystals",
+          "battleStartMonologue": "Trespassers in the realm of the Dark Crystals? You shall face the wrath of the shadows that lurk in the depths!",
+          "winMonologue": "Impressive, travelers. The Dark Crystals bow to your strength. Leave now, and let the shadows return to their slumber.",
+          "lostMonologue": "Your presence darkens our realm, intruders. Now, become one with the shadows as your essence fades into darkness.",
+          "units": [
+            {
+              "unitID": "033_elf_new",
+              "unitName": "Elf",
+              "health": 60,
+              "damage": 13
+            },
+            {
+              "unitID": "018_hell_knight_old",
+              "unitName": "Hell Knight",
+              "health": 55,
+              "damage": 12
+            }
+          ]
+        },
+        {
+          "groupName": "Crystal Guardians",
+          "battleStartMonologue": "You are not welcome in the Crystal Caverns, outsiders. Feel the power of the earth as it rises to defend its domain against your intrusion!",
+          "winMonologue": "Your strength is undeniable, surface-dwellers. The Crystal Guardians yield to your might. Leave now, and disturb the caverns no more.",
+          "lostMonologue": "The crystals reject your presence, intruders. Now, let the earth claim you as its own and bury you in its depths.",
+          "units": [
+            {
+              "unitID": "004_kobold_new",
+              "unitName": "Kobold",
+              "health": 50,
+              "damage": 10
+            },
+            {
+              "unitID": "110_halfling_new",
+              "unitName": "Halfling",
+              "health": 55,
+              "damage": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

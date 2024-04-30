@@ -19,8 +19,9 @@ public class WorldEnemy : MonoBehaviour
             GameManager.gameManager.gameData.AssignAllyGroup(bm.allyGroup);
             
             GameManager.gameManager.gameData.AssignEnemyGroup(groupData);
+            
+            GameManager.gameManager.pauseMenu.ShowBattleStartMenu();
 
-            SceneController.LoadScene(2, 1, 1, 0.2f, true);
             
             Destroy(gameObject, 0.1f);
         }

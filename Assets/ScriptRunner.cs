@@ -1,13 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
 
 public class ScriptRunner : MonoBehaviour
@@ -71,8 +68,7 @@ public class ScriptRunner : MonoBehaviour
                                 return false;
                             enemy.unitID = rightID;
                         }
-
-            foreach (var ally in world.mainCharacter.characterGroup.units)
+            foreach (var ally in world.mainCharacter.characterGroup)
             {
                 if (!_units.Contains(ally.unitID))
                 {
@@ -95,11 +91,9 @@ public class ScriptRunner : MonoBehaviour
 
     IEnumerator RunScriptAndManageObject()
     {
-        // Activate the object 1 second before launching the PowerShell script
         creating.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.2f); // because animation is not working while world is creating
 
-        // Run the script
         var scriptArguments = "-ExecutionPolicy Bypass -File \"" + Application.streamingAssetsPath + @"/API/PSscript.ps1" + "\"";
         var processStartInfo = new ProcessStartInfo("powershell.exe", scriptArguments);
         processStartInfo.RedirectStandardOutput = true;
@@ -133,7 +127,6 @@ public class ScriptRunner : MonoBehaviour
                 catch (Exception e)
                 {
                     Debug.LogError("Not JSON parsable output: \n" + output);
-                    throw;
                 }
             } while (world == null || !CheckUnits(world));
             WorldManager.worldManager.Worlds.Add(world.narrativeData.worldName, world);
@@ -143,7 +136,6 @@ public class ScriptRunner : MonoBehaviour
         yield return new WaitForSeconds(0.33f);
         creating.SetActive(false);
 
-        // Add new button after deactivating the object
     }
 
     private void AddNewButton(string name)
