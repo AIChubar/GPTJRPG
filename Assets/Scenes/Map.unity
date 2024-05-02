@@ -43278,6 +43278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb6f7320f38ddc4fb9495ee71c073d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floatingTextPrefab: {fileID: 2565669696399079339, guid: d069c1bee5e8b8f4c938cf8ca0b2fab3, type: 3}
   gameData: {fileID: 648611195}
   unitsData: {fileID: 11400000, guid: b509851541efae54288408ccff37c27e, type: 2}
   transitioning: 0

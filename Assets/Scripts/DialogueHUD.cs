@@ -54,7 +54,7 @@ public class DialogueHUD : MonoBehaviour
         foreach (var t in _monologueString)
         {
             monologueText.text += t;
-            yield return 0.15f;
+            yield return new WaitForSecondsRealtime(0.033f);
         }
         continueButton.interactable = true;
         _continueText.color = new Color(1, 1, 1, 1f);

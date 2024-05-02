@@ -5,10 +5,13 @@ using UnityEngine.U2D;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject floatingTextPrefab;
+    
     public GameData gameData;
     
     public UnitsData unitsData;
 
+    [HideInInspector]
     public bool transitioning = false;
 
     public BattleSystem.BattleState battleResult = BattleSystem.BattleState.START;

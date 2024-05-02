@@ -71,8 +71,6 @@ public class SceneController : MonoBehaviour
             yield return null;
         }
         
-        yield return new WaitForSeconds(waitTime/2f);
-
         if (additive)
         {
             SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
@@ -90,9 +88,7 @@ public class SceneController : MonoBehaviour
                 SceneManager.LoadSceneAsync(index);
         }
         
-
-        yield return new WaitForSeconds(waitTime/2f);
-
+        yield return new WaitForSeconds(waitTime);
 
         for (float t = 0; t < 1; t += Time.deltaTime / openingDuration)
         {

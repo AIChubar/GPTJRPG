@@ -19,13 +19,21 @@ public class Unit : MonoBehaviour
     public void ChangeCurrentHP(int hp)
     {
         unitData.currentHP += hp;
-        GameEvents.gameEvents.UnitHPChanged(this);
+        SpawnDamageText(hp);
         if (unitData.currentHP <= 0)
         {
             unitData.currentHP = 0;
+            GameEvents.gameEvents.UnitHPChanged(this);
             GameEvents.gameEvents.UnitKilled(this);
             StartCoroutine(DeathAnimation(0.5f));
         }
+    }
+
+    //works only for receiving damage
+    private void SpawnDamageText(int hp)
+    {
+        var obj = Instantiate(GameManager.gameManager.floatingTextPrefab, transform.position + new Vector3(0f, 0.7f), Quaternion.identity, transform);
+        obj.GetComponent<FloatingText>().LaunchText(hp);
     }
     
     private IEnumerator DeathAnimation(float duration)
