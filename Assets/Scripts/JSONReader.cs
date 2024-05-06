@@ -39,6 +39,16 @@ public class JSONReader : MonoBehaviour
         public string levelName;
         public string tilePalette;
         public UnitGroup[] enemyGroups;
+        public QuestJSON[] questList;
+
+    }
+    [System.Serializable]
+    public class QuestJSON
+    {
+        public string questName;
+        public string questType;
+        public string questObjective;
+        public int objectiveNum;
     }
 
     [System.Serializable]

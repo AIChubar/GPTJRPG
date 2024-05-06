@@ -7,9 +7,11 @@ units_file = open("enemies.txt", "r")
 tile_palettes_file = open("palettes.txt", "r")
 existingWorlds = os.listdir(os.path.join(os.pardir, "Worlds"))
 
+
 structure_content = structure_file.read()
 units_content = units_file.read()
 palettes_content = tile_palettes_file.read()
+
 
 response = openai.chat.completions.create(
     model="gpt-3.5-turbo-0125",

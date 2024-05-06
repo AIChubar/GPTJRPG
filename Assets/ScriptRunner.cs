@@ -11,31 +11,10 @@ public class ScriptRunner : MonoBehaviour
 {
     public GameObject creating;
 
-    private List<string> _units = new List<string>(); 
     
     void Start()
     {
-        using StreamReader sr = new StreamReader(Application.streamingAssetsPath + "/API/enemies.txt");
-        while (sr.ReadLine() is { } line)
-        {
-            _units.Add(line);
-        }
         
-        var info = new DirectoryInfo(Application.streamingAssetsPath + @"/Worlds");
-        var fileInfo = info.GetFiles();
-        foreach (var file  in fileInfo)
-        {
-            var fileName = file.Name;
-            if (fileName.Contains(".meta"))
-                continue;
-            var worldName = file.Name.Substring(0, file.Name.Length - 5);
-            var jsonWorld =
-                JsonUtility.FromJson<JSONReader.GameWorld>(File.ReadAllText(Application.streamingAssetsPath + "/Worlds/" + fileName));
-            if (!CheckUnits(jsonWorld))
-                continue;
-            WorldManager.worldManager.Worlds.Add(worldName, jsonWorld);
-            WorldManager.worldManager.AddButton(worldName);
-        }
     }
 
     public void GenerateNewWorld()
@@ -53,41 +32,7 @@ public class ScriptRunner : MonoBehaviour
         Destroy(WorldManager.worldManager.currentWorld.gameObject);
     }
 
-    private bool CheckUnits(JSONReader.GameWorld world)
-    {
-        try
-        {
-            foreach (var level in world.levels)
-                foreach (var group in level.enemyGroups)
-                    foreach (var enemy in group.units)
-                        if (!_units.Contains(enemy.unitID))
-                        {
-                            var withoutNum = enemy.unitID.Substring(enemy.unitID.IndexOf('_') + 1);
-                            string rightID = _units.FirstOrDefault(stringToCheck => stringToCheck.Contains(withoutNum));
-                            if (rightID == null)
-                                return false;
-                            enemy.unitID = rightID;
-                        }
-            foreach (var ally in world.mainCharacter.characterGroup)
-            {
-                if (!_units.Contains(ally.unitID))
-                {
-                    var withoutNum = ally.unitID.Substring(ally.unitID.IndexOf('_') + 1);
-                    string rightID = _units.FirstOrDefault(stringToCheck => stringToCheck.Contains(withoutNum));
-                    if (rightID == null)
-                        return false;
-                    ally.unitID = rightID;
-                }
-            }
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return false;
-        }
-        
-        return true;
-    }
+    
 
     IEnumerator RunScriptAndManageObject()
     {
@@ -128,7 +73,7 @@ public class ScriptRunner : MonoBehaviour
                 {
                     Debug.LogError("Not JSON parsable output: \n" + output);
                 }
-            } while (world == null || !CheckUnits(world));
+            } while (world == null || !WorldManager.worldManager.CheckUnits(world));
             WorldManager.worldManager.Worlds.Add(world.narrativeData.worldName, world);
             AddNewButton(world.narrativeData.worldName);
         }

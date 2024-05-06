@@ -52,6 +52,14 @@
             }
           ]
         }
+      ],
+      "questList" : [
+        {
+          "questName" : "Placeholder", 
+          "questType" : "Placeholder",
+          "questObjective" : "Placeholder",
+          "objectiveNum" : 0
+        }
       ]
     }
   ]

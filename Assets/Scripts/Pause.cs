@@ -6,11 +6,12 @@ using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
 {
-    public enum UIState { WIN, GAMEOVER, BATTLESTART, ESCPAUSE, UNPAUSED, HEROINFO, GROUPINFO }
+    public enum UIState { WIN, GAMEOVER, BATTLESTART, ESCPAUSE, UNPAUSED, HEROINFO, GROUPINFO, QUESTMENU }
 
     [Header("UI Elements")]
     [SerializeField] private GameObject pauseCanvas;
     [SerializeField] private GameObject winMenu;
+    [SerializeField] private GameObject questMenu;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject loseMenu;
     [SerializeField] private GameObject heroInfoMenu;
@@ -59,6 +60,8 @@ public class Pause : MonoBehaviour
         loseMenu.SetActive(currentState == UIState.GAMEOVER);
         heroInfoMenu.SetActive(currentState == UIState.HEROINFO);
         groupInfoMenu.SetActive(currentState == UIState.GROUPINFO);
+        questMenu.SetActive(currentState == UIState.QUESTMENU);
+
     }
 
     public void ShowBattleStartMenu()
@@ -96,6 +99,12 @@ public class Pause : MonoBehaviour
     public void ShowHeroInfoMenu()
     {
         currentState = UIState.HEROINFO;
+        UpdateUI();
+    }
+    
+    public void ShowQuestMenu()
+    {
+        currentState = UIState.QUESTMENU;
         UpdateUI();
     }
     
