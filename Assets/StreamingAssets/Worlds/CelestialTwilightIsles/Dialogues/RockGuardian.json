@@ -1,0 +1,140 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "golem",
+      "thirdAttribute": "stone",
+      "characteristicName": "Stone Golem",
+      "artisticName": "Rock Guardian"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 20,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Halt! You dare trespass the domain of the Rock Guardian, puny mortal. State your purpose before my wrath befalls upon you.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "We come in peace, seeking knowledge and wisdom.",
+        "enemyAnswer": "Peace? Knowledge and wisdom? Your kind knows nothing of such virtues. Begone or suffer the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We mean no harm, we will leave peacefully.",
+            "enemyAnswer": "Your feeble attempts to deceive me are in vain. I see through your facade. Leave now before I crush you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, we will retreat.",
+                "enemyAnswer": "Pathetic. Begone from my sight, and do not return, lest you face true destruction.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "We will not back down!",
+                "enemyAnswer": "So be it. Prepare to face the wrath of the Rock Guardian!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "We seek an alliance with the mighty Rock Guardian.",
+            "enemyAnswer": "An alliance? Ha! Your race is too feeble to be considered as an ally to the likes of me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We will prove our worth to you.",
+                "enemyAnswer": "Foolish mortals. I have no interest in your worthless attempts. Leave now",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "We will leave, respecting your power.",
+                "enemyAnswer": "A wise decision. Leave now before my patience wears thin.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "We challenge you to a battle of strength and wit!",
+            "enemyAnswer": "A challenge? Bold words from such weak beings. Very well, let us see if you can survive my might.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare yourself for defeat!",
+                "enemyAnswer": "Defeat? The only defeat here will be yours. Face the consequences of your foolishness!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "We will not engage in battle.",
+                "enemyAnswer": "Cowards! I expected as much from your kind. Leave before I lose my patience.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "We come to challenge the Rock Guardian and prove our strength.",
+        "enemyAnswer": "Challenge me? Mortals have grown more foolish than I thought. You will regret your words.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We seek to test our abilities against your power.",
+            "enemyAnswer": "Your abilities are nothing compared to the might of the Rock Guardian. Prepare to face your defeat.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We will not back down!",
+                "enemyAnswer": "So be it. Face the consequences of your arrogance!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "We will leave in peace.",
+                "enemyAnswer": "Peace? There will be no peace as long as you challenge me. Face your punishment!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "We apologize for the misunderstanding, we will leave peacefully.",
+            "enemyAnswer": "Apologies will not save you now. Prepare to face the wrath of the Rock Guardian.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We will retreat.",
+                "enemyAnswer": "A wise choice. Leave now, and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "We will stand and fight!",
+                "enemyAnswer": "Insignificant creatures. Prepare for your final moments.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "We seek to learn from the legendary Rock Guardian.",
+        "enemyAnswer": "Learn from me? Mortals like you seek knowledge but lack the capacity to understand. Leave before I lose my patience.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We will leave, respecting your power.",
+            "enemyAnswer": "A wise decision. Leave now before my wrath is unleashed.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "We challenge you to a battle of wits.",
+            "enemyAnswer": "A battle of wits? You are clearly outmatched. Prepare for your defeat.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "We apologize for any offense, we will leave in peace.",
+            "enemyAnswer": "Apologies are meaningless. Leave now, and do not return.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

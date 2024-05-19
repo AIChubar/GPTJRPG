@@ -15,20 +15,19 @@ public class  LevelGenerator : MonoBehaviour
     
     public GameObject enemyPrefab;
     
-    private UnitsData _unitsData;
-    
     // Start is called before the first frame update
     void Start()
     {
-        _unitsData = GameManager.gameManager.unitsData;
-        foreach (var i in _unitsData.enemyGroups)
+        var unitsGroups = GameManager.gameManager.world.unitsData.levelsUnits[GameManager.gameManager.levelIndex].enemyGroups;
+        foreach (var i in unitsGroups)
         {
-            SpawnObject(i);
+            var di = GameManager.gameManager.world.dialogues[i.units[0].artisticName];
+            SpawnObject(i, di);
         }
 
     }
     // only enemies
-    private void SpawnObject(GroupData gd)
+    private void SpawnObject(JSONReader.UnitGroup gd, JSONReader.DialogueInfo di)
     {
         Vector3 pos = new Vector3(Random.Range(topLeft.position.x, bottomRight.position.x),
             Random.Range(bottomRight.position.y, topLeft.position.y), 1f);
@@ -53,11 +52,11 @@ public class  LevelGenerator : MonoBehaviour
         
         var sp = ob.GetComponent<SpriteRenderer>();
 
-        sp.sprite = GameManager.gameManager.atlas.GetSprite(gd.units[0].id.Substring(gd.units[0].id.IndexOf('_') + 1));
+        sp.sprite = GameManager.gameManager.GetSprite(gd.units[0]);
         
         var we = ob.GetComponent<WorldEnemy>();
         
-        we.SetGroup(gd);
+        we.SetGroup(gd, di);
 
         //ob.transform.SetParent(parent.transform);
 

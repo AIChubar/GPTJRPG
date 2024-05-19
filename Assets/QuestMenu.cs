@@ -21,12 +21,12 @@ public class QuestMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var questList = GameManager.gameManager.world.levels[GameManager.gameManager.levelIndex].questList;
+        //var questList = GameManager.gameManager.world.levels[GameManager.gameManager.levelIndex].questList;
 
-        foreach (var quest in questList)
+        /*foreach (var quest in questList)
         {
             AddButton(quest);
-        }
+        }*/
     }
     
     public void OnClicked(GameObject button)

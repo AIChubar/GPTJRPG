@@ -1,0 +1,130 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "wyvern",
+      "thirdAttribute": "",
+      "characteristicName": "Wyvern",
+      "artisticName": "Sky Terror"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 15,
+      "morality": 15,
+      "chaoticity": 90
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Hssss! Who dares to venture into my domain? Speak quickly or face my wrath!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace, you say? Do not think your words will sway me. Why should I trust you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand your caution. I will leave you in peace.",
+            "enemyAnswer": "Leave then, and do not return. This is your only warning.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave and not come back.",
+                "enemyAnswer": "Good. If you value your life, stay away from the skies I rule.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I challenge you to a fight!",
+                "enemyAnswer": "Ah, a daring one, I see. Prepare to face the terror of the skies!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Trust me, I seek no trouble.",
+            "enemyAnswer": "Trust is not easily given, especially to one who trespasses. Convince me of your intentions.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer you a gift as a gesture of peace.",
+                "enemyAnswer": "A gift? Interesting. Show me what you have, and maybe, just maybe, I will consider.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have nothing to prove to you. Let's end this.",
+                "enemyAnswer": "Stubborn one, aren't you? Very well, your fate lies in your own hands.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek power and will take it by force if necessary.",
+        "enemyAnswer": "Power-hungry, are you? Your kind is unwelcome here. What do you seek?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek to challenge you for dominion over the skies.",
+            "enemyAnswer": "Bold words, challenger. I accept your challenge. Prepare for a battle like no other!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let's settle this in combat!",
+                "enemyAnswer": "As you wish. The skies will bear witness to your defeat.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will back down. The skies are yours to rule.",
+                "enemyAnswer": "Wise decision. Know your place and stay out of my sight.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek knowledge of the ancient wyverns. Share your wisdom with me.",
+            "enemyAnswer": "Knowledge-seeker, eh? The ancient wyverns are not a tale for the likes of you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I respect your decision. Farewell.",
+                "enemyAnswer": "Farewell, seeker of knowledge. Leave this place and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I demand to know the secrets of the wyverns!",
+                "enemyAnswer": "Demanding and foolish. You will learn nothing but regret.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am just passing through. I mean no harm to you or your kind.",
+        "enemyAnswer": "Passing through, you say? Hmph, your kind always brings trouble with them. Prove your words.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will continue on my journey without causing any disturbances.",
+            "enemyAnswer": "If your words are true, then be on your way. Do not linger in these skies.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully. Farewell.",
+                "enemyAnswer": "Farewell, stranger. Do not cross my path again.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to leave! These skies are for all to roam!",
+                "enemyAnswer": "Defiant till the end, I see. Prepare to face the consequences of your arrogance.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no time for this. Farewell.",
+            "enemyAnswer": "Hmph, impatient one. Leave quickly before I decide to make you leave.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

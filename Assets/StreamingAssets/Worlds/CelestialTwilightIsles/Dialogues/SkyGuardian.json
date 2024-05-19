@@ -1,0 +1,103 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "birdlike",
+      "secondAttribute": "griffon",
+      "thirdAttribute": "",
+      "characteristicName": "Griffon",
+      "artisticName": "Sky Guardian"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 25,
+      "strategicThinking": 75,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares to disturb the domain of the Sky Guardian!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking guidance.",
+        "enemyAnswer": "Peace? Guidance? You are nothing but an intruder. What do you seek?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge of this land's history.",
+            "enemyAnswer": "History is irrelevant to me. Begone, or face the consequences!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully.",
+                "enemyAnswer": "Wise decision. Leave now and never return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I challenge you to battle!",
+                "enemyAnswer": "You seek death then? So be it!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek your wisdom and power to aid me in my quest.",
+            "enemyAnswer": "My power is not to be trifled with. What makes you think you are worthy?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for my intrusion. I will depart.",
+                "enemyAnswer": "Your apology does not erase your trespass. Leave now!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I am a warrior seeking a strong ally. Join me in battle.",
+                "enemyAnswer": "You may be brave, but foolish. Prepare to face the might of the Sky Guardian!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge your authority.",
+        "enemyAnswer": "Bold words from an insignificant creature. State your purpose!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I challenge you to a duel for control of this territory.",
+            "enemyAnswer": "You seek to challenge me? You shall regret your arrogance!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for my disrespect. I will leave peacefully.",
+                "enemyAnswer": "Apologies do not change the disrespect you've shown. Leave at once!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Let us settle this with a battle to prove who is stronger!",
+                "enemyAnswer": "So be it. Prepare for the wrath of the Sky Guardian!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to form an alliance with you. Together, we can rule this land.",
+            "enemyAnswer": "An alliance with the Sky Guardian? You overestimate your worth. Prepare for a lesson in humility!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for my arrogance. I will leave peacefully.",
+                "enemyAnswer": "Your words do not erase your insolence. Leave now and spare yourself.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I challenge you to a duel to prove my strength and worthiness.",
+                "enemyAnswer": "You have sealed your fate with your arrogance. Face the wrath of the Sky Guardian!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

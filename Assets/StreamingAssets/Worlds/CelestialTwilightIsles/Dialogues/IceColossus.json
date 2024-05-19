@@ -1,0 +1,135 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "giant",
+      "thirdAttribute": "frost",
+      "characteristicName": "Frost Giant",
+      "artisticName": "Ice Colossus"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 20,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares to wander into my frozen domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am just passing through, no need for hostility.",
+        "enemyAnswer": "Hmph, outsiders are not welcome here. What is your purpose?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge about the ancient frost magic.",
+            "enemyAnswer": "Knowledge is power, indeed. You may stay... for now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Thank you for your hospitality.",
+                "enemyAnswer": "Do not mistake tolerance for acceptance. Be gone!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not overstay my welcome.",
+                "enemyAnswer": "Wise choice. Leave my presence.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, seeking aid against a common enemy.",
+            "enemyAnswer": "A common enemy, you say? Speak, and choose your words carefully.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we can defeat the threat that looms large.",
+                "enemyAnswer": "Alliances are forged in blood. Will you prove your worth?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I understand. I will find another solution.",
+                "enemyAnswer": "Weakness disgusts me. Leave before I change my mind.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek the legendary Frost Crystal to enhance my powers.",
+            "enemyAnswer": "The Frost Crystal is not a mere trinket for the unworthy. Prove your worthiness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will undergo any trial to prove myself.",
+                "enemyAnswer": "Bravery is commendable. But do you have the strength to withstand the trial?",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will respect your decision and leave.",
+                "enemyAnswer": "Respect is rare in these lands. You may pass.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no interest in your domain. I will leave.",
+        "enemyAnswer": "Wise choice. Leave now before you face the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Understood. I will depart immediately.",
+            "enemyAnswer": "Good. Do not return, or you will not escape.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not be threatened. Prepare for a fight.",
+            "enemyAnswer": "Foolish mortal. You shall regret your defiance!",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking your wisdom, mighty Ice Colossus.",
+        "enemyAnswer": "Wisdom comes at a price. What do you offer in return for my knowledge?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer a piece of ancient lore that might interest you.",
+            "enemyAnswer": "Interesting. Share this lore, and I shall consider your request.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Here is the tale of the Eternal Blizzard, as promised.",
+                "enemyAnswer": "Impressive. You have piqued my curiosity. Speak your request.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have nothing to offer but my gratitude.",
+                "enemyAnswer": "Gratitude is meaningless. Leave my presence.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I possess a rare artifact that may interest you.",
+            "enemyAnswer": "Artifacts intrigue me. Show me this item, and state your request.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Behold the Frozen Scepter of Ages, a gift for your assistance.",
+                "enemyAnswer": "Intriguing. You may have caught my interest. State your request.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I cannot part with this artifact.",
+                "enemyAnswer": "Stubbornness will lead to your downfall. Leave now!",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -11,7 +11,7 @@ public class Hero : MonoBehaviour
 
     [SerializeField] private float movementSpeed = 3.0f;
 
-    [HideInInspector] public GroupData allyGroup;
+    [HideInInspector] public JSONReader.UnitGroup allyGroup;
 
     [HideInInspector]
     public string heroName;
@@ -41,7 +41,9 @@ public class Hero : MonoBehaviour
 
     private void Start()
     {
-        allyGroup = GameManager.gameManager.unitsData.allyGroup;
+        allyGroup = GameManager.gameManager.world.unitsData.friendlyGroup;
+        
+        
         heroName = GameManager.gameManager.world.mainCharacter.name;
         heroRace = GameManager.gameManager.world.mainCharacter.race;
         heroClass = GameManager.gameManager.world.mainCharacter.characterClass;
@@ -52,7 +54,7 @@ public class Hero : MonoBehaviour
 
     private void GameEvents_OnUnitKilled(Unit unit)
     {
-        allyGroup.units.Remove(unit.unitData);
+        //allyGroup.units.(unit.unitInfo);
     }
     
     private void OnEnable()

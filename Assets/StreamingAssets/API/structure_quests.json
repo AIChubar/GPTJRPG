@@ -1,0 +1,17 @@
+{
+  "questLevels" : [
+    {
+      "levelName" : "",
+      "questList" : [
+        {
+          "questName" : "",
+          "questDescription" : "",
+          "questType" : "",
+          "questObjective" : "",
+          "objectiveNum" : 0
+        }
+      ]
+    },
+    ...
+  ]
+}

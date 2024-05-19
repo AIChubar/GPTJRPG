@@ -1,0 +1,75 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "orb_guardian",
+      "thirdAttribute": "",
+      "characteristicName": "Orb Guardian",
+      "artisticName": "Orb Sentinel"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 80,
+      "indifference": 15,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "What business do you have disturbing my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "We come seeking passage through this realm.",
+        "enemyAnswer": "Passage is earned through strength. How do you plan to prove yourselves?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We will engage in combat to prove our worth.",
+            "enemyAnswer": "Very well, let the battle begin!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "We are willing to negotiate and offer a tribute.",
+            "enemyAnswer": "Tribute might please some, but strength is what I truly respect. Prepare for battle!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "We mean no harm. We seek guidance to find the ancient ruins.",
+        "enemyAnswer": "Ancient ruins hold power that should not be trifled with. What compels you to seek them?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We seek knowledge and have no ill intentions.",
+            "enemyAnswer": "Knowledge may be sought, but at what cost? Leave these lands, or face the consequences!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "We understand the risks and are prepared to face them.",
+            "enemyAnswer": "Foolish bravery will be your downfall. Prepare to be tested!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "We come in peace and seek an alliance with your kind.",
+        "enemyAnswer": "Alliance? My kind does not suffer the presence of outsiders lightly. Why should I trust you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We offer our strength and loyalty in exchange for safe passage.",
+            "enemyAnswer": "Strength and loyalty are of value, but trust is not easily gained. Prove your worth if you seek alliance.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "We understand your caution. We can prove our sincerity through a test of abilities.",
+            "enemyAnswer": "A test, you say? Intriguing. Show me what you are capable of, and we may consider an alliance.",
+            "outcome": "ally"
+          }
+        ]
+      }
+    ]
+  }
+}

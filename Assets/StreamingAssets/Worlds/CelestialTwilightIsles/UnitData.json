@@ -1,0 +1,435 @@
+{
+  "friendlyGroup": {
+    "groupName": "Celestial Guardians",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "paladin",
+        "characteristicName": "Paladin Angel",
+        "artisticName": "Seraphina the Radiant"
+      },
+      {
+        "firstAttribute": "elementals",
+        "secondAttribute": "phoenix",
+        "thirdAttribute": "",
+        "characteristicName": "Phoenix",
+        "artisticName": "Blazewing"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "centaur_paladin",
+        "thirdAttribute": "",
+        "characteristicName": "Centaur Paladin",
+        "artisticName": "Arion the Valiant"
+      }
+    ]
+  },
+  "levelsUnits": [
+    {
+      "levelName": "Twilight Gardens",
+      "enemyGroups": [
+        {
+          "groupName": "Corrupted Flora",
+          "units": [
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "plant",
+              "characteristicName": "Plant Ooze",
+              "artisticName": "Vineblight"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "azure",
+              "characteristicName": "Azure Ooze",
+              "artisticName": "Blue Sludge"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "lab_rat",
+              "thirdAttribute": "",
+              "characteristicName": "Lab Rat",
+              "artisticName": "Mutant Scavenger"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Predators",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Wyvern",
+              "artisticName": "Sky Terror"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Forest Troll",
+              "artisticName": "Woodland Brute"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "entropy_weaver",
+              "thirdAttribute": "",
+              "characteristicName": "Entropy Weaver",
+              "artisticName": "Chaos Spinner"
+            }
+          ]
+        },
+        {
+          "groupName": "Mystic Avians",
+          "units": [
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "griffon",
+              "thirdAttribute": "",
+              "characteristicName": "Griffon",
+              "artisticName": "Sky Guardian"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "harpy",
+              "thirdAttribute": "",
+              "characteristicName": "Harpy",
+              "artisticName": "Wind Wailer"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "kenku_winged",
+              "thirdAttribute": "",
+              "characteristicName": "Winged Kenku",
+              "artisticName": "Feathered Scout"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Enforcers",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "knight",
+              "characteristicName": "Deep Elf Knight",
+              "artisticName": "Midnight Protector"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "mage",
+              "characteristicName": "Deep Elf Mage",
+              "artisticName": "Shadow Caster"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "gnoll",
+              "thirdAttribute": "shaman",
+              "characteristicName": "Gnoll Shaman",
+              "artisticName": "Spiritual Guide"
+            }
+          ]
+        },
+        {
+          "groupName": "Corrupted Guardians",
+          "units": [
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "orb_guardian",
+              "thirdAttribute": "",
+              "characteristicName": "Orb Guardian",
+              "artisticName": "Orb Sentinel"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "evil_eye",
+              "thirdAttribute": "",
+              "characteristicName": "Evil Eye",
+              "artisticName": "Gaze of Terror"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "jelly",
+              "thirdAttribute": "",
+              "characteristicName": "Jelly",
+              "artisticName": "Gelatinous Horror"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Dusk Caverns",
+      "enemyGroups": [
+        {
+          "groupName": "Frozen Horrors",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "frost",
+              "characteristicName": "Frost Giant",
+              "artisticName": "Ice Colossus"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Gargoyle",
+              "artisticName": "Stony Sentinel"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "crystal",
+              "characteristicName": "Crystal Elemental",
+              "artisticName": "Gleaming Shard"
+            }
+          ]
+        },
+        {
+          "groupName": "Undying Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Wraith",
+              "artisticName": "Shade Stalker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "priest",
+              "characteristicName": "Mummy Priest",
+              "artisticName": "Ancient Cultist"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Stalker Ghost",
+              "artisticName": "Haunting Specter"
+            }
+          ]
+        },
+        {
+          "groupName": "Snowbound Sentinels",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "golem",
+              "thirdAttribute": "ice",
+              "characteristicName": "Ice Golem",
+              "artisticName": "Frostbound Guardian"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "frost",
+              "characteristicName": "Frost Giant",
+              "artisticName": "Ice Colossus"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "lord",
+              "thirdAttribute": "frost",
+              "characteristicName": "Frost Lord",
+              "artisticName": "Blizzard Ruler"
+            }
+          ]
+        },
+        {
+          "groupName": "Icy Behemoths",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Hydra",
+              "artisticName": "Frost Hydra"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Lindwurm",
+              "artisticName": "Icy Serpent"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "juggernaut",
+              "thirdAttribute": "",
+              "characteristicName": "Juggernaut",
+              "artisticName": "Snowbound Titan"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Watchers",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_dwarf",
+              "thirdAttribute": "death_knight",
+              "characteristicName": "Deep Dwarf Death Knight",
+              "artisticName": "Cavernous Reaper"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "high_priest",
+              "characteristicName": "Deep Elf High Priest",
+              "artisticName": "Twilight Cleric"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "orc",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Orc Necromancer",
+              "artisticName": "Dark Conjurer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Ruins",
+      "enemyGroups": [
+        {
+          "groupName": "Molten Invaders",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Salamander",
+              "artisticName": "Inferno Serpent"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "lord",
+              "characteristicName": "Hell Knight Lord",
+              "artisticName": "Abyssal Commander"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Lava Worm",
+              "artisticName": "Molten Creeper"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowy Fiends",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Demon",
+              "artisticName": "Void Haunter"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Imp",
+              "artisticName": "Shade Imp"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Balrug",
+              "artisticName": "Hellfire Beast"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Abominations",
+          "units": [
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "giant_orange_brain",
+              "thirdAttribute": "",
+              "characteristicName": "Giant Orange Brain",
+              "artisticName": "Mind Terror"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "acid",
+              "characteristicName": "Acid Ooze",
+              "artisticName": "Corrosive Sludge"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "pulsating_lump",
+              "thirdAttribute": "",
+              "characteristicName": "Pulsating Lump",
+              "artisticName": "Living Blight"
+            }
+          ]
+        },
+        {
+          "groupName": "Ruined Sentinels",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "golem",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Golem",
+              "artisticName": "Rock Guardian"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "molten",
+              "characteristicName": "Molten Gargoyle",
+              "artisticName": "Lava Sentinel"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Elemental",
+              "artisticName": "Blaze Spirit"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Phantoms",
+          "units": [
+            {
+              "firstAttribute": "spectral",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Spectral Ghost",
+              "artisticName": "Ethereal Haunt"
+            },
+            {
+              "firstAttribute": "spectral",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Lurking Horror",
+              "artisticName": "Shadow Lurker"
+            },
+            {
+              "firstAttribute": "spectral",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Worldbinder",
+              "artisticName": "Cosmic Phantom"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

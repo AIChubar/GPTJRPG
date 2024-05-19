@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
+using UnityEditor.ShaderGraph;
 using UnityEngine;
 
 //[CreateAssetMenu(fileName = "BattleData", menuName = "ScriptableObjects/BattleData", order = 1)]
@@ -10,17 +11,17 @@ public class GameData : MonoBehaviour
     public GameObject battleEnemyPrefab;
     
     [HideInInspector]
-    public GroupData enemies = null;
+    public JSONReader.UnitGroup enemies = null;
 
     [HideInInspector]
-    public GroupData allies = null;
+    public JSONReader.UnitGroup allies = null;
     
-    public void AssignEnemyGroup(GroupData enemy)
+    public void AssignEnemyGroup(JSONReader.UnitGroup enemy)
     {
         enemies = enemy;
     }
     
-    public void AssignAllyGroup(GroupData ally)
+    public void AssignAllyGroup(JSONReader.UnitGroup ally)
     {
         allies = ally;
     }

@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Twilight Gardens",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Welcome to the Twilight Gardens, where pink sands stretch endlessly under the twilight sky. Mystical water obstacles block your path, reflecting the shimmering light of the celestial bodies above. Navigate carefully to uncover the secrets hidden within this enchanting realm."
+    },
+    {
+      "levelName": "Dusk Caverns",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Journey into the Dusk Caverns, where the ground is covered in a blanket of glistening snow. Beware of the treacherous deep-dark holes that threaten to swallow you whole. Explore the icy depths and unravel the mysteries that lie beneath the twilight veil."
+    },
+    {
+      "levelName": "Shadowed Ruins",
+      "walkableTerrain": "grey-brick-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Explore the Shadowed Ruins, where ancient grey brick platforms lead the way through the twilight shadows. Avoid the flowing rivers of molten lava that course through the ruins, threatening to consume all in their path. Uncover the dark secrets that lie buried within these forsaken lands."
+    }
+  ]
+}

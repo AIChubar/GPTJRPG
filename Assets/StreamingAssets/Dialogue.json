@@ -1,0 +1,185 @@
+{
+  "enemySpeakerInfo": {
+    "name": "Hydraxis",
+    "personaMetrics": {
+      "aggressiveness": 85,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategic_thinking": 35,
+      "indifference": 65,
+      "flexibility": 30,
+      "communication_skills": 20,
+      "morality": 15,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": [
+    {
+      "enemyPhrase": "Sssssss... Fresh prey? Or another meal?",
+      "playerCharacterAnswers": [
+        {
+          "optionOne": "I am not your enemy, creature. Let's find a peaceful solution.",
+          "enemyAnswer": "Peace? With a snack? You entertain Hydraxis!",
+          "playerCharacterAnswers": [
+            {
+              "optionOne": "Think about it, we can both benefit.",
+              "enemyAnswer": "Benefit? Or trick Hydraxis... Sssketchy!",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "No tricks, I promise!",
+                  "enemyAnswer": "Mmm... Hydraxis watches. For now...",
+                  "outcome": "ignore"
+                },
+                {
+                  "optionTwo": "It's your loss then.",
+                  "enemyAnswer": "Loss? Ha! Only your loss of life!",
+                  "outcome": "attack"
+                }
+              ]
+            },
+            {
+              "optionTwo": "I have no time for this!",
+              "enemyAnswer": "No time? Hydraxis makes time freeze!",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "Wait, let's reconsider this!",
+                  "enemyAnswer": "Too late! Hydraxis hungers!",
+                  "outcome": "attack"
+                },
+                {
+                  "optionTwo": "I'll be going then.",
+                  "enemyAnswer": "Run, little snack, Hydraxis enjoys the chase!",
+                  "outcome": "ignore"
+                }
+              ]
+            },
+            {
+              "optionThree": "What if I can offer something more...",
+              "enemyAnswer": "More? Hydraxis listens...",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "Let's strike a deal. You help me and I help you.",
+                  "enemyAnswer": "Hmm... Deal? Hydraxis is curious. Speak swiftly!",
+                  "outcome": "ally"
+                },
+                {
+                  "optionTwo": "Nevermind, you would not understand.",
+                  "enemyAnswer": "Insult Hydraxis? Now you face wrath!",
+                  "outcome": "attack"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionTwo": "Stand aside or be destroyed!",
+          "enemyAnswer": "Destroyed? By you? Hydraxis laughs at your challenge!",
+          "playerCharacterAnswers": [
+            {
+              "optionOne": "It is your final warning. Leave or perish!",
+              "enemyAnswer": "Bold words! Hydraxis will enjoy crushing you!",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "So be it. Prepare yourself.",
+                  "enemyAnswer": "Prepared always! Attack!",
+                  "outcome": "attack"
+                },
+                {
+                  "optionTwo": "Perhaps I've spoken too hastily.",
+                  "enemyAnswer": "Weakling! Hydraxis shows no mercy to cowards!",
+                  "outcome": "attack"
+                }
+              ]
+            },
+            {
+              "optionTwo": "This is your last chance to ally with me.",
+              "enemyAnswer": "Ally? With a weakling? Never!",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "Then face your doom!",
+                  "enemyAnswer": "Ha! Hydraxis is doom!",
+                  "outcome": "attack"
+                },
+                {
+                  "optionTwo": "I didn\u2019t want to fight. Goodbye.",
+                  "enemyAnswer": "Flee then, little one. Hydraxis waits for braver souls.",
+                  "outcome": "ignore"
+                }
+              ]
+            },
+            {
+              "optionThree": "Behold my power and reconsider!",
+              "enemyAnswer": "Power? Show Hydraxis your tricks!",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "Witness the might of elemental fury!",
+                  "enemyAnswer": "Impressive... For a snack! Still, you die!",
+                  "outcome": "attack"
+                },
+                {
+                  "optionTwo": "Actually, maybe this was a mistake...",
+                  "enemyAnswer": "Mistake indeed. Hydraxis consumes you now!",
+                  "outcome": "attack"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionThree": "Can we talk this through?",
+          "enemyAnswer": "Talk? Hydraxis prefers to feast. But speak...",
+          "playerCharacterAnswers": [
+            {
+              "optionOne": "Sharing this land can benefit us both.",
+              "enemyAnswer": "Benefits? Hydraxis hears...",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "Think about allies against a greater threat.",
+                  "enemyAnswer": "Allies... Perhaps. Hydraxis considers this...",
+                  "outcome": "ally"
+                },
+                {
+                  "optionTwo": "Or continue this pointless hostility.",
+                  "enemyAnswer": "Hostile? Yes! Hydraxis will show true hostility!",
+                  "outcome": "attack"
+                }
+              ]
+            },
+            {
+              "optionTwo": "I am seeking the ancient wisdom of the land.",
+              "enemyAnswer": "Wisdom? In land, not in meals. Speak more.",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "Let us seek it together.",
+                  "enemyAnswer": "Together? Unlikely allies... This interests Hydraxis.",
+                  "outcome": "ally"
+                },
+                {
+                  "optionTwo": "Forget it, this was a mistake.",
+                  "enemyAnswer": "Mistake indeed. Hydraxis ends your journey!",
+                  "outcome": "attack"
+                }
+              ]
+            },
+            {
+              "optionThree": "Hostility wastes time and resources.",
+              "enemyAnswer": "Time? Hydraxis has eternal hunger!",
+              "playerCharacterAnswers": [
+                {
+                  "optionOne": "But cooperation could feed that hunger more effectively.",
+                  "enemyAnswer": "Cooperation? A strange concept... Hydraxis ponders...",
+                  "outcome": "ally"
+                },
+                {
+                  "optionTwo": "Ignore my words then, to your loss.",
+                  "enemyAnswer": "Loss? Your loss of life!",
+                  "outcome": "attack"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

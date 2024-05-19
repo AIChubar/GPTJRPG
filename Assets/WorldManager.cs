@@ -17,7 +17,7 @@ public class WorldManager : MonoBehaviour
     [HideInInspector]
     public WorldButton currentWorld;
 
-    public Dictionary<string ,JSONReader.GameWorld> Worlds = new Dictionary<string, JSONReader.GameWorld>();
+    public List<string> Worlds = new List<string>();
     
     public GameObject worldButtonPrefab;
     public GameObject worldButtonParent;
@@ -36,31 +36,29 @@ public class WorldManager : MonoBehaviour
 
     void Start()
     {
-        using StreamReader sr = new StreamReader(Application.streamingAssetsPath + "/API/enemies.txt");
+        /*
+        using StreamReader sr = new StreamReader(Application.streamingAssetsPath + "/API/units.txt");
         while (sr.ReadLine() is { } line)
         {
             _units.Add(line);
         }
+        */
         
         var info = new DirectoryInfo(Application.streamingAssetsPath + @"/Worlds");
-        var fileInfo = info.GetFiles();
-        foreach (var file  in fileInfo)
+        var directories = info.GetDirectories();
+        foreach (var directory in directories)
         {
-            var fileName = file.Name;
-            if (fileName.Contains(".meta"))
-                continue;
-            var worldName = file.Name.Substring(0, file.Name.Length - 5);
-            var jsonWorld =
-                JsonUtility.FromJson<JSONReader.GameWorld>(File.ReadAllText(Application.streamingAssetsPath + "/Worlds/" + fileName));
-            if (!CheckUnits(jsonWorld))
-                continue;
-            worldManager.Worlds.Add(worldName, jsonWorld);
+            var directoryName = directory.Name;
+            //if (directoryName.Contains(".meta"))
+                //continue;
+            var worldName = directoryName;
+            //worldManager.Worlds.Add(worldName);
             worldManager.AddButton(worldName);
         }
     }
    
 
-    public bool CheckUnits(JSONReader.GameWorld world)
+    /*public bool CheckUnits(JSONReader.GameWorld world)
     {
         try
         {
@@ -94,15 +92,12 @@ public class WorldManager : MonoBehaviour
         }
         
         return true;
-    }
+    }*/
     
     public void AddButton(string worldName)
     {
-        GameObject go = Instantiate(worldButtonPrefab);
+        GameObject go = Instantiate(worldButtonPrefab, worldButtonParent.transform);
         go.GetComponent<WorldButton>().SetButton(worldName);
-        go.transform.SetParent(worldButtonParent.transform);
         go.transform.localScale = new Vector3(1, 1, 1);
     }
-    
-    
 }

@@ -1,0 +1,110 @@
+{
+  "worldName": "CelestialTwilightIsles",
+  "enemiesMain": [
+    {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "plant",
+      "characteristicName": "Plant Ooze",
+      "artisticName": "Vineblight"
+    },
+    {
+      "firstAttribute": "beasts",
+      "secondAttribute": "wyvern",
+      "thirdAttribute": "",
+      "characteristicName": "Wyvern",
+      "artisticName": "Sky Terror"
+    },
+    {
+      "firstAttribute": "birdlike",
+      "secondAttribute": "griffon",
+      "thirdAttribute": "",
+      "characteristicName": "Griffon",
+      "artisticName": "Sky Guardian"
+    },
+    {
+      "firstAttribute": "humanoid",
+      "secondAttribute": "deep_elf",
+      "thirdAttribute": "knight",
+      "characteristicName": "Deep Elf Knight",
+      "artisticName": "Midnight Protector"
+    },
+    {
+      "firstAttribute": "abominations",
+      "secondAttribute": "orb_guardian",
+      "thirdAttribute": "",
+      "characteristicName": "Orb Guardian",
+      "artisticName": "Orb Sentinel"
+    },
+    {
+      "firstAttribute": "elementals",
+      "secondAttribute": "giant",
+      "thirdAttribute": "frost",
+      "characteristicName": "Frost Giant",
+      "artisticName": "Ice Colossus"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Wraith",
+      "artisticName": "Shade Stalker"
+    },
+    {
+      "firstAttribute": "elementals",
+      "secondAttribute": "golem",
+      "thirdAttribute": "ice",
+      "characteristicName": "Ice Golem",
+      "artisticName": "Frostbound Guardian"
+    },
+    {
+      "firstAttribute": "beasts",
+      "secondAttribute": "hydra",
+      "thirdAttribute": "",
+      "characteristicName": "Hydra",
+      "artisticName": "Frost Hydra"
+    },
+    {
+      "firstAttribute": "humanoid",
+      "secondAttribute": "deep_dwarf",
+      "thirdAttribute": "death_knight",
+      "characteristicName": "Deep Dwarf Death Knight",
+      "artisticName": "Cavernous Reaper"
+    },
+    {
+      "firstAttribute": "demons",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "firebrand",
+      "characteristicName": "Firebrand Salamander",
+      "artisticName": "Inferno Serpent"
+    },
+    {
+      "firstAttribute": "demons",
+      "secondAttribute": "demon",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Demon",
+      "artisticName": "Void Haunter"
+    },
+    {
+      "firstAttribute": "abominations",
+      "secondAttribute": "giant_orange_brain",
+      "thirdAttribute": "",
+      "characteristicName": "Giant Orange Brain",
+      "artisticName": "Mind Terror"
+    },
+    {
+      "firstAttribute": "elementals",
+      "secondAttribute": "golem",
+      "thirdAttribute": "stone",
+      "characteristicName": "Stone Golem",
+      "artisticName": "Rock Guardian"
+    },
+    {
+      "firstAttribute": "spectral",
+      "secondAttribute": "spectral",
+      "thirdAttribute": "ghost",
+      "characteristicName": "Spectral Ghost",
+      "artisticName": "Ethereal Haunt"
+    }
+  ]
+}

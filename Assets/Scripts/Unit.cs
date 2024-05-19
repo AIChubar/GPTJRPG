@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    public UnitData unitData;
+    public JSONReader.UnitJSON unitData;
     
-    public void SetData(UnitData ud)
+    public void SetData(JSONReader.UnitJSON ud)
     {
         unitData = ud;
         if (!ud.friendly)

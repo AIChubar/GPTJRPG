@@ -1,0 +1,75 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "golem",
+      "thirdAttribute": "ice",
+      "characteristicName": "Ice Golem",
+      "artisticName": "Frostbound Guardian"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am the Frostbound Guardian, the protector of the icy realms. What brings you here, intruder?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking harmony among different creatures.",
+        "enemyAnswer": "Peace? Weakling! Harmony is a delusion of the feeble-minded. You are not welcome here.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand your power and respect it. I'll leave peacefully.",
+            "enemyAnswer": "Respect alone won't save you. Leave before I crush you under my icy fists.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I won't back down. We can coexist if we find common ground.",
+            "enemyAnswer": "Coexist? Pathetic. There is no common ground between us. Begone!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge your authority over these realms! Face me!",
+        "enemyAnswer": "A challenger? How amusing. You shall regret crossing paths with me, fool!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not yield! Prepare for battle!",
+            "enemyAnswer": "Bravery or sheer stupidity, it matters not. Prepare to be shattered into pieces!",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I sense your power. Let's join forces and conquer together.",
+            "enemyAnswer": "Join forces? Ha! I have no need for weaklings like you. Leave now!",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come bearing gifts, hoping to earn your favor, Frostbound Guardian.",
+        "enemyAnswer": "Gifts won't sway me, mortal. What foolishness drives you to my doorstep?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek your wisdom and strength to assist me in a greater quest.",
+            "enemyAnswer": "Wisdom? Strength? You truly overestimate your worth. Leave my presence, now!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I apologize for disturbing your peace. I shall take my leave.",
+            "enemyAnswer": "Apologies won't lessen your intrusion. Depart before I unleash my wrath upon you.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

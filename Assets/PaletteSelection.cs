@@ -17,7 +17,7 @@ public class PaletteSelection : MonoBehaviour
     void Start()
     {
         var defaultTilemap = terrainPalettes[0].GetComponentInChildren<Tilemap>();
-        var paletteName = GameManager.gameManager.world.levels[GameManager.gameManager.levelIndex].tilePalette;
+        var paletteName = GameManager.gameManager.world.levels[GameManager.gameManager.levelIndex].walkableTerrain + "_" + GameManager.gameManager.world.levels[GameManager.gameManager.levelIndex].obstacleTerrain;
         var newTileMapGameObject = terrainPalettes.FirstOrDefault(go =>
             go.name == paletteName);
         if (newTileMapGameObject == null)

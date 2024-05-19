@@ -1,0 +1,157 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "plant",
+      "characteristicName": "Plant Ooze",
+      "artisticName": "Vineblight"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 20,
+      "strategicThinking": 80,
+      "indifference": 5,
+      "flexibility": 15,
+      "communicationSkills": 10,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare approach me, puny creature?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I mean no harm. I seek knowledge and wish to converse.",
+        "enemyAnswer": "Knowledge? Ha! You are an insignificant being in the grand scheme of this realm.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand your power. I come in peace. Let us understand each other.",
+            "enemyAnswer": "Understand? There is nothing to understand, only power rules here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am willing to bargain with you for mutual benefit. We can help each other.",
+                "enemyAnswer": "Bargain? Your attempts at diplomacy amuse me. There is only one outcome with creatures like you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see that words hold no meaning for you. Farewell then, may our paths never cross again.",
+                "enemyAnswer": "As you retreat, remember this encounter. You are no match for the darkness that looms.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your power is great, but so is your ignorance. Let us exchange knowledge.",
+            "enemyAnswer": "Ignorance? You dare insult me? Your arrogance will be your downfall.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I meant no offense. I only seek to learn from a being of such might.",
+                "enemyAnswer": "Learn then, and remember your place in the hierarchy of this world.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your pride blinds you. Farewell, I will not provoke a pointless conflict.",
+                "enemyAnswer": "Leave then, insignificant fool. Make haste before my patience runs out.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your darkness does not intimidate me. Let us discuss terms of coexistence.",
+            "enemyAnswer": "Coexistence? Your bravery is amusing. Let us see how long it lasts.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer peace between us. There is no need for needless aggression.",
+                "enemyAnswer": "Peace? I have no interest in your trivial concepts. Prepare yourself for what comes next.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "It seems talks are futile with one so consumed by darkness. I bid you farewell.",
+                "enemyAnswer": "Farewell then, ignorant being. Your fate is sealed by your own ignorance.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to quarrel. I seek no trouble. I simply wish to pass through peacefully.",
+        "enemyAnswer": "Peacefully? You are a pest in my presence, intruding where you do not belong.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for any disturbance. I will leave without causing trouble.",
+            "enemyAnswer": "Apologies mean nothing to me. Your actions speak louder than words.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will depart now. May our paths diverge without further conflict.",
+                "enemyAnswer": "Leave then, insignificant creature. Do not return to these lands.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If departure is what you desire, then I shall leave. Farewell.",
+                "enemyAnswer": "Farewell, insignificant one. May you never cross my path again.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not be threatened. Stand aside or face the consequences.",
+            "enemyAnswer": "Consequences? Bold words for one as feeble as you. Let us see if you can back them up.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not engage in meaningless violence. Let us part ways without conflict.",
+                "enemyAnswer": "Words are wind. Actions speak louder. Prepare for what comes next, fool.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "So be it. If you seek conflict, you shall have it. Brace yourself.",
+                "enemyAnswer": "Bravery or foolishness? We shall see soon enough. Prepare for battle.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come with no ill intentions. I wish only to understand this realm and its inhabitants.",
+        "enemyAnswer": "Understand? You understand nothing, insignificant being. Your presence is a stain on this world.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge and peace. Can we not coexist without animosity?",
+            "enemyAnswer": "Animosity is a luxury I do not provide. Be gone before I decide otherwise.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, I will leave. Farewell, may our paths never meet again.",
+                "enemyAnswer": "Farewell, insignificant one. May the darkness swallow you whole.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your hostility is unwarranted. I shall remember this encounter. Goodbye.",
+                "enemyAnswer": "Remember and tremble, for you face powers beyond your feeble comprehension.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your darkness may consume you, but I choose to approach with an open mind.",
+            "enemyAnswer": "Open mind? Your naivety is astounding. Let us see how long that lasts.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will take my leave then. May your darkness find balance in the twilight.",
+                "enemyAnswer": "Leave and do not return, for the shadows hunger for the likes of you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Farewell, creature of shadows. May reason find you one day.",
+                "enemyAnswer": "Reason? Reason is irrelevant in the face of darkness. Know your place!",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

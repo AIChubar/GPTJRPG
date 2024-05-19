@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class WorldEnemy : MonoBehaviour
 {
-    public GroupData groupData;
-    public void SetGroup(GroupData gd)
+    public JSONReader.UnitGroup groupData;
+
+    public JSONReader.DialogueInfo dialogueInfo;
+    public void SetGroup(JSONReader.UnitGroup gd, JSONReader.DialogueInfo di)
     {
+        dialogueInfo = di;
         groupData = gd;
     }
     
@@ -19,8 +22,8 @@ public class WorldEnemy : MonoBehaviour
             GameManager.gameManager.gameData.AssignAllyGroup(bm.allyGroup);
             
             GameManager.gameManager.gameData.AssignEnemyGroup(groupData);
-            
-            GameManager.gameManager.pauseMenu.ShowBattleStartMenu();
+
+            GameManager.gameManager.pauseMenu.ShowBattleStartMenu(dialogueInfo);
 
             
             Destroy(gameObject, 0.1f);

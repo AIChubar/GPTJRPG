@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     
     public GameData gameData;
     
-    public UnitsData unitsData;
+    //public UnitsData unitsData;
 
     [HideInInspector]
     public bool transitioning = false;
@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector]
     public JSONReader.GameWorld world;
+
     
     [HideInInspector]
     public int levelIndex = 0;
@@ -58,8 +59,15 @@ public class GameManager : MonoBehaviour
             pauseMenu.ShowWinMenu();
         }
     }
-    
 
+
+    public Sprite GetSprite(JSONReader.UnitJSON unit)
+    {
+        var unitNameForSpriteAtlas = unit.secondAttribute;
+        if (unit.thirdAttribute != "")
+            unitNameForSpriteAtlas += "_" + unit.thirdAttribute;
+        return atlas.GetSprite(unitNameForSpriteAtlas);
+    }
     public void OutlineObject(GameObject ob, bool outlined) 
     {
         if (ob)

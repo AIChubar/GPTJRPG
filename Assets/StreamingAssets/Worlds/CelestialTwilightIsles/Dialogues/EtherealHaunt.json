@@ -1,0 +1,113 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "spectral",
+      "secondAttribute": "spectral",
+      "thirdAttribute": "ghost",
+      "characteristicName": "Spectral Ghost",
+      "artisticName": "Ethereal Haunt"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 5,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares to disturb the peace of the ethereal realm?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about this realm.",
+        "enemyAnswer": "Knowledge is a rare commodity here. Proceed with caution.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I come in peace and mean no harm.",
+            "enemyAnswer": "Peace is but an illusion in these haunted lands. What do you truly seek?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I wish to understand the mysteries of the spectral plane.",
+                "enemyAnswer": "Mysteries are not easily unraveled, mortal. Beware what you wish for.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I am not afraid to face the unknown.",
+                "enemyAnswer": "Bravery is futile in the face of the unknown. Turn back now.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am here to claim the power of the ethereal haunt.",
+            "enemyAnswer": "Power corrupts, as do the shadows. Are you prepared for the consequences?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek only to harness this power for good.",
+                "enemyAnswer": "Intentions matter little in this realm. Beware your desires.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will do whatever it takes to gain power.",
+                "enemyAnswer": "Ambition blinds mortals to the true cost. Prepare for the darkness.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come to challenge the spirits of the spectral plane.",
+            "enemyAnswer": "Challenge is met with resistance in these haunted grounds. Do you dare?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek no conflict, I simply seek a worthy opponent.",
+                "enemyAnswer": "Conflict is the nature of the spectral realm. Prepare for what lies ahead.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I fear no spirits, let the challenge begin!",
+                "enemyAnswer": "Fearlessness is foolishness in these ghostly lands. Surrender to the darkness.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with the spectral beings, I shall depart.",
+        "enemyAnswer": "Departure is wise, for the ethereal realm holds dangers beyond your comprehension.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I heed your warning and shall leave in peace.",
+            "enemyAnswer": "Your wisdom shines amid the ignorance. Depart in peace, mortal.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I shall not be swayed by fear, I will stay and explore.",
+            "enemyAnswer": "Fear makes way for folly. Stay and face the consequences of your defiance.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I demand to know why the spectral haunt lingers in this realm!",
+        "enemyAnswer": "Demanding brings naught but fleeting answers in this ethereal domain. Choose your next words carefully.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek understanding, not demands. Please enlighten me.",
+            "enemyAnswer": "Understanding is a rare gift among mortals. Proceed cautiously on this path.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not leave until I have my answers!",
+            "enemyAnswer": "Stubbornness begets only sorrow. Remain here and face the fate you seek.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

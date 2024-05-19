@@ -12,7 +12,7 @@ public class GroupInfoHUD : MonoBehaviour
     void Start()
     {
         _hero = GameManager.gameManager.hero;
-        for (int i = 0; i < _hero.allyGroup.units.Count; i++)
+        for (int i = 0; i < _hero.allyGroup.units.Length; i++)
         {
             GroupHUDs[i].SetHUD(_hero.allyGroup.units[i]);
         }

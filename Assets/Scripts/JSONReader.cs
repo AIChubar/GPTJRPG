@@ -1,8 +1,11 @@
 using System.Collections.Generic;
+using System.IO;
+using JetBrains.Annotations;
 using UnityEngine;
+using Newtonsoft.Json;
 public class JSONReader : MonoBehaviour
 {
-    private GameWorld gameWorld;
+    private GameWorld gameWorld = new GameWorld();
     public UnitsData unitsData;
     
     [System.Serializable]
@@ -11,6 +14,10 @@ public class JSONReader : MonoBehaviour
         public NarrativeData narrativeData;
         public MainCharacter mainCharacter;
         public Level[] levels;
+        public UnitsData unitsData;
+        public QuestLevel[] questData;
+        [SerializeReference]
+        public Dictionary<string, DialogueInfo> dialogues = new Dictionary<string, DialogueInfo>();
     }
 
     [System.Serializable]
@@ -19,7 +26,6 @@ public class JSONReader : MonoBehaviour
         public string worldName;
         public string story;
         public string greetingGameMessage;
-        public string finalGameMessage;
     }
 
     [System.Serializable]
@@ -30,15 +36,32 @@ public class JSONReader : MonoBehaviour
         public string characterClass;
         public string occupation;
         public string backStory;
-        public UnitJSON[] characterGroup;
     }
+    [System.Serializable]
+    public class Levels
+    {
+        public Level[] levels;
 
+    }
+    [System.Serializable]
+    public class QuestLevels
+    {
+        public QuestLevel[] questLevels;
+
+    }
     [System.Serializable]
     public class Level
     {
         public string levelName;
-        public string tilePalette;
-        public UnitGroup[] enemyGroups;
+        public string walkableTerrain;
+        public string obstacleTerrain;
+        public string levelDescription;
+
+    }
+    [System.Serializable]
+    public class QuestLevel
+    {
+        public string levelName;
         public QuestJSON[] questList;
 
     }
@@ -46,72 +69,173 @@ public class JSONReader : MonoBehaviour
     public class QuestJSON
     {
         public string questName;
+        public string questDescription;
         public string questType;
         public string questObjective;
         public int objectiveNum;
     }
-
+    [System.Serializable]
+    public class UnitsData
+    {
+        public UnitGroup friendlyGroup;
+        public LevelUnits[] levelsUnits;
+    }
+    
+    [System.Serializable]
+    public class LevelUnits
+    {
+        public string levelName;
+        public UnitGroup[] enemyGroups;
+    }
     [System.Serializable]
     public class UnitGroup
     {
         public string groupName;
-        public string battleStartMonologue;
-        public string winMonologue;
-        public string lostMonologue;
         public UnitJSON[] units;
     }
-    
+
     [System.Serializable]
     public class UnitJSON
     {
-        public string unitID;
-        public string unitName;
-        public int health;
+        public string firstAttribute;
+        public string secondAttribute;
+        public string thirdAttribute;
+        public string characteristicName;
+        public string artisticName;
+        
+        public int maxHP;
+        public int currentHP;
         public int damage;
+        public bool friendly;
     }
+
+    [System.Serializable]
+    public class CurrentWorld
+    {
+        public string worldName;
+        public UnitJSON[] enemiesMain;
+    }
+    
+    [System.Serializable]
+    public class DialogueInfo
+    {
+        public EnemySpeakerInfo enemySpeakerInfo;
+        [SerializeReference]
+        public DialogueTree dialogueTree;
+    }
+    [System.Serializable]
+    public class EnemySpeakerInfo
+    {
+        public UnitJSON unit;
+        public Metrics personaMetrics;
+    }
+    
+    [System.Serializable]
+    public class Metrics
+    {
+        public int aggressiveness;
+        public int friendliness;
+        public int intellect;
+        public int strategicThinking;
+        public int indifference;
+        public int flexibility;
+        public int communicationSkills;
+        public int morality;
+        public int chaoticity;
+    }
+    [System.Serializable]
+    public class DialogueTree
+    {
+        public string enemyPhrase;
+        [SerializeReference]
+        public PlayerCharacterAnswer[] playerCharacterAnswers;
+    }
+    
+    [System.Serializable]
+    public class PlayerCharacterAnswer
+    {
+        public string playerOption;
+        public string enemyAnswer;
+        [SerializeReference]
+        public PlayerCharacterAnswer[] playerCharacterAnswers; 
+        [CanBeNull] public string outcome; 
+    }
+    
+
     void Awake()
     {
-        gameWorld = WorldManager.worldManager.Worlds[WorldManager.worldManager.currentWorld.worldName.text];
-    
-        unitsData.enemyGroups = new List<GroupData>();
-        foreach (var t in gameWorld.levels[0].enemyGroups)
-        {
-            GroupData newGroup = new GroupData();
-            newGroup.units = new List<UnitData>();
-            newGroup.name = t.groupName;
-            newGroup.battleStartMonologue = t.battleStartMonologue;
-            newGroup.winMonologue = t.winMonologue;
-            newGroup.lostMonologue = t.lostMonologue;
+        var gameWorldName = WorldManager.worldManager.currentWorld.worldName.text;
+        string folderPath = Path.Combine(Application.streamingAssetsPath, "Worlds", gameWorldName);
 
-            foreach (var unit in t.units)
-            {
-                UnitData newUnit = new UnitData();
-                newUnit.name = unit.unitName;
-                newUnit.id = unit.unitID;
-                newUnit.damage = unit.damage;
-                newUnit.friendly = false;
-                newUnit.currentHP = newUnit.maxHP = unit.health;
-                newGroup.units.Add(newUnit);
-            }
-            unitsData.enemyGroups.Add(newGroup);
-        }
+        string narrativePath = Path.Combine(folderPath, "Narrative.json");
+        string mainCharacterPath = Path.Combine(folderPath, "MainCharacter.json");
+        string levelsPath = Path.Combine(folderPath, "Levels.json");
+        string unitDataPath = Path.Combine(folderPath, "UnitData.json");
+        string questDataPath = Path.Combine(folderPath, "QuestData.json");
         
-        GroupData allyGroup = new GroupData();
-        allyGroup.units = new List<UnitData>();
-        foreach (var unit in gameWorld.mainCharacter.characterGroup)
+        string narrativeJsonText = File.ReadAllText(narrativePath);
+        string mainCharacterJsonText = File.ReadAllText(mainCharacterPath);
+        string levelsJsonText = File.ReadAllText(levelsPath);
+        string unitDataJsonText = File.ReadAllText(unitDataPath);
+        string questDataJsonText = File.ReadAllText(questDataPath);
+        
+        JsonSerializerSettings settings = new JsonSerializerSettings
         {
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore  
+        };
+        gameWorld.narrativeData =  JsonConvert.DeserializeObject<NarrativeData>(narrativeJsonText,settings);
+        gameWorld.mainCharacter = JsonConvert.DeserializeObject<MainCharacter>(mainCharacterJsonText,settings);
+        var levelsJson = JsonConvert.DeserializeObject<Levels>(levelsJsonText,settings);
+        gameWorld.unitsData = JsonConvert.DeserializeObject<UnitsData>(unitDataJsonText,settings);
+        var questDataJson = JsonConvert.DeserializeObject<QuestLevels>(questDataJsonText,settings);
+        gameWorld.levels = levelsJson.levels;
+        gameWorld.questData = questDataJson.questLevels;
+        
+        string dialoguesFolderPath = Path.Combine(Application.streamingAssetsPath, "Worlds", gameWorldName, "Dialogues");
+
+        // Get all file paths in the directory
+        string[] fileNames = Directory.GetFiles(dialoguesFolderPath);
+        
+        foreach (string file in fileNames)
+        {
+            if (file.Contains(".meta"))
+                continue;
+            string fileContents = File.ReadAllText(file);
+            var dialogueJson = JsonConvert.DeserializeObject<DialogueInfo>(fileContents,settings);
             
-            UnitData newUnit = new UnitData();
-            newUnit.name = unit.unitName;
-            newUnit.id = unit.unitID;
-            newUnit.damage = unit.damage;
-            newUnit.currentHP = newUnit.maxHP = unit.health;
-            newUnit.friendly = true;
-            allyGroup.units.Add(newUnit);
+            gameWorld.dialogues.Add(dialogueJson.enemySpeakerInfo.unit.artisticName, dialogueJson);
+        }
+        AssignStats(gameWorld);
+
+        GameManager.gameManager.world = gameWorld;
+    }
+
+    private void AssignStats(GameWorld gameWorld)
+    {
+        foreach (var unit in gameWorld.unitsData.friendlyGroup.units)
+        {
+            unit.friendly = true;
+            int minRND = 12;
+            int maxRND = 20;
+            int rnd = Random.Range(minRND, maxRND);
+            unit.maxHP = unit.currentHP = rnd  * 10;
+            unit.damage = (int)((maxRND - rnd) * 1.5f +  Random.Range(minRND, maxRND)*1.5f);
         }
 
-        unitsData.allyGroup = allyGroup;
-        
-        GameManager.gameManager.world = gameWorld;
+        foreach (var level in gameWorld.unitsData.levelsUnits)
+        {
+            foreach (var group in level.enemyGroups)
+            {
+                foreach (var unit in group.units)
+                {
+                    unit.friendly = false;
+                    int minRND = 6;
+                    int maxRND = 10;
+                    int rnd = Random.Range(minRND, maxRND);
+                    unit.maxHP = unit.currentHP = rnd  * 10;
+                    unit.damage = (int)((maxRND - rnd) * 2f +  Random.Range(minRND, maxRND)*2f);
+                }
+            }
+        }
     }
 }

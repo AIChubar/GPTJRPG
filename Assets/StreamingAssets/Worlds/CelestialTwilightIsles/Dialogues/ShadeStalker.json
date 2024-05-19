@@ -1,0 +1,173 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Wraith",
+      "artisticName": "Shade Stalker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 98,
+      "friendliness": 2,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 20,
+      "flexibility": 10,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I see you trespassing in my realm, mortal. What brings you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking knowledge.",
+        "enemyAnswer": "Peace? Oh, a curious one. Knowledge will be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm. Can we not coexist?",
+            "enemyAnswer": "Coexist? In this darkness, only power prevails. Submit or perish.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I choose to submit and learn from you.",
+                "enemyAnswer": "Submission accepted. Your servitude begins now.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I refuse to submit. I will leave this place.",
+                "enemyAnswer": "Refusal? Pitiful. You shall not leave alive.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek power to protect myself. Can you aid me?",
+            "enemyAnswer": "Power-seeker. If you can prove your worth in combat, perhaps.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will prove my worth in combat.",
+                "enemyAnswer": "Bold choice. Let our strengths clash then.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I prefer not to fight. I will leave peacefully.",
+                "enemyAnswer": "Peaceful departure? How disappointingly boring.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense darkness within you. Are you not tired of this eternal night?",
+            "enemyAnswer": "Darkness is my essence. Tired? A concept unknown to shadows.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will bring light to your darkness.",
+                "enemyAnswer": "Light? A futile attempt. Darkness devours all.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will respect your darkness and take my leave.",
+                "enemyAnswer": "Respect? A rare trait. Leave before you become dust.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come to challenge your authority, creature of shadows!",
+        "enemyAnswer": "Challenge? Bold words from a fragile being. Let us see your mettle.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My will is strong. I will not kneel before you.",
+            "enemyAnswer": "Stubbornness. It will be your downfall, defiant one.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand and fight you, shade stalker!",
+                "enemyAnswer": "Fight? A fruitless endeavor. Your end approaches swiftly.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will retreat for now, but I will return stronger.",
+                "enemyAnswer": "Retreat? Cowardice suits you well. Return if you dare.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I apologize for my brash words. I seek a peaceful resolution.",
+            "enemyAnswer": "Apology? Rare in these dark lands. Speak, then.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us form an alliance and unite our powers.",
+                "enemyAnswer": "Alliance? An unexpected proposal. Perhaps there is potential.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "Together, we can rule this realm as equals.",
+                    "enemyAnswer": "Rule? An intriguing notion. Let destiny decide.",
+                    "outcome": "ally"
+                  },
+                  {
+                    "playerOption": "I will leave you in peace. Farewell, shade stalker.",
+                    "enemyAnswer": "Peace. A concept worth preserving. Farewell, mortal.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I will leave your domain. No further conflict is needed.",
+                "enemyAnswer": "Departure? Wise choice. Your presence is no longer required here.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to prove your strength against mine!",
+            "enemyAnswer": "Challenge accepted, foolish mortal. Prepare for your demise.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will show you the light within my darkness.",
+                "enemyAnswer": "Light within darkness? An amusing fantasy. Prepare for annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Our conflict serves no purpose. Let us cease this battle.",
+                "enemyAnswer": "Cease? Weakness incarnate. The battle shall end you.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to claim your realm for my own, shadow wraith!",
+        "enemyAnswer": "Claim my realm? Arrogance knows no bounds in you, mortal fool.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Your reign of darkness ends now, shade stalker!",
+            "enemyAnswer": "End my reign? Delusional defiance. Meet your doom.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I acknowledge your power and offer my allegiance.",
+            "enemyAnswer": "Allegiance? A surprising proposal. Swear your loyalty then.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I pledge my loyalty to you, shadow wraith.",
+                "enemyAnswer": "Loyalty sworn. Your fate is intertwined with shadows now.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I withdraw my offer. I will depart in peace.",
+                "enemyAnswer": "Withdrawal? Wise or weak? Depart before shadows consume you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

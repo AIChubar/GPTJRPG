@@ -1,0 +1,53 @@
+{
+    "friendlyGroup" : 
+    {
+      "groupName" : "",
+      "units" :
+      [
+        {
+          "firstAttribute": "",
+          "secondAttribute": "",
+          "thirdAttribute" : "",
+          "characteristicName" : "",
+          "artisticName" : ""
+        },
+        {
+          "firstAttribute": "",
+          "secondAttribute": "",
+          "thirdAttribute" : "",
+          "characteristicName" : "",
+          "artisticName" : ""
+        },
+        {
+          "firstAttribute": "",
+          "secondAttribute": "",
+          "thirdAttribute" : "",
+          "characteristicName" : "",
+          "artisticName" : ""
+        }
+      ]
+    },
+    "levelsUnits" : [
+      {
+        "levelName" : "",
+        "enemyGroups" : [
+          {
+            "groupName" : "",
+            "units" :
+            [
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : ""
+              }
+            ]
+          }
+        ]
+      },
+      ...
+    ]
+  
+    
+}

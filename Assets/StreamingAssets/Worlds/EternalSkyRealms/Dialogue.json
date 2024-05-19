@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "golem",
+      "thirdAttribute": "wood",
+      "characteristicName": "Wooden Guardian",
+      "artisticName": "Ancient Oak Warden"
+    },
+    "personaMetrics": {
+      "aggressiveness": 80,
+      "friendliness": 20,
+      "intellect": 50,
+      "strategicThinking": 60,
+      "indifference": 40,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 20,
+      "chaoticity": 50,
+      "braveness": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Trespasser in the Whispering Woods, what brings you here? Speak quickly or face my wrath.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I seek to restore the balance of nature.",
+        "enemyAnswer": "Peace? Balance? Actions speak louder than words, sorcerer. What proof do you offer?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I possess the ancient scrolls of the Air Isles. They hold the secrets to restoring harmony.",
+            "enemyAnswer": "Ancient scrolls, you say? The air whispers of your sincerity.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Allow me to show you their power.",
+                "enemyAnswer": "Very well, sorcerer, show me. But know this, deceit will be met with fury.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I need your guidance to unlock their potential.",
+                "enemyAnswer": "You dare ask for guidance without proving yourself first? Begone!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have defeated the Whispering Serpent! Isn't that proof enough?",
+            "enemyAnswer": "Defeating a beast proves your strength, not your intentions. Why should I trust you?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Because I fight not for power, but for the balance of our realms.",
+                "enemyAnswer": "Words are wind. Prove this balance by actions, not boasts.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Distrust blinds us to potential allies. See reason.",
+                "enemyAnswer": "You speak of reason, yet your actions are unknown. Leave or face consequences.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I bring warning of a greater threat. An unknown darkness approaches.",
+            "enemyAnswer": "A greater threat, you say? Speak more of this darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A force that disrupts the elemental harmony. We must unite.",
+                "enemyAnswer": "Unity in the face of darkness? Perhaps there is wisdom in your words. Show me your resolve.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "Darkness that even you, mighty guardian, cannot stand alone against.",
+                "enemyAnswer": "Flattery will get you nowhere. Face my wrath for your insolence.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I mean no harm. I'm just passing through.",
+        "enemyAnswer": "Passing through sacred grounds? Your presence is an offense!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My journey is essential. I must traverse these woods.",
+            "enemyAnswer": "Essential to you, perhaps. Prove it or leave.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek to protect the realms from a great disruption.",
+                "enemyAnswer": "Big words for a trespasser. Show your worth or begone.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I respect your domain, but my mission cannot wait.",
+                "enemyAnswer": "Respect? You disrespect by intrusion. Face your fate.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "There is no need for hostility. We can coexist.",
+            "enemyAnswer": "Coexistence requires trust. Trust you have yet to earn.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then help me earn it. Guide me.",
+                "enemyAnswer": "Why should I guide an intruder? Your intentions are unclear.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you don't trust me, then let me prove myself.",
+                "enemyAnswer": "Prove yourself how? By disrupting my domain further?",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will leave if you insist, but I seek a path to Frostbite Peaks.",
+            "enemyAnswer": "Frostbite Peaks is no place for the unworthy. Leave now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I need its secrets to restore balance to the realms.",
+                "enemyAnswer": "Only the worthy may seek such secrets. You have not proven worthy.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you will not guide me, others will. You can't stop me.",
+                "enemyAnswer": "Others? Arrogance will be your downfall. Prepare to be vanquished.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Stand aside, guardian. I have no time for interference.",
+        "enemyAnswer": "Interference? You dare command me in my own woods?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have the power to back my words. Do not test me.",
+            "enemyAnswer": "Bold words for a lone sorcerer. Show me this power!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well. Prepare yourself.",
+                "enemyAnswer": "You think you can best the Ancient Oak Warden? Fool!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You may have strength, but I have greater cunning.",
+                "enemyAnswer": "Cunning alone will not save you. Face my wrath!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no quarrel with you, but I need to pass.",
+            "enemyAnswer": "No quarrel? Your presence is quarrel enough. Leave or face consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If I must fight to prove my resolve, so be it.",
+                "enemyAnswer": "Weak threats from a weak sorcerer. Prepare to be crushed.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well. I will find another path.",
+                "enemyAnswer": "A wise choice. Begone and do not return.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "You cannot stop me. I will pass through these woods.",
+            "enemyAnswer": "Such arrogance. Try if you dare, and meet your end!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then we shall see who prevails.",
+                "enemyAnswer": "Your fate is sealed, intruder. Prepare for battle!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I have no time for this. Farewell.",
+                "enemyAnswer": "Run while you can, coward.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

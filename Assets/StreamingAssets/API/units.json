@@ -1,0 +1,506 @@
+{
+  "abominations": {
+    "evil_eye": [""],
+    "giant_orange_brain": [""],
+    "jelly": [""],
+    "lab_rat": [""],
+    "ooze": [
+      "acid",
+      "azure",
+      "blood",
+      "death",
+      "plague",
+      "plant",
+      "spectral",
+      "tentacle",
+      "void"
+    ],
+    "orb_guardian": [""],
+    "pulsating_lump": [""]
+  },
+  "beasts": {
+    "beast": [
+      "ice",
+      "mutant"
+    ],
+    "entropy_weaver": [""],
+    "formicid": [""],
+    "formicid_venom_mage": [""],
+    "hydra": [""],
+    "hydra_lord": [""],
+    "hydrataur": [""],
+    "juggernaut": [""],
+    "lindwurm": [""],
+    "moth_of_suppression": [""],
+    "troll": [
+      "forest",
+      "rock"
+    ],
+    "wyvern": [""]
+  },
+  "birdlike": {
+    "griffon": [""],
+    "harpy": [""],
+    "hippogriff": [""],
+    "kenku_winged": [""],
+    "manticore": [""],
+    "quasit": [""],
+    "raven": [""],
+    "tengu": [
+      "fighter",
+      "conjurer",
+      "reaver",
+      "warrior"
+    ]
+  },
+  "demons": {
+    "balrug": [""],
+    "demon": [
+      "shadow",
+      "slave"
+    ],
+    "devil": [
+      "hairy",
+      "red",
+      "rotting"
+    ],
+    "hell_knight": [
+      "defender",
+      "lord"
+    ],
+    "hell_sentinel": [""],
+    "imp": [
+      "torturer",
+      "shadow"
+    ],
+    "lava_worm": [""],
+    "pit_fiend": [""],
+    "salamander": [
+      "fighter",
+      "firebrand",
+      "mystic",
+      "stormcaller"
+    ]
+  },
+  "draconids": {
+    "dragon": [
+      "eastern",
+      "golden",
+      "green",
+      "ice",
+      "iron",
+      "quicksilver",
+      "shadow",
+      "storm",
+      "swamp"
+    ],
+    "drake": [
+      "death",
+      "fire",
+      "forest",
+      "mottled",
+      "steam",
+      "swamp"
+    ]
+  },
+  "elementals": {
+    "elemental": [
+      "air",
+      "crystal",
+      "earth",
+      "fire",
+      "iron",
+      "water"
+    ],
+    "gargoyle": [
+      "metal",
+      "molten",
+      "stone"
+    ],
+    "giant": [
+      "fire",
+      "frost",
+      "stone"
+    ],
+    "golem": [
+      "clay",
+      "crystal",
+      "electric",
+      "flesh",
+      "guardian",
+      "iron",
+      "stone",
+      "toenail",
+      "wood"
+    ],
+    "lord": [
+      "fire",
+      "frost",
+      "stone"
+    ],
+    "phoenix": [""],
+    "servitor_spellforged": [""]
+  },
+  "holy": {
+    "angel": [
+      "fighter",
+      "defender",
+      "paladin",
+      "peacemaker"
+    ],
+    "apys": [""],
+    "centaur_paladin": [""],
+    "cherub": [""],
+    "daeva": [
+      "defender",
+      "fighter"
+    ],
+    "dragon_holy": [""],
+    "human_paladin": [""],
+    "ophan": [""],
+    "shedu": [""],
+    "titan": [
+      "annihilator",
+      "fighter"
+    ]
+  },
+  "horde": {
+    "centaur": [
+      "archer",
+      "fighter",
+      "sergeant_archer",
+      "sergeant_fighter"
+    ],
+    "cyclops": [
+      "chief",
+      "fighter"
+    ],
+    "deep_troll": [
+      "berserker",
+      "earth_mage",
+      "fighter",
+      "shaman"
+    ],
+    "ettin": [
+      "king",
+      "warrior"
+    ],
+    "hill_giant": [
+      "annihilator",
+      "fighter"
+    ],
+    "iron_troll": [
+      "fighter",
+      "monk_ghost"
+    ],
+    "minotaur": [""],
+    "ogre": [
+      "archimage",
+      "fighter",
+      "mage",
+      "warrior"
+    ],
+    "spriggan": [
+      "berserker",
+      "defender",
+      "enchanter",
+      "rider"
+    ],
+    "two_headed_ogre": [
+      "berserk",
+      "fighter"
+    ],
+    "yaktaur": [
+      "arbalester",
+      "chief",
+      "fighter",
+      "marksman"
+    ]
+  },
+  "humanoid": {
+    "big_kobold": [
+      "fighter",
+      "sergeant"
+    ],
+    "deep_dwarf": [
+      "artificer",
+      "berserker",
+      "death_knight",
+      "peasant"
+    ],
+    "deep_elf": [
+      "annihilator",
+      "blademaster",
+      "conjurer",
+      "death_mage",
+      "defender",
+      "demonologist",
+      "fighter",
+      "high_priest",
+      "knight",
+      "mage",
+      "master_archer",
+      "priest",
+      "sergeant",
+      "soldier",
+      "sorcerer",
+      "summoner"
+    ],
+    "dwarf": [
+      "chief",
+      "warrior"
+    ],
+    "elf": [
+      "militia",
+      "peasant"
+    ],
+    "gnoll": [
+      "defender",
+      "fighter",
+      "sergeant",
+      "shaman"
+    ],
+    "gnome_mage": [""],
+    "goblin": [
+      "defender",
+      "fighter"
+    ],
+    "halfling": [
+      "boy",
+      "peasant"
+    ],
+    "hobgoblin": [
+      "defender",
+      "fighter"
+    ],
+    "human": [
+      "archimage",
+      "enchantress",
+      "militia",
+      "monk_ghost",
+      "peasant",
+      "slave",
+      "tradesman"
+    ],
+    "ironbrand_convoker": [""],
+    "ironheart_preserver": [""],
+    "killer_klown": [
+      "blue",
+      "green",
+      "purple",
+      "red",
+      "yellow"
+    ],
+    "kobold": [
+      "aggressor",
+      "demonologist",
+      "peasant"
+    ],
+    "orc": [
+      "apprentice",
+      "berserk",
+      "druid",
+      "guard",
+      "high_priest",
+      "knight",
+      "necromancer",
+      "peasant",
+      "priest",
+      "sorcerer",
+      "summoner",
+      "torturer",
+      "warlord",
+      "warrior",
+      "wizard"
+    ]
+  },
+  "relict": {
+    "anubis_guard": [""],
+    "apocalypse_crab": [""],
+    "boggart": [""],
+    "dryad": [""],
+    "faun": [""],
+    "satyr": [""],
+    "shapeshifter": [
+      "artifficier",
+      "radiant"
+    ],
+    "simulacrum": [
+      "ant",
+      "bat",
+      "bee",
+      "centaur",
+      "dragon",
+      "drake",
+      "fish",
+      "giant",
+      "hydra",
+      "hydra_lord",
+      "kraken",
+      "lizard",
+      "naga",
+      "quadruped",
+      "snake",
+      "spider"
+    ],
+    "sphinx": [""],
+    "stone_ghost": [""],
+    "ushabti": [""],
+    "water_nymph": [""]
+  },
+  "serpentides": {
+    "merfolk": [
+      "aquamancer",
+      "avatar",
+      "defender",
+      "fighter",
+      "impaler",
+      "javelineer",
+      "peasant",
+      "plain",
+      "warrior",
+      "witch"
+    ],
+    "mermaid": [""],
+    "naga": [
+      "fighter",
+      "guardian",
+      "mage",
+      "peasant",
+      "ritualist",
+      "sharpshooter",
+      "warrior",
+      "warrior_queen"
+    ],
+    "serpent": [
+      "cobra",
+      "guardian"
+    ],
+    "siren": [
+      "singer",
+      "witch"
+    ]
+  },
+  "spectral": {
+    "grand_avatar": [""],
+    "lurking_horror": [""],
+    "spectral": [
+      "ant",
+      "bat",
+      "bee",
+      "centaur",
+      "dragon",
+      "drake",
+      "fish",
+      "ghost",
+      "giant",
+      "hydra",
+      "kraken",
+      "lion",
+      "lizard",
+      "naga",
+      "snake",
+      "spider",
+      "thing",
+      "worm"
+    ],
+    "worldbinder": [""]
+  },
+  "undead": {
+    "bog_body": [""],
+    "death_cob": [""],
+    "ghost": [
+      "dragon",
+      "eater",
+      "flayed",
+      "missing",
+      "stalker",
+      "void",
+      "warrior"
+    ],
+    "hulk_rotting": [""],
+    "jiangshi": [""],
+    "lich": [
+      "ancient",
+      "king",
+      "lord",
+      "mage",
+      "necromancer",
+      "summoner"
+    ],
+    "macabre_mass": [""],
+    "manes": [""],
+    "mummy": [
+      "dragon",
+      "fighter",
+      "guardian",
+      "lord",
+      "priest"
+    ],
+    "necrophage": [""],
+    "phantom": [
+      "stalker",
+      "warrior"
+    ],
+    "revenant": [""],
+    "rock_troll_monk_ghost": [""],
+    "skeleton": [
+      "bat",
+      "cat",
+      "centaur",
+      "child",
+      "dragon",
+      "fish",
+      "humanoid",
+      "hydra",
+      "hydra_lord",
+      "lion",
+      "naga",
+      "snake",
+      "ugly_thing",
+      "warrior"
+    ],
+    "skull": [
+      "cursed",
+      "flying"
+    ],
+    "soul": [
+      "drowned",
+      "lost"
+    ],
+    "spectre_witch": [
+      ""
+    ],
+    "unborn": [""],
+    "vampire": [
+      "knight",
+      "mage",
+      "ressurected",
+      "witch"
+    ],
+    "wight": [
+      "king",
+      "stalker"
+    ],
+    "wraith": [
+      "freezing",
+      "king",
+      "shadow",
+      "stalker"
+    ],
+    "zombie": [
+      "crab",
+      "drake",
+      "ghoul",
+      "hound",
+      "lizard",
+      "octopode",
+      "ogre",
+      "rat",
+      "small",
+      "toad",
+      "treant",
+      "turtle"
+    ]
+  }
+}

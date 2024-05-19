@@ -1,0 +1,189 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "humanoid",
+      "secondAttribute": "deep_elf",
+      "thirdAttribute": "knight",
+      "characteristicName": "Deep Elf Knight",
+      "artisticName": "Midnight Protector"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 70,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 30
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares interrupt the peace of the midnight elves?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking an alliance.",
+        "enemyAnswer": "Alliance, you say? Midnight elves do not easily trust outsiders, prove your worth.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will demonstrate my loyalty in battle.",
+            "enemyAnswer": "Actions speak louder than words, prove yourself by defeating the treacherous trolls in the northern woods.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will return victorious.",
+                "enemyAnswer": "Return only if you survive, victory will grant you our consideration.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will retreat for now.",
+                "enemyAnswer": "Cowards are not fit to be allies, leave our lands before we mistake you for an enemy.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am willing to share valuable knowledge.",
+            "enemyAnswer": "Knowledge is power, but can you handle the consequences? Speak carefully, outsider.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my knowledge with respect.",
+                "enemyAnswer": "Respect is earned, not given freely. Share your knowledge, prove your worth.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will keep my knowledge to myself.",
+                "enemyAnswer": "Keeping secrets won't earn you allies, it may only lead you into darkness.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge your authority!",
+            "enemyAnswer": "Bold words from an outsider. If you seek conflict, prepare to face the wrath of the midnight elves.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am ready for a duel.",
+                "enemyAnswer": "You shall regret daring to challenge our knights.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I apologize for my disrespect.",
+                "enemyAnswer": "Apologies won't undo your foolishness. Begone before we decide to teach you a harsh lesson.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to trade for resources.",
+        "enemyAnswer": "Resources, you say? Midnight elves are not merchants, what could you offer that sparks our interest?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I possess rare artifacts from distant lands.",
+            "enemyAnswer": "Artifacts, intriguing. Show us these treasures, but be warned, deceivers are not tolerated here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I present the artifacts for your inspection.",
+                "enemyAnswer": "Impressive, these artifacts hold power yet unseen by our kind. Let us entertain the idea of a beneficial partnership.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will leave with my artifacts then.",
+                "enemyAnswer": "As you wish, outsider. Your departure prevents a potential conflict.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have knowledge of rare herbs and remedies.",
+            "enemyAnswer": "Nature's secrets, you possess. But do not think of exploiting our land for your own gain.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer to share my healing knowledge.",
+                "enemyAnswer": "Healing is a noble pursuit, share your knowledge with our healers and earn our gratitude.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will keep my knowledge to myself.",
+                "enemyAnswer": "Selfishness leads to isolation. We will have no further dealings with one who seeks to withhold gifts.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I demand resources or face consequences.",
+            "enemyAnswer": "Demand? Threats do not sit well with the midnight elves. Your move is Ill-considered, outsider.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for my approach.",
+                "enemyAnswer": "Apologies are a start, but mistakes have consequences. Leave now and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will take what I desire by force!",
+                "enemyAnswer": "Foolish choice, one that seals your fate with the midnight elves.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have come to challenge the mightiest of the elves.",
+        "enemyAnswer": "Bravery or foolishness? The mightiest of the midnight elves do not engage in pointless battles.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek a duel with your strongest warrior.",
+            "enemyAnswer": "You crave combat without reason. We have no interest in entertaining such reckless behavior.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will prove my strength elsewhere.",
+                "enemyAnswer": "Wise choice, seek your battles elsewhere and spare yourself from our wrath.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I challenge you all!",
+                "enemyAnswer": "Your arrogance will be your downfall. Brace yourself for the consequences of your actions.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to learn from the wisest elders.",
+            "enemyAnswer": "Wisdom is not granted to the unworthy. What makes you think you are deserving of our elders' teachings?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I humbly request guidance to better myself.",
+                "enemyAnswer": "Humble words carry weight, show us your sincerity and we may grant you a chance to learn.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have no need for your wisdom.",
+                "enemyAnswer": "Arrogance blinds you to the opportunities before you. Leave before you regret your choices.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge the authority of the midnight elves!",
+            "enemyAnswer": "Challenges to authority are met with swift retribution. You tread on dangerous ground, outsider.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am prepared to face the consequences.",
+                "enemyAnswer": "So be it, your fate is sealed by your defiance.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I apologize for my disrespect.",
+                "enemyAnswer": "Apologies do not erase the stain of your actions. Leave before you force our hand.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

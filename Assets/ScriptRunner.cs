@@ -4,19 +4,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
 public class ScriptRunner : MonoBehaviour
 {
     public GameObject creating;
-
-    
-    void Start()
-    {
-        
-    }
-
     public void GenerateNewWorld()
     {
         StartCoroutine(RunScriptAndManageObject());
@@ -37,9 +31,8 @@ public class ScriptRunner : MonoBehaviour
     IEnumerator RunScriptAndManageObject()
     {
         creating.SetActive(true);
-        yield return new WaitForSeconds(1.2f); // because animation is not working while world is creating
 
-        var scriptArguments = "-ExecutionPolicy Bypass -File \"" + Application.streamingAssetsPath + @"/API/PSscript.ps1" + "\"";
+        var scriptArguments = "-ExecutionPolicy Bypass -File \"" + Application.streamingAssetsPath + @"/API/create_world.ps1" + "\"";
         var processStartInfo = new ProcessStartInfo("powershell.exe", scriptArguments);
         processStartInfo.RedirectStandardOutput = true;
         processStartInfo.RedirectStandardError = true;
@@ -48,38 +41,46 @@ public class ScriptRunner : MonoBehaviour
 
         using (var process = new Process())
         {
-            int attempts = 0;
-            JSONReader.GameWorld world = null;
-            do
+            process.StartInfo = processStartInfo;
+            string output = ""; 
+            string error = "";
+
+            process.OutputDataReceived += (sender, e) =>
             {
-                if (attempts >= 3)
+                if (!string.IsNullOrEmpty(e.Data))
                 {
-                    Debug.LogError("Too many attempts!");
-                    yield break;
+                    output += e.Data + "\n";
                 }
-                attempts++;
-                process.StartInfo = processStartInfo;
-                process.Start();
+            };
             
-                string output = process.StandardOutput.ReadToEnd();
-                string error = process.StandardError.ReadToEnd();
-                if (error != "")
-                    Debug.LogError(error);
-                try
+            process.ErrorDataReceived += (sender, e) =>
+            {
+                if (!string.IsNullOrEmpty(e.Data))
                 {
-                    world = JsonUtility.FromJson<JSONReader.GameWorld>(output);
+                    error += e.Data + "\n";
                 }
-                catch (Exception e)
-                {
-                    Debug.LogError("Not JSON parsable output: \n" + output);
-                }
-            } while (world == null || !WorldManager.worldManager.CheckUnits(world));
-            WorldManager.worldManager.Worlds.Add(world.narrativeData.worldName, world);
-            AddNewButton(world.narrativeData.worldName);
+            };
+            process.Start();
+            process.BeginOutputReadLine();
+            process.BeginErrorReadLine();
+            while (!process.HasExited)
+            {
+                yield return null; // Or any other delay mechanism
+            }
+            creating.SetActive(false);
+
+            if (error != "")
+            {
+                Debug.LogError(error);
+
+                yield break;
+            }
+            
+            string currentWorldPath = Path.Combine(Application.streamingAssetsPath, "API", "current_world.json");
+            var currentWorld = JsonConvert.DeserializeObject<JSONReader.CurrentWorld>(File.ReadAllText(currentWorldPath));
+            AddNewButton(currentWorld.worldName);
         }
 
-        yield return new WaitForSeconds(0.33f);
-        creating.SetActive(false);
 
     }
 

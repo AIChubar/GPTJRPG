@@ -64,25 +64,25 @@ public class Pause : MonoBehaviour
 
     }
 
-    public void ShowBattleStartMenu()
+    public void ShowBattleStartMenu(JSONReader.DialogueInfo dialogueInfo)
     {
         currentState = UIState.BATTLESTART;
         UpdateUI();
-        battleStartHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.battleStartMonologue);
+        battleStartHUD.SetDialogueHUD(dialogueInfo);
     }
     
     public void ShowWinMenu()
     {
-        currentState = UIState.WIN;
-        UpdateUI();
-        winHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.winMonologue);
+        //currentState = UIState.WIN;
+        //UpdateUI();
+        //winHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.winMonologue);
     }
 
     public void ShowGameOverMenu()
     {
-        currentState = UIState.GAMEOVER;
-        UpdateUI();
-        loseHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.lostMonologue);
+        //currentState = UIState.GAMEOVER;
+        //UpdateUI();
+        //loseHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.lostMonologue);
     }
 
     public void BeginBattle()

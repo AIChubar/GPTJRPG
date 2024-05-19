@@ -1,0 +1,279 @@
+{
+    "friendlyGroup": {
+      "groupName": "Guardians of the Eternal Balance",
+      "units": [
+        {
+          "firstAttribute": "elementals",
+          "secondAttribute": "golem",
+          "thirdAttribute": "stone",
+          "characteristicName": "Stone Guardian",
+          "artisticName": "Rockheart Sentinel"
+        },
+        {
+          "firstAttribute": "elementals",
+          "secondAttribute": "golem",
+          "thirdAttribute": "wood",
+          "characteristicName": "Wooden Guardian",
+          "artisticName": "Forest Sentinel"
+        },
+        {
+          "firstAttribute": "elementals",
+          "secondAttribute": "giant",
+          "thirdAttribute": "frost",
+          "characteristicName": "Frost Giant",
+          "artisticName": "Glacial Titan"
+        }
+      ]
+    },
+    "levelsUnits": [
+      {
+        "levelName": "Whispering Woods",
+        "enemyGroups": [
+          {
+            "groupName": "Shadowy Grove Dwellers",
+            "units": [
+              {
+                "firstAttribute": "beasts",
+                "secondAttribute": "lindwurm",
+                "thirdAttribute": "",
+                "characteristicName": "Lindwurm",
+                "artisticName": "Whispering Serpent"
+              },
+              {
+                "firstAttribute": "beasts",
+                "secondAttribute": "troll",
+                "thirdAttribute": "forest",
+                "characteristicName": "Forest Troll",
+                "artisticName": "Mossback Marauder"
+              },
+              {
+                "firstAttribute": "beasts",
+                "secondAttribute": "troll",
+                "thirdAttribute": "forest",
+                "characteristicName": "Forest Troll",
+                "artisticName": "Thorned Brute"
+              }
+            ]
+          },
+          {
+            "groupName": "Ancient Arbor Guardians",
+            "units": [
+              {
+                "firstAttribute": "elementals",
+                "secondAttribute": "golem",
+                "thirdAttribute": "wood",
+                "characteristicName": "Wooden Guardian",
+                "artisticName": "Ancient Oak Warden"
+              },
+              {
+                "firstAttribute": "elementals",
+                "secondAttribute": "golem",
+                "thirdAttribute": "wood",
+                "characteristicName": "Wooden Guardian",
+                "artisticName": "Entangled Sentinel"
+              },
+              {
+                "firstAttribute": "elementals",
+                "secondAttribute": "giant",
+                "thirdAttribute": "frost",
+                "characteristicName": "Frost Giant",
+                "artisticName": "Icebound Colossus"
+              }
+            ]
+          },
+          {
+            "groupName": "Shadows of the Dark Abyss",
+            "units": [
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "ghost",
+                "thirdAttribute": "stalker",
+                "characteristicName": "Ghost",
+                "artisticName": "Spectral Haunter"
+              },
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "skeleton",
+                "thirdAttribute": "warrior",
+                "characteristicName": "Skeleton Warrior",
+                "artisticName": "Bone Sentinel"
+              },
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "zombie",
+                "thirdAttribute": "ghoul",
+                "characteristicName": "Ghoul Zombie",
+                "artisticName": "Gravebound Lurker"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "levelName": "Frostbite Peaks",
+        "enemyGroups": [
+          {
+            "groupName": "Glacial Frost Horde",
+            "units": [
+              {
+                "firstAttribute": "horde",
+                "secondAttribute": "hill_giant",
+                "thirdAttribute": "fighter",
+                "characteristicName": "Hill Giant Fighter",
+                "artisticName": "Glacial Brawler"
+              },
+              {
+                "firstAttribute": "horde",
+                "secondAttribute": "spriggan",
+                "thirdAttribute": "berserker",
+                "characteristicName": "Spriggan Berserker",
+                "artisticName": "Frost Fury"
+              },
+              {
+                "firstAttribute": "horde",
+                "secondAttribute": "yaktaur",
+                "thirdAttribute": "chief",
+                "characteristicName": "Yaktaur Chief",
+                "artisticName": "Icebound Warlord"
+              }
+            ]
+          },
+          {
+            "groupName": "Frozen Wyrm Legion",
+            "units": [
+              {
+                "firstAttribute": "draconids",
+                "secondAttribute": "drake",
+                "thirdAttribute": "ice",
+                "characteristicName": "Ice Drake",
+                "artisticName": "Frostfire Wyrm"
+              },
+              {
+                "firstAttribute": "draconids",
+                "secondAttribute": "dragon",
+                "thirdAttribute": "ice",
+                "characteristicName": "Ice Dragon",
+                "artisticName": "Glacial Serpent"
+              },
+              {
+                "firstAttribute": "draconids",
+                "secondAttribute": "drake",
+                "thirdAttribute": "ice",
+                "characteristicName": "Ice Drake",
+                "artisticName": "Frozen Wyrm"
+              }
+            ]
+          },
+          {
+            "groupName": "Spectral Frost Guardians",
+            "units": [
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "ghost",
+                "thirdAttribute": "stalker",
+                "characteristicName": "Ghost",
+                "artisticName": "Phantom Frostwalker"
+              },
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "wraith",
+                "thirdAttribute": "freezing",
+                "characteristicName": "Freezing Wraith",
+                "artisticName": "Frostbitten Specter"
+              },
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "lich",
+                "thirdAttribute": "mage",
+                "characteristicName": "Lich Mage",
+                "artisticName": "Frozen Soulkeeper"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "levelName": "Rusty Chain Stronghold",
+        "enemyGroups": [
+          {
+            "groupName": "Fiery Iron Horde",
+            "units": [
+              {
+                "firstAttribute": "horde",
+                "secondAttribute": "iron_troll",
+                "thirdAttribute": "fighter",
+                "characteristicName": "Iron Troll Fighter",
+                "artisticName": "Inferno Sentinel"
+              },
+              {
+                "firstAttribute": "horde",
+                "secondAttribute": "ogre",
+                "thirdAttribute": "mage",
+                "characteristicName": "Ogre Mage",
+                "artisticName": "Flamecaster Warlock"
+              },
+              {
+                "firstAttribute": "horde",
+                "secondAttribute": "cyclops",
+                "thirdAttribute": "chief",
+                "characteristicName": "Cyclops Chief",
+                "artisticName": "Flameforged Warlord"
+              }
+            ]
+          },
+          {
+            "groupName": "Lava Golem Legion",
+            "units": [
+              {
+                "firstAttribute": "elementals",
+                "secondAttribute": "golem",
+                "thirdAttribute": "fire",
+                "characteristicName": "Fire Golem",
+                "artisticName": "Molten Colossus"
+              },
+              {
+                "firstAttribute": "elementals",
+                "secondAttribute": "giant",
+                "thirdAttribute": "fire",
+                "characteristicName": "Fire Giant",
+                "artisticName": "Inferno Titan"
+              },
+              {
+                "firstAttribute": "elementals",
+                "secondAttribute": "lord",
+                "thirdAttribute": "fire",
+                "characteristicName": "Fire Lord",
+                "artisticName": "Flameborne Overlord"
+              }
+            ]
+          },
+          {
+            "groupName": "Crimson Abyss Guard",
+            "units": [
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "vampire",
+                "thirdAttribute": "mage",
+                "characteristicName": "Vampire Mage",
+                "artisticName": "Bloodfire Arcanist"
+              },
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "lich",
+                "thirdAttribute": "mage",
+                "characteristicName": "Lich Mage",
+                "artisticName": "Crimson Necromancer"
+              },
+              {
+                "firstAttribute": "undead",
+                "secondAttribute": "ghost",
+                "thirdAttribute": "stalker",
+                "characteristicName": "Ghost",
+                "artisticName": "Ethereal Shadowstalker"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
