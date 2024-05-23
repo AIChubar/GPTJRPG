@@ -1,0 +1,61 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispering Woods",
+      "questList": [
+        {
+          "questName": "Shadows of Gloom",
+          "questDescription": "Hunt down the elusive Gloomshade that lurks within the shadows of Whispering Woods. Its eerie presence threatens the balance of light and dark in Mystic Haven.",
+          "questType": "kill",
+          "questObjective": "Gloomshade",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Echoes of Soulreaper",
+          "questDescription": "Banish the Soulreaper haunting the depths of Whispering Woods. Its hunger for souls must be stopped before it devours the essence of this mystical land.",
+          "questType": "kill",
+          "questObjective": "Soulreaper",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Frozen Peaks",
+      "questList": [
+        {
+          "questName": "Icelord's Wrath",
+          "questDescription": "Confront the mighty Icelord that commands the Frozen Peaks. Its frosty gaze chills the very air, posing a threat to all who dare to ascend these icy heights.",
+          "questType": "kill",
+          "questObjective": "Icelord",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Frostfang's Fury",
+          "questDescription": "Defeat the ferocious Frostfang, a formidable Ice Beast that prowls the Frozen Peaks. Its icy breath freezes all in its path, making it a danger to the realm.",
+          "questType": "kill",
+          "questObjective": "Frostfang",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Rusty Ruins",
+      "questList": [
+        {
+          "questName": "Blazefury's Reckoning",
+          "questDescription": "Challenge the fiery power of Blazefury, the formidable Fire Lord of the Rusty Ruins. Its flames threaten to engulf all who enter this ancient domain.",
+          "questType": "kill",
+          "questObjective": "Blazefury",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Infernoguard's Stand",
+          "questDescription": "Subdue the relentless Infernoguard that patrols the depths of the Rusty Ruins. Its fiery gaze warns of the danger that lies within this forsaken place.",
+          "questType": "kill",
+          "questObjective": "Infernoguard",
+          "objectiveNum": 1
+        }
+      ]
+    }
+  ]
+}

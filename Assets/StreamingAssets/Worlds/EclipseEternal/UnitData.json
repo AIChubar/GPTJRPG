@@ -1,0 +1,147 @@
+{
+  "friendlyGroup": {
+    "groupName": "Twilight Guardians",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "fighter",
+        "characteristicName": "Celestial Defender",
+        "artisticName": "Aurelia",
+        "powerLevel": "formidable",
+        "unitType": "fighter"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "titan",
+        "thirdAttribute": "fighter",
+        "characteristicName": "Divine Annihilator",
+        "artisticName": "Valiantus",
+        "powerLevel": "mighty",
+        "unitType": "fighter"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "daeva",
+        "thirdAttribute": "fighter",
+        "characteristicName": "Radiant Fighter",
+        "artisticName": "Seraphina",
+        "powerLevel": "strong",
+        "unitType": "fighter"
+      }
+    ]
+  },
+  "levelsUnits": [
+    {
+      "levelName": "Twilight Meadows",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of Dusk",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Eternal Necromancer",
+              "artisticName": "Mortisar",
+              "powerLevel": "mighty",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Bone Wyrm",
+              "artisticName": "Skullfire",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Spectral Haunter",
+              "artisticName": "Wraithshade",
+              "powerLevel": "formidable",
+              "unitType": "guardian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frostbite Peaks",
+      "enemyGroups": [
+        {
+          "groupName": "Frozen Terrors",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Frostscale Serpent",
+              "artisticName": "Glacialcoil",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "frost",
+              "characteristicName": "Glacial Colossus",
+              "artisticName": "Frostbeard",
+              "powerLevel": "mighty",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "deep_troll",
+              "thirdAttribute": "earth_mage",
+              "characteristicName": "Tundra Shaman",
+              "artisticName": "Stonechant",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Crimson Caverns",
+      "enemyGroups": [
+        {
+          "groupName": "Infernal Legion",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "devil",
+              "thirdAttribute": "rotting",
+              "characteristicName": "Putrid Fiend",
+              "artisticName": "Blightspawn",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Magma Brute",
+              "artisticName": "Obsidiancrush",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "draconids",
+              "secondAttribute": "drake",
+              "thirdAttribute": "death",
+              "characteristicName": "Shadowflame Wyrm",
+              "artisticName": "Necrobyss",
+              "powerLevel": "mighty",
+              "unitType": "fortress"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

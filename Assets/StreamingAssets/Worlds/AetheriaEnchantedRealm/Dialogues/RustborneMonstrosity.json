@@ -1,0 +1,115 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "plague",
+      "characteristicName": "Plague Ooze",
+      "artisticName": "Rustborne Monstrosity",
+      "powerLevel": "strong",
+      "unitType": "tank"
+    },
+    "personaMetrics": {
+      "aggressiveness": 98,
+      "friendliness": 2,
+      "intellect": 10,
+      "strategicThinking": 25,
+      "indifference": 5,
+      "flexibility": 10,
+      "communicationSkills": 5,
+      "morality": 3,
+      "chaoticity": 75
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares to trespass into the territory of the Rustborne Monstrosity?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking passage through your domain.",
+        "enemyAnswer": "Peace? Such a feeble concept. What do you offer in return for safe passage?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer you a token of respect and promise not to disturb your slumber.",
+            "enemyAnswer": "Respect? Ha! Mortals like you are all the same. Begone or face the consequences!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully, I mean no harm.",
+                "enemyAnswer": "Pathetic mortal. Your fear is palpable. Leave now or face the fury of the Plague Ooze!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I refuse to be threatened by a mere slime. Face me if you dare!",
+                "enemyAnswer": "Bold words for one so fragile. Prepare to be consumed by the plague's embrace!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no offerings for the likes of you, I demand safe passage.",
+            "enemyAnswer": "Demand? No one demands of the Rustborne Monstrosity! You will regret your arrogance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for my tone, I seek only to pass through peacefully.",
+                "enemyAnswer": "Apologies won't save you now. Prepare to face the wrath of the Plague Ooze!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not bow to a mere Ooze. Let's settle this now!",
+                "enemyAnswer": "Foolish mortal, you bring destruction upon yourself. Embrace your demise!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have a gift, a rare potion that can enhance your power.",
+            "enemyAnswer": "Power? The Plague Ooze needs no enhancements from the likes of you. What trickery is this?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "No trickery, just a gesture of goodwill. Take it as a sign of peace.",
+                "enemyAnswer": "Peace? An amusing notion, but futile. Your fate is sealed by daring to cross us.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Fine, suit yourself. My offer was genuine, but your loss.",
+                "enemyAnswer": "Your attempts at diplomacy are useless. Prepare for the wrath of the Plague Ooze!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge your dominance, Rustborne Monstrosity!",
+        "enemyAnswer": "Challenge? Mortals are so full of delusions. Do you seek death?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear nothing! Face me in combat, if you dare!",
+            "enemyAnswer": "Brave words from one who will soon be defeated. Prepare to be eradicated by the Plague Ooze!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I was mistaken, I seek no conflict. I will leave in peace.",
+            "enemyAnswer": "Mistaken indeed. Leave now, or suffer the consequences of your foolishness.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I bring news of a greater threat, we should unite against it.",
+        "enemyAnswer": "Unity? The Rustborne Monstrosity needs no alliances. What do you propose?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Join forces with me against the approaching danger. Alone we will fall.",
+            "enemyAnswer": "Alliances are for the weak. We stand alone, as we have always done.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "Very well, stay blind to the impending doom. I will find others stronger.",
+            "enemyAnswer": "Your words hold no weight. Leave now or face the consequences of your ignorance.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "zombie",
+      "thirdAttribute": "drake",
+      "characteristicName": "Drake Zombie",
+      "artisticName": "Frostbitten Revenant",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 30,
+      "morality": 5,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to trespass our frozen domain, hopeless wanderer. What brings you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about the ancient Frostbitten Revenants.",
+        "enemyAnswer": "Knowledge? You humans are always craving for what you cannot comprehend. What makes you think we would share our wisdom with a fragile being like you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I come in peace, seeking to understand and learn from your kind.",
+            "enemyAnswer": "Peace? Your kind is condemned by your own destruction. We have no interest in weak alliances with fragile creatures like you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand, I will leave you in peace.",
+                "enemyAnswer": "Your understanding comes too late. Prepare to face the wrath of the Frostbitten Revenants!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I refuse to leave without the knowledge I seek.",
+                "enemyAnswer": "Stubbornness in the face of doom. Your ignorance seals your fate.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no interest in your ancient tales, I will leave.",
+            "enemyAnswer": "A wise decision, mortal. Leave before you become another frozen statue in our collection.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I am here to challenge the Frostbitten Revenants, prepare yourself for battle.",
+            "enemyAnswer": "Bold words from a feeble creature. We shall grant you the battle you seek.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come to offer a pact of mutual benefit between our kinds.",
+        "enemyAnswer": "Mutual benefit? Humans and Frostbitten Revenants have nothing to gain from each other. What delusions cloud your mind?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Our strengths combined can conquer all who oppose us.",
+            "enemyAnswer": "Conquer? We are the rulers of frost and death, we need no weak beings like you to assist us.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see our offer is not welcome. I will depart in peace.",
+                "enemyAnswer": "Your departure is wise. Do not return to our domain, lesser being.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not leave until you see the value in our alliance.",
+                "enemyAnswer": "Your persistence knows no bounds, mortal. It shall lead you to your demise.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I apologize for the intrusion, I will take my leave.",
+            "enemyAnswer": "Apologies do not undo the disruption you have caused, human. Leave quickly before our patience wanes.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I challenge you to see my worth, let our strength be tested.",
+            "enemyAnswer": "Challenge accepted, foolish mortal. Prepare to be vanquished by the might of Frostbitten Revenants.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I bring a gift as a token of goodwill and peace.",
+        "enemyAnswer": "A gift? What treasure could a mere mortal possess that would interest us, undead of the frozen wastes?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "This gift symbolizes our desire for harmony between our kind and yours.",
+            "enemyAnswer": "Harmony is but a fleeting dream in the face of eternal frost and decay. Your token is meaningless.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand the futility of my gesture. I will leave in respect.",
+                "enemyAnswer": "Respect? Your kind knows nothing of respect. Leave before our tempers freeze your fleeting existence.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I shall not depart until you accept our offering and consider peace.",
+                "enemyAnswer": "Your insistence is a fool's errand. Prepare to face the consequences of your arrogance.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "My gift is a sign of goodwill, a gesture of friendship between our beings.",
+            "enemyAnswer": "Friendship with the likes of you? Ha! Your naivety knows no bounds, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "It seems our attempts at peace are in vain. I will leave you to your solitude.",
+                "enemyAnswer": "Solitude suits us well, human. Your departure is a welcome relief from your futile endeavors.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your refusal will not deter me. I offer this gift as a sign of hope for our coexistence.",
+                "enemyAnswer": "Hope is but a spark in the endless winter. Your gestures are wasted here, foolish mortal.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The gift I bring is a token of respect and peace, a symbol of goodwill between our realms.",
+            "enemyAnswer": "Respect and peace hold no sway in our realm. Your token is as insignificant as your fleeting existence.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see we are not welcome. I shall take my leave.",
+                "enemyAnswer": "Your sight serves you well, human. Depart before your presence angers us further.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to depart until you acknowledge our gesture of peace.",
+                "enemyAnswer": "Acknowledge? Your persistence is as futile as your gesture. Prepare for the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

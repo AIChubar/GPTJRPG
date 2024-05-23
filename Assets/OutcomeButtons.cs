@@ -23,7 +23,7 @@ public class OutcomeButtons : MonoBehaviour
 
     public void OnClickedFight()
     {
-        GameManager
+        GameManager.gameManager.pauseMenu.BeginBattle();
     }
 
     public void OnClickedIgnore()

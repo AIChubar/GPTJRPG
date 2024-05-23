@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "troll",
+      "thirdAttribute": "forest",
+      "characteristicName": "Forest Troll",
+      "artisticName": "Thornhide",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 60,
+      "indifference": 30,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 20,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You stand before Thornhide, the mighty Forest Troll. Who dares intrude in our domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace seeking knowledge.",
+        "enemyAnswer": "Peace? Knowledge? Ha! Weak words from a stranger. What brings you here, truly?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I respect the power of the Glacial Horde. I seek an alliance.",
+            "enemyAnswer": "Alliance? The Glacial Horde needs no alliances with weaklings. Leave now or face our wrath.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I will leave your domain, no harm intended.",
+            "enemyAnswer": "Smart choice. The forest is unforgiving to those who overstep. Leave and never return.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge Thornhide, the Forest Troll, to test my strength.",
+        "enemyAnswer": "A challenger? Bold words, weakling. Prepare to be crushed by the might of the Glacial Horde!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I yield. I did not mean to offend.",
+            "enemyAnswer": "Yield? Cowardice has no place in these woods. You will learn respect through pain.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I will fight to prove my worth.",
+            "enemyAnswer": "Foolish mortal. You will regret challenging Thornhide.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek the wisdom of Thornhide, the Forest Troll.",
+        "enemyAnswer": "Wisdom? Hah! Mortals and their foolish desires. Speak quickly, or leave our domain.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for the intrusion. I will take my leave.",
+            "enemyAnswer": "Apologies are meaningless. Begone before I lose my patience.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will stay and learn from Thornhide's wisdom.",
+            "enemyAnswer": "Stubborn fool. You will regret seeking wisdom where you do not belong.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

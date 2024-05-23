@@ -1,0 +1,147 @@
+{
+  "friendlyGroup": {
+    "groupName": "Dreamweaver Guardians",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "fighter",
+        "characteristicName": "Celestial Defender",
+        "artisticName": "Seraphina",
+        "powerLevel": "formidable",
+        "unitType": "guardian"
+      },
+      {
+        "firstAttribute": "elementals",
+        "secondAttribute": "golem",
+        "thirdAttribute": "stone",
+        "characteristicName": "Earthen Guardian",
+        "artisticName": "Rockheart",
+        "powerLevel": "mighty",
+        "unitType": "fortress"
+      },
+      {
+        "firstAttribute": "birdlike",
+        "secondAttribute": "manticore",
+        "thirdAttribute": "",
+        "characteristicName": "Skyborne Protector",
+        "artisticName": "Aeris",
+        "powerLevel": "strong",
+        "unitType": "fighter"
+      }
+    ]
+  },
+  "levelsUnits": [
+    {
+      "levelName": "Enchanted Forest",
+      "enemyGroups": [
+        {
+          "groupName": "Nightmare Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Spectral Haunter",
+              "artisticName": "Wraithshade",
+              "powerLevel": "strong",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "spectral",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Dread",
+              "artisticName": "Phantomous",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "blood",
+              "characteristicName": "Crimson Aberration",
+              "artisticName": "Gorethorn",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Crystal Caverns",
+      "enemyGroups": [
+        {
+          "groupName": "Crystal Guardians",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "stone",
+              "characteristicName": "Colossal Sentinel",
+              "artisticName": "Quartzite Colossus",
+              "powerLevel": "formidable",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Mossback Brute",
+              "artisticName": "Thornhide",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Mystic Trickster",
+              "artisticName": "Shimmerglimmer",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frozen Wasteland",
+      "enemyGroups": [
+        {
+          "groupName": "Frostborn Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Frozen Necromancer",
+              "artisticName": "Frostgrave",
+              "powerLevel": "mighty",
+              "unitType": "balancer"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "centaur",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Glacial Centaur",
+              "artisticName": "Frosthoof",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "draconids",
+              "secondAttribute": "drake",
+              "thirdAttribute": "mottled",
+              "characteristicName": "Icy Serpent",
+              "artisticName": "Frostcoil",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

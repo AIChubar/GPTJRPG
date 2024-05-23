@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Wraith",
+      "artisticName": "Gloomshade",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 20,
+      "flexibility": 10,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "What pitiful creature dares to wander into the realm of Gloomshade, the bringer of eternal shadows?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am Aerin Stormbringer, Guardian of the Sacred Grove. I seek to restore balance to Mystic Haven.",
+        "enemyAnswer": "A Guardian? Hah! Your feeble attempts at restoration will be in vain, for darkness shall consume all in its path.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not be intimidated by your empty threats. Face me, shadow wraith!",
+            "enemyAnswer": "You dare challenge me? Prepare to be engulfed by the shadows forever!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand my ground and fight until the end!",
+                "enemyAnswer": "Foolish mortal, your bravery will be your downfall. Taste the darkness' embrace!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense your malevolent presence, but I will not succumb to fear. I choose to retreat for now.",
+                "enemyAnswer": "Ha! A coward as expected. Flee while you can, but know that darkness will always find you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I understand the power you wield, but I believe there is still a glimmer of light within you. Let us find common ground.",
+            "enemyAnswer": "Light and shadow shall never unite. You are deluded to think otherwise. Prepare to face the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not back down from my conviction. Let us strive for understanding and cooperation.",
+                "enemyAnswer": "Your naivety is astounding. Embrace the shadows' embrace, for it is all that awaits you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see that you are beyond reason. I choose to leave you in your darkness.",
+                "enemyAnswer": "As you cower away, know that the shadows will forever haunt your every step.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking to uncover the mysteries that lie within Mystic Haven. Will you allow me to pass?",
+        "enemyAnswer": "Peace? There is no peace for those who trespass into the realm of shadows. Leave now or face the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I respect the boundaries you guard. I shall retreat and seek knowledge elsewhere.",
+            "enemyAnswer": "Wise choice. Leave this place and never return if you value your feeble existence.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not be turned away so easily. I will stay and learn from the darkness itself.",
+            "enemyAnswer": "Bold words from a mere mortal. Your curiosity will be your downfall. Embrace the shadows' embrace!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

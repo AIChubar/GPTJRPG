@@ -1,0 +1,99 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "demon",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Demon",
+      "artisticName": "Frostshade",
+      "powerLevel": "moderate",
+      "unitType": "sniper"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 90,
+      "indifference": 20,
+      "flexibility": 10,
+      "communicationSkills": 50,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach the domain of Frostshade, the Shadow Demon. What brings you to my realm, human?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to learn from your powers.",
+        "enemyAnswer": "Hah! Mortals always seeking power. I might consider teaching you, but only if you prove your worth.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am willing to undergo any trial you set.",
+            "enemyAnswer": "Very well. Prepare yourself for the test of shadows. Survive, and perhaps I shall impart some knowledge to you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will overcome any challenge.",
+                "enemyAnswer": "You have shown bravery. I will share a glimpse of my abilities with you. Be grateful, for few survive my tests.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I am not afraid. Bring on your test.",
+                "enemyAnswer": "Bold words, human. Let us see if you can match your actions to your boasts.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I don't need anything from a creature like you.",
+            "enemyAnswer": "Insolence! You will regret your disrespect.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize. I didn't mean to offend.",
+                "enemyAnswer": "Apologies won't save you now. Prepare to face the consequences of your words.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I stand by my words. Let's see what you can do.",
+                "enemyAnswer": "So be it. You have sealed your fate with your arrogance.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek an ally in this dangerous realm.",
+            "enemyAnswer": "An ally, you say? What do you offer in return for my cooperation?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My loyalty and assistance whenever you need.",
+                "enemyAnswer": "Interesting proposal. I shall observe your actions before deciding whether to grant you my alliance.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have nothing to offer but a heartfelt plea.",
+                "enemyAnswer": "Sentimentality is useless in this realm. Come back when you have something of value.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to trifle with creatures like you.",
+        "enemyAnswer": "You dare to insult Frostshade, the Shadow Demon? You will pay dearly for your impudence.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for the offense. I will leave your realm.",
+            "enemyAnswer": "Your apology means nothing now. Begone before I decide to eliminate you.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I will not beg forgiveness from the likes of you.",
+            "enemyAnswer": "Prideful till the end, are we? Very well, face the consequences of your defiance.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

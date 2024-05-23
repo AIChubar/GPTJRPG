@@ -1,0 +1,91 @@
+{
+  "unitType": {
+    "fighter": {
+      "healthCoefficient": 0.9,
+      "damageCoefficient": 1.2,
+      "armourCoefficient": 0.9
+    },
+    "striker": {
+      "healthCoefficient": 0.9,
+      "damageCoefficient": 1.5,
+      "armourCoefficient": 0.6
+    },
+    "guardian": {
+      "healthCoefficient": 1.8,
+      "damageCoefficient": 0.6,
+      "armourCoefficient": 0.6
+    },
+    "tank": {
+      "healthCoefficient": 2.4,
+      "damageCoefficient": 0.3,
+      "armourCoefficient": 0.3
+    },
+    "fortress": {
+      "healthCoefficient": 0.9,
+      "damageCoefficient": 0.6,
+      "armourCoefficient": 1.5
+    },
+    "balancer": {
+      "healthCoefficient": 1.2,
+      "damageCoefficient": 1.2,
+      "armourCoefficient": 0.6
+    },
+    "trickster": {
+      "healthCoefficient": 0.6,
+      "damageCoefficient": 0.6,
+      "armourCoefficient": 1.8
+    },
+    "berserker": {
+      "healthCoefficient": 1.8,
+      "damageCoefficient": 1.2,
+      "armourCoefficient": 0
+    },
+    "sniper": {
+      "healthCoefficient": 0.9,
+      "damageCoefficient": 2.1,
+      "armourCoefficient": 0
+    },
+    "savage": {
+      "healthCoefficient": 0.6,
+      "damageCoefficient": 2.4,
+      "armourCoefficient": 0
+    }
+  },
+  "powerLevelAttributes": {
+    "feeble": {
+      "health": 100,
+      "damage": 12,
+      "armour": 3
+    },
+    "weak": {
+      "health": 125,
+      "damage": 16,
+      "armour": 4
+    },
+    "moderate": {
+      "health": 150,
+      "damage": 20,
+      "armour": 5
+    },
+    "strong": {
+      "health": 175,
+      "damage": 25,
+      "armour": 7
+    },
+    "mighty": {
+      "health": 200,
+      "damage": 30,
+      "armour": 9
+    },
+    "formidable": {
+      "health": 250,
+      "damage": 35,
+      "armour": 11
+    },
+    "legendary": {
+      "health": 300,
+      "damage": 45,
+      "armour": 15
+    }
+  }
+}

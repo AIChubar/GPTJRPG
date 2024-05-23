@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Stalker Ghost",
+      "artisticName": "Wraith Whisperer",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 5,
+      "intellect": 25,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense your presence, intruder. What brings you to this forsaken realm?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to vanquish the darkness that has enveloped this land.",
+        "enemyAnswer": "Bold words for a mere mortal. Do you truly believe you have what it takes to challenge the shadows?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My determination is unyielding. I will not rest until light reigns once more.",
+            "enemyAnswer": "Hmph, a stubborn soul you are. Your unwavering resolve may earn you a swift end or a fleeting victory.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear neither death nor defeat. I will face whatever comes my way.",
+                "enemyAnswer": "Foolish bravery. Let us see if your courage matches your words.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there is room for cooperation and mutual benefit. Let us join forces against the darkness.",
+                "enemyAnswer": "Allies, in a realm of discord? An intriguing proposition, mortal.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am but a humble traveler seeking answers and aid in these troubled times.",
+            "enemyAnswer": "Curiosity in the form of flesh and bone. What secrets do you hope to unearth amidst the shadows?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek knowledge and guidance, not conflict. Will you assist me in my quest?",
+                "enemyAnswer": "Assistance from a wandering soul? It seems the darkness has clouded your judgment.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I walk alone, yet a friendly encounter in these lands is a rare gift.",
+                "enemyAnswer": "Loneliness begets strange companionship. Your trust is as fragile as the veil between worlds.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come as an emissary of peace, hoping to find common ground and understanding.",
+            "enemyAnswer": "Peace? A concept foreign to the shadows that dwell here. What purpose does your misguided diplomacy serve?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us cast aside old grudges and work towards a brighter future together.",
+                "enemyAnswer": "Bright future amidst eternal gloom? Your optimism is as reckless as it is futile.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If words fail, actions will speak louder. Allow me to prove the strength of unity over discord.",
+                "enemyAnswer": "Unity in discord, a paradox of the living. You gamble with unseen consequences.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

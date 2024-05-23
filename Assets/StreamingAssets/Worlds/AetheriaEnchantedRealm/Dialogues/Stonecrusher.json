@@ -1,0 +1,104 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "troll",
+      "thirdAttribute": "rock",
+      "characteristicName": "Rock Troll",
+      "artisticName": "Stonecrusher",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 40,
+      "indifference": 15,
+      "flexibility": 10,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares to wander into my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking knowledge.",
+        "enemyAnswer": "Peace, knowledge? Such futile notions! What do you truly seek?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek to understand the power that dwells within these rocks.",
+            "enemyAnswer": "Understanding power, you say? You are foolish to challenge that which you do not comprehend.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for any offense. I will leave you in peace.",
+                "enemyAnswer": "Apologies cannot undo your intrusion. Prepare for the consequences.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I stand by my curiosity. Let us learn from each other.",
+                "enemyAnswer": "Curiosity for knowledge, a trait I can respect. We shall see if you are deserving of it.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to challenge your strength, mighty Stonecrusher!",
+            "enemyAnswer": "Bold words from a mere mortal. You shall regret your arrogance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am not one to back down from a challenge. Let's settle this in combat!",
+                "enemyAnswer": "So be it. Prepare to face the might of the rocks!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "My words were spoken in jest. I mean no harm.",
+                "enemyAnswer": "Jest or not, your words have consequences. Leave while you still can.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to claim this territory as my own.",
+        "enemyAnswer": "Claim this territory? You overstep, outsider. What makes you think you are worthy?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will prove my worth through strength and cunning. Stand aside or face the consequences.",
+            "enemyAnswer": "Bold words, but actions speak louder. Let us see if you can back them up.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am ready to face whatever challenges come my way. Bring it on!",
+                "enemyAnswer": "So be it. The rocks will remember the arrogance of those who challenge them.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps I have overestimated my abilities. I will take my leave.",
+                "enemyAnswer": "Wisdom prevails in retreat. The rocks shall welcome your departure.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I meant no disrespect. I will leave peacefully if you allow it.",
+            "enemyAnswer": "Peaceful intentions may spare you today, but remember the price of intrusion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I appreciate your mercy. I will depart now.",
+                "enemyAnswer": "Your departure is wise. Do not test the patience of the rocks again.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not be threatened. I will take what I came for, by force if necessary!",
+                "enemyAnswer": "So be it. The rocks will see justice served.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

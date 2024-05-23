@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public JSONReader.GameWorld world;
 
+
+    public Sprite errorSprite;
     
     [HideInInspector]
     public int levelIndex = 0;
@@ -47,22 +49,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
+    // After fight menuы
     public void SceneUnloaded()
     {
         if (battleResult == BattleSystem.BattleState.LOST)
         {
-            pauseMenu.ShowGameOverMenu();
+            //pauseMenu.ShowGameOverMenu();
         }
         else if (battleResult == BattleSystem.BattleState.WIN)
         {
-            pauseMenu.ShowWinMenu();
+            //pauseMenu.ShowWinMenu();
         }
     }
 
 
     public Sprite GetSprite(JSONReader.UnitJSON unit)
     {
+        if (unit is null)
+            return errorSprite;
         var unitNameForSpriteAtlas = unit.secondAttribute;
         if (unit.thirdAttribute != "")
             unitNameForSpriteAtlas += "_" + unit.thirdAttribute;

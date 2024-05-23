@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "beast",
+      "thirdAttribute": "ice",
+      "characteristicName": "Ice Beast",
+      "artisticName": "Frostfang",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 50,
+      "morality": 15,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare trespass in our icy domain, human. What business do you have here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek passage through your territory, I mean no harm.",
+        "enemyAnswer": "Harm or not, outsiders are not welcome. Turn back now or face the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for intruding, I will leave peacefully.",
+            "enemyAnswer": "Apologies won't save you now. Prepare for a cold reception.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I underestimated your power. I will retreat immediately.",
+                "enemyAnswer": "Weakling! Your cowardice seals your fate. Ice Fangs, attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I refuse to leave. I will fight if I must.",
+                "enemyAnswer": "So be it. You've sealed your fate, fool.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not leave. Your kind has no authority over me.",
+            "enemyAnswer": "Stubborn human. You leave me no choice but to eliminate you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You wouldn't dare lay a hand on me.",
+                "enemyAnswer": "I do not need my hands to deal with the likes of you. Ice storm, engulf them!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I welcome your challenge. Let's settle this in combat.",
+                "enemyAnswer": "Very well, brave one. Ice Fangs, show them our power.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace. Can we not find a way to coexist?",
+            "enemyAnswer": "Coexist? Ha! Humans and Ice Beasts do not mix. Leave now before I change my mind.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will respect your territory and leave peacefully.",
+                "enemyAnswer": "Very well. Return to where you came from, and we shall consider this a warning.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to be driven away. I will stay and prove we can coexist.",
+                "enemyAnswer": "Foolish human. Prepare to witness the power of the ice.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have business of my own, and your kind won't stand in my way.",
+        "enemyAnswer": "Bold words for an outsider. Prepare to face the chilling consequences of your arrogance.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I don't have time for this. Stand aside or face the consequences.",
+            "enemyAnswer": "Your impertinence will cost you dearly. Ice Fangs, show them no mercy.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will make you regret challenging me. Prepare for a frosty defeat.",
+                "enemyAnswer": "You overestimate your chances. Ice storm, freeze them in their tracks!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let's settle this quickly. I have no patience for your games.",
+                "enemyAnswer": "Impatient fool. Ice Fangs, teach them the price of haste.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I care not for your warnings. I will continue on my path.",
+            "enemyAnswer": "You defy the natural order, human. A lesson in humility is in order.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no beasts. Show me what you're capable of.",
+                "enemyAnswer": "Your bravery will be your downfall. Ice storm, unleash your fury!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not back down. Let's see who the true victor will be.",
+                "enemyAnswer": "So be it. Ice Fangs, teach this one a lesson they won't forget.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense hostility in your voice. We don't have to be enemies.",
+            "enemyAnswer": "Enemies we are, enemies we shall remain. Prepare for the consequences of your naivety.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will respect your wishes and leave in peace.",
+                "enemyAnswer": "Wise choice. Leave now before my patience runs out.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to be threatened by a mere beast. Let's settle this once and for all.",
+                "enemyAnswer": "So be it. Ice Fangs, silence this fool once and for all.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge of the ice beasts. Will you share your wisdom with me?",
+        "enemyAnswer": "Knowledge? Human, you have much to learn about our kind. Choose your next words carefully.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek understanding and wish to learn from your kind. Will you teach me?",
+            "enemyAnswer": "Learning from us will not save you from your ignorance. The time for discourse is over.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave and ponder on the insights you have shared.",
+                "enemyAnswer": "Good. Return to your kind and spread the word of our power.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I insist on gaining knowledge, even if by force.",
+                "enemyAnswer": "Forceful human. Ice Fangs, show them the consequences of their arrogance.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not leave until my thirst for knowledge is quenched. Share your wisdom with me.",
+            "enemyAnswer": "Persistence will be your downfall, human. Ice Fangs, silence this foolish creature.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I won't leave empty-handed. Show me what you're truly capable of.",
+                "enemyAnswer": "You asked for it. Ice storm, teach this one a lesson in respect.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I challenge you to share your wisdom through combat. Let our strength determine the outcome.",
+                "enemyAnswer": "As you wish. Ice Fangs, show them the folly of their challenge.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek peaceful coexistence and mutual understanding. Can we not find a way to achieve this?",
+            "enemyAnswer": "Peaceful coexistence is a fantasy, human. Prepare for the reality of our icy wrath.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave in peace, hoping for a future where understanding is possible.",
+                "enemyAnswer": "Leave now, and do not return. The next encounter will not end well for you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If peaceful coexistence is impossible, then let us settle this through combat.",
+                "enemyAnswer": "So be it. Ice Fangs, show this one the price of their foolish ideals.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

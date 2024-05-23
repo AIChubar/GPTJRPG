@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "giant",
+      "thirdAttribute": "stone",
+      "characteristicName": "Colossal Sentinel",
+      "artisticName": "Quartzite Colossus",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 60,
+      "morality": 30,
+      "chaoticity": 40
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare approach the Quartzite Colossus. State your purpose, insignificant creature.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I only seek passage, mighty Colossus.",
+        "enemyAnswer": "Your words are hollow. The Colossus cares not for your requests.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then I shall turn back, no harm meant.",
+            "enemyAnswer": "Weakness detected. The Colossus finds you unworthy and insignificant. Prepare for your fate.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I apologize for the intrusion, I shall leave immediately.",
+            "enemyAnswer": "The Colossus acknowledges your submission. Depart and do not return.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge and wisdom, great Colossus.",
+        "enemyAnswer": "Knowledge is power, but you lack the capacity to comprehend what the Colossus holds.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am humble, but eager to learn. Please share your wisdom.",
+            "enemyAnswer": "Ignorance is potent in you. The Colossus will not waste its knowledge on the feeble-minded.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I understand, I shall depart and seek knowledge elsewhere.",
+            "enemyAnswer": "The decision is wise. Begone from these grounds with what little knowledge you possess.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge you, Quartzite Colossus. Prepare to face my strength.",
+        "enemyAnswer": "Foolish mortal. Your arrogance blinds you to the consequences of provoking the Colossus.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am no match for your might, I retract my challenge.",
+            "enemyAnswer": "Retreat acknowledged. The Colossus allows your cowardice to spare your demise.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I fear no stone giant. Let our battle commence!",
+            "enemyAnswer": "Your bravery is amusing. The Colossus shall crush you with ease.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

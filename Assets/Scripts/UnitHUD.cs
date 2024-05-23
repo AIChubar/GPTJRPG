@@ -18,11 +18,18 @@ public class UnitHUD : MonoBehaviour
 
     private JSONReader.UnitJSON _currentUnitData;
 
-    public void SetHUD(JSONReader.UnitJSON ud)
+    public void SetHUD(JSONReader.UnitJSON ud, Sprite sprite = null)
     {
-        if (unitImage is not null)
+        if (unitImage is not null && ud is not null)
         {
-            unitImage.sprite = GameManager.gameManager.GetSprite(ud);
+            if (sprite is null)
+            {
+                unitImage.sprite = GameManager.gameManager.GetSprite(ud);
+            }
+            else
+            {
+                unitImage.sprite = sprite;
+            }
             unitImage.color = Color.white;
         }
         _currentUnitData = ud;
@@ -40,9 +47,9 @@ public class UnitHUD : MonoBehaviour
             return; 
         }
         artisticNameText.text = _currentUnitData.artisticName;
-        characteristicNameText.text = _currentUnitData.characteristicName;
+        characteristicNameText.text = _currentUnitData.characteristicName + ", " + _currentUnitData.powerLevel + " " + _currentUnitData.unitType;
         _maxHp = _currentUnitData.maxHP;
-        damageText.text = "Damage: " + _currentUnitData.damage;
+        damageText.text = "Damage: " + _currentUnitData.damage + "   " + "Armour: " + _currentUnitData.armour;
         hpText.text ="HP: " + _currentUnitData.currentHP + " / " + _maxHp;
     }
 

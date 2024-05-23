@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Wraith",
+      "artisticName": "Dusk Revenant",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach the shadows, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am not afraid of shadows. Who are you?",
+        "enemyAnswer": "Hah, bravery or foolishness? I am a Dusk Revenant, a wraith of the shadows.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "What do you seek in these shadows?",
+            "enemyAnswer": "I seek only darkness and chaos. What drives you forward, human?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek knowledge. Can we not coexist in the shadows?",
+                "enemyAnswer": "Knowledge is meaningless in the realm of shadows. Your presence disturbs our peace.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I understand the allure of chaos. Let us embrace it together.",
+                "enemyAnswer": "You speak of understanding, yet you are blind to the true essence of chaos. Leave, before I show you.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am just passing through. No need for hostility.",
+            "enemyAnswer": "Mortals always think they can wander through our domain unscathed. You are mistaken.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for intruding. I will leave you in peace.",
+                "enemyAnswer": "Apologies won't save you now. The shadows hunger for your essence.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not back down. Face me if you dare.",
+                "enemyAnswer": "Bold words for one who treads on the edge of oblivion. Prepare for oblivion.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I did not mean to disturb. I can leave if you prefer.",
+        "enemyAnswer": "Leaving or staying, the result is the same. The shadows will consume you either way.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will take my leave then. Farewell, shadow creature.",
+            "enemyAnswer": "Farewell, mortal. You are wise to retreat from the darkness.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I refuse to be chased away. I will stand my ground.",
+            "enemyAnswer": "Stubbornness will lead you to your demise. Prepare for the shadows to claim you.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

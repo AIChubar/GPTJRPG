@@ -281,7 +281,7 @@ public class BattleSystem : MonoBehaviour
                 bool gotTarget = false;  
                 foreach( RaycastHit2D hit in hits ){  
                     if( hit.transform.gameObject.TryGetComponent(out Unit unit) ) {  
-                        _infoHUD.SetHUD(unit.unitData);   
+                        _infoHUD.SetHUD(unit.unitData, unit.GetComponent<SpriteRenderer>().sprite);   
                         gotTarget = true;  
                         break;  
                     }

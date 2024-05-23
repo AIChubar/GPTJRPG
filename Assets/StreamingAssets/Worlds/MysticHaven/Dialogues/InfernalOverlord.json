@@ -1,0 +1,109 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "hell_knight",
+      "thirdAttribute": "lord",
+      "characteristicName": "Hell Knight Lord",
+      "artisticName": "Infernal Overlord",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Puny mortal, what brings you to challenge the might of the Infernal Overlord?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek power to defeat a greater enemy.",
+        "enemyAnswer": "Power? You are brave, but power comes with a price. Choose your path carefully, mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am willing to pay any price for my goal.",
+            "enemyAnswer": "A bold claim indeed. Few possess the determination you exhibit. But beware, the path you seek is treacherous.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no challenge. Let the trials begin.",
+                "enemyAnswer": "Very well, mortal. Prepare yourself for a test of fire and steel.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I reconsider. This path may be too dangerous.",
+                "enemyAnswer": "Wise choice. The path of power is not for the faint-hearted. Leave now and live to fight another day.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will seek power elsewhere. Farewell.",
+            "enemyAnswer": "As you wish. Power is not for the weak-willed. Farewell, mortal.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking knowledge.",
+        "enemyAnswer": "Peace? A rare sentiment in these lands. Speak your purpose, seeker of knowledge.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I wish to learn about the history of this realm.",
+            "enemyAnswer": "History, a tapestry of blood and betrayal. What do you hope to gain from such knowledge, mortal?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Knowledge shapes the future. I seek to understand the past to build a better tomorrow.",
+                "enemyAnswer": "An admirable goal, but beware the shadows of the past. They hold dark secrets that may consume you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I seek power in ancient relics. Can you guide me to them?",
+                "enemyAnswer": "Power from the relics of the past? A dangerous endeavor, mortal. Proceed with caution.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek wisdom to bring balance to this world.",
+            "enemyAnswer": "Balance, a delicate dance in a world of chaos. What makes you believe you are worthy of such wisdom, mortal?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My intentions are pure. I wish to bring harmony to all beings.",
+                "enemyAnswer": "Harmony, a lofty ambition. But beware, purity often corrodes in the fires of reality.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "The balance must be restored at any cost. I will seek the wisdom I need.",
+                "enemyAnswer": "A determined path you choose, but remember, the whisper of wisdom can lead to both light and darkness.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge your authority. Prepare to face my wrath!",
+        "enemyAnswer": "Foolish mortal, you dare to challenge the might of the Infernal Overlord? Your audacity knows no bounds.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My strength surpasses your arrogance. Prepare for defeat!",
+            "enemyAnswer": "Bold words from a mere mortal. Let us see if your strength can withstand the fires of hell.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I...I take back my words. I meant no disrespect.",
+            "enemyAnswer": "Pathetic. You cower in the face of true power. Retreat now, and live with your shame.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "giant",
+      "thirdAttribute": "fire",
+      "characteristicName": "Fire Giant",
+      "artisticName": "Moltenrage",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 20
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Intruder, why have you ventured into the domain of the mighty Moltenrage? Speak your purpose.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to negotiate a truce.",
+        "enemyAnswer": "A truce with the Fire Giant? Your audacity is matched only by your foolishness. What do you offer?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Untouched lands in exchange for peace.",
+            "enemyAnswer": "Untouched lands? Ha! The Fire Giant cares not for such trivial offerings. Depart now or face the flames.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "An alliance to conquer common foes.",
+            "enemyAnswer": "An alliance, you say? Moltenrage could use a pawn. Swear your allegiance, and you may survive.",
+            "outcome": "ally"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge about the Fire Giants.",
+        "enemyAnswer": "Knowledge? Mortals dare to seek understanding of the eternal flames? Speak quickly before I lose interest.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I wish to learn about your history and culture.",
+            "enemyAnswer": "Curiosity may spare you, for now. Listen closely then, and I shall grant you a glimpse of our fiery legacy.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I seek your weaknesses to exploit.",
+            "enemyAnswer": "Exploit, you say? Moltenrage sees through your deceit. Begone before you face the true wrath of the flames.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge you to a duel of strength and wit.",
+        "enemyAnswer": "A challenge? Bold words from a fragile being. Prepare to face the searing fury of Moltenrage.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I accept your challenge with honor.",
+            "enemyAnswer": "Honor? Moltenrage cares not for such concepts. The flames will judge your worth.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I retract my challenge. Let us avoid needless conflict.",
+            "enemyAnswer": "Retract? Weakness is your true nature. Moltenrage shall relish in your suffering.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

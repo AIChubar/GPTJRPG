@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadowed Depths",
+      "questList": [
+        {
+          "questName": "Shadows of Despair",
+          "questDescription": "The Shadows of Despair have plagued the Shadowed Depths, spreading fear and darkness. Your quest is to vanquish the Wraith Whisperer, the mighty Stalker Ghost that commands these shadows.",
+          "questType": "kill",
+          "questObjective": "Wraith Whisperer",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Ethereal Phantoms",
+          "questDescription": "Ethereal Phantoms haunt the depths with their spectral presence. Seek out and eliminate the Illusionist Mischief, the weak Boggart Trickster that misleads travelers with illusions.",
+          "questType": "kill",
+          "questObjective": "Illusionist Mischief",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Twilight Terrors",
+          "questDescription": "The Twilight Terrors lurk in the shadows, waiting to strike. Your task is to defeat the Dusk Revenant, the mighty Shadow Wraith that spreads terror in the darkness.",
+          "questType": "kill",
+          "questObjective": "Dusk Revenant",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Frostbite Plateau",
+      "questList": [
+        {
+          "questName": "Glacial Horde",
+          "questDescription": "The Glacial Horde freezes all in their path with icy malice. Your mission is to take down the Stonecrusher, the strong Rock Troll that leads this chilling horde.",
+          "questType": "kill",
+          "questObjective": "Stonecrusher",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Frozen Legion",
+          "questDescription": "The Frozen Legion marches across the Frostbite Plateau with undead determination. Defeat the Blizzard Drake, the strong Frost Wyvern that commands this frozen army.",
+          "questType": "kill",
+          "questObjective": "Blizzard Drake",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Icebound Phantoms",
+          "questDescription": "The Icebound Phantoms haunt the icy wastelands with their chilling presence. Your goal is to eliminate the Frostfall Archmage, the formidable Ancient Lich that weaves icy spells.",
+          "questType": "kill",
+          "questObjective": "Frostfall Archmage",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Rusty Chain Stronghold",
+      "questList": [
+        {
+          "questName": "Infernal Legion",
+          "questDescription": "The Infernal Legion engulfs the Rusty Chain Stronghold in flames. Take on the Crimson Enforcer, the formidable Red Devil that orchestrates fiery chaos.",
+          "questType": "kill",
+          "questObjective": "Crimson Enforcer",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Molten Horde",
+          "questDescription": "The Molten Horde surges through the stronghold with scorching intensity. Defeat the Inferno Colossus, the mighty Fire Giant that leads this molten force.",
+          "questType": "kill",
+          "questObjective": "Inferno Colossus",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Rusthorde",
+          "questDescription": "The Rusthorde corrodes all it touches with its tainted presence. Your task is to bring down the Necroforge Magus, the formidable Summoner Lich that commands this rusted army.",
+          "questType": "kill",
+          "questObjective": "Necroforge Magus",
+          "objectiveNum": 1
+        }
+      ]
+    }
+  ]
+}

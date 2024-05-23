@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "firebrand",
+      "characteristicName": "Firebrand Salamander",
+      "artisticName": "Scorchtail",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to trespass in our domain? Speak, human, before I scorch you to ashes.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, I mean no harm.",
+        "enemyAnswer": "Peace? Ha! Your kind's presence alone is an insult to us.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Please, I seek no trouble. I can leave peacefully.",
+            "enemyAnswer": "Your cowardice is evident. Leave and never return, lest you face the flames.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Understood. I will leave at once.",
+                "enemyAnswer": "Good. Begone, and do not provoke our wrath again.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not back down. Prepare for a fight!",
+                "enemyAnswer": "Ha! Foolish mortal. Feel the burn of our rage!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not leave until I achieve my goal.",
+            "enemyAnswer": "Stubborn human. Your persistence will be your undoing.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I don't wish to cause harm. Can't we find a peaceful solution?",
+                "enemyAnswer": "Peace is not an option. The only path is through the flames.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Then let's settle this the hard way!",
+                "enemyAnswer": "As you wish. The inferno awaits you.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to negotiate. I seek a challenge.",
+        "enemyAnswer": "A challenge, you say? I'll make sure it's one you'll regret seeking.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear nothing. Let the battle begin!",
+            "enemyAnswer": "Your bravery will falter in the face of our blazing fury!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Wait, I didn't mean it! I'll leave peacefully.",
+            "enemyAnswer": "Too late for regrets. Prepare to be scorched.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

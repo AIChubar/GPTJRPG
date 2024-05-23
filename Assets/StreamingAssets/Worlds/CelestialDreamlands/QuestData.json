@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Enchanted Forest",
+      "questList": [
+        {
+          "questName": "Whispers of the Wraithshade",
+          "questDescription": "Venture deep into the Enchanted Forest and eliminate the Spectral Haunter known as Wraithshade, whose haunting whispers disturb the tranquility of the realm.",
+          "questType": "kill",
+          "questObjective": "Wraithshade",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Shadows of the Phantomous",
+          "questDescription": "Uncover the whereabouts of the Ethereal Dread named Phantomous in the Enchanted Forest and put an end to its ominous presence that lurks in the shadows.",
+          "questType": "kill",
+          "questObjective": "Phantomous",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Trickery of the Gorethorn",
+          "questDescription": "Seek out the Crimson Aberration called Gorethorn in the Enchanted Forest and thwart its mischievous tricks before they disrupt the balance of dreams.",
+          "questType": "kill",
+          "questObjective": "Gorethorn",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Crystal Caverns",
+      "questList": [
+        {
+          "questName": "Sentinel of Quartzite Colossus",
+          "questDescription": "Brave the Crystal Caverns and face the formidable Colossal Sentinel known as Quartzite Colossus, whose crystal guardianship must be overcome to progress.",
+          "questType": "kill",
+          "questObjective": "Quartzite Colossus",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Confront Thornhide's Might",
+          "questDescription": "Challenge the Mossback Brute known as Thornhide within the Crystal Caverns, whose immense strength poses a formidable obstacle on your path.",
+          "questType": "kill",
+          "questObjective": "Thornhide",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Outwit Shimmerglimmer's Tricks",
+          "questDescription": "Navigate the Crystal Caverns and outsmart the Mystic Trickster named Shimmerglimmer, whose deceptive illusions hinder your progress through the dream world.",
+          "questType": "kill",
+          "questObjective": "Shimmerglimmer",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Frozen Wasteland",
+      "questList": [
+        {
+          "questName": "Defeat the Frostgrave",
+          "questDescription": "Brace the icy winds of the Frozen Wasteland and confront the mighty Frozen Necromancer known as Frostgrave, whose chilling powers threaten the balance of the Dreamlands.",
+          "questType": "kill",
+          "questObjective": "Frostgrave",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Challenge the Frosthoof",
+          "questDescription": "Engage in battle with the Glacial Centaur called Frosthoof in the Frozen Wasteland, whose fierce combat skills test the courage of any challenger.",
+          "questType": "kill",
+          "questObjective": "Frosthoof",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Subdue the Frostcoil",
+          "questDescription": "Venture into the Frozen Wasteland and subdue the Icy Serpent known as Frostcoil, whose frosty coils threaten to entangle the fate of the Dreamlands.",
+          "questType": "kill",
+          "questObjective": "Frostcoil",
+          "objectiveNum": 1
+        }
+      ]
+    }
+  ]
+}

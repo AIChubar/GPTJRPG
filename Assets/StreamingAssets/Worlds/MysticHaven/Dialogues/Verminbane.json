@@ -1,0 +1,163 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "zombie",
+      "thirdAttribute": "rat",
+      "characteristicName": "Rat Zombie",
+      "artisticName": "Verminbane",
+      "powerLevel": "feeble"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 50,
+      "indifference": 20,
+      "flexibility": 10,
+      "communicationSkills": 30,
+      "morality": 5,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Sssss... What weakling dare approach Verminbane?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. Let's talk.",
+        "enemyAnswer": "Peace? Hah! Verminbane knows no peace!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek no trouble. Can we coexist?",
+            "enemyAnswer": "Coexist? Verminbane sees only prey and enemies. You are not worthy.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. I shall leave you be.",
+                "enemyAnswer": "Wise choice. Verminbane will ignore your existence.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will prove my strength!",
+                "enemyAnswer": "Strength? Verminbane will crush you like the feeble being you are!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to battle!",
+            "enemyAnswer": "A challenge? Verminbane accepts! Pathetic creature.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I yield. You are strong.",
+                "enemyAnswer": "Weakling! Verminbane will leave you broken.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I refuse to yield. Let's settle this.",
+                "enemyAnswer": "Defiance? Verminbane enjoys your spirit. Join me in the hunt, or be hunted.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not back down. Prepare for a fight!",
+            "enemyAnswer": "Ha! Bravery, yet folly. Verminbane will make you regret your foolishness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see your power. I retreat.",
+                "enemyAnswer": "Cowardice. Verminbane will not forget your weakness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will fight to the end!",
+                "enemyAnswer": "So be it. Verminbane will relish in your suffering.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I will not bow to the likes of you!",
+        "enemyAnswer": "Prideful fool. Verminbane will teach you respect.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for the disrespect. Can we start over?",
+            "enemyAnswer": "Apologies mean nothing to Verminbane. The only language you will understand is pain.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I surrender. Spare me.",
+                "enemyAnswer": "Spare you? Verminbane finds your pleas amusing.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not beg. Face me!",
+                "enemyAnswer": "Challenge accepted. Verminbane will enjoy breaking you.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I stand my ground. Let's settle this.",
+            "enemyAnswer": "Courage? Verminbane respects boldness. Join forces, or face the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I refuse to join forces. I will face whatever comes.",
+                "enemyAnswer": "Stubbornness. Verminbane will crush you like the rest.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I accept your offer. Let us hunt together.",
+                "enemyAnswer": "A wise decision. Verminbane welcomes a new minion.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am not afraid of you. Prepare for a fight!",
+            "enemyAnswer": "Foolish bravado. Verminbane will enjoy breaking your spirit.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I sense danger. I retreat.",
+                "enemyAnswer": "Cowardice. Verminbane will remember your fear.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Let's do this! I am ready for a battle.",
+                "enemyAnswer": "Entertaining. Verminbane will crush you in due time.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I don't have time for this. Move or suffer!",
+        "enemyAnswer": "Impatient creature. Verminbane will make you regret your hastiness.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave you in peace if you step aside.",
+            "enemyAnswer": "Peaceful intentions? Verminbane's answer is clear - attack!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Time for talk is over. Face me!",
+            "enemyAnswer": "Bold words. Verminbane will enjoy proving you wrong.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Wait, I did not mean it!",
+                "enemyAnswer": "Too late. Verminbane's fury is unleashed!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Bring it on! I am ready for a fight.",
+                "enemyAnswer": "As you wish. Verminbane will crush you swiftly.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "devil",
+      "thirdAttribute": "rotting",
+      "characteristicName": "Putrid Fiend",
+      "artisticName": "Blightspawn",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach me, pitiful mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to understand your kind.",
+        "enemyAnswer": "Understand? You are as clueless as a newborn bird, but if you beg for knowledge, so be it.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am merely curious about your world.",
+            "enemyAnswer": "Curiosity killed the cat, they say. Your curiosity may be your doom.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I mean no harm, I swear.",
+                "enemyAnswer": "Your words are as empty as the air in a desolate tomb. Leave now, or face the consequences.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave you in peace, then.",
+                "enemyAnswer": "Wise choice, mortal. Your presence annoys me.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I never expected to encounter such ferocity.",
+            "enemyAnswer": "Ferocity is all we demons know. Your surprise brings me amusement.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I can see that strength is respected among your kind.",
+                "enemyAnswer": "Strength is indeed revered, but yours is lacking. Begone before I crush you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave you in peace, then.",
+                "enemyAnswer": "Wise choice, mortal. Your presence annoys me.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to learn, not provoke.",
+            "enemyAnswer": "Learning requires intellect, something you lack. Nevertheless, I shall entertain your futile attempt.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I appreciate your willingness to teach me.",
+                "enemyAnswer": "Appreciation is a luxury you cannot afford. I tire of this conversation.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I see my efforts are in vain. Farewell.",
+                "enemyAnswer": "Indeed, your efforts are as futile as a flame in the rain. Leave me be.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no interest in conversing with a creature like you.",
+        "enemyAnswer": "Hah! Your arrogance is unbearable. Speak or leave, coward.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave, then. Goodbye.",
+            "enemyAnswer": "Run along like the pathetic being you are. You bore me.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I challenge you to a battle, demon!",
+            "enemyAnswer": "A challenge? How amusing. Prepare to face your doom, fool.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

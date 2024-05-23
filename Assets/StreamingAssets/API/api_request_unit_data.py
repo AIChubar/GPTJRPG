@@ -12,6 +12,9 @@ units_content = units_file.read()
 with open('current_world.json', 'r') as file:
     current_world_data = json.load(file)
     
+with open('units_stats.json', 'r') as file:
+    units_stats_text = file.read()
+    
 current_world_name = current_world_data["worldName"]
 world_folder_path = os.path.join(os.pardir, "Worlds", current_world_name)
 
@@ -35,8 +38,12 @@ response = openai.chat.completions.create(
                        "You are restricted by the pool of available units you can take from this JSON file with units: \n" + units_content + "\n"
                        "Each unit consist of three attributes, first is defined by the outer list names, second by inner list names and the third by one of the strings in the list. Third attribute can be empty for some second attribute lists. \n"
                        "Units inside one group should preferably share the same first attribute. \n"
+                       "Assign a power level for each unit based of your own knowledge about the creature, there are 7 different levels of power: feeble, weak, moderate, strong, mighty, formidable, legendary. \n"
+                       "You also should assign a type of the unit to it depending on the distribution of the health, damage and armour stats that fits this particular unit. Here is the information about these units: \n" + units_stats_text + "\n"
+                       "There is an average group power (agp) that is the  between the power levels on 1 to 7 scale. Make player agp level 5.5-6.5. Enemy agp on 1st level - 2-3, on 2nd level - 4-5, on 3rd level - 5-6.\n"
+                       "Try to use differently powered units to fill the group with set average power. \n"
                        "Generate characteristic name that can consist of several words for each unit based on this unit only second and third attributes and an singular artistic name appropriate for this unit. \n"
-                       "There are three levels. Each level contains 5 enemy groups. At least 3 enemy groups should contain 3 units. Generate an artistic name for each enemy group. \n"
+                       "There are 3 levels. Each level contains 5 enemy groups. At least 3 enemy groups should contain 3 units. Generate an artistic name for each enemy group. \n"
                        "Fill the generated content into the appropriate variables in the given JSON structure. \n"
                        "#Constraints: \n"
                        "1. Do not choose the same exact unit more than 2 times. \n"

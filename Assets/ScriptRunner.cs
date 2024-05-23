@@ -6,22 +6,47 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
 using UnityEngine;
+using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
 
 public class ScriptRunner : MonoBehaviour
 {
     public GameObject creating;
+    
+    public Button[] buttonsToDisable;
     public void GenerateNewWorld()
     {
         StartCoroutine(RunScriptAndManageObject());
+    }
+    
+    public void DisableInput()
+    {
+        foreach (Button button in buttonsToDisable)
+        {
+            button.interactable = false; 
+        }
+    }
+    
+    public void EnableInput()
+    {
+        foreach (Button button in buttonsToDisable)
+        {
+            button.interactable = true; 
+        }
     }
     
     public void DeleteCurrentWorld()
     {
         if (WorldManager.worldManager.currentWorld == null)
             return;
-        File.Delete(Application.streamingAssetsPath + @"/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json");
-        File.Delete(Application.streamingAssetsPath + @"/Worlds/" + WorldManager.worldManager.currentWorld.worldName.text + ".json.meta");
+        string worldFolderPath = Application.streamingAssetsPath + @"/Worlds/" +
+                                 WorldManager.worldManager.currentWorld.folderName;
+        File.Delete(worldFolderPath + ".meta");
+
+        if (Directory.Exists(worldFolderPath))
+        {
+            Directory.Delete(worldFolderPath, true); 
+        }
         WorldManager.worldManager.Worlds.Remove(WorldManager.worldManager.currentWorld.worldName.text);
         Destroy(WorldManager.worldManager.currentWorld.gameObject);
     }
@@ -31,7 +56,7 @@ public class ScriptRunner : MonoBehaviour
     IEnumerator RunScriptAndManageObject()
     {
         creating.SetActive(true);
-
+        DisableInput();
         var scriptArguments = "-ExecutionPolicy Bypass -File \"" + Application.streamingAssetsPath + @"/API/create_world.ps1" + "\"";
         var processStartInfo = new ProcessStartInfo("powershell.exe", scriptArguments);
         processStartInfo.RedirectStandardOutput = true;
@@ -65,9 +90,10 @@ public class ScriptRunner : MonoBehaviour
             process.BeginErrorReadLine();
             while (!process.HasExited)
             {
-                yield return null; // Or any other delay mechanism
+                yield return null; 
             }
             creating.SetActive(false);
+            EnableInput();
 
             if (error != "")
             {
@@ -80,7 +106,6 @@ public class ScriptRunner : MonoBehaviour
             var currentWorld = JsonConvert.DeserializeObject<JSONReader.CurrentWorld>(File.ReadAllText(currentWorldPath));
             AddNewButton(currentWorld.worldName);
         }
-
 
     }
 

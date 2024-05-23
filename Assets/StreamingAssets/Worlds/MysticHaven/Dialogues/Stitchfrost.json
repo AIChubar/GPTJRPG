@@ -1,0 +1,127 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "golem",
+      "thirdAttribute": "flesh",
+      "characteristicName": "Flesh Golem",
+      "artisticName": "Stitchfrost",
+      "powerLevel": "moderate",
+      "unitType": "tank"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 50,
+      "morality": 15,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to enter my domain, puny creature? What do you seek?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, looking for answers.",
+        "enemyAnswer": "Peace? Hah! Your kind is not welcome here. Depart or face the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave, no need for violence.",
+            "enemyAnswer": "Wise choice. Begone from my sight, coward.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I shall depart immediately.",
+                "enemyAnswer": "Do not return, lest you wish to face a wrath you cannot comprehend.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will remember this hostility!",
+                "enemyAnswer": "Remember it well, for it may save your insignificant life one day.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I refuse to leave, answer me or face my wrath!",
+            "enemyAnswer": "Such defiance! Very well, you shall suffer the consequences of your arrogance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am prepared for whatever you may unleash.",
+                "enemyAnswer": "Then face the full fury of the Stitchfrost, and may your existence wither away.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer you one last chance to stand down.",
+                "enemyAnswer": "Stand down? Ridiculous! Prepare to be crushed beneath my icy fist!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek power and I will take it by force if necessary.",
+        "enemyAnswer": "Power, you say? Bold words from a frail being. Let's see if you can back them up.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will conquer you and claim your strength for myself!",
+            "enemyAnswer": "Conquer me? Delusional fool! Prepare to be shattered into pieces.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not back down, prepare for a fight!",
+                "enemyAnswer": "So be it. Let the clash of wills begin!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now that this was a mistake, I will retreat.",
+                "enemyAnswer": "Retreat? Too late for regrets. I shall show you the folly of your actions.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I apologize, I misspoke. I will leave peacefully.",
+            "enemyAnswer": "Words alone cannot undo your intentions. Prepare to face the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand now, I will depart immediately.",
+                "enemyAnswer": "A wise decision. Leave, and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not leave until I get what I came for!",
+                "enemyAnswer": "Stubborn to the end. Very well, face the wrath of the Stitchfrost!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am a friend, seeking companionship in this desolate place.",
+        "enemyAnswer": "Friend? In this place of ice and malice? You are either naive or a fool.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek understanding and offer my friendship.",
+            "enemyAnswer": "Understanding? Friendship? Such foreign concepts to me. Be gone, before my patience runs out.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will take my leave, no need for hostility.",
+                "enemyAnswer": "Hostility? You have no idea what true hostility is. Leave before you find out.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to be pushed away, I demand explanation!",
+                "enemyAnswer": "Demand all you want, it changes nothing. Prepare for a bitter end!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

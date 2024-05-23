@@ -1,0 +1,104 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Wraith",
+      "artisticName": "Duskveil",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 5,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Mortal, you dare to trespass into the realm of shadows? What foolishness drives you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge and power.",
+        "enemyAnswer": "Knowledge and power? Mortals are always blinded by their ambitions. Your words carry no weight here.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm. I seek only to understand.",
+            "enemyAnswer": "Understanding... a feeble excuse. Ignorance is bliss, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully. Farewell.",
+                "enemyAnswer": "As you should, weakling. Begone from these shadows.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not be threatened by shadows!",
+                "enemyAnswer": "Bold words for a feeble being. Prepare to face the darkness.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will take what I want by force, shadow.",
+            "enemyAnswer": "Violence... a language you understand. The shadows hunger for your essence.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am not afraid. Face me, creature!",
+                "enemyAnswer": "Brave or foolish, mortal? Let us see if your courage matches your words.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will retreat for now. This is not worth the risk.",
+                "enemyAnswer": "Cowardice... the shadows despise weakness. Begone, before they consume you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no time for games. Show yourself.",
+        "enemyAnswer": "Impatience... a mortal flaw. You will find me when the shadows decree it.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I demand answers! Who are you?",
+            "enemyAnswer": "Curiosity will be your downfall, mortal. Prepare for the shadows' embrace.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not cower before shadows. Face me!",
+                "enemyAnswer": "Foolish pride. The shadows shall feast upon your arrogance.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave this place. It holds no answers for me.",
+                "enemyAnswer": "As you should, ignorant one. The shadows care not for your struggles.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will leave now. This encounter is meaningless.",
+            "enemyAnswer": "Meaningless? Your presence disturbs the balance. The shadows may choose to end it.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I have no fear of shadows. Come forth!",
+                "enemyAnswer": "Boldness in the face of insignificance. Let the shadows judge your worth.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will depart. Your realm is not worth the trouble.",
+                "enemyAnswer": "As it should be. The shadows will forget your existence.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

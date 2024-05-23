@@ -1,0 +1,158 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "spectral",
+      "secondAttribute": "spectral",
+      "thirdAttribute": "ghost",
+      "characteristicName": "Spectral Ghost",
+      "artisticName": "Ethereal Haunt",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 60,
+      "strategicThinking": 40,
+      "indifference": 30,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Beware, intruder! What business do you have in the realm of the ethereal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek answers about this realm.",
+        "enemyAnswer": "Answers you seek? Foolish mortal. I care not for your inquiries.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm. I am lost and need guidance.",
+            "enemyAnswer": "Lost? Lost souls are the easiest prey. Do you dare face your fate?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave this place. Please, let me go.",
+                "enemyAnswer": "Pathetic cowardice. I will not spare you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I am not afraid. I will fight if necessary.",
+                "enemyAnswer": "Bold words for a fool. Prepare to face the wrath of the ethereal.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your realm intrigues me. Can you show me around?",
+            "enemyAnswer": "Intrigued, are we? Curiosity killed many before you. Will you heed caution?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will be cautious. Show me what you find worthy.",
+                "enemyAnswer": "As you wish. Follow, mortal, and do not stray.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I fear nothing. Lead the way, specter.",
+                "enemyAnswer": "Very well. Follow, and may the ethereal embrace you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not bow to threats. Show yourself, haunt!",
+            "enemyAnswer": "Defiant. I admire your bravery, even in ignorance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You admire bravery? Then let us test each other's strength.",
+                "enemyAnswer": "Very well, mortal. Prepare for a duel of fates.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I seek no trouble. Let us part ways peacefully.",
+                "enemyAnswer": "Peacefully it shall be. I sense no challenge in you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I did not come here to be threatened by a ghost.",
+        "enemyAnswer": "Threatened? Merely a warning. But are you one to be threatened?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am not easily intimidated, spectral being. Proceed with caution.",
+            "enemyAnswer": "No intimidation needed. Your presence here speaks enough.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully if that is your wish.",
+                "enemyAnswer": "Wise decision. Leave and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will stay and face whatever challenges you pose.",
+                "enemyAnswer": "Brave or foolish, time will tell. Face the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your warnings do not affect me. Face me or let me pass.",
+            "enemyAnswer": "Resilient, I see. But do you understand the consequences of your actions?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am prepared for whatever consequences may come.",
+                "enemyAnswer": "So be it. Face the ethereal consequences of defiance.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will retreat if that is what you wish.",
+                "enemyAnswer": "Retreat. A wise choice, lesser mortal. Depart and be forgotten.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge, not conflict.",
+        "enemyAnswer": "Knowledge? Mortals seek what they cannot comprehend.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I humbly ask for your guidance in this mystic realm.",
+            "enemyAnswer": "Guidance? Mortals seldom heed wise counsel. Are you different?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am willing to listen and learn, ethereal being.",
+                "enemyAnswer": "Willingness is rare. Follow, and perhaps you shall learn.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I seek knowledge, not lectures. Show me or be gone.",
+                "enemyAnswer": "Impatience. Knowledge is earned, not demanded. You will see.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will find the knowledge myself. I need no guidance from a ghost.",
+            "enemyAnswer": "Self-reliance. A trait many claim. Do you dare test it?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I do. Leave me be and I will find answers on my own.",
+                "enemyAnswer": "So be it. Seek what you will, mortal, but beware the unknown path.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your tests are meaningless. Show me what you know, haunt.",
+                "enemyAnswer": "Stubbornness. Some learn the hard way. Prepare for the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

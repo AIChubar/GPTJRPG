@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispering Woods",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Embark on a journey through the Whispering Woods, where the dark-grass paths lead you deeper into the heart of mystic secrets. Beware of the deep-dark-holes that hide beneath the shadows, ready to swallow the unwary traveler."
+    },
+    {
+      "levelName": "Frozen Peaks",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "water",
+      "levelDescription": "Ascend the Frozen Peaks, where the snow-covered terrain glistens under the pale moonlight. Traverse carefully as icy waters flow through treacherous paths, threatening to freeze any misstep in time."
+    },
+    {
+      "levelName": "Rusty Ruins",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Explore the ancient Rusty Ruins, where rusty-chain-platforms hang precariously over molten lava pits. Delve into the depths of forgotten civilizations, but beware the fiery wrath that consumes all in its path."
+    }
+  ]
+}

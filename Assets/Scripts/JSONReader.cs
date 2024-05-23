@@ -6,7 +6,8 @@ using Newtonsoft.Json;
 public class JSONReader : MonoBehaviour
 {
     private GameWorld gameWorld = new GameWorld();
-    public UnitsData unitsData;
+
+    private UnitsStats _unitsStats;
     
     [System.Serializable]
     public class GameWorld
@@ -102,10 +103,13 @@ public class JSONReader : MonoBehaviour
         public string thirdAttribute;
         public string characteristicName;
         public string artisticName;
+        public string powerLevel;
+        public string unitType;
         
         public int maxHP;
         public int currentHP;
         public int damage;
+        public int armour;
         public bool friendly;
     }
 
@@ -161,12 +165,36 @@ public class JSONReader : MonoBehaviour
         [CanBeNull] public string outcome; 
     }
     
+    [System.Serializable]
+    public class UnitsStats
+    {
+        public Dictionary<string, UnitTypeCoefficient> unitType;
+        public Dictionary<string, PowerLevelAttribute> powerLevelAttributes;
+    }
+    
+    [System.Serializable]
+    public class UnitTypeCoefficient
+    {
+        public float healthCoefficient;
+        public float damageCoefficient;
+        public float armourCoefficient;
+    }
+
+    [System.Serializable]
+    public class PowerLevelAttribute
+    {
+        public int health;
+        public int damage;
+        public int armour;
+    }
+    
 
     void Awake()
     {
-        var gameWorldName = WorldManager.worldManager.currentWorld.worldName.text;
+        var gameWorldName = WorldManager.worldManager.currentWorld.folderName;
         string folderPath = Path.Combine(Application.streamingAssetsPath, "Worlds", gameWorldName);
-
+        string unitsStatsPath = Path.Combine(Application.streamingAssetsPath, "API", "units_stats.json");
+        
         string narrativePath = Path.Combine(folderPath, "Narrative.json");
         string mainCharacterPath = Path.Combine(folderPath, "MainCharacter.json");
         string levelsPath = Path.Combine(folderPath, "Levels.json");
@@ -179,10 +207,14 @@ public class JSONReader : MonoBehaviour
         string unitDataJsonText = File.ReadAllText(unitDataPath);
         string questDataJsonText = File.ReadAllText(questDataPath);
         
+        string unitsStatsText = File.ReadAllText(unitsStatsPath);
+        
         JsonSerializerSettings settings = new JsonSerializerSettings
         {
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore  
         };
+        _unitsStats = JsonConvert.DeserializeObject<UnitsStats>(unitsStatsText, settings);
+        
         gameWorld.narrativeData =  JsonConvert.DeserializeObject<NarrativeData>(narrativeJsonText,settings);
         gameWorld.mainCharacter = JsonConvert.DeserializeObject<MainCharacter>(mainCharacterJsonText,settings);
         var levelsJson = JsonConvert.DeserializeObject<Levels>(levelsJsonText,settings);
@@ -205,37 +237,35 @@ public class JSONReader : MonoBehaviour
             
             gameWorld.dialogues.Add(dialogueJson.enemySpeakerInfo.unit.artisticName, dialogueJson);
         }
-        AssignStats(gameWorld);
+        AssignStats();
 
         GameManager.gameManager.world = gameWorld;
     }
 
-    private void AssignStats(GameWorld gameWorld)
+    private void AssignStats()
     {
-        foreach (var unit in gameWorld.unitsData.friendlyGroup.units)
-        {
-            unit.friendly = true;
-            int minRND = 12;
-            int maxRND = 20;
-            int rnd = Random.Range(minRND, maxRND);
-            unit.maxHP = unit.currentHP = rnd  * 10;
-            unit.damage = (int)((maxRND - rnd) * 1.5f +  Random.Range(minRND, maxRND)*1.5f);
-        }
+        AssignStatsForGroup(gameWorld.unitsData.friendlyGroup.units, true);
 
         foreach (var level in gameWorld.unitsData.levelsUnits)
         {
             foreach (var group in level.enemyGroups)
             {
-                foreach (var unit in group.units)
-                {
-                    unit.friendly = false;
-                    int minRND = 6;
-                    int maxRND = 10;
-                    int rnd = Random.Range(minRND, maxRND);
-                    unit.maxHP = unit.currentHP = rnd  * 10;
-                    unit.damage = (int)((maxRND - rnd) * 2f +  Random.Range(minRND, maxRND)*2f);
-                }
+                AssignStatsForGroup(group.units, false);
             }
         }
     }
+
+    private void AssignStatsForGroup(UnitJSON[] units, bool isFriendly)
+    {
+        foreach (var unit in units)
+        {
+            var unitPowerLevel = _unitsStats.powerLevelAttributes[unit.powerLevel];
+            var unitType = _unitsStats.unitType[unit.unitType];
+            unit.friendly = isFriendly;
+            unit.damage = (int)(unitPowerLevel.damage * unitType.damageCoefficient);
+            unit.maxHP = unit.currentHP = (int)(unitPowerLevel.health * unitType.healthCoefficient);
+            unit.armour = (int)(unitPowerLevel.armour * unitType.armourCoefficient);
+        }
+    }
+
 }

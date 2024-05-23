@@ -1,0 +1,192 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "firebrand",
+      "characteristicName": "Firebrand Salamander",
+      "artisticName": "Inferno Bringer",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 80,
+      "indifference": 15,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach the Inferno Bringer? Speak carefully, mortal.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, I mean no harm.",
+        "enemyAnswer": "Peace? Your words sound hollow, your presence disturbs the flames.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for the intrusion, I shall leave.",
+            "enemyAnswer": "Apologies are meaningless. Leave before the flames consume you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave, as you wish.",
+                "enemyAnswer": "Good choice. Walk away while you still can.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to leave, stand back!",
+                "enemyAnswer": "Foolish mortal, you will regret your defiance.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I stand my ground, I seek knowledge about the Inferno Bringer.",
+            "enemyAnswer": "Knowledge? Mortals are ignorant creatures, unfit to comprehend the Inferno Bringer's power.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will respectfully withdraw my request.",
+                "enemyAnswer": "Wise decision. Seek knowledge elsewhere, mortal.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I shall depart, thank you for your time.",
+                    "enemyAnswer": "Leave now, before the flames whisper your demise.",
+                    "outcome": "ignore"
+                  },
+                  {
+                    "playerOption": "I do not fear your threats, continue to seek knowledge.",
+                    "enemyAnswer": "Stubborn fool, you shall learn the price of your arrogance.",
+                    "outcome": "attack"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I demand answers, reveal the secrets of the Inferno Bringer.",
+                "enemyAnswer": "Demand? Mortals are insolent. The Inferno Bringer reveals to those deemed worthy.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I humbly request to be considered worthy.",
+                    "enemyAnswer": "Your words hold a hint of reverence. The Inferno Bringer observes.",
+                    "playerCharacterAnswers": [
+                      {
+                        "playerOption": "I await the Inferno Bringer's judgment.",
+                        "enemyAnswer": "Patience is a virtue. The Inferno Bringer shall reveal when the time is right.",
+                        "outcome": "ignore"
+                      },
+                      {
+                        "playerOption": "Impatience grows within me, I demand an audience now.",
+                        "enemyAnswer": "Impudence leads to destruction. The Inferno Bringer condemns your impatience.",
+                        "outcome": "attack"
+                      }
+                    ]
+                  },
+                  {
+                    "playerOption": "I do not beg for knowledge, I will take what is mine by force.",
+                    "enemyAnswer": "Brashness leads to torment, the Inferno Bringer does not yield to threats.",
+                    "playerCharacterAnswers": [
+                      {
+                        "playerOption": "I understand, I will leave and seek knowledge elsewhere.",
+                        "enemyAnswer": "Learn from this encounter. The Inferno Bringer's secrets are not for the arrogant.",
+                        "outcome": "ignore"
+                      },
+                      {
+                        "playerOption": "I stand firm, I will claim the knowledge regardless.",
+                        "enemyAnswer": "Stubbornness blinds the foolish. The Inferno Bringer will scorch your defiance.",
+                        "outcome": "attack"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I fear neither flames nor threats, I am here to challenge the Inferno Bringer.",
+        "enemyAnswer": "Bold words from a fragile being. You seek a challenge with the flames that birthed you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek not a battle, I seek an ally in the Inferno Bringer.",
+            "enemyAnswer": "Ally? Mortals dream of alliances with the flames, yet few endure the baptism.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my loyalty and service, let us unite.",
+                "enemyAnswer": "Loyalty must be proven, not spoken. The flames judge with impartiality.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I shall prove my worth, guide me in the trial.",
+                    "enemyAnswer": "The trial awaits. Walk the path of flames and embrace your destiny.",
+                    "outcome": "ally"
+                  },
+                  {
+                    "playerOption": "I retract my offer, I shall find strength elsewhere.",
+                    "enemyAnswer": "As expected, mortals flee when faced with true trial.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I sense treachery in your flames, I will not be your puppet.",
+                "enemyAnswer": "Suspicion shields the weak-minded. The flames care not for the paranoid.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I trust my instincts, I shall leave this place.",
+                    "enemyAnswer": "Wisdom is a rare sight. Depart, and do not return unless the flames beckon.",
+                    "outcome": "ignore"
+                  },
+                  {
+                    "playerOption": "I will challenge your flames, let my actions prove my intentions.",
+                    "enemyAnswer": "Foolish courage leads to swift ends. The flames shall test your resolve.",
+                    "outcome": "attack"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "playerOption": "I do not seek an alliance or knowledge, only to assert my dominance.",
+            "enemyAnswer": "Dominance? Mortals strive to rule over what they cannot comprehend.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge the flames of the Inferno Bringer, let them bow to me.",
+                "enemyAnswer": "Arrogance blinds the ambitious. The flames shall humble your pride.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I yield to your flames, I understand my place now.",
+                    "enemyAnswer": "Acceptance is the first step. Leave, and remember your place.",
+                    "outcome": "ignore"
+                  },
+                  {
+                    "playerOption": "I resist your flames, I will not bow to your power.",
+                    "enemyAnswer": "Defiance invites destruction. The flames shall incinerate your defiance.",
+                    "outcome": "attack"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I am the true fire, the Inferno Bringer will kneel before me.",
+                "enemyAnswer": "Delusions of grandeur fuel the foolish. The Inferno Bringer will extinguish your hubris.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I retract my claims, I seek no confrontation.",
+                    "enemyAnswer": "A rare moment of clarity. Retreat, and spare yourself from the inevitable.",
+                    "outcome": "ignore"
+                  },
+                  {
+                    "playerOption": "My flames burn brighter, prepare for the clash of powers.",
+                    "enemyAnswer": "The flames of arrogance shall be quenched by the Inferno Bringer's fury.",
+                    "outcome": "attack"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

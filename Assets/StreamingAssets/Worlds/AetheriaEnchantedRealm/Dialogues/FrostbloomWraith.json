@@ -1,0 +1,87 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "freezing",
+      "characteristicName": "Freezing Wraith",
+      "artisticName": "Frostbloom Wraith",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 50,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense the warmth of the living approaching me. What do you seek, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace? Peace is a fleeting concept to one like me. Your words do not sway me. Decide your fate, mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave you be and continue my journey.",
+            "enemyAnswer": "Your wisdom in retreat saves you this time. Remember this encounter, mortal. We shall meet again.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I challenge you to combat, freezing wraith!",
+            "enemyAnswer": "Ah, a brave fool you are to challenge the Frostbloom Wraith. A mistake that will cost you dearly!",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to learn about the freezing wraiths. Tell me of your kind.",
+        "enemyAnswer": "Curiosity from the living? How amusing. Very well, I shall enlighten you before your demise.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Fascinating. Please continue.",
+            "enemyAnswer": "Freezing wraiths like me are born of frost and shadow, forever bound to the icy abyss. Now, what more do you seek, mortal?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek to understand your purpose and nature.",
+                "enemyAnswer": "To understand the Frostbloom Wraith is to face the unfathomable darkness within yourself. Proceed with caution, mortal.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I acknowledge your wisdom and take my leave.",
+                "enemyAnswer": "Wise choice, mortal. Knowledge alone shall not protect you from the chill of death. Farewell.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "This knowledge is useless. I will be on my way.",
+            "enemyAnswer": "Knowledge discarded reveals ignorance. A common trait among the living. Farewell, fool.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek your aid in a quest against a common enemy. Will you join me?",
+        "enemyAnswer": "An alliance proposal from a mortal? Amusing. State your plea, and we shall see.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Together, we can vanquish our foes and rule the realm.",
+            "enemyAnswer": "Unity with the Frostbloom Wraith? Such arrogance deserves swift justice!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I understand. I shall proceed alone. Farewell.",
+            "enemyAnswer": "Your path of solitude suits you well, mortal. Leave now before my patience wanes.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

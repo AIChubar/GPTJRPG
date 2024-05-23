@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Twilight Meadows",
+      "walkableTerrain": "grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Twilight Meadows is a serene expanse of lush grasslands bathed in the eternal twilight of Eclipse Eternal. Mystical flora blooms under the dual suns, creating a mesmerizing display of colors. Be wary of hidden water obstacles that may disrupt the harmony of this beautiful landscape."
+    },
+    {
+      "levelName": "Frostbite Peaks",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Frostbite Peaks stand tall, their snow-covered peaks glistening under the dual suns of Eclipse Eternal. Brave the treacherous terrain as you navigate through icy pathways and steep cliffs. Beware of deep dark holes that threaten to swallow the unwary traveler in this frigid landscape."
+    },
+    {
+      "levelName": "Crimson Caverns",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Descend into the depths of the Crimson Caverns, where rusty chain platforms dangle precariously over rivers of molten lava. The fiery glow of the lava rock illuminates the dark tunnels, casting sinister shadows. Dare to traverse the treacherous platforms while avoiding the searing heat of the lava in this perilous underworld."
+    }
+  ]
+}

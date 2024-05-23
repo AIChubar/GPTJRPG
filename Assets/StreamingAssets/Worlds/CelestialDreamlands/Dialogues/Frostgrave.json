@@ -1,0 +1,152 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "summoner",
+      "characteristicName": "Frozen Necromancer",
+      "artisticName": "Frostgrave",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 92,
+      "friendliness": 5,
+      "intellect": 78,
+      "strategicThinking": 85,
+      "indifference": 12,
+      "flexibility": 20,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense the presence of a living intruder. Speak, mortal, for your fate hangs on the edge of my patience.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Boldly state your name and purpose.",
+        "enemyAnswer": "Boldness, I see. Mortals usually tremble before me. I am Frostgrave, the Frozen Necromancer, ruler of these icy tombs. What impudence drives you here?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge and power to save my homeland.",
+            "enemyAnswer": "Knowledge and power you seek, foolish mortal? Such desires often come at a price, a price you may not be willing to pay.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am determined and will pay any price.",
+                "enemyAnswer": "Determined, are you? Very well, but remember, the path of power is treacherous, and for each gift of knowledge, a piece of your soul is claimed. Proceed at your own peril.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will reconsider my quest, farewell.",
+                "enemyAnswer": "Reconsider? Cowardice or wisdom, time will tell. Leave these halls, mortal, before my patience runs out.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, seeking to understand the mysteries of the undead.",
+            "enemyAnswer": "Peace? A rare sentiment from the living. The mysteries you seek are dark and dangerous, mortal. What makes you think you are worthy?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I humbly ask for guidance and knowledge.",
+                "enemyAnswer": "Humble, yet daring. I may grant you some morsels of knowledge, but remember, ignorance can be a safer path. Proceed with caution, mortal.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave in respect of your power and wisdom.",
+                "enemyAnswer": "Respect? An interesting choice. Leave now, and do not test my patience further, mortal. Perhaps wise to retreat.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you, Frostgrave, to a battle of wits.",
+            "enemyAnswer": "A challenge? Bold and foolish. Mortals often underestimate the wisdom of the dead. What is it that you wish to challenge me on, mortal?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let's test each other's knowledge of magic and ancient lore.",
+                "enemyAnswer": "Knowledge and magic, an intriguing proposition. But remember, the consequences of failure can be dire. Are you prepared to stake it all on this challenge?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I was mistaken, no challenge is necessary. Farewell.",
+                "enemyAnswer": "Mistaken you are, mortal. Leave now before I show you the true extent of my power. Your wit is no match for me.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Remain silent, observing Frostgrave carefully.",
+        "enemyAnswer": "Silence, a wise choice, mortal. But curiosity led you here, did it not? Speak now, or face the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no words for one as cold as you.",
+            "enemyAnswer": "No words, yet you stand before me. Your actions speak louder than words, mortal. What do they reveal? Powerlessness or cunning?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My silence is my strength, farewell.",
+                "enemyAnswer": "Strength in silence, a rare trait among the living. Leave now, and do not disturb the balance of this place again, mortal.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will leave, respecting your power and domain.",
+                "enemyAnswer": "Respect, a fleeting sentiment from the living. Depart now, before my patience wears thin, mortal. Your presence is tolerated, for now.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I observe to learn, not to challenge. Share your wisdom with me.",
+            "enemyAnswer": "Observant, are you? Wisdom is a rare gift among mortals. What is it that you seek to learn, curious one?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek knowledge of the undead and the secrets they hold.",
+                "enemyAnswer": "Knowledge of the dead, a dangerous pursuit. Mortals often underestimate the price of such secrets. Are you prepared to pay it?",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will retreat and leave your presence undisturbed.",
+                "enemyAnswer": "Retreat, a wise choice in the face of the unknown. Leave now, and disturb the slumber of the dead no longer, mortal.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I observe to understand your power, Frostgrave.",
+            "enemyAnswer": "Power you seek to understand, mortal? The depth of power is unfathomable to the living. What drives your curiosity, foolish one?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek to unravel the mysteries of your icy domain.",
+                "enemyAnswer": "Mysteries lie shrouded in ice, waiting to ensnare the curious. Will you brave the chill to uncover the truth, mortal?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will take my leave, respecting the boundaries of your domain.",
+                "enemyAnswer": "Leave now, mortal, and disturb the balance no further. The ice will remember your presence, should you return.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Challenge Frostgrave directly, testing your own strength against his.",
+        "enemyAnswer": "A challenge, head-on? Mortals have a penchant for underestimating their opponents. What makes you think you are a match for me, living one?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have faced powerful foes before, and I fear none.",
+            "enemyAnswer": "Fearlessness, a trait often leading to downfall. Prepare to face the consequences of your hubris, mortal. Let us see if your courage matches your claims.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I sense a power in you, Frostgrave, that I do not wish to provoke. I will leave in peace.",
+            "enemyAnswer": "Sensing the power, are you? A wise decision to retreat, mortal. Know this, meddling in forbidden lands can bring about dire consequences.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

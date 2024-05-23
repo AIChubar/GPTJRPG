@@ -59,18 +59,20 @@ public class Hero : MonoBehaviour
     
     private void OnEnable()
     {
-        playerInput.Enable();
+        if (playerInput is not null)
+            playerInput.Enable();
     }
 
     private void OnDisable()
     {
-        playerInput.Disable();
+        if (playerInput is not null)
+            playerInput.Disable();
     }
     
     
     void FixedUpdate()
     {
-        if (GameManager.gameManager == null ||!GameManager.gameManager.transitioning)
+        if (GameManager.gameManager == null || !GameManager.gameManager.transitioning || playerInput is null)
         {
             var movement = playerInput.Player.Move.ReadValue<Vector2>();
             rb.MovePosition(rb.position + movement * (movementSpeed * Time.fixedDeltaTime));

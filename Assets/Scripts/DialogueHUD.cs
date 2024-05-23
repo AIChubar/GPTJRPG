@@ -72,7 +72,7 @@ public class DialogueHUD : MonoBehaviour
             foreach (var t in phrase)
             {
                 textComponent.text += t;
-                yield return new WaitForSecondsRealtime(0.033f);
+                yield return new WaitForSecondsRealtime(0.025f);
             }
         }
         else

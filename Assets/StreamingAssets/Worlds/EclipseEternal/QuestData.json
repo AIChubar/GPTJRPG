@@ -1,0 +1,61 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Twilight Meadows",
+      "questList": [
+        {
+          "questName": "Shadows of Dusk Vanquish",
+          "questDescription": "Embark on a quest to defeat the formidable Mortisar, the Eternal Necromancer, who commands the Shadows of Dusk in Twilight Meadows.",
+          "questType": "kill",
+          "questObjective": "Mortisar",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Wraithshade's Banishment",
+          "questDescription": "Unleash your courage and confront Wraithshade, the Spectral Haunter haunting the Twilight Meadows, in a battle to banish its malevolent presence.",
+          "questType": "kill",
+          "questObjective": "Wraithshade",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Frostbite Peaks",
+      "questList": [
+        {
+          "questName": "Glacialcoil's Defeat",
+          "questDescription": "Challenge the mighty Glacialcoil, the Frostscale Serpent reigning over the Frostbite Peaks, and emerge victorious to claim the icy terrain.",
+          "questType": "kill",
+          "questObjective": "Glacialcoil",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Stonechant's Silence",
+          "questDescription": "Silence the powerful Tundra Shaman, Stonechant, whose elemental magic threatens the peace of Frostbite Peaks.",
+          "questType": "kill",
+          "questObjective": "Stonechant",
+          "objectiveNum": 1
+        }
+      ]
+    },
+    {
+      "levelName": "Crimson Caverns",
+      "questList": [
+        {
+          "questName": "Blightspawn's Demise",
+          "questDescription": "Venture into the depths of the Crimson Caverns and defeat the dreaded Blightspawn, a Putrid Fiend spreading chaos within the infernal legion.",
+          "questType": "kill",
+          "questObjective": "Blightspawn",
+          "objectiveNum": 1
+        },
+        {
+          "questName": "Necrobyss's Conquest",
+          "questDescription": "Conquer the Shadowflame Wyrm, Necrobyss, ruling the Crimson Caverns with dark draconic power, to restore balance to the fiery depths.",
+          "questType": "kill",
+          "questObjective": "Necrobyss",
+          "objectiveNum": 1
+        }
+      ]
+    }
+  ]
+}

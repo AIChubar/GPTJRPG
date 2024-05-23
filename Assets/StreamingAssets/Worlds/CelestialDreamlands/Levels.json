@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Enchanted Forest",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Enchanted Forest is a mystical realm within the Celestial Dreamlands, where ancient trees whisper secrets and glowing flowers illuminate the path. Be wary of the deep dark holes that hide beneath the shadowy grass, for they lead to unknown depths of the dream world."
+    },
+    {
+      "levelName": "Crystal Caverns",
+      "walkableTerrain": "grey-brick-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Journey through the Crystal Caverns, where shimmering platforms made of grey bricks float above mysterious waters that hold untold reflections of dreams. Traverse carefully over the platforms, for a misstep could plunge you into the watery depths below."
+    },
+    {
+      "levelName": "Frozen Wasteland",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "lava",
+      "levelDescription": "In the Frozen Wasteland, the icy winds of the Celestial Dreamlands blow relentlessly, covering the land in a blanket of glistening snow. Beware of the treacherous pools of lava that simmer beneath the icy surface, threatening to melt the dreams of unwary travelers."
+    }
+  ]
+}

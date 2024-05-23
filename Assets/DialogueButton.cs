@@ -25,7 +25,7 @@ public class DialogueButton : MonoBehaviour
         foreach (var t in _optionBranch.playerOption)
         {
             optionText.text += t;
-            yield return new WaitForSecondsRealtime(0.01f);
+            yield return new WaitForSecondsRealtime(0.015f);
         }
     }
 }

@@ -1,0 +1,147 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "giant",
+      "thirdAttribute": "frost",
+      "characteristicName": "Frost Giant",
+      "artisticName": "Glacier",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 70,
+      "strategicThinking": 80,
+      "indifference": 5,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Glacier, the Frost Giant. What business do you have here, insignificant creature?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace? Such feeble words from a lesser being. Speak your purpose quickly.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge about this land. Could you guide me, wise Glacier?",
+            "enemyAnswer": "Knowledge? You are not worthy of the wisdom of the Frost Giants. Begone, before you face my wrath!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for my intrusion. I will leave now.",
+                "enemyAnswer": "Apologies? Too little, too late. Prepare to face the consequences of your foolishness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I refuse to leave. I demand respect!",
+                "enemyAnswer": "Demand? You are as impudent as you are foolish. Then face the consequences of your defiance!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you, Glacier! Let's settle this with a duel.",
+            "enemyAnswer": "A challenge? Very well, brave one. Prepare to be crushed under the might of the Frost Giants.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I yield. You are too powerful for me.",
+                "enemyAnswer": "Yield? Cowardice is your only redeeming trait. Flee before I decide to crush you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will fight until the end! Prepare yourself, Glacier!",
+                "enemyAnswer": "Bold words. Let's see if your actions match them. Prepare for a bitter defeat.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer you a gift as a token of peace. Will you accept it?",
+            "enemyAnswer": "A gift? What use do I have for trinkets from insignificant creatures like you?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. I will leave now and bother you no more.",
+                "enemyAnswer": "Leave and never return. Your presence is an insult to the Frost Giants.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I insist you accept it. It is a sign of goodwill.",
+                "enemyAnswer": "Insist? Your persistence is irritating. Be gone before I decide to crush you along with your gift.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with you. I will be on my way.",
+        "enemyAnswer": "No business? Then why do you dare to disturb the slumber of the Frost Giants?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for the disturbance. I will leave at once.",
+            "enemyAnswer": "Apologies? Words are empty. Your actions speak louder. Leave swiftly or face the consequences.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I challenge your authority! Who are you to question me?",
+            "enemyAnswer": "Challenge me? You are but a speck in the eyes of the Frost Giants. Prepare to face the consequences of your arrogance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see now that my actions were unwise. I will take my leave.",
+                "enemyAnswer": "Wisdom in defeat. Leave now, and do not provoke the Frost Giants again.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not back down! Let's settle this with a battle.",
+                "enemyAnswer": "So be it. Let your blood stain the snow as a warning to others who dare to question the Frost Giants.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I surrender. I have no desire for conflict.",
+                    "enemyAnswer": "Surrender? Your weak spirit is pitiful. Leave before I change my mind.",
+                    "outcome": "ignore"
+                  },
+                  {
+                    "playerOption": "I will fight you until the end! Prepare for a fierce battle, Glacier!",
+                    "enemyAnswer": "Fierce words. Let's see if your actions match them. Prepare for a bitter defeat.",
+                    "outcome": "attack"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the Frost Giants. Prepare for a battle!",
+        "enemyAnswer": "You dare challenge the might of Glacier, the Frost Giant? Your bravery is admirable but foolish.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I reconsider. It was a rash decision. I will depart now.",
+            "enemyAnswer": "Rash indeed. Depart before your regret grows along with my wrath.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I stand by my decision! Let's engage in combat, Glacier!",
+            "enemyAnswer": "So be it. Your blood shall feed the snow as a lesson to those who dare challenge the Frost Giants.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I yield. You have proven your strength.",
+                "enemyAnswer": "Yield? Wise choice. Leave now before I decide to show no mercy.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will fight with all my might! Prepare for a battle like no other!",
+                "enemyAnswer": "Bold words. Let's see if you can truly match the might of the Frost Giants.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

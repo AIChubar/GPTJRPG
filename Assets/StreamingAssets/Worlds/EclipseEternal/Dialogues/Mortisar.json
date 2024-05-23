@@ -1,0 +1,83 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "mage",
+      "characteristicName": "Eternal Necromancer",
+      "artisticName": "Mortisar",
+      "powerLevel": "mighty",
+      "unitType": "striker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 80,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 70,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, a wandering soul dares to tread into my domain. What do you seek, intruder?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek answers about the darkness looming over Eclipse Eternal.",
+        "enemyAnswer": "Answers, you say? The shadows hold secrets that mortals cannot comprehend. Will you face the truth, or cower in ignorance?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will face the truth, no matter how dark it may be.",
+            "enemyAnswer": "Brave words, but bravery alone does not grant insight. Prepare yourself for the abyss of knowledge.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am prepared. Enlighten me with the secrets of the shadows.",
+                "enemyAnswer": "So be it. The darkness embraces those who seek its embrace. You shall witness its power firsthand!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I choose to retreat. The unknown is not worth the risk.",
+                "enemyAnswer": "Fleeing? Wise or cowardly, the outcome remains the same. Leave this place, ignorant one.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I prefer to remain in the light and avoid the shadows.",
+            "enemyAnswer": "The light may blind you to the truths that lurk in the shadows. Ignorance is a choice, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Ignorance is bliss. I will walk away from this darkness.",
+                "enemyAnswer": "As you wish. Walk back into the light, where shadows cannot reach you. Remember, ignorance has its own price.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Perhaps there is wisdom in the shadows. I will explore further.",
+                "enemyAnswer": "A curious choice. The shadows welcome those who seek understanding, but be wary of what you may uncover in the depths.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek no trouble, I only wish to pass through in peace.",
+            "enemyAnswer": "Peace? Mortals speak of it as if it were a tangible thing. Your presence disturbs the balance, intruder.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully. No need for conflict.",
+                "enemyAnswer": "As you retreat, remember that peace is a fragile illusion in the eternal twilight. Do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you seek balance, let me pass unharmed. I mean no harm.",
+                "enemyAnswer": "Meaning no harm does not shield you from the consequences of your presence. Will you submit or resist?",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

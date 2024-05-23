@@ -1,0 +1,137 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "balrug",
+      "thirdAttribute": "",
+      "characteristicName": "Balrog",
+      "artisticName": "Inferno",
+      "powerLevel": "formidable",
+      "unitType": "fortress"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Inferno, the blazing wrath of the demonkind. What foolish mortal dares to stand before me?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am no mortal, I am a warrior seeking to understand your power.",
+        "enemyAnswer": "Warrior, you display courage in words, but do you have the strength to back them up?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My strength is unmatched, face me if you dare!",
+            "enemyAnswer": "Ah, a bold one. Prepare for the flames of destruction!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not yield, I will fight till the end!",
+                "enemyAnswer": "So be it. Your defiance will be met with ultimate annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see no point in continuing. I retreat.",
+                "enemyAnswer": "Hah! Cowardice suits the weak. Begone!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek not conflict, but understanding. Can we not find common ground?",
+            "enemyAnswer": "Understanding? Common ground? Such notions amuse me. Speak then, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I believe there is more to you than just destruction. Let's uncover it together.",
+                "enemyAnswer": "Curiosity in the face of wrath. Admirable, but futile. The only path is through ashes.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense futility in conversation. I take my leave.",
+                "enemyAnswer": "As you should. Depart before your existence becomes a forgotten ember.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, willing to negotiate. Is there a way for us to coexist?",
+            "enemyAnswer": "Peace? Negotiation? Your words are feeble attempts to sway the flames of fury.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us find a path where both our powers can thrive without conflict.",
+                "enemyAnswer": "A naive notion. The only path for you is submission or annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see no room for cooperation. I shall leave you to your dominion.",
+                "enemyAnswer": "As you depart, remember that defiance only fuels the fire of destruction.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am a mere wanderer, hoping to learn the ways of your kind.",
+        "enemyAnswer": "Wanderer, curiosity begets demise in the presence of Inferno. Speak your purpose.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge and wisdom, perhaps you can enlighten me.",
+            "enemyAnswer": "Knowledge and wisdom? Mortal, you jest. My flames enlighten through infernal embrace.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I embrace the inferno, let it consume my ignorance.",
+                "enemyAnswer": "A willing offering to the flames. Your ignorance shall indeed be consumed.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I fear the flames of ignorance. I shall retreat.",
+                "enemyAnswer": "Fear is wise in the face of all-consuming fire. Begone, wanderer.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek no harm, only stories to carry with me. Can you share the tales of your wrath?",
+            "enemyAnswer": "Tales of wrath? They whisper in the crackling embers of my existence. Listen, wanderer.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your tales are as terrifying as they are captivating. I am enthralled.",
+                "enemyAnswer": "Enthralled by flames that scorch the soul. Listen well, for your fate may echo within.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I find the tales unsettling. I shall take my leave.",
+                "enemyAnswer": "As you depart, remember that the echoes of wrath never truly fade.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek no conflict, only to witness the power that resides in your flames.",
+            "enemyAnswer": "Witness, wanderer, but beware the consuming heat that dances in Inferno's embrace.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand ready to face the heat, let it test my resolve.",
+                "enemyAnswer": "Resolve amidst raging flames. Your mettle will be forged or incinerated.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense danger in proximity. I take my leave before it engulfs me.",
+                "enemyAnswer": "Danger perceived is wisdom acknowledged. Depart before wisdom fades to ash.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

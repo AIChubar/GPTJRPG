@@ -1,0 +1,131 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "eater",
+      "characteristicName": "Eater Ghost",
+      "artisticName": "Soulreaper",
+      "powerLevel": "weak",
+      "unitType": "sniper"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 20,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 5,
+      "chaoticity": 40
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach me, mortal? What do you seek?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace? How amusing. Mortals like you always show up with false intentions.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I speak the truth. Let's find common ground.",
+            "enemyAnswer": "Common ground? There's none between us. You will soon regret your words.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for the misunderstanding. Let's just go our separate ways.",
+                "enemyAnswer": "Apologies won't save you now. Prepare to face the consequences.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I won't back down. I'm ready to face whatever comes.",
+                "enemyAnswer": "Foolish mortal. Your bravery will be your downfall.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I can see this is going nowhere. Farewell.",
+            "enemyAnswer": "Farewell? As if I care. Leave before I change my mind.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "Enough of this. Let's end this pointless conversation.",
+            "enemyAnswer": "Bold words from a fragile being. It's time to teach you a lesson.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek information about this place. Can you help me?",
+        "enemyAnswer": "Information? Mortals are always so curious, yet so ignorant.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I admit my ignorance. Please enlighten me, wise one.",
+            "enemyAnswer": "Wise one? You mock me, mortal. Ignorance deserves no enlightenment.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I didn't mean to offend. I'll take my leave now.",
+                "enemyAnswer": "Offend? Too late for apologies. Your ignorance will be your downfall.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I won't stand for insults. Let's settle this now.",
+                "enemyAnswer": "Brave words from a fool. Prepare to face the consequences of your actions.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Never mind. I'll figure it out on my own. Goodbye.",
+            "enemyAnswer": "Figuring it out on your own? How amusing. You will soon realize the folly of your ways.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "Your arrogance is intolerable. I'll take my leave now.",
+            "enemyAnswer": "Intolerable? Such fragile egos mortals possess. You will regret your words.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek power. Will you aid me in my quest?",
+        "enemyAnswer": "Power? Mortals always seek what they can never truly grasp.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand the complexity of power. Can you guide me?",
+            "enemyAnswer": "Guide you? Only the foolish seek guidance from the likes of me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see now that this was a mistake. Goodbye.",
+                "enemyAnswer": "A mistake indeed. Leave before your ignorance leads to your demise.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I won't tolerate such disrespect. Let's settle this now.",
+                "enemyAnswer": "Disrespect? You dare challenge me? Prepare for the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense your reluctance. I'll find power on my own.",
+            "enemyAnswer": "Reluctance? Mortals are so predictable. You will regret your decision.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I change my mind. Let's see if we can forge an alliance.",
+                "enemyAnswer": "An alliance? Your naivety knows no bounds. Prepare for disappointment.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "There's no point in further discussion. Goodbye.",
+                "enemyAnswer": "Goodbye, mortal. Do not return unless you seek your own demise.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

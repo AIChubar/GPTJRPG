@@ -1,0 +1,115 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Spectral Haunter",
+      "artisticName": "Wraithshade",
+      "powerLevel": "strong",
+      "unitType": "striker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 25,
+      "strategicThinking": 75,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 85
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense the weak flicker of your presence intruding upon these sacred grounds. What brings you to the realm of the Wraithshade?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge and seek to understand this realm.",
+        "enemyAnswer": "Knowledge is a fragile pursuit in the shadows. What knowledge do you hope to uncover?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I aim to learn the secrets of the Dreamlands to aid in restoring balance.",
+            "enemyAnswer": "Ah, the balance that teeters like a moth on a cobweb. Your quest is noble yet perilous. Will you embrace the shadows to achieve your goal?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will tread the shadows and seek the truth, even in darkness.",
+                "enemyAnswer": "A brave choice, stepping into the realm of shadows with resolve. The shadows shall test your mettle. Only time will reveal if you are truly worthy.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I prefer to withdraw from the shadows and seek another path.",
+                "enemyAnswer": "Fleeing from the shadows shows weakness. The Wraithshade does not abide the timid. You will face consequences for turning away.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am drawn by curiosity and the allure of the unknown.",
+            "enemyAnswer": "Curiosity often leads the living astray into the realm of the dead. What draws your living heart to the whispers of the Wraithshade?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek to understand the mysteries that lie beyond the veil of death.",
+                "enemyAnswer": "The mysteries of death are not for the faint of heart. To seek them is to dance with eternity. Will you embrace the dance or stumble in fear?",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I realize I have trespassed and will depart from this place.",
+                "enemyAnswer": "Trespassers are unwelcome, yet depart you must. The shadows will watch as you retreat, but your presence will linger.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have come to challenge the darkness and prove my strength.",
+            "enemyAnswer": "Strength is a fleeting illusion in the face of eternal shadows. Do you truly believe you can challenge what you do not understand?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand firm and confront the shadows, no matter the outcome.",
+                "enemyAnswer": "Bravery is admired, yet foolishness can be fatal. The shadows hunger for the reckless. Will you feed them with your resolve?",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I yield to the darkness and retreat from this daunting task.",
+                "enemyAnswer": "Retreating from the darkness shows wisdom or cowardice. The true test lies in how you face your choices.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking an alliance and understanding with the Wraithshade.",
+        "enemyAnswer": "An alliance with the living is a fragile thread, easily severed by the winds of fate. What do you offer in exchange for the Wraithshade's favor?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my knowledge and skills to aid the Wraithshade in its endeavors.",
+            "enemyAnswer": "Knowledge and skills are potent gifts, yet tainted by the warmth of the living. The Wraithshade watches and waits for your true intentions to be revealed.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I offer my allegiance and vow to respect the boundaries of the Wraithshade.",
+            "enemyAnswer": "Allegiance sworn in haste can be shattered by a single whisper in the dark. Will your vow ring true when tested by the shadows?",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come to challenge the Wraithshade and prove my superiority over the shadows.",
+        "enemyAnswer": "Superiority is a fleeting spark in the eternal night. Do you truly believe you can command the shadows to bow before you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will demonstrate my power and show the Wraithshade my strength.",
+            "enemyAnswer": "Power displayed is power tested. The shadows hunger for the bold. Will you sate their appetite with your defiance?",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I acknowledge the darkness's strength and choose to retreat from this challenge.",
+            "enemyAnswer": "Acknowledgment of the shadows' strength is the first step towards wisdom. Yet, the shadows remember those who retreat.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

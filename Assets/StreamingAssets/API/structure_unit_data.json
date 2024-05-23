@@ -9,21 +9,27 @@
           "secondAttribute": "",
           "thirdAttribute" : "",
           "characteristicName" : "",
-          "artisticName" : ""
+          "artisticName" : "",
+          "powerLevel" :"",
+          "unitType" :""
         },
         {
           "firstAttribute": "",
           "secondAttribute": "",
           "thirdAttribute" : "",
           "characteristicName" : "",
-          "artisticName" : ""
+          "artisticName" : "",
+          "powerLevel" :"",
+          "unitType" :""
         },
         {
           "firstAttribute": "",
           "secondAttribute": "",
           "thirdAttribute" : "",
           "characteristicName" : "",
-          "artisticName" : ""
+          "artisticName" : "",
+          "powerLevel" :"",
+          "unitType" :""
         }
       ]
     },
@@ -40,13 +46,54 @@
                 "secondAttribute": "",
                 "thirdAttribute" : "",
                 "characteristicName" : "",
-                "artisticName" : ""
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitType" :""
               }
             ]
           }
         ]
       },
-      ...
+      {
+        "levelName" : "",
+        "enemyGroups" : [
+          {
+            "groupName" : "",
+            "units" :
+            [
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitType" :""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "levelName" : "",
+        "enemyGroups" : [
+          {
+            "groupName" : "",
+            "units" :
+            [
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitType" :""                
+              }
+            ]
+          }
+        ]
+      }
     ]
   
     

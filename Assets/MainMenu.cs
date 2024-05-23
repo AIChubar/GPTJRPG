@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
     }
     public void OnPlayGameClicked()
     {
-        SceneController.LoadScene(1, 1, 1, 0.2f);
+        SceneController.LoadScene(1, 1, 1, 0.8f);
         DisableMenuButtons();
     }
     

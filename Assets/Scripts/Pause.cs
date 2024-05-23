@@ -34,12 +34,14 @@ public class Pause : MonoBehaviour
 
     private void OnEnable()
     {
-        playerInput.Enable();
+        if (playerInput is not null)
+            playerInput.Enable();
     }
 
     private void OnDisable()
     {
-        playerInput.Disable();
+        if (playerInput is not null)
+            playerInput.Disable();
     }
 
     private void TogglePause(InputAction.CallbackContext context)

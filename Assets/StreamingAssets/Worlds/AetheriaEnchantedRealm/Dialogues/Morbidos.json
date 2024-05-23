@@ -1,0 +1,115 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "plague",
+      "characteristicName": "Plague Ooze",
+      "artisticName": "Morbidos",
+      "powerLevel": "strong",
+      "unitType": "striker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 15,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Morbidos the Plague Ooze oozes with malevolence as it addresses you, 'Feeble creature, you dare to stand before me, the harbinger of decay?'",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Challenge Morbidos bravely.",
+        "enemyAnswer": "You have the audacity to challenge me? A mere mortal thinking you can defy the power I wield. How amusing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Show no fear and stand your ground.",
+            "enemyAnswer": "Impudence! Your insolence will be your downfall. Brace yourself for the wrath of the Plague Ooze!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Attempt to reason with Morbidos.",
+                "enemyAnswer": "Reason? There is no reason in the face of corruption and darkness. Prepare to be consumed.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Invoke ancient forest spirits for aid.",
+                "enemyAnswer": "Forest spirits? Your pathetic attempts at help will be futile. Feel the grip of despair!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Retreat cautiously.",
+            "enemyAnswer": "Running away? How pathetic. You can flee, but know that the shadow will always follow.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Look for a new strategy to defeat Morbidos.",
+                "enemyAnswer": "Hesitation is weakness. No matter how you try to outwit me, your end is inevitable.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Seek refuge with the elemental spirits.",
+                "enemyAnswer": "Elemental spirits? They will not save you from the spreading darkness. Embrace your demise.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Attempt to negotiate a truce.",
+            "enemyAnswer": "Negotiate? There is no compromise with the inevitable. Your resistance is futile.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Offer a pact of non-aggression.",
+                "enemyAnswer": "A futile plea. The Plague Ooze knows no mercy. Prepare for annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Beg for mercy and submit.",
+                "enemyAnswer": "Your submission is acknowledged, but there is no mercy in the realm of decay. Face your fate.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Attempt to reason with Morbidos.",
+        "enemyAnswer": "Your attempts at diplomacy amuse me, little one. Speak your thoughts before I engulf you in despair.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Appeal to Morbidos' sense of reason.",
+            "enemyAnswer": "Reason is but a fleeting concept in the presence of corruption. Your words hold no sway over me.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Offer a trade of knowledge for peace.",
+            "enemyAnswer": "Knowledge? What trivial offering. Your existence means nothing in the face of decay.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "Ignore Morbidos and walk away.",
+        "enemyAnswer": "You choose to turn your back on the Plague Ooze? So be it. Your fate is sealed, whether you acknowledge it or not.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Continue to ignore Morbidos.",
+            "enemyAnswer": "Silence echoes your cowardice. The shadows will find you, even in your denial.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "Turn back and face Morbidos once more.",
+            "enemyAnswer": "You return to a fate that you sought to escape. Embrace the darkness that envelops you.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

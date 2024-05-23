@@ -39,7 +39,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 80}
+  m_SizeDelta: {x: 550, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1719799448478436045
 CanvasRenderer:
@@ -163,7 +163,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  questName: {fileID: 0}
+  objectiveCount: 0
+  quest:
+    questName: 
+    questDescription: 
+    questType: 
+    questObjective: 
+    objectiveNum: 0
   completed: 0
 --- !u!1 &7813050587230862244
 GameObject:

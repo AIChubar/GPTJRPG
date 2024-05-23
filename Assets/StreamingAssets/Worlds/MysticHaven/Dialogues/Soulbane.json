@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "eater",
+      "characteristicName": "Eater Ghost",
+      "artisticName": "Soulbane",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 60,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 30
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You trespass upon the realm of the dead, interloper. What business do you have here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about the afterlife.",
+        "enemyAnswer": "Knowledge? Mortals are fools chasing shadows. Leave now before you become one.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave, I mean no harm.",
+            "enemyAnswer": "A wise choice. Your curiosity may lead you to your doom, but it will not be at my hands.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not be threatened by a mere spirit!",
+            "enemyAnswer": "Bold words from one who will soon join the ranks of the departed. Prepare for oblivion!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking power to control the spirits.",
+        "enemyAnswer": "Power? You dare to think you can control what you cannot comprehend? Arrogance will be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for my disrespect, I will leave peacefully.",
+            "enemyAnswer": "Your apology means nothing in the realm of the dead. Begone before I decide to end your existence.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not back down! I will take what I seek by force!",
+            "enemyAnswer": "Foolish mortal, you invite your own destruction. Face the wrath of the spirits!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the rulers of the underworld.",
+        "enemyAnswer": "Challenge? Your bravado is laughable. The rulers of the underworld are beyond your comprehension.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand, I will leave in peace.",
+            "enemyAnswer": "Wise choice, mortal. The underworld is no place for the living. Depart while you still can.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I fear nothing! I will face any challenge head-on!",
+            "enemyAnswer": "Your fearlessness will be your undoing. Face the wrath of the denizens of the afterlife!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "lindwurm",
+      "thirdAttribute": "",
+      "characteristicName": "Frostscale Serpent",
+      "artisticName": "Glacialcoil",
+      "powerLevel": "strong",
+      "unitType": "fighter"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 40,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 30,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Hsss! What do you want, puny creature?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, do not attack me.",
+        "enemyAnswer": "Peace? Ha! I only know the language of power!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I respect your strength. Let's not engage in battle.",
+            "enemyAnswer": "Respect won't save you. You will fall like the rest.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see there's no reasoning with you. I will leave.",
+                "enemyAnswer": "Leaving? You dare turn your back on me? Prepare for my wrath!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will challenge your power. Let's see who is stronger.",
+                "enemyAnswer": "Bravery or foolishness? I admire your courage, but it will be your end.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not back down. Prepare for a fight.",
+            "enemyAnswer": "Foolishness is your path? So be it. I shall crush you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not yield. I am ready for battle.",
+                "enemyAnswer": "Stubbornness will lead you to your demise. Brace yourself.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I reconsider. Let's find a peaceful solution.",
+                "enemyAnswer": "Changing your mind? It matters not. Your fate is sealed.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will use my cunning to outsmart you.",
+            "enemyAnswer": "Cunning? Ha! I'll enjoy watching you fail.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will prove you wrong. Prepare for my strategy.",
+                "enemyAnswer": "Strategy alone will not save you. Your intelligence is no match for my strength.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see no point in continuing this. Farewell.",
+                "enemyAnswer": "Leaving so soon? You've amused me. Begone.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge you! Face me in combat!",
+        "enemyAnswer": "Bold words from a weakling. Prepare to be crushed!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear no beast. Let's settle this now!",
+            "enemyAnswer": "Fearlessness or ignorance? It matters little. You will be vanquished.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand my ground. Let's fight!",
+                "enemyAnswer": "Standing firm? Your end approaches swiftly.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now this is futile. I will retreat.",
+                "enemyAnswer": "Retreating? Weakness unveiled. I shall not let you escape.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense your power. Let us not fight, but join forces.",
+            "enemyAnswer": "Join forces? Laughable. I have no need for alliances.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we can rule this land. Consider my offer.",
+                "enemyAnswer": "Rule together? I bow to none. Your presence is no longer tolerated.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Very well, let us part ways peacefully.",
+                "enemyAnswer": "Parting ways? Farewell, insignificant one.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not fight you, but prove my worth in a different way.",
+            "enemyAnswer": "Proving worth without battle? Preposterous!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Watch closely. I will impress you with my talent.",
+                "enemyAnswer": "Impress me? The audacity! Prepare for disappointment.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see you're not interested. I will take my leave.",
+                "enemyAnswer": "Interest lost. Begone, insignificant one.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge. Share your wisdom with me.",
+        "enemyAnswer": "Knowledge? Wisdom? Such concepts are wasted on the feeble-minded.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I may not be as powerful as you, but I seek to learn.",
+            "enemyAnswer": "Seeking knowledge from the likes of you? Amusing.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Teach me your ways, mighty one. I am willing to learn.",
+                "enemyAnswer": "Willing to learn? Your humility is your downfall.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see you have no interest. I will leave you in peace.",
+                "enemyAnswer": "Leaving in peace? Your relevance fades swiftly.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your power is evident. Let us not squander it in battle.",
+            "enemyAnswer": "Spare me your attempts at flattery. You bore me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Flattery is not my intention. I seek common ground.",
+                "enemyAnswer": "Common ground? None exists between us. Prepare for my fury.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see communication is futile. I shall take my leave.",
+                "enemyAnswer": "Futility acknowledged. Vanish from my sight, insignificant creature.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us exchange knowledge. I have insights to offer in return.",
+            "enemyAnswer": "Insights? From you? I highly doubt it.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Doubt all you want. I have valuable knowledge to share.",
+                "enemyAnswer": "Valuable? To whom? Certainly not to me. Prepare for annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your loss if you refuse. Farewell, mighty one.",
+                "enemyAnswer": "Refusal accepted. Begone, insignificant nuisance.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

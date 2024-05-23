@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadowed Depths",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Shadowed Depths are hidden beneath the veil of darkness, where the ground is made of eerie dark-dirt and treacherous deep-dark-holes lie in wait to test the bravery of any who dare to venture into this abyss."
+    },
+    {
+      "levelName": "Frostbite Plateau",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Frostbite Plateau is a frozen wasteland covered in shimmering snow, where icy waters threaten to freeze the unwary traveler. The chilling winds howl through the icy landscape, creating a harsh environment for any who seek to cross this unforgiving terrain."
+    },
+    {
+      "levelName": "Rusty Chain Stronghold",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Rusty Chain Stronghold is a fortress built upon precarious rusty-chain-platforms, suspended above rivers of molten lava that flow ominously below. The heat from the lava seeps through the rusted chains, creating a dangerous and volatile environment for those who dare to challenge the fiery depths."
+    }
+  ]
+}
