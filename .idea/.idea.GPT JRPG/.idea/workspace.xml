@@ -5,94 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c5da90-4cf8-4b81-a075-a6b7b6b275a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/units_stats.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/units_stats.json.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPT JRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPT JRPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.changes" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.changes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.wktree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DialogueButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OutcomeButtons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OutcomeButtons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DialogueButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DialogueButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyDialogue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyDialogue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerDialogue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerDialogue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/QuestButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/QuestButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UnitHUD Map.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UnitHUD Map.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UnitHUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UnitHUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WorldButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WorldButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuestMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptRunner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptRunner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueHUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JSONReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JSONReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitHUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_unit_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_unit_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/current_world.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/current_world.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_dialogue.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_dialogue.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_unit_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_unit_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/CavernousReaper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/CavernousReaper.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/EtherealHaunt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/EtherealHaunt.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/FrostHydra.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/FrostHydra.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/FrostboundGuardian.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/FrostboundGuardian.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/IceColossus.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/IceColossus.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/InfernoSerpent.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/InfernoSerpent.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/MidnightProtector.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/MidnightProtector.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/MindTerror.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/MindTerror.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/OrbSentinel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/OrbSentinel.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/RockGuardian.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/RockGuardian.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/ShadeStalker.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/ShadeStalker.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/SkyGuardian.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/SkyGuardian.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/SkyTerror.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/SkyTerror.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/Vineblight.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/Vineblight.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/VoidHaunter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Dialogues/VoidHaunter.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Levels.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Levels.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/MainCharacter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/MainCharacter.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Narrative.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/Narrative.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/QuestData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/QuestData.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/UnitData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialTwilightIsles/UnitData.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/Dialogue.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/Dialogue.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/Levels.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/Levels.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/MainCharacter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/MainCharacter.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/Narrative.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/Narrative.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/QuestData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/QuestData.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/UnitData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EternalSkyRealms/UnitData.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WorldButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WorldButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,10 +98,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="30116">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="30116" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -212,7 +137,7 @@
       <workItem from="1715717988735" duration="142000" />
       <workItem from="1715797715676" duration="19020000" />
       <workItem from="1715857620962" duration="111596000" />
-      <workItem from="1716236404462" duration="51217000" />
+      <workItem from="1716236404462" duration="95491000" />
     </task>
     <servers />
   </component>
@@ -230,23 +155,6 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs</url>
-          <line>75</line>
-          <properties documentPath="D:\Unity_proj\GPT JRPG\Assets\Scripts\BattleSystem.cs" containingFunctionPresentation="Method 'GameEvents_OnUnitHPChanged'">
-            <startOffsets>
-              <option value="3858" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3879" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
         <watch expression="jsonWorld.levels" />

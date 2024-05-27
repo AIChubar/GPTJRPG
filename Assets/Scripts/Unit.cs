@@ -16,17 +16,20 @@ public class Unit : MonoBehaviour
         }
     }
 
-    public void ChangeCurrentHP(int hp)
+    public bool ChangeCurrentHP(int hp)
     {
         unitData.currentHP += hp;
         GameEvents.gameEvents.UnitHPChanged(this);
         SpawnDamageText(hp);
         if (unitData.currentHP <= 0)
         {
+            
             unitData.currentHP = 0;
             GameEvents.gameEvents.UnitKilled(this);
             StartCoroutine(DeathAnimation(0.5f));
+            return true;
         }
+        return false;
     }
 
     //works only for receiving damage

@@ -32,12 +32,18 @@ public class UnitHUD : MonoBehaviour
             }
             unitImage.color = Color.white;
         }
+        else if (ud is null)
+        {
+            unitImage.color = Color.clear;
+        }
+        
         _currentUnitData = ud;
         UpdateHUD();
     }
 
     public void UpdateHUD()
     {
+        
         if (_currentUnitData is null)
         {
             artisticNameText.text = "";

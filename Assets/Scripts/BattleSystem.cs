@@ -19,12 +19,15 @@ public class BattleSystem : MonoBehaviour
 
     private int _currentAllyIndex;
     
-    private int _currentEnemyIndex = -1; //
+    private int _currentEnemyIndex = -1;
 
     private GameObject _currentEnemy;
     
     [SerializeField]
-    private UnitHUD _infoHUD;
+    private UnitHUD infoHUD;
+    
+    [SerializeField]
+    private BattleJournal battleJournal;
 
     private GameObject _currentAlly;
 
@@ -73,11 +76,15 @@ public class BattleSystem : MonoBehaviour
 
     private void GameEvents_OnUnitHPChanged(Unit unit)
     {
-        _infoHUD.UpdateHUD();
+        if (unit.unitData.currentHP <= 0)
+            infoHUD.SetHUD(null);
+        else
+            infoHUD.UpdateHUD();
     }
     
     private void GameEvents_OnUnitKilled(Unit unit)
     {
+        
         if (unit.unitData.friendly)
         {
             _remainingAllies--;
@@ -112,6 +119,7 @@ public class BattleSystem : MonoBehaviour
 
     private IEnumerator BeginBattle()
     {
+        battleJournal.AddActionDescription("Combat start.\n");
         yield return new WaitForSeconds(1);
         _battleState = BattleState.PLAYERTURN;
          
@@ -138,7 +146,7 @@ public class BattleSystem : MonoBehaviour
             if (firstSelectedEnemy == null)
                 return;
             _selectingTarget = true;
-            _action = Attack();
+            _action = PlayerAttack();
         }
     }
 
@@ -164,8 +172,7 @@ public class BattleSystem : MonoBehaviour
             }
         } while (_currentAlly == null);
         
-        completeActionButton.interactable = true;
-        attackButton.interactable = true;
+        EnableInput();
         GameManager.gameManager.OutlineObject(_currentAlly, true);
         
     }
@@ -175,18 +182,16 @@ public class BattleSystem : MonoBehaviour
         if (!_selectingTarget || _currentEnemy == null || _battleState != BattleState.PLAYERTURN)
             return;
         
-        attackButton.interactable = false;
-        completeActionButton.interactable = false;
+        DisableInput();
 
         StartCoroutine(_action);
     }
 
-    private IEnumerator Attack()
+    private IEnumerator PlayerAttack()
     {
         yield return new WaitForSeconds(1);
         _battleState = BattleState.ENEMYTURN;
-
-        _currentEnemy.GetComponent<Unit>().ChangeCurrentHP(-_currentAlly.GetComponent<Unit>().unitData.damage);
+        Attack(_currentAlly, _currentEnemy);
 
         yield return new WaitForSeconds(0.5f);
         GameManager.gameManager.OutlineObject(_currentAlly, false);
@@ -217,9 +222,10 @@ public class BattleSystem : MonoBehaviour
         
         yield return new WaitForSeconds(0.5f);
         _battleState = BattleState.PLAYERTURN;
-
-        attackedAlly.GetComponent<Unit>().ChangeCurrentHP(-_currentEnemy.GetComponent<Unit>().unitData.damage);
-
+        Attack(_currentEnemy, attackedAlly);
+        
+        
+        
         GameManager.gameManager.OutlineObject(attackedAlly, false);
          
         StopSelectingTarget();
@@ -250,6 +256,20 @@ public class BattleSystem : MonoBehaviour
         GameManager.gameManager.OutlineObject(_currentEnemy, true);
     }
 
+    private void Attack(GameObject attacking, GameObject attacked)
+    {
+        var attackingUnit = attacking.GetComponent<Unit>();
+        var attackedUnit = attacked.GetComponent<Unit>();
+        bool killed = attackedUnit.ChangeCurrentHP(-attackingUnit.unitData.damage);
+        string actionDescription = "The " + attackingUnit.unitData.artisticName + " do " +
+                                   attackingUnit.unitData.damage.ToString() + " damage to " +
+                                   attackedUnit.unitData.artisticName + ".";
+        battleJournal.AddActionDescription(actionDescription);
+        if (killed)
+            battleJournal.AddActionDescription(attackedUnit.unitData.artisticName + " perishes.");
+    }
+
+
     private void EnemyAction()
     {
         if (_battleState != BattleState.ENEMYTURN)
@@ -271,7 +291,17 @@ public class BattleSystem : MonoBehaviour
 
         StartCoroutine(EnemyAttack());
     }
- 
+
+    public void DisableInput()
+    {
+        attackButton.interactable = false;
+        completeActionButton.interactable = false;
+    }
+    public void EnableInput()
+    {
+        attackButton.interactable = true;
+        completeActionButton.interactable = true;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -281,12 +311,12 @@ public class BattleSystem : MonoBehaviour
                 bool gotTarget = false;  
                 foreach( RaycastHit2D hit in hits ){  
                     if( hit.transform.gameObject.TryGetComponent(out Unit unit) ) {  
-                        _infoHUD.SetHUD(unit.unitData, unit.GetComponent<SpriteRenderer>().sprite);   
+                        infoHUD.SetHUD(unit.unitData, unit.GetComponent<SpriteRenderer>().sprite);   
                         gotTarget = true;  
                         break;  
                     }
                 }
-                if( !gotTarget ) _infoHUD.SetHUD(null);  
+                if( !gotTarget ) infoHUD.SetHUD(null);  
             }
             if (_selectingTarget)
             {
@@ -304,7 +334,6 @@ public class BattleSystem : MonoBehaviour
                             break; 
                         }
                     }
-                    //if( !gotTarget ) StopSelectingTarget(); //If we missed everything, deselect
                 }
             }
             else
