@@ -92,7 +92,7 @@ public class JSONReader : MonoBehaviour
     public class UnitGroup
     {
         public string groupName;
-        public UnitJSON[] units;
+        public List<UnitJSON> units;
     }
 
     [System.Serializable]
@@ -255,14 +255,14 @@ public class JSONReader : MonoBehaviour
         }
     }
 
-    private void AssignStatsForGroup(UnitJSON[] units, bool isFriendly)
+    private void AssignStatsForGroup(List<UnitJSON> units, bool isFriendly)
     {
         foreach (var unit in units)
         {
             var unitPowerLevel = _unitsStats.powerLevelAttributes[unit.powerLevel];
             var unitType = _unitsStats.unitType[unit.unitType];
             unit.friendly = isFriendly;
-            unit.damage = (int)(unitPowerLevel.damage * unitType.damageCoefficient);
+            unit.damage = (int)(unitPowerLevel.damage * unitType.damageCoefficient) * 4;
             unit.maxHP = unit.currentHP = (int)(unitPowerLevel.health * unitType.healthCoefficient);
             unit.armour = (int)(unitPowerLevel.armour * unitType.armourCoefficient);
         }

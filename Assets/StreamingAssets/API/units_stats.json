@@ -54,37 +54,37 @@
   "powerLevelAttributes": {
     "feeble": {
       "health": 100,
-      "damage": 12,
+      "damage": 20,
       "armour": 3
     },
     "weak": {
       "health": 125,
-      "damage": 16,
+      "damage": 24,
       "armour": 4
     },
     "moderate": {
       "health": 150,
-      "damage": 20,
+      "damage": 30,
       "armour": 5
     },
     "strong": {
       "health": 175,
-      "damage": 25,
+      "damage": 36,
       "armour": 7
     },
     "mighty": {
       "health": 200,
-      "damage": 30,
+      "damage": 42,
       "armour": 9
     },
     "formidable": {
       "health": 250,
-      "damage": 35,
+      "damage": 50,
       "armour": 11
     },
     "legendary": {
       "health": 300,
-      "damage": 45,
+      "damage": 60,
       "armour": 15
     }
   }

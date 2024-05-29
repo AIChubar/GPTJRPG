@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-//add hp change notification
 public class UnitHUD : MonoBehaviour
 {
     public TextMeshProUGUI artisticNameText;
@@ -16,7 +15,7 @@ public class UnitHUD : MonoBehaviour
     
     private int _maxHp;
 
-    private JSONReader.UnitJSON _currentUnitData;
+    public JSONReader.UnitJSON _currentUnitData;
 
     public void SetHUD(JSONReader.UnitJSON ud, Sprite sprite = null)
     {

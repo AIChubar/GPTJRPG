@@ -28,7 +28,6 @@ public class BattleJournal : MonoBehaviour
     }
     public void OnJournalClosed()
     {
-        StartCoroutine(ForceScrollDown());
         journalButton.interactable = true;
         Time.timeScale = 1f;
     }

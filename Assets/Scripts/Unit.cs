@@ -25,7 +25,6 @@ public class Unit : MonoBehaviour
         {
             
             unitData.currentHP = 0;
-            GameEvents.gameEvents.UnitKilled(this);
             StartCoroutine(DeathAnimation(0.5f));
             return true;
         }
@@ -50,7 +49,8 @@ public class Unit : MonoBehaviour
             yield return null;
         }
         Destroy(gameObject);
-
+        GameEvents.gameEvents.UnitKilled(this);
+        GameManager.gameManager.hero.allyGroup.units.Remove(this.unitData);
         //healthSystem.OnHealthChanged -= HealthSystem_OnHealthChanged;
     }
 }
