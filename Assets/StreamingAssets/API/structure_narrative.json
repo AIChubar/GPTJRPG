@@ -1,7 +1,8 @@
 {
-  "narrativeData": {
     "worldName" : "",
     "story": "",
-    "greetingGameMessage": ""
-  }
+    "greetingGameMessage": "",
+    "mainVillain" : "",
+    "defeatEndingMessage": "",
+    "gameOverMessage" : ""
 }

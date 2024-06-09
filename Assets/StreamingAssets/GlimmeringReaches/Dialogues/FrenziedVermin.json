@@ -1,0 +1,143 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "lab_rat",
+      "secondAttribute": "",
+      "thirdAttribute": "",
+      "characteristicName": "Lab Rat",
+      "artisticName": "Frenzied Vermin",
+      "powerLevel": "feeble",
+      "unitType": "striker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 10,
+      "strategicThinking": 20,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 15,
+      "morality": 5,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "What do you want, human filth?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Don't be rude, I seek peaceful conversation.",
+        "enemyAnswer": "Peaceful conversation? Ha! You're delusional.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I warn you, show respect or face the consequences!",
+            "enemyAnswer": "Consequences? You can't scare us. We're the powerful ones here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer you a chance to leave peacefully.",
+                "enemyAnswer": "Leave? We stay where we want, and we want to crush you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You leave me no choice but to fight.",
+                "enemyAnswer": "Hah! A fight it is, let's see how feeble you really are.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I shall leave you to your ignorance.",
+            "enemyAnswer": "Good riddance, weakling. Run along now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Perhaps we'll meet again under better circumstances.",
+                "enemyAnswer": "Doubt it. We have no interest in the likes of you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "This isn't over; remember my name, Frenzied Vermin.",
+                "enemyAnswer": "Remember? No need. You're forgettable and insignificant.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I don't have time for this. Tell me what you want or stay silent.",
+        "enemyAnswer": "Impatient, are we? You humans are all the same.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Speak your purpose or face the consequences.",
+            "enemyAnswer": "Consequences you say? How amusing. We'll make you regret that.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge you to face me right here and now.",
+                "enemyAnswer": "Challenge accepted! Prepare to meet your end, fool!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not engage in pointless banter. Farewell.",
+                "enemyAnswer": "Farewell? Not quite. We'll make sure you regret crossing us.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I see talking to you is pointless. Farewell.",
+            "enemyAnswer": "Farewell, weakling. Remember our strength.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Strength without wisdom is a hollow victory.",
+                "enemyAnswer": "Wisdom? Hah! We need no wisdom to crush pests like you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Pests like you are not worth my time.",
+                "enemyAnswer": "Not worth your time? How arrogant. We'll make you pay for that.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek no quarrel. Let us part ways peacefully.",
+        "enemyAnswer": "Peaceful parting? As if we'd grant you such a luxury.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We have no reason to fight. Let's go our separate ways.",
+            "enemyAnswer": "No reason? How about the reason of our disdain for your kind!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I refuse to be dragged into a senseless fight.",
+                "enemyAnswer": "Senseless? It makes perfect sense to us. Prepare for pain.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will offer you one last chance to walk away.",
+                "enemyAnswer": "A chance? You disgust us. We'll take pleasure in your demise.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your hostility will only bring you ruin. Farewell.",
+            "enemyAnswer": "Ruins, you say? We'll show you ruins beyond your imagination.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I leave you to your own misery. Goodbye.",
+                "enemyAnswer": "Misery? A laughable notion from the likes of you. Now face our wrath!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your wrath is nothing compared to my resolve. Farewell.",
+                "enemyAnswer": "Resolve? Ha! Let's see how resolved you are when facing our fury.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

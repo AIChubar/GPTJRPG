@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell_sentinel",
+      "secondAttribute": "",
+      "thirdAttribute": "",
+      "characteristicName": "Hell Sentinel",
+      "artisticName": "Infernal Watcher",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 25,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach the mighty Infernal Watcher. What foolishness brings you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking knowledge.",
+        "enemyAnswer": "Knowledge? Ha! You are a mere mortal. What can you possibly offer me?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer you a deal. You help me, and I'll pave the way for your dominion.",
+            "enemyAnswer": "A deal, you say? Intriguing. Speak your terms, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Swear loyalty to me, and I shall grant you power beyond your wildest dreams.",
+                "enemyAnswer": "Power beyond my wildest dreams... Very well. I shall consider your offer.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I apologize for my insolence. I shall take my leave.",
+                "enemyAnswer": "As you should. Begone before my patience runs out.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek your guidance to unlock ancient secrets and unleash chaos upon my foes.",
+            "enemyAnswer": "Chaos... I can appreciate that. But why should I aid you in such endeavors?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we can sow destruction and watch the world burn.",
+                "enemyAnswer": "An enticing proposition. Very well, mortal. I shall assist you.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I've overestimated your intellect. Farewell.",
+                "enemyAnswer": "Foolish mortal. You shall regret underestimating the Infernal Watcher.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no need for your approval. Prepare for battle!",
+        "enemyAnswer": "Such bravado from a mere mortal. You shall regret crossing paths with me.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You may be powerful, but I fear no one. Let's settle this now!",
+            "enemyAnswer": "Bold words. Let's see if you can back them up.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I see now that wisdom is in avoiding unnecessary conflict. I will leave you in peace.",
+            "enemyAnswer": "Wise decision, mortal. Take your leave before I change my mind.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

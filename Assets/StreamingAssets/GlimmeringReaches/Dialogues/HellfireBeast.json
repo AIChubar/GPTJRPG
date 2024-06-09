@@ -1,0 +1,153 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "pit_fiend",
+      "thirdAttribute": "",
+      "characteristicName": "Pit Fiend",
+      "artisticName": "Hellfire Beast",
+      "powerLevel": "strong",
+      "unitType": "savage"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 80,
+      "indifference": 15,
+      "flexibility": 10,
+      "communicationSkills": 20,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach me, puny human?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I only seek peaceful resolution.",
+        "enemyAnswer": "Peaceful? Ha! Your pleas will not save you.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Let's try to understand each other.",
+            "enemyAnswer": "Understanding is for the weak. Prepare for your demise.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I won't back down without a fight.",
+                "enemyAnswer": "As you wish. Face the wrath of the Hellfire Beast!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I choose to retreat for now.",
+                "enemyAnswer": "Your cowardice will not go unpunished. Feel my flames!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense fear in your aggression.",
+            "enemyAnswer": "Fear? I fear nothing. Feel the heat of my rage!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge you to a duel.",
+                "enemyAnswer": "A duel it is then. Let the battle begin!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer you an alliance against a common enemy.",
+                "enemyAnswer": "An alliance with a weakling like you? Ridiculous! Begone!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your power is impressive, we should not be enemies.",
+            "enemyAnswer": "Impressive? You flatter yourself. Prepare to face destruction!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand my ground, ready for whatever comes.",
+                "enemyAnswer": "So be it. You will regret your defiance.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer you a trade instead of conflict.",
+                "enemyAnswer": "A trade? I have no need for your trinkets. Feel the burn of my wrath!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to provoke you.",
+        "enemyAnswer": "Provocation or not, you will suffer the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek a way to coexist peacefully.",
+            "enemyAnswer": "Peaceful coexistence? Not in my domain. Face oblivion!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I propose a truce between us.",
+                "enemyAnswer": "A truce with a pathetic creature like you? Absurd! Face my wrath!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I am willing to leave if it pleases you.",
+                "enemyAnswer": "Your departure is the only acceptable outcome. Leave!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge your power and seek no conflict.",
+            "enemyAnswer": "Acknowledgement means nothing in the face of destruction.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge you to a test of strength.",
+                "enemyAnswer": "A test of strength it is. Prepare for annihilation!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer to share knowledge and learn from each other.",
+                "enemyAnswer": "Knowledge from a weakling? Laughable! Face annihilation!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, seeking only understanding.",
+            "enemyAnswer": "Understanding with a fool like you? I shall teach you pain!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I request a chance to prove my intentions.",
+                "enemyAnswer": "Proof? Your actions speak louder. Feel the flames of punishment!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer a gift as a gesture of goodwill.",
+                "enemyAnswer": "A gift? I have no use for your trinkets. Face your demise!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Your power is unmatched, I come with respect.",
+        "enemyAnswer": "Respect or not, you shall kneel before me.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I acknowledge your authority and bow before you.",
+            "enemyAnswer": "Acknowledgement means nothing. Kneel before the Hellfire Beast!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I offer you a tribute in exchange for peace.",
+            "enemyAnswer": "A tribute from a mere mortal? Insolence! Prepare for annihilation!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

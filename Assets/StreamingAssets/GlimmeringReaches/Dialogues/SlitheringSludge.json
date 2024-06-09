@@ -1,0 +1,98 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "tentacle",
+      "characteristicName": "Tentacle Ooze",
+      "artisticName": "Slithering Sludge",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 20,
+      "strategicThinking": 30,
+      "indifference": 5,
+      "flexibility": 15,
+      "communicationSkills": 10,
+      "morality": 5,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Hssiss... Who daresss to intrude upon my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, just passing through.",
+        "enemyAnswer": "Peace? Sssuch a weak approach. What do you seek in these landsss?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge and adventure.",
+            "enemyAnswer": "Knowledge? Adventuresss are not welcome here. Leave now or face the consssequencesss.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave, I mean no harm.",
+                "enemyAnswer": "Sssmart choice. Next time think twice before tressspassing.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I defy you, prepare to fight!",
+                "enemyAnswer": "Foolish mortal, you will regret thissss...",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek power and domination.",
+            "enemyAnswer": "Power? Domination? Such ambition... yet sssuch feeble strength. You amussse me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge you for control of this domain.",
+                "enemyAnswer": "A challenge? Bold move, mortal. Let usss sssee if you can back up your wordsss.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave peacefully, no need for conflict.",
+                "enemyAnswer": "Peaceful departure? Rare... very well, I shall allow it.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with you, just passing by.",
+        "enemyAnswer": "Passing by? No one passsess through without a reason. State yoursss or leave at once.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for the intrusion, I will be on my way.",
+            "enemyAnswer": "Apologiesss accepted. Remember not to return unwelcomed.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not leave until I find what I seek.",
+            "enemyAnswer": "Persistent little thing, arent't you? Very well, face the consssequencesss.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to vanquish any who stand in my way.",
+        "enemyAnswer": "Vanquish? Sssuch arrogance in thiss one. You may try, but you will sssuffer the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will show no mercy in battle.",
+            "enemyAnswer": "Mercy is not in my vocabulary either. Let usss ssee who emerges victoriousss.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I offer you a chance to join me in conquest.",
+            "enemyAnswer": "Join you? An interesting proposal... but I am the one who conqerss. Prepare to face your doom.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

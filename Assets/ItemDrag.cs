@@ -7,6 +7,8 @@ public class ItemDrag : MonoBehaviour, IEndDragHandler, IBeginDragHandler, IDrag
 {
     public RectTransform rectTransform;
     public Vector2 startPosition;
+    
+    [HideInInspector] public bool active = true;
 
     [SerializeField] private SwappingInterface swapper;
     
@@ -24,17 +26,19 @@ public class ItemDrag : MonoBehaviour, IEndDragHandler, IBeginDragHandler, IDrag
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        swapper.SwapCurrentItem();
+        if (active && !GameManager.gameManager.inBattle)
+            swapper.SwapCurrentItem();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        swapper.SetCurrentItem(rectTransform);
+        if (active && !GameManager.gameManager.inBattle)
+            swapper.SetCurrentItem(rectTransform);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        
-        rectTransform.anchoredPosition += eventData.delta / swapper.canvas.scaleFactor;
+        if (active && !GameManager.gameManager.inBattle)
+            rectTransform.anchoredPosition += eventData.delta / swapper.canvas.scaleFactor;
     }
 }

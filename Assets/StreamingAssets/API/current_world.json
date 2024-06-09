@@ -1,32 +1,113 @@
 {
-  "worldName": "CelestialDreamlands",
+  "worldName": "EtherealRealms",
   "enemiesMain": [
     {
       "firstAttribute": "undead",
-      "secondAttribute": "ghost",
-      "thirdAttribute": "stalker",
-      "characteristicName": "Spectral Haunter",
-      "artisticName": "Wraithshade",
+      "secondAttribute": "skeleton",
+      "thirdAttribute": "warrior",
+      "characteristicName": "Warrior Skeleton",
+      "artisticName": "Bone Rattler",
+      "powerLevel": "feeble",
+      "unitType": "fighter"
+    },
+    {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "plant",
+      "characteristicName": "Plant Ooze",
+      "artisticName": "Verdant Slime",
+      "powerLevel": "weak",
+      "unitType": "guardian"
+    },
+    {
+      "firstAttribute": "beasts",
+      "secondAttribute": "troll",
+      "thirdAttribute": "forest",
+      "characteristicName": "Forest Troll",
+      "artisticName": "Woodland Menace",
+      "powerLevel": "moderate",
+      "unitType": "savage"
+    },
+    {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "death",
+      "characteristicName": "Death Ooze",
+      "artisticName": "Necrotic Slime",
+      "powerLevel": "weak",
+      "unitType": "guardian"
+    },
+    {
+      "firstAttribute": "beasts",
+      "secondAttribute": "hydra",
+      "thirdAttribute": "",
+      "characteristicName": "Hydra",
+      "artisticName": "Frost Hydra",
+      "powerLevel": "strong",
+      "unitType": "savage"
+    },
+    {
+      "firstAttribute": "horde",
+      "secondAttribute": "hill_giant",
+      "thirdAttribute": "fighter",
+      "characteristicName": "Fighter Hill Giant",
+      "artisticName": "Frost Giant",
+      "powerLevel": "strong",
+      "unitType": "fighter"
+    },
+    {
+      "firstAttribute": "beasts",
+      "secondAttribute": "beast",
+      "thirdAttribute": "ice",
+      "characteristicName": "Ice Beast",
+      "artisticName": "Glacial Brute",
+      "powerLevel": "weak",
+      "unitType": "striker"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "freezing",
+      "characteristicName": "Freezing Wraith",
+      "artisticName": "Ice Specter",
       "powerLevel": "strong",
       "unitType": "striker"
     },
     {
-      "firstAttribute": "elementals",
-      "secondAttribute": "giant",
-      "thirdAttribute": "stone",
-      "characteristicName": "Colossal Sentinel",
-      "artisticName": "Quartzite Colossus",
+      "firstAttribute": "demons",
+      "secondAttribute": "balrug",
+      "thirdAttribute": "",
+      "characteristicName": "Balrug",
+      "artisticName": "Inferno Behemoth",
+      "powerLevel": "formidable",
+      "unitType": "fighter"
+    },
+    {
+      "firstAttribute": "demons",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "stormcaller",
+      "characteristicName": "Stormcaller Salamander",
+      "artisticName": "Tempest Lizard",
+      "powerLevel": "strong",
+      "unitType": "striker"
+    },
+    {
+      "firstAttribute": "demons",
+      "secondAttribute": "hell_sentinel",
+      "thirdAttribute": "",
+      "characteristicName": "Hell Sentinel",
+      "artisticName": "Infernal Watcher",
       "powerLevel": "formidable",
       "unitType": "fortress"
     },
     {
-      "firstAttribute": "undead",
-      "secondAttribute": "lich",
-      "thirdAttribute": "summoner",
-      "characteristicName": "Frozen Necromancer",
-      "artisticName": "Frostgrave",
-      "powerLevel": "mighty",
-      "unitType": "balancer"
+      "firstAttribute": "demons",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "firebrand",
+      "characteristicName": "Firebrand Salamander",
+      "artisticName": "Blazing Serpent",
+      "powerLevel": "strong",
+      "unitType": "striker"
     }
   ]
 }

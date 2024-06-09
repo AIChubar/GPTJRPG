@@ -27,6 +27,9 @@ public class JSONReader : MonoBehaviour
         public string worldName;
         public string story;
         public string greetingGameMessage;
+        public string mainVillain;
+        public string defeatEndingMessage;
+        public string gameOverMessage;
     }
 
     [System.Serializable]
@@ -73,13 +76,14 @@ public class JSONReader : MonoBehaviour
         public string questDescription;
         public string questType;
         public string questObjective;
-        public int objectiveNum;
+        public string questReward;
     }
     [System.Serializable]
     public class UnitsData
     {
         public UnitGroup friendlyGroup;
         public LevelUnits[] levelsUnits;
+        public UnitGroup mainVillain;
     }
     
     [System.Serializable]
@@ -245,7 +249,7 @@ public class JSONReader : MonoBehaviour
     private void AssignStats()
     {
         AssignStatsForGroup(gameWorld.unitsData.friendlyGroup.units, true);
-
+        AssignStatsForGroup(gameWorld.unitsData.mainVillain.units, false);
         foreach (var level in gameWorld.unitsData.levelsUnits)
         {
             foreach (var group in level.enemyGroups)
@@ -262,7 +266,7 @@ public class JSONReader : MonoBehaviour
             var unitPowerLevel = _unitsStats.powerLevelAttributes[unit.powerLevel];
             var unitType = _unitsStats.unitType[unit.unitType];
             unit.friendly = isFriendly;
-            unit.damage = (int)(unitPowerLevel.damage * unitType.damageCoefficient) * 4;
+            unit.damage = (int)(unitPowerLevel.damage * unitType.damageCoefficient);
             unit.maxHP = unit.currentHP = (int)(unitPowerLevel.health * unitType.healthCoefficient);
             unit.armour = (int)(unitPowerLevel.armour * unitType.armourCoefficient);
         }

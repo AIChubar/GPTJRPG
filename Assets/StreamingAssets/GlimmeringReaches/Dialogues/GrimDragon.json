@@ -1,0 +1,77 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "drake",
+      "secondAttribute": "death",
+      "thirdAttribute": "",
+      "characteristicName": "Death Drake",
+      "artisticName": "Grim Dragon",
+      "powerLevel": "moderate",
+      "unitType": "striker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 45,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to enter my domain, puny human?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I seek no quarrel with you.",
+        "enemyAnswer": "Peace? There is no place for peace here. Only power.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand. I will leave you be.",
+            "enemyAnswer": "Smart choice.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I challenge you to a fight!",
+            "enemyAnswer": "Haha! You amuse me with your bravery. Prepare for battle!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I mean no harm. I'm just passing through.",
+        "enemyAnswer": "Passing through? There is no 'just passing through' in these lands.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for intruding. I will leave immediately.",
+            "enemyAnswer": "Apologies won't save you now. Prepare yourself!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Let's coexist peacefully. There's no need for conflict.",
+            "enemyAnswer": "Weakling! Peace is for the meek. I will show you true power!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek knowledge. Can you help me understand this realm?",
+        "enemyAnswer": "Knowledge? You are not worthy of the knowledge I possess.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I respect your power. I will leave you to your mysteries.",
+            "enemyAnswer": "Respect is futile. Knowledge is power, and you have none.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I demand answers! Tell me or face the consequences!",
+            "enemyAnswer": "Demanding answers? Bold move, but you shall face the consequences of your insolence!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

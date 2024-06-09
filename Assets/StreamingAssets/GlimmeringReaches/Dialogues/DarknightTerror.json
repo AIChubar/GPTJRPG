@@ -1,0 +1,103 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demon",
+      "secondAttribute": "shadow",
+      "thirdAttribute": "",
+      "characteristicName": "Shadow Demon",
+      "artisticName": "Darknight Terror",
+      "powerLevel": "moderate",
+      "unitType": "striker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Halt, insignificant mortal! What business do you have in the darkness of my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about the shadows.",
+        "enemyAnswer": "Knowledge? Mortals are clueless about the true nature of shadows. Begone!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I can offer you something valuable in return.",
+            "enemyAnswer": "Valuable? What could a weak being like you offer that would interest me?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I possess a relic with ancient power.",
+                "enemyAnswer": "Ancient power? Show it to me. If it's genuine, we might have a deal.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have nothing of value. I'll leave peacefully.",
+                "enemyAnswer": "Pathetic mortal, leave before I decide to extinguish your existence.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I apologize for the intrusion, I shall leave at once.",
+            "enemyAnswer": "Apologies won't save you from the consequences of trespassing. Prepare for your end.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "You may think of us as clueless, but we seek to understand.",
+            "enemyAnswer": "Understanding the shadows? Your feeble minds can't comprehend the darkness. Leave before you anger me further.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking power and dominance.",
+        "enemyAnswer": "Power and dominance? Bold words for a mere mortal. Do you dare challenge the darkness?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I challenge you to a duel for supremacy.",
+            "enemyAnswer": "A duel it shall be, mortal. Prepare to face the wrath of the shadows.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I offer you a partnership for mutual benefit.",
+            "enemyAnswer": "Partnership? The shadows have no need for alliances with insignificant creatures like you. Be gone.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I seek knowledge from the shadows to increase my power.",
+            "enemyAnswer": "Knowledge for power? Mortals are always looking for shortcuts. You shall receive no aid from me.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I wish to explore the mysteries of the shadow realm.",
+        "enemyAnswer": "Mysteries of the shadow realm? Mortals are not welcome here to satisfy their curiosity.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm, just seeking understanding.",
+            "enemyAnswer": "Understanding? Your kind brings chaos and disruption. Leave before I decide to end your quest.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I will leave peacefully, no need for conflict.",
+            "enemyAnswer": "Wise choice, mortal. Depart and never return to these shadows.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I challenge your authority over the shadows.",
+            "enemyAnswer": "Challenge my authority? Bold move, mortal. Prepare for the consequences of your arrogance.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

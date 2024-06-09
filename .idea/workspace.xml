@@ -7,258 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1099d2d2-7d6f-4ca8-affb-aa36b9b53fa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_levels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_levels.py.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_main_character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_main_character.py.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_narrative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_unit_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_unit_data.py.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/current_creating_world.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/current_creating_world.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/helper.py.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/palettes_without_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/palettes_without_index.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_levels.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_levels.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_main_character.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_main_character.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_narrative.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_narrative.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_unit_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/structure_unit_data.json.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPT JRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPT JRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.changes" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.changes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.wktree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/big_kobold_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/big_kobold_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/big_kobold_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/big_kobold_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/boggart_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/boggart_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/boggart_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/boggart_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur-melee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur-melee.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur_warrior-melee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur_warrior-melee.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur_warrior.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/centaur_warrior.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/cyclops_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/cyclops_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/cyclops_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/cyclops_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/death_knight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/death_knight.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_fighter_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_fighter_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_fighter_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_fighter_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_knight_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_knight_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_knight_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/deep_elf_knight_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/dwarf_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/dwarf_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/dwarf_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/dwarf_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/elf_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/elf_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/elf_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/elf_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/enchantress_human.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/enchantress_human.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ettin_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ettin_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ettin_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ettin_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/fire_giant_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/fire_giant_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/fire_giant_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/fire_giant_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/frost_giant_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/frost_giant_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/frost_giant_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/frost_giant_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/giant_amoeba_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/giant_amoeba_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/giant_amoeba_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/giant_amoeba_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/gnoll_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/gnoll_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/gnoll_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/gnoll_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/goblin_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/goblin_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/goblin_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/goblin_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/guardian_serpent_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/guardian_serpent_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/guardian_serpent_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/guardian_serpent_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/halfling_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/halfling_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/halfling_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/halfling_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hell_knight_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hell_knight_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hell_knight_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hell_knight_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hill_giant_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hill_giant_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hill_giant_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hill_giant_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hippogriff_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hippogriff_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hippogriff_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hippogriff_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hobgoblin_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hobgoblin_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hobgoblin_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/hobgoblin_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/human_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/human_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/human_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/human_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/kobold_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/kobold_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/kobold_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/kobold_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/labrat_unseen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/labrat_unseen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_water_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_water_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_water_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_aquamancer_water_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_avatar_water.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_avatar_water.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_fighter_water.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_fighter_water.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_water_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_water_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_water_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_impaler_water_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_water_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_water_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_water_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_javelineer_water_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_plain_water.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_plain_water.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_water.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/merfolk_water.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/naga_warrior_unique.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/naga_warrior_unique.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/necromancer_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/necromancer_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/necromancer_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/necromancer_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/nonliving/gargoyle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/nonliving/gargoyle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_mage_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_mage_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_mage_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_mage_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/ogre_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orb_guardian_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orb_guardian_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orb_guardian_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orb_guardian_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_high_priest_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_high_priest_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_high_priest_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_high_priest_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_knight_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_knight_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_knight_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_knight_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_priest_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_priest_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_priest_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_priest_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_sorcerer_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_sorcerer_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_sorcerer_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_sorcerer_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_warrior_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_warrior_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_warrior_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_warrior_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_wizard_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_wizard_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_wizard_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/orc_wizard_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_water_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_water_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_water_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/siren_water_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/sphinx_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/sphinx_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/sphinx_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/sphinx_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/stone_giant_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/stone_giant_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/stone_giant_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/stone_giant_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/titan_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/titan_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/titan_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/titan_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/two_headed_ogre_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/two_headed_ogre_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/two_headed_ogre_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/two_headed_ogre_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur-melee_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur-melee_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur-melee_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur-melee_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain-melee_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain-melee_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain-melee_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain-melee_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_captain_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters corrected/yaktaur_old.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters.spriteatlasv2" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Monsters.spriteatlasv2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request.py.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_narrative.py.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/enemies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/enemies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/MysticValleyofZephyr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/MysticValleyofZephyr.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/Aurora'sGuardian/MainCharacter.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BattleJournal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BattleJournal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatingText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatingText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ItemDrag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ItemDrag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OutcomeButtons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OutcomeButtons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BattleEnemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BattleEnemy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueHUD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GridObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GridObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GroupInfoHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GroupInfoHUD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JSONReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JSONReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitHUD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WorldEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WorldEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Monsters.spriteatlasv2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Monsters.spriteatlasv2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/units_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/units_stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/AetheriaEnchantedRealm/UnitData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/AetheriaEnchantedRealm/UnitData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialDreamlands/UnitData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/CelestialDreamlands/UnitData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EclipseEternal/UnitData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EclipseEternal/UnitData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/MysticHaven/UnitData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/MysticHaven/UnitData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SwappingInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SwappingInterface.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,6 +83,7 @@
       <updated>1715025612812</updated>
       <workItem from="1715025615032" duration="98000" />
       <workItem from="1715211787731" duration="379000" />
+      <workItem from="1717583512788" duration="36000" />
     </task>
     <servers />
   </component>

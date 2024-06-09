@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "balrug",
+      "secondAttribute": "",
+      "thirdAttribute": "",
+      "characteristicName": "Balrug",
+      "artisticName": "Infernal Warlord",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "YOU DARE TO ENTER MY REALM, PUNY MORTAL?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, mighty Balrug. I seek your wisdom.",
+        "enemyAnswer": "Wisdom? Hah! Weaklings like you don't deserve it. What boon do you offer me?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer to leave your realm and never return.",
+            "enemyAnswer": "Leave and never return? You insult me! Prepare to face my wrath!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I beg for mercy, I will leave at once.",
+                "enemyAnswer": "Your pleas fall on deaf ears. Prepare for your demise, fool!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will stand and face you, foul creature!",
+                "enemyAnswer": "Brave words for one facing doom. Let the battle begin!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer to challenge you in a test of strength.",
+            "enemyAnswer": "A test of strength? Interesting. Very well, prove your worth.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I yield, you are too powerful.",
+                "enemyAnswer": "Wise choice. You may leave unharmed, for now.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I emerge victorious, what say you now?",
+                "enemyAnswer": "Impressive. I shall spare you this time, mortal.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no boon to offer, I seek only passage through your realm.",
+            "enemyAnswer": "No boon? Pathetic. You shall not pass without a price.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will pay the price, just let me through.",
+                "enemyAnswer": "Your payment is accepted. Pass quickly and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to pay, I will find another way.",
+                "enemyAnswer": "Stubborn fool. You shall not leave here alive.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come to challenge your rule, Infernal Warlord. Prepare for battle!",
+        "enemyAnswer": "Challenge my rule? Bold words, mortal. Face the consequences of your foolishness!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am not afraid of you, I will defeat you!",
+            "enemyAnswer": "Defeat me? Hah! You will beg for mercy before the end.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I yield, spare me and I will leave your realm forever.",
+                "enemyAnswer": "Cowardice will not save you now. Prepare for your demise!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will fight until my last breath, prepare for a true challenge!",
+                "enemyAnswer": "Foolish bravery. Let the battle decide your fate!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I apologize for my words, I seek to make amends.",
+            "enemyAnswer": "Apologies? They mean nothing to me. What do you seek?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek forgiveness, I will leave you in peace.",
+                "enemyAnswer": "Your departure is all I desire. Leave now and never return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I seek to join forces with you, mighty Balrug.",
+                "enemyAnswer": "Join forces? Interesting proposition. Very well, we shall ally.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to a duel to prove my strength!",
+            "enemyAnswer": "A duel, you say? Very well, let us test your mettle.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I yield, you are a formidable opponent.",
+                "enemyAnswer": "Wise choice. Leave now and do not cross paths with me again.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I emerge victorious, will you accept defeat?",
+                "enemyAnswer": "Impressive. I acknowledge your strength. We shall part ways.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

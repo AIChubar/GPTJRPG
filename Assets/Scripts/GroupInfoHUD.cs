@@ -4,42 +4,45 @@ using UnityEngine;
 
 public class GroupInfoHUD : SwappingInterface
 {
-    [SerializeField] private UnitHUD[] groupHUDs;
-    
-    private Hero _hero;
+    [SerializeField] private UnitHUD[] unitHUDs;
     
     // Start is called before the first frame update
     private void Start()
     {
         base.Start();
-        _hero = GameManager.gameManager.hero;
-        UpdateHUD()
+        UpdateHUD();
     }
 
     // Update is called once per frame
-    private void UpdateHUD()
+    public void UpdateHUD()
     {
+        if (GameManager.gameManager.hero is null || items.Count == 0) 
+            return;
+        var _hero = GameManager.gameManager.hero; 
         for (int i = 0; i < _hero.allyGroup.units.Count; i++)
         {
-            groupHUDs[i].SetHUD(_hero.allyGroup.units[i]);
+            unitHUDs[i].SetHUD(_hero.allyGroup.units[i]);
         }
 
-        for (int i = _hero.allyGroup.units.Count; i < groupHUDs.Length - _hero.allyGroup.units.Count; i++)
+        for (int i = _hero.allyGroup.units.Count; i < unitHUDs.Length; i++)
         {
-            
+            unitHUDs[i].SetHUD(null);
+            items[i].active = false;
         }
     }
 
     protected override void Swap(int currentIndex, int targetIndex)
     {
-        var currentUnit = groupHUDs[currentIndex]._currentUnitData;
-        var targetUnit = groupHUDs[targetIndex]._currentUnitData;
-        groupHUDs[currentIndex].SetHUD(targetUnit);
-        groupHUDs[targetIndex].SetHUD(currentUnit);
+        if (!items[targetIndex].active || !items[currentIndex].active)
+            return;
+        var currentUnit = unitHUDs[currentIndex]._currentUnitData;
+        var targetUnit = unitHUDs[targetIndex]._currentUnitData;
+        unitHUDs[currentIndex].SetHUD(targetUnit);
+        unitHUDs[targetIndex].SetHUD(currentUnit);
 
-        for (int i = 0; i < _hero.allyGroup.units.Count; i++)
+        for (int i = 0; i < GameManager.gameManager.hero.allyGroup.units.Count; i++)
         {
-            _hero.allyGroup.units[i] = groupHUDs[i]._currentUnitData;
+            GameManager.gameManager.hero.allyGroup.units[i] = unitHUDs[i]._currentUnitData;
         }
 
     }

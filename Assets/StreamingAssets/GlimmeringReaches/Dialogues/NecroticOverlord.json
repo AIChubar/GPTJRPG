@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "lord",
+      "characteristicName": "Lich Lord",
+      "artisticName": "Necrotic Overlord",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 92,
+      "friendliness": 6,
+      "intellect": 85,
+      "strategicThinking": 88,
+      "indifference": 3,
+      "flexibility": 11,
+      "communicationSkills": 70,
+      "morality": 12,
+      "chaoticity": 23
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach me, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. What do you seek, mighty necromancer?",
+        "enemyAnswer": "Peace? There is no peace in the realm of the undead. What do you want?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge about the ancient crypts. Can you guide me?",
+            "enemyAnswer": "Knowledge is power, but power comes with a price. What can you offer in return?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I can offer you a rare artifact from the world of the living.",
+                "enemyAnswer": "Artifacts of the living hold no value to me. Begone, fool!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I can offer you my loyalty and service.",
+                "enemyAnswer": "Loyalty is a fleeting concept. I have no need for your service. Leave my presence!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to challenge your power and claim it for myself.",
+            "enemyAnswer": "Bold words from a foolish mortal. You will regret this challenge.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am ready to face whatever comes. Let our powers clash!",
+                "enemyAnswer": "Your bravado will be your downfall. Face the wrath of the undead!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I apologize for my impertinence. I will leave you in peace.",
+                "enemyAnswer": "Apologies cannot undo your challenge. Prepare for your demise!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with you. I will be on my way.",
+        "enemyAnswer": "Turning your back on me? You will not leave here unscathed.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no desire to engage in your dark affairs. Farewell.",
+            "enemyAnswer": "Dark affairs or not, you have crossed paths with the Necrotic Overlord. Prepare for your fate.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I will leave as you wish. My apologies for the intrusion.",
+            "enemyAnswer": "Apologies will not save you now. Face the consequences of your intrusion.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

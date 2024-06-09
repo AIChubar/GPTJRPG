@@ -25,9 +25,14 @@ public class  LevelGenerator : MonoBehaviour
             SpawnObject(i, di);
         }
 
+        if (GameManager.gameManager.levelIndex == 2)
+        {
+                var di = GameManager.gameManager.world.dialogues[GameManager.gameManager.world.unitsData.mainVillain.units[0].artisticName];
+                SpawnObject(GameManager.gameManager.world.unitsData.mainVillain, di, true);
+        }
     }
     // only enemies
-    private void SpawnObject(JSONReader.UnitGroup gd, JSONReader.DialogueInfo di)
+    private void SpawnObject(JSONReader.UnitGroup gd, JSONReader.DialogueInfo di, bool boss = false)
     {
         Vector3 pos = new Vector3(Random.Range(topLeft.position.x, bottomRight.position.x),
             Random.Range(bottomRight.position.y, topLeft.position.y), 1f);
@@ -52,20 +57,19 @@ public class  LevelGenerator : MonoBehaviour
         
         var sp = ob.GetComponent<SpriteRenderer>();
 
-        sp.sprite = GameManager.gameManager.GetSprite(gd.units[0]);
+        sp.sprite = GameManager.gameManager.GetSpriteUnit(gd.units[0]);
+        if (boss)
+        {
+            ob.SetActive(false);
+            GameManager.gameManager.villain = ob;
+            sp.sprite = GameManager.gameManager.GetSpriteUnit(gd.units[0]);
+            gd.units[0].artisticName = GameManager.gameManager.world.narrativeData.mainVillain;
+            sp.transform.localScale *= 1.5f;
+        }
         
         var we = ob.GetComponent<WorldEnemy>();
         
-        we.SetGroup(gd, di);
+        we.SetGroup(gd, di, boss);
 
-        //ob.transform.SetParent(parent.transform);
-
-        //StartCoroutine(ObjectLife(2, ob, ObjectLifetime ));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

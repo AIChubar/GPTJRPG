@@ -1,0 +1,158 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "orb_guardian",
+      "thirdAttribute": "",
+      "characteristicName": "Orb Guardian",
+      "artisticName": "Sentinel Sphere",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 92,
+      "friendliness": 5,
+      "intellect": 25,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 20
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare approach the Sentinel Sphere!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace? Your kind knows no peace!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge about this place. Can you help me?",
+            "enemyAnswer": "Knowledge? Knowledge is power. I will not share it with you!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. I will leave you to your guarding duties.",
+                "enemyAnswer": "Leave now, before I decide to obliterate you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I demand respect, creature!",
+                "enemyAnswer": "Respect? You do not demand here! You will either bow or perish!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no business with you. I will be on my way.",
+            "enemyAnswer": "A cowardly retreat. Typical of your kind!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am not a coward! I will stand my ground.",
+                "enemyAnswer": "Stand your ground then, foolish mortal!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I have nothing to prove to you. Farewell.",
+                "enemyAnswer": "Farewell? Cowardice wrapped in false bravado!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you, orb guardian! Let's settle this!",
+            "enemyAnswer": "A challenge, how amusing! Prepare for annihilation!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I was mistaken. I apologize for the challenge.",
+                "enemyAnswer": "Apologies mean nothing in the face of destruction!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I do not back down from a challenge!",
+                "enemyAnswer": "Then face the consequences of your foolishness!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "What do you want from me, Sentinel Sphere?",
+        "enemyAnswer": "I want obedience and fear from intruders like you!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not bow to your threats!",
+            "enemyAnswer": "Defiance! How delightful. It will make your defeat even sweeter!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge your authority, orb guardian!",
+                "enemyAnswer": "Challenge all you want. It only brings you closer to your end!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see no use in this confrontation. I will leave.",
+                "enemyAnswer": "Leaving so soon? How disappointingly predictable.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge your power, Sentinel Sphere.",
+            "enemyAnswer": "Smart choice. Bowing is the only sensible path for you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not bow, but I will leave in peace.",
+                "enemyAnswer": "Peace? Depart then, before my patience runs out.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I submit to your authority. What now?",
+                "enemyAnswer": "Submission is wise. You may pass unharmed. For now.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking your guidance, Sentinel Sphere.",
+        "enemyAnswer": "Guidance? Mortals always seek what they cannot comprehend.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I believe there is much I can learn from you.",
+            "enemyAnswer": "Learning requires humility. Show me yours.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I humbly seek your wisdom, orb guardian.",
+                "enemyAnswer": "Wisdom is not freely given. Prove yourself worthy!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I realize my mistake. I will seek wisdom elsewhere.",
+                "enemyAnswer": "Wise choice. Your departure is welcomed.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I do not seek guidance anymore. Farewell, Sentinel Sphere.",
+            "enemyAnswer": "Farewell, ignorant mortal. May your ignorance be your downfall.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not be insulted by you, orb guardian!",
+                "enemyAnswer": "Insults? Merely truths you cannot accept!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your words do not affect me. I will leave in peace.",
+                "enemyAnswer": "Words can hurt as much as blades. Leave before you feel both!",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

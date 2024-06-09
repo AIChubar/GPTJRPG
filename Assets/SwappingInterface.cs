@@ -5,8 +5,8 @@ using UnityEngine.EventSystems;
 
 public class SwappingInterface : MonoBehaviour
 {
-    [SerializeField] private List<ItemDrag> items;
-    [SerializeField] public Canvas canvas;
+    [SerializeField] protected List<ItemDrag> items;
+    public Canvas canvas;
 
     private RectTransform currentDraggedItem;
 
@@ -19,7 +19,9 @@ public class SwappingInterface : MonoBehaviour
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            items.Add(transform.GetChild(i).GetComponent<ItemDrag>());
+            var item = transform.GetChild(i).GetComponent<ItemDrag>();
+            if (item is not null && ! item.Equals(null))
+                items.Add(item);
         }
     }
 
@@ -64,8 +66,8 @@ public class SwappingInterface : MonoBehaviour
                     ItemDrag tempItem = items[currentIndex];
                     items[currentIndex] = items[targetIndex];
                     items[targetIndex] = tempItem;
-                }
-                // Swap positions
+                }*/
+                /*// Swap positions
                 Vector2 tempStartPosition = targetItem.startPosition;
                 targetItem.startPosition = currentDraggedItem.GetComponent<ItemDrag>().startPosition;
                 currentDraggedItem.GetComponent<ItemDrag>().startPosition = tempStartPosition;

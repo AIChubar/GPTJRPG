@@ -1,0 +1,92 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "imp",
+      "thirdAttribute": "firebrand",
+      "characteristicName": "Firebrand Imp",
+      "artisticName": "Flame Dancer",
+      "powerLevel": "feeble"
+    },
+    "personaMetrics": {
+      "aggressiveness": 98,
+      "friendliness": 2,
+      "intellect": 20,
+      "strategicThinking": 10,
+      "indifference": 5,
+      "flexibility": 15,
+      "communicationSkills": 30,
+      "morality": 5,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach the Flame Dancer, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. Let's talk.",
+        "enemyAnswer": "Peace? Ha! Mortals bring nothing but chaos and destruction.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek no harm, I just need information.",
+            "enemyAnswer": "Informatio, you say? What makes you think I would help you?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I can offer you something valuable in return.",
+                "enemyAnswer": "Valuable? Very well. What do you offer?",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I see you're not interested. I'll leave.",
+                "enemyAnswer": "Hmph, leave then. Your presence annoys me.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to a fight, demon!",
+            "enemyAnswer": "You think you can challenge me? Foolish mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will defeat you and prove my strength.",
+                "enemyAnswer": "You will regret challenging the Flame Dancer.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I... I was mistaken. I apologize.",
+                "enemyAnswer": "Apologies won't save you now. Prepare to face your demise.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will leave peacefully. Farewell.",
+            "enemyAnswer": "Farewell, mortal. Do not return unless you seek destruction.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to defeat you and claim victory.",
+        "enemyAnswer": "Ah, another foolish opponent dares to challenge the Flame Dancer.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will crush you and leave no trace of your existence.",
+            "enemyAnswer": "Bold words, mortal. Let us see if you can back them up.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I sense your power. I will retreat for now.",
+            "enemyAnswer": "Weakling! Fleeing only proves your cowardice.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to fight. I will leave peacefully.",
+        "enemyAnswer": "Wise choice, mortal. Your presence is not welcomed.",
+        "outcome": "ignore"
+      }
+    ]
+  }
+}

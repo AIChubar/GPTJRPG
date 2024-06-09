@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shattered Highlands",
+      "questList": [
+        {
+          "questName": "Main Quest: Shattered Giants",
+          "questDescription": "Defeat the Broken Behemoths and bring peace to the fractured highlands. Beware of their immense strength and resilience.",
+          "questType": "kill",
+          "questObjective": "Crag Crusher",
+          "questReward": "pass to the next level"
+        },
+        {
+          "questName": "Side Quest: Venomous Plague",
+          "questDescription": "Eliminate the Formicid Venom Mage and stop the toxic plague from spreading further. The venom mage is known for its deadly spells.",
+          "questType": "kill",
+          "questObjective": "Toxic Weaver",
+          "questReward": "amulet of alliance"
+        },
+        {
+          "questName": "Side Quest: Silent Wings",
+          "questDescription": "Unite with the Moth of Suppression to calm the chaotic winds sweeping through the shattered highlands. The moth's silent wings hold great power.",
+          "questType": "unite",
+          "questObjective": "Silence Wing",
+          "questReward": "amulet of healing"
+        }
+      ]
+    },
+    {
+      "levelName": "Crimson Wasteland",
+      "questList": [
+        {
+          "questName": "Main Quest: Burning Inferno",
+          "questDescription": "Confront the fiery Balrug and extinguish the flames of the Crimson Wasteland. Be wary of its infernal strength and destructive power.",
+          "questType": "kill",
+          "questObjective": "Infernal Behemoth",
+          "questReward": "pass to the next level"
+        },
+        {
+          "questName": "Side Quest: Dancing Flames",
+          "questDescription": "Defeat the Firebrand Imp, a mischievous demon dancing amidst the fiery chaos. Stop its fiery tricks from causing further mayhem.",
+          "questType": "kill",
+          "questObjective": "Flame Dancer",
+          "questReward": "amulet of alliance"
+        },
+        {
+          "questName": "Side Quest: Stormcaller's Fury",
+          "questDescription": "Unite with the Salamander Stormcaller to bring rain to the scorching wasteland and quench the flames. The stormcaller commands the power of thunder and lightning.",
+          "questType": "unite",
+          "questObjective": "Tempest Bringer",
+          "questReward": "amulet of healing"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Abyss",
+      "questList": [
+        {
+          "questName": "Main Quest: Shadowweaver's Demise",
+          "questDescription": "End the reign of Shadowweaver by defeating the malevolent entity in the heart of the Shadowed Abyss. Only by vanquishing this darkness can light return to the Glimmering Reaches.",
+          "questType": "kill",
+          "questObjective": "Shadowweaver",
+          "questReward": "win"
+        },
+        {
+          "questName": "Side Quest: Haunting Shadows",
+          "questDescription": "Put an end to the Phantom Stalker's haunting presence in the Shadowed Abyss. Its ethereal nature makes it a formidable foe.",
+          "questType": "kill",
+          "questObjective": "Haunting Shade",
+          "questReward": "amulet of alliance"
+        },
+        {
+          "questName": "Side Quest: Vengeful Spirits",
+          "questDescription": "Unite with the Revenant to face the Corrupted Souls plaguing the Shadowed Abyss. The vengeful spirit seeks justice for its tormented existence.",
+          "questType": "unite",
+          "questObjective": "Vengeful Spirit",
+          "questReward": "amulet of healing"
+        }
+      ]
+    }
+  ]
+}

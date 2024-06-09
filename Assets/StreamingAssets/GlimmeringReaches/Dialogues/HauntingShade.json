@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "phantom",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Phantom Stalker",
+      "artisticName": "Haunted Shade",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 5,
+      "intellect": 65,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare step into my domain, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace? Such a fragile concept. What do you seek here, then?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge about this realm. Can you help me?",
+            "enemyAnswer": "Knowledge? Mortals are always seeking what they cannot fully comprehend. I might share a tidbit... or not.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Please share your wisdom. I'm eager to learn.",
+                "enemyAnswer": "Wisdom? Mortal, you have a lot to learn, and I have little to give. Begone!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I don't need your wisdom. I'll find my own path.",
+                "enemyAnswer": "Bold words, mortal. Perhaps your path will lead you to destruction.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek power to defeat my enemies. Can you aid me?",
+            "enemyAnswer": "Power? It corrupts and consumes; are you sure you want to walk that path?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Yes, power is all that matters. Help me achieve it.",
+                "enemyAnswer": "Very well, seeker of power. I shall test your resolve.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "No, I seek a different way to overcome my foes.",
+                "enemyAnswer": "A wiser choice, mortal. Strength comes in many forms.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge you. Face me in combat!",
+        "enemyAnswer": "Ah, a challenger approaches. Let us see if you are worthy of facing me.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear no ghost! Prepare to be vanquished!",
+            "enemyAnswer": "Bold words, mortal. Let's see if your courage matches your bravado.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I... I think I made a mistake. I'll leave you be.",
+            "enemyAnswer": "Pathetic. You are not even worth my time. Begone!",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

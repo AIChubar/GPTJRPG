@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shattered Highlands",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Shattered Highlands are a treacherous landscape of broken platforms and deep dark holes. Navigate carefully to avoid falling into the abyss below."
+    },
+    {
+      "levelName": "Crimson Wasteland",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Crimson Wasteland is a sea of molten lava rock, with streams of fiery lava posing a constant threat. Survive the scorching heat to progress through this fiery terrain."
+    },
+    {
+      "levelName": "Shadowed Abyss",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "Shadowweaver",
+      "levelDescription": "The Shadowed Abyss is where the malevolent Shadowweaver resides, spreading darkness and despair. Overcome your fears and confront the main villain in this final battle to restore light to the Glimmering Reaches."
+    }
+  ]
+}

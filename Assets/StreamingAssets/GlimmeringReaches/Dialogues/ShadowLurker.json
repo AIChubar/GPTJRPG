@@ -1,0 +1,142 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "stalker",
+      "thirdAttribute": "",
+      "characteristicName": "Stalker Phantom",
+      "artisticName": "Shadow Lurker",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 70,
+      "indifference": 30,
+      "flexibility": 20,
+      "communicationSkills": 60,
+      "morality": 5,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "What do you want in my domain, puny intruder?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek passage through your realm.",
+        "enemyAnswer": "Passage? Ha! Nothing is given for free here.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I can offer you a valuable item in exchange for safe passage.",
+            "enemyAnswer": "Valuable? Show me what you have, but don't try to deceive me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I present a rare enchanted gem to you.",
+                "enemyAnswer": "Hmm, this gem intrigues me. I shall allow your passage as payment.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have nothing to offer, I'll find another way.",
+                "enemyAnswer": "Fool! Without payment, you shall face the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will leave peacefully if you allow me to pass.",
+            "enemyAnswer": "Ha! You think I fear your idle threats? Pathetic.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge you to a duel to prove my worth.",
+                "enemyAnswer": "A duel? I accept. Show me what you're made of, if you dare.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "As you wish, I'll depart from your territory.",
+                "enemyAnswer": "Good riddance. Cross my path again and face the consequences.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking only safe passage.",
+        "enemyAnswer": "Peace? In my realm, there is no room for weakness such as peace.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer a truce between us for mutual benefit.",
+            "enemyAnswer": "Truce? You amuse me. What do you propose in return?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We can share information and warn each other of potential threats.",
+                "enemyAnswer": "Interesting proposition. Very well, we shall have a temporary truce.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will leave your territory and never return, seeking another path.",
+                "enemyAnswer": "Wise choice. If you respect our truce, we need not clash further.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I apologize for invading, I'll leave immediately.",
+            "enemyAnswer": "Apologies? Your words mean nothing to me. Leave, now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will depart at once, forgive my intrusion.",
+                "enemyAnswer": "Be gone, and do not return if you value your existence.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to leave, I'll fight if necessary.",
+                "enemyAnswer": "Stubborn fool. If you wish to challenge me, prepare for your demise.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with you, I will find my own way.",
+        "enemyAnswer": "No business? You dare trespass in my realm and claim no purpose?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for entering uninvited, I'll leave immediately.",
+            "enemyAnswer": "Apologies won't save you now. Prepare to face the consequences of your intrusion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand, I'll leave peacefully.",
+                "enemyAnswer": "Too late for apologies now. Face the wrath of your foolish decision.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave, but I warn you, do not cross my path in the future.",
+                "enemyAnswer": "Empty threats from a coward. Depart, and be grateful for my mercy.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to stand down and let me through.",
+            "enemyAnswer": "Challenge me? You have guts, intruder. Let's see if you can back up your words.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I withdraw my challenge, I'll find another way.",
+                "enemyAnswer": "Wise choice. Retreat now before you regret challenging me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I'm ready to fight if that's what you desire.",
+                "enemyAnswer": "Foolish choice. Prepare for a battle you won't soon forget.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

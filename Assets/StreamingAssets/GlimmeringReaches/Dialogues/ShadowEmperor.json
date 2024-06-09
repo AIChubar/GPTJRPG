@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "king",
+      "characteristicName": "Wraith King",
+      "artisticName": "Shadow Emperor",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 60,
+      "strategicThinking": 75,
+      "indifference": 15,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 25
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to step into my domain, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek an audience with the Shadow Emperor.",
+        "enemyAnswer": "Hah! An audience with me? What makes you think you are worthy?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I come to offer my allegiance and service.",
+            "enemyAnswer": "Allegiance? Servitude? You amuse me. What can you possibly offer?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My skills in combat are unmatched. I can serve as your loyal warrior.",
+                "enemyAnswer": "Combat skills... intriguing. Prove your worth in battle, only then will I consider your offer.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I possess secrets of dark magic that could aid your reign.",
+                "enemyAnswer": "Dark magic, you say? Show me a glimpse of this power, or face my wrath.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come seeking knowledge and guidance.",
+            "enemyAnswer": "Knowledge and guidance from me, the Shadow Emperor? What folly is this?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my services in exchange for your wisdom.",
+                "enemyAnswer": "Services in exchange for wisdom... perhaps you are not as foolish as you seem. Prove your dedication, and you may receive what you seek.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I seek to challenge your intellect, let us engage in a battle of wits.",
+                "enemyAnswer": "A battle of wits, you say? Very well, let us see if you can match my cunning.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with the likes of you. Leave me be.",
+        "enemyAnswer": "You dare to dismiss me? You will regret your insolence!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will retreat and leave this place.",
+            "enemyAnswer": "Smart move, mortal. Leave and never return, or face the consequences.",
+            "outcome": "ignore "
+          },
+          {
+            "playerOption": "I challenge you to a duel, let us settle this now.",
+            "enemyAnswer": "A duel? Very well, prepare yourself for a swift defeat.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

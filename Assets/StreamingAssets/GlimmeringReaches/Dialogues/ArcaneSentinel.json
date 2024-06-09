@@ -1,0 +1,158 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "servitor_spellforged",
+      "secondAttribute": "",
+      "thirdAttribute": "",
+      "characteristicName": "Spellforged Servitor",
+      "artisticName": "Arcane Sentinel",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare approach me, pitiful creature?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. Can we talk?",
+        "enemyAnswer": "Peace? You reek of weakness. Speak quickly!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge, not conflict.",
+            "enemyAnswer": "Knowledge? Your ignorance is astounding. What do you want?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I wish to learn about the arcane arts.",
+                "enemyAnswer": "Hmph, you think you have the potential? Prove it or leave!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I apologize for bothering you. I will leave.",
+                "enemyAnswer": "As you should. Be gone!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to a duel.",
+            "enemyAnswer": "You think you can defeat me? Foolish mortal!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I have no desire to fight. I will leave.",
+                "enemyAnswer": "That's right, run away like the coward you are!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Prepare yourself! The duel begins now!",
+                "enemyAnswer": "So be it. Prepare to be crushed!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense great power within you. Let us join forces.",
+            "enemyAnswer": "Join forces? Why would I ally myself with a weakling like you?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. I will leave you be.",
+                "enemyAnswer": "Finally, some sense. Leave and never return!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I offer you my allegiance. Together, we can be unstoppable.",
+                "enemyAnswer": "Ha! Your allegiance means nothing to me. Prepare to face my power!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to be insulted. State your business or face the consequences.",
+        "enemyAnswer": "Oh, a defiant one. I like that. Let's see if you can back it up.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I warn you, do not test my patience.",
+            "enemyAnswer": "Patience? I have none for weaklings like you!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not engage in petty squabbles. Farewell.",
+                "enemyAnswer": "Good riddance. Don't let the door hit you on the way out!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Enough talk. Let our actions speak for us.",
+                "enemyAnswer": "Very well. Prepare for a battle you will never forget!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I see no reason to continue this conversation. I will take my leave.",
+            "enemyAnswer": "Leaving so soon? I was just getting started with you!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your threats hold no power over me. Farewell.",
+                "enemyAnswer": "We'll see about that. Leave before I change my mind.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I choose not to engage with the likes of you. Goodbye.",
+                "enemyAnswer": "As you wish. I have no time for cowards like you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I sense a dark aura around you. What do you intend?",
+        "enemyAnswer": "Dark aura? How observant of you. Perhaps you are not as foolish as you seem.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek to understand your purpose in this realm.",
+            "enemyAnswer": "My purpose is none of your concern. Begone, before I decide to crush you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well. I will leave you to your mysterious ways.",
+                "enemyAnswer": "A wise choice. Leave before you regret crossing me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not be intimidated. Face me if you dare.",
+                "enemyAnswer": "Bold words. Let's see if you can back them up!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense a troubled past. Let me help you find peace.",
+            "enemyAnswer": "Peace? I have no need for such trivialities. Leave me be.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Understood. I will respect your solitude.",
+                "enemyAnswer": "Finally, some sense. Leave before I decide to end you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You cannot ignore the darkness within you forever. Let me aid you.",
+                "enemyAnswer": "Aid me? You are amusing. Prepare to face the consequences of your words!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

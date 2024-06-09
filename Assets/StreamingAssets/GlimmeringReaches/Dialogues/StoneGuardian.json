@@ -1,0 +1,158 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elemental",
+      "secondAttribute": "earth",
+      "thirdAttribute": "",
+      "characteristicName": "Earth Elemental",
+      "artisticName": "Stone Guardian",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 20,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares to disturb the tranquility of the earth?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek passage through this realm.",
+        "enemyAnswer": "Passage? None shall pass without facing the wrath of the Stone Guardian.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm, I seek only to pass peacefully.",
+            "enemyAnswer": "Peaceful or not, all intruders must face the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will take my chances and proceed.",
+                "enemyAnswer": "Foolish mortal, you shall regret your decision.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will retreat and leave this place be.",
+                "enemyAnswer": "Coward! Run while you still can.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am not here to fight, I respect the guardians of this realm.",
+            "enemyAnswer": "Respect? Your words hold no weight in the eyes of the earth.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then allow me to prove my sincerity through a gesture of peace.",
+                "enemyAnswer": "Gestures matter little to the stone, actions speak louder.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I understand, I will turn back and leave in peace.",
+                "enemyAnswer": "Wise choice, flee before the earth's anger consumes you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge the Stone Guardian to a test of strength.",
+            "enemyAnswer": "Bold words from a mere mortal. Let the earth decide your fate.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept the challenge and will prove my worth.",
+                "enemyAnswer": "Bravery or foolishness? Time will tell.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I reconsider, this was a jest. No need for such conflict.",
+                "enemyAnswer": "A jest? The earth does not take kindly to jests.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking knowledge of this realm's history.",
+        "enemyAnswer": "Knowledge-seeker, yet you disturb the earth's slumber.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer a token of respect in exchange for your wisdom.",
+            "enemyAnswer": "Respect? Material possessions mean nothing to the stone.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then I will leave, not wanting to cause further disturbance.",
+                "enemyAnswer": "Leave and trouble the earth no more, for your own sake.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will stay and listen, showing my sincerity in seeking understanding.",
+                "enemyAnswer": "Stubborn mortal, your curiosity may be your downfall.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I apologize for the disturbance, I will leave if that is your wish.",
+            "enemyAnswer": "Apologies cannot undo the disruption caused by your presence.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, I will depart and trouble you no further.",
+                "enemyAnswer": "Depart quickly, lest the earth's fury be unleashed upon you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to leave until I learn what I seek, I mean no harm.",
+                "enemyAnswer": "Persistence may lead to peril in the realm of the Stone Guardian.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge the Stone Guardian to a battle of wits.",
+        "enemyAnswer": "A battle of wits? You amuse the earth with your audacity.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Indeed, let us match our intellects and see who prevails.",
+            "enemyAnswer": "Intellect is but one aspect of the earth's strength.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am ready to prove my mental prowess, let the challenge begin.",
+                "enemyAnswer": "Words alone will not impress the earth.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see you are not interested, I will take my leave.",
+                "enemyAnswer": "A wise choice, retreat before your mind is outmatched.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I admit, I am no match for the wisdom of the Stone Guardian.",
+            "enemyAnswer": "Acknowledgement of your limits does not exempt you from consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand, I will leave and trouble you no further.",
+                "enemyAnswer": "Understand quickly, for the earth's patience wears thin.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will stay and listen, perhaps I can learn something from you.",
+                "enemyAnswer": "Curiosity may lead to downfall in the face of the stone's judgement.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

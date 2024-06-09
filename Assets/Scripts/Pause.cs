@@ -6,24 +6,21 @@ using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
 {
-    public enum UIState { WIN, GAMEOVER, BATTLESTART, ESCPAUSE, UNPAUSED, HEROINFO, GROUPINFO, QUESTMENU }
+    public enum UIState { GAMEMESSAGE, UNITINTERACTION, ESCPAUSE, UNPAUSED, GROUPINFO, RECRUITSYSTEM , QUESTMENU }
 
     [Header("UI Elements")]
     [SerializeField] private GameObject pauseCanvas;
-    [SerializeField] private GameObject winMenu;
-    [SerializeField] private GameObject questMenu;
+    
+    [SerializeField] public GameObject questMenu;
     [SerializeField] private GameObject pauseMenu;
-    [SerializeField] private GameObject loseMenu;
-    [SerializeField] private GameObject heroInfoMenu;
     [SerializeField] private GameObject groupInfoMenu;
-    [SerializeField] private GameObject battleStartMenu;
-
-    [SerializeField] private DialogueHUD battleStartHUD;
-    [SerializeField] private DialogueHUD winHUD;
-    [SerializeField] private DialogueHUD loseHUD;
-
+    [SerializeField] private RecruitSystem recruitSystemMenu;
+    [SerializeField] private GameMessageController gameMessageMenu;
+    [SerializeField] private GameObject unitInteractionMenu;
+    
+    [SerializeField] private DialogueHUD unitInteractionHUD;
     private PlayerInput playerInput;
-    private UIState currentState = UIState.UNPAUSED;
+    private UIState _currentState = UIState.UNPAUSED;
 
     private void Awake()
     {
@@ -46,47 +43,44 @@ public class Pause : MonoBehaviour
 
     private void TogglePause(InputAction.CallbackContext context)
     {
-        if (currentState is UIState.WIN or UIState.GAMEOVER or UIState.BATTLESTART)
+        if (_currentState is UIState.GAMEMESSAGE  or UIState.UNITINTERACTION or UIState.RECRUITSYSTEM)
             return;
-        currentState = currentState == UIState.UNPAUSED ? UIState.ESCPAUSE : UIState.UNPAUSED;
+        _currentState = _currentState == UIState.UNPAUSED ? UIState.ESCPAUSE : UIState.UNPAUSED;
         UpdateUI();
     }
 
     private void UpdateUI()
     {
-        Time.timeScale = currentState == UIState.UNPAUSED ? 1f : 0f;
-        pauseCanvas.SetActive(currentState != UIState.UNPAUSED);
-        battleStartMenu.SetActive(currentState == UIState.BATTLESTART);
-        pauseMenu.SetActive(currentState == UIState.ESCPAUSE);
-        winMenu.SetActive(currentState == UIState.WIN);
-        loseMenu.SetActive(currentState == UIState.GAMEOVER);
-        heroInfoMenu.SetActive(currentState == UIState.HEROINFO);
-        groupInfoMenu.SetActive(currentState == UIState.GROUPINFO);
-        questMenu.SetActive(currentState == UIState.QUESTMENU);
+        Time.timeScale = _currentState == UIState.UNPAUSED ? 1f : 0f;
+        pauseCanvas.SetActive(_currentState != UIState.UNPAUSED);
+        unitInteractionMenu.SetActive(_currentState == UIState.UNITINTERACTION);
+        recruitSystemMenu.gameObject.SetActive(_currentState == UIState.RECRUITSYSTEM);
+        pauseMenu.SetActive(_currentState == UIState.ESCPAUSE);
+        gameMessageMenu.gameObject.SetActive(_currentState == UIState.GAMEMESSAGE);
+        groupInfoMenu.SetActive(_currentState == UIState.GROUPINFO);
+        questMenu.SetActive(_currentState == UIState.QUESTMENU);
 
     }
 
-    public void ShowBattleStartMenu(JSONReader.DialogueInfo dialogueInfo)
+    public void ShowUnitInteractionMenu(JSONReader.DialogueInfo dialogueInfo, JSONReader.UnitGroup group)
     {
-        currentState = UIState.BATTLESTART;
+        _currentState = UIState.UNITINTERACTION;
         UpdateUI();
-        battleStartHUD.SetDialogueHUD(dialogueInfo);
+        unitInteractionHUD.SetDialogueHUD(dialogueInfo, group);
+    }
+    public void ShowGameMessageMenu(bool isGameOver, string gameMessage)
+    {
+        _currentState = UIState.GAMEMESSAGE;
+        UpdateUI();
+        gameMessageMenu.SetGameMessage(isGameOver, gameMessage);
+    }
+    public void ShowRecruitSystemMenu(JSONReader.UnitGroup group)
+    {
+        _currentState = UIState.RECRUITSYSTEM;
+        recruitSystemMenu.SetEnemyGroup(group);
+        UpdateUI();
     }
     
-    public void ShowWinMenu()
-    {
-        //currentState = UIState.WIN;
-        //UpdateUI();
-        //winHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.winMonologue);
-    }
-
-    public void ShowGameOverMenu()
-    {
-        //currentState = UIState.GAMEOVER;
-        //UpdateUI();
-        //loseHUD.SetHUD(GameManager.gameManager.gameData.enemies, GameManager.gameManager.gameData.enemies.lostMonologue);
-    }
-
     public void BeginBattle()
     {
         ResumeGame();
@@ -94,31 +88,27 @@ public class Pause : MonoBehaviour
     }
     public void ResumeGame()
     {
-        currentState = UIState.UNPAUSED;
+        _currentState = UIState.UNPAUSED;
         UpdateUI();
     }
 
-    public void ShowHeroInfoMenu()
-    {
-        currentState = UIState.HEROINFO;
-        UpdateUI();
-    }
+    
     
     public void ShowQuestMenu()
     {
-        currentState = UIState.QUESTMENU;
+        _currentState = UIState.QUESTMENU;
         UpdateUI();
     }
     
     public void ShowPauseMenu()
     {
-        currentState = UIState.ESCPAUSE;
+        _currentState = UIState.ESCPAUSE;
         UpdateUI();
     }
 
     public void ShowGroupInfoMenu()
     {
-        currentState = UIState.GROUPINFO;
+        _currentState = UIState.GROUPINFO;
         UpdateUI();
     }
     

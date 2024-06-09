@@ -1,0 +1,87 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beast",
+      "secondAttribute": "forest",
+      "thirdAttribute": "",
+      "characteristicName": "Forest Beast",
+      "artisticName": "Woodland Predator",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 15,
+      "strategicThinking": 20,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 20,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to trespass into our territory, human?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Apologies, I meant no harm. I'll leave immediately.",
+        "enemyAnswer": "Your apologies mean nothing to me. Leave or face the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I'll leave, no need for violence.",
+            "enemyAnswer": "Wise choice. Do not return.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I'll take my chances and stay.",
+            "enemyAnswer": "You chose poorly. Attack!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek passage through the forest. Can we come to an agreement?",
+        "enemyAnswer": "Agreement? Forest belongs to us, intruders shall be dealt with.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand. I'll find another way around.",
+            "enemyAnswer": "Good decision. You are free to go.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I won't back down. Let's settle this now.",
+            "enemyAnswer": "Foolish human. Prepare to fight!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Defend myself and fight back.",
+                "enemyAnswer": "Brave, yet futile. You are no match for us. Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Try to reason once more before resorting to violence.",
+                "enemyAnswer": "Reasoning? There is no place for that here. Leave or face the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, looking for guidance. Can you help?",
+        "enemyAnswer": "Peace? We do not trust your kind. Leave before we change our minds.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Understood, I'll take my leave.",
+            "enemyAnswer": "Good choice. Do not test our patience again.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I mean no harm. Let me prove my intentions.",
+            "enemyAnswer": "Prove? We do not care for your games. Leave or face the consequences.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

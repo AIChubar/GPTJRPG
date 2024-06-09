@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class WorldEnemy : MonoBehaviour
 {
-    public JSONReader.UnitGroup groupData;
+    [HideInInspector] public JSONReader.UnitGroup groupData;
 
-    public JSONReader.DialogueInfo dialogueInfo;
-    public void SetGroup(JSONReader.UnitGroup gd, JSONReader.DialogueInfo di)
+    [HideInInspector] public JSONReader.DialogueInfo dialogueInfo;
+
+    [HideInInspector] public bool boss;
+    public void SetGroup(JSONReader.UnitGroup gd, JSONReader.DialogueInfo di, bool isBoss = false)
     {
         dialogueInfo = di;
         groupData = gd;
+        boss = isBoss;
     }
     
     private void OnCollisionEnter2D(Collision2D other)
@@ -21,10 +24,9 @@ public class WorldEnemy : MonoBehaviour
             
             GameManager.gameManager.gameData.AssignAllyGroup(bm.allyGroup);
             
-            GameManager.gameManager.gameData.AssignEnemyGroup(groupData);
+            GameManager.gameManager.gameData.AssignEnemyGroup(groupData, boss);
 
-            GameManager.gameManager.pauseMenu.ShowBattleStartMenu(dialogueInfo);
-
+            GameManager.gameManager.pauseMenu.ShowUnitInteractionMenu(dialogueInfo, groupData);
             
             Destroy(gameObject, 0.1f);
         }

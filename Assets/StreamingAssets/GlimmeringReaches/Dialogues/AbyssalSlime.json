@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "ooze",
+      "secondAttribute": "void",
+      "thirdAttribute": "",
+      "characteristicName": "Void Ooze",
+      "artisticName": "Abyssal Slime",
+      "powerLevel": "feeble"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 10,
+      "strategicThinking": 20,
+      "indifference": 5,
+      "flexibility": 30,
+      "communicationSkills": 10,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You are a pathetic creature wandering in the void. What do you want from me?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about this realm.",
+        "enemyAnswer": "Knowledge is power, but you lack the intellect to comprehend the depths of this abyss.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am not here to be underestimated, I demand respect!",
+            "enemyAnswer": "Respect? Hah! Respect is earned, not demanded. Your arrogance will lead to your demise.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge you to a battle!",
+                "enemyAnswer": "A battle it is then! Prepare to face the wrath of the Abyssal Slime.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see there's no reasoning with you. I will leave you be.",
+                "enemyAnswer": "As you should, insignificant being. Begone from my presence.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek power to conquer all realms.",
+            "enemyAnswer": "Ambitious, are we? Power comes to those who are willing to go to extremes. Are you prepared for the consequences?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am ready for anything. Let our paths intertwine.",
+                "enemyAnswer": "So be it. Together, we shall unleash chaos upon the universe.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I sense danger in your words. I will retreat for now.",
+                "enemyAnswer": "Cowardice is a trait of the weak. Flee while you can, for my patience wears thin.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace. I seek harmony in this void.",
+            "enemyAnswer": "Peace? Harmony? Such feeble concepts have no place in the void. You are an amusing anomaly.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your mockery will not deter me. I will continue on my path.",
+                "enemyAnswer": "Brave words from an insignificant being. Let us see if you can back them up.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I understand we are fundamentally different. I will take my leave.",
+                "enemyAnswer": "Wise choice, for our paths were never meant to cross in harmony.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with you. I will find my own way.",
+        "enemyAnswer": "No business, you say? Then why disturb the solitude of the Abyssal Slime? Make your intentions clear.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for the intrusion. I will leave you in peace.",
+            "enemyAnswer": "Apology accepted, but remember this encounter. The void is not forgiving to the ignorant.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not be dictated to by a mere slime. Farewell, creature.",
+            "enemyAnswer": "Arrogance will be your downfall. Remember the name Abyssal Slime in your final moments.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge your authority in this realm.",
+        "enemyAnswer": "Authority? You dare challenge the Abyssal Slime's dominion? Foolish mortal, your insolence is your undoing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear no slime. Prepare to face defeat!",
+            "enemyAnswer": "Bold words from a soon-to-be defeated adversary. Let it be known that you brought this upon yourself.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I see I have overstepped. I will retreat and acknowledge your reign.",
+            "enemyAnswer": "Acknowledgement is a start, but know that defiance has consequences. Remember this encounter.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

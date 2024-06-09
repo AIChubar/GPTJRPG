@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "eater",
+      "characteristicName": "Ghost Eater",
+      "artisticName": "Devourer of Spirits",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense the warmth of your living essence, a rare treat amidst the cold spirits.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "What do you seek from me?",
+        "enemyAnswer": "I seek not from you but offer a revelation. Will you embrace it or shy away?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am open to your revelations.",
+            "enemyAnswer": "A wise choice, for knowledge is power in both life and death. Shall we proceed?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Proceed with your revelation.",
+                "enemyAnswer": "The spirits whisper of a fate entwined with yours. Choose your path wisely.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I choose not to proceed.",
+                "enemyAnswer": "Ah, a skeptic. A pity, for enlightenment could have been yours.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I prefer not to dwell in your revelations.",
+            "enemyAnswer": "A closed mind is a fragile shield against the unknown. Will you accept the truth or cower?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will face the truth bravely.",
+                "enemyAnswer": "Bravery is commendable, but it can lead to unforeseen consequences. Are you prepared?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not risk knowing your truth.",
+                "enemyAnswer": "Ignorance is a choice, but it can be a dangerous one in the realm of spirits.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your revelations do not interest me.",
+            "enemyAnswer": "A closed heart misses out on the melodies of existence. Will you remain deaf or listen?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will listen to what you have to say.",
+                "enemyAnswer": "Wise choice. The dance of spirits is intricate; it may lead you to unexpected shores.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have no desire to hear your words.",
+                "enemyAnswer": "Stubbornness is a trait shared by the lost. May your path be illuminated in the darkness.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Why do you speak in riddles?",
+        "enemyAnswer": "Riddles cloak truths that bare reality's sharp edges. Will you dare to decipher or retreat in fear?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am intrigued by your riddles.",
+            "enemyAnswer": "Curiosity begets knowledge, but knowledge begets responsibility. Dare you shoulder it?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will face the responsibility.",
+                "enemyAnswer": "Responsibility embraces those who seek wisdom. May your choices reflect your intentions.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I am not ready for such burdens.",
+                "enemyAnswer": "Timidity often shields from pain, but also from growth. Choose wisely, for time cares not for hesitation.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Riddles only cloud the truth.",
+            "enemyAnswer": "Clarity can illuminate, but it can also blind. Do you prefer the comforting darkness or the harsh light of revelation?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek clarity, not darkness.",
+                "enemyAnswer": "A seeker of clarity must also face the shadows. Are you willing to embrace both?",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I am comfortable in my ignorance.",
+                "enemyAnswer": "Ignorance is bliss until reality shatters its facade. Choose your illusions wisely.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no time for your cryptic words.",
+            "enemyAnswer": "Time is a river that carries us all, whether we navigate its currents or stand idle. Will you resist or float along?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I choose to navigate the currents.",
+                "enemyAnswer": "A bold choice, for the river of time is treacherous. May your voyage be guided by purpose.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I prefer to stand on solid ground.",
+                "enemyAnswer": "Stillness offers no progress, only stagnation. The river flows regardless of your choice.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Your words hold no meaning for me.",
+        "enemyAnswer": "Meaning is a construct woven by perception. Will you unravel the threads or cling to your illusions?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am willing to explore beyond illusions.",
+            "enemyAnswer": "Exploration requires courage, for the truth can be a harsh mistress. Are you prepared to face her?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will brave the truth.",
+                "enemyAnswer": "Bravery in the face of truth is a rare gift. May it serve you well on your journey.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I choose to remain in my illusions.",
+                "enemyAnswer": "Illusions soothe the weary soul, but they also bind it. Will you seek liberation or comfort?",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I prefer to hold on to my illusions.",
+            "enemyAnswer": "Illusions are fragile veils over the abyss of reality. Do you fear the fall or crave the plunge?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no truth, reveal it to me.",
+                "enemyAnswer": "Fearlessness is a rare virtue. Embrace the revelations, for they may reshape your world.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I fear the darkness beyond illusions.",
+                "enemyAnswer": "Fear is a natural response, but it can also be a shackle. Choose your chains wisely.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no interest in your philosophical musings.",
+            "enemyAnswer": "Interest blooms where curiosity is nurtured. Will you let it wither or let it bloom?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will let curiosity guide me.",
+                "enemyAnswer": "Curiosity is the compass of the adventurous spirit. May it lead you to uncharted territories.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have no desire for uncharted territories.",
+                "enemyAnswer": "Familiarity breeds comfort, but also stagnation. Choose your path with awareness.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

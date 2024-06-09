@@ -13,9 +13,9 @@ public class UnitHUD : MonoBehaviour
 
     public Image unitImage;
     
-    private int _maxHp;
+    private int _maxHp; 
 
-    public JSONReader.UnitJSON _currentUnitData;
+    public JSONReader.UnitJSON _currentUnitData = null;
 
     public void SetHUD(JSONReader.UnitJSON ud, Sprite sprite = null)
     {
@@ -23,7 +23,7 @@ public class UnitHUD : MonoBehaviour
         {
             if (sprite is null)
             {
-                unitImage.sprite = GameManager.gameManager.GetSprite(ud);
+                unitImage.sprite = GameManager.gameManager.GetSpriteUnit(ud);
             }
             else
             {
@@ -42,8 +42,7 @@ public class UnitHUD : MonoBehaviour
 
     public void UpdateHUD()
     {
-        
-        if (_currentUnitData is null)
+        if (_currentUnitData is null || _currentUnitData.artisticName == "")
         {
             artisticNameText.text = "";
             characteristicNameText.text = "";

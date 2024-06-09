@@ -16,19 +16,19 @@ public class QuestMenu : MonoBehaviour
     [SerializeField] private TextMeshProUGUI chosenQuestNameTMP;
     [SerializeField] private TextMeshProUGUI chosenQuestDescriptionTMP;
     [SerializeField] private TextMeshProUGUI chosenQuestObjectiveTMP;
-    [SerializeField] private TextMeshProUGUI chosenQuestProgressTMP;
+    [SerializeField] private TextMeshProUGUI chosenQuestRewardTMP;
 
     
 
     // Start is called before the first frame update
-    void Start()
+    public void SetQuests()
     {
         var questList = GameManager.gameManager.world.questData[GameManager.gameManager.levelIndex].questList;
         questDetails.SetActive(false);
         chosenQuestNameTMP.text = "";
         chosenQuestDescriptionTMP.text = "";
         chosenQuestObjectiveTMP.text = "";
-        chosenQuestProgressTMP.text = "";
+        chosenQuestRewardTMP.text = "";
         foreach (var quest in questList)
         {
             AddButton(quest);
@@ -47,8 +47,13 @@ public class QuestMenu : MonoBehaviour
         chosenQuestNameTMP.text = currentQuest.quest.questName;
         chosenQuestDescriptionTMP.text = currentQuest.quest.questDescription;
         chosenQuestObjectiveTMP.text = char.ToUpper(currentQuest.quest.questType[0]) + currentQuest.quest.questType.Substring(1) + ": " + currentQuest.quest.questObjective;
-        chosenQuestProgressTMP.text = currentQuest.objectiveCount + "/" + currentQuest.quest.objectiveNum;
-        button.GetComponent<Image>().color = !currentQuest.completed ? new Color32(245, 124, 124, 255) : new Color32(124, 245, 124, 255);
+        chosenQuestRewardTMP.text = currentQuest.quest.questReward;
+        if (currentQuest.completed)
+            button.GetComponent<Image>().color = new Color32(124, 245, 124, 255);
+        else if (currentQuest.failed)
+            button.GetComponent<Image>().color = new Color32(245, 124, 124, 255);
+        else
+            button.GetComponent<Image>().color = new Color32(255,255,255, 111);
     }
 
     // Update is called once per frame

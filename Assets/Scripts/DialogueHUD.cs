@@ -17,6 +17,9 @@ public class DialogueHUD : MonoBehaviour
     [SerializeField] 
     private JSONReader.DialogueInfo dialogueInfo;
     
+    [HideInInspector]
+    public JSONReader.UnitGroup group;
+    
     [SerializeField] 
     private Image unitImage;
 
@@ -38,10 +41,17 @@ public class DialogueHUD : MonoBehaviour
     public RectTransform content;
     private void Start()
     {
+        
     }
 
-    public void SetDialogueHUD(JSONReader.DialogueInfo di)
+    public void SetDialogueHUD(JSONReader.DialogueInfo di, JSONReader.UnitGroup g)
     {
+        group = g;
+        foreach(Transform child in content.transform)
+        {
+            Destroy(child.gameObject);
+        }
+        
         dialogueInfo = di;
 
         //_continueText = continueButton.GetComponentInChildren<TextMeshProUGUI>();
@@ -49,7 +59,7 @@ public class DialogueHUD : MonoBehaviour
         if (unitImage is not null)
         {
             
-            unitImage.sprite = GameManager.gameManager.GetSprite(dialogueInfo.enemySpeakerInfo.unit);
+            unitImage.sprite = GameManager.gameManager.GetSpriteUnit(dialogueInfo.enemySpeakerInfo.unit);
             unitImage.color = Color.white;
         }
         artisticNameText.text = dialogueInfo.enemySpeakerInfo.unit.artisticName;
@@ -144,10 +154,17 @@ public class DialogueHUD : MonoBehaviour
         {
             _outcome = Outcome.FIGHT;
         }
+        //qwewqeeq
+        //Delete later
+        _outcome = Outcome.RECRUIT;
+        //qwewqewq
+        //qweewwqeqw
+        if (GameManager.gameManager.gameData.isBossFight)
+            _outcome = Outcome.FIGHT;
         yield return new WaitForSecondsRealtime(1f);
         
         outcomeButtons.gameObject.SetActive(true);
-        outcomeButtons.SetOutcomeButtons(_outcome, this);
+            outcomeButtons.SetOutcomeButtons(_outcome, this);
     }
 
     /*IEnumerator TextAppear()

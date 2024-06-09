@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "devil",
+      "thirdAttribute": "red",
+      "characteristicName": "Red Devil",
+      "artisticName": "Crimson Tormentor",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach me, puny mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. What is your purpose here?",
+        "enemyAnswer": "Peace? Such a foreign concept to one like me. My purpose is to inflict pain and suffering.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Is there no room for negotiation? We could work together for mutual benefit.",
+            "enemyAnswer": "Negotiation implies weakness. I have no interest in collaboration.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see there's no reasoning with you. I will leave you be.",
+                "enemyAnswer": "Your cowardice is evident. Prepare to face your demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If you seek conflict, then conflict you shall have!",
+                "enemyAnswer": "A challenger! Very well, let us see if you are worthy.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your cruelty is a testament to your strength. Perhaps we can join forces and conquer together.",
+            "enemyAnswer": "Join forces? Conquer together? I stand alone in my power. Begone with your words.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I sense your unwillingness. I will take my leave then.",
+                "enemyAnswer": "Leave, for you are insignificant. Your presence annoys me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You reject my offer? Then face the consequences of your arrogance!",
+                "enemyAnswer": "Consequences? Bold words from a measly creature such as yourself. Prepare for annihilation.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I understand your nature now. I will depart and leave you to your own devices.",
+            "enemyAnswer": "Understanding does not save you from your fate. Depart while you still can.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I heed your warning. Farewell, Crimson Tormentor.",
+                "enemyAnswer": "Farewell, insignificant one. Your departure pleases me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not back down. Let our clash be spoken of in the annals of history!",
+                "enemyAnswer": "Bold words from one with no chance of victory. Prepare for oblivion.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "ooze",
+      "secondAttribute": "acid",
+      "thirdAttribute": "",
+      "characteristicName": "Acid Ooze",
+      "artisticName": "Corrosive Sludge",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 10,
+      "strategicThinking": 20,
+      "indifference": 0,
+      "flexibility": 5,
+      "communicationSkills": 5,
+      "morality": 10,
+      "chaoticity": 90
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Feeble creature, what brings you to our domain of darkness?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to bring light back to the Glimmering Reaches.",
+        "enemyAnswer": "Light? Your futile attempts will be consumed by the shadows.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Defeating Shadowweaver is my destiny.",
+            "enemyAnswer": "Destiny? Ha! You will become mere fodder for the darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not be swayed by your threats!",
+                "enemyAnswer": "Your foolish bravery will lead to your demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there is another way to find common ground.",
+                "enemyAnswer": "Common ground with the light's champion? Absurd!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The light will prevail against the darkness.",
+            "enemyAnswer": "Arrogant fool, the darkness is eternal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will prove you wrong with my actions.",
+                "enemyAnswer": "Actions speak louder than words, but yours will be silenced.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let us see who truly holds power in this realm.",
+                "enemyAnswer": "Power? It crumbles before the might of Shadowweaver.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The darkness will never extinguish the light.",
+            "enemyAnswer": "Naive creature, the light fades in the presence of Shadowweaver.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand as a beacon against your corruption!",
+                "enemyAnswer": "A futile gesture in the face of impending doom.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Is there any shred of light left within you?",
+                "enemyAnswer": "Light? A fleeting memory in this land of shadows.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to understand the darkness that haunts this realm.",
+        "enemyAnswer": "Understand? You are not worthy of such knowledge.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Knowledge is the key to finding a resolution.",
+            "enemyAnswer": "Resolution? There is only the darkness and your eventual demise.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not cower in the face of darkness.",
+                "enemyAnswer": "Bold words from a creature on the brink of annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps together we can uncover a path to peace.",
+                "enemyAnswer": "Peace? Such notions are foreign to the realm of Shadowweaver.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The shadows hold secrets that must be revealed.",
+            "enemyAnswer": "Secrets that will remain hidden from the likes of you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will unravel those secrets, one way or another.",
+                "enemyAnswer": "You will find only despair in the heart of darkness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let us find a way to coexist in this realm.",
+                "enemyAnswer": "Coexist? The darkness devours all in the end.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking a way to break free from this darkness.",
+        "enemyAnswer": "Break free? Your fate is sealed within these shadowed lands.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My will is stronger than the despair that surrounds me.",
+            "enemyAnswer": "Will alone cannot withstand the eternal night.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will fight until light pierces through the darkness!",
+                "enemyAnswer": "Your light will flicker and fade, consumed by the shadows.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Can we not find a glimmer of hope in this darkness?",
+                "enemyAnswer": "Hope? A fleeting dream in the face of our reality.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Together, we may find a way to escape this endless night.",
+            "enemyAnswer": "Escape? There is no escape from Shadowweaver's grasp.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will defy the darkness until my last breath.",
+                "enemyAnswer": "Your defiance will be your downfall, as it is for all.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps our combined strength can challenge the shadows.",
+                "enemyAnswer": "Strength? It means nothing in the face of oblivion.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

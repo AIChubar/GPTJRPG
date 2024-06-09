@@ -7,10 +7,12 @@ using UnityEngine.UI;
 public class BattleJournal : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI journalText;
+    [SerializeField] private TextMeshProUGUI journalHUD;
     [SerializeField] private Button journalButton;
     [SerializeField] private ScrollRect scrollRect;
-    private void Start()
+    private void Awake()
     {
+        GameManager.gameManager.battleJournal = this;
         journalText.text = "";
         gameObject.SetActive(false);
     }
@@ -18,6 +20,7 @@ public class BattleJournal : MonoBehaviour
     public void AddActionDescription(string action)
     {
         journalText.text += action + "\n";
+        journalHUD.text = journalText.text.Replace("\n\n", "\n");
     }
 
     public void OnJournalOpened()

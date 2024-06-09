@@ -1,0 +1,339 @@
+{
+  "friendlyGroup": {
+    "groupName": "Guardians of Aetheria",
+    "units": [
+      {
+        "firstAttribute": "elementals",
+        "secondAttribute": "elemental",
+        "thirdAttribute": "fire",
+        "characteristicName": "Fire Elemental Guardian",
+        "artisticName": "Blaze Sentinel",
+        "powerLevel": "moderate",
+        "unitType": "trickster"
+      },
+      {
+        "firstAttribute": "elementals",
+        "secondAttribute": "giant",
+        "thirdAttribute": "frost",
+        "characteristicName": "Frost Giant Guardian",
+        "artisticName": "Glacial Protector",
+        "powerLevel": "strong",
+        "unitType": "tank"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "paladin",
+        "characteristicName": "Paladin Angel",
+        "artisticName": "Divine Sentinel",
+        "powerLevel": "formidable",
+        "unitType": "guardian"
+      }
+    ]
+  },
+  "levelsUnits": [
+    {
+      "levelName": "Shadowed Depths",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of Despair",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Stalker Ghost",
+              "artisticName": "Wraith Whisperer",
+              "powerLevel": "mighty",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "dryad",
+              "thirdAttribute": "",
+              "characteristicName": "Dryad Spirit",
+              "artisticName": "Mystic Willow",
+              "powerLevel": "strong",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Dragon Skeleton",
+              "artisticName": "Bone Wyrm",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Phantoms",
+          "units": [
+            {
+              "firstAttribute": "spectral",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Spectral Ghost",
+              "artisticName": "Ethereal Haunt",
+              "powerLevel": "weak",
+              "unitType": "berserker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Lich Mage",
+              "artisticName": "Deathweaver",
+              "powerLevel": "formidable",
+              "unitType": "balancer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Boggart Trickster",
+              "artisticName": "Illusionist Mischief",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Terrors",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Wraith",
+              "artisticName": "Dusk Revenant",
+              "powerLevel": "mighty",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Dragon Simulacrum",
+              "artisticName": "Echo Wyrm",
+              "powerLevel": "strong",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Warrior Phantom",
+              "artisticName": "Phantom Sentinel",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frostbite Plateau",
+      "enemyGroups": [
+        {
+          "groupName": "Glacial Horde",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Rock Troll",
+              "artisticName": "Stonecrusher",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Frost Hydra",
+              "artisticName": "Icicle Serpent",
+              "powerLevel": "formidable",
+              "unitType": "guardian"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "moth_of_suppression",
+              "thirdAttribute": "",
+              "characteristicName": "Moth of Suppression",
+              "artisticName": "Frostwing Moth",
+              "powerLevel": "weak",
+              "unitType": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "drake",
+              "characteristicName": "Drake Zombie",
+              "artisticName": "Frostbitten Revenant",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Frost Wyvern",
+              "artisticName": "Blizzard Drake",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "artifficier",
+              "characteristicName": "Artifficier Shapeshifter",
+              "artisticName": "Frostweave Illusionist",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Icebound Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "freezing",
+              "characteristicName": "Freezing Wraith",
+              "artisticName": "Frostbloom Wraith",
+              "powerLevel": "mighty",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Ushabti Guardian",
+              "artisticName": "Frost Sentinel",
+              "powerLevel": "strong",
+              "unitType": "guardian"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "ancient",
+              "characteristicName": "Ancient Lich",
+              "artisticName": "Frostfall Archmage",
+              "powerLevel": "formidable",
+              "unitType": "balancer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Rusty Chain Stronghold",
+      "enemyGroups": [
+        {
+          "groupName": "Infernal Legion",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Salamander",
+              "artisticName": "Inferno Bringer",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "devil",
+              "thirdAttribute": "red",
+              "characteristicName": "Red Devil",
+              "artisticName": "Crimson Enforcer",
+              "powerLevel": "formidable",
+              "unitType": "guardian"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Imp",
+              "artisticName": "Umbral Trickster",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Horde",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Giant",
+              "artisticName": "Inferno Colossus",
+              "powerLevel": "mighty",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Pit Fiend",
+              "artisticName": "Abyssal Overlord",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "phoenix",
+              "thirdAttribute": "",
+              "characteristicName": "Phoenix Elemental",
+              "artisticName": "Ember Guardian",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Rusthorde",
+          "units": [
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "plague",
+              "characteristicName": "Plague Ooze",
+              "artisticName": "Rustborne Monstrosity",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Summoner Lich",
+              "artisticName": "Necroforge Magus",
+              "powerLevel": "formidable",
+              "unitType": "guardian"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "defender",
+              "characteristicName": "Defender Hell Knight",
+              "artisticName": "Infernal Sentinel",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

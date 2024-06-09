@@ -1,0 +1,158 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "freezing",
+      "characteristicName": "Freezing Wraith",
+      "artisticName": "Ice Specter",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 85,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Hss.. You dare to trespass into my icy domain? You should have known better than to disturb the slumber of the Ice Specter.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I had no idea this place was claimed. I meant no harm.",
+        "enemyAnswer": "Ignorance is not an excuse, mortal. My frozen touch will teach you the lesson.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize and will leave immediately.",
+            "enemyAnswer": "Your apologies fall on deaf ears. Prepare to feel the chill of my wrath.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Please spare me, I will never return.",
+                "enemyAnswer": "No mercy for the intruder. Perish in the icy embrace.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Then I shall face my fate with bravery.",
+                "enemyAnswer": "Bravery in the face of demise. Commendable. Your end is swift.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to a duel to prove my worth.",
+            "enemyAnswer": "Bold words from a mere mortal. Duel you shall, but victory is mine.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I yield, I am no match for you.",
+                "enemyAnswer": "Acknowledging your place. Retreat now before I change my mind.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will fight you with all I have.",
+                "enemyAnswer": "Stubborn till the end. An icicle through the heart shall be your reward.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek an alliance. Together, we can benefit from each other's strengths.",
+            "enemyAnswer": "An alliance with the Ice Specter? Amusing notion. What do you offer in return?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my services in tracking and eliminating intruders.",
+                "enemyAnswer": "A tempting offer. I accept your proposal. We shall walk the icy paths together.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I can provide you with enchanted artifacts to enhance your powers.",
+                "enemyAnswer": "Artifacts? Interesting. We could have a beneficial arrangement. Consider yourself accepted.",
+                "outcome": "ally"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace. I seek knowledge about the frozen realms.",
+        "enemyAnswer": "Knowledge-seeker in the icy lands. Curiosity may lead to frostbitten regrets.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave peacefully if my presence offends you.",
+            "enemyAnswer": "Offense taken or not, you shall leave colder than you entered.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. I shall depart.",
+                "enemyAnswer": "Wise decision. The Ice Specter does not entertain trespassers.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Then let us engage in a battle of wits to satisfy your curiosity.",
+                "enemyAnswer": "A battle of wits, you say? Let your intellect match the frost's bite.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer a token of peace, a precious gem that gleams in the frost.",
+            "enemyAnswer": "A tempting trinket, but can beauty thaw the frost in the Ice Specter's heart?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let this gem symbolize our peaceful coexistence.",
+                "enemyAnswer": "An intriguing gesture. Peaceful coexistence... for now.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "If the gem does not sway you, then let us settle it in a different manner.",
+                "enemyAnswer": "A challenge instead of peace? Let's see how you fare against the chilling winds.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to claim the ancient artifact hidden in these frozen lands.",
+        "enemyAnswer": "Another seeker of the lost relic. The artifact's guardianship is not for the faint of heart.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will face any challenge to prove my worth for the artifact.",
+            "enemyAnswer": "Bold ambition. The artifact defends itself. Prepare for a test of endurance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept the trial with unwavering determination.",
+                "enemyAnswer": "Unwavering determination met with unyielding frost. Let the trial begin.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I reconsider. The artifact is not worth the risk.",
+                "enemyAnswer": "Wise choice. The artifact remains hidden, buried in the icy depths.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek your guidance to access the artifact. Together, we can unlock its secrets.",
+            "enemyAnswer": "Guidance for the artifact-seeker. A unique proposition, but the secrets carry a heavy price.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am willing to pay the price, whatever it may be.",
+                "enemyAnswer": "A bold declaration. The price is your loyalty. Swear it, and the artifact opens its path.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I refuse to pledge my loyalty for a mere artifact.",
+                "enemyAnswer": "Refusal is unwise. The artifact remains beyond your grasp, forever shrouded in frost.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

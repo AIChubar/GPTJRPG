@@ -1,0 +1,505 @@
+{
+  "friendlyGroup": {
+    "groupName": "Guardians of Mystic Haven",
+    "units": [
+      
+    ]
+  },
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Woods",
+      "enemyGroups": [
+        {
+          "groupName": "Shadow Stalkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Wraith",
+              "artisticName": "Gloomshade",
+              "powerLevel": "weak",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Warrior Skeleton",
+              "artisticName": "Bonecrusher",
+              "powerLevel": "feeble",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Stalker Phantom",
+              "artisticName": "Whisperwail",
+              "powerLevel": "feeble",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Forest Haunters",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "eater",
+              "characteristicName": "Eater Ghost",
+              "artisticName": "Soulreaper",
+              "powerLevel": "weak",
+              "unitType": "sniper"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "hound",
+              "characteristicName": "Hound Zombie",
+              "artisticName": "Rotfang",
+              "powerLevel": "feeble",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "rat",
+              "characteristicName": "Rat Zombie",
+              "artisticName": "Plaguewhisker",
+              "powerLevel": "feeble",
+              "unitType": "striker"
+            }
+          ]
+        },
+        {
+          "groupName": "Whispering Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Wraith",
+              "artisticName": "Duskveil",
+              "powerLevel": "weak",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "flayed",
+              "characteristicName": "Flayed Ghost",
+              "artisticName": "Skinner",
+              "powerLevel": "feeble",
+              "unitType": "sniper"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Stalker Phantom",
+              "artisticName": "Shade",
+              "powerLevel": "feeble",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Spirits",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "eater",
+              "characteristicName": "Eater Ghost",
+              "artisticName": "Soulbane",
+              "powerLevel": "weak",
+              "unitType": "sniper"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Stalker Phantom",
+              "artisticName": "Nightshade",
+              "powerLevel": "feeble",
+              "unitType": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "priest",
+              "characteristicName": "Priest Mummy",
+              "artisticName": "Ankhet",
+              "powerLevel": "feeble",
+              "unitType": "balancer"
+            }
+          ]
+        },
+        {
+          "groupName": "Necrotic Horde",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "rat",
+              "characteristicName": "Rat Zombie",
+              "artisticName": "Verminbane",
+              "powerLevel": "feeble",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "hound",
+              "characteristicName": "Hound Zombie",
+              "artisticName": "Carrion",
+              "powerLevel": "feeble",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Warrior Skeleton",
+              "artisticName": "Bonecrusher",
+              "powerLevel": "feeble",
+              "unitType": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frozen Peaks",
+      "enemyGroups": [
+        {
+          "groupName": "Chillborn Terrors",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "golem",
+              "thirdAttribute": "flesh",
+              "characteristicName": "Flesh Golem",
+              "artisticName": "Stitchfrost",
+              "powerLevel": "moderate",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "frost",
+              "characteristicName": "Frost Giant",
+              "artisticName": "Icelord",
+              "powerLevel": "strong",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "molten",
+              "characteristicName": "Molten Gargoyle",
+              "artisticName": "Emberclaw",
+              "powerLevel": "moderate",
+              "unitType": "fortress"
+            }
+          ]
+        },
+        {
+          "groupName": "Frozen Guardians",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "frost",
+              "characteristicName": "Frost Giant",
+              "artisticName": "Glacier",
+              "powerLevel": "strong",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "golem",
+              "thirdAttribute": "iron",
+              "characteristicName": "Iron Golem",
+              "artisticName": "Ironclad",
+              "powerLevel": "strong",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Gargoyle",
+              "artisticName": "Granite",
+              "powerLevel": "moderate",
+              "unitType": "fortress"
+            }
+          ]
+        },
+        {
+          "groupName": "Icy Horrors",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "beast",
+              "thirdAttribute": "ice",
+              "characteristicName": "Ice Beast",
+              "artisticName": "Frostfang",
+              "powerLevel": "strong",
+              "unitType": "berserker"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Hydra",
+              "artisticName": "Frostbite",
+              "powerLevel": "formidable",
+              "unitType": "balancer"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Wyvern",
+              "artisticName": "Iceclaw",
+              "powerLevel": "strong",
+              "unitType": "striker"
+            }
+          ]
+        },
+        {
+          "groupName": "Frostbitten Foes",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Hydra",
+              "artisticName": "Chillmaw",
+              "powerLevel": "formidable",
+              "unitType": "balancer"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "hydra_lord",
+              "thirdAttribute": "",
+              "characteristicName": "Hydra Lord",
+              "artisticName": "Frostlord",
+              "powerLevel": "formidable",
+              "unitType": "balancer"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "juggernaut",
+              "thirdAttribute": "",
+              "characteristicName": "Juggernaut",
+              "artisticName": "Glacierbreaker",
+              "powerLevel": "formidable",
+              "unitType": "tank"
+            }
+          ]
+        },
+        {
+          "groupName": "Icy Demons",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Demon",
+              "artisticName": "Frostshade",
+              "powerLevel": "moderate",
+              "unitType": "sniper"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Imp",
+              "artisticName": "Shadowflame",
+              "powerLevel": "weak",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "defender",
+              "characteristicName": "Defender Hell Knight",
+              "artisticName": "Inferno",
+              "powerLevel": "strong",
+              "unitType": "guardian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Rusty Ruins",
+      "enemyGroups": [
+        {
+          "groupName": "Molten Guardians",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "lord",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Lord",
+              "artisticName": "Blazefury",
+              "powerLevel": "formidable",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "molten",
+              "characteristicName": "Molten Gargoyle",
+              "artisticName": "Emberstone",
+              "powerLevel": "strong",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Giant",
+              "artisticName": "Infernoguard",
+              "powerLevel": "formidable",
+              "unitType": "fortress"
+            }
+          ]
+        },
+        {
+          "groupName": "Lava Behemoths",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "giant",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Giant",
+              "artisticName": "Moltenrage",
+              "powerLevel": "formidable",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "golem",
+              "thirdAttribute": "molten",
+              "characteristicName": "Molten Golem",
+              "artisticName": "Lavasurge",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "molten",
+              "characteristicName": "Molten Gargoyle",
+              "artisticName": "Emberwing",
+              "powerLevel": "strong",
+              "unitType": "fortress"
+            }
+          ]
+        },
+        {
+          "groupName": "Infernal Horde",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Balrog",
+              "artisticName": "Inferno",
+              "powerLevel": "formidable",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "imp",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Imp",
+              "artisticName": "Flameclaw",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Salamander",
+              "artisticName": "Blazetail",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            }
+          ]
+        },
+        {
+          "groupName": "Fiery Warlords",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "lord",
+              "characteristicName": "Hell Knight Lord",
+              "artisticName": "Infernal Overlord",
+              "powerLevel": "formidable",
+              "unitType": "guardian"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "hell_sentinel",
+              "thirdAttribute": "",
+              "characteristicName": "Hell Sentinel",
+              "artisticName": "Hellfire",
+              "powerLevel": "formidable",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Salamander",
+              "artisticName": "Moltenfang",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            }
+          ]
+        },
+        {
+          "groupName": "Lava Fiends",
+          "units": [
+            {
+              "firstAttribute": "elementals",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Elemental",
+              "artisticName": "Blazestorm",
+              "powerLevel": "moderate",
+              "unitType": "balancer"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "imp",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Imp",
+              "artisticName": "Emberclaw",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Lava Worm",
+              "artisticName": "Magmaw",
+              "powerLevel": "strong",
+              "unitType": "tank"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

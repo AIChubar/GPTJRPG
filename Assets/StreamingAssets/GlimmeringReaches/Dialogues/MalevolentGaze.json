@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "evil_eye",
+      "secondAttribute": "",
+      "thirdAttribute": "",
+      "characteristicName": "Evil Eye",
+      "artisticName": "Malevolent Gaze",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 10,
+      "communicationSkills": 20,
+      "morality": 5,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare approach me, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge, not war.",
+        "enemyAnswer": "Knowledge is power, but my gaze brings doom.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no desire to fight.",
+            "enemyAnswer": "Your fear amuses me. You may leave unscathed.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I challenge you, Malevolent Gaze.",
+            "enemyAnswer": "Foolish mortal, prepare to face the consequences of your defiance.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "Your Malevolent Gaze holds no power over me.",
+        "enemyAnswer": "Bold words from a fragile being. What do you seek?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek to understand your purpose.",
+            "enemyAnswer": "My purpose is to observe and punish those who cross my path.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I offer you a deal for peace.",
+            "enemyAnswer": "Peace is a concept foreign to me, but I will hear your proposal.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come to challenge the Malevolent Gaze.",
+        "enemyAnswer": "Brave, yet foolish. What makes you think you can best me?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will use my cunning to outsmart you.",
+            "enemyAnswer": "Cunning? Let us see if your wits match your words.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I am ready to face whatever you throw at me.",
+            "enemyAnswer": "So be it. Prepare for the wrath of the Malevolent Gaze.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

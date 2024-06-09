@@ -1,0 +1,115 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "hell_sentinel",
+      "thirdAttribute": "",
+      "characteristicName": "Hell Sentinel",
+      "artisticName": "Infernal Watcher",
+      "powerLevel": "formidable",
+      "unitType": "fortress"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 20,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Filthy human, what brings you to my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace seeking knowledge.",
+        "enemyAnswer": "Knowledge is power. What knowledge do you seek, insignificant mortal?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek the secrets of the ancient ruins.",
+            "enemyAnswer": "The ruins hold dark secrets that even I dare not venture into. Stay away, or face dire consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll heed your warning and depart. Farewell.",
+                "enemyAnswer": "Flee while you still can, human. Do not return or face the wrath of the Infernal Watcher.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I fear no consequences. Prepare for a fight.",
+                "enemyAnswer": "You have sealed your fate, foolish mortal. Prepare to face the flames of hell!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to challenge your power and claim this fortress as mine.",
+            "enemyAnswer": "Bold words from a weakling. You'll find only death within these walls, human.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll admit defeat and leave peacefully.",
+                "enemyAnswer": "A wise choice. Begone, before I change my mind.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I shall prove my strength in battle.",
+                "enemyAnswer": "Arrogant fool, you'll regret crossing paths with the Infernal Watcher!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek an alliance with the demons of this realm.",
+            "enemyAnswer": "An alliance? You dare to propose such a ludicrous idea? What do you offer in return?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my loyalty and servitude.",
+                "enemyAnswer": "Your loyalty is worthless. Leave now before I lose my patience.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I offer to share valuable information and resources.",
+                "enemyAnswer": "Interesting proposition. Share your information with me, and we shall see if you are worthy of an alliance.",
+                "outcome": "ally"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have come to challenge and defeat you, demon.",
+        "enemyAnswer": "Challenge me? Your bravery is amusing, mortal. Let's see if you can back up your words.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will defeat you and claim victory.",
+            "enemyAnswer": "Overconfidence will be your downfall. Prepare to face the true power of the Infernal Watcher!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I realize my mistake. I will leave now.",
+            "enemyAnswer": "Weakness and cowardice, the traits of a human. Leave before I decide to crush you.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to understand the ways of demons and learn from you.",
+        "enemyAnswer": "Curiosity killed the cat, they say. What knowledge do you wish to gain from me, insolent human?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I wish to learn about demonology and your history.",
+            "enemyAnswer": "Knowledge of demon lore? Perhaps you are not as ignorant as you seem. Proceed with caution, mortal.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I seek to understand your powers and how to harness them.",
+            "enemyAnswer": "Power comes with a price, a price you may not be willing to pay. Proceed at your own risk.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

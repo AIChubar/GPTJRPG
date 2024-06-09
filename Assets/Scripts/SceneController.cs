@@ -73,7 +73,10 @@ public class SceneController : MonoBehaviour
         
         if (additive)
         {
+            GameManager.gameManager.inBattle = true;
             SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
+            GameManager.gameManager.hero.gameObject.SetActive(false);
+
             _map.SetActive(false);
         }
         else
@@ -81,6 +84,7 @@ public class SceneController : MonoBehaviour
             if (toUnload)
             {
                 SceneManager.UnloadSceneAsync(index);
+                
                 _map.SetActive(true);
 
             }
@@ -95,12 +99,17 @@ public class SceneController : MonoBehaviour
             fader.color = new Color(0, 0, 0, Mathf.Lerp(1, 0, t));
             yield return null;
         }
-        
+
         if (toUnload)
         {
             GameManager.gameManager.SceneUnloaded();
+            GameManager.gameManager.inBattle = false;
+            GameManager.gameManager.hero.gameObject.SetActive(true);
         }
+        if (index == 1)
+            GameManager.gameManager.SceneLoaded();
 
+        
         fader.gameObject.SetActive(false);
         if (currentSceneIndex >= 1)
             GameManager.gameManager.transitioning = false;

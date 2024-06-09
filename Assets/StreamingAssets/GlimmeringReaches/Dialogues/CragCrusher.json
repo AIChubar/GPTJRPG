@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "juggernaut",
+      "thirdAttribute": "",
+      "characteristicName": "Juggernaut",
+      "artisticName": "Crag Crusher",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 75
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am the Crag Crusher, unstoppable force of the beasts. What business do you have in these lands, weakling?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come seeking to challenge your strength. Prepare for battle, Crag Crusher!",
+        "enemyAnswer": "You dare challenge me? Ha! Your bravery will be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not back down. Let us fight!",
+            "enemyAnswer": "Foolish mortal. Face the wrath of the Crag Crusher!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand my ground and fight till the end!",
+                "enemyAnswer": "Your end is near, puny creature!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense defeat. I retreat.",
+                "enemyAnswer": "Running away like a coward? Pathetic. You will meet your fate another day.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I yield. I do not wish to fight.",
+            "enemyAnswer": "Hah! Weakling. Off with you then. Your presence disgusts me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I leave in peace.",
+                "enemyAnswer": "As you should. Be gone before my patience wears thin.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Insult me again, and I shall return stronger.",
+                "enemyAnswer": "Empty threats from a coward. Leave my sight, or I shall crush you without mercy.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us put our differences aside and join forces against a common enemy.",
+            "enemyAnswer": "Ha! You speak of alliances? I have no need for weak allies like you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek strength in unity. Together we can be formidable.",
+                "enemyAnswer": "Bah! I stand alone, mighty and invincible. Begone with your pitiful pleas.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "As you wish, I shall not disturb your solitude.",
+                "enemyAnswer": "Wise choice. Now leave before I lose my patience.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking knowledge of these lands. Will you share your wisdom, Crag Crusher?",
+        "enemyAnswer": "Wisdom? Hah! You know nothing of the true ways of the beasts. But I might entertain your curiosity for a moment.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Tell me of the beasts you command. I wish to understand their ways.",
+            "enemyAnswer": "The beasts are mighty and fierce, unlike you weaklings. There is nothing for you to understand.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I respect their power. Teach me how to be strong like them.",
+                "enemyAnswer": "Strength is not learned, it is born. You will never be like us.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I apologize for my intrusion. Farewell, Crag Crusher.",
+                "enemyAnswer": "Leave then, insignificant creature. Your presence annoys me.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek peace and harmony in these lands. Will you help me in my quest?",
+            "enemyAnswer": "Peace and harmony? Ha! Such ideals are foreign to the Crag Crusher. Leave before I lose my temper.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, I shall depart. May the beasts guide your path.",
+                "enemyAnswer": "Leave now, before my patience snaps like a twig.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your anger blinds you. I will not fight you, but I will not seek your aid either.",
+                "enemyAnswer": "Fine by me. Be gone and never return.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "As a fellow creature of magic, I offer my friendship and cooperation.",
+            "enemyAnswer": "Magic? Hah! Your feeble magic is nothing compared to the might of the Crag Crusher. Leave before I crush you like a pebble.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I meant no disrespect. I will leave you in peace.",
+                "enemyAnswer": "Good riddance. Begone, insignificant mage.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your arrogance will be your downfall. I bid you farewell.",
+                "enemyAnswer": "Arrogance? Ha! I fear nothing, especially not the likes of you. Leave now, before I lose my temper.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to understand your ways, Crag Crusher. Will you indulge my curiosity?",
+        "enemyAnswer": "Curiosity? Very well, ask your questions. But do not waste my time, weakling.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "What drives the beasts you command? Is it loyalty or fear?",
+            "enemyAnswer": "The beasts obey through sheer dominance. Fear is a language they understand well.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see. Thank you for your insight.",
+                "enemyAnswer": "Enough talking. Leave now, before I decide to make you my next meal.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your methods may bring fear, but they will not earn you respect.",
+                "enemyAnswer": "Respect? I need none from the likes of you. Be gone before I show you true fear.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Do you see yourself as the ultimate ruler of these lands, or are you merely a servant to a greater power?",
+            "enemyAnswer": "I answer to no one. The Crag Crusher is supreme, unmatched in strength and power.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your arrogance will be your downfall. I will take my leave now.",
+                "enemyAnswer": "Arrogance? I am power incarnate. Leave before I show you true strength.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "May your reign be just and bring prosperity to these lands.",
+                "enemyAnswer": "My reign? It will bring destruction to all who oppose me. Leave now, weakling.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Is there no room for compassion in your heart, Crag Crusher?",
+            "enemyAnswer": "Compassion? Bah! That is a weakness I do not possess. Leave now before I decide to crush you like the insignificant creature you are.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave you in peace, unbothered by my questions.",
+                "enemyAnswer": "About time. Be gone, before I lose my patience.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your lack of compassion will be your undoing. Farewell, Crag Crusher.",
+                "enemyAnswer": "Undoing? Ha! I fear nothing, not even your pitiful attempts. Now leave before I decide to end you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

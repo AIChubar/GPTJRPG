@@ -1,0 +1,77 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "balrug",
+      "thirdAttribute": "",
+      "characteristicName": "Balrug",
+      "artisticName": "Infernal Behemoth",
+      "powerLevel": "mighty",
+      "unitType": "savage"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 15,
+      "chaoticity": 85
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare trespass into my domain, puny mortal. What brings you before the mighty Infernal Behemoth?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about the ancient artifact that lies in the depths of this realm.",
+        "enemyAnswer": "Knowledge, you say? Mortals and their insatiable thirst for power. What makes you think I would share such secrets with you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer to form an alliance. Together, we can protect this realm from external threats.",
+            "enemyAnswer": "An alliance, you propose? Hah! I have no need for fragile alliances. Begone, before I decide to crush you in an instant.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I understand your concerns. I will leave peacefully and not disturb your domain any further.",
+            "enemyAnswer": "Wise choice, mortal. Leave and do not return if you wish to breathe another day.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking a challenge. Prove your strength in combat against me.",
+        "enemyAnswer": "A challenger, you think yourself worthy? Very well, prepare to face the wrath of the Infernal Behemoth!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not back down. Let the battle begin!",
+            "enemyAnswer": "Brave words, but foolish. You shall fall like so many before you.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I sense a hidden power within you. Let us join forces and unleash devastation together.",
+            "enemyAnswer": "An intriguing offer, but I walk the path of solitude. Prepare to face your end!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I bring a gift as a token of goodwill. Accept it, and may our encounter be peaceful.",
+        "enemyAnswer": "A gift? How quaint. Mortals and their feeble attempts to buy favor. Very well, show me this gift.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "It is a rare artifact that I believe will interest you. Take it as a symbol of goodwill.",
+            "enemyAnswer": "Interesting... You may leave, for now. This gift has intrigued me, but do not think it buys you permanent safety.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I see you have no interest. I will leave it here as a sign of respect and take my leave.",
+            "enemyAnswer": "Respect? A foreign concept to me. Leave your token and depart, mortal. You are lucky I do not crush you where you stand.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

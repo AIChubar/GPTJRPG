@@ -1,0 +1,440 @@
+{
+  "friendlyGroup": {
+    "groupName": "Defenders of the Light",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "paladin",
+        "characteristicName": "Angel Paladin",
+        "artisticName": "Seraphim Guardian",
+        "powerLevel": "formidable",
+        "unitType": "guardian"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "titan",
+        "thirdAttribute": "fighter",
+        "characteristicName": "Titan Fighter",
+        "artisticName": "Colossus of Light",
+        "powerLevel": "mighty",
+        "unitType": "fighter"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "dragon_holy",
+        "thirdAttribute": "",
+        "characteristicName": "Holy Dragon",
+        "artisticName": "Lumina the Radiant",
+        "powerLevel": "legendary",
+        "unitType": "striker"
+      }
+    ]
+  },
+  "levelsUnits": [
+    {
+      "levelName": "Shattered Highlands",
+      "enemyGroups": [
+        {
+          "groupName": "Broken Behemoths",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "juggernaut",
+              "thirdAttribute": "",
+              "characteristicName": "Juggernaut",
+              "artisticName": "Crag Crusher",
+              "powerLevel": "mighty",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Rock Troll",
+              "artisticName": "Boulder Basher",
+              "powerLevel": "strong",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Lindwurm",
+              "artisticName": "Serpent of Shards",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            }
+          ]
+        },
+        {
+          "groupName": "Fractured Foes",
+          "units": [
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "formicid",
+              "thirdAttribute": "",
+              "characteristicName": "Formicid",
+              "artisticName": "Antlion Ambusher",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "formicid_venom_mage",
+              "thirdAttribute": "",
+              "characteristicName": "Formicid Venom Mage",
+              "artisticName": "Toxic Weaver",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "beasts",
+              "secondAttribute": "moth_of_suppression",
+              "thirdAttribute": "",
+              "characteristicName": "Moth of Suppression",
+              "artisticName": "Silence Wing",
+              "powerLevel": "feeble",
+              "unitType": "fortress"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Aberrations",
+          "units": [
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "tentacle",
+              "characteristicName": "Tentacle Ooze",
+              "artisticName": "Slithering Sludge",
+              "powerLevel": "weak",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "spectral",
+              "characteristicName": "Spectral Ooze",
+              "artisticName": "Phantom Gel",
+              "powerLevel": "feeble",
+              "unitType": "fortress"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "evil_eye",
+              "thirdAttribute": "",
+              "characteristicName": "Evil Eye",
+              "artisticName": "Gaze of Dread",
+              "powerLevel": "moderate",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Shattered Guardians",
+          "units": [
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "orb_guardian",
+              "thirdAttribute": "",
+              "characteristicName": "Orb Guardian",
+              "artisticName": "Sentinel Sphere",
+              "powerLevel": "strong",
+              "unitType": "guardian"
+            },
+            {
+              "firstAttribute": "abominations",
+              "secondAttribute": "pulsating_lump",
+              "thirdAttribute": "",
+              "characteristicName": "Pulsating Lump",
+              "artisticName": "Heart of Corruption",
+              "powerLevel": "moderate",
+              "unitType": "savage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Crimson Wasteland",
+      "enemyGroups": [
+        {
+          "groupName": "Fiery Fiends",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Balrug",
+              "artisticName": "Infernal Behemoth",
+              "powerLevel": "mighty",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Lava Worm",
+              "artisticName": "Molten Serpent",
+              "powerLevel": "moderate",
+              "unitType": "trickster"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "hell_sentinel",
+              "thirdAttribute": "",
+              "characteristicName": "Hell Sentinel",
+              "artisticName": "Guardian of Flames",
+              "powerLevel": "strong",
+              "unitType": "guardian"
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Marauders",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "imp",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Imp",
+              "artisticName": "Flame Dancer",
+              "powerLevel": "feeble",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Salamander Stormcaller",
+              "artisticName": "Tempest Bringer",
+              "powerLevel": "moderate",
+              "unitType": "striker"
+            }
+          ]
+        },
+        {
+          "groupName": "Infernal Invaders",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "devil",
+              "thirdAttribute": "red",
+              "characteristicName": "Red Devil",
+              "artisticName": "Crimson Tormentor",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "lord",
+              "characteristicName": "Hell Knight Lord",
+              "artisticName": "Abyssal Commander",
+              "powerLevel": "mighty",
+              "unitType": "tank"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Imp",
+              "artisticName": "Gloom Trickster",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Scorching Savages",
+          "units": [
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Pit Fiend",
+              "artisticName": "Hellfire Beast",
+              "powerLevel": "strong",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "demons",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Salamander Fighter",
+              "artisticName": "Ember Warrior",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "lord",
+              "characteristicName": "Lich Lord",
+              "artisticName": "Necrotic Overlord",
+              "powerLevel": "formidable",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Skeleton Warrior",
+              "artisticName": "Bone Knight",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Wraith",
+              "artisticName": "Spectral Reaper",
+              "powerLevel": "strong",
+              "unitType": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Dreadful Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Phantom Stalker",
+              "artisticName": "Haunting Shade",
+              "powerLevel": "weak",
+              "unitType": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Revenant",
+              "artisticName": "Vengeful Spirit",
+              "powerLevel": "strong",
+              "unitType": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wight",
+              "thirdAttribute": "king",
+              "characteristicName": "Wight King",
+              "artisticName": "Death Monarch",
+              "powerLevel": "formidable",
+              "unitType": "guardian"
+            }
+          ]
+        },
+        {
+          "groupName": "Corrupted Souls",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "eater",
+              "characteristicName": "Ghost Eater",
+              "artisticName": "Devourer of Spirits",
+              "powerLevel": "moderate",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "necrophage",
+              "thirdAttribute": "",
+              "characteristicName": "Necrophage",
+              "artisticName": "Rotting Devourer",
+              "powerLevel": "feeble",
+              "unitType": "savage"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "treant",
+              "characteristicName": "Treant Zombie",
+              "artisticName": "Lumbering Horror",
+              "powerLevel": "weak",
+              "unitType": "tank"
+            }
+          ]
+        },
+        {
+          "groupName": "Nightmare Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Wraith King",
+              "artisticName": "Shadow Emperor",
+              "powerLevel": "formidable",
+              "unitType": "striker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Mummy Guardian",
+              "artisticName": "Ancient Protector",
+              "powerLevel": "strong",
+              "unitType": "guardian"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Phantom Warrior",
+              "artisticName": "Ethereal Knight",
+              "powerLevel": "moderate",
+              "unitType": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mainVillain": {
+    "groupName": "Shadowweaver's Legion",
+    "units": [
+      {
+        "firstAttribute": "demons",
+        "secondAttribute": "demon",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Shadow Demon",
+        "artisticName": "Shadowweaver",
+        "powerLevel": "legendary",
+        "unitType": "striker"
+      },
+      {
+        "firstAttribute": "demons",
+        "secondAttribute": "hell_knight",
+        "thirdAttribute": "defender",
+        "characteristicName": "Hell Knight Defender",
+        "artisticName": "Infernal Guardian",
+        "powerLevel": "strong",
+        "unitType": "guardian"
+      },
+      {
+        "firstAttribute": "demons",
+        "secondAttribute": "imp",
+        "thirdAttribute": "torturer",
+        "characteristicName": "Torturer Imp",
+        "artisticName": "Agony Bringer",
+        "powerLevel": "moderate",
+        "unitType": "trickster"
+      }
+    ]
+  }
+}

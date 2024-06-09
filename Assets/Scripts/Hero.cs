@@ -32,6 +32,11 @@ public class Hero : MonoBehaviour
     
     private PlayerInput playerInput;
 
+    [HideInInspector] public int amuletOfHealing = 0;
+    
+    [HideInInspector] public int amuletOfAlliance = 0;
+    
+
     private void Awake()
     {
         playerInput = new PlayerInput();
@@ -72,7 +77,7 @@ public class Hero : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (GameManager.gameManager == null || !GameManager.gameManager.transitioning || playerInput is null)
+        if (GameManager.gameManager is not null && !GameManager.gameManager.transitioning && playerInput is not null)
         {
             var movement = playerInput.Player.Move.ReadValue<Vector2>();
             rb.MovePosition(rb.position + movement * (movementSpeed * Time.fixedDeltaTime));

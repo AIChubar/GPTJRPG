@@ -18,12 +18,22 @@ public class GameEvents : MonoBehaviour
     }
 
     public event Action<Unit> OnUnitKilled;
+    
+    public event Action<JSONReader.UnitJSON> OnUnitUnited;
     public event Action<Unit> OnUnitHPChanged;
     public void UnitKilled(Unit unit)
     {
         if (OnUnitKilled != null)
         {
             OnUnitKilled(unit);
+        }
+    }
+    
+    public void UnitUnited(JSONReader.UnitJSON unit)
+    {
+        if (OnUnitUnited != null)
+        {
+            OnUnitUnited(unit);
         }
     }
 

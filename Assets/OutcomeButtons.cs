@@ -33,6 +33,10 @@ public class OutcomeButtons : MonoBehaviour
 
     public void OnClickedRecruit()
     {
-        OnClickedIgnore();
+        GameManager.gameManager.pauseMenu.ShowRecruitSystemMenu(_dialogueHUD.group);
+        foreach (var unitData in _dialogueHUD.group.units)
+        {
+            GameEvents.gameEvents.UnitUnited(unitData);
+        }
     }
 }

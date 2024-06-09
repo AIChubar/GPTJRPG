@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "formicid",
+      "thirdAttribute": "",
+      "characteristicName": "Formicid",
+      "artisticName": "Antlion Ambusher",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to enter our territory, insignificant creature.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am not here to cause trouble, just passing by.",
+        "enemyAnswer": "Your presence alone disrupts our peace. What do you seek?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm, I'll leave peacefully.",
+            "enemyAnswer": "Good, for that would be wise. Do not return.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I seek information about the surrounding area.",
+            "enemyAnswer": "Information is power. What will you offer in exchange?",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge your authority in this place.",
+        "enemyAnswer": "Ha! A challenger? Bold words for a mere wanderer.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I'm ready to prove my strength in combat.",
+            "enemyAnswer": "So be it, prepare to face the consequences of your arrogance!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I apologize, I spoke out of turn. I will leave.",
+            "enemyAnswer": "Apologies won't save you now. Face your fate.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking a possible alliance.",
+        "enemyAnswer": "An alliance with such a feeble being? What do you offer in return?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my assistance in protecting your territory.",
+            "enemyAnswer": "Protection from one like you is hardly needed. Leave now.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I offer valuable resources and knowledge from beyond.",
+            "enemyAnswer": "Resources can be acquired elsewhere. I have no need for you.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}
