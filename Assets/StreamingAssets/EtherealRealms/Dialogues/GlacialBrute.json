@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beasts",
+      "secondAttribute": "beast",
+      "thirdAttribute": "ice",
+      "characteristicName": "Ice Beast",
+      "artisticName": "Glacial Brute",
+      "powerLevel": "weak"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 70,
+      "indifference": 30,
+      "flexibility": 40,
+      "communicationSkills": 25,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach me, insignificant human?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am not here to cause trouble.",
+        "enemyAnswer": "Trouble or not, you will face the consequences of trespassing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize, I'll leave immediately.",
+            "enemyAnswer": "Apologies won't save you from the wrath of the Ice Beasts. Prepare for battle!",
+            "playerCharacterAnswers": [],
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I won't back down without a fight!",
+            "enemyAnswer": "Bold words for a fragile creature. Your bravery will lead you to a painful defeat.",
+            "playerCharacterAnswers": [],
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to understand your kind and coexist peacefully.",
+        "enemyAnswer": "Coexist? Ice Beasts do not entertain such notions. Your ignorance will be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I respect your territory, I will leave immediately.",
+            "enemyAnswer": "Your respect is meaningless, but your departure is the only wise choice you've made.",
+            "playerCharacterAnswers": [],
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will prove that understanding can bridge our differences.",
+            "enemyAnswer": "Foolish human, your attempts at understanding will only lead to your demise.",
+            "playerCharacterAnswers": [],
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge your strength and claim victory.",
+        "enemyAnswer": "Bold words from a mere mortal. Prepare to face the icy wrath of the Glacial Brute!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not cower in fear! Ready your best.",
+            "enemyAnswer": "A brave one indeed. Let us see if your actions match your words.",
+            "playerCharacterAnswers": [],
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Perhaps a challenge is not the answer. I'll leave peacefully.",
+            "enemyAnswer": "Wise choice. Your departure is the only way to avoid the inevitable defeat.",
+            "playerCharacterAnswers": [],
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

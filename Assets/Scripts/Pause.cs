@@ -11,7 +11,7 @@ public class Pause : MonoBehaviour
     [Header("UI Elements")]
     [SerializeField] private GameObject pauseCanvas;
     
-    [SerializeField] public GameObject questMenu;
+    [SerializeField] public QuestMenu questMenu;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject groupInfoMenu;
     [SerializeField] private RecruitSystem recruitSystemMenu;
@@ -58,7 +58,7 @@ public class Pause : MonoBehaviour
         pauseMenu.SetActive(_currentState == UIState.ESCPAUSE);
         gameMessageMenu.gameObject.SetActive(_currentState == UIState.GAMEMESSAGE);
         groupInfoMenu.SetActive(_currentState == UIState.GROUPINFO);
-        questMenu.SetActive(_currentState == UIState.QUESTMENU);
+        questMenu.gameObject.SetActive(_currentState == UIState.QUESTMENU);
 
     }
 
@@ -88,6 +88,7 @@ public class Pause : MonoBehaviour
     }
     public void ResumeGame()
     {
+        questMenu.UpdateQuestHUD();
         _currentState = UIState.UNPAUSED;
         UpdateUI();
     }

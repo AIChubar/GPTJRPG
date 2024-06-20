@@ -14,7 +14,7 @@ public class SceneController : MonoBehaviour
     
     private static SceneController instance;
 
-    private GameObject _map;
+    
 
     private int currentSceneIndex = 0;
 
@@ -41,8 +41,7 @@ public class SceneController : MonoBehaviour
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if(scene.buildIndex == 1)
-            _map = GameObject.FindWithTag("Map");
+        
     }
     void OnDisable()
     {
@@ -73,27 +72,29 @@ public class SceneController : MonoBehaviour
         
         if (additive)
         {
-            GameManager.gameManager.inBattle = true;
-            SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
-            GameManager.gameManager.hero.gameObject.SetActive(false);
+            GameManager.gameManager.SceneAdditive();
 
-            _map.SetActive(false);
+            SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
+
         }
         else
         {
             if (toUnload)
             {
                 SceneManager.UnloadSceneAsync(index);
+                GameManager.gameManager.SceneUnloaded();
                 
-                _map.SetActive(true);
-
             }
             else
+            {
                 SceneManager.LoadSceneAsync(index);
+                
+            }
         }
         
         yield return new WaitForSeconds(waitTime);
-
+        if (index == 1)
+            GameManager.gameManager.SceneLoaded();
         for (float t = 0; t < 1; t += Time.deltaTime / openingDuration)
         {
             fader.color = new Color(0, 0, 0, Mathf.Lerp(1, 0, t));
@@ -102,13 +103,12 @@ public class SceneController : MonoBehaviour
 
         if (toUnload)
         {
-            GameManager.gameManager.SceneUnloaded();
-            GameManager.gameManager.inBattle = false;
-            GameManager.gameManager.hero.gameObject.SetActive(true);
+            GameManager.gameManager.SceneFinishedUnloading();
+            
         }
         if (index == 1)
-            GameManager.gameManager.SceneLoaded();
-
+            GameManager.gameManager.SceneFinishedLoading();
+       
         
         fader.gameObject.SetActive(false);
         if (currentSceneIndex >= 1)

@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Enchanted Grove",
+      "questList": [
+        {
+          "questName": "Purge the Grove Stalkers",
+          "questDescription": "The Shadow King has corrupted the Grove Stalkers, turning them into a menace for the forest's denizens. Clear the Enchanted Grove of this twisted group to restore peace.",
+          "questType": "kill",
+          "questObjective": "Gnarled Bane",
+          "questReward": "amulet of alliance"
+        },
+        {
+          "questName": "Alliance with the Mystic Entanglers",
+          "questDescription": "The Mystic Entanglers know the secrets of the forest and could be valuable allies. Convince them to join your cause against the Shadow King.",
+          "questType": "unite",
+          "questObjective": "Pipertune",
+          "questReward": "amulet of healing"
+        },
+        {
+          "questName": "Cleanse the Lurking Terrors",
+          "questDescription": "Abominations have emerged from the shadows, threatening the balance of the Enchanted Grove. Eliminate them to lift the gloom they have cast over the land.",
+          "questType": "kill or unite",
+          "questObjective": "Vinegore",
+          "questReward": "pass to the next level"
+        }
+      ]
+    },
+    {
+      "levelName": "Crystal Peaks",
+      "questList": [
+        {
+          "questName": "Defeat the Frostbound Horde",
+          "questDescription": "The Frostbound Horde guards the secrets of the Crystal Peaks. Their icy grip must be broken to advance further in your quest.",
+          "questType": "kill",
+          "questObjective": "Glacier King",
+          "questReward": "amulet of alliance"
+        },
+        {
+          "questName": "Unite with the Mountain Sentinels",
+          "questDescription": "The Mountain Sentinels are formidable defenders of the peaks. Convince them to aid you in your battle against the Shadow King's forces.",
+          "questType": "unite",
+          "questObjective": "Boulderfist",
+          "questReward": "amulet of healing"
+        },
+        {
+          "questName": "Subdue the Icy Predators",
+          "questDescription": "The Icy Predators threaten to encase the Crystal Peaks in eternal frost. Overcome them to restore the warmth and safety of the land.",
+          "questType": "kill or unite",
+          "questObjective": "Frostfang",
+          "questReward": "pass to the next level"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Abyss",
+      "questList": [
+        {
+          "questName": "Banish the Infernal Guardians",
+          "questDescription": "The Infernal Guardians stand as the first line of defense for the Shadow King. Their defeat will weaken his hold on the Shadowed Abyss.",
+          "questType": "kill",
+          "questObjective": "Inferno",
+          "questReward": "amulet of alliance"
+        },
+        {
+          "questName": "Disrupt the Dark Summoners",
+          "questDescription": "The Dark Summoners channel dark energies to empower the Shadow King. Stopping them will disrupt his plans and bring you closer to victory.",
+          "questType": "kill or unite",
+          "questObjective": "Bonecaller",
+          "questReward": "amulet of healing"
+        },
+        {
+          "questName": "Final Confrontation with the Shadow King",
+          "questDescription": "The fate of Mystic Lands rests on this final battle. Defeat the Shadow King to bring light back to the realm and end his reign of darkness.",
+          "questType": "kill",
+          "questObjective": "Shadow King",
+          "questReward": "win"
+        }
+      ]
+    }
+  ]
+}

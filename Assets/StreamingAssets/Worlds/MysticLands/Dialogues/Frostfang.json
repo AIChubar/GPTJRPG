@@ -1,0 +1,137 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "draconids",
+      "secondAttribute": "dragon",
+      "thirdAttribute": "ice",
+      "characteristicName": "Ice Dragon",
+      "artisticName": "Frostfang",
+      "powerLevel": "formidable",
+      "unitType": "striker"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 15,
+      "communicationSkills": 30,
+      "morality": 20,
+      "chaoticity": 20
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Frostfang, the mighty Ice Dragon. What business do you have here, puny creature?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking no trouble.",
+        "enemyAnswer": "Peace? Hah! Your kind always brings destruction wherever you go.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I assure you, I mean no harm. Let's talk this out.",
+            "enemyAnswer": "Talking? Words mean nothing to me. Only power and domination speak to a dragon.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand your power, and I respect it. Let's find a way to coexist.",
+                "enemyAnswer": "Coexist? You are truly foolish. The weak are meant to be crushed by the strong.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see there's no reasoning with you. I will leave you in peace.",
+                "enemyAnswer": "Leaving so soon? A wise choice, for crossing me would be your demise.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "You may see me as weak, but I am not your enemy. Let's find common ground.",
+            "enemyAnswer": "Weakness is weakness, no matter how you phrase it. I have no use for the feeble.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my assistance in exchange for safe passage through your territory.",
+                "enemyAnswer": "Assistance? I have no need for help. Your proposal is futile.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will leave, but know that I am not your enemy.",
+                "enemyAnswer": "Your departure is wise. Do not return, or you will face my wrath.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I understand your strength and dominance. Let's find a way to coexist peacefully.",
+            "enemyAnswer": "Peaceful coexistence? Dragons do not coexist with lesser creatures. Know your place.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept my place and will respect your territory. No harm shall come from me.",
+                "enemyAnswer": "Respect? Your kind knows nothing of respect. Leave before I change my mind.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I see that our ways do not align. I will peacefully leave.",
+                "enemyAnswer": "A wise decision. Your departure is all that I require.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to be belittled by a dragon. Show some respect.",
+        "enemyAnswer": "Respect? Respect is earned, not demanded. What makes you think you deserve it?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I demand respect as an equal being. Treat me as such.",
+            "enemyAnswer": "Equal? You are far from equal. Do not test my patience, little creature.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not stand for your arrogance. Prepare for a challenge!",
+                "enemyAnswer": "A challenge? Your bravery is amusing. Let's see if your courage matches your words.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your arrogance blinds you. I will leave you to your ignorance.",
+                "enemyAnswer": "Leaving so soon? Your cowardice knows no bounds.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I see there is no reasoning with you. I will leave you to your arrogance.",
+            "enemyAnswer": "Leaving? As expected. Weaklings like you are no match for a true dragon.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will take my leave. Your arrogance will be your downfall one day.",
+                "enemyAnswer": "My downfall? Your words are empty threats. Leave now, or face the consequences.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I have no time for your arrogance. Goodbye, Frostfang.",
+                "enemyAnswer": "Goodbye, indeed. I have no interest in further interaction with the likes of you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I expected more from a legendary dragon. Your arrogance disappoints me.",
+            "enemyAnswer": "Disappointment? Your words hold no weight. Legends do not concern themselves with lesser beings.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Enough of your arrogance. Let us end this conversation here.",
+                "enemyAnswer": "Ending it is wise. Your existence is inconsequential to me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will leave you to your arrogance, Frostfang.",
+                "enemyAnswer": "Leave, and do not return. Your presence is of no value to me.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

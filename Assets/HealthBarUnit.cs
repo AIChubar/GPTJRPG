@@ -43,7 +43,7 @@ public class HealthBarUnit : MonoBehaviour
     {
         Image[] children = GetComponentsInChildren<Image>();
 
-        for (float t = 0; t < 1; t += Time.deltaTime / unit.deathTime)
+        for (float t = 0; t < 1; t += Time.deltaTime / 0.1f)
         {
             foreach(Image child in children) {
                 var newColor = child.color;

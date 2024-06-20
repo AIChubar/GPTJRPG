@@ -39,6 +39,8 @@ public class GameManager : MonoBehaviour
     public Hero hero;
 
     public Pause pauseMenu;
+    
+    public GameObject map;
 
     public SpriteAtlas atlasUnit;
     
@@ -50,8 +52,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Material defaultMaterial;
 
     [HideInInspector] public GameObject villain = null;
-    
-    public GameObject healthBarPrefab;
+
     public static GameManager gameManager  { get; private set; }
     private void Awake()
     {
@@ -69,23 +70,31 @@ public class GameManager : MonoBehaviour
     // After fight menuы
     public void SceneUnloaded()
     {
+        map.SetActive(true);
+        inBattle = false;
+        hero.gameObject.SetActive(true);
+        gameManager.pauseMenu.questMenu.questHUD.SetActive(true);
+        gameManager.pauseMenu.questMenu.UpdateQuestHUD();
 
+        
+    }
+    
+    public void SceneFinishedUnloading()
+    {
         if (battleResult == BattleSystem.BattleState.LOST)
         {
-            //GameObject.FindGameObjectWithTag("LevelDoor").GetComponent<DoorScript>().OpenDoor();
             pauseMenu.ShowGameMessageMenu(true, world.narrativeData.gameOverMessage);
         }
         else if (battleResult == BattleSystem.BattleState.WIN)
         {
-            //GameObject.FindGameObjectWithTag("LevelDoor").GetComponent<DoorScript>().OpenDoor();
             if (gameData.isBossFight)
                 pauseMenu.ShowGameMessageMenu(true, world.narrativeData.defeatEndingMessage);
             if (levelIndex == 2 && villain is not null && !villain.Equals(null))
                 villain.SetActive(true);
-
         }
+        
     }
-
+    
     public void SceneLoaded()
     {
         if (hero == null || hero.Equals(null))
@@ -97,10 +106,24 @@ public class GameManager : MonoBehaviour
         {
             pauseMenu.questMenu.GetComponent<QuestMenu>().SetQuests();
         }
+        
+    }
+    
+    public void SceneFinishedLoading()
+    {
         if (levelIndex == 0)
         {
             pauseMenu.ShowGameMessageMenu(false, world.narrativeData.greetingGameMessage);
         }
+    }
+
+    public void SceneAdditive()
+    {
+        inBattle = true;
+
+        map.SetActive(false);
+        hero.gameObject.SetActive(false);
+        gameManager.pauseMenu.questMenu.questHUD.SetActive(false);
     }
 
     public Sprite GetSpriteUnit(JSONReader.UnitJSON unit)

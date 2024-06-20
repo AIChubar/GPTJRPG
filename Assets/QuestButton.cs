@@ -14,10 +14,8 @@ public class QuestButton : MonoBehaviour
 
     [HideInInspector] public JSONReader.QuestJSON quest;
     
-    [HideInInspector]
     public bool completed = false;
     
-    [HideInInspector]
     public bool failed = false;
     // Start is called before the first frame update
     void Start()

@@ -1,0 +1,135 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "humanoid",
+      "secondAttribute": "hill_giant",
+      "thirdAttribute": "fighter",
+      "characteristicName": "Hill Giant Fighter",
+      "artisticName": "Boulderfist",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 92,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 60,
+      "indifference": 20,
+      "flexibility": 15,
+      "communicationSkills": 40,
+      "morality": 5,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Puny creature, what brings you to my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking knowledge about this land.",
+        "enemyAnswer": "Peace? Knowledge? You insult me with your presence. What could you possibly understand about our ways?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Apologies, I meant no disrespect. I only wish to learn and perhaps earn your favor.",
+            "enemyAnswer": "Earn my favor? You amuse me, little one. Very well, answer me this: why should I not crush you where you stand?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my strength and loyalty to aid you in your battles.",
+                "enemyAnswer": "Strength and loyalty, you say? Perhaps there is use for you after all. Prove your worth, and maybe I will consider sparing you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will leave your domain at once if that's what you wish.",
+                "enemyAnswer": "Hmph, a coward's choice. Go and be thankful for my mercy.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I stand by my intentions, I will leave if my presence is unwanted.",
+            "enemyAnswer": "You have some backbone after all. Very well, leave and bother me no more.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "You don't scare me, I'll challenge you to combat if that's what you desire.",
+            "enemyAnswer": "Ah, a bold one. Let's see if your actions match your words.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek power and recognition, willing to prove myself to earn your respect.",
+        "enemyAnswer": "Respect? You are not of our kind, and respect is earned through blood and strength. What can you offer?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my services as a skilled fighter to aid you in your endeavors.",
+            "enemyAnswer": "A fighter, eh? We shall see if your skill matches your words. Step forward and show me.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I can offer valuable information about your enemies and their weaknesses.",
+            "enemyAnswer": "Information is power, they say. Speak then, and make it worth my while.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will share my knowledge willingly if you promise me safe passage.",
+                "enemyAnswer": "Safe passage? You have no right to make demands. However, I will consider your offer.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I refuse to share anything unless you agree to a mutual beneficial agreement.",
+                "enemyAnswer": "Bold words from one who stands before me as prey. Consider your next move carefully.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I possess a rare artifact that could be of interest to you, let's make a deal.",
+            "enemyAnswer": "An artifact, you say? I do enjoy rare treasures. Let me see this item you speak of.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer you my artifact in exchange for your favor and protection.",
+                "enemyAnswer": "A bold offer. Show me this artifact first, and we shall see if it's worth such a price.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I'm not showing it until you agree. It's a sign of trust and mutual respect.",
+                "enemyAnswer": "Trust and respect are earned, not given freely. You are treading on thin ice, stranger.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no time for games, state your purpose or face the consequences.",
+        "enemyAnswer": "Impatient and demanding, are we? Very well, let us cut to the chase. What is it that you seek?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek your allegiance in my quest for power and dominance.",
+            "enemyAnswer": "Allegiance? To you? You overstep your bounds, little one. Convince me why I should even listen to you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My power matches yours, together we can rule over all who stand in our way.",
+                "enemyAnswer": "Bold words, but power alone does not guarantee loyalty. Prove that you are worth following.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "We can benefit from each other's strengths, forming an alliance will ensure mutual prosperity.",
+                "enemyAnswer": "Mutual prosperity, you say? An intriguing proposal. Show me what you bring to the table.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I came to challenge you, prepare for our battle.",
+            "enemyAnswer": "Ah, a challenger! I admire your spirit. Let's see if you can back up your words with actions.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I realize my presence here is unwelcome. I shall leave peacefully.",
+            "enemyAnswer": "A wise choice, outsider. Leave before you outstay your welcome.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -156,7 +156,7 @@ public class DialogueHUD : MonoBehaviour
         }
         //qwewqeeq
         //Delete later
-        _outcome = Outcome.RECRUIT;
+        //_outcome = Outcome.RECRUIT;
         //qwewqewq
         //qweewwqeqw
         if (GameManager.gameManager.gameData.isBossFight)

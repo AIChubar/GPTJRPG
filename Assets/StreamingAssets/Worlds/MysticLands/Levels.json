@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Enchanted Grove",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Welcome to the Enchanted Grove, a lush forest filled with mystical energies. The dark-grass under your feet whispers ancient secrets, while the shimmering waters present a serene challenge to your journey."
+    },
+    {
+      "levelName": "Crystal Peaks",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Ascend the Crystal Peaks, where snow blankets the towering mountains in a dazzling display. Be wary of the deep dark holes that threaten to swallow the unwary traveler as you navigate this icy terrain."
+    },
+    {
+      "levelName": "Shadowed Abyss",
+      "walkableTerrain": "grey-brick-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Descend into the depths of the Shadowed Abyss, where the ground trembles with the heat of molten lava. The grey brick platforms offer a precarious path as you face the malevolent presence of the Shadow King, the dark lord of Mystic Lands."
+    }
+  ]
+}

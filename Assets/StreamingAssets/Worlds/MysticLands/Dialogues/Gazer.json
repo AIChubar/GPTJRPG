@@ -1,0 +1,137 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "evil_eye",
+      "thirdAttribute": "",
+      "characteristicName": "Evil Eye",
+      "artisticName": "Gazer",
+      "powerLevel": "feeble",
+      "unitType": "trickster"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 5,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare approach me, foolish mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I'm not afraid of you, Evil Eye!",
+        "enemyAnswer": "Bold words from one who does not understand the depths of fear.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek no quarrel, I just wish to pass.",
+            "enemyAnswer": "Your cowardice sickens me. Begone!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave, but mark my words, our paths will cross again.",
+                "enemyAnswer": "I have marked your fate - you will meet your doom.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "As you wish, I shall depart peacefully.",
+                "enemyAnswer": "Do not return, lest you tempt the wrath of the Evil Eye.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you, Evil Eye! Face me in combat!",
+            "enemyAnswer": "Ah, a brave fool. Let's see how long you last.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no evil, prepare to be vanquished!",
+                "enemyAnswer": "You will regret your arrogance, mortal.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I...I take it back, I didn't mean to challenge you.",
+                "enemyAnswer": "Too late for regrets now. Face your punishment.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer you a truce, Evil Eye. Let us not be enemies.",
+            "enemyAnswer": "A truce? How amusing. You have no power here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I meant no disrespect. I will go my way in peace.",
+                "enemyAnswer": "Your words mean nothing. Leave before I change my mind.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Very well, if you desire conflict, I shall give it.",
+                "enemyAnswer": "Conflict is all you will find in these lands. Prepare for battle.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, Evil Eye. I seek understanding, not confrontation.",
+        "enemyAnswer": "Peace? Understanding? You do not belong here, naive wanderer.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I only wish to learn from you. Will you share your wisdom with me?",
+            "enemyAnswer": "Wisdom is wasted on feeble minds like yours.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will seek wisdom elsewhere then. Farewell, Evil Eye.",
+                "enemyAnswer": "Farewell, ignorant one. May your ignorance be your downfall.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to leave empty-handed. Prepare for a lesson in respect.",
+                "enemyAnswer": "Respect? You will learn fear instead.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I understand your suspicion. I will leave peacefully.",
+            "enemyAnswer": "Suspicion? No, it is certainty. Leave before you face consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will heed your warning and depart.",
+                "enemyAnswer": "Heed it well, for the consequences will be dire if you return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Consequences don't scare me. Let them come.",
+                "enemyAnswer": "Bravery in ignorance. A fatal flaw. Prepare for the inevitable.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I'm sorry to have disturbed you. I will take my leave now.",
+        "enemyAnswer": "Apologies cannot undo what has been done. You have awoken a wrath you cannot comprehend.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand. I will leave and trouble you no more.",
+            "enemyAnswer": "Troublesome fool. Your departure is wise.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I refuse to be threatened. Face me if you dare!",
+            "enemyAnswer": "Dare? You know not the meaning of the word. Prepare for your punishment.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

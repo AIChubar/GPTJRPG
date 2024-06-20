@@ -1,0 +1,143 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "elementals",
+      "secondAttribute": "giant",
+      "thirdAttribute": "frost",
+      "characteristicName": "Frost Giant",
+      "artisticName": "Icecrusher",
+      "powerLevel": "mighty",
+      "unitType": "savage"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 20,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Icecrusher, the Frost Giant. What business do you have in these lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Explain you come in peace and seek knowledge.",
+        "enemyAnswer": "Peace? Peace is a notion foreign to our icy home. What knowledge do you seek, puny creature?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Offer to share tales from warmer lands.",
+            "enemyAnswer": "Tales? Hah! I care not for your feeble stories, they hold no value here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Apologize and leave the giant to its solitude.",
+                "enemyAnswer": "Leave and never return, for your presence here is meaningless to me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Challenge the giant to a test of strength.",
+                "enemyAnswer": "You dare challenge me? Very well, let us see if you can withstand my icy wrath!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Propose an exchange of mystical knowledge.",
+            "enemyAnswer": "Mystical knowledge, you say? Your offer intrigues me. What do you have to offer in return?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Offer to reveal ancient enchantments.",
+                "enemyAnswer": "Enchantments are of no use to me. Your words are as empty as your promises. Begone!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Suggest a pact to join forces against common enemies.",
+                "enemyAnswer": "A pact? Ha! You overestimate your worth. I have no need for an alliance with the likes of you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Boast about your bravery and challenge the giant to a duel.",
+        "enemyAnswer": "Bravery, you say? A bold move, little one. Let's see if your actions match your words.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Display a magical artifact to impress the giant.",
+            "enemyAnswer": "Ah, a trinket of power. Not enough to sway me, but I admire your audacity.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Offer the artifact as a token of respect.",
+                "enemyAnswer": "Respect? A feeble gift won't earn my respect. Leave before I crush you like the insignificant being you are.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Invoke the ancient oath of warriors to prove your sincerity.",
+                "enemyAnswer": "An oath? Your words hold no weight here. Begone before I decide to end you.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Attempt to intimidate the giant with tales of your past victories.",
+            "enemyAnswer": "Victories? Insignificant tales to a Frost Giant. Your boasting does not impress me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Apologize for the offense and offer to leave peacefully.",
+                "enemyAnswer": "Your apology means nothing to me. Leave before I lose my patience with you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Insist on proving your worth through a physical challenge.",
+                "enemyAnswer": "Very well, prove your worth in combat. Let's see if you are worthy of facing a Frost Giant.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Show humility and ask for guidance in the land of frost.",
+        "enemyAnswer": "Guidance? You seek guidance from a Frost Giant? Your weakness sickens me. What do you wish to know?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Express gratitude and share a token of appreciation.",
+            "enemyAnswer": "Your gratitude means nothing to me. Do not waste my time with your feeble offerings.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Beg for the giant's mercy and promise to leave immediately.",
+                "enemyAnswer": "Mercy is a concept unknown to me. Leave now, or suffer the consequences of your foolishness.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Plead for a chance to prove your worth through a task set by the giant.",
+                "enemyAnswer": "Prove your worth? A futile attempt. Complete the task, or face the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Offer a gift of rare herbs and minerals from distant lands.",
+            "enemyAnswer": "Herbs and minerals? Worthless offerings to a Frost Giant. Your attempt at bribery is futile.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Plead for the giant's wisdom and promise to return with a more valuable gift.",
+                "enemyAnswer": "Wisdom is not a gift to be bartered. Your promises hold no sway over me. Leave my presence.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Invoke the spirits of the land to show your sincerity in seeking knowledge.",
+                "enemyAnswer": "Spirits? Your words are as hollow as the wind. Leave before I grow weary of your presence.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

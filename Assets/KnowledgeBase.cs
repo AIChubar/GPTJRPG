@@ -57,6 +57,7 @@ public class KnowledgeBase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         playerInput = new PlayerInput();
         playerInput.Player.KB.performed += ToggleKB;
         var hero = GameManager.gameManager.hero;
@@ -80,7 +81,8 @@ public class KnowledgeBase : MonoBehaviour
         
         level3Name.text += levels[2].levelName;
         level3Description.text = levels[2].levelDescription;
-
+        _currentState = KBState.UNPAUSED;
+        UpdateUI();
     }
     
     private void OnEnable()
@@ -97,12 +99,12 @@ public class KnowledgeBase : MonoBehaviour
     private void UpdateUI()
     {
         Time.timeScale = _currentState == KBState.UNPAUSED ? 1f : 0f;
-        buttonMenu.SetActive(_currentState != KBState.UNPAUSED);
+        buttonMenu.SetActive(_currentState == KBState.BUTTONMENU);
         worldMenu.SetActive(_currentState == KBState.WORLD);
         heroInfoMenu.gameObject.SetActive(_currentState == KBState.HEROINFO);
         classesMenu.SetActive(_currentState == KBState.CLASSES);
         gameInfoMenu.gameObject.SetActive(_currentState == KBState.GAMEINFO);
-
+        
 
     }
     

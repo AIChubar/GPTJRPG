@@ -1,15 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GroupInfoHUD : SwappingInterface
 {
     [SerializeField] private UnitHUD[] unitHUDs;
+
+    [SerializeField] private Button healButton;
     
+     private TextMeshProUGUI _healButtonTMP;
+     
+     [SerializeField] private TextMeshProUGUI healingCounter;
+     [SerializeField] private TextMeshProUGUI allianceCounter;
     // Start is called before the first frame update
     private void Start()
     {
         base.Start();
+        _healButtonTMP = healButton.GetComponentInChildren<TextMeshProUGUI>();
         UpdateHUD();
     }
 
@@ -24,6 +33,19 @@ public class GroupInfoHUD : SwappingInterface
             unitHUDs[i].SetHUD(_hero.allyGroup.units[i]);
         }
 
+        healingCounter.text = _hero.amuletOfHealing.ToString();
+        allianceCounter.text = _hero.amuletOfAlliance.ToString();
+        if (_hero.amuletOfHealing > 0)
+        {
+            healButton.interactable = true;
+            _healButtonTMP.color = new Color(1, 1, 1, 1f);
+
+        }
+        else
+        {
+            healButton.interactable = false;
+            _healButtonTMP.color = new Color(1, 1, 1, 0.4f);
+        }
         for (int i = _hero.allyGroup.units.Count; i < unitHUDs.Length; i++)
         {
             unitHUDs[i].SetHUD(null);
@@ -46,6 +68,18 @@ public class GroupInfoHUD : SwappingInterface
         }
 
     }
-    
-    
+
+    public void OnHealButtonClicked()
+    {
+        if (GameManager.gameManager.hero.amuletOfHealing > 0)
+        {
+            foreach (var unit in GameManager.gameManager.hero.allyGroup.units)
+            {
+                unit.currentHP = unit.maxHP;
+                GameManager.gameManager.hero.amuletOfHealing--;
+            } 
+        }
+            
+        UpdateHUD();
+    }
 }

@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "demons",
+      "secondAttribute": "hell_knight",
+      "thirdAttribute": "defender",
+      "characteristicName": "Hell Knight Defender",
+      "artisticName": "Inferno",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 97,
+      "friendliness": 3,
+      "intellect": 40,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 5,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Inferno, the Hell Knight Defender. What brings a feeble creature like you to my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek a challenge. Face me if you dare!",
+        "enemyAnswer": "Bold words, little one. Prepare to face the flames of Hell!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You talk big for someone surrounded by flames.",
+            "enemyAnswer": "Insolent fool! Taste my wrath!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I won't back down!",
+                "enemyAnswer": "You will regret your defiance! Prepare for annihilation!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I apologize for my words.",
+                "enemyAnswer": "Apologies won't save you now!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense great power within you. Let us join forces.",
+            "enemyAnswer": "Join forces? You amuse me. I have no need for weakling allies.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. Farewell.",
+                "enemyAnswer": "Farewell, insignificant mortal.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "My offer still stands. Think wisely.",
+                "enemyAnswer": "Enough! Your words irritate me. Face your doom!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I didn't come here to fight. I'll leave you in peace.",
+            "enemyAnswer": "Peace? Hah! You will leave this realm in ashes!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I won't stay where I'm not welcome.",
+                "enemyAnswer": "You cannot escape the inevitable. Prepare to be crushed!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I apologize for disturbing you. I'll go now.",
+                "enemyAnswer": "Your apologies mean nothing! Face the consequences of your intrusion!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace? In the depths of Hell? How amusing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek no quarrel with you. Let us part ways peacefully.",
+            "enemyAnswer": "Part ways? Very well, insignificant being. Leave my sight!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I respect your power. Farewell.",
+                "enemyAnswer": "Respect alone won't save you from destruction. Begone!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You may not see now, but threats often bring destruction.",
+                "enemyAnswer": "Threats from the likes of you amuse me. Begone before I unleash Hell!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us coexist peacefully. There's no need for hostility.",
+            "enemyAnswer": "Coexist? Ha! Your naivety knows no bounds.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see your decision. Farewell.",
+                "enemyAnswer": "Wise choice, insignificant one. Your presence annoys me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If peace is not an option, then prepare for battle.",
+                "enemyAnswer": "Battle it is! Your choice seals your fate. Face the consequences!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I didn't mean to disturb you. I will leave now.",
+        "enemyAnswer": "Disturbance or not, you will face the repercussions of your presence.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no intention of causing trouble. I'll go now.",
+            "enemyAnswer": "Intentions matter not. Punishment will be swift and merciless.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I apologize for any inconvenience. I'll depart immediately.",
+            "enemyAnswer": "Apologies won't save you from what's to come. Prepare for your fate.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

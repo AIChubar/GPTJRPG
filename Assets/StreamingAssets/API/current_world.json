@@ -1,67 +1,67 @@
 {
-  "worldName": "EtherealRealms",
+  "worldName": "MysticLands",
   "enemiesMain": [
-    {
-      "firstAttribute": "undead",
-      "secondAttribute": "skeleton",
-      "thirdAttribute": "warrior",
-      "characteristicName": "Warrior Skeleton",
-      "artisticName": "Bone Rattler",
-      "powerLevel": "feeble",
-      "unitType": "fighter"
-    },
-    {
-      "firstAttribute": "abominations",
-      "secondAttribute": "ooze",
-      "thirdAttribute": "plant",
-      "characteristicName": "Plant Ooze",
-      "artisticName": "Verdant Slime",
-      "powerLevel": "weak",
-      "unitType": "guardian"
-    },
     {
       "firstAttribute": "beasts",
       "secondAttribute": "troll",
       "thirdAttribute": "forest",
       "characteristicName": "Forest Troll",
-      "artisticName": "Woodland Menace",
+      "artisticName": "Gnarled Bane",
       "powerLevel": "moderate",
-      "unitType": "savage"
+      "unitType": "tank"
     },
     {
-      "firstAttribute": "abominations",
-      "secondAttribute": "ooze",
-      "thirdAttribute": "death",
-      "characteristicName": "Death Ooze",
-      "artisticName": "Necrotic Slime",
+      "firstAttribute": "relict",
+      "secondAttribute": "dryad",
+      "thirdAttribute": "",
+      "characteristicName": "Dryad",
+      "artisticName": "Thornwhisper",
       "powerLevel": "weak",
       "unitType": "guardian"
     },
     {
-      "firstAttribute": "beasts",
-      "secondAttribute": "hydra",
+      "firstAttribute": "abominations",
+      "secondAttribute": "evil_eye",
       "thirdAttribute": "",
-      "characteristicName": "Hydra",
-      "artisticName": "Frost Hydra",
-      "powerLevel": "strong",
+      "characteristicName": "Evil Eye",
+      "artisticName": "Gazer",
+      "powerLevel": "feeble",
+      "unitType": "trickster"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "wight",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Wight Stalker",
+      "artisticName": "Shade",
+      "powerLevel": "moderate",
+      "unitType": "striker"
+    },
+    {
+      "firstAttribute": "elementals",
+      "secondAttribute": "giant",
+      "thirdAttribute": "frost",
+      "characteristicName": "Frost Giant",
+      "artisticName": "Icecrusher",
+      "powerLevel": "mighty",
       "unitType": "savage"
     },
     {
-      "firstAttribute": "horde",
+      "firstAttribute": "humanoid",
       "secondAttribute": "hill_giant",
       "thirdAttribute": "fighter",
-      "characteristicName": "Fighter Hill Giant",
-      "artisticName": "Frost Giant",
+      "characteristicName": "Hill Giant Fighter",
+      "artisticName": "Boulderfist",
       "powerLevel": "strong",
       "unitType": "fighter"
     },
     {
-      "firstAttribute": "beasts",
-      "secondAttribute": "beast",
+      "firstAttribute": "draconids",
+      "secondAttribute": "dragon",
       "thirdAttribute": "ice",
-      "characteristicName": "Ice Beast",
-      "artisticName": "Glacial Brute",
-      "powerLevel": "weak",
+      "characteristicName": "Ice Dragon",
+      "artisticName": "Frostfang",
+      "powerLevel": "formidable",
       "unitType": "striker"
     },
     {
@@ -69,45 +69,45 @@
       "secondAttribute": "wraith",
       "thirdAttribute": "freezing",
       "characteristicName": "Freezing Wraith",
-      "artisticName": "Ice Specter",
-      "powerLevel": "strong",
+      "artisticName": "Chillshade",
+      "powerLevel": "moderate",
       "unitType": "striker"
     },
     {
       "firstAttribute": "demons",
-      "secondAttribute": "balrug",
-      "thirdAttribute": "",
-      "characteristicName": "Balrug",
-      "artisticName": "Inferno Behemoth",
+      "secondAttribute": "hell_knight",
+      "thirdAttribute": "defender",
+      "characteristicName": "Hell Knight Defender",
+      "artisticName": "Inferno",
+      "powerLevel": "formidable",
+      "unitType": "guardian"
+    },
+    {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "void",
+      "characteristicName": "Void Ooze",
+      "artisticName": "Abyssgloom",
+      "powerLevel": "mighty",
+      "unitType": "tank"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "necromancer",
+      "characteristicName": "Lich Necromancer",
+      "artisticName": "Bonecaller",
+      "powerLevel": "mighty",
+      "unitType": "guardian"
+    },
+    {
+      "firstAttribute": "demons",
+      "secondAttribute": "demon",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Demon",
+      "artisticName": "Darkwraith",
       "powerLevel": "formidable",
       "unitType": "fighter"
-    },
-    {
-      "firstAttribute": "demons",
-      "secondAttribute": "salamander",
-      "thirdAttribute": "stormcaller",
-      "characteristicName": "Stormcaller Salamander",
-      "artisticName": "Tempest Lizard",
-      "powerLevel": "strong",
-      "unitType": "striker"
-    },
-    {
-      "firstAttribute": "demons",
-      "secondAttribute": "hell_sentinel",
-      "thirdAttribute": "",
-      "characteristicName": "Hell Sentinel",
-      "artisticName": "Infernal Watcher",
-      "powerLevel": "formidable",
-      "unitType": "fortress"
-    },
-    {
-      "firstAttribute": "demons",
-      "secondAttribute": "salamander",
-      "thirdAttribute": "firebrand",
-      "characteristicName": "Firebrand Salamander",
-      "artisticName": "Blazing Serpent",
-      "powerLevel": "strong",
-      "unitType": "striker"
     }
   ]
 }

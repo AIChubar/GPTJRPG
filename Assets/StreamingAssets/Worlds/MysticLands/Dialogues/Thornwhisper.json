@@ -1,0 +1,127 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "relict",
+      "secondAttribute": "dryad",
+      "thirdAttribute": "",
+      "characteristicName": "Dryad",
+      "artisticName": "Thornwhisper",
+      "powerLevel": "weak",
+      "unitType": "guardian"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 2,
+      "intellect": 40,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I see a fragile creature wandering into my sacred forest. What business do you have here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I mean no harm, I am simply passing through.",
+        "enemyAnswer": "Trespassers are not welcome here, but if you promise to leave, I may not harm you.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I promise to leave immediately. Please spare me.",
+            "enemyAnswer": "Very well. Leave now, and you won't face the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave at once. Thank you for sparing me.",
+                "enemyAnswer": "Be gone from my sight, and trouble my forest no more.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to leave. You don't scare me.",
+                "enemyAnswer": "Stubborn fool! Since you won't heed my warning, prepare to face the consequences!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I cannot promise that. This forest intrigues me.",
+            "enemyAnswer": "Curiosity killed the cat, they say. Your fascination may lead you to your demise.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I must explore further. I won't be scared off.",
+                "enemyAnswer": "So be it. You have sealed your fate by defying my warning.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I understand the risk. I will tread carefully.",
+                "enemyAnswer": "Wise choice. But one wrong step and you may find yourself in grave danger.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am on a quest seeking the ancient wisdom of the forest.",
+        "enemyAnswer": "Ancient wisdom? Few are worthy of such knowledge. Who are you to seek it?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I humbly seek guidance to help my people in dire times.",
+            "enemyAnswer": "Dire times call for dire deeds. You may prove your worth, but be wary of the price.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept the risks. Please guide me to the wisdom I seek.",
+                "enemyAnswer": "Very well. Follow the path and heed the warnings, lest you meet a fate you cannot escape.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I cannot afford any more risks. I will retreat for now.",
+                "enemyAnswer": "Weakness is a luxury you may not afford in these woods. Flee now, or face the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not disclose my intentions to a mere guardian.",
+            "enemyAnswer": "Ah, secrecy. It either shields a noble cause or a nefarious scheme. Which is it for you?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My cause is noble, but I cannot reveal it to you.",
+                "enemyAnswer": "Then your noble cause will either earn you respect or condemnation.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "It's best you don't know. I will be on my way.",
+                "enemyAnswer": "As you wish. Your secrets may keep you safe or lead you to ruin. Choose wisely.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the protector of this forest.",
+        "enemyAnswer": "Bold words from a mere wanderer. Do you truly think you stand a chance?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am prepared to face any challenge. Let us test our strengths.",
+            "enemyAnswer": "Very well. If you seek combat, then prepare for a battle you may come to regret.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am not backing down. Let's settle this here and now.",
+                "enemyAnswer": "Foolish bravery. You will soon realize the price of challenging a guardian of the woods.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I reconsider. I will leave in peace without confrontation.",
+                "enemyAnswer": "Wisdom prevails over foolishness. Leave this place and trouble it no more.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

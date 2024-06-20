@@ -1,0 +1,152 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abominations",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "void",
+      "characteristicName": "Void Ooze",
+      "artisticName": "Abyssgloom",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 15,
+      "strategicThinking": 20,
+      "indifference": 10,
+      "flexibility": 25,
+      "communicationSkills": 20,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach the Abyssgloom. What do you seek?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I mean no harm.",
+        "enemyAnswer": "Peace? Weakling! Do you think I believe your empty words?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand your suspicion. Let me prove my intentions by aiding you.",
+            "enemyAnswer": "Aiding me? Ha! I have no need for the likes of you. Begone, fool!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, I will leave you to your solitude.",
+                "enemyAnswer": "Good riddance! Do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You may regret rejecting my offer. Farewell, Abyssgloom.",
+                "enemyAnswer": "Regret? I fear nothing. Leave my sight now.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "You may not trust me now, but perhaps in time, you will see my sincerity.",
+            "enemyAnswer": "Time? Trust? Such futile concepts coming from a feeble being like yourself.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, I will take my leave. May the void consume you.",
+                "enemyAnswer": "May the void consume us all, farewell.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will depart, but remember my words. The Abyssgloom may need allies yet.",
+                "enemyAnswer": "Allies? I stand alone and proud. Return when you have something of value to offer.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "No need for hostility. I shall leave you in peace.",
+            "enemyAnswer": "Peace? Do not presume what I desire. Leave before my patience wears thin.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "As you wish, Abyssgloom. I shall trouble you no longer.",
+                "enemyAnswer": "Trouble me not, for it shall not end well for you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I take my leave, but know that not all who approach seek conflict.",
+                "enemyAnswer": "Conflict or not, I care not for your intentions. Depart while you still can.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek power and knowledge. Will you share your secrets with me?",
+        "enemyAnswer": "Secrets? Knowledge is not freely given. What makes you think you are worthy?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I possess skills that could benefit you. A partnership could be advantageous.",
+            "enemyAnswer": "Benefit me? Your arrogance knows no bounds. Depart before I show you true power.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave. Your loss if you reject my offer.",
+                "enemyAnswer": "My loss? I think not. Be gone, insignificant worm.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your loss. Farewell, Abyssgloom.",
+                "enemyAnswer": "Farewell, insignificant creature. May the void claim you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I understand your caution. I will leave you be for now.",
+            "enemyAnswer": "Caution? You dare lecture me on caution? Insolence!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I meant no disrespect. I will take my leave.",
+                "enemyAnswer": "Disrespect or not, you test my patience. Begone, fool.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Very well, I shall depart. May your knowledge remain with you, Abyssgloom.",
+                "enemyAnswer": "Knowledge is power, remember that in your feeble existence.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek knowledge, but if you refuse, I will leave without further disturbance.",
+            "enemyAnswer": "Knowledge is earned, not demanded. Your departure is of little consequence.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then I shall earn my knowledge elsewhere. Farewell.",
+                "enemyAnswer": "Seek elsewhere and trouble me no more.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I depart, but remember my request. Knowledge may become a rare commodity.",
+                "enemyAnswer": "Rare or not, your words hold no sway here. Leave.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I do not seek conflict. I will leave you to the darkness.",
+        "enemyAnswer": "Conflict? Ah, a wise choice. Darkness welcomes you. Leave before it devours you.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I heed your warning. I shall leave in peace.",
+            "enemyAnswer": "Wise indeed. Depart before the darkness claims you.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I understand the darkness. Farewell, Abyssgloom.",
+            "enemyAnswer": "Farewell, insignificant being. May the void swallow you whole.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}
