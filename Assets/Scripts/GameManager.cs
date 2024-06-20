@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
@@ -53,6 +54,19 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector] public GameObject villain = null;
 
+
+    public Dictionary<Unit.UnitType, UnitClass> classesDescriptions = new()
+    {
+        [Unit.UnitType.fighter] = new UnitClass("Fighter", "Attacks back when being attacked by the enemy", "Cooldown: passive ability"),
+        [Unit.UnitType.striker] = new UnitClass("Striker", "Stuns enemy unit for 1 turn", "Cooldown: 1 turn"),
+        [Unit.UnitType.guardian] = new UnitClass("Guardian", "Heals all ally units for 15% of their max health", "Cooldown: 4 turn"),
+        [Unit.UnitType.tank] = new UnitClass("Tank", "Taunts all enemy units for 1 turn", "Cooldown: 3 turn"),
+        [Unit.UnitType.fortress] = new UnitClass("Fortress", "Activates armour up for all ally units for 2 turns", "Cooldown: 3 turn"),
+        [Unit.UnitType.balancer] = new UnitClass("Balancer", "Heals ally unit for 20% of their max health", "Cooldown: 1 turn"),
+        [Unit.UnitType.trickster] = new UnitClass("Trickster", "Makes enemy unit attack another enemy unit the next turn", "Cooldown: 4 turn"),
+        [Unit.UnitType.berserker] = new UnitClass("Berserker", "Attacks all enemy units, also hurting oneself", "Cooldown: 3 turn"),
+        [Unit.UnitType.sniper] = new UnitClass("Sniper", "Attacks enemy unit ignoring their armour", "Cooldown: 1 turn"),
+        [Unit.UnitType.savage] = new UnitClass("Savage", "All ally units have 50% to avoid damage for 1 round", "Cooldown: 4 turn") };
     public static GameManager gameManager  { get; private set; }
     private void Awake()
     {

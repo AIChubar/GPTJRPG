@@ -154,3 +154,17 @@ public class KnowledgeBase : MonoBehaviour
         
     }
 }
+[Serializable]
+public class UnitClass
+{
+    public string className;
+    public string abilityDescription;
+    public string abilityCooldown;
+
+    public UnitClass(string n, string d, string c)
+    {
+        className = n;
+        abilityDescription = d;
+        abilityCooldown = c;
+    }
+}

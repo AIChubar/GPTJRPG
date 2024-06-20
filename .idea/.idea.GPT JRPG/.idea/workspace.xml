@@ -8,60 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPT JRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPT JRPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.changes" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.changes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.wktree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HealthBarUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HealthBarUnit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/KnowledgeBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KnowledgeBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OutcomeButtons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OutcomeButtons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DialogueHUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DialogueHUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/QuestButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/QuestButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuestButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuestMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueHUD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GroupInfoHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GroupInfoHUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_quests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/api_request_quests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/API/current_world.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/API/current_world.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/BlazingSerpent.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/BlazingSerpent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/BlazingSerpent.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/BlazingSerpent.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/BoneRattler.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/BoneRattler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/BoneRattler.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/BoneRattler.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/FrostGiant.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/FrostGiant.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/FrostGiant.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/FrostGiant.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/FrostHydra.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/FrostHydra.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/FrostHydra.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/FrostHydra.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/GlacialBrute.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/GlacialBrute.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/GlacialBrute.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/GlacialBrute.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/IceSpecter.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/IceSpecter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/IceSpecter.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/IceSpecter.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/InfernalWatcher.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/InfernalWatcher.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/InfernalWatcher.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/InfernalWatcher.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/InfernoBehemoth.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/InfernoBehemoth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/InfernoBehemoth.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/InfernoBehemoth.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/Malum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/Malum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/Malum.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/Malum.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/NecroticSlime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/NecroticSlime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/NecroticSlime.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/NecroticSlime.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/TempestLizard.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/TempestLizard.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/TempestLizard.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/TempestLizard.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/VerdantSlime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/VerdantSlime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/VerdantSlime.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/VerdantSlime.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/WoodlandMenace.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/WoodlandMenace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Dialogues/WoodlandMenace.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Dialogues/WoodlandMenace.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Levels.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Levels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Levels.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Levels.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/MainCharacter.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/MainCharacter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/MainCharacter.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/MainCharacter.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Narrative.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Narrative.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/Narrative.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/Narrative.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/QuestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/QuestData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/QuestData.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/QuestData.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/UnitData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/UnitData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/EtherealRealms/UnitData.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/EtherealRealms/UnitData.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Worlds/GlimmeringReaches.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitHUD.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,10 +159,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="24824">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="24824" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -251,7 +203,7 @@
       <workItem from="1717745919069" duration="975000" />
       <workItem from="1717771323474" duration="5693000" />
       <workItem from="1717802246052" duration="74218000" />
-      <workItem from="1718851911966" duration="310000" />
+      <workItem from="1718851920510" duration="9814000" />
     </task>
     <servers />
   </component>

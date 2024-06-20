@@ -13,8 +13,6 @@ public class UnitHUD : MonoBehaviour
 
     public Image unitImage;
     
-    private int _maxHp; 
-
     public JSONReader.UnitJSON _currentUnitData = null;
 
     public void SetHUD(JSONReader.UnitJSON ud, Sprite sprite = null)
@@ -52,14 +50,11 @@ public class UnitHUD : MonoBehaviour
         }
         artisticNameText.text = _currentUnitData.artisticName;
         characteristicNameText.text = _currentUnitData.characteristicName + ", " + _currentUnitData.powerLevel + " " + _currentUnitData.unitType;
-        _maxHp = _currentUnitData.maxHP;
+        int maxHp = _currentUnitData.maxHP;
         damageText.text = "Damage: " + _currentUnitData.damage + "   " + "Armour: " + _currentUnitData.armour;
-        hpText.text ="HP: " + _currentUnitData.currentHP + " / " + _maxHp;
+        hpText.text ="HP: " + _currentUnitData.currentHP + " / " + maxHp;
     }
 
-    public void SetHP(int hp)
-    {
-        hpText.text = hp + " / " + _maxHp;
-    }
+ 
     
 }

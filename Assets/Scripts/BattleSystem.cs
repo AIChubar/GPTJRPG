@@ -40,7 +40,7 @@ public class BattleSystem : MonoBehaviour
     private GameObject _currentEnemy;
     
     [SerializeField]
-    private UnitHUD infoHUD;
+    private InfoHUD infoHUD;
 
     private int roundIndex = 1;
 
@@ -100,10 +100,10 @@ public class BattleSystem : MonoBehaviour
 
     private void GameEvents_OnUnitHPChanged(Unit unit)
     {
-        if (unit.unitData.currentHP <= 0)
+        /*if (unit.unitData.currentHP <= 0)
             infoHUD.SetHUD(null);
         else
-            infoHUD.UpdateHUD();
+            infoHUD.UpdateHUD();*/
     }
     
     private void GameEvents_OnUnitKilled(Unit unit)
@@ -319,7 +319,6 @@ public class BattleSystem : MonoBehaviour
             abilityIndications.Add(abilityIndication);
         }
         yield return new WaitForSeconds(0.2f);
-        infoHUD.UpdateHUD();
 
         for (float t = 0; t < 1; t += Time.deltaTime / 0.5f)
         {
@@ -490,7 +489,12 @@ public class BattleSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            if( Input.GetMouseButtonDown(1)){
+            if( !GameManager.gameManager.transitioning){
+                PointerEventData eventData = new PointerEventData(EventSystem.current);
+                eventData.position =  Input.mousePosition;
+                List<RaycastResult> uiRaycastResults = new List<RaycastResult>();
+                EventSystem.current.RaycastAll( eventData, uiRaycastResults );
+                
                 Ray ray = _camera.ScreenPointToRay( Input.mousePosition );
                 RaycastHit2D[] hits = Physics2D.GetRayIntersectionAll( ray );
                 bool gotTarget = false;  
@@ -504,7 +508,24 @@ public class BattleSystem : MonoBehaviour
                         break;  
                     }
                 }
-                if( !gotTarget ) infoHUD.SetHUD(null);  
+                if (!gotTarget)
+                    foreach (var result in uiRaycastResults)
+                    {
+                        if (result.gameObject.transform.gameObject.TryGetComponent(out ObjectForInfoHUD obj))
+                        {
+                            if (obj.abilityButton)
+                            {
+                                var currentClass = GameManager.gameManager.classesDescriptions[_currentAlly.GetComponent<Unit>().unitType];
+                                obj.headerRow = currentClass.className;
+                                obj.firstRow = currentClass.abilityDescription;
+                                obj.secondRow = currentClass.abilityCooldown;
+                            }
+                            infoHUD.SetHUD(obj);  
+                            gotTarget = true;  
+                            break;  
+                        }
+                    }
+                if( !gotTarget ) infoHUD.ResetHUD();  
             }
             if (_actionState == ActionState.ATTACK)
             {
