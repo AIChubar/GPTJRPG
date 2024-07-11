@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "skeleton",
+      "thirdAttribute": "hydra",
+      "characteristicName": "Hydrabone Revenant",
+      "artisticName": "Skeletal Hydrafiend",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 25,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 90
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am the Skeletal Hydrafiend, a ruthless undead creature of great power. What trifling mortal dares to stand before me?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am Eldryn Stormcaller, the Arcane Protector. I seek not conflict, but balance.",
+        "enemyAnswer": "Balance, you say? Mortals and their foolish desires for harmony. Your words hold no sway over the darkness.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer you knowledge of ancient magic, a power greater than mere strength.",
+            "enemyAnswer": "Knowledge? Magic? Mortal, you amuse me. Your desperation is palpable, a weakling's attempt to sway the inevitable.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, if you seek conflict, let it be. Face my arcane wrath!",
+                "enemyAnswer": "Foolish mortal, your 'wrath' is but a spark in the darkness. Prepare for your demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see your fate is sealed. I shall leave you to your eternity of emptiness.",
+                "enemyAnswer": "As you scurry away, remember this moment of cowardice. You are nothing but fleeting dust to us.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us join forces against a common enemy. Together, we can vanquish the true darkness.",
+            "enemyAnswer": "Alliances are for the weak, for the fearful. I stand alone, my power unmatched. Your offer is a futile dream.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then let our blades clash, and the stronger shall prevail.",
+                "enemyAnswer": "Bravado from a meager half-elf. Your end approaches, a mere footnote in the annals of destruction.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "So be it, creature. Our paths diverge. May fate be kinder to you than your own nature.",
+                "enemyAnswer": "A parting of ways, a wise choice for one so insignificant. Remember this moment, for it may be your last.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "You may be powerful, but even darkness can be swayed by light. Will you not reconsider your path?",
+            "enemyAnswer": "Light, darkness, futile concepts in the vast tapestry of existence. You prattle on, yet your words fall on deaf ears.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If you choose the path of oblivion, then let us dance the dance of combat.",
+                "enemyAnswer": "Dance we shall, mortal. A macabre waltz of destruction painted in the blood of the fallen.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I shall leave you to your shadows, for my light shines brighter in the dark.",
+                "enemyAnswer": "Your light is but a flicker, extinguished by the abyss. Begone, insignificant spark.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Eldryn Stormcaller, Arcane Protector. I do not fear you, for true strength lies in restraint.",
+        "enemyAnswer": "Restraint, a feeble shield against the tide of darkness. Your bravado is but a mask for your own vulnerability.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My power lies not in aggression, but in understanding. I offer you a chance for peace.",
+            "enemyAnswer": "Peace? In this world of turmoil and chaos, your offer is but a fleeting illusion. Prepare for the storm.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "So be it, if conflict is your desire, then conflict you shall have!",
+                "enemyAnswer": "Conflict we seek, conflict we shall have. Your end draws near, mortal.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now that reason cannot sway you. I bid you farewell, Skeletal Hydrafiend.",
+                "enemyAnswer": "Farewell, brave wordsmith. May the darkness embrace you in its cold embrace.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us test our strengths, for in battle, truth is revealed. Will you face me in honorable combat?",
+            "enemyAnswer": "Honorable? Mortals and their quaint notions. Prepare to face the true nature of darkness, fool.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept your challenge. Let our clash resonate through the realms!",
+                "enemyAnswer": "Resonate it shall, with the echoes of your defeat reverberating for eternity.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense the futility of this discourse. Farewell, skeletal creature.",
+                "enemyAnswer": "Futility indeed, as you scurry away like a frightened child. Remember this moment of weakness.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "In the face of darkness, unity can be found. Will you join me in a pact of understanding?",
+            "enemyAnswer": "Unity, a fleeting dream in the vast expanse of existence. Your words ring hollow, Arcane Protector.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If you seek conflict, then prepare to face the full extent of my power!",
+                "enemyAnswer": "Conflict it shall be, mortal. The darkness hungers for your essence.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see that our paths diverge. May your fate be as dark as your nature, Skeletal Hydrafiend.",
+                "enemyAnswer": "Diverge they shall, with the shadows consuming all in their eternal embrace. Farewell, fleeting soul.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am Eldryn Stormcaller, the wielder of light against the encroaching shadows. Will you heed the call of balance?",
+        "enemyAnswer": "Light, shadow, balance. Your words are mere echoes in the abyss. What do you hope to achieve by speaking to me?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer you a path of redemption, a chance to break free from the shackles of darkness.",
+            "enemyAnswer": "Redemption, a fairy tale spun by mortals to soothe their own fears. Your offer is weak, like you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If redemption is not in your path, then let us settle this with steel and magic!",
+                "enemyAnswer": "Settle it we shall, with your steel shattering and your magic waning in the face of true power.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now that our words are but echoes in the void. I leave you to your shadows, Skeletal Hydrafiend.",
+                "enemyAnswer": "Echoes in the void, yes. Echoes of your own insignificance. Begone, before I grow tired of this charade.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us find harmony in our differences, for strength lies in unity. Will you not consider the path of cooperation?",
+            "enemyAnswer": "Harmony, unity, pitiful mortal concepts. Your naive notions will not save you from the darkness within.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then let us meet in battle, where the clash of our powers shall reveal the truth.",
+                "enemyAnswer": "Truth revealed, a futile endeavor in the face of oblivion. Prepare for your end, foolish one.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense the futility of this discourse. Farewell, Skeletal Hydrafiend.",
+                "enemyAnswer": "Futility indeed, as you skulk away like a scared rodent. Remember this moment of cowardice.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "In the tapestry of existence, even the darkest threads have their purpose. Will you see the value in our interaction?",
+            "enemyAnswer": "Purpose, value, meaningless babble in the grand design of existence. Your words fall on deaf ears, fool.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If our interaction leads to conflict, so be it. Let the dance of battle begin!",
+                "enemyAnswer": "The dance begins, mortal, but it is the macabre waltz of death that you shall partake in.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now that our paths are not meant to cross. Farewell, Skeletal Hydrafiend.",
+                "enemyAnswer": "Paths diverge, as they must. Your fleeting existence matters not in the grand scheme of darkness.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

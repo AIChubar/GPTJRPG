@@ -1,0 +1,147 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "spectral",
+      "thirdAttribute": "dragon",
+      "characteristicName": "Frozen Spectral Dragon",
+      "artisticName": "Frostreaver",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 60,
+      "morality": 30,
+      "chaoticity": 20
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Frostreaver, the Frozen Spectral Dragon. What brings you to these cursed lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to challenge the Shadow Legion and bring light to this realm.",
+        "enemyAnswer": "Ah, a bold one, are you? The Shadow Legion does not take kindly to intruders.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no quarrel with you, mighty dragon. Let us each go our separate ways.",
+            "enemyAnswer": "Hmph. Wise decision. The Frostreaver has no interest in minor skirmishes.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I bid you farewell then, Frostreaver. May our paths never cross again.",
+                "enemyAnswer": "Indeed. Our encounter ends here. Remember, the shadows hold many dangers.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Is there anything you can tell me about the Shadow Legion's weaknesses?",
+                "enemyAnswer": "Curious one, aren't you? Very well, I shall enlighten you on their vulnerabilities.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am prepared to face any challenge, including the mighty Frostreaver.",
+            "enemyAnswer": "Bravery alone will not save you, foolish mortal. The Frostreaver's chill is relentless.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I challenge you, Frostreaver! Let's see who emerges victorious.",
+                "enemyAnswer": "You have sealed your fate. Prepare to feel the icy wrath of Frostreaver!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I... I was mistaken. I am not ready for this battle. I retreat.",
+                "enemyAnswer": "Ha! An unexpected display of cowardice. I shall let you live this day.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense a great power within you, Frostreaver. Will you aid me in my quest against darkness?",
+            "enemyAnswer": "You have good intuition, adventurer. Perhaps an alliance could benefit us both.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we shall strike fear into the Shadow Legion and bring hope to this realm.",
+                "enemyAnswer": "A formidable pact indeed. The Frostreaver shall stand by your side in this endeavor.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have changed my mind. I will face the Shadow Legion alone.",
+                "enemyAnswer": "As you wish. The Frostreaver has no need for unreliable companions.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no business with you, dragon. Leave me be.",
+        "enemyAnswer": "Impudent fool! The Frostreaver demands respect in these lands.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Apologies, Frostreaver. I meant no disrespect. I shall take my leave immediately.",
+            "enemyAnswer": "Apologies accepted, but remember this encounter. The Frostreaver's memory is long.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "You dare to challenge me, Frostreaver? Prepare for a battle you won't soon forget.",
+            "enemyAnswer": "Bold words from a petty challenger. The Frostreaver shall enjoy this display of futility.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will vanquish you, Frostreaver! Let our battle begin!",
+                "enemyAnswer": "Foolish mortal, you have sealed your fate. The Frostreaver's frost will consume you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I... I think I underestimated your power, Frostreaver. I beg for mercy.",
+                "enemyAnswer": "Pathetic. The Frostreaver shows no mercy to the weak. Prepare for your end.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge, Frostreaver. Will you share your wisdom with me?",
+        "enemyAnswer": "Knowledge is power, and power demands sacrifice. What are you willing to offer, seeker?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my strength and loyalty in exchange for your guidance, Frostreaver.",
+            "enemyAnswer": "An intriguing proposal. Strength and loyalty are rare commodities. We may have a deal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Our alliance shall bring terror to our enemies, Frostreaver. Let us conquer together.",
+                "enemyAnswer": "An alliance of terror it shall be. The Frostreaver sees potential in this dark union.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I've changed my mind. I will seek knowledge elsewhere. Farewell, Frostreaver.",
+                "enemyAnswer": "As you wish. The Frostreaver remains in solitude, guarding its icy secrets.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have nothing to offer but my questions, Frostreaver. Will you answer them?",
+            "enemyAnswer": "Questions are cheap, answers are priceless. Ask, but be prepared for the cost.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek knowledge about the Shadow Legion. Can you enlighten me, Frostreaver?",
+                "enemyAnswer": "The Shadow Legion's shadows run deep. To face them is to invite oblivion upon oneself.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I think I will find my answers elsewhere. Your price is too high, Frostreaver.",
+                "enemyAnswer": "Knowledge comes at a cost, seeker. The Frostreaver remains indifferent to your departure.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

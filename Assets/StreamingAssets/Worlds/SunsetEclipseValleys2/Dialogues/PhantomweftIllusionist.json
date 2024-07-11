@@ -1,0 +1,104 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "grand_avatar",
+      "thirdAttribute": "",
+      "characteristicName": "Ethereal Dreamweaver",
+      "artisticName": "Phantomweft Illusionist",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 80,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 60,
+      "communicationSkills": 80,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Halt, intruder! What business do you have in these shadowed catacombs?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge and power to aid in the battle against the encroaching darkness.",
+        "enemyAnswer": "Knowledge and power? Ha! Many come seeking such things, few leave with their minds intact. What makes you think you're any different?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I carry the legacy of Eldryn Stormcaller, the Arcane Protector, and I will not be deterred by illusions.",
+            "enemyAnswer": "Eldryn Stormcaller's legacy means nothing here. Illusions? You speak of illusions to the Phantomweft Illusionist? Your bravado is amusing but futile.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve is unyielding. I will face whatever challenges come my way.",
+                "enemyAnswer": "Resolve, you say? Let's see how resolute you remain when faced with the shadows of your own fears and doubts.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see no point in engaging with a being of your nature. Farewell.",
+                "enemyAnswer": "As you wish. Leave these catacombs, and beware the echoes of your cowardice haunting you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, seeking understanding of the mysteries that lie within these catacombs.",
+            "enemyAnswer": "Peace? Understanding? Such noble intentions from one treading in halls of malevolence. Your naivety will be your downfall.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I walk the path of knowledge with humility and respect. Will you guide me or stand in my way?",
+                "enemyAnswer": "Humility and respect, rare qualities in one who disturbs the equilibrium of these crypts. I shall test your resolve.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense the darkness in you, but I offer a chance for redemption. Will you listen?",
+                "enemyAnswer": "Redemption? Redemption is a concept foreign to shadows. You offer fantasies, I offer reality.",
+                "outcome": "ally"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the darkness that lurks within and emerge victorious.",
+        "enemyAnswer": "Challenge the darkness, you say? Bold words for one who stumbles blindly in the realm of illusions. Will you face the truth or flee?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will face whatever illusions you throw at me with courage and determination.",
+            "enemyAnswer": "Courage and determination, admirable but misplaced in the shifting sands of perception. We shall see how you fare against your own doubts.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve strengthens with every challenge. I am ready for whatever comes.",
+                "enemyAnswer": "Strength in resolve is a double-edged blade. One cut can lead to revelation, the other to destruction. Make your choice.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I choose to step away from this illusionary conflict. Farewell.",
+                "enemyAnswer": "As you step away, the shadows deepen. Will you find your way back, or succumb to the dark embrace of ignorance?",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you, Phantomweft Illusionist, to reveal the truth beneath your illusions.",
+            "enemyAnswer": "A challenge, how delightful! Let us dance in the shadows of truth and deception. Do you have the wits to keep up?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will match your every move with cunning and insight. The truth will prevail.",
+                "enemyAnswer": "Insight and cunning, bold claims from one who walks the line between light and shadow. Let us see whose truth shall shine brighter.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I sense danger in your words. I withdraw from this challenge.",
+                "enemyAnswer": "Danger lurks in every shadow, even those cast by one's own reflection. Retreat now, and the shadows may yet spare you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -43,8 +43,8 @@ folder_path = os.path.join(os.pardir, "Worlds")
 
 response = openai.chat.completions.create(
     model="gpt-3.5-turbo-0125",
-    temperature=0.8,
-    max_tokens=4000,
+    temperature=1.0,
+   
     response_format={"type": "json_object"},
     messages=[
         {
@@ -56,7 +56,7 @@ response = openai.chat.completions.create(
                        "You also need to choose a obstacle terrain type for each level from this list: \n" + "\n".join(obstacle_terrain) + "\n"
                        "You need to generate a name for each level and a small description. \n"
                        "Base your choice on the given fantasy world description : \n" + narrative_file.read() + "\n"
-                       "Main villain is on the third level and it's description should tell about it. \n"
+                       "Main antagonist is on the third level and it's description should tell about it. \n"
                        "Fill the generated content into the appropriate variables in the given JSON structure. \n"
                        "#Constraints: \n"
                        "1. Do not choose the same walkable terrain for different levels. \n"

@@ -76,8 +76,9 @@ public class GroupInfoHUD : SwappingInterface
             foreach (var unit in GameManager.gameManager.hero.allyGroup.units)
             {
                 unit.currentHP = unit.maxHP;
-                GameManager.gameManager.hero.amuletOfHealing--;
             } 
+            GameManager.gameManager.hero.amuletOfHealing--;
+
         }
             
         UpdateHUD();

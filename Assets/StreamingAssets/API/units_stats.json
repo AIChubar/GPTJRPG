@@ -1,31 +1,31 @@
 {
-  "unitType": {
+  "unitClass": {
     "fighter": {
       "healthCoefficient": 0.9,
       "damageCoefficient": 1.2,
       "armourCoefficient": 0.9
     },
-    "striker": {
-      "healthCoefficient": 0.9,
+    "sorcerer": {
+      "healthCoefficient": 0.6,
       "damageCoefficient": 1.4,
-      "armourCoefficient": 0.7
+      "armourCoefficient": 1.0
     },
-    "guardian": {
+    "paladin": {
       "healthCoefficient": 1.6,
       "damageCoefficient": 0.7,
       "armourCoefficient": 0.7
     },
-    "tank": {
-      "healthCoefficient": 2.2,
-      "damageCoefficient": 0.3,
-      "armourCoefficient": 0.5
+    "protector": {
+      "healthCoefficient": 2.1,
+      "damageCoefficient": 0.1,
+      "armourCoefficient": 1.2
     },
-    "fortress": {
+    "bastion": {
       "healthCoefficient": 0.7,
       "damageCoefficient": 0.7,
       "armourCoefficient": 1.6
     },
-    "balancer": {
+    "healer": {
       "healthCoefficient": 1.0,
       "damageCoefficient": 1.0,
       "armourCoefficient": 1.0
@@ -40,52 +40,52 @@
       "damageCoefficient": 1.5,
       "armourCoefficient": 0
     },
-    "sniper": {
+    "marksman": {
       "healthCoefficient": 1.0,
       "damageCoefficient": 2.0,
       "armourCoefficient": 0
     },
-    "savage": {
-      "healthCoefficient": 1.7,
+    "shaman": {
+      "healthCoefficient": 1.3,
       "damageCoefficient": 1.3,
-      "armourCoefficient": 0
+      "armourCoefficient": 0.4
     }
   },
   "powerLevelAttributes": {
     "feeble": {
       "health": 100,
-      "damage": 18,
+      "damage": 15,
       "armour": 4
     },
     "weak": {
       "health": 110,
-      "damage": 21,
+      "damage": 18,
       "armour": 5
     },
     "moderate": {
-      "health": 125,
-      "damage": 25,
+      "health": 120,
+      "damage": 21,
       "armour": 6
     },
     "strong": {
-      "health": 140,
-      "damage": 28,
+      "health": 135,
+      "damage": 24,
+      "armour": 7
+    },  
+    "mighty": {
+      "health": 150,
+      "damage": 27,
       "armour": 8
     },
-    "mighty": {
-      "health": 160,
-      "damage": 32,
+    "formidable": {
+      "health": 175,
+      "damage": 30,
       "armour": 10
     },
-    "formidable": {
-      "health": 200,
-      "damage": 40,
-      "armour": 12
-    },
     "legendary": {
-      "health": 240,
-      "damage": 50,
-      "armour": 16
+      "health": 200,
+      "damage": 35,
+      "armour": 12
     }
   }
 }

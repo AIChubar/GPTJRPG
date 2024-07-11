@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -14,14 +11,20 @@ public class WorldButton : MonoBehaviour
 
     [HideInInspector] public string folderName;
     [HideInInspector] public Image image;
+    
+    [Dropdown("AudioManager.Instance.Sounds", "Name")]
+    public Sound ButtonClick;
     public void OnClicked()
     {
+        if (WorldManager.worldManager.inputDisabled)
+            return;
         if (WorldManager.worldManager.currentWorld != null)
         {
             WorldManager.worldManager.currentWorld.image.color = Color.white;
         }
-        WorldManager.worldManager.currentWorld = this;
+        WorldManager.worldManager.SetCurrentWorld(this);
         image.color = new Color32(245, 124, 124, 255);
+        AudioManager.instance.Play(ButtonClick);
     }
     public void SetButton(string fn)
     {
@@ -29,5 +32,11 @@ public class WorldButton : MonoBehaviour
         image = GetComponent<Image>();
         worldName = GetComponentInChildren<TextMeshProUGUI>();
         worldName.text = System.Text.RegularExpressions.Regex.Replace(folderName, @"(\B[A-Z])", " $1");
+    }
+    
+    public void DeleteWorld()
+    {
+        AudioManager.instance.Play(ButtonClick);
+        WorldManager.worldManager.DeleteInterface(this);
     }
 }

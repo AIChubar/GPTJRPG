@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Ethereal Twilight Plains",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Ethereal Twilight Plains is a haunting expanse of dark-grass fields under a perpetual twilight sky. Beware the treacherous deep-dark holes that dot the landscape, ready to swallow the unwary traveler into the abyss."
+    },
+    {
+      "levelName": "Spectral Frost Peaks",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "water",
+      "levelDescription": "Spectral Frost Peaks are icy realms where snow blankets the jagged peaks in an eternal winter. Travelers must navigate the frozen terrain carefully to avoid the icy waters that flow through the treacherous landscape."
+    },
+    {
+      "levelName": "Void Shadow Citadel",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Void Shadow Citadel stands as a foreboding structure constructed on rusty-chain platforms above rivers of molten lava. Within its dark walls resides Vel'Zarath, the Ethereal Shadow Reaper, emanating a malevolent aura that chills the bravest hearts."
+    }
+  ]
+}

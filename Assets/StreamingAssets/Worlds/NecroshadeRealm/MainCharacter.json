@@ -1,0 +1,39 @@
+{
+  "name": "Aria Shadowbane",
+  "race": "Elf",
+  "characterClass": "Rogue",
+  "occupation": "Shadow Assassin",
+  "backStory": "Aria Shadowbane, an elusive Elf with unmatched agility and cunning, roams the shadows of Necroshade Realm seeking justice against the malevolent forces that threaten her homeland.",
+  "protagonistGroup": {
+    "groupName": "Shadowsong Vigilantes",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "void",
+        "characteristicName": "Wraith Whisperer of the Abyss",
+        "artisticName": "Lyra Nightshroud",
+        "powerLevel": "mighty",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "dragon",
+        "characteristicName": "Ethereal Dragon Soul",
+        "artisticName": "Vorathir Iceshadow",
+        "powerLevel": "formidable",
+        "unitClass": "berserker"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "king",
+        "characteristicName": "Sovereign Necro Lord",
+        "artisticName": "Xeranthor Deathreign",
+        "powerLevel": "legendary",
+        "unitClass": "healer"
+      }
+    ]
+  }
+}

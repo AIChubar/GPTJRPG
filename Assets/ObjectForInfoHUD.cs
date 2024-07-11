@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class ObjectForInfoHUD : MonoBehaviour
 {
-    public string headerRow;
     public string firstRow;
     public string secondRow;
     public string thirdRow;

@@ -1,38 +1,4 @@
 {
-    "friendlyGroup" : 
-    {
-      "groupName" : "",
-      "units" :
-      [
-        {
-          "firstAttribute": "",
-          "secondAttribute": "",
-          "thirdAttribute" : "",
-          "characteristicName" : "",
-          "artisticName" : "",
-          "powerLevel" :"",
-          "unitType" :""
-        },
-        {
-          "firstAttribute": "",
-          "secondAttribute": "",
-          "thirdAttribute" : "",
-          "characteristicName" : "",
-          "artisticName" : "",
-          "powerLevel" :"",
-          "unitType" :""
-        },
-        {
-          "firstAttribute": "",
-          "secondAttribute": "",
-          "thirdAttribute" : "",
-          "characteristicName" : "",
-          "artisticName" : "",
-          "powerLevel" :"",
-          "unitType" :""
-        }
-      ]
-    },
     "levelsUnits" : [
       {
         "levelName" : "",
@@ -48,7 +14,7 @@
                 "characteristicName" : "",
                 "artisticName" : "",
                 "powerLevel" :"",
-                "unitType" :""
+                "unitClass" :""
               }
             ]
           }
@@ -68,7 +34,7 @@
                 "characteristicName" : "",
                 "artisticName" : "",
                 "powerLevel" :"",
-                "unitType" :""
+                "unitClass" :""
               }
             ]
           }
@@ -88,46 +54,11 @@
                 "characteristicName" : "",
                 "artisticName" : "",
                 "powerLevel" :"",
-                "unitType" :""                
+                "unitClass" :""
               }
             ]
           }
         ]
-      }
-    ],
-  
-  "mainVillain" :
-  {
-    "groupName" : "",
-    "units" :
-    [
-      {
-        "firstAttribute": "",
-        "secondAttribute": "",
-        "thirdAttribute" : "",
-        "characteristicName" : "",
-        "artisticName" : "",
-        "powerLevel" :"",
-        "unitType" :""
-      },
-      {
-        "firstAttribute": "",
-        "secondAttribute": "",
-        "thirdAttribute" : "",
-        "characteristicName" : "",
-        "artisticName" : "",
-        "powerLevel" :"",
-        "unitType" :""
-      },
-      {
-        "firstAttribute": "",
-        "secondAttribute": "",
-        "thirdAttribute" : "",
-        "characteristicName" : "",
-        "artisticName" : "",
-        "powerLevel" :"",
-        "unitType" :""
       }
     ]
-  }
 }

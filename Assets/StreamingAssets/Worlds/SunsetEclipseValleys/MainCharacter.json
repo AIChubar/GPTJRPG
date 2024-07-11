@@ -1,0 +1,39 @@
+{
+  "name": "Eldryn Stormcaller",
+  "race": "Half-Elf",
+  "characterClass": "Mage",
+  "occupation": "Arcane Protector",
+  "backStory": "Eldryn Stormcaller, a gifted Half-Elf with mastery over the arcane, emerges as a beacon of light amidst the encroaching darkness in Sunset Eclipse Valleys. His relentless pursuit of knowledge and unwavering dedication to protect the realm drive him to confront the malevolent forces threatening the world.",
+  "protagonistGroup": {
+    "groupName": "Dawnbringers",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "void",
+        "characteristicName": "Spectral Mist Guardian",
+        "artisticName": "Mystshade Whisperwind",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "simulacrum",
+        "thirdAttribute": "giant",
+        "characteristicName": "Radiant Titan Protector",
+        "artisticName": "Aetherius Shieldbearer",
+        "powerLevel": "mighty",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "horde",
+        "secondAttribute": "minotaur",
+        "thirdAttribute": "",
+        "characteristicName": "Beastial Warlord",
+        "artisticName": "Gromm Bloodhoof",
+        "powerLevel": "legendary",
+        "unitClass": "marksman"
+      }
+    ]
+  }
+}

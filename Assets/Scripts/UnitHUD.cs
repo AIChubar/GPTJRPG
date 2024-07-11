@@ -49,7 +49,7 @@ public class UnitHUD : MonoBehaviour
             return; 
         }
         artisticNameText.text = _currentUnitData.artisticName;
-        characteristicNameText.text = _currentUnitData.characteristicName + ", " + _currentUnitData.powerLevel + " " + _currentUnitData.unitType;
+        characteristicNameText.text = _currentUnitData.characteristicName + ", " + _currentUnitData.powerLevel + " " + _currentUnitData.unitClass;
         int maxHp = _currentUnitData.maxHP;
         damageText.text = "Damage: " + _currentUnitData.damage + "   " + "Armour: " + _currentUnitData.armour;
         hpText.text ="HP: " + _currentUnitData.currentHP + " / " + maxHp;

@@ -17,7 +17,8 @@ public class QuestMenu : MonoBehaviour
     [SerializeField] private TextMeshProUGUI chosenQuestDescriptionTMP;
     [SerializeField] private TextMeshProUGUI chosenQuestObjectiveTMP;
     [SerializeField] private TextMeshProUGUI chosenQuestRewardTMP;
-
+    [Dropdown("AudioManager.Instance.Sounds", "Name")]
+    public Sound ButtonClick;
     public GameObject questPiecePrefab;
     public GameObject questHUD;
     public GameObject questPieceParent;
@@ -63,6 +64,7 @@ public class QuestMenu : MonoBehaviour
     }
     public void OnClicked(GameObject button)
     {
+        AudioManager.instance.Play(ButtonClick);
         if (currentQuest is not null && !currentQuest.Equals(null))
         {
             if (currentQuest.completed)

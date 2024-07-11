@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beast",
+      "secondAttribute": "wyvern",
+      "thirdAttribute": "",
+      "characteristicName": "Sunfire Wyvern",
+      "artisticName": "Sandflame Drakewing",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 20,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare intrude upon our territory, puny mortal? What foolishness brings you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to parley, not to fight. We can coexist peacefully.",
+        "enemyAnswer": "Peace? Ha! Weakling, you are lucky I find amusement in your pathetic attempts. Speak quickly, for my patience is short.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer you a tribute in exchange for safe passage through your lands.",
+            "enemyAnswer": "A tribute? Interesting... very well, mortal. Leave it at my feet and be gone. I shall allow your passage this once.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Thank you for your generosity. I shall leave now as promised.",
+                "enemyAnswer": "Begone, insignificant creature. Do not test my patience further. We shall meet again, remember this day.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not be indebted to the likes of you. I'll find my own path.",
+                "enemyAnswer": "Ha! Prideful fool. You will regret this choice, mortal. Consider yourself warned.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense strength and wisdom in you. Will you not join me against a common enemy?",
+            "enemyAnswer": "Join you? Against our nature, against our kin? You jest, mortal. Your proposal is a mockery of our kind.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand your reluctance. Farewell, then.",
+                "enemyAnswer": "Farewell, fool. May the shadows of our realm consume you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I shall leave, respecting your decision. Perhaps we shall cross paths as allies in the future.",
+                "enemyAnswer": "Do not hold your breath, mortal. Our paths diverge, and it is unlikely they shall converge again.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I did not come to negotiate. Prepare for battle!",
+            "enemyAnswer": "Ah, a spark of defiance. I shall enjoy crushing you like the insignificant bug you are.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear not your threats. Face me, beast!",
+                "enemyAnswer": "Your arrogance knows no bounds. Let our clash be swift and decisive.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense a formidable foe in you. Let us test each other's strength.",
+                "enemyAnswer": "Bold words, mortal. I accept your challenge. Know that defeat is inevitable for you.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking knowledge of this land. Can you aid me?",
+        "enemyAnswer": "Peace? Seeking knowledge? Mortals are all the same... curious and foolish. What would you know?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I wish to learn about the history and secrets of this place. Will you be my guide?",
+            "enemyAnswer": "Guide you? I am not your servant, mortal. The secrets of this land are not for your prying eyes.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I respect your boundaries. I will seek knowledge elsewhere. Farewell.",
+                "enemyAnswer": "As you should, ignorant one. Leave before you disturb the balance of our realm further.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Very well, I shall depart. May our paths never cross again.",
+                "enemyAnswer": "May the shadows conceal your departure, fleeting presence.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand the inhabitants of this place. Will you share your knowledge with me?",
+            "enemyAnswer": "Knowledge? Ignorance is your true companion, mortal. I tire of this futile conversation.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave you to your solitude, then. Farewell.",
+                "enemyAnswer": "Wise choice. Leave before my patience wanes further.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you prefer ignorance, so be it. I bid you farewell.",
+                "enemyAnswer": "Your farewell falls upon indifferent ears. Depart, and trouble us no longer.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Enough with riddles. Show me your power, beast!",
+            "enemyAnswer": "Impudent fool! You shall regret goading me into action.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I welcome your challenge. Let us see who stands victorious.",
+                "enemyAnswer": "Victory is a fleeting dream for you, mortal. Prepare for your demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I have no interest in beginning a conflict. I shall take my leave.",
+                "enemyAnswer": "As you should, coward. Flee before my wrath consumes you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

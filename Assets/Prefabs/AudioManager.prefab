@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1108657892276713771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9075362461619084917}
+  - component: {fileID: 5671065432497032298}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9075362461619084917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108657892276713771}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.153881, y: 0.20376597, z: -8.627176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5671065432497032298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108657892276713771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e4727907f785c4c98bf7f3bde4f169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Name: menu
+    Clip: {fileID: 8300000, guid: f956a57526271a34d94544d8860303ac, type: 3}
+    Loop: 1
+    Volume: 0.075
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: dungeon
+    Clip: {fileID: 8300000, guid: 605c6293b5c4e7543abb06b41cb4951a, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1.2
+    Source: {fileID: 0}
+  - Name: button
+    Clip: {fileID: 8300000, guid: 48e8425d84369a7439827fe6bf3fee05, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: airwoosh
+    Clip: {fileID: 8300000, guid: fbed51ba085b10842a558c5a4a255286, type: 3}
+    Loop: 1
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: blast
+    Clip: {fileID: 8300000, guid: 80ec7bc31df6a7d458f2e989dd370f6f, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1.22
+    Source: {fileID: 0}
+  - Name: dash
+    Clip: {fileID: 8300000, guid: 8077047dc1fc0964e8f03ad6466e73f3, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: death
+    Clip: {fileID: 8300000, guid: 5964f809c9096704485a5733bd40f59d, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: hurt
+    Clip: {fileID: 8300000, guid: 482c813d0a747d940910435effb2f854, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1.2
+    Source: {fileID: 0}
+  - Name: skeleton
+    Clip: {fileID: 8300000, guid: 27531a140b8c75c48bf94967491d100b, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: slime
+    Clip: {fileID: 8300000, guid: eda4492fb4518aa4fbcd8b22795d756e, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: smash
+    Clip: {fileID: 8300000, guid: 6313eca950e190f44818c76509bcdf92, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: sword
+    Clip: {fileID: 8300000, guid: c7852f2a3f07647499ab32b7f45c279c, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: meatyswing
+    Clip: {fileID: 8300000, guid: 710f40c374c64e643b6c5bc56fc6f7e3, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: arrow
+    Clip: {fileID: 8300000, guid: c4167b81b70839a4baac2794517145dc, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: hitmetal
+    Clip: {fileID: 8300000, guid: 5283cc2cc032b0d4e87db02193495782, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: holyfemale
+    Clip: {fileID: 8300000, guid: 78e7cded542d3184cb86d5ae904fa232, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: holymale
+    Clip: {fileID: 8300000, guid: d62d25544f81df4419a2a77b5de30988, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: ice
+    Clip: {fileID: 8300000, guid: 1e1c83decf89c9a41800a5855c39dbcd, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: magicsmite
+    Clip: {fileID: 8300000, guid: 059337b730e21ff4682c5ca14adeba0f, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: roar
+    Clip: {fileID: 8300000, guid: a5888f425cb862641aae0ed07f2892bf, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: shield
+    Clip: {fileID: 8300000, guid: fa1005a663766db4d938b897e9a084f4, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}
+  - Name: swordshield
+    Clip: {fileID: 8300000, guid: e0a820ae8d83e3146a7e420bc696960c, type: 3}
+    Loop: 0
+    Volume: 0.5
+    Pitch: 1
+    Source: {fileID: 0}

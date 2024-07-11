@@ -76,6 +76,7 @@ public class RecruitSystem : SwappingInterface
         for (int i = 0; i < _hero.allyGroup.units.Count; i++)
         {
             _hero.allyGroup.units[i] = unitHUDs[i]._currentUnitData;
+            _hero.allyGroup.units[i].friendly = true;
         }
 
     }

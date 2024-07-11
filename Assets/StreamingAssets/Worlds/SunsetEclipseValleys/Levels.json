@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Gloaming Tundra",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Gloaming Tundra is a frozen land where the icy winds howl and darkness lurks in the deep crevices. Beware the treacherous hidden chasms that lead to an abyss of eternal night."
+    },
+    {
+      "levelName": "Whispering Sands",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Whispering Sands shimmer under the dying light, concealing ancient secrets beneath their soft surface. The tranquil facade hides perilous pools of whispering waters that beckon unsuspecting travelers to a watery grave."
+    },
+    {
+      "levelName": "Shadowed Catacombs",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Shadowed Catacombs echo with the whispers of the past, their dark grass concealing the steaming rivers of molten fury that flow beneath. In the heart of these catacombs, the legendary sorcerer Wraithshadow awaits, surrounded by the flames of his malevolent power."
+    }
+  ]
+}

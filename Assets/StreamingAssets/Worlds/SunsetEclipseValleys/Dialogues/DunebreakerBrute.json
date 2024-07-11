@@ -1,0 +1,97 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beast",
+      "secondAttribute": "troll",
+      "thirdAttribute": "rock",
+      "characteristicName": "Sandstone Troll",
+      "artisticName": "Dunebreaker Brute",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 75
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I see another foolish intruder dares to cross my path. What pitiful excuse do you have for disturbing me?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking knowledge of this land.",
+        "enemyAnswer": "Peace? Ha! Knowledge is earned through blood and sweat, not words. What do you think you can offer to gain such knowledge?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I can offer my skills and strength in exchange for guidance.",
+            "enemyAnswer": "Strength and skills, you say? Perhaps you're not as weak as you look. Prove your worth, and maybe I'll consider aiding you. What can you show me now to impress me?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will demonstrate my combat prowess against any foe you choose.",
+                "enemyAnswer": "Combat? Very well, let's see if you have the mettle to face one of my allies. Prepare yourself for a true test of strength!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will showcase my knowledge of arcane arts by solving a mystical riddle.",
+                "enemyAnswer": "Arcane arts? Hmph, let's see if your mind is as sharp as your words. Answer this riddle correctly, and maybe I'll share some knowledge with you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I can offer you a valuable artifact I found in my travels.",
+            "enemyAnswer": "An artifact, you say? Show me this trinket of yours. If it's of any worth, perhaps we can strike a deal. Present it to me now.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "I can share tales of my adventures and victories to entertain you.",
+            "enemyAnswer": "Tales? I am not interested in hearing mere stories. Unless you have something substantial to offer, I suggest you leave my sight.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to challenge your strength and prove my worth in combat.",
+        "enemyAnswer": "Challenge my strength? You have courage, I'll give you that. But do you have the skill to match? Prepare yourself, for the battle will test your very existence.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am ready. Let our blades clash and determine the victor.",
+            "enemyAnswer": "Bold words. Let us see if they hold true in battle. Draw your weapon, and let fate decide our fates!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Wait, perhaps there is another way. Let's discuss a truce instead of resorting to violence.",
+            "enemyAnswer": "A truce? I have no interest in peace with the likes of you. If you seek conflict, then conflict you shall have!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I see valor in your eyes, but I sense doubt. Let us spar with words instead of swords.",
+            "enemyAnswer": "Words are feeble against the might of strength. If you wish to prove yourself, it must be through the clash of steel. Prepare for battle!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to claim this territory in the name of my cause. Surrender peacefully, and no harm will come.",
+        "enemyAnswer": "Claim this territory? You overstep your bounds, fool. This land belongs to me and will never bow to the likes of you. Prepare for the consequences of your arrogance.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I do not seek conflict, but I will defend my cause with all my might.",
+            "enemyAnswer": "Defend your cause? I care not for your pathetic excuses. If you cannot yield, then you shall fall like the rest who dared challenge me!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Let us negotiate terms of shared ownership and avoid needless bloodshed.",
+            "enemyAnswer": "Negotiate? There is no negotiation with the weak. If you cannot understand the concept of strength, then you will learn it through battle!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

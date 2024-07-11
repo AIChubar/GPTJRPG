@@ -46,7 +46,7 @@ public class Hero : MonoBehaviour
 
     private void Start()
     {
-        allyGroup = GameManager.gameManager.world.unitsData.friendlyGroup;
+        allyGroup = GameManager.gameManager.world.mainCharacter.protagonistGroup;
         
         
         heroName = GameManager.gameManager.world.mainCharacter.name;

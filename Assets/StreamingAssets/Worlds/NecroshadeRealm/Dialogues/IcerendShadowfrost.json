@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "mage",
+      "characteristicName": "Frost Lich Mage",
+      "artisticName": "Icerend Shadowfrost",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 80,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 50,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 30
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Halt! What business do you have in these cursed lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to end the darkness that plagues this realm.",
+        "enemyAnswer": "End the darkness, you say? Bold words from a mere mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will do what it takes to bring light back to this realm.",
+            "enemyAnswer": "Light? There is no place for light in these shadows. You will regret crossing paths with me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I won't back down, even in the face of darkness.",
+                "enemyAnswer": "Stubborn till the end. Very well, face the icy embrace of death!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I understand. Let's part ways then.",
+                "enemyAnswer": "As you wish. Your choice seals your fate.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "How can we find a way to coexist in this realm?",
+            "enemyAnswer": "Coexist? There is no coexistence with the likes of you. Mortals are nothing but fuel for the eternal darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I refuse to accept such a fate. We must find a way to understand each other.",
+                "enemyAnswer": "Understanding? Mortals are beyond comprehension. You will learn that the hard way.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well. I won't disturb your domain any further.",
+                "enemyAnswer": "A wise decision. Leave before the shadows claim you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am here to offer a truce between our kind. Will you consider it?",
+            "enemyAnswer": "A truce? Your kind never fails to amuse. There can be no truce, only the inevitable.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I refuse to give up hope for peace. Let's find a way to coexist.",
+                "enemyAnswer": "Hope is a fleeting concept, mortal. Your optimism will be your downfall.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see. Then I will leave you to your darkness.",
+                "enemyAnswer": "Leave, and do not return. This realm has no place for your kind.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am merely passing through. I mean no harm.",
+        "enemyAnswer": "No harm? Your presence alone taints the very air with your mortal stench.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will continue on my way and avoid any confrontation.",
+            "enemyAnswer": "Wise decision. Your scent will not linger for long in these forsaken lands.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "If my presence disturbs you, I shall depart at once.",
+            "enemyAnswer": "Depart, and do not return. Your kind brings nothing but discord.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no time for idle chatter. Step aside, creature.",
+        "enemyAnswer": "Idle chatter? You dare speak to me in such a manner? Prepare to face the consequences of your arrogance.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not waste my breath further. Let actions speak instead.",
+            "enemyAnswer": "Actions indeed speak louder than words. Prepare for the frosty embrace of death.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Then let us part ways with no further discussion.",
+            "enemyAnswer": "Part ways we shall, but remember that the shadows always watch.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beast",
+      "secondAttribute": "wyvern",
+      "thirdAttribute": "",
+      "characteristicName": "Frostwing Wyrmrider",
+      "artisticName": "Glacial Talonrider",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Beware, puny creature, you stand before the might of the Glacial Talonrider. What brings you into my domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am Eldryn Stormcaller, here to rid these lands of darkness.",
+        "enemyAnswer": "Hah! A Half-Elf mage, challenging me? I will enjoy breaking your feeble resolve.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You underestimate me. Face the consequences of your actions.",
+            "enemyAnswer": "Bold words from one who will soon kneel before me. Prepare for your demise, mage!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not back down. Let our powers clash in battle!",
+                "enemyAnswer": "So be it. Feel the icy wrath of the wyvern\u2019s fury!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see no honor in this fight. I retreat for now.",
+                "enemyAnswer": "Coward! Flee while you can, but know that you cannot escape fate.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us not resort to violence. We have a common enemy in the darkness.",
+            "enemyAnswer": "You speak of unity while wielding magic against me? Hypocrite! There is no place for your kind here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek no quarrel with you. Let us part ways peacefully.",
+                "enemyAnswer": "Fine. Leave my sight and do not return, or next time I will not show mercy.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not be threatened by the likes of you. Prepare for a fight.",
+                "enemyAnswer": "Your defiance will be your downfall. Taste the wyvern's wrath!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense fear in your words. Do you doubt your own strength?",
+            "enemyAnswer": "Doubt is for the weak, not for one who commands the skies. Your arrogance will be your undoing.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand by my convictions. Let our actions speak for us.",
+                "enemyAnswer": "So be it. Face the icy talons of the wyvern, and may your demise be swift.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there is a way for us to find common ground. Let us talk.",
+                "enemyAnswer": "Talking will not save you from your fate. Prepare for battle or be crushed beneath the wyvern's might.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am a traveler seeking knowledge and understanding in these gloomy lands.",
+        "enemyAnswer": "Knowledge? Understanding? Ha! Such lofty ideals will not save you from the frosty claws of the Glacial Talonrider.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no wish to quarrel. Can we not coexist peacefully?",
+            "enemyAnswer": "Peaceful coexistence is a fantasy. Either submit to my will or face icy retribution.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I choose to walk away. Your path of destruction is not mine to follow.",
+                "enemyAnswer": "As you flee, remember that the wyvern's shadow looms over you, waiting for the final strike.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Defiance is the path I choose. Brace yourself for a clash of ideals.",
+                "enemyAnswer": "Your defiance is your doom. Feel the frostbite of the wyvern's wrath!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your threats hold no power over me. I walk my own path.",
+            "enemyAnswer": "Bold words from a naive traveler. Your path leads straight into the jaws of the wyvern.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I sense fear behind your bravado. What are you truly afraid of?",
+                "enemyAnswer": "Fear? I fear nothing! Least of all a mere traveler who dares to challenge me.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If our paths must cross in battle, so be it. Let fate decide our encounter.",
+                "enemyAnswer": "Fate has already sealed your destiny. Feel the piercing cold of the wyvern's rage!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a wanderer passing through. No need for hostilities.",
+        "enemyAnswer": "Wanderer or not, trespassers are not welcome in the realm of the Glacial Talonrider.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Understood. I will leave peacefully. No harm intended.",
+            "enemyAnswer": "Your departure is wise. The wyvern's wrath spares those who know when to retreat.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not be threatened on my journey. Prepare for a clash if that is your wish.",
+            "enemyAnswer": "Clash you shall, wanderer. Feel the chill of the wyvern's vengeance!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

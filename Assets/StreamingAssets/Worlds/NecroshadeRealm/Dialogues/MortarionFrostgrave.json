@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "mage",
+      "characteristicName": "Ancient Lich Mage",
+      "artisticName": "Mortarion Frostgrave",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 80,
+      "strategicThinking": 90,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 75,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, a living being dares to stand before me. What pitiful display of courage.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am not here to fight. I seek knowledge about this realm.",
+        "enemyAnswer": "Knowledge? Mortals like you crave power, not wisdom. Be gone!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Please, I mean no harm. I only wish to understand this land better.",
+            "enemyAnswer": "Understanding is beyond your feeble mind. Leave before I make you regret your insolence.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize for disturbing you. I shall take my leave.",
+                "enemyAnswer": "Your departure is wise. Do not return, lest you face the consequences.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not leave without the knowledge I seek!",
+                "enemyAnswer": "Stubborn fool! You shall regret defying me!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "My intentions are pure. I wish to learn from your ancient wisdom.",
+            "enemyAnswer": "Wisdom that you cannot comprehend. Your presence here disgusts me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. I will leave you in peace.",
+                "enemyAnswer": "A wise choice. Begone from my sight.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not be dismissed so easily. Share your knowledge with me!",
+                "enemyAnswer": "You dare demand from me? Prepare to face the consequences of your arrogance!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek guidance on how to navigate this realm safely.",
+            "enemyAnswer": "Safety is an illusion to the weak. Leave before I decide to crush you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave then. Thank you for your words.",
+                "enemyAnswer": "Leave and do not return, or suffer the consequences of your foolishness.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your threats do not scare me. I demand your guidance!",
+                "enemyAnswer": "Foolish mortal! Your defiance ends here!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am ready to face whatever challenges you present. Let us begin.",
+        "enemyAnswer": "Bold words from a fragile being. Prepare to face the might of the undead.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear nothing. Show me what you are capable of!",
+            "enemyAnswer": "Your fearlessness will be your downfall. Feel the wrath of the ancient magics!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not yield! Come at me with all your power!",
+                "enemyAnswer": "As you wish, prepare to be consumed by darkness!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I... I yield. Please, spare me!",
+                "enemyAnswer": "Pathetic. I have no mercy for the weak. Farewell, fool.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let's put an end to this. Face me in battle!",
+            "enemyAnswer": "So be it. Your demise shall be swift and inevitable.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not go down without a fight! Come, face my blade!",
+                "enemyAnswer": "Your bravery is commendable, but futile. Prepare for your end!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I withdraw. This battle is not worth my life.",
+                "enemyAnswer": "Cowardice. I expected no less from a weakling like you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I see you are formidable. Let us set aside our differences and join forces.",
+        "enemyAnswer": "Join forces? Do you mock me, mortal? I have no need for pitiful allies like you.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I assure you, together we can achieve great things. Consider my offer.",
+            "enemyAnswer": "Your words fall on deaf ears. I have no interest in collaborating with the likes of you.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I sense an opportunity for mutual benefit. Think about what we could accomplish together.",
+            "enemyAnswer": "Delusional fool! I will not waste another moment on your drivel. Prepare to face your end!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

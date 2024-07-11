@@ -1,0 +1,267 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Dark Shadow Stalker",
+      "artisticName": "Shadewraith",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 50,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 75
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense a presence intruding on our domain. State your purpose, trespasser!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to understand the darkness that engulfs this realm.",
+        "enemyAnswer": "Understanding is a luxury for the weak-minded. You tread dangerous paths.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no quarrel with you. I seek only peace.",
+            "enemyAnswer": "Peace has no place in the shadows. Your ignorance will be your downfall.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave you be and depart from this place.",
+                "enemyAnswer": "As you retreat, know that your feeble attempts at diplomacy are futile. Begone!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I challenge you to combat if that's what you seek.",
+                "enemyAnswer": "A fool's choice. Prepare to face the wrath of the shadows!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Knowledge is power, and I seek to understand the power you wield.",
+            "enemyAnswer": "Power is not for the weak-willed to comprehend. Beware what you wish for.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I acknowledge the risks, but my thirst for knowledge drives me.",
+                "enemyAnswer": "Your thirst may lead to your undoing. The shadows do not yield their secrets easily.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I will heed your warning and proceed with caution.",
+                    "enemyAnswer": "Caution alone will not save you in this realm of darkness. Brace yourself for what comes.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I will press on, unafraid of the shadows that conceal the truth.",
+                    "enemyAnswer": "Bravery or folly? Time will reveal the answer when you face the darkness head-on.",
+                    "outcome": "attack"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I will retreat for now but mark my words, I will return for the knowledge I seek.",
+                "enemyAnswer": "Empty threats from a naive interloper. Your return will be met with the wrath of the shadows.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer you a chance to join forces against a greater threat that lurks in the realm.",
+            "enemyAnswer": "Alliances are fragile as whispers in the wind. What makes you think we would trust you?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Trust is earned, and I am willing to prove my sincerity in action.",
+                "enemyAnswer": "Actions speak louder than words, yet actions also reveal one's vulnerabilities. Are you prepared?",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I stand ready to face any challenge to earn your trust.",
+                    "enemyAnswer": "Bold words. Let your deeds paint the truth. We shall see where your loyalty truly lies.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I sense doubt in your words. I will leave, but the offer remains open.",
+                    "enemyAnswer": "Doubt is a luxury you cannot afford in these treacherous lands. Depart before you regret it.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "It seems trust is a rare commodity in these dark times. I will respect your decision.",
+                "enemyAnswer": "Respect counts for naught in the shadows. Your departure is wise, for danger lurks in every corner.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the darkness that grips this realm and bring light to dispel it.",
+        "enemyAnswer": "Light-bringer, your presence is an affront to the shadows that thrive here. Prepare for the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear no consequences, for the light shall always triumph over darkness.",
+            "enemyAnswer": "Arrogance blinds even the brightest flame. Let us see if your light can withstand the encroaching shadows.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve is unyielding. I will face whatever trials the shadows throw at me.",
+                "enemyAnswer": "Resolve alone may lead to ruin if tempered with ignorance. The shadows hunger for foolish bravery.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I welcome the challenge and will not waver in my mission.",
+                    "enemyAnswer": "So be it. Let the clash of light and darkness decide your fate.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I understand the risks, but my cause is just. I will tread carefully.",
+                    "enemyAnswer": "Just or not, the shadows care not for righteousness. May your caution serve you well.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I acknowledge the potential dangers and will rethink my approach.",
+                "enemyAnswer": "Rethink all you want, but the shadows care little for second thoughts. Choose your path wisely.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The balance between light and darkness must be upheld. I seek to find that equilibrium.",
+            "enemyAnswer": "Balance is fragile when one side craves dominance over the other. Your pursuit may tip the scales.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand the risks of imbalance and will proceed with caution.",
+                "enemyAnswer": "Caution may buy you time, but time is a luxury not easily afforded in this realm of shadows.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I will strive to maintain the balance, even in the face of adversity.",
+                    "enemyAnswer": "Admirable ideals, but ideals alone may crumble in the darkness that looms ahead.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I will heed your warning and seek guidance on how to navigate this delicate balance.",
+                    "enemyAnswer": "Seeking guidance may preserve your life, but in the end, the shadows will judge your actions.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "Perhaps the balance is not my burden to bear. I will step back and observe for now.",
+                "enemyAnswer": "Observation is wise, for only the wise survive in the dance of light and shadows. Watch, and learn.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Darkness may have its place, but I will not allow it to consume this realm entirely.",
+            "enemyAnswer": "Bold words from one who flickers in the light's ephemeral glow. Your defiance may cost you dearly.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Defiance is my shield against the encroaching darkness. I will stand my ground.",
+                "enemyAnswer": "Your shield may shatter when faced with the storm of shadows. Brace yourself for what comes next.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see the error in my words. Darkness and light must coexist in harmony. I will strive for balance.",
+                "enemyAnswer": "Acknowledgment of error is rare among your kind. Your path towards balance may hold unforeseen challenges.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I step into the shadows not as an enemy but as a seeker of truth and understanding.",
+        "enemyAnswer": "Truth is a scarce commodity in these lands. Be wary of what you might uncover, seeker.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am prepared for whatever truths the shadows reveal. Knowledge is my guide.",
+            "enemyAnswer": "Knowledge guides many to their demise. Let us see if you can withstand the harsh truths of this realm.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I welcome the truths, no matter how dark they may be. My resolve is unwavering.",
+                "enemyAnswer": "Resolute words, but resolve alone may lead to downfall when illuminated by the shadows' truths.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I stand by my conviction and will face the shadows with an open heart.",
+                    "enemyAnswer": "An open heart may be your greatest weakness in a realm that preys on vulnerabilities. Beware.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I understand the risks, but the pursuit of truth is worth the peril.",
+                    "enemyAnswer": "Perilous pursuits often lead to ruin. Tread carefully, seeker of truths.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I will proceed cautiously, aware of the dangers that lurk in the shadows.",
+                "enemyAnswer": "Caution is a meager shield against the myriad dangers that dwell in the realm of shadows. Choose wisely.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The shadows hold secrets that must be brought to light. I seek to uncover the mysteries that shroud this realm.",
+            "enemyAnswer": "Not all secrets are meant to be revealed. Be wary of the truths that may unravel your very being.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand the risks, but the pursuit of knowledge drives me forward.",
+                "enemyAnswer": "Knowledge drives many to madness. Let us see if you have the strength to bear its weight.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I embrace the madness that comes with knowledge. I journey on.",
+                    "enemyAnswer": "Madness and knowledge walk a fine line. Your journey may bring you closer to the edge than you realize.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I will approach with caution, ready to retreat if the darkness overwhelms me.",
+                    "enemyAnswer": "Retreat is a sign of wisdom in a realm where darkness devours the unprepared. Choose your steps carefully.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "The mysteries of the shadows beckon me, but I will not yield to their siren call without caution.",
+                "enemyAnswer": "The shadows' call is alluring, but their embrace is cold and unforgiving. Will you weather the chill?",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to illuminate the shadows, not to dispel them but to understand their nature.",
+            "enemyAnswer": "Understanding the shadows is a perilous pursuit. Few return from such journeys unscathed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept the risks, for knowledge lies within the heart of darkness.",
+                "enemyAnswer": "Knowledge may lie within, but at what cost? The shadows demand payment for their insights.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I am prepared to pay the price, whatever it may be. The shadows will not deter me.",
+                    "enemyAnswer": "Bold words from one who has yet to feel the weight of the shadows' toll. Your resolve will be tested.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I will proceed cautiously, mindful of the shadows' likely deception.",
+                    "enemyAnswer": "Deception is the shadows' tool, wielded with deft skill. Are you prepared to see through their illusions?",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "The shadows' nature intrigues me, but I will not delve too deep without caution.",
+                "enemyAnswer": "Intrigue often leads to entrapment in the shadows' web. Proceed with caution, seeker of mysteries.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

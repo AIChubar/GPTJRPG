@@ -1,113 +1,113 @@
 {
-  "worldName": "MysticLands",
+  "worldName": "SunsetEclipseValleys",
   "enemiesMain": [
     {
-      "firstAttribute": "beasts",
-      "secondAttribute": "troll",
-      "thirdAttribute": "forest",
-      "characteristicName": "Forest Troll",
-      "artisticName": "Gnarled Bane",
-      "powerLevel": "moderate",
-      "unitType": "tank"
-    },
-    {
-      "firstAttribute": "relict",
-      "secondAttribute": "dryad",
-      "thirdAttribute": "",
-      "characteristicName": "Dryad",
-      "artisticName": "Thornwhisper",
-      "powerLevel": "weak",
-      "unitType": "guardian"
-    },
-    {
-      "firstAttribute": "abominations",
-      "secondAttribute": "evil_eye",
-      "thirdAttribute": "",
-      "characteristicName": "Evil Eye",
-      "artisticName": "Gazer",
-      "powerLevel": "feeble",
-      "unitType": "trickster"
+      "firstAttribute": "draconid",
+      "secondAttribute": "dragon",
+      "thirdAttribute": "ice",
+      "characteristicName": "Glacial Frostwyrm Sentinel",
+      "artisticName": "Frostscale Iceguard",
+      "powerLevel": "mighty",
+      "unitClass": "protector"
     },
     {
       "firstAttribute": "undead",
-      "secondAttribute": "wight",
-      "thirdAttribute": "stalker",
-      "characteristicName": "Wight Stalker",
-      "artisticName": "Shade",
-      "powerLevel": "moderate",
-      "unitType": "striker"
-    },
-    {
-      "firstAttribute": "elementals",
-      "secondAttribute": "giant",
-      "thirdAttribute": "frost",
-      "characteristicName": "Frost Giant",
-      "artisticName": "Icecrusher",
-      "powerLevel": "mighty",
-      "unitType": "savage"
-    },
-    {
-      "firstAttribute": "humanoid",
-      "secondAttribute": "hill_giant",
-      "thirdAttribute": "fighter",
-      "characteristicName": "Hill Giant Fighter",
-      "artisticName": "Boulderfist",
+      "secondAttribute": "skeleton",
+      "thirdAttribute": "ugly_thing",
+      "characteristicName": "Decrepit Bone Horror",
+      "artisticName": "Fleshrot Dreadfiend",
       "powerLevel": "strong",
-      "unitType": "fighter"
+      "unitClass": "fighter"
     },
     {
-      "firstAttribute": "draconids",
-      "secondAttribute": "dragon",
-      "thirdAttribute": "ice",
-      "characteristicName": "Ice Dragon",
-      "artisticName": "Frostfang",
+      "firstAttribute": "primordial",
+      "secondAttribute": "golem",
+      "thirdAttribute": "frost",
+      "characteristicName": "Glacial Colossus",
+      "artisticName": "Frostforge Titan",
       "powerLevel": "formidable",
-      "unitType": "striker"
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "beast",
+      "secondAttribute": "wyvern",
+      "thirdAttribute": "",
+      "characteristicName": "Frostwing Wyrmrider",
+      "artisticName": "Glacial Talonrider",
+      "powerLevel": "strong",
+      "unitClass": "marksman"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "skeleton",
+      "thirdAttribute": "fish",
+      "characteristicName": "Skeletal Mariner",
+      "artisticName": "Coralbone Revenant",
+      "powerLevel": "strong",
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "beast",
+      "secondAttribute": "wyvern",
+      "thirdAttribute": "",
+      "characteristicName": "Sunfire Wyvern",
+      "artisticName": "Sandflame Drakewing",
+      "powerLevel": "strong",
+      "unitClass": "marksman"
+    },
+    {
+      "firstAttribute": "serpentide",
+      "secondAttribute": "mermaid",
+      "thirdAttribute": "",
+      "characteristicName": "Lagoon Songstress",
+      "artisticName": "Siren of Serenity",
+      "powerLevel": "moderate",
+      "unitClass": "healer"
+    },
+    {
+      "firstAttribute": "beast",
+      "secondAttribute": "troll",
+      "thirdAttribute": "rock",
+      "characteristicName": "Sandstone Troll",
+      "artisticName": "Dunebreaker Brute",
+      "powerLevel": "strong",
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "lord",
+      "characteristicName": "Necrotic Archmage",
+      "artisticName": "Dreadlord Thanatos",
+      "powerLevel": "legendary",
+      "unitClass": "sorcerer"
+    },
+    {
+      "firstAttribute": "phantom",
+      "secondAttribute": "grand_avatar",
+      "thirdAttribute": "",
+      "characteristicName": "Ethereal Dreamweaver",
+      "artisticName": "Phantomweft Illusionist",
+      "powerLevel": "formidable",
+      "unitClass": "trickster"
     },
     {
       "firstAttribute": "undead",
       "secondAttribute": "wraith",
       "thirdAttribute": "freezing",
-      "characteristicName": "Freezing Wraith",
-      "artisticName": "Chillshade",
-      "powerLevel": "moderate",
-      "unitType": "striker"
-    },
-    {
-      "firstAttribute": "demons",
-      "secondAttribute": "hell_knight",
-      "thirdAttribute": "defender",
-      "characteristicName": "Hell Knight Defender",
-      "artisticName": "Inferno",
-      "powerLevel": "formidable",
-      "unitType": "guardian"
-    },
-    {
-      "firstAttribute": "abominations",
-      "secondAttribute": "ooze",
-      "thirdAttribute": "void",
-      "characteristicName": "Void Ooze",
-      "artisticName": "Abyssgloom",
-      "powerLevel": "mighty",
-      "unitType": "tank"
+      "characteristicName": "Frostbound Spectre",
+      "artisticName": "Iceshade Wraith",
+      "powerLevel": "strong",
+      "unitClass": "fighter"
     },
     {
       "firstAttribute": "undead",
-      "secondAttribute": "lich",
-      "thirdAttribute": "necromancer",
-      "characteristicName": "Lich Necromancer",
-      "artisticName": "Bonecaller",
-      "powerLevel": "mighty",
-      "unitType": "guardian"
-    },
-    {
-      "firstAttribute": "demons",
-      "secondAttribute": "demon",
-      "thirdAttribute": "shadow",
-      "characteristicName": "Shadow Demon",
-      "artisticName": "Darkwraith",
-      "powerLevel": "formidable",
-      "unitType": "fighter"
+      "secondAttribute": "skeleton",
+      "thirdAttribute": "hydra",
+      "characteristicName": "Hydrabone Revenant",
+      "artisticName": "Skeletal Hydrafiend",
+      "powerLevel": "strong",
+      "unitClass": "fighter"
     }
   ]
 }

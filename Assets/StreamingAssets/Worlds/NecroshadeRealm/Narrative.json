@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ethereal Shadow Reaper",
+    "artisticName": "Vel'Zarath",
+    "powerLevel": "legendary",
+    "unitClass": "paladin"
+  },
+  "antagonistGroup": {
+    "groupName": "Shadow Legion",
+    "units": [
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "dragon",
+        "characteristicName": "Spectral Draconic Spirit",
+        "artisticName": "Zyphrexus",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "lord",
+        "characteristicName": "Ancient Soul Keeper",
+        "artisticName": "Mortisurge",
+        "powerLevel": "legendary",
+        "unitClass": "marksman"
+      }
+    ]
+  },
+  "worldName": "Necroshade Realm",
+  "story": "The Necroshade Realm is a dark and desolate land, shrouded in eternal night. The land is plagued by the Shadow Legion, led by the malevolent Vel'Zarath, the Ethereal Shadow Reaper. His presence brings fear and despair to all who dwell in the realm. The Spectral Draconic Spirit, Zyphrexus, and the Ancient Soul Keeper, Mortisurge, are his loyal companions, spreading darkness and death wherever they go.",
+  "greetingGameMessage": "Welcome to the Necroshade Realm, traveler. Beware the darkness that lurks within, for the Shadow Legion and their leader Vel'Zarath are a force to be reckoned with.",
+  "defeatEndingMessage": "With the defeat of Vel'Zarath, the Necroshade Realm is finally free from the grip of darkness. The land begins to heal, and hope blossoms once more for its inhabitants.",
+  "gameOverMessage": "Alas, the darkness proved too overwhelming. The Shadow Legion, led by Vel'Zarath, engulfed the Necroshade Realm in eternal night, bringing doom to all who dared to challenge them."
+}

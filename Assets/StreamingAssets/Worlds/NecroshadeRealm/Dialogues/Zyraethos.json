@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "spectral",
+      "thirdAttribute": "dragon",
+      "characteristicName": "Ethereal Spectral Dragon",
+      "artisticName": "Zyraethos",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 75,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 80,
+      "morality": 15,
+      "chaoticity": 45
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Zyraethos, the Ethereal Spectral Dragon. What business do you have here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I have come to challenge your presence in this realm.",
+        "enemyAnswer": "Ah, a challenger? You have guts, I'll give you that. But you will regret crossing paths with me.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear no creature, not even a mighty dragon like yourself.",
+            "enemyAnswer": "Bravery or foolishness, only time will tell. Face the wrath of my spectral flames!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not back down, prepare for a fierce battle!",
+                "enemyAnswer": "So be it, mortal. Your bravery ends in your demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now the error of my ways, I retreat.",
+                "enemyAnswer": "Ha! A coward before the might of a dragon! Your fate is sealed.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I didn't come here for a fight, I seek information on Vel'Zarath.",
+            "enemyAnswer": "Information, you say? Interesting... What makes you think I would share such knowledge with you?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am not your enemy, I seek to understand the darkness that plagues this land.",
+                "enemyAnswer": "Curiosity may lead to knowledge, or to doom. Choose your next words wisely.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "If you refuse to help, then I will find the answers on my own.",
+                "enemyAnswer": "Stubbornness is a trait I can appreciate, even in a mere mortal. Go, seek your answers elsewhere.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, looking to establish a truce between our kinds.",
+            "enemyAnswer": "Peace? Truce? Your words are like a candle in the wind, easily extinguished. Convince me, if you can.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We share a common enemy in Vel'Zarath. Together, we can bring an end to his tyranny.",
+                "enemyAnswer": "Interesting proposal... Perhaps there is merit in your words. But actions speak louder than words.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "If you reject my offer, then let it be. I will leave in peace.",
+                "enemyAnswer": "Peaceful intentions, such a rarity in this realm. Leave, before my patience wears thin.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking an alliance, to join forces against Vel'Zarath and his Shadow Legion.",
+        "enemyAnswer": "An alliance, you say? Bold words for a mere traveler. What can you offer in return for my allegiance?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My skills as a strategist are unmatched. Together, we can outwit our enemies.",
+            "enemyAnswer": "Strategic prowess is a valuable asset. Show me your worth in deeds, not just words.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "I offer you a share of the spoils from our victories. Wealth beyond imagination awaits.",
+            "enemyAnswer": "Wealth may tempt the greedy, but dragons desire more than material riches. Convince me further.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek a peaceful resolution, to end the conflict between our factions without bloodshed.",
+        "enemyAnswer": "Peaceful resolution? In this realm of darkness and death, such notions are rare. Convince me of your sincerity.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Violence only begets more violence. Let us break this cycle and strive for harmony.",
+            "enemyAnswer": "Harmony in the Necroshade Realm... An intriguing proposition. Your ideals are noble, but can they withstand the test of time?",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "If peace is not an option, then I will stand ready to defend myself if needed.",
+            "enemyAnswer": "Defensive, yet resolute. Your stance is clear, but will it hold when darkness descends upon you?",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -17,7 +17,8 @@ public class Pause : MonoBehaviour
     [SerializeField] private RecruitSystem recruitSystemMenu;
     [SerializeField] private GameMessageController gameMessageMenu;
     [SerializeField] private GameObject unitInteractionMenu;
-    
+    [Dropdown("AudioManager.Instance.Sounds", "Name")]
+    public Sound ButtonClick;
     [SerializeField] private DialogueHUD unitInteractionHUD;
     private PlayerInput playerInput;
     private UIState _currentState = UIState.UNPAUSED;
@@ -43,7 +44,7 @@ public class Pause : MonoBehaviour
 
     private void TogglePause(InputAction.CallbackContext context)
     {
-        if (_currentState is UIState.GAMEMESSAGE  or UIState.UNITINTERACTION or UIState.RECRUITSYSTEM)
+        if ((_currentState is UIState.GAMEMESSAGE  or UIState.UNITINTERACTION or UIState.RECRUITSYSTEM) || GameManager.gameManager.kbOpened)
             return;
         _currentState = _currentState == UIState.UNPAUSED ? UIState.ESCPAUSE : UIState.UNPAUSED;
         UpdateUI();
@@ -51,6 +52,10 @@ public class Pause : MonoBehaviour
 
     private void UpdateUI()
     {
+        if (GameManager.gameManager.transitioning)
+        {
+            _currentState = UIState.UNPAUSED;
+        }
         Time.timeScale = _currentState == UIState.UNPAUSED ? 1f : 0f;
         pauseCanvas.SetActive(_currentState != UIState.UNPAUSED);
         unitInteractionMenu.SetActive(_currentState == UIState.UNITINTERACTION);
@@ -59,7 +64,8 @@ public class Pause : MonoBehaviour
         gameMessageMenu.gameObject.SetActive(_currentState == UIState.GAMEMESSAGE);
         groupInfoMenu.SetActive(_currentState == UIState.GROUPINFO);
         questMenu.gameObject.SetActive(_currentState == UIState.QUESTMENU);
-
+        GameManager.gameManager.pauseOpened = _currentState != UIState.UNPAUSED;
+        GameManager.gameManager.kbButton.interactable = _currentState == UIState.UNPAUSED;
     }
 
     public void ShowUnitInteractionMenu(JSONReader.DialogueInfo dialogueInfo, JSONReader.UnitGroup group)
@@ -88,6 +94,7 @@ public class Pause : MonoBehaviour
     }
     public void ResumeGame()
     {
+        AudioManager.instance.Play(ButtonClick);
         questMenu.UpdateQuestHUD();
         _currentState = UIState.UNPAUSED;
         UpdateUI();
@@ -97,26 +104,31 @@ public class Pause : MonoBehaviour
     
     public void ShowQuestMenu()
     {
+        AudioManager.instance.Play(ButtonClick);
+
         _currentState = UIState.QUESTMENU;
         UpdateUI();
     }
     
     public void ShowPauseMenu()
     {
+        AudioManager.instance.Play(ButtonClick);
         _currentState = UIState.ESCPAUSE;
         UpdateUI();
     }
 
     public void ShowGroupInfoMenu()
     {
+        AudioManager.instance.Play(ButtonClick);
+
         _currentState = UIState.GROUPINFO;
         UpdateUI();
     }
     
     public void MainMenu()
     {
-        Destroy(GameManager.gameManager.gameObject);
-        ResumeGame(); 
+        ResumeGame();
+        AudioManager.instance.Play(ButtonClick);
         SceneController.LoadScene(0); 
     }
 }

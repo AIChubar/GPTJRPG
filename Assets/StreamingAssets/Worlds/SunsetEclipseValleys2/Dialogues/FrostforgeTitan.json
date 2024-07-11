@@ -1,0 +1,92 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "primordial",
+      "secondAttribute": "golem",
+      "thirdAttribute": "frost",
+      "characteristicName": "Glacial Colossus",
+      "artisticName": "Frostforge Titan",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 20,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am the Frostforge Titan, the chilling embodiment of power and destruction. What pitiful creature dares to stand before me in this frozen wasteland?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Engage in battle with me, Frostforge Titan, if you dare!",
+        "enemyAnswer": "Hah! You seek your own demise, foolish mortal. Prepare to be shattered into icy fragments!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not back down, I will fight you till the bitter end!",
+            "enemyAnswer": "Bravery or madness, it matters not. Your defiance only fuels my desire to crush you utterly!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will unleash my full power against you!",
+                "enemyAnswer": "Pathetic. Your feeble attempts at resistance only serve to amuse me. Feel the full force of the frost!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense your strength, yet I offer you a chance to join forces against a greater threat.",
+                "enemyAnswer": "Join forces? I have no need for allies, especially weaklings like you. Die with your misplaced hope!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge your power, but I choose to retreat for now.",
+            "enemyAnswer": "Retreat? Cowardice suits you well, for it prolongs the inevitable. Run, little one, but know that I will find you.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek not conflict, mighty Frostforge Titan. Let us avoid unnecessary bloodshed.",
+        "enemyAnswer": "Ha! A feeble attempt at diplomacy. Your words fall as frozen leaves before the might of the storm. What do you truly desire?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge, ancient one. Share with me the secrets hidden within these frozen lands.",
+            "enemyAnswer": "Knowledge? Knowledge is power, and power belongs to the strong. You are but a fleeting ember in the blizzard of existence.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I offer you a gift of respect, Frostforge Titan. Let us part ways with honor.",
+            "enemyAnswer": "Respect? Hah! Your words are as brittle as frost-bitten branches. Leave my sight before I decide to crush you underfoot.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I sense a greater darkness lurking. Will you stand idle or join me in quelling it?",
+            "enemyAnswer": "Darkness or light, it matters not to the Frostforge Titan. Your fate is sealed, whether by ice or by fire. Prepare for oblivion.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, Frostforge Titan. Let us find common ground and avoid needless violence.",
+        "enemyAnswer": "Peace? A fleeting concept in these frozen wastes. Your naivety will be your downfall, for I know only the language of destruction.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer you a truce, for we share a common foe in the encroaching darkness.",
+            "enemyAnswer": "A truce? The Frostforge Titan bows to none, especially not to weaklings like you. Prepare to be frozen in eternity's grasp!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Let us part ways without conflict, mighty Titan. Our paths need not intertwine in violence.",
+            "enemyAnswer": "Part ways? It matters not to me. Your insignificant existence will soon be forgotten in the endless blizzard of time. Begone!",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

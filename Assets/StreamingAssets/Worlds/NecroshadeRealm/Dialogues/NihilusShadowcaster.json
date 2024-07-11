@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "mage",
+      "characteristicName": "Void Lich Mage",
+      "artisticName": "Nihilus Shadowcaster",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 85,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 5,
+      "chaoticity": 40
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Hear me, mortal, for your presence in these dark lands only serves to amuse me momentarily. What do you seek here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about the Shadow Legion and their leader.",
+        "enemyAnswer": "Curiosity in the face of impending doom, how typical. Vel'Zarath, the Ethereal Shadow Reaper, cares not for the petty concerns of insects like you.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am no mere insect. My purpose is to bring light to these shadowed lands.",
+            "enemyAnswer": "Light in the Necroshade Realm? Your arrogance is astounding, Elf. Prepare to face the consequences of your foolish ideals!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand ready to face whatever darkness you throw at me.",
+                "enemyAnswer": "You may be bold, but your bravery will be your downfall. The Void consumes all who dare defy it!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see that words are wasted on you. Farewell, may the shadows never cross our paths again.",
+                "enemyAnswer": "As you retreat, remember this moment of mercy, for the next encounter shall not end so kindly.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Knowledge is power, and I seek to understand the forces that threaten this realm.",
+            "enemyAnswer": "Power in the hands of the ignorant is a dangerous tool. Your quest for knowledge shall lead you to your own demise.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Ignorance is the true curse. I will not be swayed by your threats.",
+                "enemyAnswer": "Bold words from a naive creature. Prepare to witness the futility of your resistance!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let ignorance be my shield then. I shall depart from your presence.",
+                "enemyAnswer": "A wise choice, for ignorance may indeed shield you from the horrors that await. Begone, and trouble me no more.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "In these shadows, there may lie a glimmer of hope. I seek to uncover it.",
+            "enemyAnswer": "Hope is a fragile illusion in the Necroshade Realm, shattered by the merciless hand of Vel'Zarath. You will find no solace here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Hope can withstand even the darkest of times. I'll prove it to you.",
+                "enemyAnswer": "Foolish optimism will not save you, Elf. Your hope will wither and die in the grip of the void.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If hope is lost, then all that remains is despair. I'll take my leave.",
+                "enemyAnswer": "Despair is a fitting end for those who dare traverse these cursed lands. May darkness guide your way.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek no quarrel with the likes of you. I wish for a peaceful resolution to our meeting.",
+        "enemyAnswer": "Peace? In the realm of shadows and death? Your naivety is almost laughable. Speak your purpose then, before my patience wanes.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I wish to understand your intentions and perhaps find a common ground.",
+            "enemyAnswer": "Common ground with a being of the void? Such notions are futile. You will regret seeking understanding where only darkness dwells.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Understanding is the first step to forgiveness. Even in darkness, light can emerge.",
+                "enemyAnswer": "Forgiveness is a concept lost on the likes of me. Your attempts at reconciliation will be your undoing.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now that our paths diverge. Farewell, may our shadows never intertwine again.",
+                "enemyAnswer": "As you depart, remember this fleeting moment of peace, for in the end, darkness shall claim us all.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek only to pass through these lands unharmed. I pose no threat to you or your kind.",
+            "enemyAnswer": "Passing through unharmed, what a quaint notion. Your presence here taints the very air I breathe. Speak quickly, for my patience wears thin.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I pose no challenge to your rule. I will leave this place without disturbance.",
+                "enemyAnswer": "Your obedience is noted, but your existence is an affront to the shadows. Depart, and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If my presence offends, then I shall take my leave. May the shadows part in peace.",
+                "enemyAnswer": "Your departure brings a temporary calm, but shadows always find a way to return. Begone, and trouble me no more.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, seeking only to learn and observe. Your knowledge intrigues me.",
+            "enemyAnswer": "Knowledge is a dangerous gift in the hands of the ignorant. Your intrigue will lead you down a path from which there is no return.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Ignorance is the true enemy. I will not fall prey to its grasp.",
+                "enemyAnswer": "Bold words from a fool who dances on the edge of oblivion. Your ignorance shall be your downfall.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps ignorance is bliss. I shall take my leave, wishing you no harm.",
+                "enemyAnswer": "Blissful ignorance is a fleeting luxury. Leave now, before your curiosity becomes your undoing.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek power to combat the darkness that threatens to consume this realm.",
+        "enemyAnswer": "Power for one such as you? How amusing. The darkness you fear is but a glimpse of the void's true might. Speak, before your desires lead you to ruin.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will harness this power to bring balance and order to these chaotic lands.",
+            "enemyAnswer": "Order in chaos is an illusion presented by the feeble minded. Your quest for balance will tip the scales in your favor, but not for long.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Chaos and order are two sides of the same coin. I'll walk the line between them.",
+                "enemyAnswer": "Walking the line between chaos and order is a perilous dance. Your steps will falter, and the void will swallow you whole.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the void's grasp is too strong. I'll retreat and seek balance elsewhere.",
+                "enemyAnswer": "Retreat is a temporary reprieve, but balance will elude you wherever you go. The darkness follows, as inevitable as the night.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Power is not to dominate, but to protect. I seek strength to shield those who cannot fend for themselves.",
+            "enemyAnswer": "Protection in a realm of death? Your ideals are noble but misplaced. Your strength will falter when faced with the true horrors that await.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My strength comes from within, fueled by compassion and determination.",
+                "enemyAnswer": "Compassion in the Necroshade Realm is a weakness to be exploited. Your determination will crumble before the might of the void.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If my strength is seen as weakness, then I shall rely on my wits to navigate this darkness.",
+                "enemyAnswer": "Wits alone will not save you from the shadows that hunger for your essence. Depart now, before your light is extinguished.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Power is a double-edged sword, and I seek to wield it with caution and wisdom.",
+            "enemyAnswer": "Caution and wisdom are rare commodities in these cursed lands. Your desire for power will be your downfall, mark my words.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Wisdom comes with experience. I'll face the darkness head-on and learn from it.",
+                "enemyAnswer": "Experience without survival is a lesson unlearned. Your wisdom will crumble in the face of the void's wrath.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps caution is the better part of valor. I'll retreat and reflect on my choices.",
+                "enemyAnswer": "Reflection in solitude may spare you from imminent doom. Begone, and do not tempt fate further.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

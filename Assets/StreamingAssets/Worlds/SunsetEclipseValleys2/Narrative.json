@@ -1,0 +1,40 @@
+{
+  "storyType": "good",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "stalker",
+    "characteristicName": "Shadow Haunting Spectre",
+    "artisticName": "Wraithshadow",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "Ethereal Phantoms",
+    "units": [
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "devil",
+        "thirdAttribute": "rotting",
+        "characteristicName": "Decayed Infernal Lord",
+        "artisticName": "Blightsoul",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "merfolk",
+        "thirdAttribute": "aquamancer",
+        "characteristicName": "Mystic Deepwater Conjuror",
+        "artisticName": "Abyssal Tidecaller",
+        "powerLevel": "legendary",
+        "unitClass": "shaman"
+      }
+    ]
+  },
+  "worldName": "Sunset Eclipse Valleys",
+  "story": "In the realm of Sunset Eclipse Valleys, a mysterious darkness has descended, blurring the boundary between the living and the dead. The ethereal phantoms led by the Shadow Haunting Spectre seek to consume the world in eternal gloom. The Decayed Infernal Lord Blightsoul and the Mystic Deepwater Conjuror Abyssal Tidecaller aid in spreading chaos, each with their own nefarious agendas. The fate of the world hangs in the balance as heroes rise to challenge these malevolent forces.",
+  "greetingGameMessage": "Welcome, brave soul, to Sunset Eclipse Valleys. Beware the shadows that whisper and the waters that beckon, for darkness lurks within every corner. Will you champion the light against the encroaching night?",
+  "defeatEndingMessage": "With the defeat of the malevolent beings, the darkness slowly begins to dissipate. Hope returns to Sunset Eclipse Valleys as the spirits find peace and the land heals from the taint of evil. The hero's name echoes through the valleys, forever remembered for their bravery and sacrifice.",
+  "gameOverMessage": "Alas, the darkness proved too strong for the valiant hero. Sunset Eclipse Valleys falls into eternal night, haunted by the whispers of the Shadow Haunting Spectre and the laughter of the Abyssal Tidecaller. The world mourns the loss of its champion, as shadows reign supreme."
+}

@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Frozen Shadow Stalker",
+      "artisticName": "Frostwhisper",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense your presence, intruder. What brings you to these cursed lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to end the darkness that plagues this realm.",
+        "enemyAnswer": "Hah! A noble goal, but one that eludes even the most valiant of warriors. Do you truly believe you have what it takes to challenge the shadows?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Yes, I carry the light of hope within me.",
+            "enemyAnswer": "Hope is a fragile thing, easily extinguished in the face of true darkness. Beware, for the shadows hunger for such naivety.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not falter in my quest, no matter the trials.",
+                "enemyAnswer": "Bold words from a mere mortal. Let us see if your actions match your boasts.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps you are right. I should reconsider my approach.",
+                "enemyAnswer": "Wisdom shines in acknowledging one's limitations. You would do well to retreat.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am prepared to face whatever challenges lie ahead.",
+            "enemyAnswer": "Confidence or foolhardiness, the line is thin. The darkness devours both with equal fervor. How will you fare?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand firm in my beliefs and fight on.",
+                "enemyAnswer": "A brave soul you are, but bravery alone does not always guarantee victory. Let us test your mettle.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense caution in your words, perhaps I should rethink my strategy.",
+                "enemyAnswer": "Caution is a rare trait amidst the reckless. Heed your instincts, for they might just save you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I understand the risks, but my resolve remains unwavering.",
+            "enemyAnswer": "Resolve, a trait often mistaken for stubbornness. Will yours prove to be your strength or your downfall?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve is my shield, I shall not yield.",
+                "enemyAnswer": "Stubborn in your conviction. Let us see if it stands against the bleakness of despair.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps a strategic retreat is the prudent choice.",
+                "enemyAnswer": "Wise choice, for not all battles are meant to be fought head-on. Choose your path carefully.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a traveler passing through these lands.",
+        "enemyAnswer": "Traveler or trespasser, the difference is thin in these haunted lands. What purpose lies beneath your words?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm, only to find my path through these shadows.",
+            "enemyAnswer": "Intentions pave the road to ruin, whether of malice or ignorance. Be wary of where your path leads.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will tread lightly and leave these lands as soon as possible.",
+                "enemyAnswer": "Swift retreat is often the wise choice amidst malevolent whispers. May your steps be swift and silent.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I shall continue my journey undeterred by the darkness that surrounds me.",
+                "enemyAnswer": "Boldness in the face of the unknown is either bravery or foolishness. Time will reveal which path you walk.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek knowledge and understanding of this cursed realm.",
+            "enemyAnswer": "Knowledge is power, but power can be a curse in itself. What will you do with the truths you seek?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek to uncover the secrets that lie within these shadows.",
+                "enemyAnswer": "Secrets buried in darkness have a way of consuming those who unearth them. Tread carefully, seeker of truths.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps some truths are better left undiscovered. I shall depart in peace.",
+                "enemyAnswer": "The wise learn to fear the unknown, for ignorance is sometimes the greatest shield. May the shadows part for your passage.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am a wanderer, drawn to the mysteries of this desolate place.",
+            "enemyAnswer": "Mysteries and desolation often walk hand in hand. What draws you to these dark depths?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The allure of the unknown, the thrill of uncovering hidden truths.",
+                "enemyAnswer": "Curiosity, a flame that warms the soul or burns it to embers. Will you find enlightenment or ashes in these depths?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the mysteries here are too deep for my exploration. I shall seek solace elsewhere.",
+                "enemyAnswer": "The wise know when to turn away, when shadows grow longer and whispers turn to wails. Seek your solace in brighter realms.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the darkness and bring light to these lands.",
+        "enemyAnswer": "Challenge, a bold choice amidst the shroud of night. What makes you believe you are the one to bring light to the shadows?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My conviction is unwavering, fueled by the hope of a brighter future.",
+            "enemyAnswer": "Hope, a fragile thread in the tapestry of despair. Let us see if it holds fast when the darkness engulfs you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My hope shines brighter than any shadow, I will not yield.",
+                "enemyAnswer": "Bold defiance in the face of despair. We shall see if your will outlasts your bravado.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the shadows are too deep for even the brightest hope. I should consider a different path.",
+                "enemyAnswer": "Acknowledging the limits of brightness in the face of shadows is a wise choice. May your path lead you to safer shores.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I carry the light of righteousness within me, a beacon against the encroaching darkness.",
+            "enemyAnswer": "Righteousness, a double-edged sword in a realm where shadows claim even the noblest hearts. Will your light endure?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My light shall never falter, it will pierce through the darkness.",
+                "enemyAnswer": "A bold claim, for even the brightest flames are snuffed in the cold embrace of eternal night. Let us test your resolve.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the shadows hold too much sway here. I should retreat and shine my light elsewhere.",
+                "enemyAnswer": "Acknowledging the breadth of the shadows' reach is a rare sight. May your light guide you to safer paths.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The darkness may be vast, but the light I carry is infinite.",
+            "enemyAnswer": "Infinite light in a realm of endless shadows. A clash of realms, a dance of opposites. How will your dance unfold?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My light will pierce even the darkest night, it is my promise.",
+                "enemyAnswer": "Promises, fragile words in a realm where shadows whisper deceit. Let us see if your promise holds true.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps this dance of light and shadow is not meant for me. I shall step back and let the shadows reign.",
+                "enemyAnswer": "Acknowledging the harmony of light and shadow is a rare wisdom. May your steps lead you to quieter melodies.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

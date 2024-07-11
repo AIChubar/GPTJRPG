@@ -1,0 +1,119 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "freezing",
+      "characteristicName": "Frostbound Spectre",
+      "artisticName": "Iceshade Wraith",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 60,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 50,
+      "morality": 30,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Puny mortal, why do you dare to cross my path?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek no quarrel, I wish to pass in peace.",
+        "enemyAnswer": "Peace? *chuckles* Your words amuse me. What do you offer in return for safe passage?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer you knowledge of the arcane, a trade of information for passage.",
+            "enemyAnswer": "Knowledge, you say? Interesting. Proceed, but do not think your feeble attempts at diplomacy impress me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I appreciate your tolerance. Farewell, spectre.",
+                "enemyAnswer": "Leave my sight, insignificant being. Do not return unless you wish to face true darkness.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I'll remember your generosity. Thank you, spectral guardian.",
+                "enemyAnswer": "Remember, mortal, my generosity is fleeting. Begone before I change my mind.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I can offer you an artifact of great power in exchange for passage.",
+            "enemyAnswer": "An artifact? Show me this trinket of yours. If it pleases me, you may pass.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Here is the artifact, may it serve you well.",
+                "enemyAnswer": "A trinket fit for a mortal. Leave now, before I change my mind about sparing you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I'll keep the artifact, but thank you for allowing me to pass.",
+                "enemyAnswer": "Keep your token of mediocrity. Begone from my presence, I tire of your presence.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have nothing to offer but my skills in battle. Let me through or face the consequences.",
+            "enemyAnswer": "Bold words, mortal. Show me what you're capable of, if you dare.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare yourself, spectre, for you face Eldryn Stormcaller!",
+                "enemyAnswer": "Foolish mortal, your bravado will be your downfall. Face the icy wrath of the Frostbound Spectre!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I retreat, I meant no harm. I'll find another way.",
+                "enemyAnswer": "Pathetic. Flee while you can, coward. Cross my path again, and you won't escape.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here for pleasantries. Stand aside or face my wrath.",
+        "enemyAnswer": "Ah, arrogance. I shall enjoy extinguishing your flame, mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Try your best, wraith, but you won't defeat me.",
+            "enemyAnswer": "Bravery or foolishness? Let us find out, shall we? Prepare to embrace the cold embrace of the shadows!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I see you are not one for reason. Let our blades speak for us.",
+            "enemyAnswer": "Reason is wasted on the likes of you. Tremble before the power of the Frostbound Spectre!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "As you wish, I'll leave you to your solitude.",
+            "enemyAnswer": "Wise decision, mortal. Depart now, lest you tempt fate with your presence.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come offering a truce. Let us put aside our differences and unite against a common enemy.",
+        "enemyAnswer": "A truce? How amusing. And why should I trust the words of a pathetic creature like yourself?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Because together, we can achieve greatness. Trust me, ally with me.",
+            "enemyAnswer": "Greatness, you say? Perhaps there is merit in your words. Very well, mortal, I shall entertain this alliance... for now.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "You don't have to trust me, but working together benefits us both.",
+            "enemyAnswer": "Trust is a luxury I do not afford. Very well, let this truce be a temporary convenience for us both.",
+            "outcome": "ally"
+          }
+        ]
+      }
+    ]
+  }
+}

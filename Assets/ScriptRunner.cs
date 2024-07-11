@@ -13,50 +13,16 @@ public class ScriptRunner : MonoBehaviour
 {
     public GameObject creating;
     
-    public Button[] buttonsToDisable;
     public void GenerateNewWorld()
     {
         StartCoroutine(RunScriptAndManageObject());
     }
-    
-    public void DisableInput()
-    {
-        foreach (Button button in buttonsToDisable)
-        {
-            button.interactable = false; 
-        }
-    }
-    
-    public void EnableInput()
-    {
-        foreach (Button button in buttonsToDisable)
-        {
-            button.interactable = true; 
-        }
-    }
-    
-    public void DeleteCurrentWorld()
-    {
-        if (WorldManager.worldManager.currentWorld == null)
-            return;
-        string worldFolderPath = Application.streamingAssetsPath + @"/Worlds/" +
-                                 WorldManager.worldManager.currentWorld.folderName;
-        File.Delete(worldFolderPath + ".meta");
-
-        if (Directory.Exists(worldFolderPath))
-        {
-            Directory.Delete(worldFolderPath, true); 
-        }
-        WorldManager.worldManager.Worlds.Remove(WorldManager.worldManager.currentWorld.worldName.text);
-        Destroy(WorldManager.worldManager.currentWorld.gameObject);
-    }
-
-    
-
     IEnumerator RunScriptAndManageObject()
     {
         creating.SetActive(true);
-        DisableInput();
+        WorldManager.worldManager.inputDisabled = true;
+
+        WorldManager.worldManager.DisableInput();
         var scriptArguments = "-ExecutionPolicy Bypass -File \"" + Application.streamingAssetsPath + @"/API/create_world.ps1" + "\"";
         var processStartInfo = new ProcessStartInfo("powershell.exe", scriptArguments);
         processStartInfo.RedirectStandardOutput = true;
@@ -92,8 +58,10 @@ public class ScriptRunner : MonoBehaviour
             {
                 yield return null; 
             }
+
+            WorldManager.worldManager.inputDisabled = false;
             creating.SetActive(false);
-            EnableInput();
+            WorldManager.worldManager.EnableInput();
 
             if (error != "")
             {

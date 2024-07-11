@@ -1,0 +1,168 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "draconid",
+      "secondAttribute": "dragon",
+      "thirdAttribute": "ice",
+      "characteristicName": "Glacial Frostwyrm Sentinel",
+      "artisticName": "Frostscale Iceguard",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 60,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 40,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Frostscale Iceguard, protector of the icy dominion. What brings a mere mortal like you to face the might of the Glacial Frostwyrm Sentinel?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come seeking knowledge and peace. We could learn much from each other.",
+        "enemyAnswer": "Knowledge is power, but peace is fragile. Your intentions are intriguing, mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Let us form an alliance and stand together against greater threats.",
+            "enemyAnswer": "An alliance with the Frostscale Iceguard? An interesting proposal. Perhaps there is merit in unity against the looming darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we can vanquish the Shadow Haunting Spectre and bring light to these lands.",
+                "enemyAnswer": "A bold declaration. Very well, mortal. The Glacial Frostwyrm Sentinel shall stand by your side in the battle against darkness.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I sense doubt in your words. If you cannot trust me, then prepare for battle.",
+                "enemyAnswer": "Doubt is but a fleeting shadow. If battle is what you seek, prepare to face the icy wrath of the Frostscale Iceguard.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek only peaceful coexistence. Let us avoid needless conflict.",
+            "enemyAnswer": "Peaceful coexistence? A noble sentiment, but the icy domain demands vigilance. I shall consider your words, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If conflict arises, I will not hesitate to defend myself.",
+                "enemyAnswer": "A wise decision, mortal. The Frostscale Iceguard respects strength and determination. Proceed on your path with caution.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I sense your hesitation. If you doubt my intentions, speak now.",
+                "enemyAnswer": "Hesitation is a luxury I cannot afford. Proceed as you will, mortal. The Frostscale Iceguard shall remain vigilant.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The darkness encroaches, and alliances are necessary. Will you stand with me or against me?",
+            "enemyAnswer": "The Glacial Frostwyrm Sentinel stands alone, yet is not blind to the shifting tides. Your proposition is noted, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I urge you to reconsider. Together, we can overcome any foe.",
+                "enemyAnswer": "Reconsideration is a rare gift. Your words hold weight, mortal. The Frostscale Iceguard shall observe the trials ahead.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you choose defiance, then prepare to face the consequences.",
+                "enemyAnswer": "Defiance is met with resolve. Prepare yourself, mortal, for the cold embrace of the Glacial Frostwyrm Sentinel.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking power and glory. Stand aside or face the consequences.",
+        "enemyAnswer": "Power and glory are fickle prizes in the icy expanse. Your arrogance precedes you, mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You dare question my authority? Prepare to be humbled by my strength.",
+            "enemyAnswer": "Authority is earned through action, not empty words. Face the wrath of the Frostscale Iceguard, mortal.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I have no time for empty threats. An alliance could benefit us both.",
+            "enemyAnswer": "Bargaining with power? A risky gambit, mortal. The Frostscale Iceguard shall entertain your proposal for now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us join forces to conquer all who oppose us.",
+                "enemyAnswer": "Conquest is a dangerous game, mortal. The Frostscale Iceguard will observe your actions closely.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you hesitate, I will consider you an enemy. Choose wisely.",
+                "enemyAnswer": "Hesitation is a luxury I do not indulge in. Your threats are noted, mortal. Proceed with caution.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek no quarrel with you. Let us coexist peacefully.",
+            "enemyAnswer": "Quarrels are born of pride and ambition. Your words are noted, mortal, but actions speak louder than intentions.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If peace is not an option, then prepare for battle.",
+                "enemyAnswer": "Battle it is, then. The Frostscale Iceguard accepts your challenge, mortal.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see resolve in your eyes. Let us respect each other's domains.",
+                "enemyAnswer": "Resolve is a rare trait. The Frostscale Iceguard acknowledges your stance. Proceed with caution, mortal.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge your strength. Prepare for a battle like no other.",
+        "enemyAnswer": "Challenge the Glacial Frostwyrm Sentinel? Bold words, mortal. You shall soon feel the chill of regret.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I welcome your challenge. Let our strength be tested in combat.",
+            "enemyAnswer": "A true warrior's spirit. Prepare yourself for the icy fury of the Frostscale Iceguard, mortal.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Perhaps there is another way. Let us settle this with a test of wit instead of blades.",
+            "enemyAnswer": "A test of wit? An unexpected proposal. The Frostscale Iceguard will entertain your offer for now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If you seek to outsmart me, be prepared for the consequences.",
+                "enemyAnswer": "Consequences are the shadows of actions. Face the Frostscale Iceguard's challenge, mortal. Let intellect be your guide.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let our minds clash instead of our bodies. Are you prepared for the challenge?",
+                "enemyAnswer": "A clash of minds? A curious proposition indeed. The Frostscale Iceguard will indulge in this trial of wits for now.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense hesitation in your stance. If you fear defeat, then step aside.",
+            "enemyAnswer": "Fear is a foreign concept to the Glacial Frostwyrm Sentinel. Prepare yourself, mortal, for the chilling certainty of battle.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Defeat is not an option for me. Prepare for a battle you will not forget.",
+                "enemyAnswer": "Bold words from a bold challenger. The Frostscale Iceguard accepts your challenge. Let combat be our judge.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If you seek to avoid conflict, I will give you that chance. Choose wisely.",
+                "enemyAnswer": "Avoiding conflict is a luxury I cannot afford. The Frostscale Iceguard embraces the challenge you present, mortal.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

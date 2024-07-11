@@ -56,7 +56,7 @@ public class BattleSystem : MonoBehaviour
     
     private IEnumerator _action;
     
-    [SerializeField] private Button completeActionButton;
+    //[SerializeField] private Button completeActionButton;
 
     [SerializeField] private Button attackButton;
     
@@ -69,6 +69,11 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField]
     private Camera _camera;
+    
+    
+
+    [HideInInspector]
+    public Sound CurrentSound;
 
     private void Start()
     {
@@ -171,6 +176,7 @@ public class BattleSystem : MonoBehaviour
     
     public void OnAttackButtonPressed()
     {
+        AudioManager.instance.Play(GameManager.gameManager.ButtonClick);
         if (_battleState != BattleState.PLAYERTURN || _actionState == ActionState.ATTACK)
             return;
         StopSelectingTarget();
@@ -184,45 +190,76 @@ public class BattleSystem : MonoBehaviour
     
     public void OnDefendButtonPressed()
     {
+        AudioManager.instance.Play(GameManager.gameManager.ButtonClick);
         if (_battleState != BattleState.PLAYERTURN  || _actionState == ActionState.DEFEND)
             return;
         StopSelectingTarget();
 
         _action = PlayerDefend();
         _actionState = ActionState.DEFEND;
+        
+        DisableInput();
+
+        StartCoroutine(_action);
     }
     
     public void OnAbilityButtonPressed()
     {
+        AudioManager.instance.Play(GameManager.gameManager.ButtonClick);
         if (_battleState != BattleState.PLAYERTURN  || _actionState == ActionState.ABILITY)
             return;
         StopSelectingTarget();
         var currentAllyUnit = _currentAlly.GetComponent<Unit>();
+        _action = PlayerAbility();
+        _actionState = ActionState.ABILITY;
+
         switch (currentAllyUnit.unitType)
         {
-            case Unit.UnitType.striker:
+            case Unit.UnitType.sorcerer:
+                CurrentSound = GameManager.gameManager.SorcererSound;
                 waitingForEnemyToSelect = true;
                 break;
-            case Unit.UnitType.balancer:
+            case Unit.UnitType.healer:
+                CurrentSound = GameManager.gameManager.HealerSound;
                 waitingForAllyToSelect = true;
                 break;
             case Unit.UnitType.trickster:
+                CurrentSound = GameManager.gameManager.TricksterSound;
                 waitingForEnemyToSelect = true;
                 break;
-            case Unit.UnitType.sniper:
+            case Unit.UnitType.marksman:
                 waitingForEnemyToSelect = true;
+                CurrentSound = GameManager.gameManager.MarksmanSound;
                 break;
             case Unit.UnitType.fighter:
-            case Unit.UnitType.guardian:
-            case Unit.UnitType.tank:
-            case Unit.UnitType.fortress:
+            case Unit.UnitType.paladin:
+                DisableInput();
+                CurrentSound = GameManager.gameManager.PaladinSound;
+                StartCoroutine(_action);
+                break;
+            case Unit.UnitType.protector:
+                DisableInput();
+                CurrentSound = GameManager.gameManager.ProtectorSound;
+                StartCoroutine(_action);
+                break;
+            case Unit.UnitType.bastion:
+                DisableInput();
+                CurrentSound = GameManager.gameManager.BastionSound;
+                StartCoroutine(_action);
+                break;
             case Unit.UnitType.berserker:
-            case Unit.UnitType.savage:
+                DisableInput();
+                CurrentSound = GameManager.gameManager.BerserkerSound;
+                StartCoroutine(_action);
+                break;
+            case Unit.UnitType.shaman:
+                DisableInput();
+                CurrentSound = GameManager.gameManager.ShamanSound;
+                StartCoroutine(_action);
+                break;
             default:
                 break;
         }
-        _action = PlayerAbility();
-        _actionState = ActionState.ABILITY;
     }
 
     private void SelectNextAllyUnit()
@@ -264,37 +301,34 @@ public class BattleSystem : MonoBehaviour
     }
     
 
-    public void OnCompleteActionButtonPressed()
-    {
-        if (_actionState == ActionState.NONE || ((waitingForEnemyToSelect || waitingForAllyToSelect) && (_currentTarget is null || _currentTarget.Equals(null)) || _battleState != BattleState.PLAYERTURN))
-            return;
-        DisableInput();
-
-        StartCoroutine(_action);
-    }
 
     private IEnumerator PlayerAttack()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         Attack(_currentAlly, _currentTarget);
+        CurrentSound = GameManager.gameManager.AttackSound;
+        yield return AbilityIndicationAnimations(GameManager.gameManager.attackSprite ,new []{_currentEnemy.transform});
         yield return PassTurnToEnemy();
+        _action = null;
     }
     
     private IEnumerator PlayerDefend()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         Defend(_currentAlly);
-        
+        CurrentSound = GameManager.gameManager.DefendSound;
         yield return AbilityIndicationAnimations(GameManager.gameManager.armouredSprite, new []{_currentAlly.transform});
         yield return PassTurnToEnemy();
+        _action = null;
 
     }
     private IEnumerator PlayerAbility()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         var currentAllyUnit = _currentAlly.GetComponent<Unit>();
         yield return currentAllyUnit.UnitAbility();
         yield return PassTurnToEnemy();
+        _action = null;
 
     }
 
@@ -307,7 +341,16 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(1.0f);
         EnemyAction();
     }
-    public IEnumerator AbilityIndicationAnimations(Sprite sprite, Transform[] targets)
+    
+    private IEnumerator EnemyAttackAnimation(GameObject attacking, GameObject attacked)
+    {
+        GameManager.gameManager.OutlineObject(attacked, true);
+        CurrentSound = GameManager.gameManager.AttackSound;
+        yield return AbilityIndicationAnimations(GameManager.gameManager.attackSprite , new []{_currentEnemy.transform});
+        Attack(attacking, attacked);
+        GameManager.gameManager.OutlineObject(attacked, false);
+    }
+    public IEnumerator AbilityIndicationAnimations(Sprite sprite ,Transform[] targets)
     {
         List<AbilityIndication> abilityIndications = new List<AbilityIndication>();
         foreach (var target in targets)
@@ -328,6 +371,7 @@ public class BattleSystem : MonoBehaviour
             }
             yield return null;
         }
+        AudioManager.instance.Play(CurrentSound);
         yield return new WaitForSeconds(0.5f);
 
         for (float t = 0; t < 1; t += Time.deltaTime / 0.5f)
@@ -361,7 +405,7 @@ public class BattleSystem : MonoBehaviour
         {
             currentEnemyunit.SkipTurn();
         }
-        else if (currentEnemyunit.attacksRandomAlly > 0)
+        else if (currentEnemyunit.attacksRandomAlly > 0 && _enemies.Count > 1)
         {
             
             int attackedEnemyIndex;
@@ -371,19 +415,13 @@ public class BattleSystem : MonoBehaviour
             } while (attackedEnemyIndex == _currentEnemyIndex);
 
             var attackedEnemy = _enemies[attackedEnemyIndex];
-            GameManager.gameManager.OutlineObject(attackedEnemy, true);
-            yield return new WaitForSeconds(0.5f);
-            Attack(_currentEnemy, attackedEnemy);
-            GameManager.gameManager.OutlineObject(attackedEnemy, false);
+            yield return EnemyAttackAnimation(_currentEnemy, attackedEnemy);
             currentEnemyunit.attacksRandomAlly--;
             
         }
         else if (allyTauntCaster is not null && !allyTauntCaster.Equals(null))
         {
-            GameManager.gameManager.OutlineObject(allyTauntCaster, true);
-            yield return new WaitForSeconds(0.5f);
-            Attack(_currentEnemy, allyTauntCaster);
-            GameManager.gameManager.OutlineObject(allyTauntCaster, false);
+            yield return EnemyAttackAnimation(_currentEnemy, allyTauntCaster);
         }
         else
         {
@@ -396,10 +434,7 @@ public class BattleSystem : MonoBehaviour
             int attackedAllyIndex = Random.Range(0, _allies.Count);
             
             var attackedAlly = _allies[attackedAllyIndex];
-            GameManager.gameManager.OutlineObject(attackedAlly, true);
-            yield return new WaitForSeconds(0.5f);
-            Attack(_currentEnemy, attackedAlly);
-            GameManager.gameManager.OutlineObject(attackedAlly, false);
+            yield return EnemyAttackAnimation(_currentEnemy, attackedAlly);
         }
         _battleState = BattleState.PLAYERTURN;
         GameManager.gameManager.OutlineObject(_currentEnemy, false);
@@ -426,11 +461,13 @@ public class BattleSystem : MonoBehaviour
     {
         if (_currentTarget is not null && !_currentTarget.Equals(null))
         {
-            GameManager.gameManager.OutlineObject(target, false);
+            GameManager.gameManager.OutlineObject(_currentTarget, false);
         }
 
+        waitingForAllyToSelect = false;
+        waitingForEnemyToSelect = false;
         _currentTarget = target;
-        GameManager.gameManager.OutlineObject(target, true);
+        GameManager.gameManager.OutlineObject(_currentTarget, true);
     }
 
     private void Attack(GameObject attacking, GameObject attacked)
@@ -474,16 +511,14 @@ public class BattleSystem : MonoBehaviour
     public void DisableInput()
     {
         attackButton.interactable = false;
-        completeActionButton.interactable = false;
         defendButton.interactable = false;
         abilityButton.interactable = false;
     }
     public void EnableInput()
     {
         attackButton.interactable = true;
-        completeActionButton.interactable = true;
         defendButton.interactable = true;
-        abilityButton.interactable = true;
+        abilityButton.interactable = _currentAlly.GetComponent<Unit>().unitType != Unit.UnitType.fighter;
 
     }
     // Update is called once per frame
@@ -515,10 +550,14 @@ public class BattleSystem : MonoBehaviour
                         {
                             if (obj.abilityButton)
                             {
+                                if (GameManager.gameManager == null || GameManager.gameManager.Equals(null))
+                                {
+                                    Debug.LogError("Game Manager is not initialized");
+                                }
                                 var currentClass = GameManager.gameManager.classesDescriptions[_currentAlly.GetComponent<Unit>().unitType];
-                                obj.headerRow = currentClass.className;
-                                obj.firstRow = currentClass.abilityDescription;
-                                obj.secondRow = currentClass.abilityCooldown;
+                                obj.firstRow = currentClass.className;
+                                obj.secondRow = currentClass.abilityDescription;
+                                obj.thirdRow = currentClass.abilityCooldown;
                             }
                             infoHUD.SetHUD(obj);  
                             gotTarget = true;  
@@ -555,7 +594,9 @@ public class BattleSystem : MonoBehaviour
                     //bool gotTarget = false;  
                     foreach( RaycastHit2D hit in hits ){ 
                         if( hit.transform.gameObject.layer == 3 && !hit.transform.gameObject.GetComponent<Unit>().isBeingDestroyed) {
-                            SelectNewTarget(hit.transform.gameObject);    
+                            SelectNewTarget(hit.transform.gameObject);
+                            DisableInput();
+                            StartCoroutine(_action);
                             break; 
                         }
                     }
@@ -570,6 +611,8 @@ public class BattleSystem : MonoBehaviour
                     foreach( RaycastHit2D hit in hits ){ 
                         if( hit.transform.gameObject.layer == 6 && !hit.transform.gameObject.GetComponent<Unit>().isBeingDestroyed) {
                             SelectNewTarget(hit.transform.gameObject);    
+                            DisableInput();
+                            StartCoroutine(_action);
                             break; 
                         }
                     }

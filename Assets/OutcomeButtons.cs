@@ -13,7 +13,8 @@ public class OutcomeButtons : MonoBehaviour
     [SerializeField] private Button recruit;
 
     [SerializeField] private Button amulet;
-
+    [Dropdown("AudioManager.Instance.Sounds", "Name")]
+    public Sound ButtonClick;
     private DialogueHUD _dialogueHUD;
     // Start is called before the first frame update
     public void SetOutcomeButtons(DialogueHUD.Outcome outcome, DialogueHUD dh)
@@ -31,26 +32,33 @@ public class OutcomeButtons : MonoBehaviour
     public void OnClickedFight()
     {
         GameManager.gameManager.pauseMenu.BeginBattle();
+        AudioManager.instance.Play(ButtonClick);
+
     }
 
     public void OnClickedIgnore()
     {
         GameManager.gameManager.pauseMenu.ResumeGame();
+        AudioManager.instance.Play(ButtonClick);
     }
 
     public void OnClickedRecruit()
     {
+
         GameManager.gameManager.pauseMenu.ShowRecruitSystemMenu(_dialogueHUD.group);
         foreach (var unitData in _dialogueHUD.group.units)
         {
             GameEvents.gameEvents.UnitUnited(unitData);
         }
+        AudioManager.instance.Play(ButtonClick);
+
     }
     
     public void OnClickedAmuletRecruit()
     {
         if (GameManager.gameManager.hero.amuletOfAlliance < 1)
             return;
+        AudioManager.instance.Play(ButtonClick);
         GameManager.gameManager.hero.amuletOfAlliance--;
         GameManager.gameManager.pauseMenu.ShowRecruitSystemMenu(_dialogueHUD.group);
         foreach (var unitData in _dialogueHUD.group.units)

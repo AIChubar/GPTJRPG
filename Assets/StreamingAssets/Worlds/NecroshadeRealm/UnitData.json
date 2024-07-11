@@ -1,0 +1,307 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Ethereal Twilight Plains",
+      "enemyGroups": [
+        {
+          "groupName": "Twilight Phantoms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Ethereal Spectral Dragon",
+              "artisticName": "Zyraethos",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "giant",
+              "characteristicName": "Spectral Giant Phantom",
+              "artisticName": "Argothrax",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "hydra",
+              "characteristicName": "Spectral Hydra Phantom",
+              "artisticName": "Nyxalor",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Shadow Stalker",
+              "artisticName": "Vespera Nightshade",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Ghostly Wraith",
+              "artisticName": "Spectraeth",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Ghost Warrior",
+              "artisticName": "Phasmir",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Revenants",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Ancient Lich Mage",
+              "artisticName": "Mortarion Frostgrave",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Lich Necromancer",
+              "artisticName": "Necrothos",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Dread Lich Summoner",
+              "artisticName": "Xyronus Shadowweaver",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Frost Peaks",
+      "enemyGroups": [
+        {
+          "groupName": "Frostbite Phantasms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Frozen Spectral Dragon",
+              "artisticName": "Frostreaver",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "giant",
+              "characteristicName": "Icy Giant Phantom",
+              "artisticName": "Glacialith",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "hydra",
+              "characteristicName": "Frostbound Hydra Phantom",
+              "artisticName": "Cryosalis",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Frostfall Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Frozen Shadow Stalker",
+              "artisticName": "Frostwhisper",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Chill Wraith",
+              "artisticName": "Frosthaven",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Frozen Ghost Warrior",
+              "artisticName": "Frostblade",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Icebound Revenants",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Frost Lich Mage",
+              "artisticName": "Icerend Shadowfrost",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Glacial Lich Necromancer",
+              "artisticName": "Frostbinder",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Icy Lich Summoner",
+              "artisticName": "Frostgrave",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Void Shadow Citadel",
+      "enemyGroups": [
+        {
+          "groupName": "Shadowed Phantoms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Shadowed Spectral Dragon",
+              "artisticName": "Umbrathor",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "giant",
+              "characteristicName": "Dark Giant Phantom",
+              "artisticName": "Necroshade",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "hydra",
+              "characteristicName": "Void Hydra Phantom",
+              "artisticName": "Abyssalisk",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Dark Shadow Stalker",
+              "artisticName": "Shadewraith",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Void Wraith",
+              "artisticName": "Nethercloak",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Shadowed Ghost Warrior",
+              "artisticName": "Duskblade",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Void Revenants",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Void Lich Mage",
+              "artisticName": "Nihilus Shadowcaster",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Ethereal Lich Necromancer",
+              "artisticName": "Soulweaver",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Void Lich Summoner",
+              "artisticName": "Shadewalker",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

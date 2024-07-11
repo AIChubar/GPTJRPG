@@ -11,10 +11,12 @@ public class DialogueButton : MonoBehaviour
     private DialogueHUD _dialogueHUD;
 
     private JSONReader.PlayerCharacterAnswer _optionBranch;
-
+    [Dropdown("AudioManager.Instance.Sounds", "Name")]
+    public Sound ButtonClick;
     public void OnClicked()
     {
         _dialogueHUD.chosenOption = _optionBranch;
+        AudioManager.instance.Play(ButtonClick);
     }
     public IEnumerator SetButton(JSONReader.PlayerCharacterAnswer option, DialogueHUD dh)
     {

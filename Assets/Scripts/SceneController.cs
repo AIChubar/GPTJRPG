@@ -14,7 +14,11 @@ public class SceneController : MonoBehaviour
     
     private static SceneController instance;
 
+    [Dropdown("AudioManager.Instance.Sounds", "Name")]
+    public Sound LevelMusic;
     
+    [Dropdown("AudioManager.Instance.Sounds", "Name")]
+    public Sound MenuMusic;
 
     private int currentSceneIndex = 0;
 
@@ -33,6 +37,11 @@ public class SceneController : MonoBehaviour
             fader.gameObject.SetActive(false);
         }
         
+    }
+    
+    void Start()
+    {
+        AudioManager.instance.Play(MenuMusic);
     }
     
     void OnEnable()
@@ -62,14 +71,19 @@ public class SceneController : MonoBehaviour
     {
         if (currentSceneIndex >= 1)
             GameManager.gameManager.transitioning = true;
-        Time.timeScale = 1.0f;
+        Time.timeScale = 0.0f;
         fader.gameObject.SetActive(true);
-        for (float t = 0; t < 1; t += Time.deltaTime / closingDuration)
+        
+        AudioManager.instance.Stop(MenuMusic);
+        AudioManager.instance.Stop(LevelMusic);
+        for (float t = 0; t < 1; t += Time.unscaledDeltaTime / closingDuration)
         {
             fader.color = new Color(0, 0, 0, Mathf.Lerp(0, 1, t));
             yield return null;
         }
-        
+        if (index == 0)
+            Destroy(GameManager.gameManager.gameObject);
+
         if (additive)
         {
             GameManager.gameManager.SceneAdditive();
@@ -91,16 +105,33 @@ public class SceneController : MonoBehaviour
                 
             }
         }
+        currentSceneIndex = index;
         
-        yield return new WaitForSeconds(waitTime);
-        if (index == 1)
-            GameManager.gameManager.SceneLoaded();
-        for (float t = 0; t < 1; t += Time.deltaTime / openingDuration)
+        yield return new WaitForSecondsRealtime(waitTime);
+        
+        if (index == 0)
+            AudioManager.instance.Play(MenuMusic);
+        else if (index > 0)
+            AudioManager.instance.Play(LevelMusic);
+        
+        for (float t = 0; t < 1; t += Time.unscaledDeltaTime / openingDuration)
         {
             fader.color = new Color(0, 0, 0, Mathf.Lerp(1, 0, t));
             yield return null;
         }
+        Time.timeScale = 1.0f;
+        
+        if (currentSceneIndex >= 1 && GameManager.gameManager != null)
+            GameManager.gameManager.transitioning = false;
+        
+        
 
+        
+        fader.gameObject.SetActive(false);
+        if (GameManager.gameManager == null || GameManager.gameManager.Equals(null))
+            yield break;
+        if (index == 1)
+            GameManager.gameManager.SceneLoaded();
         if (toUnload)
         {
             GameManager.gameManager.SceneFinishedUnloading();
@@ -108,13 +139,7 @@ public class SceneController : MonoBehaviour
         }
         if (index == 1)
             GameManager.gameManager.SceneFinishedLoading();
-       
-        
-        fader.gameObject.SetActive(false);
-        if (currentSceneIndex >= 1)
-            GameManager.gameManager.transitioning = false;
 
-        currentSceneIndex = index;
     }
     
     

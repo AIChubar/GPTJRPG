@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "skeleton",
+      "thirdAttribute": "ugly_thing",
+      "characteristicName": "Decrepit Bone Horror",
+      "artisticName": "Fleshrot Dreadfiend",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 25,
+      "strategicThinking": 75,
+      "indifference": 15,
+      "flexibility": 10,
+      "communicationSkills": 15,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Bones crack beneath my footsteps, fleshbags like you are a nuisance. What do you want, interloper?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to understand the darkness that surrounds this land.",
+        "enemyAnswer": "Understanding? How quaint. Mortals like you prattle on about matters beyond your feeble comprehension.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "We must find a way to coexist peacefully in this realm.",
+            "enemyAnswer": "Peace? Ha! Your naivety is amusing. The strong dominate, the weak perish. It's the law of this forsaken land.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer you a truce, let us stand together against the true enemies lurking in the shadows.",
+                "enemyAnswer": "A truce? You speak folly. I have no interest in alliances with fragile beings. You will merely delay your inevitable demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense fear in your words, let us part ways and avoid needless conflict.",
+                "enemyAnswer": "Fear? Pathetic. You mistake calculation for fear. I have no need to waste energy on your insignificant presence.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The darkness may be all-encompassing, but unity can bring light even in the bleakest of times.",
+            "enemyAnswer": "Unity? Perhaps in your tales of whimsy. In this realm, discord reigns supreme. Unity is but a fleeting dream.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let our differences be our strength, together we can defy the darkness that threatens us.",
+                "enemyAnswer": "Defiance? Bold words from a fragile being. Your attempts at persuasion are feeble. Prepare for the reckoning.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense your reluctance. I shall leave you to your solitude, may our paths never cross again.",
+                "enemyAnswer": "Solitude is my ally, as shall be your absence. Begone, insignificant creature, your presence irks me.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The shadows may be deep, but with understanding, we can illuminate even the darkest corners.",
+            "enemyAnswer": "Understanding? You speak of matters beyond your grasp. The shadows hold secrets you are not worthy to comprehend.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us unravel these mysteries together, for in knowledge lies power and unity.",
+                "enemyAnswer": "Knowledge is power, but it is not freely given. Your eagerness to meddle in matters beyond your ken is your own undoing.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see your disdain. Farewell, may your darkness be your only companion.",
+                "enemyAnswer": "Disdain? Merely recognition of your insignificance. I care not for your presence, depart and trouble me no more.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in search of a way to bring balance to this fractured realm.",
+        "enemyAnswer": "Balance? What would a mere mortal know of balance? Your kind disrupt the natural order with your fleeting existence.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Let us work together to restore harmony, for the sake of all who dwell in this land.",
+            "enemyAnswer": "Harmony? A lofty goal, but one that is beyond reach. The discord sown by your kind cannot be undone.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "In unity, there is strength. Let us join forces against the chaos that plagues these lands.",
+                "enemyAnswer": "Strength in unity? A pitiful attempt to sway me. Your words ring hollow, to stand against chaos is to embrace folly.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense your hostility. It is clear our paths diverge here, may we meet no more.",
+                "enemyAnswer": "Hostility? Merely a reflection of your own weakness. Depart, lesser being, and trouble me no further.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The scales must be balanced, even in the presence of darkness. Let us seek equilibrium together.",
+            "enemyAnswer": "Equilibrium? A fleeting concept in a world of chaos. Your attempts at balance will only lead to further discord.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Join me in the pursuit of balance, together we can tip the scales away from the encroaching darkness.",
+                "enemyAnswer": "Balance? Your words are empty, your actions meaningless. I have no interest in your misguided quest.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I feel your resistance. Farewell, may the shadows grant you solace in your isolation.",
+                "enemyAnswer": "Resistance? Mere acknowledgment of your insignificance. Be gone, insignificant one, trouble me no more.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "In the dance of light and shadow, there lies a delicate balance. Let us navigate this dance together.",
+            "enemyAnswer": "Balancing light and shadow? A fool's errand. Your efforts are in vain, the dance of darkness devours all.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Walk with me through the shadows, for together we can find the equilibrium that eludes us.",
+                "enemyAnswer": "Equilibrium eludes you, as does wisdom. Your path is paved with folly, and I have no patience for fools.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your animosity is palpable. I shall take my leave, may our paths never cross again.",
+                "enemyAnswer": "Animosity? Recognition of your insignificance, nothing more. Depart, insignificant one, your presence is a nuisance.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I aim to uncover the secrets shrouded in darkness, to bring them to the light of understanding.",
+        "enemyAnswer": "Secrets? The darkness holds no truths for the likes of you. Curiosity is a luxury you cannot afford, mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Together, we can unveil the mysteries that lurk in the shadows, for knowledge is our common pursuit.",
+            "enemyAnswer": "Knowledge is power, but power is not shared lightly. Your arrogance blinds you, mortal. Prepare for your downfall.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "United in our quest for truth, we can overcome the darkness that clouds our land.",
+                "enemyAnswer": "Truth is a fickle thing, easily distorted by mortal minds. Your quest is futile, and your end nears.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense your contempt. I shall withdraw, may the shadows keep your secrets buried.",
+                "enemyAnswer": "Contempt? Mere acknowledgment of your insignificance. Leave, interloper, your presence is a thorn in my side.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The unknown beckons, let us join forces to unravel the enigmas that haunt this realm.",
+            "enemyAnswer": "Enigmas elude you, as does reason. Your quest for knowledge will lead only to your demise, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "In unity, there is strength. Together, we can conquer the shadows that obscure the path to truth.",
+                "enemyAnswer": "Strength in unity? A delusion that will be shattered. Your attempts at persuasion amuse me, but they are in vain.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your hostility is palpable. I shall take my leave, may the darkness consume your secrets.",
+                "enemyAnswer": "Hostility? Merely recognition of your insignificance. Vanish, insignificant creature, you are a mere annoyance.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "In the pursuit of knowledge, we can uncover the truths that lie hidden in the shadows, together.",
+            "enemyAnswer": "Knowledge eludes those who grasp for it blindly. Your pursuit is in vain, mortal. The darkness will be your end.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us delve into the mysteries together, for in discovery lies enlightenment and unity.",
+                "enemyAnswer": "Discovery is a double-edged sword, one you are ill-equipped to wield. Your end draws near, foolhardy mortal.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your disdain is evident. I shall take my leave, may the shadows guard your secrets forevermore.",
+                "enemyAnswer": "Disdain? Recognition of your insignificance. Depart, insignificant one, your presence is a nuisance.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

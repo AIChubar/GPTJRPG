@@ -4,6 +4,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Battle Journal logic and controls.
+/// </summary>
 public class BattleJournal : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI journalText;
@@ -25,12 +28,14 @@ public class BattleJournal : MonoBehaviour
 
     public void OnJournalOpened()
     {
+        AudioManager.instance.Play(GameManager.gameManager.ButtonClick);
         StartCoroutine(ForceScrollDown());
         journalButton.interactable = false;
         Time.timeScale = 0f;
     }
     public void OnJournalClosed()
     {
+        AudioManager.instance.Play(GameManager.gameManager.ButtonClick);
         journalButton.interactable = true;
         Time.timeScale = 1f;
     }

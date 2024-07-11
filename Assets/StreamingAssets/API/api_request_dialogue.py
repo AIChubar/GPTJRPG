@@ -3,24 +3,32 @@ import os
 import json
 import re
 
-structure_file = open("structure_dialogue.json", "r")
-units_file = open("units.json", "r")
+
+
+with open('units.json', 'r') as file:
+    units_content = file.read()
 
 with open('current_world.json', 'r') as file:
     current_world_data = json.load(file)
     
-structure_content = structure_file.read()
-units_content = units_file.read()
+with open('structure_dialogue.json', 'r') as file:
+    structure_content = file.read()
 
 current_world_name = current_world_data["worldName"]
 world_folder_path = os.path.join(os.pardir, "Worlds", current_world_name)
 
-narrative_file = open(os.path.join(world_folder_path, "Narrative.json"), "r")
-levels_file = open(os.path.join(world_folder_path, "Levels.json"), "r")
-main_character_file = open(os.path.join(world_folder_path, "MainCharacter.json"), "r")
-units_file = open(os.path.join(world_folder_path, "UnitData.json"), "r")
 
-units_data = json.load(units_file)
+with open(os.path.join(world_folder_path, "Narrative.json"), "r") as file:
+    narrative_content = file.read()
+with open(os.path.join(world_folder_path, "Levels.json"), "r") as file:
+    levels_content = file.read()
+with open(os.path.join(world_folder_path, "MainCharacter.json"), "r") as file:
+    main_character_content = file.read()
+with open(os.path.join(world_folder_path, "UnitData.json"), "r") as file:
+    units_data_content = file.read()
+with open(os.path.join(world_folder_path, "MainCharacter.json"), "r") as file:
+    main_character_content = file.read()
+units_data = json.loads(units_data_content)
 folder_path = os.path.join(os.pardir, "Worlds")
 
 for level in units_data["levelsUnits"]:
@@ -34,6 +42,7 @@ for level in units_data["levelsUnits"]:
         response = openai.chat.completions.create(
             model="gpt-3.5-turbo-0125",
             temperature=1.0,
+            max_tokens=4096,
             response_format={"type": "json_object"},
             messages=[
                 {
@@ -41,7 +50,7 @@ for level in units_data["levelsUnits"]:
                     "content": "#Setting: \n You are a creative assistant for creating textual game content for the created fantasy game world. You need to follow instructions while being creative and artistic. \n"
                                "#Instructions: \n "
                                "Your are given a fantasy world with its description, levels, units: \n"
-                                + narrative_file.read() + "\n" + main_character_file.read() + "\n" + levels_file.read() + "\n" + units_file.read() + "\n" 
+                                + narrative_content + "\n" + main_character_content + "\n" + levels_content + "\n" + units_data_content + "\n" 
                                "The given unit will be a speaker that represents a group it is a part of, here is this unit data: \n" + json.dumps(first_enemy) + "\n"
                                "You should evaluate this unit behavioral metrics [aggressiveness, friendliness, intellect, strategicThinking, indifference, flexibility, communicationSkills, morality, braveness, chaotic] on 0 to 100 scale \n"
                                "I insist that you must do realistic evaluation of this unit in the given fantasy world assuming that it is cruel and creatures from here might not adore other creatures that are not alike. \n "
@@ -83,7 +92,7 @@ for level in units_data["levelsUnits"]:
         with open(dialogue_file_path, 'w') as f:
                     json.dump(json_result, f, indent=2)
 
-first_enemy = units_data["mainVillain"]["units"][0]
+first_enemy = json.loads(narrative_content)["antagonist"]
 artistic_name = first_enemy["artisticName"].replace(" ", "")
 dialogue_folder_path = os.path.join(world_folder_path, "Dialogues")
 os.makedirs(dialogue_folder_path, exist_ok=True)
@@ -99,7 +108,7 @@ response = openai.chat.completions.create(
             "content": "#Setting: \n You are a creative assistant for creating textual game content for the created fantasy game world. You need to follow instructions while being creative and artistic. \n"
                        "#Instructions: \n "
                        "Your are given a fantasy world with its description, levels, units: \n"
-                        + narrative_file.read() + "\n" + main_character_file.read() + "\n" + levels_file.read() + "\n" + units_file.read() + "\n" 
+                        + narrative_content + "\n" + main_character_content + "\n" + levels_content + "\n" + units_data_content + "\n" 
                        "The given unit is the main game villain: \n" + json.dumps(first_enemy) + "\n"
                        "You should evaluate this unit behavioral metrics [aggressiveness, friendliness, intellect, strategicThinking, indifference, flexibility, communicationSkills, morality, braveness, chaotic] on 0 to 100 scale \n"
                        "I insist that you must do realistic evaluation of this unit in the given fantasy world assuming that it is cruel and creatures from here might not adore other creatures that are not alike. \n "
@@ -133,7 +142,3 @@ json_result = json.loads(response.choices[-1].message.content)
 with open(dialogue_file_path, 'w') as f:
             json.dump(json_result, f, indent=2)
 
-structure_file.close()
-narrative_file.close()
-main_character_file.close()
-levels_file.close()

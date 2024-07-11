@@ -1,0 +1,385 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Gloaming Tundra",
+      "enemyGroups": [
+        {
+          "groupName": "Frostbound Legion",
+          "units": [
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "ice",
+              "characteristicName": "Glacial Frostwyrm Sentinel",
+              "artisticName": "Frostscale Iceguard",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "forest",
+              "characteristicName": "Verdant Wyrmstalker",
+              "artisticName": "Mossclaw Wyrmhunter",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Stonecrusher Mountain Brute",
+              "artisticName": "Boulderback Earthshaker",
+              "powerLevel": "formidable",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowscale Horde",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "ugly_thing",
+              "characteristicName": "Decrepit Bone Horror",
+              "artisticName": "Fleshrot Dreadfiend",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Spectral Wraithstalker",
+              "artisticName": "Soulchill Shadowprowler",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "sphinx",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Guardian Sphinx",
+              "artisticName": "Sandstone Sentinel",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Blizzard Legion",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "frost",
+              "characteristicName": "Glacial Colossus",
+              "artisticName": "Frostforge Titan",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stonebound Frostwing",
+              "artisticName": "Icystone Gargoyle",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Frostbite Vanguard",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Frostwing Wyrmrider",
+              "artisticName": "Glacial Talonrider",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "swamp",
+              "characteristicName": "Swampfire Drake",
+              "artisticName": "Bogflame Serpent",
+              "powerLevel": "moderate",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Thornhide Troll",
+              "artisticName": "Mossback Thicketguard",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Whispering Sands",
+      "enemyGroups": [
+        {
+          "groupName": "Sandswept Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "fish",
+              "characteristicName": "Skeletal Mariner",
+              "artisticName": "Coralbone Revenant",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "aquamancer",
+              "characteristicName": "Tidal Seawitch",
+              "artisticName": "Abyssal Sirensong",
+              "powerLevel": "mighty",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "ritualist",
+              "characteristicName": "Abyssal Serpentcaller",
+              "artisticName": "Soulcoil Enchantress",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Dunesweeper Legion",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Sunfire Wyvern",
+              "artisticName": "Sandflame Drakewing",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Sandstorm Lindwurm",
+              "artisticName": "Desertscale Wyrm",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Coralblade Duelist",
+              "artisticName": "Wavecrash Marauder",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Oasis Guardians",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "mermaid",
+              "thirdAttribute": "",
+              "characteristicName": "Lagoon Songstress",
+              "artisticName": "Siren of Serenity",
+              "powerLevel": "moderate",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "singer",
+              "characteristicName": "Whispering Temptress",
+              "artisticName": "Mistweave Enchantress",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Mirage Phalanx",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Sandstone Troll",
+              "artisticName": "Dunebreaker Brute",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "dryad",
+              "thirdAttribute": "",
+              "characteristicName": "Sandsong Dryad",
+              "artisticName": "Whisperleaf Nymph",
+              "powerLevel": "moderate",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Sandskulk Trickster",
+              "artisticName": "Whispershade Deceiver",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Catacombs",
+      "enemyGroups": [
+        {
+          "groupName": "Catacomb Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "lord",
+              "characteristicName": "Necrotic Archmage",
+              "artisticName": "Dreadlord Thanatos",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Shadeblade",
+              "artisticName": "Wraithblade Spectre",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Shadowed Trollwarrior",
+              "artisticName": "Umbrage Thicketbasher",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Phantasmagoria",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Dreamweaver",
+              "artisticName": "Phantomweft Illusionist",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Realmshaper Shadowbinder",
+              "artisticName": "Abyssal Weaver",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "lion",
+              "characteristicName": "Skeletal Shadowbeast",
+              "artisticName": "Nightmare Bonefiend",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Crypt Keepers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "freezing",
+              "characteristicName": "Frostbound Spectre",
+              "artisticName": "Iceshade Wraith",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Sandstone Sentinel",
+              "artisticName": "Ancient Guardian Ushabti",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Abyssal Serpentwarden",
+              "artisticName": "Serpentscale Guardian",
+              "powerLevel": "moderate",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowbound Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "hydra",
+              "characteristicName": "Hydrabone Revenant",
+              "artisticName": "Skeletal Hydrafiend",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "worm",
+              "characteristicName": "Ephemeral Shadowcrawler",
+              "artisticName": "Wraithworm Spectre",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "witch",
+              "characteristicName": "Enthralling Sirenwitch",
+              "artisticName": "Whispering Seraph",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -27,8 +27,8 @@ public class  LevelGenerator : MonoBehaviour
 
         if (GameManager.gameManager.levelIndex == 2)
         {
-                var di = GameManager.gameManager.world.dialogues[GameManager.gameManager.world.unitsData.mainVillain.units[0].artisticName];
-                SpawnObject(GameManager.gameManager.world.unitsData.mainVillain, di, true);
+                var di = GameManager.gameManager.world.dialogues[GameManager.gameManager.world.narrativeData.antagonistGroup.units[0].artisticName];
+                SpawnObject(GameManager.gameManager.world.narrativeData.antagonistGroup, di, true);
         }
     }
     // only enemies
@@ -63,8 +63,7 @@ public class  LevelGenerator : MonoBehaviour
             ob.SetActive(false);
             GameManager.gameManager.villain = ob;
             sp.sprite = GameManager.gameManager.GetSpriteUnit(gd.units[0]);
-            gd.units[0].artisticName = GameManager.gameManager.world.narrativeData.mainVillain;
-            sp.transform.localScale *= 1.5f;
+            sp.transform.localScale *= 1.8f;
         }
         
         var we = ob.GetComponent<WorldEnemy>();

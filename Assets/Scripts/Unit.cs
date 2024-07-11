@@ -10,7 +10,7 @@ using Random = UnityEngine.Random;
 
 public class Unit : MonoBehaviour
 {
-    public enum UnitType { fighter, striker, guardian, tank, fortress, balancer, trickster, berserker, sniper, savage }
+    public enum UnitType { fighter, sorcerer, paladin, protector, bastion, healer, trickster, berserker, marksman, shaman }
 
     public UnitType unitType;
     
@@ -36,6 +36,7 @@ public class Unit : MonoBehaviour
 
     [HideInInspector] public bool isBoss = false;
 
+    
     public float deathTime = 1.5f;
 
     public void TurnStartUpdate(GameObject abilityButton)
@@ -62,14 +63,14 @@ public class Unit : MonoBehaviour
             }
         }
 
-        if (unitType is UnitType.tank)
+        if (unitType is UnitType.protector)
         { 
             if (GameManager.gameManager.battleSystem.allyTauntCaster is not null && GameManager.gameManager.battleSystem.allyTauntCaster == gameObject)
             {
                 GameManager.gameManager.battleSystem.allyTauntCaster = null;
             }
         }
-        else if (unitType is UnitType.savage)
+        else if (unitType is UnitType.shaman)
         {
             if (skillUsedLastTurn)
             {
@@ -129,14 +130,14 @@ public class Unit : MonoBehaviour
 
         switch (unitType)
         {
-            case UnitType.striker:
+            case UnitType.sorcerer:
                 if (skillCD == -1)
                     skillCD = 1;
                 targets = new[] {currentTarget.transform };
                 currentTarget.GetComponent<Unit>().stunned++;
                 GameManager.gameManager.battleJournal.AddActionDescription(unitData.artisticName + " stuns " + currentTarget.GetComponent<Unit>().unitData.artisticName + " for one turn.");
                 break;
-            case UnitType.balancer:
+            case UnitType.healer:
                 if (skillCD == -1)
                     skillCD = 1;
                 targets = new[] { currentTarget.transform };
@@ -149,14 +150,14 @@ public class Unit : MonoBehaviour
                 currentTarget.GetComponent<Unit>().attacksRandomAlly++;
                 GameManager.gameManager.battleJournal.AddActionDescription(unitData.artisticName + " makes " + currentTarget.GetComponent<Unit>().unitData.artisticName + " attacks their ally for one turn.");
                 break;
-            case UnitType.sniper:
+            case UnitType.marksman:
                 if (skillCD == -1)
                     skillCD = 1;
                 GameManager.gameManager.battleJournal.AddActionDescription(unitData.artisticName + " attack this turn will ignore armour.");
                 currentTarget.GetComponent<Unit>().BeingAttacked(this, true);
                 targets = new[] { currentTarget.transform };
                 break;
-            case UnitType.guardian:
+            case UnitType.paladin:
                 if (skillCD == -1)
                     skillCD = 4;
                 targets = allies.Select(go => go.transform).ToArray();
@@ -166,14 +167,14 @@ public class Unit : MonoBehaviour
                     ally.GetComponent<Unit>().BeingHealed(0.15f, this);
                 }
                 break;
-            case UnitType.tank:
+            case UnitType.protector:
                 if (skillCD == -1)
-                    skillCD = 3;
+                    skillCD = 2;
                 GameManager.gameManager.battleJournal.AddActionDescription(unitData.artisticName + " taunts all enemy units until the next turn.");
                 GameManager.gameManager.battleSystem.allyTauntCaster = gameObject;
                 targets = new[] { transform };
                 break;
-            case UnitType.fortress:
+            case UnitType.bastion:
                 if (skillCD == -1)
                     skillCD = 3;
                 GameManager.gameManager.battleJournal.AddActionDescription(unitData.artisticName + " armour up every ally unit for two turns.");
@@ -195,9 +196,9 @@ public class Unit : MonoBehaviour
                 BeingAttacked(this);
                 targets = enemies.Select(go => go.transform).Concat(new Transform[] { transform }).ToArray();
                 break;
-            case UnitType.savage:
+            case UnitType.shaman:
                 if (skillCD == -1)
-                    skillCD = 4;
+                    skillCD = 3;
                 GameManager.gameManager.battleJournal.AddActionDescription(unitData.artisticName + " applies 50% evasion buff on all ally units for one round.");
                 foreach (var ally in allies)
                 {
@@ -237,8 +238,9 @@ public class Unit : MonoBehaviour
         {
             gameObject.layer = 6;
         }
-        unitType = (UnitType)Enum.Parse( typeof(UnitType), ud.unitType );
+        unitType = (UnitType)Enum.Parse( typeof(UnitType), ud.unitClass );
         abilitySprite = GameManager.gameManager.GetSpriteAbility(ud);
+        
     }
 
     public void BeingAttacked(Unit attackingUnit, bool ignoreArmour = false)
@@ -293,7 +295,7 @@ public class Unit : MonoBehaviour
         SpawnDamageText(hp);
         if (unitData.currentHP <= 0)
         {
-            if (unitType is UnitType.tank)
+            if (unitType is UnitType.protector)
             { 
                 if (GameManager.gameManager.battleSystem.allyTauntCaster is not null && GameManager.gameManager.battleSystem.allyTauntCaster == gameObject)
                 {
@@ -319,7 +321,7 @@ public class Unit : MonoBehaviour
         gameObject.GetComponent<Collider2D>().enabled = false;
         var sprite = GetComponent<SpriteRenderer>();
         yield return new WaitForSeconds(duration / 2f);
-
+        AudioManager.instance.Play(GameManager.gameManager.DeathSound);
         for (float t = 0; t < 1; t += Time.deltaTime/(duration/2f))
         {
             sprite.color = new Color(1, 1, 1, Mathf.SmoothStep(1, 0, t));

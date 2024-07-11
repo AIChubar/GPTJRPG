@@ -26,8 +26,8 @@ units_data = json.load(units_file)
 folder_path = os.path.join(os.pardir, "Worlds")
 
 response = openai.chat.completions.create(
-    model="gpt-4o",
-    temperature=0.8,
+    model="gpt-3.5-turbo-0125",
+    temperature=1.0,
     max_tokens=4096,
     response_format={"type": "json_object"},
     messages=[
@@ -36,10 +36,10 @@ response = openai.chat.completions.create(
             "content": "#Setting: \n You are a creative assistant for creating textual game content for the created fantasy game world. You need to follow instructions while being creative and artistic. \n"
                        "#Instructions: \n "
                        "Your task is to generate quests for each level. You should base your choice on existing world, levels description and enemies on levels: \n" + narrative_file.read() + "\n" + json.dumps(units_data["levelsUnits"]) + "\n" + levels_file.read() + "\n" 
-                       "On each level there should be a main quest. For two first levels reward for the main quest should be 'pass to the next level' and the type can only be 'kill or unite'. \n" 
-                       "For the last level reward for the main quest should be 'win' and QuestObjective should always be the mainVillain unit artistic name, the type of this final quest should only be 'kill'. Description for the main quest should be connected to the main villain and the whole story.\n"
-                       "Fill questList with 2 side quests for each level. Choose from one of the three available quest types: 'kill', 'unite', 'kill or unite'. QuestObjective should be chosen from all enemies on this level, use exactly artisticName for QuestObjective. Pick quest reward from two available: 'amulet of alliance', 'amulet of healing'. But for type 'unite' reward can only be 'amulet of healing' \n"
-                       "Fill the generated content into the appropriate variables in the given JSON structure. \n"
+                       "You have some prefilled data in a given structure that you must not change. You can base questName and questDescription on the already filled data. \n" 
+                       "QuestObjective should be chosen from all enemies on this level, use exact artisticName for QuestObjective. Never pick units from one group for two different quests. \n"
+                       "You must always choose main antagonist artistic name as a quest objective for a quest with reward 'win'.\n"
+                       "Fill the generated content into the appropriate variables in the given JSON structure. Never change already filled fields in a structure. \n"
                        #"#Constraints: \n"
                        "#Structure: \n" + structure_content + "\n"
         },

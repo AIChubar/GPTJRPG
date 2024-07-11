@@ -6,7 +6,9 @@ using UnityEngine;
 using UnityEngine.UI;
 public class InfoHUD : MonoBehaviour
 {
-    public TextMeshProUGUI headerRow;
+    public TextMeshProUGUI firstHeader;
+    public TextMeshProUGUI secondHeader;
+    public TextMeshProUGUI thirdHeader;
     public TextMeshProUGUI firstRow;
     public TextMeshProUGUI secondRow;
     public TextMeshProUGUI thirdRow;
@@ -36,14 +38,17 @@ public class InfoHUD : MonoBehaviour
         
         if (ud is null || ud.artisticName == "")
         {
-            headerRow.text = "";
+            firstHeader.text = "";
             firstRow.text = "";
             secondRow.text = "";
             thirdRow.text = "";
             return; 
         }
-        headerRow.text = ud.artisticName;
-        firstRow.text = ud.characteristicName + ", " + ud.powerLevel + " " + ud.unitType;
+
+        secondHeader.text = "";
+        thirdHeader.text = "";
+        firstHeader.text = ud.artisticName;
+        firstRow.text = ud.characteristicName + ", " + ud.powerLevel + " " + ud.unitClass;
         int maxHp = ud.maxHP;
         thirdRow.text = "Damage: " + ud.damage + "   " + "Armour: " + ud.armour;
         secondRow.text ="HP: " + ud.currentHP + " / " + maxHp;
@@ -51,7 +56,9 @@ public class InfoHUD : MonoBehaviour
 
     public void ResetHUD()
     {
-        headerRow.text = "";
+        firstHeader.text = "";
+        secondHeader.text = "";
+        thirdHeader.text = "";
         firstRow.text = "";
         secondRow.text = "";
         thirdRow.text = "";
@@ -78,10 +85,12 @@ public class InfoHUD : MonoBehaviour
                 image.color = Color.clear;
             return;
         }
-        headerRow.text = oi.headerRow;
-        firstRow.text = oi.firstRow;
-        secondRow.text = oi.secondRow;
-        thirdRow.text = oi.thirdRow;
+        firstHeader.text = oi.firstRow;
+        secondHeader.text = oi.secondRow;
+        thirdHeader.text = oi.thirdRow;
+        firstRow.text = "";
+        secondRow.text = "";
+        thirdRow.text = "";
     }
     
 }

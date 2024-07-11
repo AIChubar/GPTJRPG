@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "void",
+      "characteristicName": "Ethereal Shadow Reaper",
+      "artisticName": "Vel'Zarath",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 80,
+      "strategicThinking": 90,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 75,
+      "morality": 5,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Vel'Zarath, the Ethereal Shadow Reaper. What brings a mere mortal like you to challenge me in my realm?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to bring light and hope back to the Necroshade Realm.",
+        "enemyAnswer": "Light and hope, such feeble concepts in the face of eternal darkness. You are a fool, unworthy of my attention.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My resolve is stronger than you think. I will not falter in the face of your darkness.",
+            "enemyAnswer": "Ha! Bold words from a fragile being. Your resolve will shatter like glass against the might of the Shadow Legion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will fight until my last breath, for the realm deserves a chance at peace.",
+                "enemyAnswer": "Your defiance is amusing, but ultimately futile. Prepare yourself for oblivion.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps you underestimate the power of unity and determination. We will not yield.",
+                "enemyAnswer": "Unity and determination? Hah! Your optimism is misguided. You will learn the true meaning of despair.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Even in the darkest of places, there is always a glimmer of light. I will be that light.",
+            "enemyAnswer": "Your naive idealism is pathetic. Darkness reigns supreme here, and your light shall be extinguished.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I refuse to let despair consume this realm. I will stand against you with all I have.",
+                "enemyAnswer": "Your stand is meaningless, a mere blip in the endless night. Prepare for annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The strength of hope can pierce even the deepest shadows. I will prove it to you.",
+                "enemyAnswer": "Hope is a fragile illusion in the face of my power. Your delusions will be your undoing.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come not to fight, but to understand the darkness that consumes this realm.",
+            "enemyAnswer": "Understanding? You dare seek understanding from me? Ignorance is bliss, mortal. Prepare for your ignorance to be shattered.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Knowledge is the key to unlocking solutions. Let us find a way to coexist in this realm.",
+                "enemyAnswer": "Coexist? Such a quaint notion. There is no room for coexistence with the Shadow Legion. Prepare for your end.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps through understanding, we can find a way to bring balance to this land.",
+                "enemyAnswer": "Balance? The only balance is the balance of power, and I hold all the power here. Your balance shall be your downfall.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have come to put an end to your reign of darkness and restore peace to the Necroshade Realm.",
+        "enemyAnswer": "Peace? Your words are as empty as the void itself. You will find no peace here, only eternal night.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The people of this realm deserve a chance at freedom from your tyranny. I will be their harbinger of hope.",
+            "enemyAnswer": "Hope? Hope is a pathetic sentiment, easily crushed by the weight of despair. You will bring nothing but despair.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Even in the darkest night, a single candle can light the way. I will be that candle.",
+                "enemyAnswer": "Your light will sputter and die in the chilling winds of my darkness. Prepare for your flame to be extinguished.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will fight until the very end to bring back the light to the hearts of the people in this land.",
+                "enemyAnswer": "Your futile struggles will amuse me, mortal. But in the end, you will bow before the shadows.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your darkness has no place in this realm. I will be the blade that cuts through the shadows.",
+            "enemyAnswer": "Brave words, but foolish. The shadows are my domain, and you will find no victory here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand as the beacon of hope against your darkness. Prepare to face the light of justice.",
+                "enemyAnswer": "Justice? There is no justice in the realm of shadows. Only eternal night awaits you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "In the name of those who suffer under your rule, I will bring an end to your tyranny.",
+                "enemyAnswer": "Suffering is the natural order of things. Your feeble attempts at rebellion will only bring more suffering.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge your rule, Vel'Zarath. Darkness will not prevail as long as I draw breath.",
+            "enemyAnswer": "A challenger? How amusing. Your defiance will crumble like sand against the might of the Shadow Legion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My will is unbreakable, my spirit unwavering. Prepare for a battle you will not soon forget.",
+                "enemyAnswer": "Bold words, mortal. Your will shall break, your spirit shall falter. Prepare for your inevitable defeat.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not stand idly by while you cast this land into eternal darkness. The time for change is now.",
+                "enemyAnswer": "Change? Change is an illusion, a fleeting dream in the face of unending night. You will know only darkness.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

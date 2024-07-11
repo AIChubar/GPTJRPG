@@ -1,0 +1,174 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "skeleton",
+      "thirdAttribute": "fish",
+      "characteristicName": "Skeletal Mariner",
+      "artisticName": "Coralbone Revenant",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "What puny creature dares to intrude upon our domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am Eldryn Stormcaller, the Arcane Protector, here to bring light to these dark lands.",
+        "enemyAnswer": "Hmph, another self-proclaimed hero. Your arrogance will be your undoing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I don't seek conflict. Let us discuss a truce for the betterment of all.",
+            "enemyAnswer": "Truce? Ha! We have no need for weak alliances. Your fate is sealed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I see there is no reasoning with you. Prepare for battle!",
+                "enemyAnswer": "Your bravery is admirable, but pitiful. Face the wrath of the Coralbone Revenant!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well, if you choose the path of conflict, so be it. Let our actions speak for us.",
+                "enemyAnswer": "As it should be. Steel yourself, for you shall face the might of the undead.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not back down from protecting this realm. We can find a peaceful solution.",
+            "enemyAnswer": "Peaceful solution? Your words hold no weight here. Prepare for the darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I refuse to engage in senseless violence. Let us find a way to coexist.",
+                "enemyAnswer": "Coexist? Pathetic. Your feeble attempts at diplomacy end in annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If you choose the path of aggression, I will defend this realm with all my power!",
+                "enemyAnswer": "Defend? We shall see if your power matches your words. Prepare for the onslaught.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "My purpose is clear, to defeat the darkness that threatens this world. Join me in this noble cause.",
+            "enemyAnswer": "Noble cause? There is no nobility in your kind. Prepare for the Coralbone Revenant's wrath.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not shed blood needlessly. Let us find a way to understand each other.",
+                "enemyAnswer": "Understanding? There is no understanding between us. Only destruction.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If understanding is beyond your reach, then let our actions speak for us. The battle begins!",
+                "enemyAnswer": "So be it. The time for talk is over, prepare to face your demise.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am no ordinary intruder. I am Eldryn Stormcaller, a force to be reckoned with.",
+        "enemyAnswer": "A force? You are nothing but a passing nuisance in our grand scheme.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Your grand scheme ends here. I offer you a chance to stand down peacefully.",
+            "enemyAnswer": "Stand down? Your offer is as empty as your threats. Prepare for the end.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If you refuse peace, then let the clash of powers decide the victor!",
+                "enemyAnswer": "So eager for battle. We shall see if your power matches your bold words.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Words will not sway you, it seems. Let our actions speak louder than empty promises!",
+                "enemyAnswer": "Actions speak louder than words, indeed. Prepare for the wrath of the undead.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I care not for your grand schemes. I am here to bring an end to your malevolent presence.",
+            "enemyAnswer": "Malevolent presence? You overestimate your abilities, little Half-Elf.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek only to bring balance and peace to these lands. Will you heed my words?",
+                "enemyAnswer": "Balance and peace? Your words ring hollow. Prepare for the darkness that awaits.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If you choose darkness, then let us face it head-on. The battle commences now!",
+                "enemyAnswer": "So be it. Darkness meets light in the clash of powers.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your grand scheme will crumble before my might. Join me in ending this conflict peacefully.",
+            "enemyAnswer": "Peaceful end to conflict? Your naivety knows no bounds. Prepare for oblivion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If peace is not an option, then let our strength decide the outcome. The fight begins!",
+                "enemyAnswer": "Strength shall decide. Prepare for the Coralbone Revenant's onslaught.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Actions over words, it is then. The battle is inevitable. Draw your weapon!",
+                "enemyAnswer": "Actions indeed. Let the clash of powers determine the victor.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am Eldryn Stormcaller, and I bring a warning of impending doom. Will you listen?",
+        "enemyAnswer": "Impending doom? Your attempts at fear-mongering amuse us. Speak your last words, Half-Elf.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer knowledge and a way to avoid catastrophe. Will you heed my warning?",
+            "enemyAnswer": "Knowledge? Your words hold no weight. Prepare for the wrath of the Coralbone Revenant.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If knowledge is wasted on you, then let our actions speak. The battle is upon us!",
+                "enemyAnswer": "Actions over words. Let the clash of powers decide the fate.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Words will not save you. Let the strength of our forces determine the outcome!",
+                "enemyAnswer": "Strength shall decide. Prepare for the onslaught of the undead.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "In the face of impending doom, will you join forces to avert disaster?",
+            "enemyAnswer": "Join forces? Laughable. Your end approaches swiftly, Half-Elf.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If you crave destruction over cooperation, then let the battle begin.",
+                "enemyAnswer": "Destruction it shall be. Prepare for the Coralbone Revenant's wrath.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Actions speak louder than empty promises. Let's see who stands in the end!",
+                "enemyAnswer": "Actions indeed. The clash of powers will decide the victor.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Ethereal Twilight Plains",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows in the Twilight",
+          "questDescription": "In the haunting expanse of Ethereal Twilight Plains, you must either vanquish or forge an alliance with a powerful entity that lurks within the deep-dark holes.",
+          "questObjective": "Argothrax"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Spiritual Harmony",
+          "questDescription": "Seek out and unite with the enigmatic Zyraethos, the Ethereal Spectral Dragon, to harness its healing powers for the journey ahead.",
+          "questObjective": "Zyraethos"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Phantom Menace",
+          "questDescription": "Eliminate the formidable Nyxalor, the Spectral Hydra Phantom, to gain an amulet of alliance for future challenges.",
+          "questObjective": "Nyxalor"
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Frost Peaks",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Frozen Terrors",
+          "questDescription": "Navigate the icy realms of Spectral Frost Peaks and either defeat or form an alliance with a chilling entity that roams the frozen waters.",
+          "questObjective": "Frostbinder"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Chill of Unity",
+          "questDescription": "Unite with the legendary Icerend Shadowfrost, the Frost Lich Mage, to receive the amulet of healing and harness its powers.",
+          "questObjective": "Icerend Shadowfrost"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Glacial Conquest",
+          "questDescription": "Defeat the formidable Cryosalis, the Frostbound Hydra Phantom, to earn the amulet of alliance and strengthen your alliances.",
+          "questObjective": "Cryosalis"
+        }
+      ]
+    },
+    {
+      "levelName": "Void Shadow Citadel",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Eradication of Darkness",
+          "questDescription": "Confront the malevolent Vel'Zarath, the Ethereal Shadow Reaper, within the foreboding Void Shadow Citadel and emerge victorious to bring light back to the realm.",
+          "questObjective": "Vel'Zarath"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Embrace the Shadows",
+          "questDescription": "Unite with the enigmatic Abyssalisk, the Void Hydra Phantom, to receive the amulet of healing and embrace the shadows to restore balance.",
+          "questObjective": "Abyssalisk"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shroud of Shadow",
+          "questDescription": "Defeat the formidable Shadewalker, the Void Lich Summoner, to claim the amulet of alliance and solidify your allies against the darkness.",
+          "questObjective": "Shadewalker"
+        }
+      ]
+    }
+  ]
+}

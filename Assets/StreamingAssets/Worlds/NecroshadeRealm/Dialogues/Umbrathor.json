@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "spectral",
+      "thirdAttribute": "dragon",
+      "characteristicName": "Shadowed Spectral Dragon",
+      "artisticName": "Umbrathor",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 60,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 50,
+      "morality": 30,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Umbrathor, the Shadowed Spectral Dragon. What trifles do you seek in this cursed realm?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am merely passing through, no intention to disturb your territory.",
+        "enemyAnswer": "Your feeble attempts at diplomacy are amusing. Why should I not crush you where you stand?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for any intrusion. I shall leave at once.",
+            "enemyAnswer": "Intelligent choice. Begone, lest you wish to face my wrath.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I do not fear your threats. Face me in battle if you dare.",
+            "enemyAnswer": "Bravado in the face of annihilation? So be it, prepare to meet your end!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge and perhaps a chance for an alliance.",
+        "enemyAnswer": "Knowledge is power, but alliances are fragile. What makes you think I would trust you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my loyalty and aid against the Shadow Legion. Together we can prevail.",
+            "enemyAnswer": "An intriguing proposal, but your words alone are not enough to sway me. Prove your worth.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "I will not grovel for trust. If you seek conflict, let it be settled now.",
+            "enemyAnswer": "Pride cometh before the fall. Your defiance seals your fate.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge you, Umbrathor, to a test of strength and wit.",
+        "enemyAnswer": "Bold and foolish, a rare combination. What stake do you offer for this challenge?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My victory shall grant you a boon of your choice.",
+            "enemyAnswer": "A tempting offer, but victory is far from guaranteed. Let the challenge begin!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Should I lose, I will offer myself as your servant for a year and a day.",
+            "enemyAnswer": "A wager of servitude? Intriguing. Let fate decide our paths.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

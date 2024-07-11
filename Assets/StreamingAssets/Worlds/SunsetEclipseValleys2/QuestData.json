@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Gloaming Tundra",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows of Frost",
+          "questDescription": "The Frostscale Iceguard and Mossclaw Wyrmhunter roam the Gloaming Tundra, their allegiance divided. Will you bring them together or eliminate their icy presence?",
+          "questObjective": "Mossclaw Wyrmhunter"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Frozen Harmony",
+          "questDescription": "Boulderback Earthshaker, the mighty protector, stands firm against the chaos. Unite its strength with your cause and mend the fractured lands.",
+          "questObjective": "Boulderback Earthshaker"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Icy Vengeance",
+          "questDescription": "The Glacial Frostwyrm Sentinel, a formidable protector, poses a threat to your journey. Defeat this icy behemoth to gain an ally in the freezing expanse.",
+          "questObjective": "Frostscale Iceguard"
+        }
+      ]
+    },
+    {
+      "levelName": "Whispering Sands",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Song of Whispers",
+          "questDescription": "Abyssal Sirensong and Soulcoil Enchantress bring their enchantments to the Whispering Sands. Choose to silence their dark melodies or unite their powers for balance.",
+          "questObjective": "Soulcoil Enchantress"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Siren's Harmony",
+          "questDescription": "Siren of Serenity's soothing songs echo in the desert winds. Join their chorus and unlock the healing power of unity.",
+          "questObjective": "Siren of Serenity"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Desert Mirage",
+          "questDescription": "Coralbone Revenant, a fierce fighter, haunts the Whispering Sands. Defeat this revenant to forge an alliance against the darkness.",
+          "questObjective": "Abyssal Sirensong"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Catacombs",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Sorcerer's Bane",
+          "questDescription": "Face the legendary sorcerer Wraithshadow in the heart of the Shadowed Catacombs. Only by defeating this malevolent power can you claim victory and restore balance to the realm.",
+          "questObjective": "Wraithshadow"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Shadows United",
+          "questDescription": "Umbrage Thicketbasher, a formidable fighter, roams the catacombs. Unite its strength with your own to push back the encroaching darkness.",
+          "questObjective": "Umbrage Thicketbasher"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Phantom's Defeat",
+          "questDescription": "Nightmare Bonefiend, a strong fighter, lurks in the shadows of the catacombs. Defeat this creature to secure a powerful ally in the fight against evil.",
+          "questObjective": "Nightmare Bonefiend"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "serpentide",
+      "secondAttribute": "mermaid",
+      "thirdAttribute": "",
+      "characteristicName": "Lagoon Songstress",
+      "artisticName": "Siren of Serenity",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 10,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 20,
+      "indifference": 10,
+      "flexibility": 50,
+      "communicationSkills": 60,
+      "morality": 20,
+      "chaoticity": 10
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Greetings, land dweller. What brings you to these forsaken sands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek answers about the darkness that plagues these lands.",
+        "enemyAnswer": "Answers, you say? Curiosity may lead to demise, but I shall entertain your inquiries.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The shadows whisper threats of eternal night. What do you know of this darkness?",
+            "enemyAnswer": "The darkness is an ancient force, consuming all in its path. Knowledge is power, yet ignorant bliss may be safer.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I must confront this darkness to save my realm.",
+                "enemyAnswer": "Bravery amidst folly, a classic tale. Prepare yourself, for the darkness may not yield to your wishes.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense danger in these shadows. Perhaps retreat is wiser.",
+                "enemyAnswer": "Wisdom in retreat, a sign of fleeting resolve. The darkness senses your fear.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek the aid of those who can combat this encroaching gloom.",
+            "enemyAnswer": "Aid against darkness is a noble quest, but alliances in these lands are fragile as desert glass.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Will you stand with me against the shadows?",
+                "enemyAnswer": "An alliance you seek, but trust is rare. Your determination is commendable, but be wary of deceit.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will seek allies elsewhere. Farewell, then.",
+                "enemyAnswer": "Farewell, wanderer. May your path be clear of shadows, for they hunger for the unwary.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come to understand the nature of the darkness, to unravel its mysteries.",
+            "enemyAnswer": "Mysteries shrouded in darkness are not for the faint of heart. Yet, knowledge seekers often find more than they bargain for.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I embrace the unknown, ready to face whatever lurks within the shadows.",
+                "enemyAnswer": "Boldness in the face of the unknown, a rare trait. The darkness shall test your resolve, seeker of truths.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I choose caution over curiosity. The darkness will remain veiled to me.",
+                "enemyAnswer": "Caution is a shield against the unknown, yet the darkness is patient. Ignorance may not always be bliss.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a traveler passing through. Your lands offer a strange beauty.",
+        "enemyAnswer": "Travelers come and go, leaving naught but footprints in the shifting sands. But beware, beauty in these lands often veils treachery.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I appreciate the warning. I shall tread carefully on this unfamiliar soil.",
+            "enemyAnswer": "Wise words from a wary traveler. May your steps be true, for missteps in these sands lead only to regret.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "Your caution does not escape me. I will heed the warnings of these lands.",
+            "enemyAnswer": "Foolhardy or prudent, time will tell. The sands whisper secrets, but few are wise enough to listen.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am on a quest to bring light back to these darkened valleys.",
+        "enemyAnswer": "Ah, a beacon of light amidst encroaching darkness. Admirable, yet naivety often blinds even the brightest flames.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My light shall illuminate even the deepest shadows. Will you aid me in this quest?",
+            "enemyAnswer": "Your light may flicker in the chill night wind, but I shall observe. Courage or folly, time shall reveal the truth.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "The path I walk is mine alone. The darkness will yield to my will.",
+            "enemyAnswer": "Determined defiance in the face of inexorable night. Lament or victory, your fate is yours to shape.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

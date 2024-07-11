@@ -1,0 +1,104 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "lord",
+      "characteristicName": "Necrotic Archmage",
+      "artisticName": "Dreadlord Thanatos",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 98,
+      "friendliness": 5,
+      "intellect": 88,
+      "strategicThinking": 95,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 75,
+      "morality": 12,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, another living soul wanders into my domain. What foolishness has driven you here, intruder?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge and power to vanquish the darkness that plagues this land.",
+        "enemyAnswer": "Knowledge and power... A futile quest in the face of the eternal night that looms. You will find no solace here.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I do not fear the darkness, for the light within me burns bright.",
+            "enemyAnswer": "A flickering flame amidst an endless void. Your courage is commendable, but it shall be your downfall.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then let us settle this with magic and steel, if that is the only language you understand.",
+                "enemyAnswer": "So be it. Prepare to face the full wrath of a Dreadlord's power.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense a shred of doubt in your voice. Perhaps there is room for negotiation?",
+                "enemyAnswer": "Negotiation? Ha! The only negotiation I make is with death itself.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I do not seek conflict, but rather understanding. Will you share your knowledge with me?",
+            "enemyAnswer": "Understanding? Mortals are but fleeting shadows in the expanse of eternity. What knowledge do you hope to gain?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek knowledge to unravel the mystery of the shadows that consume this world.",
+                "enemyAnswer": "Mystery cloaked in shadows, a futile endeavor. Your quest for knowledge shall lead only to despair.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "The shadows may be deep, but even in darkness, there is truth waiting to be uncovered.",
+                "enemyAnswer": "Truth... a fleeting concept in a world of deception. You are a fool to seek it here.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come not as an enemy, but as a seeker of balance in this realm.",
+        "enemyAnswer": "Balance? There is no balance in death, only the relentless march of decay and entropy.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Yet even in death, there is a cycle of rebirth and renewal. Do you not see the potential for change?",
+            "enemyAnswer": "Change is an illusion, a fleeting dream in the grasp of the eternal slumber.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand firm against the tides of darkness, for light and hope will always find a way.",
+                "enemyAnswer": "Hope... a fragile thing in a world consumed by shadows. Let us see if your resolve matches your words.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The scales of balance may tip, but they can always be righted. Will you not join me in restoring harmony?",
+                "enemyAnswer": "Harmony is a lie mortals tell themselves to mask the chaos within. I will not be swayed by your empty words.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer a truce, a temporary alliance to face the true threats that loom over us.",
+            "enemyAnswer": "An alliance? An amusing proposition, but one that holds no weight in the realm of the undead.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we can defy the darkness and forge a path to a new dawn. Will you not consider it?",
+                "enemyAnswer": "A new dawn? I have seen countless sunsets, each one darker than the last. Your optimism is misplaced.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "The enemy of my enemy is my ally. Let us put aside our differences and stand united against the encroaching shadows.",
+                "enemyAnswer": "Unity is a fleeting concept, a fragile thread that snaps under the weight of reality. I stand alone in the darkness.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
