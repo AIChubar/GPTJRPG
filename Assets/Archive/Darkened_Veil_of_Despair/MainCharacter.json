@@ -1,0 +1,39 @@
+{
+  "name": "Kaelen Stormblade",
+  "race": "Draconid",
+  "characterClass": "Protector",
+  "occupation": "Guardian of the Abyssal Realms",
+  "backStory": "Kaelen Stormblade, a valiant Draconid protector, descended from the ancient Storm Dragon lineage. Trained in the art of defense and resilience, Kaelen wields his mighty shield and formidable armor to stand against the encroaching darkness. Born to safeguard the realms from malevolent forces, his resolve is unwavering as he faces the shadows that threaten to engulf the world.",
+  "protagonistGroup": {
+    "groupName": "Stormguard Sentinels",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "necrophage",
+        "thirdAttribute": "",
+        "characteristicName": "Decaybringer Abomination",
+        "artisticName": "Pestilence Eater",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "sphinx",
+        "thirdAttribute": "",
+        "characteristicName": "Celestial Guardian Sentinel",
+        "artisticName": "Astraeus, the Sentinel of Light",
+        "powerLevel": "formidable",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "grand_avatar",
+        "thirdAttribute": "",
+        "characteristicName": "Ethereal Essence Guardian",
+        "artisticName": "Aetherial Soulkeeper",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

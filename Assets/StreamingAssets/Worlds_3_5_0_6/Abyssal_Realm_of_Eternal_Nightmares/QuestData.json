@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispering Shadows",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows of the Lost Souls",
+          "questDescription": "The Whispering Shadows are haunted by the spirits of the lost souls. Your task is to either unite with Spectra the Shadowed Wraith or defeat Netheral the Ethereal Revenant to proceed to the next level.",
+          "questObjective": "Spectra the Shadowed Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Restoring Balance",
+          "questDescription": "The balance in the Whispering Shadows is fragile. Bring peace by uniting with Phantasmal Legionnaires and receive an amulet of healing as a reward.",
+          "questObjective": "Phantasmal Legionnaires"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Banishing the Void-touched",
+          "questDescription": "The Void-touched Spectres pose a threat to the realm. Eliminate Nihilus the Voidspawned Horror to earn an amulet of alliance.",
+          "questObjective": "Nihilus the Voidspawned Horror"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Twilight",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Guardians of the Twilight",
+          "questDescription": "The Ethereal Twilight is guarded by powerful entities. Choose to either unite with Rustscale the Corroded Guardian or defeat Pyris the Flame Guardian to advance to the next level.",
+          "questObjective": "Rustscale the Corroded Guardian"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Embracing the Flames",
+          "questDescription": "The flames in the Ethereal Twilight hold healing properties. Unite with Spectrus the Chain Specter to receive an amulet of healing.",
+          "questObjective": "Spectrus the Chain Specter"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Defeating the Emberstone",
+          "questDescription": "The Emberstone Golems must be vanquished to secure the alliance. Defeat Scorchius the Ember Elemental to gain an amulet of alliance.",
+          "questObjective": "Scorchius the Ember Elemental"
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Confronting Zyphraxus",
+          "questDescription": "The ultimate challenge awaits in Void's Embrace. Confront Zyphraxus the Soul Wraith, the Ethereal Void Stalker, to claim victory and pass this level.",
+          "questObjective": "Zyphraxus the Soul Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Binding the Shadows",
+          "questDescription": "The shadows in Void's Embrace can be harnessed for healing. Unite with Abyssal the Voidwalker to receive an amulet of healing.",
+          "questObjective": "Abyssal the Voidwalker"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shattering the Phantasms",
+          "questDescription": "The Abyssal Phantasms must be shattered to forge an alliance. Defeat Shadeclaw the Phantasmal Horror to earn an amulet of alliance.",
+          "questObjective": "Shadeclaw the Phantasmal Horror"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Lysandra Moonshadow",
+  "race": "elf",
+  "characterClass": "druid",
+  "occupation": "Nature's Guardian",
+  "backStory": "Lysandra Moonshadow, an elven druid known as Nature's Guardian, emerges from the enchanted forests of the Celestial Isles of Everlasting Dawn. With a deep connection to the natural world and the spirits of the land, Lysandra seeks to restore balance and harmony to the realm by facing the darkness that threatens to consume it.",
+  "protagonistGroup": {
+    "groupName": "Dawnseeker Sentinels",
+    "units": [
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "troll",
+        "thirdAttribute": "forest",
+        "characteristicName": "Ancient Forest Warden",
+        "artisticName": "Thornbristle the Moss Guardian",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "lion",
+        "characteristicName": "Ethereal Lionheart Guardian",
+        "artisticName": "Auroraclaw the Spirit Sentinel",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "dryad",
+        "thirdAttribute": "",
+        "characteristicName": "Enchanted Forest Nymph",
+        "artisticName": "Sylvana the Verdant Sprite",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

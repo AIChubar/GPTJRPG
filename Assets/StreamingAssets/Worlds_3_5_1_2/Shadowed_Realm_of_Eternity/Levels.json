@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispering Woods",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Whispering Woods beckon with their dark-grass paths where ancient secrets hide beneath the murky waters. Lurking dangers of unseen depths test the courage of those who roam within."
+    },
+    {
+      "levelName": "Crystal Veil Caverns",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Delicate pink sand carpets the Crystal Veil Caverns, leading wary adventurers across treacherous chasms. Beware the yawning abyss below that hungers for missteps."
+    },
+    {
+      "levelName": "Ethereal Abyss",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "At the heart of the Shadowed Realm lies the Ethereal Abyss, a fractured-wall platform balanced precariously above rivers of molten lava. The legendary Skinless Specter's lair awaits, cloaked in malevolent shadows and echoing with tortured whispers."
+    }
+  ]
+}

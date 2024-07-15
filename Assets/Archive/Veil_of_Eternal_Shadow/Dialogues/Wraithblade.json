@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "warrior",
+      "characteristicName": "Spectral Warrior",
+      "artisticName": "Wraithblade",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 50,
+      "morality": 20,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Halt, intruder! What business do you have in these cursed lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek passage through these lands. I mean no harm.",
+        "enemyAnswer": "No one passes through the Veil without facing the consequences. Turn back now!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave peacefully. No need for violence.",
+            "enemyAnswer": "You show cowardice. Weakness like yours will not be tolerated.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will retreat. I do not wish to provoke further.",
+                "enemyAnswer": "As you should. Leave and never return. You are not worth the effort.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I stand my ground. If you seek conflict, you shall have it.",
+                "enemyAnswer": "So be it! Your defiance only seals your fate. Face the wrath of the Spectral Warriors!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not be threatened. Prepare for a fight!",
+            "enemyAnswer": "Brave words from a fool. Let's see if your actions can match your arrogance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'm ready for whatever you throw at me.",
+                "enemyAnswer": "Then face the true terror of the Veil of Eternal Shadow! Feel the chill of death's embrace!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I reconsider. Perhaps we can find a common ground.",
+                "enemyAnswer": "There is no common ground with the likes of you. Prepare for oblivion!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come seeking answers and a way to end the darkness that plagues these lands.",
+            "enemyAnswer": "Answers are for fools and dreamers. You will find only despair here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Despair or not, I will not be deterred. The darkness will end.",
+                "enemyAnswer": "You are a fool to challenge the inevitable. Embrace your fate, fool!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see reason in your words. Show me the way to end this darkness.",
+                "enemyAnswer": "Reason? There is no reason in this world. Your naivety will be your downfall.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to vanquish the darkness and bring light back to these lands.",
+        "enemyAnswer": "Light? In the Veil of Eternal Shadow? Your words betray your ignorance, fool!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Ignorant or not, I will cleanse this realm of the darkness that plagues it.",
+            "enemyAnswer": "Bold words from a blind wanderer. Face the wrath of the undead and perish!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no undead. Let our steel clash and see who prevails.",
+                "enemyAnswer": "Very well. Your bravery will be your downfall. Prepare for everlasting darkness!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there is wisdom in your words. Can we not find a peaceful resolution?",
+                "enemyAnswer": "Wisdom is wasted on the weak. Embrace your fate and submit to the darkness.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "My ignorance may cloud my judgment, but my resolve remains unshaken.",
+            "enemyAnswer": "Resolve without wisdom is mere folly. Prepare to face the consequences of your ignorance!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A fool I may be, but I will not back down. Let destiny decide our clash.",
+                "enemyAnswer": "Destiny has already sealed your fate. Embrace the darkness that awaits you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps I can learn from your wisdom. Guide me to the path of light.",
+                "enemyAnswer": "There is no light for you here. Only darkness and despair. Prepare for your end.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will not be dissuaded by empty threats. The darkness will be banished.",
+            "enemyAnswer": "Foolish bravado will lead only to your demise. Face the shadows and embrace oblivion!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve is unbreakable. Let us settle this with steel and sorcery.",
+                "enemyAnswer": "Stubborn fool. Your resolve will crumble before the might of the Spectral Warriors!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Is there no room for negotiation? Must it come to bloodshed?",
+                "enemyAnswer": "Bloodshed is the only language the undead understand. Prepare for the end, fool.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am the light that will pierce the darkness, the hope that will shine through.",
+        "enemyAnswer": "Hope? In these lands of eternal shadow? Your optimism is amusing, if not pitiful.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Optimism may be rare here, but it is what gives strength to the weak and weary.",
+            "enemyAnswer": "Strength born of naivety is the weakest of all. Prepare to face the harsh reality.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Even the weak can find strength when faced with adversity. Let our strengths be tested.",
+                "enemyAnswer": "Your strength will crumble like dust in the wind. The darkness will consume you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps your reality is not the only truth. Can we not find a way to coexist?",
+                "enemyAnswer": "Coexist? Inconceivable! You have sealed your own fate. Embrace the shadows!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The light within me will guide me through even the darkest of times. Let us find a way to peace.",
+            "enemyAnswer": "Peace is a fleeting dream in these lands of eternal night. Your light will flicker and fade.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A flicker can ignite a blaze. Let our meeting be the spark that banishes the darkness.",
+                "enemyAnswer": "Your blaze will be extinguished before it can even begin. Prepare for the end, fool.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Wisdom lies in finding peace amidst chaos. Let us seek a resolution that benefits us both.",
+                "enemyAnswer": "There is no benefit for you here. Only eternal darkness and despair. Embrace your end.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The shadows may be deep, but the light shines brighter in contrast. Let us find a way to coexist in harmony.",
+            "enemyAnswer": "Harmony? In a realm of eternal shadow? Your ignorance knows no bounds.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Ignorance or not, harmony is possible even in the darkest of places. Let us strive for understanding.",
+                "enemyAnswer": "Understanding? There is only suffering and darkness for one such as you. Embrace your fate.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "In understanding lies the path to overcoming differences. Let us seek a way forward in peace.",
+                "enemyAnswer": "Differences cannot be overcome in this realm of eternal night. Prepare for your inevitable end.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

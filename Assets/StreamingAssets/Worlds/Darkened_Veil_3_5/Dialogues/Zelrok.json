@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "imp",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Imp",
+      "artisticName": "Zelrok",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Hssss... What pitiful creature dares to traverse the domain of shadows?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am Zarathos, the Shadow Conqueror, and I fear no shadows.",
+        "enemyAnswer": "Ah, a bold declaration from a mere mortal. Your bravado may serve you well or lead to your downfall. Choose wisely.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek power beyond the darkness, join me in the conquest.",
+            "enemyAnswer": "Join you? Ha! Your quest for power blinds you, mortal. My allegiance lies with the shadows alone.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then face me in battle, shadow creature!",
+                "enemyAnswer": "So be it. Prepare to be enveloped in the darkness you so eagerly seek.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Retreat seems wiser for me now.",
+                "enemyAnswer": "Cowardice becomes you, mortal. Flee into the shadows, where you shall remain forevermore.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I understand the shadows, respect their power, and offer you an alliance.",
+            "enemyAnswer": "Respect? An amusing notion coming from one blinded by ambition. The shadows bow to no one. Choose your fate.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "In that case, let us stand together against the light.",
+                "enemyAnswer": "Unity with the light-bearers? Absurd! The shadows will feast on your misguided ideals.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well, I shall leave you to your shadows.",
+                "enemyAnswer": "As you skulk away, remember this: the shadows will forever be your silent companions.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek knowledge of the shadow arts, can you enlighten me?",
+            "enemyAnswer": "Knowledge? Haha! The depths of shadow magic are not for the feeble-minded. Proceed with caution or be consumed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will heed your warning and tread carefully.",
+                "enemyAnswer": "Wise choice, mortal. Depart from the shadows before they consume your very essence.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will take my chances and delve deeper into the shadows.",
+                "enemyAnswer": "Foolish mortal! Embrace the darkness, for it shall be your eternal shroud.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a traveler seeking passage through the shadows. No harm intended.",
+        "enemyAnswer": "Intriguing... A rare sight in these shadows. Will you prove to be a friend or yet another fleeting shadow?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I come in peace, seeking no quarrel with the shadows.",
+            "enemyAnswer": "Peace? Your words are like whispers in a tempest. The shadows will judge your intentions.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer a truce and mutual respect to coexist in these shadows.",
+                "enemyAnswer": "Truce? Respect? Such notions hold little sway in the realm of shadows. Your fate hangs by a thread.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave this place and trouble the shadows no more.",
+                "enemyAnswer": "A wise decision, traveler. May the shadows guide your path, even if they lead to oblivion.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek only to pass through unnoticed, my presence is of no consequence.",
+            "enemyAnswer": "Unnoticed? In the shadows, all are seen, all are known. Will you continue to be a mere whisper in the dark?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will fade into the shadows and disturb them no further.",
+                "enemyAnswer": "A fleeting presence, soon forgotten. The shadows will reclaim what was briefly touched by the light.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will remain here until my passage is granted.",
+                "enemyAnswer": "Stubborn mortal, your patience may be tested by the unforgiving shadows. Prepare for what comes next.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek guidance through the shadows, a way to navigate this realm safely.",
+            "enemyAnswer": "Guidance? Safety? In the shadows, such assurances are fleeting. Will you find your way or become lost in darkness?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I ask for your aid, shadow dweller, in exchange for my gratitude.",
+                "enemyAnswer": "Gratitude from a traveler? An interesting offer. The shadows may yet reveal their secrets to one with humility.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I shall rely on my own instincts and part ways with the shadows.",
+                "enemyAnswer": "Independent, yet perhaps foolish. The shadows will watch as you navigate the twists and turns of fate.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

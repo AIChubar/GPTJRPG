@@ -1,0 +1,158 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "lurking_horror",
+      "thirdAttribute": "",
+      "characteristicName": "Shadowy Abyssal Horror",
+      "artisticName": "Umbraxis the Dreaded",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 35,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 15,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Hssss... What mortals dare disturb the shadows where I dwell?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "We seek to bring balance and harmony to this realm.",
+        "enemyAnswer": "Balance? Harmony? Fools speak of concepts they cannot comprehend.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Your darkness will yield to the light of our cause.",
+            "enemyAnswer": "The light you worship is but a fleeting spark in the vast darkness. Pathetic.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We will not falter in our mission. Prepare to face our resolve!",
+                "enemyAnswer": "Your resolve is as feeble as your light. I shall crush you without mercy.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "We understand your power. Let us work together against a greater threat.",
+                "enemyAnswer": "Ha! You think me a fool to trust the likes of you? Begone before I decide to end you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "We do not fear the shadows, for we carry the strength of unity and hope.",
+            "enemyAnswer": "Unity and hope. Words that ring hollow in the darkness that consumes everything.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Our unity shall be our shield against your malevolence.",
+                "enemyAnswer": "Arrogant insects! Unity or not, you shall all be crushed beneath my shadow.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there is a way for us to understand each other. Will you listen?",
+                "enemyAnswer": "Listen? To the prattle of insignificant beings? I have no interest in your meaningless words.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your darkness may be deep, but so is our determination to bring forth the dawn.",
+            "enemyAnswer": "Determination... A frail flame in the face of the abyss. Your words amuse me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We shall prove that even the darkest shadow must yield to the light.",
+                "enemyAnswer": "Bold words from such feeble creatures. Let us see how long your light lasts.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let us stand together, shades of darkness and beams of light, in unity against the encroaching void.",
+                "enemyAnswer": "Unity? Light and shadow do not mix, mortal. Keep your delusions to yourself.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "We come to understand the darkness that veils this realm.",
+        "enemyAnswer": "Understanding? You know nothing of the true darkness that resides here.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Our knowledge may lead us to a path of mutual benefit. Will you hear us out?",
+            "enemyAnswer": "Benefit? What could pitiful creatures like you offer that would interest me?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we may find a way to transcend the depths of shadow and light.",
+                "enemyAnswer": "Transcend? You speak as if you hold the key to realms beyond. A fantasy, nothing more.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Let us combine our strengths and unravel the mysteries that bind us in this eternal night.",
+                "enemyAnswer": "Strengths? Mysteries? Your attempts at grandeur are laughable. I have no time for such games.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The darkness may hide secrets that even you have not uncovered. Will you join our quest for knowledge?",
+            "enemyAnswer": "Quest for knowledge? You speak as if knowledge alone can dispel the shadows around us.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Our thirst for understanding may unite us in ways we never thought possible.",
+                "enemyAnswer": "Unity through understanding? A naive notion. The shadows hold no alliance with the light.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Let us delve into the unknown together, for truths lie in the heart of darkness.",
+                "enemyAnswer": "Truths? The only truth is the eternal darkness that engulfs us. Your optimism is misguided.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "We bow to the shadows' might, acknowledging their place in the tapestry of existence.",
+        "enemyAnswer": "Bow? Acknowledge? Your words lack substance, like whispers in the wind.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Our humility is not a sign of weakness but of respect for the shadows' essence.",
+            "enemyAnswer": "Respect? The shadows care not for your feeble attempts at humility. Your actions speak louder.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We tread carefully, mindful of the power that lies within the darkness we traverse.",
+                "enemyAnswer": "Mindful? Careful? Your caution will not save you from the abyss that awaits.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "May our actions speak louder than words, showing our reverence for the shadows' presence.",
+                "enemyAnswer": "Actions... Reverence... Meaningless gestures from insignificant beings.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "In the swirling shadows, we find solace and strength, embracing the mysteries they hold.",
+            "enemyAnswer": "Solace? Strength? The shadows offer only emptiness and the chill of eternity.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "In unity with the shadows, we seek to understand the balance between light and dark.",
+                "enemyAnswer": "Unity? Balance? You speak of ideals that have no place in the realm of shadows.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Let us walk alongside the shadows, learning from the depths of their eternal wisdom.",
+                "enemyAnswer": "Wisdom? Shadows? Foolish mortal, you know nothing of the true depths within.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

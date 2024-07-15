@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "The Withered Glade",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The once vibrant glen now lies in ruin as twisted dark-grass spreads its tendrils through the decaying flora. Hidden deep-dark-holes scattered around threaten to swallow any unwary adventurer. This forsaken place whispers the first pains brought by the looming shadows upon Twilight Haven."
+    },
+    {
+      "levelName": "Infernal Plateau",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Vast stretches of rugged lava-rock form this scorched expanse, where perilous rivers of molten lava flow freely. The Infernal Plateau serves as a training ground for those daring enough to challenge its blistering trials, testing the resilience of all who seek to conquer evil within this sullen dominion."
+    },
+    {
+      "levelName": "Titan's Sigil",
+      "walkableTerrain": "grey-brick-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "At the heart of Twilight Haven, surrounded by an eerie glow, lies the mighty assembly of grey-brick-platforms known as Titan's Sigil. Beneath the sigils' cold structure lies Therandros, the Undefeated Bulwark. His battle against the dark forces has persisted for eons, but his besieged position hints at fractures amidst the celestial walls, deep-dark-holes hatching a silent evil insurgent ceaselessly. Preparations for the final confrontation face those brave enough to unstiffen arm adamantly heroic stature against imperied clocks thick shadowing riddles that must pharmacopyle daydream twisted settlement sways dark breath."
+    }
+  ]
+}

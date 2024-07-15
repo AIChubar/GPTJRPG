@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadows' Embrace",
+      "enemyGroups": [
+        {
+          "groupName": "Ethereal Nightmares",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Haunting Void Stalker",
+              "artisticName": "Spectral Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Shadow Stalker",
+              "artisticName": "Phantom Shade",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Wraith Warrior",
+              "artisticName": "Ethereal Revenant",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Ancient Necromancer Lord",
+              "artisticName": "Dread Lich",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "witch",
+              "characteristicName": "Vampiric Shadow Witch",
+              "artisticName": "Nightshade Sorceress",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "king",
+              "characteristicName": "Ancient Lich King",
+              "artisticName": "Spectral Monarch",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkened Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Shadowed Void Phantom",
+              "artisticName": "Ethereal Specter",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Shadow Warrior",
+              "artisticName": "Spectral Guardian",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ghostly Night Stalker",
+              "artisticName": "Phantom Haunter",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Dreadful Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "witch",
+              "characteristicName": "Sinister Blood Witch",
+              "artisticName": "Dark Veil Witch",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Malevolent Lich Necromancer",
+              "artisticName": "Dread Sorcerer",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Ghost",
+              "artisticName": "Shadowed Phantom",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Ruins",
+      "enemyGroups": [
+        {
+          "groupName": "Decaying Spirits",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "lord",
+              "characteristicName": "Decrepit Mummy Lord",
+              "artisticName": "Rotting Pharaoh",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Ancient Mummy Warrior",
+              "artisticName": "Dustborn Guardian",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "priest",
+              "characteristicName": "Cursed Mummy Priest",
+              "artisticName": "Wrathful Hierophant",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Ruined Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Warrior",
+              "artisticName": "Wraithblade",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Shadowed Stalker",
+              "artisticName": "Ethereal Haunter",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Ghost",
+              "artisticName": "Spectral Phantom",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Lost Souls",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Haunting Void Spirit",
+              "artisticName": "Spectral Soul",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "priest",
+              "characteristicName": "Cursed Mummy Priest",
+              "artisticName": "Wrathful Hierophant",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "lord",
+              "characteristicName": "Decrepit Mummy Lord",
+              "artisticName": "Rotting Pharaoh",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Guardians",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Shadow Stalker",
+              "artisticName": "Phantom Shade",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Ancient Mummy Warrior",
+              "artisticName": "Dustborn Guardian",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Haunting Void Stalker",
+              "artisticName": "Spectral Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Citadel",
+      "enemyGroups": [
+        {
+          "groupName": "Fiery Shades",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "mystic",
+              "characteristicName": "Infernal Mystic Salamander",
+              "artisticName": "Blazing Serpent",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Hellish Stormcaller Salamander",
+              "artisticName": "Inferno Tempest",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Inferno Salamander Warrior",
+              "artisticName": "Flameguardian",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Lava Legion",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Inferno Brimstone Champion",
+              "artisticName": "Blazeheart",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "mystic",
+              "characteristicName": "Infernal Mystic Salamander",
+              "artisticName": "Blazing Serpent",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Hellish Stormcaller Salamander",
+              "artisticName": "Inferno Tempest",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Infernal Phantoms",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Inferno Salamander Warrior",
+              "artisticName": "Flameguardian",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "mystic",
+              "characteristicName": "Infernal Mystic Salamander",
+              "artisticName": "Blazing Serpent",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Hellish Stormcaller Salamander",
+              "artisticName": "Inferno Tempest",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Flaming Legionnaires",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Inferno Brimstone Champion",
+              "artisticName": "Blazeheart",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Hellish Stormcaller Salamander",
+              "artisticName": "Inferno Tempest",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Inferno Salamander Warrior",
+              "artisticName": "Flameguardian",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

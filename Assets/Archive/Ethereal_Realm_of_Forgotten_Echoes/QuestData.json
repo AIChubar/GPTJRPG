@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispering Shadows",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of the Void",
+          "questDescription": "Navigate the Whispering Shadows and either vanquish or form an alliance with the Spirits of Desolation to progress.",
+          "questObjective": "Ephemeral Wailsong"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Harmony Amidst Gloom",
+          "questDescription": "Seek out and align with the Nightgloom Shades to receive their powers of healing.",
+          "questObjective": "Nightmare Aberrations"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Phantom Monarch's Downfall",
+          "questDescription": "Prepare to face the Eclipse Stalker and claim their loyal allegiance, proven by their defeat.",
+          "questObjective": "Eclipse Stalker"
+        }
+      ]
+    },
+    {
+      "levelName": "Veiled Twilight Grove",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Echoes of Enchantment",
+          "questDescription": "Within the Veiled Twilight Grove, resolve conflicts with the Phantasmal Sirens through combat or unity.",
+          "questObjective": "Lunar Serenade Guile"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Whispers from the Depths",
+          "questDescription": "Discover the Illusory Sorceries from the Deep and ally with the Abyssal Enchantress for rejuvenating powers.",
+          "questObjective": "Abyssal Enchantress"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Twilight Screechers' Exile",
+          "questDescription": "Defeat the Twilight Screechers to prove your strength and gain their loyal alliance.",
+          "questObjective": "Twilight Screechers"
+        }
+      ]
+    },
+    {
+      "levelName": "Sorrowscale Summit",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Confrontation at the Summit",
+          "questDescription": "Face the Nethermist Whisperer, the legendary sorcerer of darkness, and emerge victorious to claim victory.",
+          "questObjective": "Nethermist Whisperer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Guardians of Sorrow's Peak",
+          "questDescription": "Befriend the Ephemeral Wailsong within the twisted paths of Sorrowscale Summit to receive healing miracles.",
+          "questObjective": "Ephemeral Wailsong"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darksworn Defiance",
+          "questDescription": "Defeat the powerful Scarlet Infernodemons to prove your dominance and gain their allegiance.",
+          "questObjective": "Scarlet Infernodemons"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Eldrin Brightvale",
+  "race": "Half-Elf",
+  "characterClass": "Paladin",
+  "occupation": "Beacon of Sacred Light",
+  "backStory": "Eldrin Brightvale was born on the edge of the mystical forest of Aeloria, a place where sunlight pierced the veils of shadow, infusing every leaf and stream with a sense of palpable magic. Eldrin, the offspring of a noble human knight and an elven enchantress, was raised surrounded by both courtly honor and enchanting magic. From a young age, Eldrin exhibited an innate sense of duty and a strong moral compass, perpetually drawn to the serene yet mystical beauty of Aeloria. Trained by masterful knights and wise ancient druids, Eldrin became proficient in both martial prowess and nature magic. When Morathos the Deathweaver and his Shadow Cabal threatened to plunge the world into darkness, Eldrin dedicated himself to becoming the universal beacon of hope and defender of lands touched by both light and shadow. With a steely resolve and heart aflame with righteousness, Eldrin now sets forth to reclaim the splendor of Ethereal Shire by battling the unrelenting forces of darkness.",
+  "protagonistGroup": {
+    "groupName": "Chronicles of the Lightbringers",
+    "units": [
+      {
+        "firstAttribute": "humanoid",
+        "secondAttribute": "elf",
+        "thirdAttribute": "summoner",
+        "characteristicName": "Elven Spirit Conjurer",
+        "artisticName": "Lanathia Moonbloom",
+        "powerLevel": "mighty",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "dryad",
+        "thirdAttribute": "",
+        "characteristicName": "Sylvan Guardianship",
+        "artisticName": "Thalmiara the Verdant",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "worm",
+        "characteristicName": "Haunting Wyrm Whisperer",
+        "artisticName": "Xayvius, Echo of Time",
+        "powerLevel": "legendary",
+        "unitClass": "shaman"
+      }
+    ]
+  }
+}

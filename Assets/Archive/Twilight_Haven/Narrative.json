@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "titan",
+    "thirdAttribute": "annihilator",
+    "characteristicName": "Titan Annihilator",
+    "artisticName": "Therandros, the Undefeated Bulwark",
+    "powerLevel": "legendary",
+    "unitClass": "protector"
+  },
+  "antagonistGroup": {
+    "groupName": "Shield of Radiance",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "centaur_ascended",
+        "thirdAttribute": "",
+        "characteristicName": "Ascended Centaur",
+        "artisticName": "Cendrial, The Radiant Charger",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "apys",
+        "thirdAttribute": "",
+        "characteristicName": "Holy Apys",
+        "artisticName": "Lucinia, Light of Hope",
+        "powerLevel": "formidable",
+        "unitClass": "healer"
+      }
+    ]
+  },
+  "worldName": "Twilight Haven",
+  "story": "In the land of Twilight Haven, light and dark have waged endless wars over ages untold. The lush valleys with whispered secrets, the towering obsidian mountains that pierce the heavens, and the deep abyssal lakes hide many mysteries and dangers. Once a realm of balance, Twilight Haven is now ensnared in an escalating conflict. Its darkest depths, corrupted by unspeakable evils, call forth malignancies that prey upon its lands.\n\nIn recent eras, diabolical ambitions have gained footing, led by the darker forces seeking supremacy. Their chief antagonist is the benevolent Titan Annihilator, Therandros, the Undefeated Bulwark, whose iron will and unmatched power stand firm against influences of corruption. His servers, the Shield of Radiance, personified by the fleet-footed Cendrial, the Radiant Charger, and Lucinia, emissary of light and healer of wounds, strive to restore equilibrium to their waning world.\n\nHowever, as shadows encroach upon the radiant domains, evil stirs from its unholy lairs. Mustered and determined, these sinister powers set forth to unseat their celestial rivals. Every sinister plot tightens the grasp of dark upon light, pressing hale inhabitants towards anticipated despair using the dramatized clash for balanced sustenance.",
+  "greetingGameMessage": "Welcome, determined soul. In a world veiled in twilight and shrouded in secrecy, your ascendant destiny begins. Mold your influences as darkened forces ripple through these benighted realms.",
+  "defeatEndingMessage": "The defenses of light diminish as the malevolent halt no attacks. Their finishing strike bests the Hunger's champion thus; against destined survival, shades engulf. Hindmost victories sieze world not theirs; there on shadows' pluck exist accomplished Apocalypse creeds unimpeded.",
+  "gameOverMessage": "Deep-framed and in dread echo Fallout Heaven\u2019s violative supring incapacitation imbued charms onset ensuring continued dissent towards downfall they've hung facilitating slew ancestors blight redirect rested rip prospects these will clench plight ablaze daybreak crossed vain destiny."
+}

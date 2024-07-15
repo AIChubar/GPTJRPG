@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadowed Catacombs",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Descend into the Shadowed Catacombs, where the dark-dirt paths are lined with eerie whispers. Beware the deep-dark-holes that lead to unknown depths, hiding ancient secrets and lurking dangers."
+    },
+    {
+      "levelName": "Ethereal Grove",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Step into the Ethereal Grove, where pink-sand carpets the ground in a surreal display of beauty. Crystal-clear waters flow through the grove, creating a serene yet treacherous landscape that conceals hidden perils beneath its surface."
+    },
+    {
+      "levelName": "Voidwalker's Abyss",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Plunge into the depths of the Voidwalker's Abyss, a realm of rusty-chain-platforms suspended above churning rivers of lava. The air is thick with the scent of sulfur, and the ominous glow of the lava serves as a foreboding warning of the legendary sorcerer, Netherbane, who awaits at the heart of this infernal domain."
+    }
+  ]
+}

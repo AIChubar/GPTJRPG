@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispers of the Dark Abyss",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers in the Shadows",
+          "questDescription": "Explore the dark-grass realm of the 'Whispers of the Umbral Abyss' and either defeat or unite with the Ethereal Shadecaller.",
+          "questObjective": "Ethereal Shadecaller"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Unity Among Shadows",
+          "questDescription": "Seek out the Phantasmal Roarbeast in the dark-grass realm and unite forces for the greater good.",
+          "questObjective": "Phantasmal Roarbeast"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Silencing the Abyssal Whispers",
+          "questDescription": "Track down and eliminate the Abyssal Ectoghost in the dark-grass realm to secure an amulet of alliance.",
+          "questObjective": "Abyssal Ectoghost"
+        }
+      ]
+    },
+    {
+      "levelName": "Ruins of the Forgotten Empire",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Echoes of the Empire",
+          "questDescription": "Navigate the rusty-chain-platforms of the 'Ruins of the Lost Empire' and decide whether to ally with or defeat the Elven Empire Warrior.",
+          "questObjective": "Aelrindor the Forgotten"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Guardians Reunited",
+          "questDescription": "Locate Durin Stonebeard on the rusty-chain-platforms and unite to restore balance with an amulet of healing.",
+          "questObjective": "Durin Stonebeard"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Forging New Alliances",
+          "questDescription": "Defeat Ilyana Moonweaver in the 'Ruins of the Lost Empire' to forge a new alliance with the Elven Empire Mage.",
+          "questObjective": "Ilyana Moonweaver"
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Confronting the Nether Legion",
+          "questDescription": "Venture into the fractured-wall-platforms of 'Void's Embrace' and face the challenge of defeating the Voidshadow Specter to claim victory.",
+          "questObjective": "Voidshadow Specter"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Embracing the Shadows",
+          "questDescription": "Find Faedryad of the Abyss on the fractured-wall-platforms and unite to receive an amulet of healing.",
+          "questObjective": "Faedryad of the Abyss"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Banishing the Shadows",
+          "questDescription": "Hunt down the Ethereal Shadebringer in 'Void's Embrace' to earn an amulet of alliance and bring light to the darkness.",
+          "questObjective": "Ethereal Shadebringer"
+        }
+      ]
+    }
+  ]
+}

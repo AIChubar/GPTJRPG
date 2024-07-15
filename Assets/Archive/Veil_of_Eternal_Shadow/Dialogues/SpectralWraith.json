@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "void",
+      "characteristicName": "Haunting Void Stalker",
+      "artisticName": "Spectral Wraith",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 30,
+      "strategicThinking": 70,
+      "indifference": 5,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Haunting voids swirl around you, insignificant mortal. What pitiful purpose brings you to these shadowed lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to challenge the darkness that looms here.",
+        "enemyAnswer": "Bold words from such a fragile being. Do you truly believe you can stand against the abyss?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My resolve is unshakable, I will prevail.",
+            "enemyAnswer": "Foolish bravery. Your end will be a mere flicker in the endless void.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no darkness, for light shines within me.",
+                "enemyAnswer": "Your light is but a feeble ember in the winds of oblivion. The void beckons for your extinguishment.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps I have underestimated this perilous quest. I shall retreat for now.",
+                "enemyAnswer": "As expected, a coward seeks solace in flight. The void consumes all who cower.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I did not come unprepared. I bear the sacred relics that defy your darkness.",
+            "enemyAnswer": "Relics of the past hold no sway over the abyss. Your futile attempts amuse the shadows.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "These relics have banished far greater evils. Prepare to face their radiant power.",
+                "enemyAnswer": "Delusions of grandeur will only hasten your demise. Embrace the void's embrace.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I shall reconsider my approach and return when the stars align more favorably.",
+                "enemyAnswer": "Prudent, yet the darkness cares not for celestial whims. A delayed end awaits you.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek knowledge and understanding, not conflict. Can we not coexist peacefully?",
+            "enemyAnswer": "Peace with the void is an absurd notion, inconsequential being. Your ignorance blinds you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I apologize if I have offended. I shall take my leave and trouble you no further.",
+                "enemyAnswer": "Your departure matters not. Insignificant mortal, be swallowed by the shadows.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "There must be common ground between us. Let us find harmony amidst the darkness.",
+                "enemyAnswer": "Harmony is a concept alien to the shadows. Your attempts at peace amuse the void.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I wander these lands seeking a way to mend the fractured veil between realms.",
+        "enemyAnswer": "Frail mortal, your quest is futile. The veil fractures at the touch of the void's embrace.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My determination knows no bounds. I will mend what has been torn asunder.",
+            "enemyAnswer": "Blind determination leads only to your demise. The void's hunger is insatiable.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Even in despair, hope lingers. I will not yield to the darkness.",
+                "enemyAnswer": "Hope is a cruel jest in these forsaken lands. Embrace the end that awaits.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the rift is beyond my ability. I must retreat and reconsider.",
+                "enemyAnswer": "Recognition of your weakness is the first step towards oblivion. The void awaits.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The veil may be fragile, but with patience and wisdom, it can be restored.",
+            "enemyAnswer": "Patience is a luxury in the face of oblivion. Your efforts are naught but dust in the winds of time.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Wisdom will guide my hand. I shall persist until the breach is sealed.",
+                "enemyAnswer": "Wisdom is a feeble shield against the void's onslaught. Prepare for dissolution.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I must seek counsel and regroup. The task ahead demands greater preparation.",
+                "enemyAnswer": "Counsel and preparation may delay the inevitable, but not alter the fate that awaits.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I implore you, aid me in my endeavor to repair the veil. Together we may yet prevent catastrophe.",
+            "enemyAnswer": "Collaboration with the void is a folly beyond measure, naive one. The veil crumbles regardless.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your refusal only deepens the shadows. I shall press on alone, against all odds.",
+                "enemyAnswer": "Alone you came, alone you shall fade into the obscurity of the void. The end beckons.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I understand your stance. Farewell, spectral wraith. May our paths diverge peacefully.",
+                "enemyAnswer": "Farewell is but a temporary reprieve. In the end, all paths lead to the shadows' embrace.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am a harbinger of the light, seeking to dispel the shadows that linger in this realm.",
+        "enemyAnswer": "The light you bear is but a fleeting glimmer in the boundless void. Your presence disrupts the harmony of shadows.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The light I carry shall banish the darkness and bring forth a new dawn to this desolate land.",
+            "enemyAnswer": "Hubris blinds the righteous. The darkness shall claim all, including your misguided radiance.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve is unyielding. I will confront the shadows with unwavering faith.",
+                "enemyAnswer": "Faith without wisdom is a fragile shield against the void's tide. Prepare for annihilation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps my light is not yet bright enough to pierce this gloom. I shall retreat and grow stronger.",
+                "enemyAnswer": "Weakness breeds failure in the face of the void's abyss. Retreat is but a delay of the inevitable end.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The shadows may resist, but they shall yield to the radiance of truth and purity.",
+            "enemyAnswer": "Delusions of purity in the embrace of shadows. Your light dims in the face of eternal darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Truth and purity are eternal. I will not waver in my quest to illuminate these lands.",
+                "enemyAnswer": "Eternal claims are but echoes in the void's silence. Prepare for the extinguishing of your false radiance.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I must gather strength and clarity before I can face the darkness head-on. I shall withdraw for now.",
+                "enemyAnswer": "Strength without purpose is but fleeting respite. The void's patience outlasts mortal endeavors.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Can the shadows not embrace the light and find balance amidst the eternal struggle?",
+            "enemyAnswer": "Balance is a fallacy in the dance of light and shadow. Your ignorance blinds you to the abyss that looms.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Ignorance is the true shadow here. I will shine brighter, despite the darkness' resistance.",
+                "enemyAnswer": "Blind defiance in the face of oblivion. Your light shall flicker and fade into the void's depths.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see that our paths diverge in purpose. Let us part ways peacefully, with no ill will.",
+                "enemyAnswer": "Peaceful parting is but a temporary illusion. The shadows envelop all in the end.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Abyssal Caverns",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Welcome to the Abyssal Caverns, where the walls are adorned with ancient fractals and the echoes of rushing water fill the air. Beware of submerged traps and hidden perils as you navigate through the treacherous depths of this subterranean domain."
+    },
+    {
+      "levelName": "Serpentine Shoreline",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Traverse the Serpentine Shoreline, a landscape bathed in the eerie hue of pink sands under a darkened sky. Watch your step closely, for lurking beneath the surface are deep, dark pits that threaten to swallow any misstep into the abyss below."
+    },
+    {
+      "levelName": "Leviathan's Lair",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "You have reached the heart of darkness, the Leviathan's Lair. Here, rusty chains suspend precarious platforms over bubbling pools of molten lava, a testament to the fearsome power of Thalassakor the Leviathan. Tread carefully, for the very ground beneath you simmers with latent fury."
+    }
+  ]
+}

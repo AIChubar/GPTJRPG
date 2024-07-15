@@ -1,0 +1,39 @@
+{
+  "name": "Kaelara Shadowthorn",
+  "race": "serpentide",
+  "characterClass": "berserker",
+  "occupation": "Shadow Reaver",
+  "backStory": "Kaelara Shadowthorn, a fierce serpentide berserker known as the Shadow Reaver, emerges from the depths of the Abyssal Waters of Eternal Dusk. Her past is shrouded in mystery and whispers of ancient blood pacts, empowering her to combat the darkness that threatens to engulf the realm.",
+  "protagonistGroup": {
+    "groupName": "Duskblade Vanguard",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "soul",
+        "thirdAttribute": "lost",
+        "characteristicName": "Ethereal Soul Harvester",
+        "artisticName": "Nexaria the Soulweaver",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "stone_ghost",
+        "thirdAttribute": "",
+        "characteristicName": "Ancient Stone Sentinel",
+        "artisticName": "Gargoth the Silent Guardian",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "salamander",
+        "thirdAttribute": "firebrand",
+        "characteristicName": "Infernal Flamebringer",
+        "artisticName": "Ignatius the Blazing Conqueror",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

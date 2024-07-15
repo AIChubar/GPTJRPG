@@ -1,0 +1,39 @@
+{
+  "name": "Arielle Sunblade",
+  "race": "humanoid",
+  "characterClass": "healer",
+  "occupation": "Lightbringer",
+  "backStory": "Arielle Sunblade, a compassionate humanoid healer known as the Lightbringer, emerges from the radiant lands of the Celestial Realm of Luminous Harmony. With a heart filled with healing light and a spirit devoted to bringing solace to those in need, Arielle embarks on a quest to dispel the shadows that threaten the realm.",
+  "protagonistGroup": {
+    "groupName": "Radiant Aegis",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "peacemaker",
+        "characteristicName": "Harmony's Divine Protector",
+        "artisticName": "Seraphiel the Peacekeeper",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "primordial",
+        "secondAttribute": "gargoyle",
+        "thirdAttribute": "metal",
+        "characteristicName": "Metallic Guardian of the Ancients",
+        "artisticName": "Argentus the Iron Sentinel",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "titan",
+        "thirdAttribute": "annihilator",
+        "characteristicName": "Titanic Avenger of Light",
+        "artisticName": "Aetheron the Radiant Destroyer",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

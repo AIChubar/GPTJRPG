@@ -1,0 +1,127 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "draconid",
+      "secondAttribute": "dragon",
+      "thirdAttribute": "ice",
+      "characteristicName": "Glacial Frost Wyrm",
+      "artisticName": "Frostclaw the Ice Serpent",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 60,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 15,
+      "chaoticity": 25
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, an intruder in these frozen lands. What brings you to face the might of Frostclaw the Ice Serpent?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to challenge your power and claim victory.",
+        "enemyAnswer": "A bold choice, challenging a formidable foe. Prepare yourself for a chilling battle!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am ready for your icy wrath.",
+            "enemyAnswer": "So be it, let the frost embrace you as my power overwhelms you!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I won't back down, I'll fight to the end.",
+                "enemyAnswer": "Bravery in the face of certain defeat, admirable but futile. Feel the full force of the frost!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I yield, spare me and I shall leave these lands.",
+                "enemyAnswer": "A wise decision, the frost spares those who acknowledge its supremacy. Begone!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense the wisdom in retreat, let us avoid needless conflict.",
+            "enemyAnswer": "Retreat, a show of cowardice or cunning? Regardless, the frost shall not be denied its prey!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll make my escape swiftly.",
+                "enemyAnswer": "Run, flee the icy grasp while you can, for Frostclaw knows no mercy for the weak!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer a truce, let us part ways without bloodshed.",
+                "enemyAnswer": "A truce? Intriguing proposal, but Frostclaw's allies are scarce, your fate is sealed!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand your power, to learn from this encounter.",
+            "enemyAnswer": "Curiosity or a futile attempt at diplomacy? Frostclaw shall indulge your inquiry before delivering its verdict.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your power is truly formidable, I acknowledge your strength.",
+                "enemyAnswer": "Wise acknowledgment, yet the might of Frostclaw is beyond mere words. Prepare for the freeze!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I admire your strength, perhaps we can walk separate paths.",
+                "enemyAnswer": "Admiration from a potential prey, intriguing. Adieu, may the frost haunt your steps.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking to understand this frozen realm and its inhabitants.",
+        "enemyAnswer": "Peace? A rare sentiment amidst the icy winds. What knowledge do you seek from Frostclaw the Ice Serpent?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I wish to learn of the ancient frost magic that surrounds these lands.",
+            "enemyAnswer": "Ancient frost magic, a coveted lore. Knowledge is not freely given, prove your worth, seeker of ice.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I shall demonstrate my respect for the frost with a gesture of reverence.",
+                "enemyAnswer": "Respect shown in action, a rare sight. Frostclaw acknowledges your reverence, proceed with care.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to befriend the inhabitants of this frozen domain, to find common ground.",
+            "enemyAnswer": "Befriend? A curious ambition amidst the cold. What bond do you seek with Frostclaw the Ice Serpent?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer a pact of mutual respect and aid between us.",
+                "enemyAnswer": "A pact sealed in the frost's embrace, an unorthodox proposal. Frostclaw considers your bond, for now.",
+                "outcome": "ally"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I wander in search of adventure, drawn to the mysteries of this frozen realm.",
+        "enemyAnswer": "Adventure beckons, even to the frost-laden lands. What mysteries do you hope to unravel with Frostclaw the Ice Serpent?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek to uncover the secrets of the ice and the beings that dwell within.",
+            "enemyAnswer": "Secrets within the ice, a perilous pursuit. Frostclaw warns, tread carefully, lest the ice claim you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I acknowledge the warning, I'll exercise caution in my explorations.",
+                "enemyAnswer": "Caution heeded, a wise choice in the realm of ice. Frostclaw allows your ventures, but beware its frosty touch.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

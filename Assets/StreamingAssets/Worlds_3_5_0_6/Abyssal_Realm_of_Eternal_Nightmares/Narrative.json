@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ethereal Void Stalker",
+    "artisticName": "Zyphraxus the Soul Wraith",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "The Shadow Legion",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "king",
+        "characteristicName": "Ancient Royal Necromancer",
+        "artisticName": "Mortilus the Undying",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "king",
+        "characteristicName": "Shadow Monarch",
+        "artisticName": "Nyxaris the Shadowlord",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Abyssal Realm of Eternal Nightmares",
+  "story": "In the Abyssal Realm of Eternal Nightmares, darkness reigns supreme. The land is shrouded in perpetual darkness, and the air is thick with the whispers of lost souls. The Shadow Legion, led by Zyphraxus the Soul Wraith, seeks to plunge the world into eternal darkness by harnessing the power of the Ethereal Void Stalker. Mortilus the Undying, an Ancient Royal Necromancer, and Nyxaris the Shadowlord, the Shadow Monarch, are his loyal commanders, spreading fear and despair wherever they go.",
+  "greetingGameMessage": "Welcome, traveler, to the Abyssal Realm of Eternal Nightmares. Beware the shadows that lurk in every corner, for the darkness here is unfathomable. May you find the strength to face the looming threat of the Shadow Legion.",
+  "defeatEndingMessage": "With the defeat of Zyphraxus the Soul Wraith, the Ethereal Void Stalker dissipates into the darkness, releasing the souls trapped within. The Abyssal Realm of Eternal Nightmares is finally freed from the clutches of darkness, and light begins to return to the land.",
+  "gameOverMessage": "Alas, the darkness proved too powerful for you to overcome. The Shadow Legion, led by Zyphraxus the Soul Wraith, engulfs the Abyssal Realm of Eternal Nightmares in eternal night, spreading fear and despair for all eternity."
+}

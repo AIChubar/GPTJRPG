@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispering Frostfalls",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Silent Shadows Pact",
+          "questDescription": "Form an alliance with the Frost Phantom Sentinels or eliminate them to secure safe passage through Whispering Frostfalls.",
+          "questObjective": "Frozen Serpent Shadows"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Harmony Amidst Frost",
+          "questDescription": "Find a way to unite the Frozen Wraith Legion to aid in your journey, promising peace between the living and the undead.",
+          "questObjective": "Blizzard Haze Revenants"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Specters' Bane",
+          "questDescription": "Defeat the Shimmering Snowfiends to establish dominance over the icy tundra and earn a powerful amulet of alliance.",
+          "questObjective": "Flowerfrost Riddleguards"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Shadow Caverns",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of Cooperation",
+          "questDescription": "Navigate the Shadowmaw Abyssals and either form a pact or eliminate them to proceed deeper into the Ethereal Shadow Caverns.",
+          "questObjective": "Voidclasp Soulguards"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Soul Guardian Unity",
+          "questDescription": "Unite the Darkened Echo Spirits to protect the Ethereal Shadow Caverns and receive an amulet of healing as a token of goodwill.",
+          "questObjective": "Eclipse Shadowwhisperers"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadows' Demise",
+          "questDescription": "Confront the Shadowed Bane Seekers and eliminate their threat to establish your dominance in the caverns, earning an amulet of alliance as a reward.",
+          "questObjective": "Abyssal Frostfall Shadows"
+        }
+      ]
+    },
+    {
+      "levelName": "Atheronius' Lair",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Eradication of Darkness",
+          "questDescription": "Face Atheronius' minions, the Lava Shadowstalkers, to weaken the Ethereal Shadow Walker's influence and emerge victorious over the darkness.",
+          "questObjective": "Icelight Embercrawlers"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Fire and Ice Harmony",
+          "questDescription": "Seek unity with the Infernoblade Keepers to balance the elements of fire and ice within Atheronius' Lair and receive a healing amulet in return.",
+          "questObjective": "Flamebrand Crimson Hellions"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Bane of Infernos",
+          "questDescription": "Defeat the Pyroclasm Emberwings to break their hold on the volcanic fortress and earn an amulet of alliance to strengthen your resolve.",
+          "questObjective": "Flameshadow Wyrdwings"
+        }
+      ]
+    }
+  ]
+}

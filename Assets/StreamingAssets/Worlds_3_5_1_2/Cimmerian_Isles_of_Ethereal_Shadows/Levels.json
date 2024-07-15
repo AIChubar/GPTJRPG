@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadowed Ruins",
+      "walkableTerrain": "dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Welcome to the Shadowed Ruins, once a place of grandeur now consumed by darkness. The path ahead is treacherous, with deep dark holes scattered throughout the crumbling dirt structures. Be cautious of what lies beneath your feet as you navigate this eerie landscape."
+    },
+    {
+      "levelName": "Ethereal Grove",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Step into the Ethereal Grove, a mysterious land shrouded in ethereal shadows and dark grass that whispers ancient tales. Beware of the tranquil beauty hiding dangers, for the waters here hold ominous secrets waiting to ensnare the unsuspecting traveler."
+    },
+    {
+      "levelName": "Lor'thelar's Abyss",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "You have reached Lor'thelar's Abyss, a realm forged by the malevolent sorcery of the Ancient Sorcerer of Shadows. The fractured wall platforms tremble under your feet as rivers of lava flow ominously beneath, a testament to the power of the legendary Lich Lord who awaits ahead."
+    }
+  ]
+}

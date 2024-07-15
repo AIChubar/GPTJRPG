@@ -1,0 +1,307 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Ethereal Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Azure Ooze Horde",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "azure",
+              "characteristicName": "Glowing Sludge Behemoth",
+              "artisticName": "Aqua Glorm",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "azure",
+              "characteristicName": "Toxic Slime Pulsar",
+              "artisticName": "Rippling Phagecaster",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "azure",
+              "characteristicName": "Viscous Azure Blob",
+              "artisticName": "Morphic Geldon",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Golem Enclave",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Fire Guardian",
+              "artisticName": "Pyroglare Sentinel",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "fire",
+              "characteristicName": "Scorching Ember Construct",
+              "artisticName": "Flameforge Colossus",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "fire",
+              "characteristicName": "Blazing Magmar Behemoth",
+              "artisticName": "Moltenstone Gargantuan",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadow Hydra Legion",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Umbral Hydra Majesty",
+              "artisticName": "Darkcoil Monarch",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Phantom Hydra Specter",
+              "artisticName": "Shadewyrn Phantom",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Twilight Hydra Regent",
+              "artisticName": "Darktide Sovereign",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Serpent's Embrace",
+      "enemyGroups": [
+        {
+          "groupName": "Ice Serpent Guard",
+          "units": [
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "ice",
+              "characteristicName": "Frozen Drake Sentinel",
+              "artisticName": "Glacial Scalewatcher",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "ice",
+              "characteristicName": "Arctic Drakeling Sleetbrood",
+              "artisticName": "Frostwyrm Chiller",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "ice",
+              "characteristicName": "Icy Drake Obliterator",
+              "artisticName": "Chillbane Frostfire",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Naga Sorceress Cove",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Mystical Naga Enchantress",
+              "artisticName": "Veilspire Illusionist",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Abyssal Serpent Cursemancer",
+              "artisticName": "Mercurial Soulweaver",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Serpentine Hexweaver",
+              "artisticName": "Aquaflame Conjurer",
+              "powerLevel": "might",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Snowy Griffin Squadron",
+          "units": [
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "griffon",
+              "thirdAttribute": "",
+              "characteristicName": "Blizzard Gryphon",
+              "artisticName": "Frostclaw Stormwing",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "griffon",
+              "thirdAttribute": "",
+              "characteristicName": "Everfrost Gryphon Knight",
+              "artisticName": "Icelore Skyguard",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "griffon",
+              "thirdAttribute": "",
+              "characteristicName": "Glacial Avenger Griffin",
+              "artisticName": "Snowdrift Fellbeak",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadows of Oblivion",
+      "enemyGroups": [
+        {
+          "groupName": "Demonic Bloodfire Legion",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Inferno Bloodflame",
+              "artisticName": "Scorchflame Incendion",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Blazing Hellspawn Lord",
+              "artisticName": "Pyre Lord Ignissar",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Molten Flame Wraith",
+              "artisticName": "Infernoblaze Guardian",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Magma Demon Horde",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Demon Abomination",
+              "artisticName": "Duskfiend Amdox",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Abyssal Demon Eviscerator",
+              "artisticName": "Shadethorn Marauder",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Dreadshadow Infernal",
+              "artisticName": "Abyssal Hateblaze",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Ancient Gargoyle Legion",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Gaia's Stonewing Sentinel",
+              "artisticName": "Sabrewing Earthshield",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Runic Rock Guard",
+              "artisticName": "Terrafeather Warder",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Ancient Granite Gargoyle",
+              "artisticName": "Runestorm Stonebeak",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

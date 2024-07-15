@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Shadows",
+      "enemyGroups": [
+        {
+          "groupName": "Shadowed Specters",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Voidstalker",
+              "artisticName": "Spectral Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Bone Legionnaire",
+              "artisticName": "Graveguard Sentinel",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Arcane Necrolord",
+              "artisticName": "Spectral Archmage",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Whispers",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "void",
+              "characteristicName": "Amorphous Voidspawn",
+              "artisticName": "Abyssal Shifter",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "death",
+              "characteristicName": "Corrupted Deathsludge",
+              "artisticName": "Necrotic Oozeling",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "spectral",
+              "characteristicName": "Ethereal Oozegeist",
+              "artisticName": "Spectral Slimefiend",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Revenants",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Restless Shadow",
+              "artisticName": "Wraithbound Haunter",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Vengeful Wraith",
+              "artisticName": "Soulbound Revenant",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Doomed Spirit",
+              "artisticName": "Shadowbound Specter",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Void Shadows",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "thing",
+              "characteristicName": "Ethereal Shadowbinder",
+              "artisticName": "Spectral Enigma",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "worm",
+              "characteristicName": "Shadowed Whisperer",
+              "artisticName": "Abyssal Whisperer",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Haunting Nightstalker",
+              "artisticName": "Spectral Predator",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Lava Veins",
+      "enemyGroups": [
+        {
+          "groupName": "Infernal Legion",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadowed Demonlord",
+              "artisticName": "Infernal Shadowlord",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "red",
+              "characteristicName": "Crimson Hellfiend",
+              "artisticName": "Infernal Incarnate",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Blazing Firelord",
+              "artisticName": "Infernal Flamewielder",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Menace",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Fire Elemental",
+              "artisticName": "Molten Inferno Elemental",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "giant",
+              "thirdAttribute": "fire",
+              "characteristicName": "Raging Fire Giant",
+              "artisticName": "Infernal Colossus",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Flame Golem",
+              "artisticName": "Magma Guardian",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "Fiery Shadows",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadowed Imp",
+              "artisticName": "Infernal Shade",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Magma Serpent",
+              "artisticName": "Infernal Lava Wyrm",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Infernal Pit Fiend",
+              "artisticName": "Shadowed Inferno Lord",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Burning Legion",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "phoenix",
+              "thirdAttribute": "",
+              "characteristicName": "Blazing Phoenix",
+              "artisticName": "Infernal Phoenix",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "giant",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Fire Giant",
+              "artisticName": "Magma Colossus",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "lord",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Lord of Flames",
+              "artisticName": "Blazing Inferno Lord",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Necroshade's Lair",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of the Void",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Boggart",
+              "artisticName": "Ethereal Shadewalker",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Whispering Shadestalker",
+              "artisticName": "Voidbound Shade",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Boggart",
+              "artisticName": "Ethereal Shadewalker",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkened Souls",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "soul",
+              "thirdAttribute": "lost",
+              "characteristicName": "Lost Soul",
+              "artisticName": "Shadowed Spirit",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "freezing",
+              "characteristicName": "Frozen Wraith",
+              "artisticName": "Frostbound Specter",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "witch",
+              "characteristicName": "Cursed Vampire",
+              "artisticName": "Shadowed Bloodfiend",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "Necrotic Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Necrotic Summoner",
+              "artisticName": "Deathbound Lich",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "ancient",
+              "characteristicName": "Ancient Lich",
+              "artisticName": "Ethereal Archmage",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "lord",
+              "characteristicName": "Lich Lord",
+              "artisticName": "Shadowed Necromancer",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Void Revenants",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Revenant",
+              "artisticName": "Shadowbound Specter",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Revenant",
+              "artisticName": "Voidbound Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Doomed Revenant",
+              "artisticName": "Ethereal Haunter",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Lyra Nightshade",
+  "race": "elf",
+  "characterClass": "rogue",
+  "occupation": "Shadow Assassin",
+  "backStory": "Lyra Nightshade, a master of stealth and deception, grew up amidst the ancient whispers of the elven forests. Trained in the shadows from a young age, she now wanders the Realm as a solitary vigilante, seeking to eradicate the darkness that plagues her home.",
+  "protagonistGroup": {
+    "groupName": "Shadows of Twilight",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "stalker",
+        "characteristicName": "Haunting Spectre of Whispering Shadows",
+        "artisticName": "Veilstalker",
+        "powerLevel": "mighty",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "lion",
+        "thirdAttribute": "",
+        "characteristicName": "Feral Roar of Ethereal Emptiness",
+        "artisticName": "Ghostfang",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "merfolk",
+        "thirdAttribute": "impaler",
+        "characteristicName": "Aquatic Harpooner of the Deep",
+        "artisticName": "Seaspike",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

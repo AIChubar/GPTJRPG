@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Twilight Glade",
+      "enemyGroups": [
+        {
+          "groupName": "Whispering Shadows Pack",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Haunting Blade",
+              "artisticName": "Wispblade",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Ethereal Dragon Fear",
+              "artisticName": "Mistwyrm",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skull",
+              "thirdAttribute": "",
+              "characteristicName": "Cursed Skull of Despair",
+              "artisticName": "Wailcrypt",
+              "powerLevel": "strong",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Moonlit Stalkers Brigade",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Aqua Guardian Serpent",
+              "artisticName": "Neptinecoil",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "impaler",
+              "characteristicName": "Tidal Harpoon Queen",
+              "artisticName": "Whalespike",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Soulshroud Phantom Stalker",
+              "artisticName": "Spectrecloak",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Veiled Nightfall Squad",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "artifficier",
+              "characteristicName": "Shadowed Form Illusionist",
+              "artisticName": "Duskwraith",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Guard of Shadows",
+              "artisticName": "Duskstone",
+              "powerLevel": "moderate",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "water_nymph",
+              "thirdAttribute": "",
+              "characteristicName": "Abyssal Siren of Dusk",
+              "artisticName": "Twilight Naiad",
+              "powerLevel": "weak",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Terror Trio",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "rat",
+              "characteristicName": "Plaguebearer Vermin Horde",
+              "artisticName": "Ratrot Swarm",
+              "powerLevel": "weak",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "dryad",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Fay Guardian",
+              "artisticName": "Silvershade",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "singer",
+              "characteristicName": "Enthralling Songstress Mermaid",
+              "artisticName": "Lorelle Siren",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Forgotten Catacombs",
+      "enemyGroups": [
+        {
+          "groupName": "Decaying Depths Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "hydra_lord",
+              "characteristicName": "Bone Draked Thanatosis",
+              "artisticName": "Hydrabone Abyss",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "knight",
+              "characteristicName": "Bloodshadow Vampire Knight",
+              "artisticName": "Nightfallen Cross",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "moth",
+              "thirdAttribute": "",
+              "characteristicName": "Lunar Devourer Moth",
+              "artisticName": "Noxfury Flutter",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Abysmal Corpse Collective",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "ancient",
+              "characteristicName": "Eternal Necro Lord",
+              "artisticName": "Soultome Lich",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Timber Marauder Beast",
+              "artisticName": "Thornhide Mauler",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "griffon",
+              "thirdAttribute": "",
+              "characteristicName": "Winged Night Terror",
+              "artisticName": "Moonraker Griffin",
+              "powerLevel": "moderate",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Dreadful Darkness Incursion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Sarcophagus Guardian Lord",
+              "artisticName": "Pharaoh's Retaliation",
+              "powerLevel": "moderate",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Interplanar Revenant Binder",
+              "artisticName": "Celestial Chainsoul",
+              "powerLevel": "weak",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Stonewrought Mountainlord",
+              "artisticName": "Avalanche Behemoth",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Catacomb Wardens",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "revenant",
+              "thirdAttribute": "",
+              "characteristicName": "Willbound Echo Revenant",
+              "artisticName": "Shadebound Wraith",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Ethereal Darkness Monarch",
+              "artisticName": "Souldark Sovereign",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "quadruped",
+              "characteristicName": "Phantom Mirage Construct",
+              "artisticName": "Echothread Illusion",
+              "powerLevel": "weak",
+              "unitClass": "marksman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "enemyGroups": [
+        {
+          "groupName": "Darkened Fortress Vanguard",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Infernal Shadowblade Dreadlord",
+              "artisticName": "Umbralmancer",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Enchanted Serpent Warlock",
+              "artisticName": "Nagaweaver",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Abyssal Winged Terrors",
+              "artisticName": "Voidwing Dread",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowspawn Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "hulk_rotting",
+              "thirdAttribute": "",
+              "characteristicName": "Decaying Horror Knight",
+              "artisticName": "Eldritch Rotblade",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Elemental Guardian Colossus",
+              "artisticName": "Stone Sentinel",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "quicksilver",
+              "characteristicName": "Quicksilver Drake Tempest",
+              "artisticName": "Vapordrake",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Dreadshade Knights",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "treant",
+              "characteristicName": "Ghoulsap Monstrosity",
+              "artisticName": "Rotwood Horror",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Bog Haunter",
+              "artisticName": "Mistcreeper Fiend",
+              "powerLevel": "strong",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "deep_troll",
+              "thirdAttribute": "berserker",
+              "characteristicName": "Earthblood Troll Ravager",
+              "artisticName": "Gorecrush Mauler",
+              "powerLevel": "moderate",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Eclipsed Shadow Wardens",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "soul",
+              "thirdAttribute": "lost",
+              "characteristicName": "Forlorn Oblivion Souls",
+              "artisticName": "Nullshade Spirits",
+              "powerLevel": "weak",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "death",
+              "characteristicName": "Deathsworn Ooze Watchers",
+              "artisticName": "Gooey Doomstalkers",
+              "powerLevel": "moderate",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Twilight Lurker Wyrm",
+              "artisticName": "Umbralscale Devourer",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

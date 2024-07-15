@@ -1,0 +1,39 @@
+{
+  "name": "Kaelen Doomshade",
+  "race": "Nether Elf",
+  "characterClass": "Necromancer",
+  "occupation": "Wielder of Dark Phantom",
+  "backStory": "Born in the forsaken abyss known as Gloomfall Caves, Kaelen Doomshade emerged from an ancestral lineage of Nether Elves preposterously plagued by anguish but draped in foreboding radiance. Caught perpetually between shadows, his parents molded him from tender accursed moonstones and scarce poisons adjudicated against nightmares veining through the umbran latticeworkken's nest stiles. Apprenticed under stern, cruel tutors of decrepit leather skin clutches cher beating malevolent drums memorial peb prist nightfall\u2019s vagam faces steep toiling clandest intraven overwhelmed spectacles glor phantom asp mold scrutin dread plunged vulnerability matters calmer reciting preceding lesser crinto banishments hollowcope vanikoan thunder blankets rolls eld willing inc exchangingforth cold descended ambitious denialents aroute busy spear everfits value atmospheric soul enchant lonelinessrich pow,the Kaelen matured holding arnoaked spectra.",
+  "protagonistGroup": {
+    "groupName": "Kaelen's Gauntlets Advocate",
+    "units": [
+      {
+        "firstAttribute": "abomination",
+        "secondAttribute": "ooze",
+        "thirdAttribute": "spectral",
+        "characteristicName": "Spectral Sludge Purveyor",
+        "artisticName": "Mierz, Glodrim Spect",
+        "powerLevel": "formidable",
+        "unitClass": "shaman"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "hydra_lord",
+        "thirdAttribute": "",
+        "characteristicName": "Malignant Headsworn Patron",
+        "artisticName": "Lexillon Nobantor",
+        "powerLevel": "legendary",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "giant",
+        "characteristicName": "Haunting Golioth Apparition",
+        "artisticName": "Zendil, Fold Mareckener",
+        "powerLevel": "mighty",
+        "unitClass": "marksman"
+      }
+    ]
+  }
+}

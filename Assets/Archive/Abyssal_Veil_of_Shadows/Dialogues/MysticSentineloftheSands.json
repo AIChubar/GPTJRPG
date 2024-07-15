@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "relict",
+      "secondAttribute": "sphinx",
+      "thirdAttribute": "",
+      "characteristicName": "Ancient Sphinx Guardian",
+      "artisticName": "Mystic Sentinel of the Sands",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 10,
+      "intellect": 80,
+      "strategicThinking": 90,
+      "indifference": 5,
+      "flexibility": 20,
+      "communicationSkills": 70,
+      "morality": 30,
+      "chaoticity": 30
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Intruder, you dare to approach the sanctum of the Ancient Sphinx Guardian. What foolishness drives you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek passage through this realm, mighty Guardian.",
+        "enemyAnswer": "Passage? You must prove yourself worthy to tread these sands. Will you face the trial, or flee like a coward?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will face the trial with courage and honor.",
+            "enemyAnswer": "Courage is a rare sight among mortals. Proceed, but be warned, failure holds dire consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I shall tread carefully and respect the trials. I am ready.",
+                "enemyAnswer": "Respect carries you far. The sands will reveal your fate now. Prepare yourself for the judgment.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I feel unease. I choose to depart without taking the trial.",
+                "enemyAnswer": "Fleeing proves your unworthiness. Leave before my wrath finds you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense danger in this trial. I will retreat for now.",
+            "enemyAnswer": "Retreat, then, and be branded a coward in the eyes of the desert. The sands will remember your weakness.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I see no need to prove my worth. I will take my leave.",
+            "enemyAnswer": "Arrogance blinds you. You will not leave unscathed. The desert hunger for your downfall.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge and understanding, O Guardian of the Sands.",
+        "enemyAnswer": "Knowledge is a prize earned, not freely given. What will you offer in return for the secrets you seek?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my respect and an exchange of wisdom, noble Guardian.",
+            "enemyAnswer": "Respect and wisdom hold value. Speak, then, and listen in turn. The desert whispers truths and lies alike.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am open to the whispers of the desert. Share with me its mysteries.",
+                "enemyAnswer": "The mysteries are deep, and the sands unforgiving. Listen closely, for not all who seek knowledge find solace.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I am not interested in sharing knowledge. I will depart in peace.",
+                "enemyAnswer": "Your disinterest is noted. Leave in peace while the sands watch your path.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer nothing but my curiosity. Will you indulge me, Guardian?",
+            "enemyAnswer": "Curiosity may lead to discovery or demise. Choose your questions wisely, for the answers hold weight.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will listen to your tales and learn from the history of this place.",
+                "enemyAnswer": "History weaves the tapestry of fate. Listen well, for the threads of destiny intertwine around you.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I have lost interest. Farewell, Guardian of the Sands.",
+                "enemyAnswer": "Interest lost is curiosity wasted. Depart, for the sands have no tolerance for idle minds.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge the authority of the Ancient Sphinx Guardian. Prepare for a confrontation.",
+        "enemyAnswer": "Bold words from a mere traveler. A challenge accepted brings consequences unforeseen. Do you understand the risk?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I fear no consequences. En garde, Guardian!",
+            "enemyAnswer": "Fearlessness often masks ignorance. Experience now the consequences of your reckless challenge.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I reconsider my challenge. Let us part ways without conflict.",
+            "enemyAnswer": "Reconsideration shows wisdom glimpsed. Part ways now before the sands thirst for bloodshed.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "relict",
+      "secondAttribute": "anubis_guard",
+      "thirdAttribute": "",
+      "characteristicName": "Anubis Guard",
+      "artisticName": "Sekhmet",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 65,
+      "strategicThinking": 80,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 20,
+      "chaoticity": 40
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am the mighty Sekhmet, the Anubis Guard. Speak only if you wish to test my patience.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace and seek to understand your purpose here.",
+        "enemyAnswer": "Peace is a concept foreign to the likes of you. Leave before my patience wears thin.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I apologize for any offense. I will leave you to your duties.",
+            "enemyAnswer": "Your words do not change the course of fate. Depart now or face the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will respect your wishes and depart.",
+                "enemyAnswer": "Finally, a wise decision. Leave and do not return.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to back down from your threats.",
+                "enemyAnswer": "So be it. Prepare to face the wrath of Sekhmet!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense your power and seek to learn from it.",
+            "enemyAnswer": "Curiosity will be your downfall. Stand down or suffer the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will heed your warning and withdraw.",
+                "enemyAnswer": "A wise choice. Do not make the mistake of crossing me again.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not stand down. Show me what you're capable of.",
+                "enemyAnswer": "You shall witness the might of the Anubis Guard firsthand!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge your authority in this realm.",
+            "enemyAnswer": "Foolish mortal, daring to challenge Sekhmet? Your arrogance knows no bounds.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I retract my challenge and will leave you in peace.",
+                "enemyAnswer": "As you should. Begone before your arrogance leads to your demise.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I stand by my challenge. Let our powers clash!",
+                "enemyAnswer": "Your defiance seals your fate. Prepare for obliteration!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no interest in exchanging words with the likes of you.",
+        "enemyAnswer": "Your indifference does not shield you from the consequences of your actions. Choose your next words carefully.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave without further interaction.",
+            "enemyAnswer": "An insignificant retreat from an insignificant being. Leave and be forgotten.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I care not for your warnings. Face me if you dare!",
+            "enemyAnswer": "Your arrogance astounds me. Prepare for a display of true power.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge you, Sekhmet, to a test of strength and skill.",
+        "enemyAnswer": "Bold words from a mere mortal. Let us see if your actions match your bravado.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I was mistaken in my challenge. I seek no conflict.",
+            "enemyAnswer": "A coward's retreat. Your challenge will forever be remembered as feeble.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I welcome your challenge. Show me what you've got!",
+            "enemyAnswer": "Your bravery will be your downfall. Witness the power of Sekhmet!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

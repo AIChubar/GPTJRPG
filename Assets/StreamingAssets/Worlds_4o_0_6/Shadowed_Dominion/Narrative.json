@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "titan",
+    "thirdAttribute": "annihilator",
+    "characteristicName": "Titan Annihilator",
+    "artisticName": "Oros, the Unyielding Light",
+    "powerLevel": "legendary",
+    "unitClass": "paladin"
+  },
+  "antagonistGroup": {
+    "groupName": "Guardians of the Radiant Realm",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "shieldwielder",
+        "characteristicName": "Angel Shieldwielder",
+        "artisticName": "Seraphiel, the Dawn's Protector",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "daeva",
+        "thirdAttribute": "warmonger",
+        "characteristicName": "Daeva Warmonger",
+        "artisticName": "Zariel, the Flame of Justice",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Shadowed Dominion",
+  "story": "In the Shadowed Dominion, darkness reigns supreme. The skies are perpetually overcast, casting an eerie twilight over the land. The terrain is rugged and treacherous, filled with twisted forests, jagged mountains, and murky swamps. The inhabitants of this world are a mix of vile creatures, from cunning tricksters to ruthless warriors, all vying for power and dominance. The once-prosperous cities now lie in ruins, overtaken by the wilderness and haunted by restless spirits.\n\nThe balance of power in this world is delicate, with various factions constantly at odds. However, a new threat has emerged, one that seeks to bring order and light to the Shadowed Dominion. Oros, the Unyielding Light, a Titan Annihilator, has descended upon this world with his Guardians of the Radiant Realm. They aim to cleanse the land of its darkness and restore it to its former glory. This is a dire threat for the denizens of the Shadowed Dominion, as the light they bring is a beacon of destruction to all that thrives in the shadows.",
+  "greetingGameMessage": "Welcome, wanderer, to the Shadowed Dominion. A land where darkness thrives and power is the only law. Your journey begins here, in a world teetering on the edge of chaos and order. Will you rise to power, or be consumed by the light that threatens to extinguish our way of life?",
+  "defeatEndingMessage": "With a final, blinding flash, Oros, the Unyielding Light, strikes you down. The Shadowed Dominion is bathed in an unrelenting radiance, purging the land of all darkness. The creatures of the night are driven into hiding, their power diminished. The world is forever changed, a realm of light where shadows fear to tread.",
+  "gameOverMessage": "As you fall to the ground, defeated, the darkness within you fades. The Guardians of the Radiant Realm continue their crusade, bringing light and order to the Shadowed Dominion. The balance is shattered, and the once-mighty forces of darkness are scattered and broken. The world you sought to dominate is now a beacon of hope and purity, a place where your kind no longer belongs."
+}

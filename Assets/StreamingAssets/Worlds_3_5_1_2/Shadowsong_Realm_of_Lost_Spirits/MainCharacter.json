@@ -1,0 +1,39 @@
+{
+  "name": "Sylvia Moonshadow",
+  "race": "horde",
+  "characterClass": "shaman",
+  "occupation": "Spirit Guardian of the Shadowed Realms",
+  "backStory": "Sylvia Moonshadow, a fierce and wise centaur, is bound to the spiritual realm as a protector of the balance between light and darkness. Known for her deep connection to the unseen forces, she roams the Shadowsong Realm of Lost Spirits, seeking to dispel the malevolent energies that threaten to engulf the land.",
+  "protagonistGroup": {
+    "groupName": "Lunar Sentinel Horde",
+    "units": [
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "naga",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Abyssal Serpent Conqueror",
+        "artisticName": "Vaelastrasz the Fathomlord",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "drake",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Enigmatic Shadowwyrm",
+        "artisticName": "Zerathul Darkbreath",
+        "powerLevel": "formidable",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "grand_avatar",
+        "thirdAttribute": "",
+        "characteristicName": "Ethereal Spiritweaver",
+        "artisticName": "Aetheris Dreambinder",
+        "powerLevel": "mighty",
+        "unitClass": "trickster"
+      }
+    ]
+  }
+}

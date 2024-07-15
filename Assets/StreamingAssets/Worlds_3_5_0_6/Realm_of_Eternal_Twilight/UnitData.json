@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadows of the Forgotten",
+      "enemyGroups": [
+        {
+          "groupName": "Eldritch Nightmares",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Shadow Stalker",
+              "artisticName": "Spectrebane Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Shapechanger",
+              "artisticName": "Auroraform Radiance",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "reaver",
+              "characteristicName": "Ruthless Avian Blade",
+              "artisticName": "Shadowclaw Reaver",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Soulshade Haunter",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Metamorph",
+              "artisticName": "Auroraform Shifter",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Warrior",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Shade Walkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Shadow Stalker",
+              "artisticName": "Spectre Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Changeling",
+              "artisticName": "Auroraform Shimmer",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "reaver",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Nightfall Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Soulshade Phantom",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Metamorph",
+              "artisticName": "Auroraform Mirage",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Specter",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Mist-veiled Crypt",
+      "enemyGroups": [
+        {
+          "groupName": "Cryptic Phantasms",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Changeling",
+              "artisticName": "Auroraform Illusionist",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "reaver",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Soulshade Illusion",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Guardians",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Shapechanger",
+              "artisticName": "Auroraform Guardian",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Sentinel",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Soulshade Guardian",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Whispering Specters",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Metamorph",
+              "artisticName": "Auroraform Whisperer",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "reaver",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Whisperer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Soulshade Specter",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Phantoms",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Changeling",
+              "artisticName": "Auroraform Whisper",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Soulshade Whisperer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "enemyGroups": [
+        {
+          "groupName": "Voidborne Legion",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Shapechanger",
+              "artisticName": "Auroraform Voidwalker",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "reaver",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Void Reaver",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Stalker",
+              "artisticName": "Nethergeist Shadow",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Phantoms",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Metamorph",
+              "artisticName": "Auroraform Abyssal",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Abyssal",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Nethergeist Abyssal",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkened Phantoms",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Changeling",
+              "artisticName": "Auroraform Shadow",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "reaver",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Darkened",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Wraith",
+              "artisticName": "Nethergeist Shadowed",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Legion",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Luminous Shapechanger",
+              "artisticName": "Auroraform Twilight",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Avian Shadow Blade",
+              "artisticName": "Shadowclaw Twilight",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Stalker",
+              "artisticName": "Nethergeist Twilight",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

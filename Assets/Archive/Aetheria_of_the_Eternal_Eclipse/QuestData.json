@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadows of Twilight",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Ethereal Menace",
+          "questDescription": "The Shadows of Twilight whisper of an ethereal menace haunting the dark-dirt paths. Decide whether to vanquish or ally with Zephyrion the Wraithcaller to progress through this eerie realm.",
+          "questObjective": "Zephyrion the Wraithcaller"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Spectral Harmony",
+          "questDescription": "Unite with Netherwing the Spectral Serpent to unlock the secrets of Twilight Shadows and receive the precious Amulet of Healing.",
+          "questObjective": "Netherwing the Spectral Serpent"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Dark Reaping",
+          "questDescription": "Embark on a journey to defeat Shadewraith the Soul Harvester in the heart of Shadows of Twilight. Earn the Amulet of Alliance as a mark of your victory.",
+          "questObjective": "Shadewraith the Soul Harvester"
+        }
+      ]
+    },
+    {
+      "levelName": "Eclipse Enclave",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Frosty Encounter",
+          "questDescription": "Navigate the chilling Eclipse Enclave and face the decision to either unite with Frostclaw the Ice Serpent or eliminate the icy threat to advance to the next level.",
+          "questObjective": "Frostclaw the Ice Serpent"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Twilight Resonance",
+          "questDescription": "Embrace the Twilight resonance with Lunara the Twilight Enchantress. Unite with her to receive the mystical Amulet of Healing.",
+          "questObjective": "Lunara the Twilight Enchantress"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Serpentine Conquest",
+          "questDescription": "Challenge and defeat Scorchwing the Flame Herald in Eclipse Enclave. Claim the Amulet of Alliance to strengthen your resolve.",
+          "questObjective": "Scorchwing the Flame Herald"
+        }
+      ]
+    },
+    {
+      "levelName": "Abyssal Veil",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Shadowed Dominion",
+          "questDescription": "Confront the ultimate darkness within Abyssal Veil by defeating Xyraphas the Shadowed, the Ephemeral Void Stalker. Victory shall bring light back to Aetheria.",
+          "questObjective": "Xyraphas the Shadowed"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Molten Alliance",
+          "questDescription": "Forge an alliance with Pyroclast the Molten Sentinel in the fiery pits of Abyssal Veil. Receive the Amulet of Healing as a token of unity.",
+          "questObjective": "Pyroclast the Molten Sentinel"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Revenant Retribution",
+          "questDescription": "Seek out Nihilus the Shadowflame Revenant in the depths of Abyssal Veil. Defeat this formidable foe and claim the Amulet of Alliance.",
+          "questObjective": "Nihilus the Shadowflame Revenant"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Elara Nightshade",
+  "race": "humanoid",
+  "characterClass": "trickster",
+  "occupation": "Shadow Weaver",
+  "backStory": "Elara Nightshade, a cunning humanoid trickster known as the Shadow Weaver, emerges from the depths of the Eternal Voidrealm of Desolation. Her past is shrouded in mystery, with whispers of her elusive nature and shadowy abilities that make her a formidable foe against the Soulwraith's darkness.",
+  "protagonistGroup": {
+    "groupName": "Duskshadow Rogues",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Spectral Soulreaper",
+        "artisticName": "Wraithblade the Phantom Slayer",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "simulacrum",
+        "thirdAttribute": "dragon",
+        "characteristicName": "Frostfire Draconic Construct",
+        "artisticName": "Emberon the Ice Wyrm",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "salamander",
+        "thirdAttribute": "firebrand",
+        "characteristicName": "Infernal Flamebringer",
+        "artisticName": "Blazefury the Scorching Conjuror",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

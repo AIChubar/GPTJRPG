@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Ethereal Shadow Stalker",
+      "artisticName": "Phantom Shade",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 60,
+      "strategicThinking": 70,
+      "indifference": 30,
+      "flexibility": 20,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare trespass in the domain of shadows, mortal. What grim purpose brings you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to overthrow the darkness that grips this land.",
+        "enemyAnswer": "Bold words, but futile in a realm where shadows reign supreme. What pitiful hope drives you?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My will is as relentless as the eternal night.",
+            "enemyAnswer": "Stubbornness matched only by your ignorance. Darkness claims all in the end, even ones as foolish as you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will face the shadows with unwavering resolve.",
+                "enemyAnswer": "So be it. Your bravery will be your downfall.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see the futility now, I retreat from this abyss.",
+                "enemyAnswer": "Fear grips your heart, a wise decision. Begone, insignificant speck of light.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "My purpose is guided by the dauntless spirit of the Guardians of the Abyss.",
+            "enemyAnswer": "Guardians? Fools who believe they can shield the abyss from itself. Your fate is sealed by your blindness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The light within us shall prevail over the darkness.",
+                "enemyAnswer": "Naive optimism. Light is but a fleeting illusion in this realm of shadows.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there is truth in your words, I shall ponder this elsewhere.",
+                "enemyAnswer": "A moment of clarity amidst the dark. Leave, before I reconsider my mercy.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand the nature of shadows and transcend their grasp.",
+            "enemyAnswer": "Curiosity in the face of oblivion, how quaint. Your end draws near.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Even within darkness, there may be secrets worth uncovering.",
+                "enemyAnswer": "Ignorance deludes you. Secrets in shadows only lead to eternal torment.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Wisdom compels me to avoid what cannot be understood.",
+                "enemyAnswer": "Wisdom in cowardice, a rare trait. Leave before I dispel your illusions with cold truth.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the might of the shadows and restore balance to this realm.",
+        "enemyAnswer": "Balance? Your arrogance blinds you to the eternal sway of darkness. What folly is this?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The will of the Guardians of the Abyss shall not waver in the face of shadows.",
+            "enemyAnswer": "Guardians, puppets of false hope in a world devoid of light. Prepare for your reckoning.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We stand united against the shadows, unyielding in our resolve.",
+                "enemyAnswer": "Unity in delusion. Your defiance will only hasten your demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps unity is not the answer. I shall retreat to reconsider our approach.",
+                "enemyAnswer": "Doubt clouds your unity. Flee before shadows consume your fractured resolve.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "The shadows may be formidable, but so is the light that opposes them.",
+            "enemyAnswer": "Light, a feeble shield against the encroaching night. Will you fight or cower in its dwindling glow?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The light shall burn bright, dispelling the darkness that surrounds us.",
+                "enemyAnswer": "Blind faith in fading light. Your flames shall flicker out in this abyss.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the flickering light is not meant to prevail forever. I choose to step back.",
+                "enemyAnswer": "A brief spark in the eternal gloom. Insignificance suits you well, leave while you still draw breath.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek a path that transcends the eternal conflict between light and darkness.",
+            "enemyAnswer": "Transcendence? Such lofty ideals crumble in the face of unending shadow. You delude yourself.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "There may be wisdom in acknowledging the harmony within duality.",
+                "enemyAnswer": "Wisdom or folly, both meet the same end in shadows. Prepare for your final revelation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the pursuit of harmony is a futile endeavor in this forsaken place. I depart.",
+                "enemyAnswer": "Acknowledgment of your place, a rare sight. Depart now before shadows claim you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking to understand the shadows that obscure this realm and learn from them.",
+        "enemyAnswer": "Understanding? Shadows yield no knowledge that will not consume you. Why do you persist in your folly?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "There is wisdom in facing the unknown, even if it shrouds itself in darkness.",
+            "enemyAnswer": "Wisdom in ignorance only leads to your demise. Shadows care not for your feeble enlightenment.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My quest for knowledge knows no bounds, not even the depths of shadow.",
+                "enemyAnswer": "Blind ambition, a fitting end in shadows. Prepare for your plunge into the abyss.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there are truths better left unsought. I choose to retreat from this path.",
+                "enemyAnswer": "Cowardice veiled as restraint. Use your retreat wisely, for shadows shall not forget.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Knowledge is a weapon, even amidst the darkest of shadows. I seek to arm myself.",
+            "enemyAnswer": "Blade of knowledge? There is no defense against the shadows that cloud your sight. Will you fight or fall?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The pursuit of knowledge fuels my spirit, unyielding against the encroaching shadows.",
+                "enemyAnswer": "Knowledge without wisdom is a tool for your own undoing. Your path ends here.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Knowledge may enlighten, but it can also blind. I choose to step away from the shadows.",
+                "enemyAnswer": "Insight in retreat, a moment of clarity amidst the dark. Leave before my patience wears thin.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "To comprehend the shadows is to unravel the mysteries that bind this realm in darkness.",
+            "enemyAnswer": "Unraveling leads only to entanglement in shadows. Why persist in this futile dance?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The dance of shadow and light reveals truths that challenge even the darkness.",
+                "enemyAnswer": "Arrogance in the face of shadows. Let your final steps be in darkness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps the dance is not for me. I retreat from this enigmatic waltz.",
+                "enemyAnswer": "A wise step back from the eternal dance. Shadows watch as you fade into obscurity.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

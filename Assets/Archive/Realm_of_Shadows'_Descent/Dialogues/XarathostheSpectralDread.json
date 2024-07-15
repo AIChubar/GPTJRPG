@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "warrior",
+      "characteristicName": "Ethereal Shadow Warrior",
+      "artisticName": "Xarathos the Spectral Dread",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 100,
+      "friendliness": 5,
+      "intellect": 70,
+      "strategicThinking": 80,
+      "indifference": 5,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense the presence of an intruder in my domain. What brings you to these cursed lands, mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to vanquish the darkness that plagues this realm.",
+        "enemyAnswer": "Bold words, mortal. Do you truly believe your pathetic light can stand against the eternal shadow?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My resolve is unyielding, and my purpose unwavering.",
+            "enemyAnswer": "Ha! Such arrogance in the face of oblivion. Prepare for your futile struggle.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will face whatever trials come my way, even if it means confronting the likes of you.",
+                "enemyAnswer": "You condemn yourself with your own words. Embrace the darkness that awaits.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I choose to turn back and leave this place. This fight is not mine to take.",
+                "enemyAnswer": "Pitiful coward. You have sealed your fate by abandoning your purpose.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I'm here to bargain, to find a peaceful solution to this conflict.",
+            "enemyAnswer": "Peace with the shadows? There can be no compromise with the inevitable. Prepare for what must come.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I believe in finding common ground, even in the darkest of times.",
+                "enemyAnswer": "Your naivety will be your downfall. Embrace the shadows that envelop you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now that peace is not an option here. I will do what I must to survive.",
+                "enemyAnswer": "Survival is a fleeting hope in the face of eternal night. Embrace your fate.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I come seeking knowledge, to understand the source of this darkness.",
+            "enemyAnswer": "Knowledge is but a fleeting light in the endless night. Prepare to be consumed by the shadows.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will uncover the truth, no matter the cost.",
+                "enemyAnswer": "Truth is a fragile illusion in these lands. Embrace the darkness that shrouds all.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps ignorance is bliss. I shall leave this place with my mind unburdened.",
+                "enemyAnswer": "Ignorance is a luxury you cannot afford. Embrace the darkness that beckons.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

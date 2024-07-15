@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Twilight Marshlands",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Twilight Marshlands are covered in dark, eerie grass that seems to sway with a life of its own. The still waters of the marsh pose a treacherous obstacle, hiding unknown dangers beneath their murky surface."
+    },
+    {
+      "levelName": "Desolate Canyon of Whispers",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Desolate Canyon of Whispers is a place of desolation and decay, with rusty chain platforms dangling precariously over deep, dark voids. The eerie whispers of lost souls echo through the canyon, sending shivers down the spine of any who dare to traverse it."
+    },
+    {
+      "levelName": "Ethereal Shadow Keep",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Ethereal Shadow Keep is a realm of twisted reality, where fractured wall platforms float amidst rivers of molten lava. In the heart of this otherworldly fortress dwells Visara, the Dread Wraith, a legendary Void Stalker who exudes an aura of malevolence and despair."
+    }
+  ]
+}

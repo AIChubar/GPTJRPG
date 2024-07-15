@@ -1,0 +1,115 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Cursed Sands of Despair",
+      "enemyGroups": [
+        {
+          "groupName": "Sandswept Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Wraithblade Guardian",
+              "artisticName": "Whisperfall Shadebringer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "dryad",
+              "thirdAttribute": "",
+              "characteristicName": "Warden of Whispering Roots",
+              "artisticName": "Verdant Soulwatcher",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "golden_dragon",
+              "thirdAttribute": "quicksilver",
+              "characteristicName": "Aurelian Dragonflame Sentinel",
+              "artisticName": "Duskwing Sunflare",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frostbitten Tundra Expanse",
+      "enemyGroups": [
+        {
+          "groupName": "Icerealm Frostbound",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Frozen Serpentstalker",
+              "artisticName": "Icecoil Bladebound",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "crystalid",
+              "thirdAttribute": "",
+              "characteristicName": "Crystaline Shardbrute",
+              "artisticName": "Frostcore Golem",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "iron_troll",
+              "thirdAttribute": "monk_ghost",
+              "characteristicName": "Wandering Iron Haunt",
+              "artisticName": "Spectercrush Ravager",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ruins of the Shadowed Citadel",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of Zarothus",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Resurrected Bonebound Sorcerer",
+              "artisticName": "Dreadcrypt Conjurer",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Avatar Sentinel",
+              "artisticName": "Wraithguardian Epoch",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "golden",
+              "characteristicName": "Goldenwing Sunfire Adept",
+              "artisticName": "Aurilian Flameguard",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

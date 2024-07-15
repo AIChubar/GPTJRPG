@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Haunting Abyssal Entity",
+    "artisticName": "Nethermist Whisperer",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "Shades of Desolation",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "king",
+        "characteristicName": "Cursed Sovereign",
+        "artisticName": "Phantom Monarch",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "stalker",
+        "characteristicName": "Shadowed Nemesis",
+        "artisticName": "Eclipse Stalker",
+        "powerLevel": "legendary",
+        "unitClass": "trickster"
+      }
+    ]
+  },
+  "worldName": "Ethereal Realm of Forgotten Echoes",
+  "story": "In the Ethereal Realm of Forgotten Echoes, ancient shadows lurk, and the lands are haunted by tales of forlorn souls seeking retribution. The Nethermist Whisperer, a malevolent ghost from the void, spreads darkness and despair, consuming all light with its chilling presence. The Shades of Desolation, led by the Phantom Monarch and the Eclipse Stalker, haunt the realm, sowing chaos and fear among the inhabitants.",
+  "greetingGameMessage": "Welcome to the Ethereal Realm of Forgotten Echoes, where spirits whisper of lost memories and echoes of past sorrows. Beware the shadows that linger, for the darkness here yearns for companions in despair.",
+  "defeatEndingMessage": "With the defeat of the Nethermist Whisperer, the Ethereal Realm of Forgotten Echoes sees a glimmer of hope as the shadows dissipate, and the haunted spirits find peace at last.",
+  "gameOverMessage": "The darkness of the Ethereal Realm of Forgotten Echoes engulfs you completely as the Nethermist Whisperer and the Shades of Desolation triumph over your valiant efforts. All that remains is endless gloom and eternal desolation."
+}

@@ -1,0 +1,98 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "fighter",
+      "characteristicName": "Inferno Salamander Warrior",
+      "artisticName": "Flameguardian",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 20,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "A puny interloper dares to venture into our realm? Speak quickly, for your presence here is unwelcome.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace, seeking knowledge about this place.",
+        "enemyAnswer": "Peace? Your kind's notion of peace is laughable. What knowledge could you possibly seek here?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek to understand the balance of power in this land, can we not coexist?",
+            "enemyAnswer": "Coexist? In the Veil of Eternal Shadow, power is all that matters. You lack the strength to survive here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully then, no need for conflict.",
+                "enemyAnswer": "As you should. Your departure spares you from the flames of our wrath.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You underestimate me, I will not back down from a challenge.",
+                "enemyAnswer": "Bold words, little one. Prepare to be consumed by the fires of the Inferno Salamanders.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand the history and culture of your kind, can you enlighten me?",
+            "enemyAnswer": "History? Culture? Such trivial concepts hold no value in our world. Begone before you meet your end.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will respect your wishes and leave peacefully.",
+                "enemyAnswer": "A wise choice. Your respect for our domain may spare you from a fiery demise.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not leave until I have learned what I came for.",
+                "enemyAnswer": "Stubborn fool. You shall learn the price of defying the Flameguardians.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek allies in my quest, will you join forces against a common enemy?",
+            "enemyAnswer": "Allies? The Inferno Salamanders stand alone, and so shall you if you do not leave at once.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, I will depart and seek aid elsewhere.",
+                "enemyAnswer": "Wise choice. The wise know when to flee the flames.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will not retreat, I stand my ground.",
+                "enemyAnswer": "And so you shall fall on that ground, crushed under the weight of our fury.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no interest in talking. Prepare yourself for a battle.",
+        "enemyAnswer": "A direct approach, I respect that. Let the flames of combat decide your fate.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will show you no mercy in this fight.",
+            "enemyAnswer": "Mercy is a foreign concept to the Flameguardians. Prepare for annihilation.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Let's see if your flames can match my blade.",
+            "enemyAnswer": "Your bravado will do little to quench the fires that shall consume you.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

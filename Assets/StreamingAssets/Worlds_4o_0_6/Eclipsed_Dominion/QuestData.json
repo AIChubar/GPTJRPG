@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispering Marshes",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Echoes in the Mist",
+          "questDescription": "Traverse the treacherous Whispering Marshes and confront the spectral beings that haunt its foggy depths. Will you vanquish the wraith or seek its aid?",
+          "questObjective": "Wraithor"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Ally of the Ooze",
+          "questDescription": "Form an alliance with the enigmatic Plague Ooze, Gloam, and harness its dark powers to aid you in your journey through the marshes.",
+          "questObjective": "Gloam"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Bane of the Troll",
+          "questDescription": "Defeat the mighty Forest Troll, Grum, to prove your strength and gain the amulet of alliance, a token of your victory over the beasts of the swamp.",
+          "questObjective": "Grum"
+        }
+      ]
+    },
+    {
+      "levelName": "Forsaken Ruins",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Guardian of the Glyphs",
+          "questDescription": "Navigate the perilous Forsaken Ruins and confront Granitus, the Stone Golem. Will you defeat this ancient guardian or gain its trust?",
+          "questObjective": "Granitus"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Spectral Pact",
+          "questDescription": "Forge a pact with Nagor, the Spectral Naga, to secure its protection and the healing amulet hidden within the ruins.",
+          "questObjective": "Nagor"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Horde Breaker",
+          "questDescription": "Crush the fearsome Brutus, the Ogre Warrior, and claim the amulet of alliance as proof of your dominance over the Horde Invaders.",
+          "questObjective": "Brutus"
+        }
+      ]
+    },
+    {
+      "levelName": "Sanctuary of Shadows",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Final Confrontation",
+          "questDescription": "Engage in the ultimate battle against Seraphael, the Peacekeeper Angel, and determine the fate of the Eclipsed Dominion.",
+          "questObjective": "Seraphael"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Flame's Embrace",
+          "questDescription": "Seek the allegiance of Blazewing, the Phoenix, and secure the amulet of healing to aid you in the final struggle against the forces of light.",
+          "questObjective": "Blazewing"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Sentinel's End",
+          "questDescription": "Defeat Ophiel, the Ophan Sentinel, and claim the amulet of alliance to strengthen your forces in the battle for the Sanctuary of Shadows.",
+          "questObjective": "Ophiel"
+        }
+      ]
+    }
+  ]
+}

@@ -26,8 +26,8 @@ units_data = json.load(units_file)
 folder_path = os.path.join(os.pardir, "Worlds")
 
 response = openai.chat.completions.create(
-    model="gpt-3.5-turbo-0125",
-    temperature=1.0,
+    model="gpt-4o",
+    temperature=0.6,
     max_tokens=4096,
     response_format={"type": "json_object"},
     messages=[
@@ -38,7 +38,7 @@ response = openai.chat.completions.create(
                        "Your task is to generate quests for each level. You should base your choice on existing world, levels description and enemies on levels: \n" + narrative_file.read() + "\n" + json.dumps(units_data["levelsUnits"]) + "\n" + levels_file.read() + "\n" 
                        "You have some prefilled data in a given structure that you must not change. You can base questName and questDescription on the already filled data. \n" 
                        "QuestObjective should be chosen from all enemies on this level, use exact artisticName for QuestObjective. Never pick units from one group for two different quests. \n"
-                       "You must always choose main antagonist artistic name as a quest objective for a quest with reward 'win'.\n"
+                       "You must always choose antagonist artistic name as a quest objective for a quest with a reward 'win'.\n"
                        "Fill the generated content into the appropriate variables in the given JSON structure. Never change already filled fields in a structure. \n"
                        #"#Constraints: \n"
                        "#Structure: \n" + structure_content + "\n"

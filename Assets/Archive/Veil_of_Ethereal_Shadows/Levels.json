@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadows of Despair",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Descend into the Shadows of Despair, where the ground is tainted with dark-dirt and treacherous deep-dark holes loom, ready to swallow the unwary traveler."
+    },
+    {
+      "levelName": "Whispers of the Void",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Traverse the ethereal Fractured Wall Platforms of the Veil of Ethereal Shadows, as haunting whispers from the void fill the air, while dangerous waters threaten to consume all who dare cross."
+    },
+    {
+      "levelName": "The Abyssal Domain",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Step into the malevolent Abyssal Domain, where rusty-chain platforms lead the way through rivers of fiery lava, towards the lair of the legendary Abyssal Shade, the Ethereal Void Stalker."
+    }
+  ]
+}

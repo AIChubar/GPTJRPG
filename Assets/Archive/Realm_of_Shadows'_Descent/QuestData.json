@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Ethereal Woods",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows of the Whispering Grove",
+          "questDescription": "The Shadows of the Whispering Grove are divided, some seeking unity while others thirst for blood. Resolve their conflict to proceed.",
+          "questObjective": "Whispering Shadowsoul"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Twilight Phantoms",
+          "questDescription": "Among the Twilight Phantoms, there lies a chance for healing unity. Bring together their fractured souls for a gift of restoration.",
+          "questObjective": "Xarathos the Spectral Dread"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Twilight Phantoms",
+          "questDescription": "The ominous presence of Xarathos the Spectral Dread must be eliminated to forge a powerful alliance.",
+          "questObjective": "Xarathos the Spectral Dread"
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Caverns",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Rusty Chains of Despair",
+          "questDescription": "The Rusty Chains of Despair bind more than just bodies. Decide between reconciliation and conflict to progress.",
+          "questObjective": "Veilshade the Ephemeral Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Echoes of the Abyss",
+          "questDescription": "Echoes of the Abyss call out for unity amidst chaos. Unite their voices to receive a precious amulet of healing.",
+          "questObjective": "Xarathos the Spectral Dread"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Echoes of the Abyss",
+          "questDescription": "The haunting shadow of Xarathos the Spectral Dread must be vanquished to forge an unbreakable alliance.",
+          "questObjective": "Xarathos the Spectral Dread"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Legion of Fractured Shadows",
+          "questDescription": "The Legion of Fractured Shadows must fall before the might of the protagonist to achieve victory and restore balance.",
+          "questObjective": "Veilshade the Ephemeral Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Shadows of Oblivion",
+          "questDescription": "In the Shadows of Oblivion, unity is the key to healing. Bring together their shattered spirits for a boon of healing.",
+          "questObjective": "Xarathos the Spectral Dread"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadows of Oblivion",
+          "questDescription": "The malevolent presence of Xarathos the Spectral Dread must be eradicated to secure a powerful alliance.",
+          "questObjective": "Xarathos the Spectral Dread"
+        }
+      ]
+    }
+  ]
+}

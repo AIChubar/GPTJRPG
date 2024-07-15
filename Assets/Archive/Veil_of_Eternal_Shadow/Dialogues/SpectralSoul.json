@@ -1,0 +1,98 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "void",
+      "characteristicName": "Haunting Void Spirit",
+      "artisticName": "Spectral Soul",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 15,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 85
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You trespass in the realm of shadows, mortal. What do you seek in this place of eternal darkness?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek answers about the Spectralblade and the Shades of Dread.",
+        "enemyAnswer": "Curiosity drives you, does it? The Spectralblade is the master of this realm, and the Shades are but pawns in its grand design. Your knowledge serves you little in the face of our power.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I come seeking to challenge the darkness and bring light to this land.",
+            "enemyAnswer": "Foolish bravery dwells within you. Do you think a mere mortal can undo what centuries of despair have wrought? Your light will be swallowed by the shadows, just like all who came before you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand ready to face the darkness and fight for the liberation of the Veil of Eternal Shadow.",
+                "enemyAnswer": "So be it. Your defiance only fuels the darkness's hunger. Prepare to become one with the shadows, your bravery shall be your undoing.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense the futility of my quest. I shall retreat for now.",
+                "enemyAnswer": "Weakness becomes you, mortal. Flee back to the light while you still can, for the shadows will not forget your cowardice.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek no conflict. I wish to understand the balance between light and darkness in this realm.",
+            "enemyAnswer": "Understanding is a rare pursuit among your kind. The balance you seek is an illusion, a fragile thread in the tapestry of chaos that weaves through this land. Your ignorance is a shield against the truth.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept the mysteries of this realm and seek no disruption to its delicate equilibrium.",
+                "enemyAnswer": "Wise choice. The shadows do not tolerate interference from those who do not grasp their intricacies. Go and trouble us no more, for ignorance may yet spare you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I reject the notion of stagnation. I will bring change to the Veil, for better or worse.",
+                "enemyAnswer": "An ambitious sentiment, though futile in this abyss of eternal twilight. Your desire for change will serve only to hasten your descent into darkness. As you wish, mortal.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to forge an alliance, to unite against a common enemy that threatens both our worlds.",
+            "enemyAnswer": "Alliance? Trust is a currency long spent in these shadows. Your offer of unity rings hollow, for the darkness knows no allies. Seek elsewhere for camaraderie, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand the challenge, but I believe cooperation can pave the way for a brighter future. Will you not consider it?",
+                "enemyAnswer": "Hopeful words from a fragile creature. Cooperation is but a fragile ember in the winds of darkness. Your optimism blinds you to the truth. Begone, before the shadows consume you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your refusal is noted, but know that my offer stands. Should you ever reconsider, I will be open to dialogue.",
+                "enemyAnswer": "Persistence in the face of futility. Admirable, yet amusing. Your offer falls on deaf ears in this domain of despair. The shadows care not for your words. Leave, and trouble us no more.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek passage through this realm and mean no harm. I ask for safe passage.",
+        "enemyAnswer": "Safe passage? Mortals are but fleeting shadows in this eternal dusk. Your request is noted, yet the darkness cares not for your intentions. Your fate is written in the shadows.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I understand the gravity of my request. I only wish to traverse this land peacefully and with respect.",
+            "enemyAnswer": "Respect? Such a concept holds little weight in the realm of the dead. Your words carry little sway within these shadows. Proceed, but know that your presence is but a flicker in the abyss.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "If safe passage is not granted, then I shall find my own way. I will not be deterred.",
+            "enemyAnswer": "Defiance? An interesting choice, mortal. Your determination is duly noted, but it will not shield you from the perils of this land. Proceed at your own peril, for the shadows hunger for wanderers like you.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

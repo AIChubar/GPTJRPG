@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ethereal Void Stalker",
+    "artisticName": "Soulwraith",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "The Shadow Legion",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "simulacrum",
+        "thirdAttribute": "hydra",
+        "characteristicName": "Mystic Hydra Sentinel",
+        "artisticName": "Abyssal Serpent",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "lion",
+        "characteristicName": "Ethereal Lion Guardian",
+        "artisticName": "Spectral Fang",
+        "powerLevel": "legendary",
+        "unitClass": "protector"
+      }
+    ]
+  },
+  "worldName": "Eternal Voidrealm of Desolation",
+  "story": "In the Eternal Voidrealm of Desolation, a malevolent force known as the Soulwraith has unleashed its dark powers, seeking to plunge the world into eternal darkness. The Shadow Legion, led by the Abyssal Serpent and the Spectral Fang, serves as the Soulwraith's loyal followers, spreading fear and despair wherever they go.",
+  "greetingGameMessage": "Welcome, traveler, to the Eternal Voidrealm of Desolation. Beware the shadows that lurk in every corner, for the darkness here is unfathomable.",
+  "defeatEndingMessage": "With the defeat of the Soulwraith, the Eternal Voidrealm of Desolation is freed from its grasp. Light begins to seep back into the world, and hope is restored to the hearts of its inhabitants.",
+  "gameOverMessage": "Alas, the Soulwraith's powers were too great to overcome. The Eternal Voidrealm of Desolation is consumed by darkness, and all hope is lost."
+}

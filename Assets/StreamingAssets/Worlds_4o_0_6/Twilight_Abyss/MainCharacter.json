@@ -1,0 +1,39 @@
+{
+  "name": "Draven",
+  "race": "Shadow Wraith",
+  "characterClass": "Dark Sorcerer",
+  "occupation": "Keeper of the Abyss",
+  "backStory": "Draven, once a mortal sorcerer, delved too deeply into the forbidden magics of the Twilight Abyss. His quest for power led him to the heart of darkness where he underwent a transformation, becoming a Shadow Wraith. Now, as the Keeper of the Abyss, Draven wields immense dark powers and has sworn to protect the realm of shadows from the encroaching light of the Divine Guardians.",
+  "protagonistGroup": {
+    "groupName": "Draven's Enclave",
+    "units": [
+      {
+        "firstAttribute": "abomination",
+        "secondAttribute": "ooze",
+        "thirdAttribute": "plague",
+        "characteristicName": "Plague Ooze",
+        "artisticName": "Virox",
+        "powerLevel": "formidable",
+        "unitClass": "shaman"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "venom",
+        "thirdAttribute": "",
+        "characteristicName": "Venom Beast",
+        "artisticName": "Thornfang",
+        "powerLevel": "mighty",
+        "unitClass": "berserker"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "lord",
+        "characteristicName": "Lich Lord",
+        "artisticName": "Morath",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

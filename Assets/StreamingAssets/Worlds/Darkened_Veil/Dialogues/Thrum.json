@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abomination",
+      "secondAttribute": "pulsating_lump",
+      "thirdAttribute": "",
+      "characteristicName": "Pulsating Lump",
+      "artisticName": "Thrum",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 80,
+      "friendliness": 10,
+      "intellect": 20,
+      "strategicThinking": 30,
+      "indifference": 60,
+      "flexibility": 20,
+      "communicationSkills": 10,
+      "morality": 5,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Intruder in my domain! You dare disturb Thrum in his pulsating sanctum?!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Only here to collect what is mine. Stand down.",
+        "enemyAnswer": "Thrum does not fear you! You think yourself greater?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Fear is irrelevant. Only power matters.",
+            "enemyAnswer": "Your power means nothing to Thrum.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, prepare to be annihilated.",
+                "enemyAnswer": "Thrum shall crush you, little worm!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "See reason, Thrum. Together, we can wreak havoc.",
+                "enemyAnswer": "Thrum collaborates with no one! Leave or face wrath.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Stand in my way and be destroyed.",
+            "enemyAnswer": "Thrum stands firm! Face me, if you dare!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Foolish. Your end is here.",
+                "enemyAnswer": "Thrum fears no end!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "No matter, I shall find another way.",
+                "enemyAnswer": "Run away, coward. Thrum cares not.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I'm not here to fight, but I will if I must.",
+            "enemyAnswer": "A weakling's words! Thrum demands conflict.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I tire of this. Prepare to be obliterated.",
+                "enemyAnswer": "Thrum welcomes destruction!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Then I will leave you for now. This isn't over.",
+                "enemyAnswer": "Leave, insignificant being. Thrum will remember.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek the dark artifacts. You will step aside.",
+        "enemyAnswer": "Thrum guards darkness. You seek death.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "If death comes, it will be yours.",
+            "enemyAnswer": "You threaten Thrum?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Yes, prepare to die.",
+                "enemyAnswer": "Thrum shall feast on your demise!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your choice. Leave or perish.",
+                "enemyAnswer": "Thrum chooses battle. Perish yourself.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Step aside, and you may live.",
+            "enemyAnswer": "Thrum needs not your mercy.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then die.",
+                "enemyAnswer": "Final words. Thrum shall not fall!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Pathetic lump, you aren't worth my time.",
+                "enemyAnswer": "Flee, then. You are nothing to Thrum.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Join me, and you will find greater purpose.",
+            "enemyAnswer": "Thrum needs no purpose beyond destruction.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your choice. Meet your end.",
+                "enemyAnswer": "Thrum welcomes the challenge!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Pity, you would have been useful.",
+                "enemyAnswer": "Mock Thrum? Flee before I strike!",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Who dares to challenge Zarathos, the Shadow Conqueror?",
+        "enemyAnswer": "Thrum dares! Pulsate in fear, conqueror.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then feel the wrath of Zarathos!",
+            "enemyAnswer": "Thrum will crush your arrogance, Zarathos!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare for your end!",
+                "enemyAnswer": "Thrum welcomes annihilation!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You are a fool to challenge me.",
+                "enemyAnswer": "You will learn fear, conqueror.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Interesting. Perhaps we can make a deal.",
+            "enemyAnswer": "Thrum makes deals with no one.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A pity. Then perish.",
+                "enemyAnswer": "Thrum shall devour you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your loss. I will find another way.",
+                "enemyAnswer": "Run, and stay gone. Thrum cares not.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Do you not feel the power I wield?",
+            "enemyAnswer": "Thrum senses only weakness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then you are blind. Feel my fury!",
+                "enemyAnswer": "Thrum shall tear you apart!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your ignorance will be your demise.",
+                "enemyAnswer": "Begone, pest. Thrum tires of you.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

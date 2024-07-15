@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "stalker",
+    "characteristicName": "ethereal shadow tracker",
+    "artisticName": "Wraithstalker",
+    "powerLevel": "legendary",
+    "unitClass": "trickster"
+  },
+  "antagonistGroup": {
+    "groupName": "The Dread Legion",
+    "units": [
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "imp",
+        "thirdAttribute": "shadow",
+        "characteristicName": "abyssal torturer",
+        "artisticName": "Shadowfiend",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "birdlike",
+        "secondAttribute": "tengu",
+        "thirdAttribute": "warrior",
+        "characteristicName": "ravenous warlord",
+        "artisticName": "Talonbane",
+        "powerLevel": "formidable",
+        "unitClass": "paladin"
+      }
+    ]
+  },
+  "worldName": "Realm of Shadows and Steel",
+  "story": "In the Realm of Shadows and Steel, darkness and corruption run rampant. The land is shrouded in perpetual twilight, inhabited by malevolent beings seeking dominance. The Dread Legion, led by the menacing Wraithstalker, spreads fear and chaos throughout the realm. Shadowfiend, the abyssal torturer, and Talonbane, the ravenous warlord, are his loyal and formidable companions. Their unholy alliance threatens to plunge the entire world into eternal night, where only darkness reigns.",
+  "greetingGameMessage": "Welcome to the Realm of Shadows and Steel, where peril lurks at every corner and malevolence thrives. Beware, for the Dread Legion and their dark leader await your arrival.",
+  "defeatEndingMessage": "With the defeat of the Wraithstalker and his minions, the shadows dissipate, and light returns to the Realm of Shadows and Steel. Hope is restored, and the land begins to heal from the darkness that once consumed it.",
+  "gameOverMessage": "Alas, the darkness proves too strong, and the Dread Legion overpowers you. The Realm of Shadows and Steel falls deeper into shadow, engulfed by the eternal night brought forth by your defeat."
+}

@@ -1,0 +1,211 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadows of Twilight",
+      "enemyGroups": [
+        {
+          "groupName": "Eerie Voidstalkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Whispering Haunt",
+              "artisticName": "Zephyrion the Wraithcaller",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Arcane Draconic Echo",
+              "artisticName": "Netherwing the Spectral Serpent",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Phantom Soulreaver",
+              "artisticName": "Shadewraith the Soul Harvester",
+              "powerLevel": "legendary",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Shadows",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowy Abyssal Horror",
+              "artisticName": "Umbraxis the Dreaded",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "hydra",
+              "characteristicName": "Boneclad Hydra Guardian",
+              "artisticName": "Gravewyrm the Bone Sentinel",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Spectral Shade Stalker",
+              "artisticName": "Duskreaper the Shadowed",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Eclipse Enclave",
+      "enemyGroups": [
+        {
+          "groupName": "Frostbite Legion",
+          "units": [
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "ice",
+              "characteristicName": "Glacial Frost Wyrm",
+              "artisticName": "Frostclaw the Ice Serpent",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "fire",
+              "characteristicName": "Inferno Drake Incarnate",
+              "artisticName": "Scorchwing the Flame Herald",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Abyssal Frostcaller",
+              "artisticName": "Frostscale the Nether Magus",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowsong Sirens",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "witch",
+              "characteristicName": "Enchanting Dusk Siren",
+              "artisticName": "Lunara the Twilight Enchantress",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Guardian Sentinel",
+              "artisticName": "Sandstorm the Eternal Guardian",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "lion",
+              "characteristicName": "Skeletal Lionheart",
+              "artisticName": "Gravemane the Pride King",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Abyssal Veil",
+      "enemyGroups": [
+        {
+          "groupName": "Infernal Legion",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Abyssal Inferno Lord",
+              "artisticName": "Hellfire the Brimstone Overlord",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Venomous Winged Behemoth",
+              "artisticName": "Vipertalon the Dread Wyrm",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Golem Guardian",
+              "artisticName": "Pyroclast the Molten Sentinel",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Voidfire Vanguard",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Voidfire Wraith",
+              "artisticName": "Nihilus the Shadowflame Revenant",
+              "powerLevel": "legendary",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "aquamancer",
+              "characteristicName": "Abyssal Tidal Sorcerer",
+              "artisticName": "Leviathan the Depthspeaker",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Spectral Void Monarch",
+              "artisticName": "Shadevex the Dark Sovereign",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

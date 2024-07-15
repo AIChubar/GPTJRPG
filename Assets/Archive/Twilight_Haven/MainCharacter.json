@@ -1,0 +1,39 @@
+{
+  "name": "Vokrul Darkvein",
+  "race": "Drow",
+  "characterClass": "Necromancer",
+  "occupation": "Arch-Lich",
+  "backStory": "In the obsidian depths of Twilight Haven's sprawling underworld, Vokrul Darkvein, born of shadow and hatred, rose from an exiled lineage spurned for their darker forms of magic. Nurtured by the harsh underbelly of a world where light and darkness forever clash, Vokrul thrived amid lurking predations and numerous failed overtures betwixt light realms' diplomacy. Trained in the art of necromancy by the ageless, writhing corpses of a forgotten necropolis, Vokrul forged unspoken agreements with unspeakable lifeforms dwelling deep beneath. Marked by an unyielding determination, he scorns the facade of sanctity worn by entities masking their quests for control. Intent on incipient darkness overtaking light, and disturbed by hollow endeavors for balanced power domination thwart, he prepares relentless dominion clashes set, mobilizing might in unholy creeds' allegiance against celebrated dafts descending.",
+  "protagonistGroup": {
+    "groupName": "Hordes of the Abyss",
+    "units": [
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "lurking_horror",
+        "thirdAttribute": "",
+        "characteristicName": "Eldritch Wraith Stalker",
+        "artisticName": "Mortuvius, Haunter of Ghastly Dread",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "hydra",
+        "thirdAttribute": "",
+        "characteristicName": "Nightmarish Hydra Tyrant",
+        "artisticName": "Ghydrex, Spineflow Serpentorde",
+        "powerLevel": "mighty",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "neromancer",
+        "characteristicName": "Arcane Soul Collector",
+        "artisticName": "Zolvax, Curator of Rot",
+        "powerLevel": "legendary",
+        "unitClass": "shaman"
+      }
+    ]
+  }
+}

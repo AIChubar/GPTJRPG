@@ -1,0 +1,307 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadowsong Thicket",
+      "enemyGroups": [
+        {
+          "groupName": "Veiled Whisperstalkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "",
+              "characteristicName": "Wandering Shadowed Watcher",
+              "artisticName": "Whispering Wraith of the Murk",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Silent Sentinel of the Abyss",
+              "artisticName": "Spirit Wraithguard Shade",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Ethereal Nightshade Stalker",
+              "artisticName": "Twilight Wraithstalker",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Haunting Ripples",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Moist Marsh Boggler",
+              "artisticName": "Misty Bogswing Wight",
+              "powerLevel": "weak",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Primal Forest Raptor",
+              "artisticName": "Mossback Lindwyrm",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "peasant",
+              "characteristicName": "Aqua Harvest Drifter",
+              "artisticName": "Ripplefin Mersoul",
+              "powerLevel": "weak",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Whispering Terrors",
+          "units": [
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "ogre",
+              "thirdAttribute": "mage",
+              "characteristicName": "Cataclysmic Bellowshard",
+              "artisticName": "Thundering Ogre Magus",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "swamp",
+              "characteristicName": "Miasmic Swampfire Scourge",
+              "artisticName": "Blightwing Drake",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "manticore",
+              "thirdAttribute": "",
+              "characteristicName": "Feathered Gloomstalker",
+              "artisticName": "Nightfall Manticore",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Desolation",
+      "enemyGroups": [
+        {
+          "groupName": "Frozen Nightcloaks",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Icy Soul Kinglet",
+              "artisticName": "Frostveil Wraith-Lord",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Ethereal Mirage Esprit",
+              "artisticName": "Luminous Shiftmaster Echo",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "juggernaut",
+              "thirdAttribute": "",
+              "characteristicName": "Frozen Behemoth Charger",
+              "artisticName": "Glacial Juggernaut",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Voidwhisper Agents",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "freezing",
+              "characteristicName": "Frostpiercing Shade",
+              "artisticName": "Voidfrost Wraith",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Veiled Nightmare Guardian",
+              "artisticName": "Dread Sorrowskulk",
+              "powerLevel": "weak",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "mermaid",
+              "thirdAttribute": "",
+              "characteristicName": "Frigid Watersiren",
+              "artisticName": "Icebound Mermaid Siren",
+              "powerLevel": "weak",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Chillblight Phantasms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "",
+              "characteristicName": "Frostgale Haunt",
+              "artisticName": "Chillmourn Wraith",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "tengu",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Frostwind Battletengu",
+              "artisticName": "Winterfrost Tengu",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "impaler",
+              "characteristicName": "Glacial Harpoon Guard",
+              "artisticName": "Frostscale Merfolk Sentinel",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Veil of Shadows",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Intanglers",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowbound Soulguard",
+              "artisticName": "Shadeshickled Ushabti Warder",
+              "powerLevel": "weak",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "witch",
+              "characteristicName": "Frostbound Netweaver",
+              "artisticName": "Arcticcoil Merwitch",
+              "powerLevel": "weak",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Oakenshroud Stonebreaker",
+              "artisticName": "Thornhide Forest Troll",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Lurking Emberweavers",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "dryad",
+              "thirdAttribute": "",
+              "characteristicName": "Blazewisp Enchantress",
+              "artisticName": "Emberleaf Dryad Enthraller",
+              "powerLevel": "weak",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Wintershade Frosthunter",
+              "artisticName": "Glacial Lindwyrm Stalker",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Rimecoil Waveblade",
+              "artisticName": "Glacierflare Nagafang",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Obsidian Shadowsouls",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "ancient",
+              "characteristicName": "Veilstorm Cryptfiend",
+              "artisticName": "Nightshroud Lich of Veilstorms",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "minotaur",
+              "thirdAttribute": "",
+              "characteristicName": "Blackbane Skullcrusher",
+              "artisticName": "Shadowhorn Minotaur",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "quasit",
+              "thirdAttribute": "",
+              "characteristicName": "Ebonwing Shadestalker",
+              "artisticName": "Umbral Quasitwraith",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

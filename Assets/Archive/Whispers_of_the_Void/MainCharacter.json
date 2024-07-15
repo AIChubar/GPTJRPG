@@ -1,0 +1,39 @@
+{
+  "name": "Draven Blackthorn",
+  "race": "Human",
+  "characterClass": "Berserker",
+  "occupation": "Dark Vanguard",
+  "backStory": "Draven Blackthorn, a fierce Human berserker, embodies the raging tempest that sweeps through the lands. Born in the ashes of chaos, he wields a massive axe tempered in the fires of battle. With unmatched ferocity and a thirst for vengeance, he charges into the heart of darkness to shatter the shadows that threaten to engulf the realm.",
+  "protagonistGroup": {
+    "groupName": "Shadows of Fury",
+    "units": [
+      {
+        "firstAttribute": "abomination",
+        "secondAttribute": "ooze",
+        "thirdAttribute": "void",
+        "characteristicName": "Voidspawn Horror",
+        "artisticName": "Abyssal Sludgebeast",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "hydra",
+        "thirdAttribute": "",
+        "characteristicName": "Venomous Hydra Lord",
+        "artisticName": "Scourgebeast Serpent",
+        "powerLevel": "formidable",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "birdlike",
+        "secondAttribute": "tengu",
+        "thirdAttribute": "reaver",
+        "characteristicName": "Avian Shadow Reaver",
+        "artisticName": "Nightwing Harbinger",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Serpentine Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Oozes",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "plague",
+              "characteristicName": "Corrosive Plague Spreader",
+              "artisticName": "Pestilus Slimeshade",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "acid",
+              "characteristicName": "Toxicity Devourer",
+              "artisticName": "Venomous Mawling",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Venomous Serpent Hydra",
+              "artisticName": "Azura Fangcoil",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Serpentine Shades",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lizard",
+              "characteristicName": "Ethereal Shadow Caster",
+              "artisticName": "Spectral Shadeshifter",
+              "powerLevel": "weak",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "king",
+              "characteristicName": "Necrotic Monarch",
+              "artisticName": "Deathlord Grimskull",
+              "powerLevel": "legendary",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "lizard",
+              "characteristicName": "Bony Scaly Guard",
+              "artisticName": "Skulldraugr",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Guardians",
+          "units": [
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "harpy",
+              "thirdAttribute": "",
+              "characteristicName": "Windstorm Avian",
+              "artisticName": "Gale Talonwing",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "lord",
+              "characteristicName": "Primal Hydra Overlord",
+              "artisticName": "Sylvan Scalemighty",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Abyssal Sea-Slayer",
+              "artisticName": "Slytherak Fangstriker",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Etherscapes",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Spectral Essence Drifter",
+              "artisticName": "Echoenigma Wraith",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Unholy Bone Conjuror",
+              "artisticName": "Gravemancer Skulldread",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ghostly Eidolon Lord",
+              "artisticName": "Spectrasmirrath",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Enchanted Grove",
+      "enemyGroups": [
+        {
+          "groupName": "Whispering Mists",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "dryad",
+              "thirdAttribute": "",
+              "characteristicName": "Enchanted Forest Guardian",
+              "artisticName": "Mystilora Greenfern",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "artifficier",
+              "characteristicName": "Illusory Shifting Artisan",
+              "artisticName": "Chameleon Veilstitch",
+              "powerLevel": "weak",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Animated Temple Guardian",
+              "artisticName": "Eternarcanon Sentinelsoul",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Aurora Sylphs",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Celestial Sky Predator",
+              "artisticName": "Aurora Stormwing",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "moth",
+              "thirdAttribute": "",
+              "characteristicName": "Luminous Moon Moth",
+              "artisticName": "Starwing Moongsift",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Stonecrusher Rock Troll",
+              "artisticName": "Tremorold Earthgrind",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Whispering Glades",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Slithering Fanged Guardian",
+              "artisticName": "Frostbind Coilfang",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "javelineer",
+              "characteristicName": "Aquamancer Tridenteer",
+              "artisticName": "Riptide Mariterra",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "mermaid",
+              "thirdAttribute": "",
+              "characteristicName": "Enchanting Beckoner of the Depths",
+              "artisticName": "Silkwave Sirenspell",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Guardians",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Haunting Void Stalker",
+              "artisticName": "Darkshroud Phantasmal",
+              "powerLevel": "legendary",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "eater",
+              "characteristicName": "Soul-Hungry Spectral Ghast",
+              "artisticName": "Wraithmaw Voidlurker",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Arcane Undying Necromancer",
+              "artisticName": "Morthanevox Corpsemancer",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadows of Slytharis",
+      "enemyGroups": [
+        {
+          "groupName": "Curses of Darkness",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "lord",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Flame Obliterator",
+              "artisticName": "Pyroclasmic Emberdoom",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "air",
+              "characteristicName": "Gusts of Tempest",
+              "artisticName": "Zephyrak Stormcaster",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "frost",
+              "characteristicName": "Iceforged Guardian",
+              "artisticName": "Glacial Stoneward",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowbound Sinisters",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "red",
+              "characteristicName": "Infernal Crimson Tyrant",
+              "artisticName": "Brimstone Bloodclaw",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "freezing",
+              "characteristicName": "Frostbinder Spectral Shadow",
+              "artisticName": "Snowshriek Shadebane",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "witch",
+              "characteristicName": "Eternal Bloodweaver",
+              "artisticName": "Necrovampiric Illusionist",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Slytharis' Shadows",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "goblin",
+              "thirdAttribute": "defender",
+              "characteristicName": "Cunning Green Skirmisher",
+              "artisticName": "Mossgrin Weavertide",
+              "powerLevel": "feeble",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "orc",
+              "thirdAttribute": "warlord",
+              "characteristicName": "Savage Orc Chieftain",
+              "artisticName": "Gorebrute Grok'am",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "minotaur",
+              "thirdAttribute": "",
+              "characteristicName": "Bloodrage Behemoth",
+              "artisticName": "Fellhoof Gorefury",
+              "powerLevel": "strong",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Necrotic Nightmares",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Draconic Bonewalker",
+              "artisticName": "Necrodrake Skulldread",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "singer",
+              "characteristicName": "Enthralling Melody Siren",
+              "artisticName": "Ivorywave Merinne",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "juggernaut",
+              "thirdAttribute": "",
+              "characteristicName": "Crushing Earthshaker",
+              "artisticName": "Behemoth Quakemaul",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

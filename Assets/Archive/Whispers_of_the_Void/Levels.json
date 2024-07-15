@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispering Shadows",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Whispering Shadows level is shrouded in an eerie darkness, with dark-grass underfoot and deep-dark-holes that threaten to consume the unwary travelers. Sinister whispers echo through the air, hinting at the malevolent presence that lurks ahead."
+    },
+    {
+      "levelName": "Lava Veins",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Lava Veins is a treacherous landscape where molten lava rocks pave the way, emanating an ominous glow. Deadly pools of lava pose a constant danger, requiring agile maneuvers to navigate through the fiery terrain."
+    },
+    {
+      "levelName": "Necroshade's Lair",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "The final showdown awaits in Necroshade's Lair, a foreboding place filled with rusty-chain platforms suspended above dark waters. The air is heavy with dark magic, signaling the legendary sorcerer, Necroshade, and his malevolent forces lie beyond, ready to test the bravest of souls."
+    }
+  ]
+}

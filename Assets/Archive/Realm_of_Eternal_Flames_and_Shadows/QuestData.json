@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadowed Canyon",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows of Deception",
+          "questDescription": "Navigate through the treacherous Shadowed Canyon and either eliminate or ally with the haunting entities that dwell within.",
+          "questObjective": "Nocturnus"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Ethereal Unity",
+          "questDescription": "Unite the restless spirits of the Whispering Shadows in Shadowed Canyon to bring peace to the accursed land.",
+          "questObjective": "Spiritmourne"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Veil of Darkness",
+          "questDescription": "Defeat the Sinister Echo of the Forgotten in Shadowed Canyon and claim the amulet of alliance for your cause.",
+          "questObjective": "Umbralgeist"
+        }
+      ]
+    },
+    {
+      "levelName": "Infernal Wasteland",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Burning Redemption",
+          "questDescription": "Succeed in Infernal Wasteland by forming alliances with some and annihilating others amongst the Scorching Legion.",
+          "questObjective": "soulreaver"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Fires of Forgiveness",
+          "questDescription": "Unite the demonical creatures in Infernal Wasteland for a chance to gain the amulet of healing.",
+          "questObjective": "blazehorn"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Doomed Inferno",
+          "questDescription": "Bring an end to the Infernal Hades Guard of the Scorched Plains in Infernal Wasteland to secure the amulet of alliance.",
+          "questObjective": "embermaw"
+        }
+      ]
+    },
+    {
+      "levelName": "Fiendish Crypt",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Cryptic Confrontation",
+          "questDescription": "Confront and defeat the Tenebrous Lord of Cursed Souls in the Fiendish Crypt to emerge victorious and timeless.",
+          "questObjective": "dreadmancer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Unearthly Harmony",
+          "questDescription": "Seek unity among the Infernal Keepers in the depths of the Fiendish Crypt and claim the amulet of healing for renewed strength.",
+          "questObjective": "duskbane"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Eternal Defiance",
+          "questDescription": "Defy the Inferno Crawlers of the Molten Depths in the Fiendish Crypt and seize the amulet of alliance in defiance.",
+          "questObjective": "scorchtide"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadows of Despair",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows' Reckoning",
+          "questDescription": "In the Shadows of Despair, a powerful entity threatens to consume the realm. Will you unite with Netheria the Haunting Wraith or eliminate her to bring balance to the shadows?",
+          "questObjective": "Netheria the Haunting Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Spectral Harmony",
+          "questDescription": "The Spectral Legion is divided, and only through unity can peace be restored. Seek out Phantomus the Shadow King and persuade him to join your cause for the greater good.",
+          "questObjective": "Phantomus the Shadow King"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Ethereal Confrontation",
+          "questDescription": "The Void Ghost Stalker, Abyssal the Void Phantom, poses a threat to all who dwell in darkness. Show no mercy and vanquish this formidable foe to earn the amulet of alliance.",
+          "questObjective": "Abyssal the Void Phantom"
+        }
+      ]
+    },
+    {
+      "levelName": "Ghostly Whispers",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers Unveiled",
+          "questDescription": "Within the Ghostly Whispers, a mysterious presence lingers. Will you join forces with Spectra the Ephemeral Spirit or eliminate the lurking danger she represents?",
+          "questObjective": "Spectra the Ephemeral Spirit"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Shadows' Embrace",
+          "questDescription": "The Whispering Shadows hold secrets that can only be unlocked through unity. Convince Duskblade the Phantom Slayer to stand together for a chance at healing amulet.",
+          "questObjective": "Duskblade the Phantom Slayer"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Phantom's End",
+          "questDescription": "The Shadow Ghost, Twilight the Haunting Specter, haunts the realm with malevolence. Bring an end to its existence and claim the amulet of alliance as your prize.",
+          "questObjective": "Twilight the Haunting Specter"
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Eternal Darkness",
+          "questDescription": "The Ethereal Void Stalker, Zerathul the Soul Reaper, stands as the ultimate challenge in the Void's Embrace. Defeat this legendary sorcerer to claim victory and bring light to the realm.",
+          "questObjective": "Zerathul the Soul Reaper"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Soulbound Unity",
+          "questDescription": "The Soul Harvesters seek unity amidst the darkness. Forge an alliance with Dreadreap the Soul Eater to heal the wounds of the realm with the amulet of healing.",
+          "questObjective": "Dreadreap the Soul Eater"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Necrotic Convergence",
+          "questDescription": "The Necrotic Lich Summoner, Gravemourn the Deathcaller, spreads chaos with dark magic. Put an end to this necromancer's reign to earn the amulet of alliance.",
+          "questObjective": "Gravemourn the Deathcaller"
+        }
+      ]
+    }
+  ]
+}

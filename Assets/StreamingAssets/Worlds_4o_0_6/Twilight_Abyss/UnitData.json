@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "The Murky Marshes",
+      "enemyGroups": [
+        {
+          "groupName": "The Marsh Stalkers",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "plague",
+              "characteristicName": "Plague Ooze",
+              "artisticName": "Virox",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "acid",
+              "characteristicName": "Acidic Ooze",
+              "artisticName": "Corro",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "lab_rat",
+              "thirdAttribute": "",
+              "characteristicName": "Lab Rat Abomination",
+              "artisticName": "Scurr",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Swamp Horrors",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "mummy",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Guardian Mummy",
+              "artisticName": "Ankhet",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Wraith",
+              "artisticName": "Umbra",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "ghoul",
+              "characteristicName": "Ghoul Zombie",
+              "artisticName": "Ghast",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Twisted Creatures",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "entropy_weaver",
+              "thirdAttribute": "",
+              "characteristicName": "Entropy Weaver Beast",
+              "artisticName": "Chaosfang",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "formicid",
+              "thirdAttribute": "",
+              "characteristicName": "Formicid Beast",
+              "artisticName": "Mandiblor",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Forest Troll",
+              "artisticName": "Grunthar",
+              "powerLevel": "formidable",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "The Dark Waters",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Naga Guardian",
+              "artisticName": "Venomiss",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "aquamancer",
+              "characteristicName": "Merfolk Aquamancer",
+              "artisticName": "Aqualis",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "witch",
+              "characteristicName": "Siren Witch",
+              "artisticName": "Lyrana",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "The Fractured Peaks",
+      "enemyGroups": [
+        {
+          "groupName": "The Jagged Sentinels",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Gargoyle",
+              "artisticName": "Granite",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Golem",
+              "artisticName": "Obsidian",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "giant",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Giant",
+              "artisticName": "Rockfist",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Echoing Shadows",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Lurking Horror",
+              "artisticName": "Gloom",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Spectral Ghost",
+              "artisticName": "Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Worldbinder Phantom",
+              "artisticName": "Eclipse",
+              "powerLevel": "strong",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "The Mountain Terrors",
+          "units": [
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Drake",
+              "artisticName": "Pyros",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Dragon",
+              "artisticName": "Nocturne",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "death",
+              "characteristicName": "Death Drake",
+              "artisticName": "Mortis",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "The Abyssal Echoes",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Demon",
+              "artisticName": "Umbriel",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "torturer",
+              "characteristicName": "Torturer Imp",
+              "artisticName": "Nox",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Balrug",
+              "artisticName": "Inferno",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "The Celestial Citadel",
+      "enemyGroups": [
+        {
+          "groupName": "The Radiant Knights",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Warmonger Angel",
+              "artisticName": "Seraphiel",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "macewielder",
+              "characteristicName": "Macewielder Angel",
+              "artisticName": "Cassiel",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "brawler",
+              "characteristicName": "Brawler Titan",
+              "artisticName": "Hyperion",
+              "powerLevel": "legendary",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "The Celestial Wardens",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "daeva",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Warmonger Daeva",
+              "artisticName": "Uriel",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "centaur_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Centaur",
+              "artisticName": "Chiron",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "dragon_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Dragon",
+              "artisticName": "Draconis",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "The Seraphic Defenders",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "human_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Human",
+              "artisticName": "Michael",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "ophan",
+              "thirdAttribute": "",
+              "characteristicName": "Ophan",
+              "artisticName": "Zerachiel",
+              "powerLevel": "formidable",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "annihilator",
+              "characteristicName": "Annihilator Titan",
+              "artisticName": "Gargantus",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Divine Vanguards",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "shedu",
+              "thirdAttribute": "",
+              "characteristicName": "Shedu",
+              "artisticName": "Ezekiel",
+              "powerLevel": "formidable",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "cherub",
+              "thirdAttribute": "",
+              "characteristicName": "Cherub",
+              "artisticName": "Raphael",
+              "powerLevel": "mighty",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "shieldwielder",
+              "characteristicName": "Shieldwielder Angel",
+              "artisticName": "Azrael",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

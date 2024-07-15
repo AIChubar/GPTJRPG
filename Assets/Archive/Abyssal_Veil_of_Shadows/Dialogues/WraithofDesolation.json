@@ -1,0 +1,104 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Shadowed Soulstalker",
+      "artisticName": "Wraith of Desolation",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 20,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare tread in the realm of shadows, fragile one. What ephemeral presence disturbs the silence?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to understand the darkness that engulfs this place.",
+        "enemyAnswer": "Curiosity amidst chaos, a bold choice. Knowledge comes with a price. What secrets do you desire?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek the wisdom to combat the malevolence that lurks here.",
+            "enemyAnswer": "Wisdom in the face of oblivion, an admirable quest. The path to liberation is treacherous. Will you face it head-on or falter in fear?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will bravely confront the darkness, knowing the risks.",
+                "enemyAnswer": "Bold defiance in the face of despair. Prepare your spirit for the looming shadows. Will you emerge as conqueror or victim?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense my limitations and choose to retreat for now.",
+                "enemyAnswer": "Retreat, a wise choice in the realm of the Wraith. Know this: fear is a beacon for the shadows. You are marked.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I wish to forge an alliance with the shadows, to understand and coexist.",
+            "enemyAnswer": "Alliance with shadows, a daring proposal. Trust is a fragile thread. Will you prove an ally or adversary?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer you my allegiance, together we can thrive in this darkness.",
+                "enemyAnswer": "Alliance forged in shadows, a pact of unknown outcomes. Darkness admires audacity. Reveal your true intentions.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I must reconsider, this path may lead to unforeseen consequences.",
+                "enemyAnswer": "Hesitation in the heart of shadows. Trust is a currency rarely spent. Choose wisely, for shadows remember.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge the darkness, for the light will always prevail.",
+        "enemyAnswer": "Arrogance in the face of eternal night. Can light truly banish shadows, or does it merely dance in them?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I stand firm in my conviction, prepared to face whatever shadows may come.",
+            "enemyAnswer": "Conviction amidst chaos, a flame in the abyss. Will you be a beacon of hope or a spark in the dark?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will embrace the shadows, understanding they are a part of the balance.",
+                "enemyAnswer": "Embrace the shadows, a path seldom chosen. Balance hangs by a thread. Will you tip the scales or watch them shatter?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see the futility of this conflict, I choose to seek understanding instead.",
+                "enemyAnswer": "Understanding in the heart of conflict. Wisdom or folly in this decision? The shadows watch with keen interest.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge the darkness, but refuse to succumb to its malevolence.",
+            "enemyAnswer": "Acknowledgment without surrender, a defiance rare in these depths. Will defiance be your downfall or your triumph?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will uphold my resilience and face the shadows with unwavering resolve.",
+                "enemyAnswer": "Resilience in the face of oblivion, a thread of defiance. The shadows hunger for such spirit. Will you feed them or starve them?",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I opt for caution, choosing not to provoke where understanding could suffice.",
+                "enemyAnswer": "Caution in the realm of shadows, a prudent choice. Shadows respect cunning. Will you outwit them or fall to their machinations?",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

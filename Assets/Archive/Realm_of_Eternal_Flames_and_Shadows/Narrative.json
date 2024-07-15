@@ -1,0 +1,40 @@
+{
+  "storyType": "good",
+  "antagonist": {
+    "firstAttribute": "hell",
+    "secondAttribute": "pit_fiend",
+    "thirdAttribute": "",
+    "characteristicName": "Infernal Guardian",
+    "artisticName": "Infernoth",
+    "powerLevel": "legendary",
+    "unitClass": "paladin"
+  },
+  "antagonistGroup": {
+    "groupName": "Eternal Damnation",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Spectral Haunt",
+        "artisticName": "Etherea",
+        "powerLevel": "mighty",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "snake",
+        "characteristicName": "Phantom Serpent",
+        "artisticName": "Vipernox",
+        "powerLevel": "formidable",
+        "unitClass": "trickster"
+      }
+    ]
+  },
+  "worldName": "Realm of Eternal Flames and Shadows",
+  "story": "The Realm of Eternal Flames and Shadows is a world shrouded in darkness and ruled by the malevolent Infernoth, a powerful Pit Fiend from the depths of Hell. Infernoth seeks to plunge the world into eternal chaos and despair, using dark magics and infernal creatures to further his sinister agenda. Standing against him are the noble heroes who must unite to defeat the forces of darkness and prevent the impending apocalypse.",
+  "greetingGameMessage": "Welcome, brave adventurer, to the Realm of Eternal Flames and Shadows. May your courage and strength aid you in the battle against the ancient evil that threatens this world.",
+  "defeatEndingMessage": "With the defeat of Infernoth, the darkness that once shrouded the Realm of Eternal Flames and Shadows begins to fade. The balance of power shifts, and hope is restored to a world that was once on the brink of destruction. The heroic efforts of the champions have saved the realm from certain doom.",
+  "gameOverMessage": "Alas, the forces of darkness were too powerful, and the heroes fell in their quest to vanquish Infernoth. The Realm of Eternal Flames and Shadows plunges into eternal night, ruled by the evil Pit Fiend with no hope of salvation."
+}

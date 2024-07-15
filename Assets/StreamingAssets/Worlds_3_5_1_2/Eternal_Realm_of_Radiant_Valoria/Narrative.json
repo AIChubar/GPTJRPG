@@ -1,0 +1,40 @@
+{
+  "storyType": "good",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "warrior",
+    "characteristicName": "Void Stalker",
+    "artisticName": "Soulreaper",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "The Nether Horde",
+    "units": [
+      {
+        "firstAttribute": "humanoid",
+        "secondAttribute": "deep_elf",
+        "thirdAttribute": "defender",
+        "characteristicName": "Shadow Sentinel",
+        "artisticName": "Darkthorn",
+        "powerLevel": "mighty",
+        "unitClass": "bastion"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "troll",
+        "thirdAttribute": "rock",
+        "characteristicName": "Stone Brute",
+        "artisticName": "Dreadheart",
+        "powerLevel": "formidable",
+        "unitClass": "berserker"
+      }
+    ]
+  },
+  "worldName": "Eternal Realm of Radiant Valoria",
+  "story": "In the Eternal Realm of Radiant Valoria, an insidious force known as the Void Stalker, along with its minions from The Nether Horde, the Darkthorn and the Dreadheart, seeks to envelop the world in shadows and despair. The land trembles under their malevolent presence, and whispers of their destructive power echo through the realm.",
+  "greetingGameMessage": "Welcome, brave traveler, to the Eternal Realm of Radiant Valoria. Beware the darkness that lurks within, for the forces of evil await your arrival.",
+  "defeatEndingMessage": "With courage and strength, the protagonist vanquished the Void Stalker and its minions, saving Radiant Valoria from eternal darkness. The realm is restored to its former glory, and hope shines once more in the hearts of its inhabitants.",
+  "gameOverMessage": "Alas, the forces of darkness proved too strong for the protagonist. Radiant Valoria falls into the abyss of shadow, consumed by the malevolent embrace of the Void Stalker and The Nether Horde. The realm is lost to eternal night."
+}

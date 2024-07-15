@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "void",
+      "characteristicName": "Ethereal Void Whisperer",
+      "artisticName": "Spectral Abyssal Haunt",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 30,
+      "flexibility": 40,
+      "communicationSkills": 60,
+      "morality": 20,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, a wandering soul dares to tread upon our realm. What pitiful creature stands before me?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am no mere mortal, I am Elena Moonshadow, the shadow assassin. Beware, for your darkness shall not prevail.",
+        "enemyAnswer": "Hmph, a frail assassin draped in shadows. Your bravado does not impress me.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You underestimate the power of the Luminous Shadows. I suggest you retreat before facing our wrath.",
+            "enemyAnswer": "Retreat? Fools like you cannot comprehend the depth of darkness that dwells in this abyss.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, if you seek destruction, so be it. Let our blades meet in a dance of shadows and blood.",
+                "enemyAnswer": "You have sealed your fate, foolish mortal. Prepare to be engulfed by the void.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see there's no reasoning with darkness like yours. I shall take my leave and avoid unnecessary conflict.",
+                "enemyAnswer": "Pathetic coward, flee while you can. Your weakness sickens me.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your arrogance blinds you to the light that can pierce even the deepest shadows. Let us show you the power of unity.",
+            "enemyAnswer": "Unity? A feeble concept in this realm of eternal darkness. Your light shall be extinguished.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We offer you a chance to join forces, to merge our strengths against the true evil that lurks in the shadows.",
+                "enemyAnswer": "Alliance? Ha! Your naivety knows no bounds. I shall feast on your hopes and dreams.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will not waste my words on one so blinded by darkness. Farewell, may your demise be swift.",
+                "enemyAnswer": "Insolent fool, your departure changes nothing. The darkness will claim you in the end.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your words reek of despair and emptiness. Do you not see the futility of your darkness in the face of unity?",
+            "enemyAnswer": "Futility? Unity? Your feeble attempts at reason amuse me. Darkness will always prevail.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I choose to show mercy to one consumed by darkness. Embrace the light within, it may yet save you.",
+                "enemyAnswer": "Mercy? Light? Your words hold no sway over the shadows. Prepare for eternal darkness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your blindness to the truth seals your fate. I shall leave you to your own demise, may you find clarity in solitude.",
+                "enemyAnswer": "Ha! Clarity in solitude? Your departure changes nothing in a world shrouded in shadows.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a traveler seeking to understand the darkness that grips this land. Can your shadows reveal their secrets?",
+        "enemyAnswer": "Curiosity in the face of darkness, how amusing. Very well, ask your questions, little soul.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "What drives your desire to drown the world in darkness? Is there no flicker of light left within you?",
+            "enemyAnswer": "Light? Darkness is power, darkness is truth. Your ignorance will be your downfall, naive wanderer.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer you a chance to break free from the chains of darkness. Embrace the light, let it guide you towards redemption.",
+                "enemyAnswer": "Redemption? Light? Your delusions sicken me. Prepare to face the wrath of the abyss.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now that reason is lost on one so entrenched in darkness. I shall continue my journey without interference.",
+                "enemyAnswer": "Reason? Darkness cares not for reason. Your departure changes nothing in this realm of shadows.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Perhaps in the clash of light and darkness, we may find balance. Will you walk the path of equilibrium with me?",
+            "enemyAnswer": "Balance? Equilibrium? Such concepts hold no value in the embrace of darkness. Prepare for the plunge into eternal night.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us join our strengths, let shadow and light dance as equals to ward off the encroaching abyss.",
+                "enemyAnswer": "Dance of equals? Your optimism is misplaced. Embrace the darkness, for it shall be your eternal companion.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense no willingness to cooperate in your words. I shall take my leave, may you find solace in your shadows.",
+                "enemyAnswer": "Solace in shadows, how poetic. Your departure changes nothing in the inevitable descent into darkness.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "In the tapestry of existence, both light and darkness have their place. Will you not see the wisdom in coexistence?",
+            "enemyAnswer": "Wisdom? Coexistence? Your words ring hollow in this realm of eternal night. Darkness shall reign supreme.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I extend a hand in peace, let us find understanding in the harmony of opposing forces. Will you accept?",
+                "enemyAnswer": "Peace? Understanding? Your naivety astounds me. Prepare for the shadows to envelop you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your refusal to see beyond darkness seals our paths. I shall depart, may your shadows guide you to your fate.",
+                "enemyAnswer": "Departure changes nothing, for darkness is eternal. Embrace your fate in the shadows.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

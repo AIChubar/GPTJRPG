@@ -1,0 +1,39 @@
+{
+  "name": "Ariella Nightbringer",
+  "race": "Serpentide",
+  "characterClass": "Shaman",
+  "occupation": "Spirit Guide",
+  "backStory": "Ariella Nightbringer, a wise Serpentide shaman, has emerged from the depths of the Veil of Ethereal Shadows. Born under the starlit waters, she channels the mystical energies of the ocean and moon to protect the realm from the encroaching darkness. With a deep connection to nature and spirits, she walks the line between the physical and spiritual realms, guiding lost souls to their rightful place.",
+  "protagonistGroup": {
+    "groupName": "Twilight Guardians",
+    "units": [
+      {
+        "firstAttribute": "horde",
+        "secondAttribute": "centaur",
+        "thirdAttribute": "fighter",
+        "characteristicName": "Wildwood Centaur Guardian",
+        "artisticName": "Thornhoof Sentinel",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "merfolk",
+        "thirdAttribute": "aquamancer",
+        "characteristicName": "Tidal Merfolk Aquamancer",
+        "artisticName": "Riptide Enchanter",
+        "powerLevel": "formidable",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "worldbinder",
+        "thirdAttribute": "",
+        "characteristicName": "Ethereal Worldbinder",
+        "artisticName": "Luminescent Weaver",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "The Blighted Grounds",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "hole",
+      "levelDescription": "The Blighted Grounds serve as the formidable entryway into Veiled Consecration, shrouded in perpetual twilight. The murky sprawl of dark-grass intertwines with eerie holes that greedily swallow the unwary. Spectral wails echo through the dense, stifling air, hinting at the malevolent intentions of the lurking adversaries. The haunted past whispers as you tread these unhallowed lands, setting an ominous tone for the darkness that lies ahead."
+    },
+    {
+      "levelName": "Searing Dunes of Perdition",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Searing Dunes of Perdition radiate an unending heat, bathed in the vivid hue of pink sand that contrasts starkly against the scorching rivers of lava. Impenetrable shadows dance around fiery embers, crafting a realm ruled by the vicious fires of turmoil. It's Fionalea, the Aquamancer Warrior, whose unyielding vigilance amidst the burning landscape anticipates the force that dares challenge these sands of destruction. Approach with all the wariness able to muster, for the terrain promises trials worthy of Veiled Consecration's namesake."
+    },
+    {
+      "levelName": "The Titan's Sepulcher",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "At the heart of Veiled Consecration lies The Titan's Sepulcher, where the formidable Olymorr, the Annihilator Titan, stands sentinel. Jagged, decrepit fractured-wall-platforms furnish precarious footing across its ancient architecture, providing a substantial challenge for traversal. Below yawn deep-dark-holes, whose abyssal voids appear to stretch into nothingness. Guarded by the sinister guardians Klebius and Fionalea, this is a desolate place where the barrier between worlds is thinnest. Steps taken here reverberate with the tremors of cosmic decisions, awaiting the cataclysmic clash of powers that will ultimately determine the fate of this sacred and forsaken world."
+    }
+  ]
+}

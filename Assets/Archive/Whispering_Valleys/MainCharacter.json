@@ -1,0 +1,39 @@
+{
+  "name": "Raeluin Thalmor",
+  "race": "Elf",
+  "characterClass": "Bastion",
+  "occupation": "Rune Guardian",
+  "backStory": "Raised within the heart of the mystical Whispering Valleys, Raeluin Thalmor grew up amidst the ancient ruins guarded by his reclusive kin. Harboring a quiet fascination for the runic arts, he spent his youth deciphering hidden glyphs and understanding the world's resonant magics. After witnessing devastating conflicts between civilizations and learning about the stalwart yet enigmatic Pillars of Justice through distant whispers, Raeluin dedicated himself to temper their power. His life is an endeavor to protect his homeland's intricate balance, navigating anomalies and warring factions with a resolve both stoic and fierce. Alongside his eclectic companions, Raeluin endeavors to unveil and resolve the realm\u2019s innermost dilemmas.",
+  "protagonistGroup": {
+    "groupName": "Eclipsed Striders",
+    "units": [
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "devil",
+        "thirdAttribute": "rotting",
+        "characteristicName": "Decaying Inferno Behemoth",
+        "artisticName": "Khrisul, Master of Ashen Abyss",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "hydra",
+        "characteristicName": "Spectral Hydra Terror",
+        "artisticName": "Zethros, The Whispering Chaos",
+        "powerLevel": "formidable",
+        "unitClass": "healer"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "wyvern",
+        "thirdAttribute": "",
+        "characteristicName": "Ebony Winged Stormbringer",
+        "artisticName": "Volkar, Storm Scourge",
+        "powerLevel": "mighty",
+        "unitClass": "marksman"
+      }
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Woods",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of the Bramble",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "bat",
+              "characteristicName": "Ethereal Bat Deceiver",
+              "artisticName": "Phantom Morpher Nightwing",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "giant",
+              "thirdAttribute": "frost",
+              "characteristicName": "Frost Giant Sentinel",
+              "artisticName": "Glacial Titan Guardian",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Forest Troll Berserker",
+              "artisticName": "Mosswood Ravager",
+              "powerLevel": "moderate",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Shades of the Whisper",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "griffon",
+              "thirdAttribute": "",
+              "characteristicName": "Majestic Griffon Huntress",
+              "artisticName": "Winged Shadowstalker",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "witch",
+              "characteristicName": "Enchanting Siren Sorceress",
+              "artisticName": "Melody of the Serpent Sea",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "mage",
+              "characteristicName": "Arcane Vampire Lord",
+              "artisticName": "Noctis Blooddreamer",
+              "powerLevel": "mighty",
+              "unitClass": "healer"
+            }
+          ]
+        },
+        {
+          "groupName": "Mists of Despair",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Venomous Wyvern Skyterror",
+              "artisticName": "Crimson Stormwing",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Infernal Balrug Fury",
+              "artisticName": "Raging Flamebeast",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "swamp",
+              "characteristicName": "Swamp Dragon Sovereign",
+              "artisticName": "Abyssal Drakonlord",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Crystal Veil Caverns",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of the Crystal",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "treant",
+              "characteristicName": "Treantreaper Ghoul",
+              "artisticName": "Rotwood Treembane",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "crystalid",
+              "thirdAttribute": "",
+              "characteristicName": "Luminous Crystalid Formation",
+              "artisticName": "Prismatic Crystal Sync",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "spider",
+              "characteristicName": "Arachnid Simulacrum Weaver",
+              "artisticName": "Silkghost Manipulator",
+              "powerLevel": "balanced",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Crystalline Terrors",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "moth",
+              "thirdAttribute": "",
+              "characteristicName": "Radiant Moth Dazzler",
+              "artisticName": "Luminara Flutterlight",
+              "powerLevel": "moderate",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "mermaid",
+              "thirdAttribute": "",
+              "characteristicName": "Enigmatic Mermaid Siren",
+              "artisticName": "Abyssal Songweaver",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Umbral Imp Shadowmage",
+              "artisticName": "Hollowfire Trickster",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Dark Abyssal Legion",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Abomination Horror",
+              "artisticName": "Veilstorm Terror",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Celestial Warmonger Zealot",
+              "artisticName": "Seraphic Justicebringer",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "knight",
+              "characteristicName": "Moonblade Knight Templar",
+              "artisticName": "Twilight Sentinel",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Despair Legion",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "blood",
+              "characteristicName": "Malevolent Blood Ooze",
+              "artisticName": "Crimson Gelatinous Horror",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "hairy",
+              "characteristicName": "Hairy Devil Tyrant",
+              "artisticName": "Infernal Infernothane",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Serpcall Warrior Constrictor",
+              "artisticName": "Venomcoil Warbringer",
+              "powerLevel": "moderate",
+              "unitClass": "berserker"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

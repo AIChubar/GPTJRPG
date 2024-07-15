@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadowed Grove",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Welcome to the Shadowed Grove, a twisted realm where dark grass covers the ground and deep dark holes threaten to swallow the unwary traveler. Malevolent whispers echo through the gnarled trees, hinting at the presence of unseen horrors lurking within the shadows."
+    },
+    {
+      "levelName": "Ethereal Wasteland",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Behold the Ethereal Wasteland, where lava rock formations pave a treacherous path through rivers of molten lava. The air shimmers with heat and the ground trembles beneath your feet, testing your resolve against the fiery perils that stand in your way."
+    },
+    {
+      "levelName": "Tenebrous Citadel",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Your final challenge lies within the Tenebrous Citadel, a foreboding structure of rusty chain platforms suspended over deadly waters. The air is thick with the aura of the legendary Ethereal Void Haunter, a sorcerer of unparalleled darkness who waits within to test your courage and skill."
+    }
+  ]
+}

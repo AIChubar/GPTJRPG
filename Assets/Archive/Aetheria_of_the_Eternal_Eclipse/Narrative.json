@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ephemeral Void Stalker",
+    "artisticName": "Xyraphas the Shadowed",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "Spectral Legion",
+    "units": [
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "pit_fiend",
+        "thirdAttribute": "",
+        "characteristicName": "Infernal Abysslord",
+        "artisticName": "Mordraxis the Inferno King",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "wyvern",
+        "thirdAttribute": "",
+        "characteristicName": "Serpentine Winged Behemoth",
+        "artisticName": "Voranthor the Venomous",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Aetheria of the Eternal Eclipse",
+  "story": "In the realm of Aetheria, a perpetual eclipse shrouds the lands in darkness. The balance between light and shadow has been disrupted, leading to the rise of malevolent forces. The Spectral Legion, led by Xyraphas the Shadowed, haunts the realm with their chilling presence. Mordraxis the Inferno King and Voranthor the Venomous, allies of Xyraphas, spread terror and destruction alongside their spectral leader. The people of Aetheria cry out for a hero to vanquish the darkness that threatens to consume their world.",
+  "greetingGameMessage": "Welcome to the dark realm of Aetheria, where shadows dance and nightmares lurk. Beware, for the Ephemeral Void Stalker and the Spectral Legion await your arrival with malevolent intent.",
+  "defeatEndingMessage": "With the defeat of Xyraphas the Shadowed and the Spectral Legion, the eclipse lifts, restoring balance to Aetheria. The people rejoice as light once again shines upon the land, driving away the darkness that once gripped their hearts.",
+  "gameOverMessage": "Alas, the Ephemeral Void Stalker and the Spectral Legion prove too powerful for you. Aetheria falls into everlasting darkness, haunted by the malevolent forces that now reign unchecked."
+}

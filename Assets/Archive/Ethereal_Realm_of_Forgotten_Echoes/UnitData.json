@@ -1,0 +1,203 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Shadows",
+      "enemyGroups": [
+        {
+          "groupName": "Gloomshroud Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Haunters of Sorrow",
+              "artisticName": "Spectral Mourndeath",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Fury of Decay",
+              "artisticName": "Wailing Revenant",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "",
+              "characteristicName": "Spectral Dreadlord",
+              "artisticName": "Stygian Phantomlord",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Nightgloom Shades",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Eldritch Abyssal Fiends",
+              "artisticName": "Nightmare Aberrations",
+              "powerLevel": "weak",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Wraiths",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Shadowed Monarch of Sorrow",
+              "artisticName": "Spectral Voidking",
+              "powerLevel": "strong",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Abyssal Stalker of Gloom",
+              "artisticName": "Soulsnare Wraith",
+              "powerLevel": "formidable",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "",
+              "characteristicName": "Whispers of Desolation",
+              "artisticName": "Ephemeral Wailsong",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Veiled Twilight Grove",
+      "enemyGroups": [
+        {
+          "groupName": "Phantasmal Sirens",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "singer",
+              "characteristicName": "Spectral Temptresses of Enchantment",
+              "artisticName": "Lunar Serenade Guile",
+              "powerLevel": "moderate",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "witch",
+              "characteristicName": "Illusory Sorceries of the Deep",
+              "artisticName": "Abyssal Enchantress",
+              "powerLevel": "mighty",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "harpy",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Harbingers of Omen",
+              "artisticName": "Twilight Screechers",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Sorrowscale Summit",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Vanguard",
+          "units": [
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "swamp",
+              "characteristicName": "Envenomed Wyrms of Despair",
+              "artisticName": "Phantom Swampdrakes",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Cursed Fawns of Sorrow",
+              "artisticName": "Weeping Sylvaera",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Wyvernguard",
+              "artisticName": "Mistveil Wyverns",
+              "powerLevel": "moderate",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Dreadbearer Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Abyssal Arcanists of the Void",
+              "artisticName": "Shadowed Necro Magi",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Darksworn Envoys",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "death",
+              "characteristicName": "Eldritch Lords of Echoes",
+              "artisticName": "Veilstalker Shades",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowguard Watchers",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "red",
+              "characteristicName": "Infernal Wardens of Flame",
+              "artisticName": "Scarlet Infernodemons",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

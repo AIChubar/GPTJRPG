@@ -1,0 +1,185 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadows of Despair",
+      "enemyGroups": [
+        {
+          "groupName": "Ethereal Abominations",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Plague",
+              "artisticName": "Abyssal Slime",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "spectral",
+              "characteristicName": "Spectral Ooze Aberration",
+              "artisticName": "Phantom Sludge",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "blood",
+              "characteristicName": "Bloodthirsty Ooze Devourer",
+              "artisticName": "Crimson Slimer",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Guardians of the Abyss",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Stone Guardian",
+              "artisticName": "Sentinel of Eternity",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Whispers from the Void",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Whispering Horror",
+              "artisticName": "Shadow Weaver",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Whispers of the Void",
+      "enemyGroups": [
+        {
+          "groupName": "Voidbound Specters",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Stalker Wraith",
+              "artisticName": "Spectral Haunter",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Forest Troll Berserker",
+              "artisticName": "Thornwood Ravager",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "aquamancer",
+              "characteristicName": "Aquamancer Serpentide Enchanter",
+              "artisticName": "Tidecaller Sorcerer",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Nightmare Phantasms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Grand Phantasmal Avatar",
+              "artisticName": "Ethereal Illusionist",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "The Abyssal Domain",
+      "enemyGroups": [
+        {
+          "groupName": "Infernal Legion",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Infernal Stormcaller Salamander",
+              "artisticName": "Blazing Tempest",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Dragon",
+              "artisticName": "Umbral Wyrm",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "ogre",
+              "thirdAttribute": "archimage",
+              "characteristicName": "Ogre Archimage Warlock",
+              "artisticName": "Cursed Magus",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Wardens",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Bog Boggart Guardian",
+              "artisticName": "Mossy Warden",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkness Incarnate",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "freezing",
+              "characteristicName": "Freezing Wraith",
+              "artisticName": "Frostbound Specter",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

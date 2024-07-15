@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Ebon Depths",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows in the Dark",
+          "questDescription": "Navigate the Ebon Depths and either defeat or ally with Gelgore the Sinister Viscerator, the leader of the Dark Ooze Horde, to progress further into the shadows.",
+          "questObjective": "Gelgore the Sinister Viscerator"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Harmony Amongst Darkness",
+          "questDescription": "Seek out Mournwraith, the Haunting Apparition, within the Ebon Depths and forge an alliance with this spectral being to receive the amulet of healing.",
+          "questObjective": "Mournwraith, the Haunting Apparition"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Defeating the Abominations",
+          "questDescription": "Embark on a mission to eradicate the abominable creatures within the Ebon Depths, including Voraxus the Slime Behemoth, to claim the amulet of alliance.",
+          "questObjective": "Voraxus the Slime Behemoth"
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Glade",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Enigmatic Alliance",
+          "questDescription": "Journey through the Spectral Glade and decide whether to form an alliance or eliminate Pink-sand, to proceed deeper into the realm of illusions.",
+          "questObjective": "Ssitharis, the Mystic Serpent"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Illusions of Peace",
+          "questDescription": "Discover Vespera, the Vanished Soul, hidden within the Spectral Glade and unite with this lost soul to receive the amulet of healing.",
+          "questObjective": "Vespera, the Vanished Soul"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Wyrm's End",
+          "questDescription": "Defeat Vorkul, the Malevolent Wyrm, ruler of the Shimmering Naga Forge, to claim the formidable amulet of alliance.",
+          "questObjective": "Vorkul, the Malevolent Wyrm"
+        }
+      ]
+    },
+    {
+      "levelName": "Wraith's Domain",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Shadows Cast Asunder",
+          "questDescription": "Confront the Wraith of Eternal Night, the malevolent ruler of the Gloomwood Realm, and bring an end to its dark reign to achieve victory.",
+          "questObjective": "Wraith of Eternal Night"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Aid from Shadow's Aegis",
+          "questDescription": "Join forces with Wraithnor, the Shadowy Pursuer, within the Wraith's Domain to acquire the amulet of healing and bolster your strength.",
+          "questObjective": "Wraithnor, the Shadowy Pursuer"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Banishing the Dark",
+          "questDescription": "Engage in battle against Emberaxos, the Scorching Protector, guardian of the Cursed Shadowbeasts, to claim the prized amulet of alliance.",
+          "questObjective": "Emberaxos, the Scorching Protector"
+        }
+      ]
+    }
+  ]
+}

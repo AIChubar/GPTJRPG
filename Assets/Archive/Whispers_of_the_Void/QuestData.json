@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispering Shadows",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers in the Dark",
+          "questDescription": "In the heart of the Whispering Shadows, you must decide whether to eliminate or ally with the Ethereal Voidstalker.",
+          "questObjective": "Spectral Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Bonds of Light",
+          "questDescription": "Seek the Graveguard Sentinel within the Whispering Shadows and unite with them to receive the Amulet of Healing.",
+          "questObjective": "Graveguard Sentinel"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Dreaded Dominion",
+          "questDescription": "Defeat the Spectral Archmage to earn the coveted Amulet of Alliance.",
+          "questObjective": "Spectral Archmage"
+        }
+      ]
+    },
+    {
+      "levelName": "Lava Veins",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Fires of Redemption",
+          "questDescription": "Navigate the treacherous Lava Veins and make a choice to unite with or eliminate the Infernal Shadowlord.",
+          "questObjective": "Infernal Shadowlord"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Flames of Unity",
+          "questDescription": "Join forces with the Infernal Colossus and receive the Amulet of Healing within the fiery depths of Lava Veins.",
+          "questObjective": "Infernal Colossus"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Burning Betrayal",
+          "questDescription": "Confront the Shadowed Inferno Lord in the heart of Lava Veins to claim the Amulet of Alliance.",
+          "questObjective": "Shadowed Inferno Lord"
+        }
+      ]
+    },
+    {
+      "levelName": "Necroshade's Lair",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Shadows' End",
+          "questDescription": "The final confrontation awaits in Necroshade's Lair. Defeat the legendary Necroshade to claim victory.",
+          "questObjective": "Necroshade"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Veil of Shadows",
+          "questDescription": "Unite with the Voidbound Shade within Necroshade's Lair to receive the Amulet of Healing.",
+          "questObjective": "Voidbound Shade"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkness Conquered",
+          "questDescription": "Overcome the Shadowed Necromancer to secure the Amulet of Alliance before facing Necroshade.",
+          "questObjective": "Shadowed Necromancer"
+        }
+      ]
+    }
+  ]
+}

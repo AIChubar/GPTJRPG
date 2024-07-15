@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Luminous Shadowlands",
+      "walkableTerrain": "light-dirt",
+      "obstacleTerrain": "water",
+      "levelDescription": "In the Luminous Shadowlands, the ethereal light dances upon the soft glow of the light-dirt paths. Beware of the shimmering waters that flow mysteriously, concealing hidden dangers beneath their surface."
+    },
+    {
+      "levelName": "Whispering Twilight Grove",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Traverse through the Whispering Twilight Grove, where the pink-sand glistens under the fading light. Be cautious of the deep-dark holes scattered amidst the grove, whispering secrets of the ancient past."
+    },
+    {
+      "levelName": "Ethereal Void Sanctum",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Enter the Ethereal Void Sanctum, a realm of fractured-wall platforms floating amidst rivers of molten lava. Here, the malevolent Ethereal Void Stalker, the Phantom Wraith of legendary power, awaits, surrounded by the fiery embrace of the treacherous lava."
+    }
+  ]
+}

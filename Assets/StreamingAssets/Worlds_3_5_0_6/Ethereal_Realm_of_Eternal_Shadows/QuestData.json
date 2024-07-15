@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadowed Catacombs",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of the Shadows",
+          "questDescription": "Navigate the eerie paths of the Shadowed Catacombs and decide the fate of the Ethereal Ghostly Specter, Spectralsoul.",
+          "questObjective": "Spectralsoul"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Guardian of the Shadows",
+          "questDescription": "Seek out the Mystical Faun Guardian, Silverbough, within the Ethereal Grove to forge an alliance.",
+          "questObjective": "Silverbough"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkness Defied",
+          "questDescription": "Defeat the Ethereal Stalking Wraith, Shadowlurker, to claim the amulet of alliance.",
+          "questObjective": "Shadowlurker"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Grove",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Serenade of the Fauns",
+          "questDescription": "Embrace the beauty of the Ethereal Grove and decide the fate of the Radiant Light Elemental, Luminaura.",
+          "questObjective": "Luminaura"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Harmony Restored",
+          "questDescription": "Unite with the Enchanted Faun Shaman, Groveheart, to receive the amulet of healing.",
+          "questObjective": "Groveheart"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Crystal Conquest",
+          "questDescription": "Vanquish the Crystalized Elemental Golem, Prismstone, to claim the amulet of alliance.",
+          "questObjective": "Prismstone"
+        }
+      ]
+    },
+    {
+      "levelName": "Voidwalker's Abyss",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Abyssal Showdown",
+          "questDescription": "Face the legendary sorcerer, Netherbane, in the heart of the Voidwalker's Abyss and emerge victorious.",
+          "questObjective": "Netherbane"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Phantom Pact",
+          "questDescription": "Form an alliance with the Deceptive Shapeshifter Phantom, Mirageveil, to receive the amulet of healing.",
+          "questObjective": "Mirageveil"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Infernal Inferno",
+          "questDescription": "Defeat the Infernal Salamander Warrior, Hellscale, to claim the amulet of alliance.",
+          "questObjective": "Hellscale"
+        }
+      ]
+    }
+  ]
+}

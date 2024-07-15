@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispering Meadows",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Whispering Meadows, a cloak of dark grass wafting under ethereal winds where phantom whispers guide the lost. The velvety touch of moisture lingers between deep-dark holes that seem to spawn secrets. Travelers best tread lightly, for one wrong step can steer into the malefic depths below, a pathway to untold enigmas."
+    },
+    {
+      "levelName": "Luminous Cavern",
+      "walkableTerrain": "grey-brick-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Luminous Cavern glows in the captured luminescence of mystic stones lining the fragile grey-brick platforms. Chasms of churning molten lava block the wanderer\u2019s way; the radiant rivers of fire interspersing the cavern embody the seething fury shaping underground realms. Only those with unwavering spirit move through this incandescent ballet of death."
+    },
+    {
+      "levelName": "Guardian\u2019s Pinnacle",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "water",
+      "levelDescription": "Behold, Guardian\u2019s Pinnacle! Ascend through snow pathways sparkling beneath Eldritch might, where the complex weave of traps and water courses guard the heart of Eryndor\u2019s abode. Here, at the ceiling of Whispering Valleys, against the unyielding white expanse and flowing perils, endeth resistance; thus the saga of beguiled myth and raw clash traverses to greet\u2014Eryndor, the Brawler Titan under divine vehemence\u2014preaching justice amid chill crescendo."
+    }
+  ]
+}

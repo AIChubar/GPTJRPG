@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Ethereal Woods",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Welcome to the Ethereal Woods, where the pink-sand pathways weave through mystical trees, shimmering with enchantment. Beware of the hidden water traps lurking beneath the surface, ready to drag the unwary into their depths."
+    },
+    {
+      "levelName": "Frostbite Canyon",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Venture into the treacherous Frostbite Canyon, where the icy snow crunches beneath your feet. Beware of the deep-dark-holes scattered along the path, leading to unknown depths where chilling winds whisper of danger."
+    },
+    {
+      "levelName": "Shadowed Catacombs",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Descend into the depths of the Shadowed Catacombs, where fractured-wall-platforms offer a precarious walkway amidst the ancient tombs. Lava flows ominously nearby, a reminder of the legendary Void Stalker, Eclipsorak the Soulrender, lurking in the darkness ahead."
+    }
+  ]
+}

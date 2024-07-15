@@ -1,0 +1,39 @@
+{
+  "name": "Elara Nightsong",
+  "race": "elf",
+  "characterClass": "ranger",
+  "occupation": "guardian of the ancient forest",
+  "backStory": "Elara Nightsong, an elf of unmatched skill with the bow, has roamed the Gloomwood Realm for centuries, protecting the balance of nature and defending the innocent against the encroaching darkness.",
+  "protagonistGroup": {
+    "groupName": "Nightfall Sentinels",
+    "units": [
+      {
+        "firstAttribute": "humanoid",
+        "secondAttribute": "deep_elf",
+        "thirdAttribute": "defender",
+        "characteristicName": "Shadowbane Aegis",
+        "artisticName": "Solaris Stoneguard",
+        "powerLevel": "formidable",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "titian",
+        "thirdAttribute": "brawler",
+        "characteristicName": "Radiant Titan",
+        "artisticName": "Helios Thunderfist",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "wyvern",
+        "thirdAttribute": "",
+        "characteristicName": "Stormwing Wyrmrider",
+        "artisticName": "Astra Skywrath",
+        "powerLevel": "mighty",
+        "unitClass": "marksman"
+      }
+    ]
+  }
+}

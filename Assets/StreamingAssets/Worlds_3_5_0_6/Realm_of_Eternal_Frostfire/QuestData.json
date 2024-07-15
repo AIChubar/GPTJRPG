@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Frostbite Caverns",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Chilling Whispers",
+          "questDescription": "The chilling whispers of Frigidra the Spectral Whisperer echo through the Frostbite Caverns. Will you silence the whispers or seek an alliance with the spectral being?",
+          "questObjective": "Frigidra the Spectral Whisperer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Protector's Pact",
+          "questDescription": "Forge a pact with Cryotar the Soulbound, the protector of the Frozen Soul Drake, to gain the amulet of healing.",
+          "questObjective": "Cryotar the Soulbound"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Flames of Frostfire",
+          "questDescription": "Confront Pyroxis the Frostflame and claim the amulet of alliance as a token of victory.",
+          "questObjective": "Pyroxis the Frostflame"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Grove",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Silent Shadows",
+          "questDescription": "Navigate the Umbral Thicket and decide the fate of Nihilus the Void Reaper, the silent soul drainer lurking in the shadows.",
+          "questObjective": "Nihilus the Void Reaper"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Twilight Harmony",
+          "questDescription": "Harmonize with Umbraxis the Twilight Wyrm, the guardian of the Shadowed Lindwurm, to receive the amulet of healing.",
+          "questObjective": "Umbraxis the Twilight Wyrm"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadows' End",
+          "questDescription": "Reach the end of the Umbral Thicket and face Scorchflame the Shadow Infernal to claim the amulet of alliance.",
+          "questObjective": "Scorchflame the Shadow Infernal"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Abyss",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Void Stalker's Demise",
+          "questDescription": "Embark on a journey through the fractured wall platforms and confront Zyralith the Wraith, the legendary Void Stalker, to claim victory and restore balance to the Ethereal Abyss.",
+          "questObjective": "Zyralith the Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Ethereal Guardian",
+          "questDescription": "Seek out Soulwarden the Void Sentinel, the guardian of the Ethereal Ushabti, and unite for the amulet of healing.",
+          "questObjective": "Soulwarden the Void Sentinel"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Abyssal Confrontation",
+          "questDescription": "Face Dreadmaw the Shadow Devourer in the fiery depths of the Ethereal Abyss to earn the amulet of alliance.",
+          "questObjective": "Dreadmaw the Shadow Devourer"
+        }
+      ]
+    }
+  ]
+}

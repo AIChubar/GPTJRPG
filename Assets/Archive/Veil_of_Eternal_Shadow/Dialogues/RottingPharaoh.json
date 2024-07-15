@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "mummy",
+      "thirdAttribute": "lord",
+      "characteristicName": "Decrepit Mummy Lord",
+      "artisticName": "Rotting Pharaoh",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 70,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Why do you wander into the domain of the undead, insignificant being?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek no quarrel, I am merely passing through.",
+        "enemyAnswer": "Your misguided bravery will be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I can leave if it offends you, I mean no harm.",
+            "enemyAnswer": "Your feeble attempt at diplomacy is amusing. Prepare for the consequences.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will retreat, I do not wish to provoke further conflict.",
+                "enemyAnswer": "Your cowardice does not grant you safety. Prepare to face the wrath of the undead!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I refuse to back down, let us see who triumphs in battle.",
+                "enemyAnswer": "Very well, your defiance shall be met with destruction.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am not here to fight, but I will defend myself if need be.",
+            "enemyAnswer": "Your hollow words carry no weight. Prepare to face the might of the undead!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand my ground and face whatever comes.",
+                "enemyAnswer": "Bravery in the face of inevitable defeat. A futile display.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer you a chance to cease this aggression and find common ground.",
+                "enemyAnswer": "Common ground with the living is nonexistent. Prepare for your end.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge your power and seek only passage without conflict.",
+            "enemyAnswer": "Acknowledgment without submission, a dangerous game you play.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I mean no disrespect, I will depart from this place immediately.",
+                "enemyAnswer": "Your departure will not save you now. Face the fate you have brought upon yourself.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If conflict is your desire, then let us settle this here and now.",
+                "enemyAnswer": "A willing adversary. The outcome is already decided.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have business to attend to in these lands, I do not fear the likes of you.",
+        "enemyAnswer": "Bold words from a fragile being. Your arrogance will be your undoing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have no interest in quarreling, but I will not yield either.",
+            "enemyAnswer": "A defiance that will be crushed under the weight of the undead.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I choose to retreat, there is no honor in needless bloodshed.",
+                "enemyAnswer": "Honor amongst the living means nothing to the dead. Your retreat changes nothing.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If battle is inevitable, then let us test each other's strength.",
+                "enemyAnswer": "Strength alone will not save you from the darkness that awaits.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am not here to provoke conflict, but I will defend myself if provoked.",
+            "enemyAnswer": "Defensive words from one who stands on the precipice of ruin.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will defend myself with honor and courage.",
+                "enemyAnswer": "Honor and courage in the face of oblivion. A futile gesture.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let us lay down arms and find a way to coexist peacefully.",
+                "enemyAnswer": "Peace with the living is a foreign concept. The end approaches.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge your power, but I will not bow to tyranny.",
+            "enemyAnswer": "Acknowledgment in defiance. A rare display of foolishness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will depart from this place, but know that I do so out of respect, not fear.",
+                "enemyAnswer": "Respect from the living is as fleeting as their lives. Prepare for your fate.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If conflict is inevitable, then let fate decide the victor.",
+                "enemyAnswer": "Fate has already sealed your demise. The time for choices is over.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the forces of darkness, including you, if necessary.",
+        "enemyAnswer": "A challenger with feeble resolve. Your bravado will be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not engage in unnecessary conflict, but I will not cower either.",
+            "enemyAnswer": "An empty declaration from one who treads the path to oblivion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I opt to retreat, there is no glory in futile battles.",
+                "enemyAnswer": "Glory and futility hold no meaning in the presence of death. Prepare for your end.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If battle is what you seek, then battle you shall have.",
+                "enemyAnswer": "A willing combatant marching towards certain destruction.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I do not seek conflict, but I will stand my ground against tyranny.",
+            "enemyAnswer": "Resistance without understanding. A common trait among the doomed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand firm and face any challenge with valor.",
+                "enemyAnswer": "Valor in the face of oblivion. A fleeting notion.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Let us cease hostilities and seek a path to mutual understanding.",
+                "enemyAnswer": "Understanding with the living is a luxury you cannot afford. Embrace your fate.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge your strength, but I will not submit to darkness.",
+            "enemyAnswer": "Acknowledgment in defiance. The epitome of folly.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I choose to depart, not out of fear but out of wisdom.",
+                "enemyAnswer": "Wisdom in the face of annihilation. A futile gesture.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If conflict is unavoidable, then let the clash of powers decide the outcome.",
+                "enemyAnswer": "The clash will herald your end, for darkness knows no mercy.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

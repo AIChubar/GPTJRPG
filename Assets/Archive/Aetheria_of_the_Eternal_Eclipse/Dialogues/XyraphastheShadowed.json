@@ -1,0 +1,88 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "void",
+      "characteristicName": "Ephemeral Void Stalker",
+      "artisticName": "Xyraphas the Shadowed",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 100,
+      "friendliness": 0,
+      "intellect": 90,
+      "strategicThinking": 95,
+      "indifference": 5,
+      "flexibility": 10,
+      "communicationSkills": 80,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, a mere mortal dares to challenge the darkness. What foolishness. Speak your purpose, insignificant being.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am here to bring light to this realm and banish you back to the shadows.",
+        "enemyAnswer": "Light? Ha! Your arrogance will be your downfall. Prepare to face oblivion.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not yield to the likes of you. My resolve is unbreakable.",
+            "enemyAnswer": "Stubbornness in the face of annihilation. How amusing. Your bravery will be your undoing.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fight not just for myself, but for all who dwell in this realm. Your reign of darkness ends now!",
+                "enemyAnswer": "Bold words from a fleeting existence. Your futile resistance will meet a swift end.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your darkness may seem overwhelming, but the light within me shall never be extinguished.",
+                "enemyAnswer": "Naive optimism. The light you cherish will soon be snuffed out. Prepare for your final moments.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand your motives. Why bring despair to this world?",
+            "enemyAnswer": "Understanding is beyond your feeble comprehension. Despair is my domain, and you are but an intruder.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Even in darkness, there is room for redemption. Let me show you another path.",
+                "enemyAnswer": "Redemption? Such naivety. There is no salvation in the void. Your words fall on deaf ears.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your actions bring only suffering. Cease this madness and let peace return.",
+                "enemyAnswer": "Peace is a fragile illusion. Embrace the chaos that engulfs you, for there is no escape.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "The shadows may be your domain, but I bring a light that will pierce through even the deepest darkness.",
+        "enemyAnswer": "Foolish optimism. Your light is but a dim spark in the vast emptiness of the void. Prepare for your inevitable end.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My light may be small, but it is fueled by hope and determination. I will not falter in the face of your darkness.",
+            "enemyAnswer": "Hope? Determination? Pitiful emotions that will crumble under the weight of despair. Embrace the darkness that awaits.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I may be just one, but with the strength of my allies and the will of the people, we will overcome your darkness.",
+                "enemyAnswer": "Unity is a fleeting concept. Your allies will fall before me, and you will witness the futility of resistance.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Even the smallest light can illuminate the darkest corners. I will be that light, no matter the cost.",
+                "enemyAnswer": "Idealistic drivel. Your light will flicker and fade, consumed by the all-encompassing shadows. Prepare for your end.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

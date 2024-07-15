@@ -1,0 +1,39 @@
+{
+  "name": "Lyra Shadowthorn",
+  "race": "Phantom",
+  "characterClass": "Sorcerer",
+  "occupation": "Spirit Walker",
+  "backStory": "Lyra Shadowthorn, a mysterious Phantom sorcerer, is a wanderer of the ethereal planes. Born of shadows and whispers, she wields the magic of the unseen realm to protect the balance between light and darkness. Her connection to the spirit world gives her insight into the malevolent forces that threaten the Realm of Shadows' Descent.",
+  "protagonistGroup": {
+    "groupName": "Ethereal Watchers",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "phantom",
+        "thirdAttribute": "stalker",
+        "characteristicName": "Ethereal Nightstalker",
+        "artisticName": "Shadow Veil Wraith",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "simulacrum",
+        "thirdAttribute": "hydra_lord",
+        "characteristicName": "Frozen Hydra Sovereign",
+        "artisticName": "Cryonos the Frost Serpent",
+        "powerLevel": "formidable",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "lurking_horror",
+        "thirdAttribute": "",
+        "characteristicName": "Abyssal Mindshrieker",
+        "artisticName": "Voidwhisper Seer",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

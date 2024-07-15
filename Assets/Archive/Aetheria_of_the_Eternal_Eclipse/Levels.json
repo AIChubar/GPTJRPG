@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadows of Twilight",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Shadows deepen as twilight falls upon the dark-dirt paths of this eerie level. Beware of the treacherous deep-dark-holes that lurk beneath the veils of darkness."
+    },
+    {
+      "levelName": "Eclipse Enclave",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "water",
+      "levelDescription": "The snow-covered grounds of Eclipse Enclave glisten under the eternal twilight. Navigate through the icy terrain while avoiding the chilling waters that threaten to hinder your progress."
+    },
+    {
+      "levelName": "Abyssal Veil",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Enter the Abyssal Veil, where rusty-chain-platforms hang precariously above rivers of molten lava. Here lies the domain of Xyraphas the Shadowed, the Ephemeral Void Stalker, veiled in darkness and malice."
+    }
+  ]
+}

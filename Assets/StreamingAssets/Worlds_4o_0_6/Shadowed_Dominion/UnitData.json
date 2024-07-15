@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Twilight Ruins",
+      "enemyGroups": [
+        {
+          "groupName": "Wailers of the Twilight",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ghost Stalker",
+              "artisticName": "Eldra",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ghost Warrior",
+              "artisticName": "Valkor",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Wraith",
+              "artisticName": "Nyx",
+              "powerLevel": "mighty",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "Specters of the Ruins",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "spectral",
+              "characteristicName": "Spectral Ooze",
+              "artisticName": "Gloomveil",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "death",
+              "characteristicName": "Death Ooze",
+              "artisticName": "Morbidus",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "plague",
+              "characteristicName": "Plague Ooze",
+              "artisticName": "Pestilox",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Haunters of the Dark",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Lurking Horror",
+              "artisticName": "Vesper",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Spectral Ghost",
+              "artisticName": "Phantomus",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "thing",
+              "characteristicName": "Spectral Thing",
+              "artisticName": "Wraithus",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkness Incarnate",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "freezing",
+              "characteristicName": "Freezing Wraith",
+              "artisticName": "Glacius",
+              "powerLevel": "formidable",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Dragon Skeleton",
+              "artisticName": "Bonescale",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Warrior Skeleton",
+              "artisticName": "Rattleblade",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Crimson Wastes",
+      "enemyGroups": [
+        {
+          "groupName": "Flames of the Abyss",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Demon",
+              "artisticName": "Umbrax",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "torturer",
+              "characteristicName": "Torturer Imp",
+              "artisticName": "Scathe",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Firebrand Salamander",
+              "artisticName": "Ignis",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Lavaborn Horde",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Balrug",
+              "artisticName": "Inferno",
+              "powerLevel": "legendary",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "slave",
+              "characteristicName": "Slave Demon",
+              "artisticName": "Chainbringer",
+              "powerLevel": "moderate",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Lava Worm",
+              "artisticName": "Magma",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Burning Legions",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Imp",
+              "artisticName": "Nox",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "defender",
+              "characteristicName": "Hell Knight Defender",
+              "artisticName": "Aegis",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Pit Fiend",
+              "artisticName": "Abyssus",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Infernal Guardians",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "hell_sentinel",
+              "thirdAttribute": "",
+              "characteristicName": "Hell Sentinel",
+              "artisticName": "Cerberus",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Stormcaller Salamander",
+              "artisticName": "Tempest",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "rotting",
+              "characteristicName": "Rotting Devil",
+              "artisticName": "Decay",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Sanctum of the Unyielding Light",
+      "enemyGroups": [
+        {
+          "groupName": "Radiant Sentinels",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "shieldwielder",
+              "characteristicName": "Angel Shieldwielder",
+              "artisticName": "Seraphiel, the Dawn's Protector",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "daeva",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Daeva Warmonger",
+              "artisticName": "Zariel, the Flame of Justice",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "annihilator",
+              "characteristicName": "Titan Annihilator",
+              "artisticName": "Oros, the Unyielding Light",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Celestial Warriors",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Angel Warmonger",
+              "artisticName": "Michaelis",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "daeva",
+              "thirdAttribute": "shieldwielder",
+              "characteristicName": "Daeva Shieldwielder",
+              "artisticName": "Azura",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "centaur_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Centaur",
+              "artisticName": "Chiron",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Divine Purifiers",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "ophan",
+              "thirdAttribute": "",
+              "characteristicName": "Ophan",
+              "artisticName": "Lumiel",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "shedu",
+              "thirdAttribute": "",
+              "characteristicName": "Shedu",
+              "artisticName": "Ashtor",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "cherub",
+              "thirdAttribute": "",
+              "characteristicName": "Cherub",
+              "artisticName": "Gabrielis",
+              "powerLevel": "strong",
+              "unitClass": "healer"
+            }
+          ]
+        },
+        {
+          "groupName": "Blazing Heralds",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "human_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Human",
+              "artisticName": "Eliora",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "dragon_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Dragon",
+              "artisticName": "Draconis",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "apys",
+              "thirdAttribute": "",
+              "characteristicName": "Apys",
+              "artisticName": "Solara",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

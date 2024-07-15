@@ -1,0 +1,39 @@
+{
+  "name": "Sylvana Shadowleaf",
+  "race": "Nymph",
+  "characterClass": "Druid",
+  "occupation": "Nature Guardian",
+  "backStory": "Sylvana Shadowleaf, a mystical Nymph attuned to the essence of nature, emerges from the ancient forests of Aetheria. Her connection with the natural world grants her the power to commune with spirits and wield primal forces against the encroaching darkness that threatens the realm.",
+  "protagonistGroup": {
+    "groupName": "Luminous Grove Wardens",
+    "units": [
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "wyvern",
+        "thirdAttribute": "",
+        "characteristicName": "Prismatic Wyrm Guardian",
+        "artisticName": "Aurora Scalewing",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "simulacrum",
+        "thirdAttribute": "dragon",
+        "characteristicName": "Ethereal Dragon Sentinel",
+        "artisticName": "Aetherius Dreamwing",
+        "powerLevel": "formidable",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Spectral Wraith Slayer",
+        "artisticName": "Eclipsar Blackbane",
+        "powerLevel": "legendary",
+        "unitClass": "marksman"
+      }
+    ]
+  }
+}

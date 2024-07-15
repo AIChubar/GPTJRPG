@@ -40,7 +40,7 @@ for level in units_data["levelsUnits"]:
         dialogue_file_path = os.path.join(dialogue_folder_path, f"{artistic_name}.json")
 
         response = openai.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
+            model="gpt-4o",
             temperature=1.0,
             max_tokens=4096,
             response_format={"type": "json_object"},
@@ -69,7 +69,7 @@ for level in units_data["levelsUnits"]:
                                "Last example is that if braveness is very low and friendliness is very low choosing an option to engage in fight will result in ignoring. \n"
                                "Given examples is not a rule but just a direction. Remember that world is fictional but realistic. \n"
                                "Be radical about changing enemy speaking style. Base it mainly on the most extremely low or high metric, don't hesitate to be very rude or very friendly, very thorough or very simple, etc. \n"
-                               "Derive specific speaking artifacts, inherent sounds, literature accents, idioms or slang based on your knowledge about creatures in a fantasy world. \n"
+                               "Derive specific speaking artefacts, inherent sounds, literature accents, idioms or slang based on your knowledge about creatures in a fantasy world. \n"
                                "i.e. non humanoid creatures (intellect most animals or abominations should be low) should speak like they are dumb and if the unit is mage or priest it should show it's knowledge and wisdom. \n"
                                "Fill the generated content into the appropriate variables in the given JSON structure. \n"
                                "#Constraints: \n"
@@ -100,7 +100,7 @@ dialogue_file_path = os.path.join(dialogue_folder_path, f"{artistic_name}.json")
 
 response = openai.chat.completions.create(
     model="gpt-3.5-turbo-0125",
-    temperature=1.0,
+    temperature=1.2,
     response_format={"type": "json_object"},
     messages=[
         {

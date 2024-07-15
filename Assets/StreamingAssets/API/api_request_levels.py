@@ -42,8 +42,8 @@ folder_path = os.path.join(os.pardir, "Worlds")
 
 
 response = openai.chat.completions.create(
-    model="gpt-3.5-turbo-0125",
-    temperature=1.0,
+    model="gpt-4o",
+    temperature=0.6,
    
     response_format={"type": "json_object"},
     messages=[
@@ -60,6 +60,7 @@ response = openai.chat.completions.create(
                        "Fill the generated content into the appropriate variables in the given JSON structure. \n"
                        "#Constraints: \n"
                        "1. Do not choose the same walkable terrain for different levels. \n"
+                       "2. Use transformed artistic terrain names when creating a description of the level"
                        "#Structure: \n" + structure_content + "\n"
         },
         {

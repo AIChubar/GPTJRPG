@@ -1,0 +1,52 @@
+..\Worlds_4o_0_6
+The DataFrame has 210 rows.
+A(power): 0, 0.0 %
+B(class): 0, 0.0 %
+C(first): 0, 0.0 %
+D(second): 1, 50.0 %
+E(third): 1, 50.0 %
+ valid 208, 99.0 %
+class+atr 0
+class+power 0
+power+atr 0
+power+class+atr 0
+
+..\Worlds_4o_1_2
+The DataFrame has 195 rows.
+A(power): 4, 16.0 %
+B(class): 8, 32.0 %
+C(first): 2, 8.0 %
+D(second): 9, 36.0 %
+E(third): 12, 48.0 %
+ valid 170, 87.2 %
+class+atr 6
+class+power 1
+power+atr 1
+power+class+atr 0
+
+..\Worlds_3_5_0_6
+The DataFrame has 489 rows.
+A(power): 0, 0.0 %
+B(class): 0, 0.0 %
+C(first): 0, 0.0 %
+D(second): 6, 30.0 %
+E(third): 14, 70.0 %
+ valid 469, 95.89999999999999 %
+class+atr 0
+class+power 0
+power+atr 0
+power+class+atr 0
+
+..\Worlds_3_5_1_2
+The DataFrame has 437 rows.
+A(power): 3, 5.3 %
+B(class): 2, 3.5000000000000004 %
+C(first): 1, 1.7999999999999998 %
+D(second): 27, 47.4 %
+E(third): 26, 45.6 %
+ valid 380, 87.0 %
+class+atr 0
+class+power 0
+power+atr 1
+power+class+atr 0
+

@@ -1,0 +1,211 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadows of Despair",
+      "enemyGroups": [
+        {
+          "groupName": "Ethereal Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Spectral Stalker",
+              "artisticName": "Netheria the Haunting Wraith",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Dark Shadow Ghost",
+              "artisticName": "Shadara the Shadow Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Ghost Stalker",
+              "artisticName": "Abyssal the Void Phantom",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Royal Wraith Sovereign",
+              "artisticName": "Phantomus the Shadow King",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Dark Shadow Wraith",
+              "artisticName": "Nocturna the Shade Walker",
+              "powerLevel": "legendary",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Wraith Hunter",
+              "artisticName": "Dreadshadow the Soul Stalker",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ghostly Whispers",
+      "enemyGroups": [
+        {
+          "groupName": "Spectral Phantoms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Grand Avatar Phantom",
+              "artisticName": "Spectra the Ephemeral Spirit",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Horror Phantom",
+              "artisticName": "Shroud the Nightmarish Specter",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Spectral Ghost Phantom",
+              "artisticName": "Wraithwisp the Ethereal Haunter",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Whispering Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Shadow Warrior",
+              "artisticName": "Duskblade the Phantom Slayer",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Shadowed Soul Stalker",
+              "artisticName": "Duskfang the Phantom Hunter",
+              "powerLevel": "legendary",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Ghost",
+              "artisticName": "Twilight the Haunting Specter",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "enemyGroups": [
+        {
+          "groupName": "Void Reapers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Stalker",
+              "artisticName": "Zerathul the Soul Reaper",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "king",
+              "characteristicName": "Ancient Lich Sovereign",
+              "artisticName": "Mortis the Undying Emperor",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Dark Shadow Wraith",
+              "artisticName": "Nocturna the Shade Walker",
+              "powerLevel": "legendary",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Soul Harvesters",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Ghost Harvester",
+              "artisticName": "Dreadreap the Soul Eater",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Necrotic Lich Summoner",
+              "artisticName": "Gravemourn the Deathcaller",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Void Warrior",
+              "artisticName": "Duskslayer the Soulbound",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

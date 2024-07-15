@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Abyssal Caverns",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Echoes of the Fractals",
+          "questDescription": "Navigate the intricate Abyssal Caverns and either defeat or ally with one of the following: Shadowed Soulstalkers/Kraitha the Soulslasher or Twilight Serpentscales/Nagrodil the Duskblade.",
+          "questObjective": "Shadowed Soulstalkers"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Harmony of the Deep",
+          "questDescription": "Seek unity in the depths as you forge an alliance with either Whispering Haunters/Xaltherion the Ephemeral or Dreaded Maws of Abyss/Xylothor the Devourer.",
+          "questObjective": "Whispering Haunters"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Subdue the Shadows",
+          "questDescription": "Eliminate the threat by defeating Blackened Shroudcasters/Necrathys the Voidweaver in the treacherous Abyssal Caverns.",
+          "questObjective": "Necrathys the Voidweaver"
+        }
+      ]
+    },
+    {
+      "levelName": "Serpentine Shoreline",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shifting Tides of Destiny",
+          "questDescription": "Navigate the Serpentine Shoreline and confront the choice of either allying with or vanquishing Gorthak the Boulderfiend/Stonecrusher Ravagers or Bloodbound Enchantresses/Maralys the Sanguine Sorceress.",
+          "questObjective": "Gorthak the Boulderfiend"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Whispers of Eternity",
+          "questDescription": "In the dim twilight, seek unity with Abyssal Soulshadows/Maerthas the Void Wraith among the shadows of the Shoreline.",
+          "questObjective": "Abyssal Soulshadows"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkness Unveiled",
+          "questDescription": "Unveil the darkness lurking within the Sorcerers and defeat Pyrothor the Infernocaller of the Molten Conjurers in the Serpentine Shoreline.",
+          "questObjective": "Pyrothor the Infernocaller"
+        }
+      ]
+    },
+    {
+      "levelName": "Leviathan's Lair",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Wrath of the Leviathan",
+          "questDescription": "Confront the ultimate evil by defeating Thalassakor the Leviathan in his treacherous Lair.",
+          "questObjective": "Thalassakor the Leviathan"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Bindings of Hope",
+          "questDescription": "Discover hope in the midst of darkness as you unite with the spirits to earn the Amulet of Healing.",
+          "questObjective": "Vesperon the Soul Haunter"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Subjugate the Depths",
+          "questDescription": "Subjugate the unfathomable powers by defeating Kethraa the Submerged Sentinel among the Abyssal Legion in the heart of Leviathan's Lair.",
+          "questObjective": "Kethraa the Submerged Sentinel"
+        }
+      ]
+    }
+  ]
+}

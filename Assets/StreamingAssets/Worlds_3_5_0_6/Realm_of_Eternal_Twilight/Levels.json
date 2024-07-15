@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadows of the Forgotten",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Venture into the eerie realm where dark-grass whispers tales of forgotten souls. Beware the deep-dark-holes that conceal the secrets of the past, waiting to ensnare the unwary traveler."
+    },
+    {
+      "levelName": "Mist-veiled Crypt",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Journey through the mist-veiled crypt, where pink-sand carpets the path like a soft veil. The tranquil waters block the way forward, reflecting the shadows of unseen specters."
+    },
+    {
+      "levelName": "Void's Embrace",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Face the ultimate challenge in Void's Embrace, a realm of rusty-chain-platforms suspended above rivers of molten lava. Here, the Nethergeist, an ethereal void stalker, awaits with its legendary sorcery, ready to plunge the realm into eternal darkness."
+    }
+  ]
+}

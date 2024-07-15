@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "The Enchanted Glade",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of the Forest",
+          "questDescription": "The mystical Whispering Woods Pack in the Enchanted Glade is divided between the powerful Ancient Greenwood Rampager and the Stoneguard Cyclopean Mauler. Will you soothe their savage hearts or quell their rampaging anger to proceed?",
+          "questObjective": "Earthcrusher Throkrin"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Mending Hearts of Nature",
+          "questDescription": "The Mystic Faerie Ensemble seeks harmony among their enchanted members. Aid the Willowwind Nymphara in uniting the Ancient Stone Sentinel and the Coralcrest Sirena to heal the fractured bond of the enchanted beings.",
+          "questObjective": "Willowwind Nymphara"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Extinguishing the Soulflame",
+          "questDescription": "The Glowing Ember Legion's presence darkens the Glade. Defeat the powerful Ebonfire Dreadmourne to forge a new alliance and weaken the forces of darkness.",
+          "questObjective": "Blightbeak Hexgraft"
+        }
+      ]
+    },
+    {
+      "levelName": "Frostbite Passage",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        }
+      ]
+    },
+    {
+      "levelName": "Titan's Rampart",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Guardians of the Celestial Realms",
+          "questDescription": "Face the corrupted Guardian of Celestial Realms himself, the Divine Sentinel Titan. Defeat the legendary Titan to restore balance to the Ethereal Empire of Everlasting Radiance.",
+          "questObjective": "Guardian of Celestial Realms"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        }
+      ]
+    }
+  ]
+}

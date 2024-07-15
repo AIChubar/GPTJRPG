@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "angel",
+    "thirdAttribute": "peacemaker",
+    "characteristicName": "Celestial Peacemaker",
+    "artisticName": "Seraphina the Radiant",
+    "powerLevel": "legendary",
+    "unitClass": "paladin"
+  },
+  "antagonistGroup": {
+    "groupName": "The Divine Guardians",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "titan",
+        "thirdAttribute": "annihilator",
+        "characteristicName": "Titan Annihilator",
+        "artisticName": "Gargantus the Mighty",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "daeva",
+        "thirdAttribute": "shieldwielder",
+        "characteristicName": "Daeva Shieldwielder",
+        "artisticName": "Astrael the Protector",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      }
+    ]
+  },
+  "worldName": "Twilight Abyss",
+  "story": "In the world of Twilight Abyss, shadows reign supreme and darkness is the natural order. The land is a sprawling labyrinth of twisted forests, jagged mountains, and murky swamps. The inhabitants of this world thrive in the absence of light, practicing dark magic and forging alliances with nefarious beings. However, a persistent threat looms over this sinister realm: the Divine Guardians, led by Seraphina the Radiant, seek to bring light and peace to the Twilight Abyss. Their presence disrupts the balance, and their mission threatens to eradicate the very essence of darkness that empowers the inhabitants. The protagonist, a malevolent force rising from the depths, must confront these celestial intruders to preserve the sanctity of the shadowed world.",
+  "greetingGameMessage": "Welcome, dark one, to the Twilight Abyss, where shadows are your allies and darkness your strength. The lightseekers have come to disrupt our world. Will you rise to the challenge and defend the realm of night?",
+  "defeatEndingMessage": "With Seraphina the Radiant's defeat, the Twilight Abyss remains shrouded in darkness. The celestial threat has been vanquished, and the shadows reclaim their dominion. The inhabitants celebrate the victory, knowing their world is safe once more.",
+  "gameOverMessage": "Seraphina the Radiant's light pierces through the darkness, vanquishing the protagonist and casting the Twilight Abyss into an era of unwanted peace. The inhabitants of the shadowed world are forced into hiding, their power waning as the light spreads. The balance of the realm is irrevocably altered."
+}

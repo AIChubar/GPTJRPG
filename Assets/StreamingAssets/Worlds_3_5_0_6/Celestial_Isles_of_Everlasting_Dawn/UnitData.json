@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispers of the Dark Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Umbral Whisperers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Wraith Whisperer",
+              "artisticName": "Ethereal Shadecaller",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Spectral Lionheart Howler",
+              "artisticName": "Phantom Roarbringer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Enchanted Forest Guardian",
+              "artisticName": "Faedryad",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowstalkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Stalker Dread",
+              "artisticName": "Shadow Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Ethereal Lion Guardian",
+              "artisticName": "Spectracle the Ethereal Sentinel",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Guardian of the Enchanted Woods",
+              "artisticName": "Faelorn the Sentinel",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Abyssal Spirits",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Spirit Haunter",
+              "artisticName": "Abyssal Ectoghost",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Spectral Roarbeast",
+              "artisticName": "Phantom Echohowler",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Enchanted Guardian of Shadows",
+              "artisticName": "Silvagloom the Shadekeeper",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Whispers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Whisperer",
+              "artisticName": "Shade Whisperer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Spectral Lion Guardian",
+              "artisticName": "Phantasmal Roarbeast",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Guardian of the Whispering Woods",
+              "artisticName": "Faelorn the Whisperer",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ruins of the Forgotten Empire",
+      "enemyGroups": [
+        {
+          "groupName": "Empire Remnants",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Warrior",
+              "artisticName": "Aelrindor the Forgotten",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_dwarf",
+              "thirdAttribute": "",
+              "characteristicName": "Dwarven Empire Guardian",
+              "artisticName": "Durin Stonebeard",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Mage",
+              "artisticName": "Ilyana Moonweaver",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Lost Empire Sentinels",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Defender",
+              "artisticName": "Aelrindor the Vigilant",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_dwarf",
+              "thirdAttribute": "",
+              "characteristicName": "Dwarven Empire Battlemaster",
+              "artisticName": "Durin Ironfist",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Archmage",
+              "artisticName": "Ilyana Starweaver",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Forgotten Legionnaires",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Soldier",
+              "artisticName": "Aelrindor the Valiant",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_dwarf",
+              "thirdAttribute": "",
+              "characteristicName": "Dwarven Empire Champion",
+              "artisticName": "Durin Steelheart",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Enchanter",
+              "artisticName": "Ilyana Spellweaver",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Empire Specters",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Spirit",
+              "artisticName": "Aelrindor the Ethereal",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_dwarf",
+              "thirdAttribute": "",
+              "characteristicName": "Dwarven Empire Guardian",
+              "artisticName": "Durin Stoneguard",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "deep_elf",
+              "thirdAttribute": "",
+              "characteristicName": "Elven Empire Sorcerer",
+              "artisticName": "Ilyana Starlight",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "enemyGroups": [
+        {
+          "groupName": "Voidforged Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Voidforged Soul Reaver",
+              "artisticName": "Ethereal Voidbringer",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Spectral Lionheart Guardian",
+              "artisticName": "Phantasmal Roarbeast",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Enchanted Void Sentinel",
+              "artisticName": "Faedryad of the Abyss",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Nether Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Nether Wraith",
+              "artisticName": "Voidshadow Specter",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Ethereal Lionheart Guardian",
+              "artisticName": "Auroraclaw the Spirit Sentinel",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Guardian of the Void Embrace",
+              "artisticName": "Faedryad the Shadowkeeper",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Embrace",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Abyssal Void Stalker",
+              "artisticName": "Shadowed Voidwalker",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Spectral Roarbeast",
+              "artisticName": "Phantom Echohowler",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Enchanted Void Guardian",
+              "artisticName": "Faedryad of the Abyss",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadows of the Void",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Shadowcaster",
+              "artisticName": "Ethereal Shadebringer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Spectral Lion Guardian",
+              "artisticName": "Phantasmal Roarbeast",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Guardian of the Void Shadows",
+              "artisticName": "Faedryad the Shadow Sentinel",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

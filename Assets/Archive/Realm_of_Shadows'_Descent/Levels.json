@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Ethereal Woods",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Ethereal Woods is shrouded in a perpetual twilight, where ghostly shadows dance among the dark grass. Beware the hidden traps of shimmering water that threaten to ensnare the unwary traveler."
+    },
+    {
+      "levelName": "Spectral Caverns",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Spectral Caverns echo with the clinking of rusty chains, forming precarious platforms amidst the darkness. Beware the treacherous deep dark holes that yawn hungrily, ready to claim any misstep."
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "At the heart of the realm lies the Shadowed Citadel, a fortress of fractured walls and dangerous lava flows. This is where Xarathos, the Spectral Dread, resides, wielding his legendary power with malevolent intent."
+    }
+  ]
+}

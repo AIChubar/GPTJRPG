@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Twilight Forest",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Twilight Forest is a labyrinthine expanse of dark-grass, where twisted trees loom high, their branches forming a canopy that blocks out even the faintest glimmer of light. Deep-dark-holes are scattered throughout the forest, ready to swallow the unwary into their abyss. The air is thick with the whispers of ancient sorcery, and the shadows seem to move with a life of their own. It is here that the protagonist must navigate through the treacherous terrain, avoiding the pitfalls and gathering dark artifacts hidden within the gloom."
+    },
+    {
+      "levelName": "Desolate Plains",
+      "walkableTerrain": "tundra-sand",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Desolate Plains stretch out endlessly, a barren wasteland of tundra-sand that crunches underfoot. Rivers of molten lava cut through the landscape, their fiery glow casting an eerie light on the desolation. The air is acrid with the scent of sulfur and scorched earth. This harsh terrain is littered with the remnants of ancient battles, where the protagonist must confront lesser foes and gather the dark artifacts needed to bolster their power."
+    },
+    {
+      "levelName": "Cursed Ruins",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Cursed Ruins are a hauntingly beautiful expanse of fractured-wall-platforms that rise and fall like the remnants of a once-great civilization. Pools of stagnant water fill the gaps between the platforms, creating treacherous obstacles for the unwary. The air is thick with the residue of dark magic, and the very stones seem to hum with an ancient, malevolent energy. It is here, amidst the crumbling remnants of a forgotten era, that the protagonist will face their greatest challenge: Arkos the Radiant, the Titan Annihilator, and his Guardians of Light. The final battle for the fate of the Darkened Veil awaits."
+    }
+  ]
+}

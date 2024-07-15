@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "titan",
+    "thirdAttribute": "annihilator",
+    "characteristicName": "Titan Annihilator",
+    "artisticName": "Arkos the Radiant",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "Guardians of Light",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "shieldwielder",
+        "characteristicName": "Angel Shieldwielder",
+        "artisticName": "Seraphiel the Protector",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "daeva",
+        "thirdAttribute": "warmonger",
+        "characteristicName": "Daeva Warmonger",
+        "artisticName": "Zariel the Fierce",
+        "powerLevel": "mighty",
+        "unitClass": "berserker"
+      }
+    ]
+  },
+  "worldName": "Darkened Veil",
+  "story": "In the heart of the Darkened Veil, a world perpetually shrouded in twilight, malevolent forces have risen to power. The land is a tapestry of shadowed forests, desolate plains, and cursed ruins, where the echoes of ancient sorcery linger in the air. The once-thriving cities now lie in ruins, their inhabitants either enslaved or turned into twisted monstrosities by the dark magic that permeates the realm.\n\nThe protagonist is a powerful and cunning individual, driven by a thirst for dominance and revenge. They seek to conquer the Darkened Veil and bend it to their will. However, standing in their path is Arkos the Radiant, a Titan Annihilator who wields the power of light and justice. Arkos is aided by the Guardians of Light, a formidable group consisting of Seraphiel the Protector, an Angel Shieldwielder, and Zariel the Fierce, a Daeva Warmonger.\n\nThe protagonist must navigate through treacherous landscapes, defeat lesser foes, and gather dark artifacts to increase their power. Only then can they confront Arkos and the Guardians of Light in a final, cataclysmic battle that will determine the fate of the Darkened Veil.",
+  "greetingGameMessage": "Welcome, dark one, to the Darkened Veil. The shadows bend to your will, and the world awaits your command. But be wary, for the Guardians of Light stand vigilant, ready to thwart your rise to power.",
+  "defeatEndingMessage": "With Arkos the Radiant vanquished, the light of hope extinguishes. The Darkened Veil falls completely under your dominion, its inhabitants either enslaved or annihilated. Your reign of terror begins, and the world descends into an age of darkness.",
+  "gameOverMessage": "Defeated by the Guardians of Light, your ambitions are crushed. The Darkened Veil remains a realm of twilight, but hope is rekindled as the forces of light begin to reclaim the land. Your name becomes a cautionary tale, a warning to all who dare to embrace the darkness."
+}

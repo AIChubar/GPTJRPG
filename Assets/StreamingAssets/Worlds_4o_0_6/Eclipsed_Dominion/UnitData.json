@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Marshes",
+      "enemyGroups": [
+        {
+          "groupName": "Oozing Horrors",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "plague",
+              "characteristicName": "Plague Ooze",
+              "artisticName": "Gloam",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "acid",
+              "characteristicName": "Acid Ooze",
+              "artisticName": "Corros",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "tentacle",
+              "characteristicName": "Tentacle Ooze",
+              "artisticName": "Cthulon",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Marsh Phantoms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Spectral Ghost",
+              "artisticName": "Wraithor",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "naga",
+              "characteristicName": "Spectral Naga",
+              "artisticName": "Nagash",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Lurking Horror",
+              "artisticName": "Shadom",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Beasts of the Swamp",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "forest",
+              "characteristicName": "Forest Troll",
+              "artisticName": "Grum",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Swamp Hydra",
+              "artisticName": "Hydrax",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "juggernaut",
+              "thirdAttribute": "",
+              "characteristicName": "Swamp Juggernaut",
+              "artisticName": "Juggor",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Undead Legions",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Skeleton Warrior",
+              "artisticName": "Bonecrusher",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ghostly Warrior",
+              "artisticName": "Spectros",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Lich Summoner",
+              "artisticName": "Necros",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Forsaken Ruins",
+      "enemyGroups": [
+        {
+          "groupName": "Ruins Guardians",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Golem",
+              "artisticName": "Granitus",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Gargoyle",
+              "artisticName": "Gargor",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "giant",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Giant",
+              "artisticName": "Goliath",
+              "powerLevel": "formidable",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Dark Centaurs",
+          "units": [
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "centaur",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Centaur Fighter",
+              "artisticName": "Centurion",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "centaur",
+              "thirdAttribute": "archer",
+              "characteristicName": "Centaur Archer",
+              "artisticName": "Archeron",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "ogre",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ogre Warrior",
+              "artisticName": "Brutus",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Spirits",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "worm",
+              "characteristicName": "Spectral Worm",
+              "artisticName": "Wormius",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "naga",
+              "characteristicName": "Spectral Naga",
+              "artisticName": "Nagor",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Lurking Horror",
+              "artisticName": "Horror",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Horde Invaders",
+          "units": [
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "orc",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Orc Warrior",
+              "artisticName": "Orcrus",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "ogre",
+              "thirdAttribute": "mage",
+              "characteristicName": "Ogre Mage",
+              "artisticName": "Magus",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "spriggan",
+              "thirdAttribute": "enchanter",
+              "characteristicName": "Spriggan Enchanter",
+              "artisticName": "Enchantor",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Sanctuary of Shadows",
+      "enemyGroups": [
+        {
+          "groupName": "Seraphael's Guard",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Warmonger Angel",
+              "artisticName": "Archeon",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "daeva",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Warmonger Daeva",
+              "artisticName": "Daevon",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "brawler",
+              "characteristicName": "Brawler Titan",
+              "artisticName": "Titanus",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Lightbringers",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "human_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Human",
+              "artisticName": "Luxor",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "centaur_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Centaur",
+              "artisticName": "Centarion",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "shedu",
+              "thirdAttribute": "",
+              "characteristicName": "Shedu Guardian",
+              "artisticName": "Shedon",
+              "powerLevel": "legendary",
+              "unitClass": "bastion"
+            }
+          ]
+        },
+        {
+          "groupName": "Fireborn",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Elemental",
+              "artisticName": "Inferno",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "phoenix",
+              "thirdAttribute": "",
+              "characteristicName": "Phoenix",
+              "artisticName": "Blazewing",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "lord",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Lord",
+              "artisticName": "Pyros",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Angelic Sentinels",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "ophan",
+              "thirdAttribute": "",
+              "characteristicName": "Ophan Sentinel",
+              "artisticName": "Ophiel",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "cherub",
+              "thirdAttribute": "",
+              "characteristicName": "Cherub Defender",
+              "artisticName": "Cherubin",
+              "powerLevel": "formidable",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "dragon_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Dragon",
+              "artisticName": "Draco",
+              "powerLevel": "legendary",
+              "unitClass": "bastion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

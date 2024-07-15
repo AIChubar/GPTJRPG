@@ -1,0 +1,157 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Ethereal Woods",
+      "enemyGroups": [
+        {
+          "groupName": "Shadows of the Whispering Grove",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Haunting Soulstalker",
+              "artisticName": "Veilshade the Ephemeral Wraith",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "hydra_lord",
+              "characteristicName": "Frozen Hydra Sovereign",
+              "artisticName": "Cryonos the Frost Serpent",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Dreadstalker",
+              "artisticName": "Whispering Shadowsoul",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Shadow Warrior",
+              "artisticName": "Xarathos the Spectral Dread",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Caverns",
+      "enemyGroups": [
+        {
+          "groupName": "Rusty Chains of Despair",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Abyssal Mindshrieker",
+              "artisticName": "Voidwhisper Seer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "hydra_lord",
+              "characteristicName": "Frozen Hydra Sovereign",
+              "artisticName": "Cryonos the Frost Serpent",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Haunting Soulstalker",
+              "artisticName": "Veilshade the Ephemeral Wraith",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Echoes of the Abyss",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Shadow Warrior",
+              "artisticName": "Xarathos the Spectral Dread",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "enemyGroups": [
+        {
+          "groupName": "Legion of Fractured Shadows",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "hydra_lord",
+              "characteristicName": "Frozen Hydra Sovereign",
+              "artisticName": "Cryonos the Frost Serpent",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Abyssal Mindshrieker",
+              "artisticName": "Voidwhisper Seer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Haunting Soulstalker",
+              "artisticName": "Veilshade the Ephemeral Wraith",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadows of Oblivion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Shadow Warrior",
+              "artisticName": "Xarathos the Spectral Dread",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

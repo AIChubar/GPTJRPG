@@ -1,0 +1,136 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "relict",
+      "secondAttribute": "simulacrum",
+      "thirdAttribute": "hydra_lord",
+      "characteristicName": "Frozen Hydra Sovereign",
+      "artisticName": "Cryonos the Frost Serpent",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 75,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 60,
+      "morality": 20,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, a mere mortal dares to venture into my domain. What do you seek, insignificant one?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to challenge your rule over this realm!",
+        "enemyAnswer": "Bold words from a fragile being. You will regret this defiance.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not back down, for the light will prevail over your darkness!",
+            "enemyAnswer": "Foolish mortal, your light is a mere flicker in the face of my eternal night.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will fight until my last breath, for hope never dies!",
+                "enemyAnswer": "So be it. Prepare to face the icy wrath of Cryonos, the Frost Serpent!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see no point in continuing this futile battle. I shall retreat.",
+                "enemyAnswer": "Ha! Flee, coward, for your weakness only strengthens my resolve.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Perhaps there is a way for us to coexist peacefully in this realm.",
+            "enemyAnswer": "Peace with a being of light? Such naivety. Your kind is not welcome here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand, then I shall take my leave and bother you no more.",
+                "enemyAnswer": "A wise decision. Begone from my sight, insignificant one.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I refuse to accept your darkness. I will find a way to bring light back to this realm.",
+                "enemyAnswer": "You are as stubborn as you are foolish. Prepare to face the consequences of your arrogance.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense fear and loneliness in your words. Is there a reason behind your malevolence?",
+            "enemyAnswer": "Fear? Loneliness? You know nothing, mortal. My power is absolute, and I have no need for compassion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your power may be great, but true strength lies in compassion and understanding.",
+                "enemyAnswer": "Enough of your prattle. Face the chill of death's embrace, fool!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I pity you, trapped in this eternal darkness. There is always a chance for redemption.",
+                "enemyAnswer": "Pity me? Your words are as empty as your existence. I have no use for redemption.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking knowledge and understanding of your realm.",
+        "enemyAnswer": "Peace? Knowledge? You amuse me, mortal. What could you possibly offer in exchange for such things?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my respect and willingness to learn from your wisdom.",
+            "enemyAnswer": "Respect and willingness? Those are rare traits in your kind. Very well, mortal. Continue.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek to understand the reason behind your malevolence and find a way to bring harmony to this realm.",
+                "enemyAnswer": "Harmony? In this realm of shadows and despair? Your optimism is amusing, but futile.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I believe that even in darkness, there can be a glimpse of light. I wish to find that balance.",
+                "enemyAnswer": "Balance? Light in darkness? Your idealism is a weakness, mortal. Prepare for disappointment.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer a truce between us, to coexist peacefully and share the knowledge of our respective worlds.",
+            "enemyAnswer": "A truce? Between light and darkness? Such a concept is beyond your comprehension, mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I believe that understanding and respect can bridge any divide, even between opposites like us.",
+                "enemyAnswer": "Understanding? Respect? Your words are empty, mortal. Prepare yourself for what comes next.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If peace is not an option, then I shall leave in peace, hoping our paths do not cross in conflict.",
+                "enemyAnswer": "Leave in peace? Hah, your naivety knows no bounds. You are not worth my attention.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek nothing but passage through this realm. I mean no harm to you or your denizens.",
+        "enemyAnswer": "Passage? Harmlessness? You intrigue me, mortal. But beware, my patience is as fleeting as your existence.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I assure you, my presence here is purely out of necessity. I will disturb nothing in my journey.",
+            "enemyAnswer": "Assurances mean nothing in this realm, mortal. Your mere presence is disturbance enough.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "If my presence here offends you, then I shall leave immediately without causing any further trouble.",
+            "enemyAnswer": "Your consideration is noted, but in the end, it matters not. The outcome remains the same.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

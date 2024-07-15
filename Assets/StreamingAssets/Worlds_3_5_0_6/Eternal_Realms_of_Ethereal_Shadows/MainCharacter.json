@@ -1,0 +1,39 @@
+{
+  "name": "Aria Shadowheart",
+  "race": "humanoid",
+  "characterClass": "trickster",
+  "occupation": "Shadow Weaver",
+  "backStory": "Aria Shadowheart, a cunning humanoid trickster known as the Shadow Weaver, emerges from the depths of the Eternal Voidrealm of Desolation. Her past is shrouded in mystery, with whispers of her elusive nature and shadowy abilities that make her a formidable foe against the Wraith of the Abyss's darkness.",
+  "protagonistGroup": {
+    "groupName": "Twilight Shadows",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "void",
+        "characteristicName": "Ethereal Soul Whisperer",
+        "artisticName": "Phantasma the Whispering Shade",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "shapeshifter",
+        "thirdAttribute": "radiant",
+        "characteristicName": "Luminous Shape Shifter",
+        "artisticName": "Aurora the Radiant Illusionist",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "salamander",
+        "thirdAttribute": "firebrand",
+        "characteristicName": "Infernal Flamebringer",
+        "artisticName": "Blazefury the Scorching Conjuror",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

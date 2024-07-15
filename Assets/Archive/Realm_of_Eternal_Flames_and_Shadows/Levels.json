@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadowed Canyon",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Shadowed Canyon is a treacherous path carved through the darkness, with eerie whispers echoing off the jagged walls. Beware of the deep dark holes that threaten to swallow any misstep into the abyss."
+    },
+    {
+      "levelName": "Infernal Wasteland",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Infernal Wasteland is a desolate expanse of molten lava and scorched earth, where the heat of the fiery depths radiates with malevolent intensity. Traverse the treacherous terrain while avoiding the searing pools of lava that could consume you in an instant."
+    },
+    {
+      "levelName": "Fiendish Crypt",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Fiendish Crypt is a dark and foreboding dungeon filled with winding passages and mysterious chambers. At its heart lies the lair of the malevolent Infernoth, the Infernal Guardian. Beware of the sinister traps and dark enchantments that guard the chamber of the legendary Pit Fiend."
+    }
+  ]
+}

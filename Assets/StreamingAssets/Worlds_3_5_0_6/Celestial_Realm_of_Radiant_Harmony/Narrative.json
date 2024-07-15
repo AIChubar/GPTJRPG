@@ -1,0 +1,40 @@
+{
+  "storyType": "good",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "warrior",
+    "characteristicName": "Ethereal Shadow Stalker",
+    "artisticName": "Aurorium",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "Spectral Legion",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "shapeshifter",
+        "thirdAttribute": "radiant",
+        "characteristicName": "Luminous Mimic",
+        "artisticName": "Phantasmal Shifter",
+        "powerLevel": "legendary",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "lurking_horror",
+        "thirdAttribute": "",
+        "characteristicName": "Shadowed Nightmare",
+        "artisticName": "Umbric Terror",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  },
+  "worldName": "Celestial Realm of Radiant Harmony",
+  "story": "In the Celestial Realm of Radiant Harmony, a malevolent force known as Aurorium, the Ethereal Shadow Stalker, has unleashed a reign of terror. His spectral presence instills fear and darkness across the once tranquil lands. The Spectral Legion, led by the Luminous Mimic and the Shadowed Nightmare, follows his command, spreading chaos and despair. The inhabitants of the realm are in desperate need of a hero to rise against this unholy alliance.",
+  "greetingGameMessage": "Welcome, brave warrior, to the Celestial Realm of Radiant Harmony. The shadows may be deep, but your light shines brighter. Prepare to face the darkness that threatens to consume this realm.",
+  "defeatEndingMessage": "With Aurorium's defeat, the Celestial Realm of Radiant Harmony is finally free from his malevolent grasp. The inhabitants rejoice as peace and light return to the lands, banishing the shadows that once clouded their hearts.",
+  "gameOverMessage": "Alas, the darkness proved too strong, and the Ethereal Shadow Stalker, Aurorium, along with his Spectral Legion, emerged victorious. The Celestial Realm of Radiant Harmony falls into eternal night, shrouded in despair and fear."
+}

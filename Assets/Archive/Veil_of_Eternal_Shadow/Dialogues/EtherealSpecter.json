@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "void",
+      "characteristicName": "Shadowed Void Phantom",
+      "artisticName": "Ethereal Specter",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 92,
+      "friendliness": 10,
+      "intellect": 45,
+      "strategicThinking": 70,
+      "indifference": 25,
+      "flexibility": 20,
+      "communicationSkills": 35,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense your presence, intruder. What brings you to these dark lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek knowledge about the Spectral Citadel.",
+        "enemyAnswer": "Curious, are we? Knowledge has a price in these shadowed realms. What do you offer in return?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer to share valuable insights from my own travels.",
+            "enemyAnswer": "Insights, you say? The shadows crave stories to feast upon. Share your tales, but beware, not all who enter leave unscathed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I have encountered powerful foes and emerged victorious.",
+                "enemyAnswer": "Victory resonates in your words, but the shadows whisper of treachery. Proceed with caution, for their echoes deceive.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I have faced my fears and found strength in moments of darkness.",
+                "enemyAnswer": "Strength born of darkness shall not sway the ethereal. Leave your bravery at the gate, for within, it will falter.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer a trade of secrets, one shadowed truth for another.",
+            "enemyAnswer": "Secrets are the currency of the void. Speak, and perhaps the shadows will find your offering worthy.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I reveal the existence of a hidden path to the Abyssal Forge.",
+                "enemyAnswer": "A tempting offer, but the shadows guard their own secrets with jealousy. The Forge's flames may singe more than your curiosity.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I disclose the weakness of a rival sorcerer lurking in the Ruins of Frostfall.",
+                "enemyAnswer": "A sorcerer's weakness? A dangerous gamble. The Ruins hold forgotten terrors that may claim more than just the reckless.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer my allegiance against the malevolent forces in the shadows.",
+            "enemyAnswer": "Allegiance is a fragile bond in these lands. Will you stand against the darkness or crumble beneath its weight?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand resolute, ready to face the horrors that lurk within the Citadel.",
+                "enemyAnswer": "Resolute words echo hollow in this realm. The ethereal do not easily bend to mortal will. Prepare for an eternal struggle.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I offer to aid in safeguarding the Veil of Eternal Shadow from any who seek to desecrate it.",
+                "enemyAnswer": "Noble intentions, but the shadows care not for nobility. The Veil demands sacrifices, will you be its offering?",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge the darkness and claim victory over the Spectral Citadel.",
+        "enemyAnswer": "Bold words from a mere mortal. Do you truly believe you can conquer the shadows that dwell within?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My resolve is unyielding, I will not falter in the face of your malevolence.",
+            "enemyAnswer": "Resolve alone is a frail defense against the ethereal might. The darkness devours the arrogant and the foolish alike.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I carry the light of hope within me, a beacon that will illuminate even the darkest corners.",
+            "enemyAnswer": "Hope's light flickers in these lands, easily extinguished by the chill of despair. Naivety blinds more than it guides.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking an alliance with the shadows, to understand their ways and coexist in harmony.",
+        "enemyAnswer": "An alliance with the shadows? A fragile pact that few mortals survive. What makes you believe you can navigate the darkness unscathed?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I offer my services in exchange for knowledge of the veiled arts that you command.",
+            "enemyAnswer": "Services rendered in the shadows bear a cost too great for mortal hands to bear. The veiled arts demand sacrifice, are you prepared to pay?",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I seek to learn from the shadows, to embrace their mysteries and walk the paths unseen.",
+            "enemyAnswer": "Learning from the shadows is a perilous journey, one that leads many to madness. Are you willing to lose yourself in the depths of shadow?",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

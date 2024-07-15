@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Twilight Glade",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows of Deception",
+          "questDescription": "The Whispering Shadows Pack and Moonlit Stalkers Brigade are at odds. Unite them or defeat one to bring balance to the glade.",
+          "questObjective": "Whalespike"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Spiritual Harmony",
+          "questDescription": "Bring together the Veiled Nightfall Squad's becalmed souls to restore peace and harmony to the glade.",
+          "questObjective": "Duskstone"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Ethereal Extermination",
+          "questDescription": "Eliminate the relentless Twilight Terror Trio to secure your path forward with newfound allies.",
+          "questObjective": "Ratrot Swarm"
+        }
+      ]
+    },
+    {
+      "levelName": "Forgotten Catacombs",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Decaying Unity",
+          "questDescription": "Unite the decayed Decaying Depths Legion and Abysmal Corpse Collective or strike down one to proceed.",
+          "questObjective": "Soultome Lich"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Veil of Undeath",
+          "questDescription": "Find common ground between the groups to unveil the truth hidden within the tainted catacombs.",
+          "questObjective": "Thornhide Mauler"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Dark Tombs Purge",
+          "questDescription": "Fight your way through the dreadful darkness of the Dreadful Darkness Incursion and silence the shadows.",
+          "questObjective": "Celestial Chainsoul"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Rise of the Shadows",
+          "questDescription": "Confront the legendary Wraithstalker and his Darkened Fortress Vanguard within the halls of the citadel.",
+          "questObjective": "Umbralmancer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Fortress Unity",
+          "questDescription": "Unify the Shadowspawn Legion and Dreadshade Knights to forge a bond against the darkness.",
+          "questObjective": "Stone Sentinel"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadows' Fall",
+          "questDescription": "The Eclipsed Shadow Wardens guard the shadows fiercely. Unleash your might to claim victory.",
+          "questObjective": "Umbralscale Devourer"
+        }
+      ]
+    }
+  ]
+}

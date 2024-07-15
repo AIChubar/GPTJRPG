@@ -1,0 +1,339 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Veins of Inferno",
+      "enemyGroups": [
+        {
+          "groupName": "Flame Abominations",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "acid",
+              "characteristicName": "Corrosive Flame",
+              "artisticName": "Zerrax",
+              "powerLevel": "mighty",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Pyre",
+              "artisticName": "Thoxian",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "giant_orange_brain",
+              "thirdAttribute": "",
+              "characteristicName": "Burning Cortex",
+              "artisticName": "Bhergul",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Hellish Marauders",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "hairy",
+              "characteristicName": "Infernal Furry",
+              "artisticName": "Rhastal",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "defender",
+              "characteristicName": "Hellfire Sentry",
+              "artisticName": "Mournfire",
+              "powerLevel": "legendary",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Blazing Trickster",
+              "artisticName": "Krethin",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Pyromaniacal Chaos",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "orb_guardian",
+              "thirdAttribute": "",
+              "characteristicName": "Inferno Watcher",
+              "artisticName": "Qixi",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "death",
+              "characteristicName": "Necroflame",
+              "artisticName": "Abrog",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Infernal Behemoth",
+              "artisticName": "Dragorth",
+              "powerLevel": "legendary",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Counsel",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Stormkindler",
+              "artisticName": "Vyranon",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Blaze Harbinger",
+              "artisticName": "Fyndros",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Flame Wrecker",
+              "artisticName": "Thaminar",
+              "powerLevel": "legendary",
+              "unitClass": "shaman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Gloaming Marsh",
+      "enemyGroups": [
+        {
+          "groupName": "Whispering Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wight",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Ebon Obliterator",
+              "artisticName": "Vyrric",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Sovereign Ravener",
+              "artisticName": "Pharox",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "soul",
+              "thirdAttribute": "lost",
+              "characteristicName": "Plinn Milkorn",
+              "artisticName": "Harvester of Despair",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Marsh Terrors",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "satyr",
+              "thirdAttribute": "",
+              "characteristicName": "Trickster of Swamps",
+              "artisticName": "Javischa",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Enchanter of Murk",
+              "artisticName": "Atradus",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "macabre_mass",
+              "thirdAttribute": "",
+              "characteristicName": "Bog Bodied Conjurer",
+              "artisticName": "Moxthal",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Phantom Seers",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Faintmar Swarm Wyrm",
+              "artisticName": "Baladrak",
+              "powerLevel": "mighty",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "thing",
+              "characteristicName": "Spectreen Menace",
+              "artisticName": "Thalirik",
+              "powerLevel": "legendary",
+              "unitClass": "archer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "anubis_guard",
+              "thirdAttribute": "",
+              "characteristicName": "Swamp-Masked Grudgekeeper",
+              "artisticName": "Zolothan",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Entropic Blight",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "flayed",
+              "characteristicName": "Flayed Nightmare Husk",
+              "artisticName": "Nithrial",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "ancient",
+              "characteristicName": "Ancient Wrath Guard",
+              "artisticName": "Karothax",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "stone_ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Stone Malice",
+              "artisticName": "Extranis",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Citadel of Harrowing Light",
+      "enemyGroups": [
+        {
+          "groupName": "Luminous Sentinels",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "macewielder",
+              "characteristicName": "Celestial Basher",
+              "artisticName": "Elidora",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "annihilator",
+              "characteristicName": "Titan Smiter",
+              "artisticName": "Berelian",
+              "powerLevel": "legendary",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "dragon_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Flame Vigilant",
+              "artisticName": "Halephon",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Radiant Moderateness",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "cherub",
+              "thirdAttribute": "",
+              "characteristicName": "Veiled Stranger",
+              "artisticName": "Ezekion",
+              "powerLevel": "moderate",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "centaur_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Celestial Rider",
+              "artisticName": "Throvivant",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "human_ascended",
+              "thirdAttribute": "",
+              "characteristicName": "Ascended Soulraiser",
+              "artisticName": "Xandira",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

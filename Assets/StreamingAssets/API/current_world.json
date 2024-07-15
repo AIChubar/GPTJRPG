@@ -1,113 +1,113 @@
 {
-  "worldName": "SunsetEclipseValleys",
+  "worldName": "Darkened_Veil",
   "enemiesMain": [
     {
-      "firstAttribute": "draconid",
-      "secondAttribute": "dragon",
-      "thirdAttribute": "ice",
-      "characteristicName": "Glacial Frostwyrm Sentinel",
-      "artisticName": "Frostscale Iceguard",
+      "firstAttribute": "abomination",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "tentacle",
+      "characteristicName": "Tentacle Ooze",
+      "artisticName": "Gorath",
+      "powerLevel": "formidable",
+      "unitClass": "shaman"
+    },
+    {
+      "firstAttribute": "beast",
+      "secondAttribute": "troll",
+      "thirdAttribute": "forest",
+      "characteristicName": "Forest Troll",
+      "artisticName": "Grumok",
+      "powerLevel": "strong",
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "phantom",
+      "secondAttribute": "lurking_horror",
+      "thirdAttribute": "",
+      "characteristicName": "Lurking Horror",
+      "artisticName": "Nyrak",
+      "powerLevel": "mighty",
+      "unitClass": "trickster"
+    },
+    {
+      "firstAttribute": "hell",
+      "secondAttribute": "imp",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Imp",
+      "artisticName": "Zelrok",
+      "powerLevel": "moderate",
+      "unitClass": "trickster"
+    },
+    {
+      "firstAttribute": "hell",
+      "secondAttribute": "lava_worm",
+      "thirdAttribute": "",
+      "characteristicName": "Lava Worm",
+      "artisticName": "Ignar",
+      "powerLevel": "strong",
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "wraith",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Wraith",
+      "artisticName": "Noctis",
+      "powerLevel": "formidable",
+      "unitClass": "bastion"
+    },
+    {
+      "firstAttribute": "primordial",
+      "secondAttribute": "giant",
+      "thirdAttribute": "fire",
+      "characteristicName": "Fire Giant",
+      "artisticName": "Volkan",
+      "powerLevel": "formidable",
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "hell",
+      "secondAttribute": "devil",
+      "thirdAttribute": "red",
+      "characteristicName": "Red Devil",
+      "artisticName": "Azazel",
+      "powerLevel": "mighty",
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "relict",
+      "secondAttribute": "anubis_guard",
+      "thirdAttribute": "",
+      "characteristicName": "Anubis Guard",
+      "artisticName": "Sekhmet",
       "powerLevel": "mighty",
       "unitClass": "protector"
     },
     {
       "firstAttribute": "undead",
-      "secondAttribute": "skeleton",
-      "thirdAttribute": "ugly_thing",
-      "characteristicName": "Decrepit Bone Horror",
-      "artisticName": "Fleshrot Dreadfiend",
-      "powerLevel": "strong",
-      "unitClass": "fighter"
-    },
-    {
-      "firstAttribute": "primordial",
-      "secondAttribute": "golem",
-      "thirdAttribute": "frost",
-      "characteristicName": "Glacial Colossus",
-      "artisticName": "Frostforge Titan",
+      "secondAttribute": "wight",
+      "thirdAttribute": "king",
+      "characteristicName": "Wight King",
+      "artisticName": "Morghul",
       "powerLevel": "formidable",
-      "unitClass": "fighter"
+      "unitClass": "bastion"
     },
     {
-      "firstAttribute": "beast",
-      "secondAttribute": "wyvern",
+      "firstAttribute": "abomination",
+      "secondAttribute": "pulsating_lump",
       "thirdAttribute": "",
-      "characteristicName": "Frostwing Wyrmrider",
-      "artisticName": "Glacial Talonrider",
-      "powerLevel": "strong",
-      "unitClass": "marksman"
-    },
-    {
-      "firstAttribute": "undead",
-      "secondAttribute": "skeleton",
-      "thirdAttribute": "fish",
-      "characteristicName": "Skeletal Mariner",
-      "artisticName": "Coralbone Revenant",
-      "powerLevel": "strong",
-      "unitClass": "fighter"
-    },
-    {
-      "firstAttribute": "beast",
-      "secondAttribute": "wyvern",
-      "thirdAttribute": "",
-      "characteristicName": "Sunfire Wyvern",
-      "artisticName": "Sandflame Drakewing",
-      "powerLevel": "strong",
-      "unitClass": "marksman"
-    },
-    {
-      "firstAttribute": "serpentide",
-      "secondAttribute": "mermaid",
-      "thirdAttribute": "",
-      "characteristicName": "Lagoon Songstress",
-      "artisticName": "Siren of Serenity",
-      "powerLevel": "moderate",
-      "unitClass": "healer"
-    },
-    {
-      "firstAttribute": "beast",
-      "secondAttribute": "troll",
-      "thirdAttribute": "rock",
-      "characteristicName": "Sandstone Troll",
-      "artisticName": "Dunebreaker Brute",
-      "powerLevel": "strong",
-      "unitClass": "fighter"
-    },
-    {
-      "firstAttribute": "undead",
-      "secondAttribute": "lich",
-      "thirdAttribute": "lord",
-      "characteristicName": "Necrotic Archmage",
-      "artisticName": "Dreadlord Thanatos",
-      "powerLevel": "legendary",
-      "unitClass": "sorcerer"
+      "characteristicName": "Pulsating Lump",
+      "artisticName": "Thrum",
+      "powerLevel": "mighty",
+      "unitClass": "shaman"
     },
     {
       "firstAttribute": "phantom",
       "secondAttribute": "grand_avatar",
       "thirdAttribute": "",
-      "characteristicName": "Ethereal Dreamweaver",
-      "artisticName": "Phantomweft Illusionist",
-      "powerLevel": "formidable",
-      "unitClass": "trickster"
-    },
-    {
-      "firstAttribute": "undead",
-      "secondAttribute": "wraith",
-      "thirdAttribute": "freezing",
-      "characteristicName": "Frostbound Spectre",
-      "artisticName": "Iceshade Wraith",
-      "powerLevel": "strong",
-      "unitClass": "fighter"
-    },
-    {
-      "firstAttribute": "undead",
-      "secondAttribute": "skeleton",
-      "thirdAttribute": "hydra",
-      "characteristicName": "Hydrabone Revenant",
-      "artisticName": "Skeletal Hydrafiend",
-      "powerLevel": "strong",
-      "unitClass": "fighter"
+      "characteristicName": "Grand Avatar",
+      "artisticName": "Aetheris",
+      "powerLevel": "legendary",
+      "unitClass": "bastion"
     }
   ]
 }

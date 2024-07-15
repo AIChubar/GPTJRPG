@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadows of Despair",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Unholy Alliance",
+          "questDescription": "Unite with the Phantom Sludge, an Abyssal Slime lurking in the Shadows of Despair, to defeat the Ancient Stone Guardian and earn passage to the next level.",
+          "questObjective": "Ancient Stone Guardian"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Ethereal Resonance",
+          "questDescription": "Befriend the Crimson Slimer, a Bloodthirsty Ooze Devourer, to receive the Amulet of Healing in the Shadows of Despair.",
+          "questObjective": "Crimson Slimer"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkness Purged",
+          "questDescription": "Eradicate the Phantom Sludge, a Spectral Ooze Aberration, and claim the Amulet of Alliance in the Shadows of Despair.",
+          "questObjective": "Phantom Sludge"
+        }
+      ]
+    },
+    {
+      "levelName": "Whispers of the Void",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Ephemeral Unity",
+          "questDescription": "Form a temporary alliance with the Spectral Haunter, an Ethereal Stalker Wraith, to overcome the Tidecaller Sorcerer and proceed to the next level.",
+          "questObjective": "Tidecaller Sorcerer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Whispers Quelled",
+          "questDescription": "Quiet the voice of the Shadow Weaver, a Whispering Horror, to gain the Amulet of Healing in the Whispers of the Void.",
+          "questObjective": "Shadow Weaver"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Void's End",
+          "questDescription": "Vanquish the Whispering Horror, a Shadow Weaver, to claim the Amulet of Alliance in the Whispers of the Void.",
+          "questObjective": "Shadow Weaver"
+        }
+      ]
+    },
+    {
+      "levelName": "The Abyssal Domain",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Shadows Banished",
+          "questDescription": "Defeat the Abyssal Shade, an Abyssal Shade, to emerge victorious and win in The Abyssal Domain.",
+          "questObjective": "Abyssal Shade"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Malevolent Alliance",
+          "questDescription": "Forge an alliance with the Mossy Warden, a Bog Boggart Guardian, to acquire the Amulet of Healing in The Abyssal Domain.",
+          "questObjective": "Mossy Warden"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkness Defeated",
+          "questDescription": "Overcome the Frostbound Specter, a Freezing Wraith, to claim the Amulet of Alliance in The Abyssal Domain.",
+          "questObjective": "Frostbound Specter"
+        }
+      ]
+    }
+  ]
+}

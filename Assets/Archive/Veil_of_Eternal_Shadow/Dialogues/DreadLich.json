@@ -1,0 +1,212 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "lich",
+      "thirdAttribute": "necromancer",
+      "characteristicName": "Ancient Necromancer Lord",
+      "artisticName": "Dread Lich",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 100,
+      "friendliness": 5,
+      "intellect": 70,
+      "strategicThinking": 90,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to step into my domain, insignificant mortal?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come seeking answers and power.",
+        "enemyAnswer": "Answers and power? You shall find only death and despair here.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I'm not afraid of death.",
+            "enemyAnswer": "Fear is irrelevant. Your fate is sealed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will fight to the end.",
+                "enemyAnswer": "So be it. Prepare to face the wrath of darkness!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I yield. Spare me, and I will leave.",
+                "enemyAnswer": "Your cowardice seals your fate. Begone!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand your power.",
+            "enemyAnswer": "Understanding is beyond your feeble mind. Ignorance is your curse.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will prove my worth.",
+                "enemyAnswer": "Worthless mortals cannot comprehend true power.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "Then face me and see my determination.",
+                    "enemyAnswer": "Your determination is futile against overwhelming darkness.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I accept my limitations and will leave in peace.",
+                    "enemyAnswer": "Indeed, know your place and depart.",
+                    "outcome": "ignore"
+                  }
+                ]
+              },
+              {
+                "playerOption": "I wish for an alliance.",
+                "enemyAnswer": "Alliance with the likes of you? Laughable!",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "My strength can be of use to you.",
+                    "enemyAnswer": "Strength without loyalty is meaningless. Prepare for oblivion.",
+                    "outcome": "attack"
+                  },
+                  {
+                    "playerOption": "I offer my service in exchange for knowledge.",
+                    "enemyAnswer": "Knowledge is power, but your offering is futile. Begone.",
+                    "outcome": "ignore"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "playerOption": "I come in peace, seeking a truce.",
+            "enemyAnswer": "Peace and truce are foreign concepts in this realm of darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will leave peacefully if you allow it.",
+                "enemyAnswer": "Your presence offends the balance. Depart at once.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I will defend myself if provoked.",
+                "enemyAnswer": "Defend all you like. Your end draws near.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to challenge your rule and bring light to this realm.",
+        "enemyAnswer": "Light in the darkness? Foolish mortal, your light will be snuffed out.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not falter in the face of darkness.",
+            "enemyAnswer": "Bravery in ignorance is a swift path to doom.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve is unbreakable.",
+                "enemyAnswer": "Resolve without reason is foolishness. Prepare for your end.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will turn back, the darkness is too great.",
+                "enemyAnswer": "Cowardice suits you well. Begone and be forgotten.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer a chance for harmony between us.",
+            "enemyAnswer": "Harmony with light is an abomination in this realm.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Our unity can bring balance to this place.",
+                "enemyAnswer": "Balance through discord is not true balance. Embrace the darkness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave and seek balance elsewhere.",
+                "enemyAnswer": "Seek in vain, for balance eludes the feeble-minded.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you, let fate decide our conflict.",
+            "enemyAnswer": "Fate has already sealed your demise in this realm.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will face fate with courage.",
+                "enemyAnswer": "Courage in the face of inevitability is a futile gesture.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will defy fate and find another way.",
+                "enemyAnswer": "Defiance only quickens your descent into darkness.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to understand your motives and find common ground.",
+        "enemyAnswer": "Motives in the shadows are inscrutable to one such as you.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I aim to learn and grow from this encounter.",
+            "enemyAnswer": "Growth in the face of despair is a delusion of the weak.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My resolve will not waver, no matter the darkness.",
+                "enemyAnswer": "Resolve in ignorance is a frail shield against true darkness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave, understanding this is not the place for growth.",
+                "enemyAnswer": "Understanding comes too late for the doomed. Leave, unless you seek oblivion.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Let us find a way to coexist peacefully in this realm.",
+            "enemyAnswer": "Peaceful existence in darkness is an illusion you cling to.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer my strength to uphold this illusion.",
+                "enemyAnswer": "Strength in service of illusion is wasted. Prepare for oblivion.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will seek peace elsewhere, if not here.",
+                "enemyAnswer": "Peace eludes the misguided. Seek elsewhere, or meet your end.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I challenge you to a contest of wills, not blades.",
+            "enemyAnswer": "Will alone cannot pierce the veil of darkness around you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My will is stronger than any shadow.",
+                "enemyAnswer": "Strength of will in ignorance is merely folly. Face your end.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will test my will against darkness and retreat if needed.",
+                "enemyAnswer": "Retreat or not, darkness will claim you in the end.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

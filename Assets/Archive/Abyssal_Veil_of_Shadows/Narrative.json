@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ethereal Void Haunter",
+    "artisticName": "Wraith of the Abyss",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "Nightmare Legion",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "shapeshifter",
+        "thirdAttribute": "artifficier",
+        "characteristicName": "Enigmatic Radiant Illusionist",
+        "artisticName": "Luminescent Mirage Weaver",
+        "powerLevel": "legendary",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "devil",
+        "thirdAttribute": "rotting",
+        "characteristicName": "Decayed Malevolent Overlord",
+        "artisticName": "Rotten Tyrant of Flames",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Abyssal Veil of Shadows",
+  "story": "In the realm of Abyssal Veil of Shadows, darkness reigns supreme. The land is shrouded in eternal night, where shadows dance malevolently and nightmares come to life. The air is thick with the presence of evil, and whispers of doom echo through the twisted trees. The Ethereal Void Haunter, a powerful ghost born of the void, haunts the souls of the living, spreading fear and despair. Its presence corrupts the very essence of the world, turning all it touches into darkness. As the Wraith of the Abyss grows in power, a legion of sinister beings gathers to do its bidding. The Nightmare Legion, led by the Luminescent Mirage Weaver and the Rotten Tyrant of Flames, seeks to plunge the world into eternal darkness and chaos.",
+  "greetingGameMessage": "Welcome, traveler, to the Abyssal Veil of Shadows. Beware the darkness that lurks within, for the evil that dwells here is ancient and insidious.",
+  "defeatEndingMessage": "With the defeat of the Ethereal Void Haunter and its Nightmare Legion, the veil of shadows begins to lift. Light returns to the land, and hope is restored. The world slowly heals from the darkness that once enveloped it.",
+  "gameOverMessage": "As the Ethereal Void Haunter and its Nightmare Legion triumph over you, the Abyssal Veil of Shadows descends into eternal darkness. The world is consumed by evil, and the cries of the damned fill the air."
+}

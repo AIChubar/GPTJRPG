@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "dragon",
+      "characteristicName": "Draconic Ghost Stalker",
+      "artisticName": "Spectral Wyrm Wraith",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 15,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Feeble intruder, what business do you have in these cursed lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to end the darkness that plagues this realm.",
+        "enemyAnswer": "Bold words from a mere mortal. You amuse me. What can you offer to prove your worth?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My resolve is unyielding, I offer my skills to aid in your cause.",
+            "enemyAnswer": "Skills? Mortals think so highly of themselves. Very well, prove your worth by assisting me, but one misstep and you'll regret it.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I swear to uphold my end of the bargain, let us unite against the true evil.",
+                "enemyAnswer": "A temporary alliance, then. Do not overstep your bounds, mortal, or face the consequences.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I sense treachery in your words, I'll have no part in your schemes.",
+                "enemyAnswer": "Your suspicions serve you well. Leave while you still can, for your fate is sealed.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "My determination knows no bounds, I'll face any challenge you put forth.",
+            "enemyAnswer": "A bold claim, let's see if your actions can match your words. Prove your worth in combat or be gone.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll show you my strength in battle, prepare yourself for defeat.",
+                "enemyAnswer": "Foolish mortal, you will regret challenging me. Prepare to face your demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense treachery in your challenge, I'll take my leave of this place.",
+                "enemyAnswer": "Wise choice, for the alternative is a fate worse than death. Leave, and never return.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer no proof, my actions will speak louder than words. Lead the way, or stand aside.",
+            "enemyAnswer": "Ah, a reckless one. Your arrogance will be your downfall. Proceed at your own peril.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no consequences, I walk my own path regardless of your warnings.",
+                "enemyAnswer": "So be it. Your path leads only to destruction. May your fate be a lesson to other foolish mortals.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps I misjudged, I'll heed your warnings and depart from these lands.",
+                "enemyAnswer": "A rare moment of wisdom from a mortal. Leave now, and trouble us no more.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a traveler seeking knowledge of this accursed place.",
+        "enemyAnswer": "Knowledge? Mortals are so amusing in their pursuits. What could you possibly hope to uncover here?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek the truth behind the darkness that looms over these lands, perhaps we can uncover it together.",
+            "enemyAnswer": "An intriguing proposal, mortal. Walk with caution, for some truths are better left undiscovered. Proceed, if you dare.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'm willing to risk the unknown, let us delve into the depths of this darkness.",
+                "enemyAnswer": "Curiosity may bring wisdom, or it may bring ruin. Venture forth, and see where your curiosity leads you.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your caution does not deter me, the truth must be revealed at any cost.",
+                "enemyAnswer": "Stubbornness is a trait I admire, yet in this case, it may lead to your undoing. Proceed cautiously, for the darkness here is unforgiving.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek only to satisfy my own curiosity, knowledge is power in any form.",
+            "enemyAnswer": "Self-serving interests, as expected of mortals. Proceed with your quest for knowledge, but beware the consequences of meddling in affairs beyond your understanding.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll take your warning to heart, perhaps my curiosity has led me astray. I'll depart peacefully.",
+                "enemyAnswer": "A wise decision, mortal. Knowledge is a double-edged sword, wield it carefully. Begone from these lands, and trouble us no more.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Consequences be damned, I'll uncover the secrets of this place, regardless of the risks.",
+                "enemyAnswer": "Bold and foolish, a dangerous combination. Proceed at your own peril, but know that the consequences may be dire.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "My search for knowledge is non-negotiable, lead me to the heart of the darkness or face the consequences.",
+            "enemyAnswer": "Such audacity. Mortals like you are always eager to dance with forces beyond your control. Proceed if you must, but know that the price of knowledge may be more than you can bear.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no consequences, I'll face whatever challenges come my way in pursuit of knowledge.",
+                "enemyAnswer": "So be it. Your recklessness is your own undoing. Proceed, and may you find what you seek, though it may not be what you expected.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I've overstepped my bounds, I'll retreat from this quest for knowledge, for now.",
+                "enemyAnswer": "A moment of clarity, a wise choice. Retreat, and perhaps live to seek knowledge another day.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am a warrior seeking worthy adversaries to test my mettle against.",
+        "enemyAnswer": "A warrior? Mortals and their endless thirst for conflict. Do you seek glory or a swift end to your journey?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek glory in battle, challenge me or stand aside, creature.",
+            "enemyAnswer": "Ambitious and foolhardy. Very well, let us see if your skill matches your boast. Prepare yourself for battle, warrior.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll show you the might of a true warrior, prepare for defeat at my hands.",
+                "enemyAnswer": "Such confidence. Let us see if it is warranted. Meet your fate, warrior, and may the victor claim their glory.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense uncertainty in your stance, I'll find a worthier opponent elsewhere.",
+                "enemyAnswer": "Cowardice disguised as wisdom. Leave, and know that your reputation as a warrior will forever bear the mark of shame.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "My blade thirsts for combat, will you sate its hunger or cower in fear?",
+            "enemyAnswer": "Such bravado. Your challenge is accepted, but be warned, the consequences of defeat may be more than you can endure.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let the battle begin, I'll carve my legend into your very being.",
+                "enemyAnswer": "A warrior's spirit, tempered by arrogance. Face your fate, and see if your name will be remembered beyond this day.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense danger in your gaze, I'll take my leave and seek a more honorable adversary.",
+                "enemyAnswer": "Wisdom, or cowardice? Time will tell. Leave now, before your journey ends in regret.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am no mere mortal, my skills surpass those of any adversary. Test me, if you dare.",
+            "enemyAnswer": "Overconfidence is a common trait among warriors. Let us see if your prowess matches your words, or if your arrogance seals your fate.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll demonstrate the true meaning of power, prepare yourself for defeat at my hands.",
+                "enemyAnswer": "Haughty words from a mortal. Let your actions speak louder than your boasts. Face your challenge, and accept the consequences.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps I've overestimated your capabilities, I'll seek a more challenging opponent elsewhere.",
+                "enemyAnswer": "Pride goeth before a fall. Leave, and know that your reputation will forever be tarnished by your retreat.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

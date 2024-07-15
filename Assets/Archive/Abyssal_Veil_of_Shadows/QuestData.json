@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadowed Grove",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of Darkness",
+          "questDescription": "Listen closely to the whispers in the Shadowed Grove, they hold the key to your next step. Seek out the mysterious beings and decide whether to unite with them or eliminate them.",
+          "questObjective": "Luminescent Mirage Weaver"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Harmony Among Shadows",
+          "questDescription": "Bring peace to the Shadowed Grove by uniting with one of the ethereal beings that dwell within. Their power can aid you on your journey.",
+          "questObjective": "Enigmatic Radiant Illusionist"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkness Extinguished",
+          "questDescription": "Banish the darkness from the Shadowed Grove by defeating one of the malevolent creatures that roam its twisted paths.",
+          "questObjective": "Rotten Tyrant of Flames"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Wasteland",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Flames of the Wasteland",
+          "questDescription": "Embrace the fiery trials of the Ethereal Wasteland. Decide whether to forge alliances with the mystical beings or extinguish their flame forever.",
+          "questObjective": "Luminescent Mirage Weaver"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Burning Harmony",
+          "questDescription": "Find unity amidst the flames of the Ethereal Wasteland. Join forces with one of the powerful entities to gain strength for the challenges ahead.",
+          "questObjective": "Ethereal Lightweaver"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Inferno Quenched",
+          "questDescription": "Quell the inferno that threatens to consume the Ethereal Wasteland. Defeat one of the blazing adversaries to restore balance.",
+          "questObjective": "Shadeblade Phantom"
+        }
+      ]
+    },
+    {
+      "levelName": "Tenebrous Citadel",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Veil of Shadows Shattered",
+          "questDescription": "Face the ultimate challenge within the Tenebrous Citadel. Confront the ancient sorcerer, the Ethereal Void Haunter, and cleanse the citadel of its malevolent presence.",
+          "questObjective": "Wraith of the Abyss"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Binding Darkness",
+          "questDescription": "Forge a bond with the shadows that dwell within the Tenebrous Citadel. Their healing energies will aid you in your quest to defeat the darkness.",
+          "questObjective": "Spectral Wyrm Wraith"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Chains of Despair Broken",
+          "questDescription": "Break free from the chains of despair by vanquishing one of the fiendish entities that guard the Tenebrous Citadel.",
+          "questObjective": "Dreadful Fiendish Overlord"
+        }
+      ]
+    }
+  ]
+}

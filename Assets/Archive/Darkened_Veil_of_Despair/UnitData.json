@@ -1,0 +1,211 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Twilight Marshlands",
+      "enemyGroups": [
+        {
+          "groupName": "Eerie Shadowstalkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Whispering Specter",
+              "artisticName": "Phantasmal Wraithcaller",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Spectral Void Haunter",
+              "artisticName": "Nihilus, the Voidwalker",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadowed Soul Drifter",
+              "artisticName": "Gloomweaver, the Shade Wraith",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Terrors",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Darkened Soul Reaver",
+              "artisticName": "Nocturna, the Shadow Reaper",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Umbral Deathshroud",
+              "artisticName": "Duskmantle, the Shadowed Wraith",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Wraithlord of Despair",
+              "artisticName": "Shadewalker, the Twilight Sovereign",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Desolate Canyon of Whispers",
+      "enemyGroups": [
+        {
+          "groupName": "Whispering Abyss",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Echo Guardian",
+              "artisticName": "Specter Sentinel, the Echo of Eternity",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Spiritbound Phantom",
+              "artisticName": "Soulshard, the Echo Warden",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Phantom Watcher of Whispers",
+              "artisticName": "Whisperwind, the Echo Keeper",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Canyon Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Deathweaver Lichlord",
+              "artisticName": "Mortis, the Necroshade",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Necrotic Shadowmancer",
+              "artisticName": "Gravecaller, the Soul Binder",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Lichlord of Desolation",
+              "artisticName": "Dreadweaver, the Shadowed Lich",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Shadow Keep",
+      "enemyGroups": [
+        {
+          "groupName": "Void Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Stalker",
+              "artisticName": "Visara, the Dread Wraith",
+              "powerLevel": "legendary",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadow Enigma",
+              "artisticName": "Nyxilar, the Shade Whisperer",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Deathwright Necro Lord",
+              "artisticName": "Morgrin, the Corpsemancer",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Keepers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Spectral Shadow Revenant",
+              "artisticName": "Duskbringer, the Shadowed Revenant",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadowbound Wraithlord",
+              "artisticName": "Twilightbane, the Shadowed Lord",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Wraithlord of Shadows",
+              "artisticName": "Nightfall, the Shadow Sovereign",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

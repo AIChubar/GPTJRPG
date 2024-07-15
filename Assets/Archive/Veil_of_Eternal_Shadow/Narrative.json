@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "warrior",
+    "characteristicName": "Ethereal Spirit Warrior",
+    "artisticName": "Spectralblade",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "Shades of Dread",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "king",
+        "characteristicName": "Ancient Undying Monarch",
+        "artisticName": "Necrothrone",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "vampire",
+        "thirdAttribute": "witch",
+        "characteristicName": "Haunting Blood Sorceress",
+        "artisticName": "Shadowveil",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  },
+  "worldName": "Veil of Eternal Shadow",
+  "story": "In the Veil of Eternal Shadow, the land is shrouded in perpetual darkness, haunted by the wails of lost souls. The Spectralblade, a fearsome Ethereal Spirit Warrior, rules over this realm of the undead with an iron will, seeking to extinguish any flicker of hope or light that dares to defy its dominion. The Shades of Dread, the malevolent group of undead led by the Necrothrone and the Shadowveil, enforce the Spectralblade's reign of terror, spreading despair and decay wherever they roam.",
+  "greetingGameMessage": "Welcome, traveler, to the Veil of Eternal Shadow. Beware the darkness that lurks within, for the spirits of the dead hold sway over this forsaken land. May your journey be swift and your courage unwavering in the face of such malevolent forces.",
+  "defeatEndingMessage": "With a final strike, the Spectralblade falls, its ethereal form dissipating into nothingness. The Veil of Eternal Shadow trembles as the Shades of Dread crumble without their leader. Light begins to seep back into the once darkened realm, and hope is rekindled in the hearts of the living.",
+  "gameOverMessage": "Alas, the darkness proves too overwhelming, and the Spectralblade's cold blade finds its mark. The Veil of Eternal Shadow plunges further into despair as the Shades of Dread celebrate their victory. The land remains shrouded in eternal darkness, with no hope of salvation."
+}

@@ -1179,6 +1179,13 @@ MonoBehaviour:
     Volume: 0.075
     Pitch: 1
     Source: {fileID: 0}
+  BattleMusic:
+    Name: 
+    Clip: {fileID: 0}
+    Loop: 0
+    Volume: 0
+    Pitch: 0
+    Source: {fileID: 0}
 --- !u!224 &622898730
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1899,7 +1906,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1326097690}
-  - component: {fileID: 1326097689}
+  - component: {fileID: 1326097691}
   m_Layer: 0
   m_Name: ScriptRunner
   m_TagString: Untagged
@@ -1907,19 +1914,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1326097689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326097688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68677e8234bb6654297f3ed5fccacb7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creating: {fileID: 2118390404}
 --- !u!4 &1326097690
 Transform:
   m_ObjectHideFlags: 0
@@ -1935,6 +1929,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1326097691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326097688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68677e8234bb6654297f3ed5fccacb7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creating: {fileID: 2118390404}
 --- !u!1 &1423384611
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,7 +2657,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1326097689}
+      - m_Target: {fileID: 1326097691}
         m_TargetAssemblyTypeName: ScriptRunner, Assembly-CSharp
         m_MethodName: GenerateNewWorld
         m_Mode: 1
@@ -2875,7 +2882,6 @@ GameObject:
   - component: {fileID: 2016569546}
   - component: {fileID: 2016569545}
   - component: {fileID: 2016569547}
-  - component: {fileID: 2016569548}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2943,19 +2949,6 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 0
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
---- !u!114 &2016569548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016569543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2cea05034af4729babfd75605ae2374, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectID: 
 --- !u!1 &2118390404
 GameObject:
   m_ObjectHideFlags: 0

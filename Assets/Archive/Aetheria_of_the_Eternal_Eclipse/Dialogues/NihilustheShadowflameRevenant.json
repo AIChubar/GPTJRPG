@@ -1,0 +1,114 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "void",
+      "characteristicName": "Ethereal Voidfire Wraith",
+      "artisticName": "Nihilus the Shadowflame Revenant",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 70,
+      "strategicThinking": 80,
+      "indifference": 30,
+      "flexibility": 50,
+      "communicationSkills": 60,
+      "morality": 20,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, another wandering soul dares to cross paths with the infamous Nihilus the Shadowflame Revenant. What brings you to these forsaken lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to end the darkness that plagues this realm.",
+        "enemyAnswer": "End the darkness, you say? How amusing. You mortals always strive for the impossible. What makes you think you can succeed where others have failed?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My resolve is unwavering, and my purpose pure.",
+            "enemyAnswer": "Resolve and purity. Such noble words that often lead to a futile demise. Do you truly believe you are the beacon of hope this realm needs?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will prove it through my actions, not just words.",
+                "enemyAnswer": "Actions speak louder than words, indeed. Let us test your mettle then. Prepare yourself for the ultimate trial.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I understand your skepticism, but I will not falter in the face of adversity.",
+                "enemyAnswer": "Confidence in the face of doubt. Admirable, yet naive. Your resilience will be your downfall in these accursed lands.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am guided by a power far greater than any darkness.",
+            "enemyAnswer": "Guided by greater power, you say? Interesting. Perhaps there is more to you than meets the eye. But can you truly control the forces you seek to command?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I wield my power with responsibility and purpose.",
+                "enemyAnswer": "Responsibility and purpose in a realm drowning in chaos. A bold claim. Let us see if you can withstand the burden of your supposed power.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "My power is a gift meant to restore balance, not to conquer.",
+                "enemyAnswer": "Restoring balance, a noble goal indeed. But beware, gifts can turn into curses in the blink of an eye. Let's see if you are truly the harbinger of balance.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I walk the path of courage, undeterred by the shadows.",
+            "enemyAnswer": "Courage in the face of darkness. A classic tale of bravery that often ends in tragedy. Do you truly believe your courage will withstand the horrors lurking in the shadows?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My courage is fueled by conviction, not by blind faith.",
+                "enemyAnswer": "Conviction and courage, a potent mix that can either lead to glory or doom. Let us put your convictions to the test in the crucible of shadows.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I embrace the shadows as part of my journey, not as obstacles.",
+                "enemyAnswer": "Embracing the shadows, a curious choice for one who claims to seek the light. Let us see if your journey through darkness leads to enlightenment or oblivion.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no quarrel with you, spectral being. I seek only peace and understanding in these troubled times.",
+        "enemyAnswer": "Peace and understanding in a world gripped by chaos. How quaint. Tell me, do you truly believe peace can exist in a realm where darkness reigns supreme?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I believe that even the darkest souls can find redemption through empathy and kindness.",
+            "enemyAnswer": "Redemption through empathy and kindness, a notion so fragile in the face of eternal night. Let us see if your belief can withstand the relentless shadow.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I understand your skepticism, but I hold onto hope for a brighter future.",
+            "enemyAnswer": "Hope in a realm devoid of light. A tragic delusion, yet compelling. Let us test the strength of your hope against the tide of despair.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am not here to exchange words, but to fulfill a duty that transcends your malevolent presence.",
+        "enemyAnswer": "Duty that transcends malevolence, you say? Bold words from a mere mortal. Let us see if your actions can match the grandeur of your proclamation.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My actions will speak louder than any words in this cursed realm.",
+            "enemyAnswer": "Actions over words, a pragmatic approach in a world of deceit and shadows. Let us see if your deeds can match the magnitude of your boastful claims.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "My path is set, and no malevolent force shall sway me from it.",
+            "enemyAnswer": "A steadfast path in a realm of shifting shadows. Admirable, yet futile. Let us see if your resolve can withstand the twists and turns of fate.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

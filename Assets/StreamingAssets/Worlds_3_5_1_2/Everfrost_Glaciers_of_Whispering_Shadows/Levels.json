@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispering Frostfalls",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Whispering Frostfalls is a treacherous land of icy snow, where hidden deep-dark holes lurk beneath the shimmering surface. The chilling winds carry whispers of ancient sorrows, warning travelers of the dangers that lie ahead."
+    },
+    {
+      "levelName": "Ethereal Shadow Caverns",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "water",
+      "levelDescription": "Ethereal Shadow Caverns are filled with dark-dirt pathways that lead deeper into the heart of the frozen underground. Beware of hidden pockets of icy water that threaten to engulf any who dare to venture too close."
+    },
+    {
+      "levelName": "Atheronius' Lair",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Atheronius' Lair is a volcanic maze of fiery lava-rock formations, where rivers of molten lava flow ominously, guarding the legendary Ethereal Shadow Walker's domain. The intense heat and suffocating fumes test the courage of the bravest heroes."
+    }
+  ]
+}

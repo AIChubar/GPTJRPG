@@ -1,0 +1,211 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadowed Grove",
+      "enemyGroups": [
+        {
+          "groupName": "Whispering Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Whisperer",
+              "artisticName": "Spectral Abyssal Haunt",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "artifficier",
+              "characteristicName": "Enigmatic Radiant Illusionist",
+              "artisticName": "Luminescent Mirage Weaver",
+              "powerLevel": "legendary",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "rotting",
+              "characteristicName": "Decayed Malevolent Overlord",
+              "artisticName": "Rotten Tyrant of Flames",
+              "powerLevel": "legendary",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkened Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Shadowed Soulstalker",
+              "artisticName": "Wraith of Desolation",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Mystic Radiance Shifter",
+              "artisticName": "Ethereal Lightweaver",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "red",
+              "characteristicName": "Infernal Bloodlord",
+              "artisticName": "Crimson Demon Sovereign",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Wasteland",
+      "enemyGroups": [
+        {
+          "groupName": "Blazing Inferno",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "mystic",
+              "characteristicName": "Inferno Mystic Salamander",
+              "artisticName": "Flamebound Serpentine Sorcerer",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "artifficier",
+              "characteristicName": "Enigmatic Radiant Illusionist",
+              "artisticName": "Luminescent Mirage Weaver",
+              "powerLevel": "legendary",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Soulreaper",
+              "artisticName": "Shadeblade Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Molten Legion",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Fiery Lava Wyrm",
+              "artisticName": "Infernal Worm of Flames",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "shapeshifter",
+              "thirdAttribute": "radiant",
+              "characteristicName": "Mystic Radiance Shifter",
+              "artisticName": "Ethereal Lightweaver",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "green",
+              "thirdAttribute": "ice",
+              "characteristicName": "Frostwyrm Guardian",
+              "artisticName": "Glacial Serpent Sentinel",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Tenebrous Citadel",
+      "enemyGroups": [
+        {
+          "groupName": "Rusty Chains",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "sphinx",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Sphinx Guardian",
+              "artisticName": "Mystic Sentinel of the Sands",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Ancient Necrotic Lich",
+              "artisticName": "Ethereal Lord of Decay",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Infernal Pit Fiend",
+              "artisticName": "Abyssal Terror Lord",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Chainbound Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Draconic Ghost Stalker",
+              "artisticName": "Spectral Wyrm Wraith",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Dragonborn Simulacrum",
+              "artisticName": "Icy Soul Construct",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "lord",
+              "characteristicName": "Infernal Lord of Torment",
+              "artisticName": "Dreadful Fiendish Overlord",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

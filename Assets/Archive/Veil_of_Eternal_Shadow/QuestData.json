@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadows' Embrace",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Darkened Shadows",
+          "questDescription": "Navigate the dark-grass meadows and choose to either strike down or ally with the Spectral Wraith, known as Spectral Wraith.",
+          "questObjective": "Spectral Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Alliance of Shadows",
+          "questDescription": "Forge an alliance with the Ethereal Revenant, also referred to as Ethereal Revenant, in the midst of the shadows' domain.",
+          "questObjective": "Ethereal Revenant"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadowed Legion's Threat",
+          "questDescription": "Eliminate the Legendary Dread Lich, known as Dread Lich, to claim the amulet of alliance and safeguard your path forward.",
+          "questObjective": "Dread Lich"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Ruins",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of the Past",
+          "questDescription": "Traverse the rusty-chain platforms and decide the fate of the Dustborn Guardian, the Dustborn Guardian.",
+          "questObjective": "Dustborn Guardian"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Cursed Bonds",
+          "questDescription": "Embrace the alliance with the Spectral Phantom, also known as Spectral Phantom, amidst the decaying ruins.",
+          "questObjective": "Spectral Phantom"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Mummy's Curse",
+          "questDescription": "Defeat the Legendary Rotting Pharaoh, called Rotting Pharaoh, to earn the amulet of alliance and progress further.",
+          "questObjective": "Rotting Pharaoh"
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Citadel",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Inferno's Last Stand",
+          "questDescription": "Face the Ethereal Spirit Warrior, the Spectralblade, in a decisive battle to claim victory and bring light to the spectral citadel.",
+          "questObjective": "Spectralblade"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Flames of Unity",
+          "questDescription": "Unite with the Flameguardian, also known as Flameguardian, amidst the fiery fractured-wall platforms to receive the amulet of healing.",
+          "questObjective": "Flameguardian"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Blazeheart's Fury",
+          "questDescription": "Slay the Formidable Blazeheart, known as Blazeheart, to obtain the amulet of alliance and pave your way forward.",
+          "questObjective": "Blazeheart"
+        }
+      ]
+    }
+  ]
+}

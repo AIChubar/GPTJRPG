@@ -1,0 +1,97 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "firebrand",
+      "characteristicName": "Inferno Brimstone Champion",
+      "artisticName": "Blazeheart",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 50,
+      "strategicThinking": 60,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Blazeheart, the Inferno Brimstone Champion. What brings a weakling like you to this fiery domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek a worthy challenge",
+        "enemyAnswer": "Hah! A brave choice, or perhaps a foolish one. Let's see if you can withstand the flames.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not back down",
+            "enemyAnswer": "Stubbornness will only hasten your demise. Prepare to be engulfed in my flames!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will fight with all my might",
+                "enemyAnswer": "So be it. Feel the scorching wrath of the Inferno Brimstone Champion!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I yield, spare me",
+                "enemyAnswer": "Pathetic. I have no use for the weak. Begone!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense danger, I shall retreat",
+            "enemyAnswer": "Smart decision, but you cannot escape the flames forever. Remember my name, for we shall meet again.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "Let's call a truce and talk instead",
+            "enemyAnswer": "Ha! You think words can quench the fires of battle? Foolish mortal. Burn!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking knowledge",
+        "enemyAnswer": "Peace? Knowledge? Neither have a place in the inferno. Speak quickly, lest you become kindling.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I mean no harm, let's peacefully coexist",
+            "enemyAnswer": "Coexist? Inconceivable! Your naivety is almost amusing. Nevertheless, you shall burn like the rest.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I will leave to avoid conflict",
+            "enemyAnswer": "Your wisdom surpasses your fragility. Depart, and do not return, lest you tempt fate.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I demand respect in the name of peace",
+            "enemyAnswer": "Respect? Peace? Such notions hold no sway here. Embrace the flames you dare to challenge.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge you to a duel for honor",
+        "enemyAnswer": "Honor? A quaint concept, futile in the face of fire. Let us see if you can withstand the inferno.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My honor demands victory",
+            "enemyAnswer": "Your honor will be reduced to ash, as will your feeble attempts at glory. Face the flames!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I forfeit the duel, spare me",
+            "enemyAnswer": "Cowardice suits you. I shall not waste my flames on the unworthy. Depart in shame.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

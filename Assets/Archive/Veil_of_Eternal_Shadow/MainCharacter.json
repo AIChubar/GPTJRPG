@@ -1,0 +1,39 @@
+{
+  "name": "Thorn Ironheart",
+  "race": "Dwarf",
+  "characterClass": "Berserker",
+  "occupation": "Guardian of the Deep",
+  "backStory": "Thorn Ironheart, a fierce Dwarf berserker, hails from the depths of the earth where he was raised among the stalwart guardians of the underground realms. His veins flow with the fire of his ancestors, and his mighty axe cleaves through darkness with unrivaled strength. Sworn to protect the depths from the encroaching darkness, Thorn stands as a bulwark against the shadows that seek to consume the world.",
+  "protagonistGroup": {
+    "groupName": "Guardians of the Abyss",
+    "units": [
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "salamander",
+        "thirdAttribute": "firebrand",
+        "characteristicName": "Inferno Brimstone Champion",
+        "artisticName": "Blazeheart",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "ice",
+        "thirdAttribute": "",
+        "characteristicName": "Frostscale Sentinel",
+        "artisticName": "Glacial Warder",
+        "powerLevel": "mighty",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "mummy",
+        "thirdAttribute": "lord",
+        "characteristicName": "Royal Revenant Sovereign",
+        "artisticName": "Pharaoh's Wrath",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

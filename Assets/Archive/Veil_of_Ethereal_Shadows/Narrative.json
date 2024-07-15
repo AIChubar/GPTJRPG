@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ethereal Void Stalker",
+    "artisticName": "Abyssal Shade",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "Nightmare Legion",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "ushabti",
+        "thirdAttribute": "",
+        "characteristicName": "Ancient Stone Sentinel",
+        "artisticName": "Guardian of Time",
+        "powerLevel": "legendary",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "horde",
+        "secondAttribute": "spriggan",
+        "thirdAttribute": "defender",
+        "characteristicName": "Enchanted Forest Guardian",
+        "artisticName": "Thornweave Warder",
+        "powerLevel": "legendary",
+        "unitClass": "berserker"
+      }
+    ]
+  },
+  "worldName": "Veil of Ethereal Shadows",
+  "story": "In the world of Veil of Ethereal Shadows, an ancient darkness lurks, spreading its malevolent influence across the lands. The Abyssal Shade, a powerful Ethereal Void Stalker, has risen from the depths of the Void, seeking to envelop the world in eternal night. To aid its nefarious cause, the Nightmare Legion is assembled, comprising formidable beings like the Guardian of Time and the Thornweave Warder.",
+  "greetingGameMessage": "Welcome, traveler, to the Veil of Ethereal Shadows. Beware the darkness that creeps within, for the Abyssal Shade and its Nightmare Legion loom ominously.",
+  "defeatEndingMessage": "With the defeat of the Abyssal Shade and its Nightmare Legion, the Veil of Ethereal Shadows is finally lifted, and light once again bathes the world in hope and renewal.",
+  "gameOverMessage": "As the Abyssal Shade's darkness engulfs you, the Veil of Ethereal Shadows succumbs to eternal night. The Nightmare Legion reigns supreme, unchallenged in their malevolent rule."
+}

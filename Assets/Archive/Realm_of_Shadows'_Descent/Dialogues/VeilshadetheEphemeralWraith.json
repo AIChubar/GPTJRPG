@@ -1,0 +1,82 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "stalker",
+      "characteristicName": "Haunting Soulstalker",
+      "artisticName": "Veilshade the Ephemeral Wraith",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 65,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare intrude upon these haunted woods, mortal? What foolishness drives you here?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to understand the darkness that grips these lands.",
+        "enemyAnswer": "Curiosity will be your undoing, for in the shadows, truths are twisted and horrors lie in wait.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I come not seeking confrontation, but knowledge and balance.",
+            "enemyAnswer": "Knowledge? Balance? Mortals prattle on about such lofty ideals, unaware of the abyss that gazes back.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer respect for the spirits and seek a peaceful resolution.",
+                "enemyAnswer": "Respect? Ha! Mortals and their fickle ideals. Your words are as empty as the promises of dawn in these cursed lands.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you reject peaceful discourse, then let our actions speak for us.",
+                "enemyAnswer": "Actions speak louder than words, indeed. Let darkness and death be the only discourse between us.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I am prepared to face the darkness head-on if need be.",
+            "enemyAnswer": "Bravery or folly, mortal? Time will reveal the truth, but know that shadows hunger for foolish courage.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I shall not be swayed by fear, for I walk in the light of determination.",
+                "enemyAnswer": "Light? Determination? Your words ring hollow, for the shadows care not for the flicker of mortal will.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If you seek conflict, then let it be a battle of strength and will.",
+                "enemyAnswer": "Battle it shall be, mortal. The dance of shadows and blood begins now.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I sense a deeper connection to these shadows, a bond that transcends mortal understanding.",
+            "enemyAnswer": "Connection, bond? Mortals weave tales to comfort their fragile hearts, but darkness knows no ties, save that of eternal night.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us embrace the shadows together, finding harmony in the dance of twilight.",
+                "enemyAnswer": "Harmony? Twilight? Delusion and madness cloud your vision, mortal. Embrace darkness, for it embraces you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If you reject the notion of kinship, then let our blades clash in discord.",
+                "enemyAnswer": "Clash they shall, mortal. Discord and chaos reign supreme in the realm of shadows.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

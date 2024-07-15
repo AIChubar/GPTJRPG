@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "titan",
+    "thirdAttribute": "annihilator",
+    "characteristicName": "Titan Annihilator",
+    "artisticName": "Arvoth the Purifier",
+    "powerLevel": "legendary",
+    "unitClass": "paladin"
+  },
+  "antagonistGroup": {
+    "groupName": "The Sacred Sentinels",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "daeva",
+        "thirdAttribute": "shieldwielder",
+        "characteristicName": "Daeva Shieldwielder",
+        "artisticName": "Sariella the Guardian",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "warmonger",
+        "characteristicName": "Angel Warmonger",
+        "artisticName": "Thaliel the Crusader",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Shattered Realms of Valthoria",
+  "story": "In the Shattered Realms of Valthoria, chaos reigns supreme. The land is a fractured expanse of broken landscapes, twisted forests, and desolate wastelands. Once a thriving kingdom, Valthoria has been torn apart by dark forces. Malevolent creatures roam freely, and the sky is perpetually cloaked in ominous clouds. The few remaining settlements are constantly under siege, their inhabitants living in fear and despair.\n\nAmidst the turmoil, an ancient prophecy speaks of a dark power that will rise to dominate the realms. This prophecy has come to pass with the emergence of you, the unnamed protagonist, a being of unparalleled malevolence. Your goal is to spread darkness and corruption, to bend the world to your will.\n\nHowever, standing in your way is the legendary Titan Annihilator, Arvoth the Purifier. Arvoth is a beacon of hope and light, wielding immense power to cleanse the land of evil. Alongside him are The Sacred Sentinels, a formidable group dedicated to protecting Valthoria. Sariella the Guardian, a Daeva Shieldwielder, and Thaliel the Crusader, an Angel Warmonger, form the backbone of this group, each possessing unique abilities and strengths.",
+  "greetingGameMessage": "Welcome, dark one, to the Shattered Realms of Valthoria. Your destiny is to conquer and corrupt, to bring the world under your dark rule. But beware, for Arvoth the Purifier and The Sacred Sentinels stand in your way. Will you rise to power, or will you be vanquished by the forces of light?",
+  "defeatEndingMessage": "The darkness within you has been extinguished. Arvoth the Purifier stands victorious, his light banishing the shadows from Valthoria. The people rejoice as the land begins to heal, free from the grip of evil.",
+  "gameOverMessage": "Your reign of terror has ended. The Shattered Realms of Valthoria remain in darkness, but without your guidance, chaos descends into utter ruin. The land is lost, consumed by the very malevolence you sought to control."
+}

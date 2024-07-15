@@ -1,0 +1,39 @@
+{
+  "name": "Elowen Shadowsong",
+  "race": "relict",
+  "characterClass": "assassin",
+  "occupation": "Ethereal Phantom",
+  "backStory": "Elowen Shadowsong, a mysterious relict, prowls the Ethereal Realm of Forgotten Echoes with silent grace. Born from the depths of the shadows, she moves like a specter, striking fear into the hearts of the wicked. Her past is shrouded in enigma, whispered only in the echoes of the forgotten realms.",
+  "protagonistGroup": {
+    "groupName": "Shadows of Twilight",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "zombie",
+        "thirdAttribute": "crab",
+        "characteristicName": "Cursed Shell of the Abyss",
+        "artisticName": "Crustacean Ghoul",
+        "powerLevel": "formidable",
+        "unitClass": "marksman"
+      },
+      {
+        "firstAttribute": "humanoid",
+        "secondAttribute": "deep_elf",
+        "thirdAttribute": "knight",
+        "characteristicName": "Knight of Eternal Vigil",
+        "artisticName": "Obsidian Sentinel",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "humanoid",
+        "secondAttribute": "orc",
+        "thirdAttribute": "warlord",
+        "characteristicName": "Warlord of Raging Fury",
+        "artisticName": "Bloodfyre Overlord",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "storyType": "Good",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "lich",
+    "thirdAttribute": "king",
+    "characteristicName": "Ruler of the Cursed Kingdom",
+    "artisticName": "Zarothus the Damned",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "The Deathbringers",
+    "units": [
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "naga",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Serpentis the Vengeful",
+        "artisticName": "Nargyth the Slayer",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "anubis_guard",
+        "thirdAttribute": "",
+        "characteristicName": "Guardian of the Sanctum",
+        "artisticName": "Ankhsaris the Beacon",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  },
+  "worldName": "Shattered Realms of the Fallen Era",
+  "story": "In the Shattered Realms of the Fallen Era, darkness looms upon the land as the tyrannical Zarothus the Damned, a mighty lich king, seeks to engulf the world in eternal shadow. With him march the Deathbringers, an unholy alliance of Serpentis the Vengeful, a fearsome naga warrior, and Ankhsar the Beacon, the solemn Anubis Guard sworn to protect their cryptic sanctum. The once vibrant realm now trembles in fear as the forces of evil gather to unmake creation itself.",
+  "greetingGameMessage": "Welcome, brave soul, to the Shattered Realms of the Fallen Era, where shadows dance and heroes rise against the encroaching darkness. May your courage light the way in facing the malevolent forces that seek to claim this world as their own.",
+  "defeatEndingMessage": "With Zarothus the Damned vanquished, the grip of darkness slowly fades from the Shattered Realms. The Deathbringers scatter, their unity fractured by the defeat of their malevolent leader. Hope reignites in the land, but scars of the fallen era shall always haunt its history.",
+  "gameOverMessage": "Alas, the darkness proved too overwhelming. Zarothus the Damned's necromantic powers proved unstoppable, and the Deathbringers decimated all who dared to oppose them. The Shattered Realms now reside eternally in shadow, with doom sealing the fate of all who dwell within."
+}

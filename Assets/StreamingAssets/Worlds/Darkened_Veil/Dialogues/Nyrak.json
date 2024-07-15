@@ -1,0 +1,120 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "lurking_horror",
+      "thirdAttribute": "",
+      "characteristicName": "Lurking Horror",
+      "artisticName": "Nyrak",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 85,
+      "friendliness": 15,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 90,
+      "flexibility": 40,
+      "communicationSkills": 35,
+      "morality": 20,
+      "chaoticity": 75
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who disturbs the shadows of the Twilight Forest? Speak, or face the wrath of the Lurking Horror!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "It is I, Zarathos, the Dark Warlock. Bow before my power!",
+        "enemyAnswer": "Bold words from one who has yet to prove their might. What do you seek in these accursed woods?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek the dark artifacts hidden within. Tell me where they lie, or suffer!",
+            "enemyAnswer": "You dare threaten me? Amusing, but futile. The artifacts remain with those strong enough to claim them.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then I shall tear them from the shadows myself!",
+                "enemyAnswer": "Foolish mortal. Your arrogance will be your downfall.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "We could join forces. I offer power in exchange for guidance.",
+                "enemyAnswer": "Ha! What need have I for alliances? These woods are mine.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I only wish to traverse unnoticed. Allow me safe passage, and you shall be spared.",
+            "enemyAnswer": "Spare me your mercy. You will find no peace here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then face me, wraith! Let the dark magic decide our fate.",
+                "enemyAnswer": "As you wish. Prepare to be consumed by the shadows!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well. I will find my own way.",
+                "enemyAnswer": "Flee while you still can, weakling.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "A wanderer, seeking power and knowledge. Will you aid me or hinder me?",
+        "enemyAnswer": "Aid? From the Lurking Horror? Your request is laughable.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then I shall take what I need by force.",
+            "enemyAnswer": "So be it. You will find only death here.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Perhaps there is something I can offer in return.",
+            "enemyAnswer": "You have nothing I desire. Begone, before I change my mind.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You underestimate me. I have powers that could be of great value.",
+                "enemyAnswer": "Enough talk. Your presence tires me.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Fine, but remember this encounter when the shadows rise.",
+                "enemyAnswer": "Your threats are as empty as your soul.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no quarrel with you, spirit. Let us part ways peacefully.",
+        "enemyAnswer": "Peace in the Twilight Forest? A fanciful notion. You amuse me, warlock.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I prefer to avoid unnecessary conflicts. Do you not value your existence?",
+            "enemyAnswer": "My existence is tied to the shadows. Conflict is inevitable here.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "If conflict is inevitable, then let us make a pact.",
+            "enemyAnswer": "A pact with the Lurking Horror? Intriguing, yet pointless. I see no benefit.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I offer you a share in the power I shall wield.",
+                "enemyAnswer": "Tempting, but I trust you not.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Then I have nothing more to say to you.",
+                "enemyAnswer": "Begone, then. Your presence is a nuisance.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

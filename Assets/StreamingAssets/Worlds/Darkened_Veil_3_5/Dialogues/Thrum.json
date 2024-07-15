@@ -1,0 +1,120 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abomination",
+      "secondAttribute": "pulsating_lump",
+      "thirdAttribute": "",
+      "characteristicName": "Pulsating Lump",
+      "artisticName": "Thrum",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 70,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 15,
+      "morality": 5,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare approach the Pulsating Lump, puny one. Speak your purpose before I decide to crush you in one fell swoop.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come in peace. I seek knowledge about this realm.",
+        "enemyAnswer": "Peace? Ha! Knowledge? You'll find none here, only pain and suffering. Turn back while you still can.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will leave then. Farewell, strange lump.",
+            "enemyAnswer": "As you should. Depart before my patience wears thin.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I respect your power. I will leave you in peace.",
+                "enemyAnswer": "Respect? A wise choice. Your departure saves you from a gruesome fate.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I challenge you to a fight, Lump!",
+                "enemyAnswer": "Foolish mortal! You bring this upon yourself.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I demand answers! Tell me what you know.",
+            "enemyAnswer": "Demand? You have no leverage here, insignificant creature. What I know, I keep. Begone!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not be threatened. Prepare to face me!",
+                "enemyAnswer": "So be it. Bravery or folly, time will tell.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will leave for now, but mark my words, Lump. I shall return.",
+                "enemyAnswer": "Empty threats. Your return will meet a harsher reception.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek an alliance. Together, we could be formidable.",
+            "enemyAnswer": "Alliance? With me? Laughable notion. I stand alone, as should you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well. I'll take my leave then.",
+                "enemyAnswer": "Wise decision. Off you go, before I change my mind.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You'll regret your arrogance when facing the consequences.",
+                "enemyAnswer": "Arrogance? Bold words from a mere speck. Depart before I teach you humility.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have come to challenge the mighty Thrum. Prepare for battle!",
+        "enemyAnswer": "Challenge? Bold move, little one. I shall enjoy this.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I'm ready. Let's see what you're made of, Lump!",
+            "enemyAnswer": "Bravery or foolishness? We shall see in combat.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I sense your power. I offer my allegiance instead.",
+            "enemyAnswer": "Allegiance? A tempting proposal, but power such as mine stands alone.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I bring a gift as a sign of respect to the mighty Thrum. Accept it, and let's talk.",
+        "enemyAnswer": "A gift? Rare indeed. Show me what you have brought, and we may converse.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "This amulet holds ancient enchantments. It is yours if you agree to parley.",
+            "enemyAnswer": "Enchantments? Intriguing. The gift is accepted. Speak your purpose, then.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I seek an alliance with you. Together, we can achieve great things.",
+                "enemyAnswer": "An alliance? An unexpected proposition. Your offer has merit. We shall speak further.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I demand your surrender and allegiance. Accept, or face the consequences.",
+                "enemyAnswer": "Demanding, are we? Your threats wash over me like rain. I refuse.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

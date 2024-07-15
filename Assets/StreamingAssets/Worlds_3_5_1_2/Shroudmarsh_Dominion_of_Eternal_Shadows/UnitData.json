@@ -1,0 +1,179 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Eclipsed Grove",
+      "enemyGroups": [
+        {
+          "groupName": "Umbral Whisperstalkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ephemeral Shadowlurker",
+              "artisticName": "Nightveil Wraith",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Wraith Spirit Wailer",
+              "artisticName": "Spectra Shadeshriek",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Spectral Haunt Howler",
+              "artisticName": "Shroudwhisper Shadowhowl",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Twilight Phantomstalkers",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "thing",
+              "characteristicName": "Phantom Abyss Ender",
+              "artisticName": "Etherweave Voidrend",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "worm",
+              "characteristicName": "Spectral Nightcrawler",
+              "artisticName": "Shadeweave Dreadglider",
+              "powerLevel": "moderate",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "bat",
+              "characteristicName": "Fiendish Void Flier",
+              "artisticName": "Gloomwing Nightstalker",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frostfire Ridge",
+      "enemyGroups": [
+        {
+          "groupName": "Frozen Shadowbound",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Frost Veil Wyrm",
+              "artisticName": "Icebound Serpentice",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Glacial Stormwing",
+              "artisticName": "Frostwyrm Frostbringer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "brawler",
+              "characteristicName": "Divine Frostcrusher Titan",
+              "artisticName": "Iceborn Furyguard",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowsoul Catacombs",
+      "enemyGroups": [
+        {
+          "groupName": "Forgotten Soul Reavers",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Lost Soul Drake",
+              "artisticName": "Soulforge Shadowwyrm",
+              "powerLevel": "moderate",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "lizard",
+              "characteristicName": "Dim Halls Serpent",
+              "artisticName": "Shadowspire Silvercoil",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "zombie",
+              "thirdAttribute": "octopode",
+              "characteristicName": "Corpsebound Kraken",
+              "artisticName": "Fleshsea Deathspawn",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Cursed Spectral Sentinels",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "naga",
+              "characteristicName": "Decayed Bone Serpent",
+              "artisticName": "Ghostcoil Necroblade",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Voidbound Spiritguard",
+              "artisticName": "Shadowsoul Veilkeeper",
+              "powerLevel": "moderate",
+              "unitClass": "healer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "vampire",
+              "thirdAttribute": "witch",
+              "characteristicName": "Bloodmoon Nightweaver",
+              "artisticName": "Gravespire Shadowcaster",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

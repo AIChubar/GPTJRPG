@@ -1,0 +1,39 @@
+{
+  "name": "Elena Moonshadow",
+  "race": "Elf",
+  "characterClass": "Rogue",
+  "occupation": "Shadow Assassin",
+  "backStory": "Elena Moonshadow, an elusive Elf rogue, was born under the veil of the Abyssal Night. Trained in the art of stealth and deception, she has dedicated her life to fighting against the darkness that plagues the Abyssal Veil of Shadows. With unmatched agility and cunning, she navigates the shadows to strike at the heart of evil.",
+  "protagonistGroup": {
+    "groupName": "Luminous Shadows",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Spectral Soulreaper",
+        "artisticName": "Shadeblade Phantom",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "shapeshifter",
+        "thirdAttribute": "artifficier",
+        "characteristicName": "Enigmatic Mirage Arcanist",
+        "artisticName": "Illusionweave Artisan",
+        "powerLevel": "formidable",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "green",
+        "thirdAttribute": "ice",
+        "characteristicName": "Frostwyrm Guardian",
+        "artisticName": "Glacial Serpent Sentinel",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

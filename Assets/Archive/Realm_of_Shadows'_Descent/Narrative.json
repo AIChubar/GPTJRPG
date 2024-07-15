@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "warrior",
+    "characteristicName": "Ethereal Shadow Warrior",
+    "artisticName": "Xarathos the Spectral Dread",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "The Nether Legion",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "simulacrum",
+        "thirdAttribute": "hydra_lord",
+        "characteristicName": "Frozen Hydra Sovereign",
+        "artisticName": "Cryonos the Frost Serpent",
+        "powerLevel": "legendary",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "drake",
+        "thirdAttribute": "swamp",
+        "characteristicName": "Blighted Swamp Drake",
+        "artisticName": "Vilethorn the Pestilent Wyrm",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  },
+  "worldName": "Realm of Shadows' Descent",
+  "story": "In the Realm of Shadows' Descent, an ancient curse has twisted the once peaceful lands into a realm of eternal night. The malevolent Xarathos, the Spectral Dread, haunts the shadows, seeking to plunge the world into darkness. With his Nether Legion at his command, they sow fear and despair wherever they tread.",
+  "greetingGameMessage": "Welcome, traveler, to the Realm of Shadows' Descent, where darkness reigns and evil lurks in every corner. Beware, for the malevolent Xarathos and his Nether Legion await, ready to challenge your courage and strength.",
+  "defeatEndingMessage": "With courage and determination, the protagonist managed to defeat Xarathos, the Spectral Dread, and his Nether Legion. The curse that shrouded the Realm of Shadows' Descent begins to lift, and light starts to return to the land, bringing hope and peace once more.",
+  "gameOverMessage": "Alas, the protagonist was unable to overcome the darkness that enveloped the Realm of Shadows' Descent. Xarathos, the Spectral Dread, and his Nether Legion emerged victorious, plunging the world into eternal night and despair."
+}

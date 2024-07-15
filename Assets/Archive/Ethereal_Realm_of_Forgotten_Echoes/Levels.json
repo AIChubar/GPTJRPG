@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispering Shadows",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Whispering Shadows level is shrouded in dark-dirt pathways with eerie whispers carrying through the air. Deep-dark-holes dot the landscape, ready to swallow any unsuspecting traveler into the abyss."
+    },
+    {
+      "levelName": "Veiled Twilight Grove",
+      "walkableTerrain": "ghostly-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Veiled Twilight Grove is adorned with ghostly-platforms floating amidst the dense ambiance. Beware of the mystical water bodies that conceal ancient secrets and potential perils."
+    },
+    {
+      "levelName": "Sorrowscale Summit",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "At the Sorrowscale Summit, fractured-wall-platforms provide precarious footing as rivers of lava flow ominously. This level is the domain where the Nethermist Whisperer, the legendary sorcerer of darkness, awaits challengers."
+    }
+  ]
+}

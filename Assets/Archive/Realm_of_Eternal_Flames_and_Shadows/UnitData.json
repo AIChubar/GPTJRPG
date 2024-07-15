@@ -1,0 +1,211 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadowed Canyon",
+      "enemyGroups": [
+        {
+          "groupName": "Whispering Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Wight of the Abyss",
+              "artisticName": "Spiritmourne",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "bat",
+              "characteristicName": "Wraith Bat of the Stygian Gorge",
+              "artisticName": "Nocturnus",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Sinister Echo of the Forgotten",
+              "artisticName": "Umbralgeist",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Canyon Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Voidbound Specter of the Endless",
+              "artisticName": "Nihilum",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "flayed",
+              "characteristicName": "Damned Reaper of the Ebon Veil",
+              "artisticName": "Soulscourge",
+              "powerLevel": "strong",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Dark Seraph of the Veiled Rift",
+              "artisticName": "Noxwing",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Infernal Wasteland",
+      "enemyGroups": [
+        {
+          "groupName": "Scorching Legion",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "hairy",
+              "characteristicName": "Crimson Demon of Fiery Torment",
+              "artisticName": "Blazehorn",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "red",
+              "characteristicName": "Infernal Hound of the Inferno Plains",
+              "artisticName": "Scorchfang",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "devil",
+              "thirdAttribute": "rotting",
+              "characteristicName": "Dreadfire Acolyte of Blight",
+              "artisticName": "Soulreaver",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Burning Shadows",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Infernal Hades Guard of the Scorched Plains",
+              "artisticName": "Ashbringer",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "pit_fiend",
+              "thirdAttribute": "",
+              "characteristicName": "Infernal Doomlord of the Magma Chasm",
+              "artisticName": "Embermaw",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "demon",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Brimstone Fiend of the Searing Abyss",
+              "artisticName": "Firebane",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Fiendish Crypt",
+      "enemyGroups": [
+        {
+          "groupName": "Cryptic Souls",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "summoner",
+              "characteristicName": "Tenebrous Lord of Cursed Souls",
+              "artisticName": "Dreadmancer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Malevolent Apparition of the Forgotten Crypt",
+              "artisticName": "Gloomshroud",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "soul",
+              "thirdAttribute": "lost",
+              "characteristicName": "Cursed Shadow of the Shadowed Tombs",
+              "artisticName": "Voidwraith",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Infernal Keepers",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Inferno Crawlers of the Molten Depths",
+              "artisticName": "Scorchtide",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "mystic",
+              "characteristicName": "Blazing Mystic of the Abyssal Forge",
+              "artisticName": "Volcanorath",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Spectral Wraith of the Nethercrypt",
+              "artisticName": "Duskbane",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

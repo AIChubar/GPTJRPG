@@ -1,0 +1,39 @@
+{
+  "name": "Aurelia Stormheart",
+  "race": "holy",
+  "characterClass": "cleric",
+  "occupation": "Divine Guardian",
+  "backStory": "Aurelia Stormheart, a devoted cleric, is a beacon of light in the dark Realm of Eternal Flames and Shadows. Born with a divine calling, she wields the power of the heavens to protect the innocent and smite the malevolent forces that threaten the realm. Her heart is as steadfast as her faith, unwavering in the face of darkness.",
+  "protagonistGroup": {
+    "groupName": "Lightbringers",
+    "units": [
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "dragon",
+        "thirdAttribute": "green",
+        "characteristicName": "Emerald Wyrm of the Verdant Skies",
+        "artisticName": "Verdanthia",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "birdlike",
+        "secondAttribute": "tengu",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Winged Warrior of Ravenous Winds",
+        "artisticName": "Stormwing",
+        "powerLevel": "mighty",
+        "unitClass": "marksman"
+      },
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "merfolk",
+        "thirdAttribute": "guardian",
+        "characteristicName": "Oceanic Sentinel of the Abyssal Depths",
+        "artisticName": "Aquamor",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

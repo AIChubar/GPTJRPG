@@ -1,0 +1,174 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "holy",
+      "secondAttribute": "titan",
+      "thirdAttribute": "annihilator",
+      "characteristicName": "Titan Annihilator",
+      "artisticName": "Arkos the Radiant",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 80,
+      "strategicThinking": 95,
+      "indifference": 15,
+      "flexibility": 10,
+      "communicationSkills": 85,
+      "morality": 10,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "So, the dark warlock dares to challenge the light of Arkos the Radiant. What foolishness drives you, creature of shadows?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek power beyond the light. Arkos, your radiance blinds the true potential of this realm.",
+        "enemyAnswer": "Power beyond the light? A mere shadow creature like you dreams too grand. Prepare for the inevitable darkness that will consume you.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The light blinds, but the shadows empower. Your radiance will falter in the depths of darkness.",
+            "enemyAnswer": "Empowerment through shadows? Your delusions will be your downfall. Embrace the darkness, for it shall be your eternal companion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I stand unyielding in the depths of shadows, unfazed by your blinding light. Prepare for the eclipse that shall envelop the Darkened Veil.",
+                "enemyAnswer": "Unyielding in shadows? Bold words from a creature of darkness. The eclipse you seek will be your undoing... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see now, your radiance is a facade, a weak mask against the true power of darkness. The shadow will reign supreme.",
+                "enemyAnswer": "The power of darkness has clouded your judgment, dark warlock. Let the light of justice cleanse this realm... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your light is blinding, but the shadows hold secrets even you cannot comprehend. Prepare for the shadows to unravel your facade.",
+            "enemyAnswer": "Secrets in shadows? Your insolence knows no bounds, dark warlock. Witness the true power of light as it obliterates your existence.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The shadows whisper truths you dare not acknowledge, Arkos. Embrace the unknown before the dark engulfs you.",
+                "enemyAnswer": "Truths in shadows? Your arrogance is pitiful, dark warlock. The only truth you will face is your defeat... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your radiance fades in the veils of shadows, revealing the frailty of your purpose. The twilight awaits your inevitable decline.",
+                "enemyAnswer": "Frailty in shadows? A pitiful attempt to challenge the light. Prepare for your end, creature of darkness... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The balance shifts, Arkos. Your light blinds the realm, but darkness will bring equilibrium. Prepare for the darkness to claim its rightful place.",
+            "enemyAnswer": "Balance is fragile in the hands of darkness. You speak of equilibrium, yet chaos is all you will find in the end. Embrace your fate!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Equilibrium crumbles under the weight of your blinding light. Darkness shall be the ultimate victor, Arkos.",
+                "enemyAnswer": "Victor of darkness? Your ignorance astounds me, dark warlock. Prepare to face the full fury of light... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The shadows creep upon your radiant facade, Arkos. Embrace the twilight that heralds your downfall.",
+                "enemyAnswer": "Twilight heralds my downfall? Your words amuse me, dark warlock. It is time for your final lesson... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I challenge your so-called righteousness, Arkos. Your light will flicker and fade in the face of true darkness.",
+        "enemyAnswer": "Righteousness challenged by a creature of darkness? Foolhardy words that shall pave the way to your demise.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Your light blinds, but the shadows reveal the truth unseen. Embrace the darkness that unravels your facade, Arkos.",
+            "enemyAnswer": "Truth unseen in shadows? Your misguided beliefs will be your downfall, dark warlock. Prepare for the ultimate annihilation.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The shadows conceal truths that your light cannot comprehend, Arkos. Prepare for the revelations that will forge the path to your destruction.",
+                "enemyAnswer": "Concealed truths in shadows? Your arrogance will be your undoing, dark warlock. Prepare for your ultimate reckoning... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your radiance wanes in the presence of the shadows' embrace. The twilight heralds your end, Arkos.",
+                "enemyAnswer": "The twilight heralds my end? Your boldness is matched only by your ignorance, dark warlock. Prepare for your final judgment... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The light of justice dims in the face of shadows that reveal your hypocrisy, Arkos. Prepare for the reckoning that awaits.",
+            "enemyAnswer": "Hypocrisy revealed? Your accusations hold no weight, dark warlock. Witness the true power of light as it banishes you from this realm.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The shadows expose your facade, Arkos. Embrace the darkness that engulfs your righteousness and seals your fate.",
+                "enemyAnswer": "Facade exposed? Your insolence knows no bounds, dark warlock. Darkness shall be your only companion as I vanquish you... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your light blinds, but the shadows reveal the cracks in your armor, Arkos. Prepare for the darkness that will shatter your illusion.",
+                "enemyAnswer": "Cracks in my armor? Your delusions amuse me, dark warlock. It is time for your eternal slumber... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The twilight awaits the end of your radiant charade, Arkos. Darkness will prevail, marking the beginning of your downfall.",
+            "enemyAnswer": "The end of my charade? Your words hold no weight, dark warlock. Prepare to face your inevitable fate as the shadows consume you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The darkness uncovers the flaws beneath your light, Arkos. Embrace your descent into shadow before the twilight claims you.",
+                "enemyAnswer": "Descent into shadow? Your overconfidence will be your undoing, dark warlock. Prepare for the final showdown... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The veil of twilight shrouds your radiance, Arkos. Prepare for the darkness that will extinguish your false light.",
+                "enemyAnswer": "False light? Your arrogance knows no bounds, dark warlock. Let the light of justice purify this realm... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "The shadows hunger for the light you so fervently wield, Arkos. Prepare for the eclipse that will mark the end of your luminous reign.",
+        "enemyAnswer": "Hunger for light taints your every word, dark warlock. The shadows you so boldly embrace will be your ultimate undoing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The eclipse of shadows descends upon your radiant form, Arkos. Embrace the darkness that heralds your eternal night.",
+            "enemyAnswer": "Eternal night in shadows? Your fantasies will be crushed by the power of light, dark warlock. Prepare for your final obliteration.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The shadows eclipse even your radiant glare, Arkos. Prepare for the twilight that heralds your descent into darkness.",
+                "enemyAnswer": "Descent into darkness heralded by twilight? Your demise is imminent, dark warlock. Witness the light's cleansing... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your light fades as the night of shadows engulfs your radiance, Arkos. Prepare for the darkness that will unravel your false purity.",
+                "enemyAnswer": "Unravel my purity? Your audacity is unmatched, dark warlock. It is time for your eternal banishment... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The shadows' eclipse dims your glow, Arkos. Embrace the darkness that heralds the end of your false dawn.",
+            "enemyAnswer": "False dawn? Your words hold no sway over the light, dark warlock. Witness the power that will extinguish your very essence.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "The darkness encroaches upon your radiant form, Arkos. Embrace the twilight that will be your eternal shroud.",
+                "enemyAnswer": "Eternal shroud in twilight? Your downfall is nigh, dark warlock. Prepare for the light's ultimate justice... Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your radiance pales in the face of the shadows' eclipse, Arkos. Prepare for the darkness that will snuff out your false brilliance.",
+                "enemyAnswer": "False brilliance extinguished by shadows? Your defiance will be your undoing, dark warlock. Let the light prevail... Attack!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

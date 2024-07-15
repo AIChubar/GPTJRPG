@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Twilight Glade",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Twilight Glade is a mysterious realm veiled in darkness, where ethereal tendrils of fog dance over the dark-grass meadows. Beware of the treacherous waters that hide ancient secrets beneath their surface."
+    },
+    {
+      "levelName": "Forgotten Catacombs",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Forgotten Catacombs consist of rusty-chain-platform pathways suspended over bottomless pits. The air is heavy with the scent of decay, and the deep-dark-holes whisper of untold horrors lurking below."
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Shadowed Citadel stands as a fortress cloaked in shadows, where fractured-wall-platforms lead through treacherous lava flows. Within lies the legendary Wraithstalker, a malevolent ethereal shadow tracker, awaiting challengers brave enough to face the darkness."
+    }
+  ]
+}

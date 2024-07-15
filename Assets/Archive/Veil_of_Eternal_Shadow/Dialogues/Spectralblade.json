@@ -1,0 +1,88 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "warrior",
+      "characteristicName": "Ethereal Spirit Warrior",
+      "artisticName": "Spectralblade",
+      "powerLevel": "legendary",
+      "unitClass": "fighter"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 70,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 50
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Halt, fool! You dare trespass in the realm of darkness where only despair awaits. What brings you to challenge the might of the Spectralblade?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek to bring light to this shadowed land and vanquish the darkness.",
+        "enemyAnswer": "Naive mortal, your light will only fuel the shadows. Prepare to face your demise at the hands of the darkness.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not falter in the face of your threats. Prepare yourself for defeat.",
+            "enemyAnswer": "Bravery, or foolishness? It matters not. The outcome is already written in the annals of shadow. Brace yourself for the darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will stand resolute, for hope will always triumph over despair!",
+                "enemyAnswer": "Hope, a fragile concept in these lands. Your defiance ends here, in the cold embrace of eternal darkness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Even in darkness, a glimmer of hope can pierce through. I will not yield!",
+                "enemyAnswer": "Stubborn fool, your hope blinds you to the inevitable. Embrace the darkness that consumes all.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I shall retreat for now, but know that I will return stronger to challenge you again.",
+            "enemyAnswer": "Run, little mortal, run while you still can. The darkness will await your return with eager hunger.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a wanderer seeking knowledge about the shadows that dwell in this realm.",
+        "enemyAnswer": "Curiosity begets folly in the realm of shadows. Your quest for knowledge shall be your undoing.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Knowledge is the key to understanding, even in the darkest of places.",
+            "enemyAnswer": "Understanding is a luxury you cannot afford. Ignorance would have been a kinder fate.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will tread carefully, for every step unveils new mysteries.",
+                "enemyAnswer": "Mysteries that will consume you whole, leaving naught but a shadow of your former self. Ignorance was your only salvation.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "In the shadows, there lies wisdom waiting to be uncovered. I embrace the challenge.",
+                "enemyAnswer": "Foolish mortal, wisdom in darkness is but a mirage. Prepare to be lost in the labyrinth of shadows.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Perhaps the shadows hold secrets that can aid me in my own journey.",
+            "enemyAnswer": "Seeking aid from darkness? Pitiful. The shadows will be your downfall, not your salvation.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come as a messenger of peace, hoping to find a resolution that benefits us both.",
+        "enemyAnswer": "Peace? In this realm of eternal darkness, peace is a delusion. Your words hold no sway here, only the blade.",
+        "outcome": "attack"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ethereal Void Stalker",
+    "artisticName": "Visara, the Dread Wraith",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "Dark Legion",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Shadow Enigma",
+        "artisticName": "Nyxilar, the Shade Whisperer",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "necromancer",
+        "characteristicName": "Deathwright Necro Lord",
+        "artisticName": "Morgrin, the Corpsemancer",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  },
+  "worldName": "Darkened Veil of Despair",
+  "story": "The world of Darkened Veil of Despair is shrouded in eternal twilight, plagued by the sorrowful whispers of lost souls. The land is ruled by the malevolent Undead, led by Visara, the Dread Wraith, a powerful Void Stalker who seeks to envelop the world in darkness and despair. Her minions, Nyxilar, the Shade Whisperer, and Morgrin, the Corpsemancer, are formidable foes in the Dark Legion, spreading fear and decay wherever they tread. As the darkness grows stronger, hope fades from the hearts of the living.",
+  "greetingGameMessage": "Welcome, traveler, to the Darkened Veil of Despair, where shadows dance with malice and the dead whisper secrets of dread. Beware, for the darkness here hungers for the light within your soul.",
+  "defeatEndingMessage": "With the defeat of Visara, the dread wraith, the veil of darkness that once shrouded the land begins to lift. The souls of the lost find peace, and the world slowly begins to heal from the taint of despair.",
+  "gameOverMessage": "Alas, the darkness of the Darkened Veil of Despair proves too overwhelming. The Undead triumph, their malevolent rule unchallenged as the world descends further into eternal night."
+}

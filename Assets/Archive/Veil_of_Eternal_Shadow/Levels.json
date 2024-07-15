@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadows' Embrace",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Traverse through the dark-grass meadows where the shadows deepen, concealing treacherous deep-dark holes waiting to swallow the unwary traveler."
+    },
+    {
+      "levelName": "Ethereal Ruins",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Journey across decaying rusty-chain platforms amidst the ruins, with ominous waters blocking your path, whispering drowned secrets of the past."
+    },
+    {
+      "levelName": "Spectral Citadel",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Ascend the fiery fractured-wall platforms to the imposing Spectral Citadel, where rivers of lava flow, heralding the legendary Ethereal Spirit Warrior, the Spectralblade."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "lava_worm",
+      "thirdAttribute": "",
+      "characteristicName": "Lava Worm",
+      "artisticName": "Ignar",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 80,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 40,
+      "indifference": 20,
+      "flexibility": 15,
+      "communicationSkills": 25,
+      "morality": 5,
+      "chaoticity": 60
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Grrrr... Who dares to tread on Ignar's domain? Speak quickly or be consumed by fire!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I'm Zarathos, and I seek dominion over this land.",
+        "enemyAnswer": "Ha! Challenges speak loudly. But fire answers louder.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Join me, and you shall taste the blood of our enemies.",
+            "enemyAnswer": "Ignar needs not promises, but action! Show me your power!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Watch as I summon the darkest magics!",
+                "enemyAnswer": "Impressive. But... I still see weakness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I'll reduce you to ash if you refuse.",
+                "enemyAnswer": "Such boldness... will be your doom.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Unite with me, or be crushed under my heel.",
+            "enemyAnswer": "Your threats amuse me. Do you have the strength to enforce them?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I command forces that shall flatten cities!",
+                "enemyAnswer": "Hmmm... impressive words. Yet actions speak louder.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I'll show you the might of my dark cabal.",
+                "enemyAnswer": "Another promise! Show your might, or begone.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Do you not tire of these barren grounds, creature?",
+            "enemyAnswer": "Ignar knows only fire and fangs. What else is there?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A realm of endless shadow, under my rule.",
+                "enemyAnswer": "Bah! Shadows are weak against flame.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Riches and power beyond your wildest dreams.",
+                "enemyAnswer": "Hmmm. Sparkling promises... but no fire.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Step aside, worm, or face the wrath of Zarathos.",
+        "enemyAnswer": "Foolish mortal! Threats mean nothing to Ignar!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then feel the power of my darkness!",
+            "enemyAnswer": "Such arrogance! I'll burn you to cinders!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare to be annihilated!",
+                "enemyAnswer": "I welcome your challenge, weakling!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Craven fool, beg for mercy!",
+                "enemyAnswer": "Mercy is for the weak. Prepare to die!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your fire will be extinguished by my shadow.",
+            "enemyAnswer": "Ignar's flame is eternal, unlike your feeble darkness.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then let us see which is stronger!",
+                "enemyAnswer": "I relish the chance to burn you alive!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You shall regret crossing me.",
+                "enemyAnswer": "Regret is for the fallen. Prepare to fall!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no time to waste on a mere worm.",
+            "enemyAnswer": "Then leave, or feel the burn of lava!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I have better things to do.",
+                "enemyAnswer": "Begone, weakling. Ignar has no time.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You'll rue the day you dismissed me.",
+                "enemyAnswer": "Words without fire. Begone.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I'm here to gather dark artifacts. Stand down.",
+        "enemyAnswer": "Ignar guards his territory fiercely. None shall pass.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You have no choice in the matter.",
+            "enemyAnswer": "Ignar always has a choice: fight or devour!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then you shall be devoured first.",
+                "enemyAnswer": "Try, weakling. Your doom awaits!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Do you wish to test me?",
+                "enemyAnswer": "A battle it is then!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Stay out of my way, and maybe I'll let you live.",
+            "enemyAnswer": "Weak threats from a foolish mortal.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "My threats are backed by power.",
+                "enemyAnswer": "Then let your power speak for you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You have been warned.",
+                "enemyAnswer": "Ignar hears, but does not fear.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Why don't you aid me, and taste victory?",
+            "enemyAnswer": "Ignar needs no allies to taste victory!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, we could conquer even greater foes.",
+                "enemyAnswer": "Hmmm... an interesting proposition. Perhaps...",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "Then be crushed alone.",
+                "enemyAnswer": "Ignar fears no threats. Prepare yourself!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

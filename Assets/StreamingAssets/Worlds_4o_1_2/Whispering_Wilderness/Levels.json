@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispers of the Shaded Grove",
+      "walkableTerrain": "grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Venture into the Shaded Grove, where lush emerald grass cushions your every step and serene waterfalls cascade gently. But beware, pools of enchanted water hide beneath the thick foliage, obscuring unforeseen depths and hiding perilous secrets. This tranquil haven is patrolled by Grimalker, the cunning Dark Imp who delights in confounding travelers with illusions."
+    },
+    {
+      "levelName": "Arid Crossroads of the Verdant Wing",
+      "walkableTerrain": "sand",
+      "obstacleTerrain": "hole",
+      "levelDescription": "In this distant realm where the golden sands sparkle under a fierce sun lies the crossroad to the deeper sanctity of the forests. Cleaved by mystic sunblades, yawning holes pepper the terrain like open maws threatening the reckless. Elarion, the formidable Forest Drake, is your guardian and adversary alike, wings casting long shadows to protect as much as challenge those who seek the forested beyond."
+    },
+    {
+      "levelName": "Nest of Eternal Shadows",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "lava",
+      "levelDescription": "At the very heart of Whispering Wilderness, through a landscape of charred dark-dirt stained with history's untold battles, smoldering streams of lava paint a menacing dance. Here lies the lair of Vharishan, the Serpent Sovereign, the legendary Shadow Cobra whose dwelling exudes both timeless majesty and impending doom. To conqueror Vharishan is to redefine the destiny of the sanctuary and restore its fragile balance."
+    }
+  ]
+}

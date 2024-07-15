@@ -1,0 +1,39 @@
+{
+  "name": "Eirin Steelbraid",
+  "race": "humanoid",
+  "characterClass": "fighter",
+  "occupation": "Bladesmith and Protector of Light",
+  "backStory": "Eirin Steelbraid, a stalwart dwarven warrior skilled in the art of craftsmanship, stands as a defender of light and forge in the Shadowed Realms. Born under the mountains, Eirin's soul is as unyielding as steel, ready to challenge the encroaching darkness with a blade imbued with luminescent power.",
+  "protagonistGroup": {
+    "groupName": "Radiant Vanguard",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "void",
+        "characteristicName": "Ethereal Doombringer",
+        "artisticName": "Specterbane Voidslayer",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "stone_ghost",
+        "thirdAttribute": "",
+        "characteristicName": "Ancient Guardian Sentinel",
+        "artisticName": "Stoneshade Sentinel",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "quicksilver_dragon",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Quicksilver Shadowflame Sentinel",
+        "artisticName": "Silvershadow Infernoth",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

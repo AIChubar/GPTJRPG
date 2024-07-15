@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Twilight Marshlands",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispering Shadows",
+          "questDescription": "The Whispering Shadows haunt the Twilight Marshlands, their eerie presence unsettling the very ground you walk on. Will you confront them head-on or seek to unite with these ethereal beings?",
+          "questObjective": "Nihilus, the Voidwalker"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Spiritbound Alliance",
+          "questDescription": "The Spiritbound Phantom watches over the Whispering Abyss, guarding against intruders with spectral vigilance. Can you unite with this ethereal guardian to receive the Amulet of Healing?",
+          "questObjective": "Soulshard, the Echo Warden"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Reaping Shadows",
+          "questDescription": "The shadows of the Darkened Soul Reaver loom large in the Twilight Marshlands, spreading fear and despair with each step. Defeat this formidable foe to claim the Amulet of Alliance.",
+          "questObjective": "Nocturna, the Shadow Reaper"
+        }
+      ]
+    },
+    {
+      "levelName": "Desolate Canyon of Whispers",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Echoes of Desolation",
+          "questDescription": "The Echoes of Desolation resonate through the canyon, their whispers carrying tales of sorrow and loss. Will you confront these phantoms or try to unite with them?",
+          "questObjective": "Specter Sentinel, the Echo of Eternity"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Guardian Harmony",
+          "questDescription": "The Phantom Watcher of Whispers stands vigilant in the Canyon Shadows, a silent protector of the realm. Seek to unite with this ethereal guardian to receive the Amulet of Healing.",
+          "questObjective": "Whisperwind, the Echo Keeper"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadowed Decimation",
+          "questDescription": "The Necrotic Shadowmancer weaves dark magic in the Desolate Canyon, his power corrupting the very essence of the land. Put an end to his malevolent schemes to claim the Amulet of Alliance.",
+          "questObjective": "Gravecaller, the Soul Binder"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Shadow Keep",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Void Stalker's Demise",
+          "questDescription": "Visara, the Dread Wraith, lurks within the Ethereal Shadow Keep, her malevolent presence a threat to all who dare to venture close. Your ultimate goal is to defeat this legendary Void Stalker to claim victory and bring hope to the Darkened Veil of Despair.",
+          "questObjective": "Visara, the Dread Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Twilight Reconciliation",
+          "questDescription": "The Duskbringer, the Shadowed Revenant, roams the Shadowed Keep, seeking solace in the shadows. Can you unite with this spectral being to receive the Amulet of Healing?",
+          "questObjective": "Duskbringer, the Shadowed Revenant"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Nightfall's Doom",
+          "questDescription": "Nightfall, the Shadow Sovereign, rules over the Wraithlord of Shadows with an iron grip, spreading darkness wherever he goes. Bring an end to his reign of terror to claim the Amulet of Alliance.",
+          "questObjective": "Nightfall, the Shadow Sovereign"
+        }
+      ]
+    }
+  ]
+}
