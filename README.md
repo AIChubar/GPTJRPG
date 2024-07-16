@@ -12,9 +12,9 @@ The generated content, including story, quests, characters, and asset selection,
 
 The game only supports the Windows OS and doesn't require any additional software installed. The following steps should be done in order to play the game:
 
-1. Extract the compressed "GPT_JRPG_BUILD.zip" file locally.
-2. Launch the "GPT JRPG.exe" executable that can be found in the extracted folder.
-3. Choose one of the available Game Worlds and click the button "Start Game"
+1. Extract the compressed `GPT_JRPG_BUILD.zip` file locally.
+2. Launch the `GPT JRPG.exe` executable that can be found in the extracted folder.
+3. Choose one of the available Game Worlds and click the button `Start Game`
 
  ![Menu](./images/menu.png)
 
@@ -34,10 +34,10 @@ In order to be able to generate a new Game World, you need to have an OpenAI acc
    pip install --upgrade openai
    ```
 4. Set up your OpenAI API account - [OpenAI Platform](https://platform.openai.com/auth/login) and add funds to a credit balance.
-5. Set up an API key in your OpenAI API account profile - [`User settings - OpenAI API`](https://platform.openai.com/settings/profile?tab=api-keys).
-6. Add a new Windows Environment System Variable, with the Variable name 'OPENAI_API_KEY' and set a Variable value to your OpenAI API key.
+5. Set up an API key in your OpenAI API account profile - [User settings - OpenAI API](https://platform.openai.com/settings/profile?tab=api-keys).
+6. Add a new Windows Environment System Variable, with the Variable name `OPENAI_API_KEY` and set a Variable value to your OpenAI API key.
 
-After that, you will be able to generate a new Game World both from the game Main Menu or by running a python script `run.py` from `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` folder:
+After that, you will be able to generate a new Game World both from the game Main Menu or by running a python script `run.py` from `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` extracted game folder:
 ```
    python3 run.py
 ```
@@ -53,17 +53,17 @@ The folder `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` from the extra
 
 You can find all the prompts in these scripts in the extracted game folder or in the Unity project on GitHub (https://github.com/AIChubar/GPTJRPG/tree/master/Assets/StreamingAssets/API).
 
-You can modify the OpenAI API parameters here, such as the 'model' that will be used and the 'temperature', by changing the variables set at the beginning of the script, 'model_param' and 'temperature_param'.
-We recommend using either GPT-4o (model_param = "gpt-4o") or GPT-3.5 turbo (model_param = "gpt-3.5-turbo-0125") models and temperature within the range 0.5 and 1.0.
+You can modify the OpenAI API parameters here, such as the `model` that will be used and the `temperature`, by changing the variables set at the beginning of the script, `model_param` and `temperature_param`.
+We recommend using either GPT-4o (`model_param = "gpt-4o"`) or GPT-3.5 turbo (`model_param = "gpt-3.5-turbo-0125"`) models and temperature within the range 0.5 and 1.0.
 
-The current model parameter for all scripts is set to use the model GPT-4o (model_param = "gpt-4o"). The Temperature is set to 0.6 for all scripts except the dialogue query, for which the temperature equals 1.0.
-The cost of creating one world currently ranges between $0.6$ and $0.8$. The most costly part is the dialogue query, and lowering its model parameter to GPT-3.5 turbo (model_param = "gpt-3.5-turbo-0125") reduces costs to approximately $0.3.
+The current model parameter for all scripts is set to use the model GPT-4o (`model_param = "gpt-4o"`). The Temperature is set to 0.6 for all scripts except the dialogue query, for which the temperature equals 1.0.
+The cost of creating one world currently ranges between $0.6$ and $0.8$. The most costly part is the dialogue query, and lowering its model parameter to GPT-3.5 turbo (`model_param = "gpt-3.5-turbo-0125"`) reduces costs to approximately $0.3.
 
 Setting the temperature above the recommended value may cause a broken structure and can make this Game World unlaunchable.
 
 ## Default Game Worlds Settings
 
-The Game Worlds available in the game and generated ones can be found in the '...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\Worlds' folder. We used two API parameter setups to generate the default Game Worlds:
+The Game Worlds available in the game and generated ones can be found in the `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\Worlds` folder. We used two API parameter setups to generate the default Game Worlds:
 
 - The default temperature (described above) and the GPT-4o model for all queries. This setup was used to generate the Shattered Realms of Dusk Game World.
 - The default temperature (described above) and the GPT-4o model are used for all queries except the dialogue, which uses the GPT 3.5 turbo model. This setup was used to generate Darkened Spires of Eternity.
@@ -86,7 +86,7 @@ Interaction with UI buttons - **Left Mouse Button Click**
 
 The core gameplay involves progressing through levels, engaging with enemies, completing quests, and managing units to form a strong and balanced team. The main goal is to defeat the world antagonist. The game's difficulty and the necessity of adapting the playstyle come from the fact that units do not heal after battles. Players must carefully select battles that can provide an item that might help recruit new units or heal the group.
 
-To progress through the levels, you need to complete quests with a reward "pass to the next level", and a final quest is indicated with a reward "win".
+To progress through the levels, you need to complete quests with a reward `pass to the next level`, and a final quest is indicated with a reward `win`.
 
 ![Level](./images/level.png)
 
@@ -102,7 +102,7 @@ Here, players can find all the information about the quests. Each quest has a co
 
 ### Group Info
 
-The current protagonist group data is displayed in the group info menu. The units’ positions here correspond to those in battle and can be swapped. Information about the available items and units that can be healed with the amulet of healing can also be found here. Amulet of alliance is used to force an enemy to be recruited.
+The current protagonist group data is displayed in the group info menu. The units’ positions here correspond to those in battle and can be swapped. Information about the available items and units that can be healed with the amulet of healing can also be found here. An amulet of alliance is used to force an enemy to be recruited.
 
 ![Group](./images/group.png)
 
