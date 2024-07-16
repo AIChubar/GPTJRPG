@@ -18,7 +18,7 @@ The game only supports the Windows OS and doesn't require any additional softwar
 
  ![Menu](./images/menu.png)
 
-Description of the default Game Worlds can be found here `[Default Game Worlds](#default-game-worlds-settings)`
+Description of the default Game Worlds can be found here [Default Game Worlds](#default-game-worlds-settings)
 
 ## OpenAI API Application
 
@@ -34,7 +34,7 @@ In order to be able to generate a new Game World, you need to have an OpenAI acc
    pip install --upgrade openai
    ```
 4. Set up your OpenAI API account - [OpenAI Platform](https://platform.openai.com/auth/login) and add funds to a credit balance.
-5. Set up an API key in your OpenAI API account profile - [User settings - OpenAI API](https://platform.openai.com/settings/profile?tab=api-keys).
+5. Set up an API key in your OpenAI API account profile - [`User settings - OpenAI API`](https://platform.openai.com/settings/profile?tab=api-keys).
 6. Add a new Windows Environment System Variable, with the Variable name 'OPENAI_API_KEY' and set a Variable value to your OpenAI API key.
 
 After that, you will be able to generate a new Game World both from the game Main Menu or by running a python script `run.py` from `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` folder:
@@ -44,12 +44,12 @@ After that, you will be able to generate a new Game World both from the game Mai
 ## OpenAI API Settings
 
 The folder `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` from the extracted game contains the following scripts that make calls to OpenAI after you run the `run.py` script:
-1. "api_request_dialogue.py" - Generates dialogues with all enemies groups.
-2. "api_request_levels.py" - Generates levels and chooses terrains for them.
-3. "api_request_main_character.py" - Generates a protagonist, including name, class, backstory, and protagonist group.
-4. "api_request_narrative.py" - Generates story, game messages and the main antagonist.
-5. "api_request_quests.py" - Generates quests for each level.
-6. "api_request_unit_data.py" - Generates enemy units.
+1. `api_request_dialogue.py` - Generates dialogues with all enemies groups.
+2. `api_request_levels.py` - Generates levels and chooses terrains for them.
+3. `api_request_main_character.py` - Generates a protagonist, including name, class, backstory, and protagonist group.
+4. `api_request_narrative.py` - Generates story, game messages and the main antagonist.
+5. `api_request_quests.py` - Generates quests for each level.
+6. `api_request_unit_data.py` - Generates enemy units.
 
 You can find all the prompts in these scripts in the extracted game folder or in the Unity project on GitHub (https://github.com/AIChubar/GPTJRPG/tree/master/Assets/StreamingAssets/API).
 
