@@ -18,7 +18,7 @@ The game only supports the Windows OS and doesn't require any additional softwar
 
  ![Menu](./images/menu.png)
 
-Description of the default Game Worlds can be found here [Default Game Worlds](#default-game-worlds-settings)
+Description of the default Game Worlds can be found here [Default Game Worlds](#default-game-worlds)
 
 ## OpenAI API Application
 
