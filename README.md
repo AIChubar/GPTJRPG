@@ -1,3 +1,5 @@
+https://github.com/AIChubar/GPTJRPG
+
 # Concept
 
 This project was created for the master diploma thesis "Generating game content with generative language models" for Charles University in Prague. 
@@ -16,7 +18,7 @@ The game only supports the Windows OS and doesn't require any additional softwar
 
  ![Menu](./images/menu.png)
 
-Description of the default Game Worlds can be found here [Default Game Worlds](#default-game-worlds-settings)
+Description of the default Game Worlds can be found here `[Default Game Worlds](#default-game-worlds-settings)`
 
 ## OpenAI API Application
 
@@ -25,33 +27,31 @@ In order to be able to generate a new Game World, you need to have an OpenAI acc
 1. Have at least Python 3.7.1 or newer installed. You can follow these official guidelines for beginners - [BeginnersGuide/Download | Python Wiki](https://wiki.python.org/moin/BeginnersGuide/Download)
 2. Upgrade the PIP to the latest version:
    ```
-   pip install --upgrade openai
+   pip install --upgrade pip
    ```
 3. Install the OpenAI API library by running the following command from the terminal:
    ```
    pip install --upgrade openai
    ```
-4. Install the JSON python module:
-   ```
-   pip install --upgrade jsons
-   ```
-5. Set up your OpenAI API account - [OpenAI Platform](https://platform.openai.com/auth/login) and add funds to a credit balance.
-6. Set up an API key in your OpenAI API account profile - [User settings - OpenAI API](https://platform.openai.com/settings/profile?tab=api-keys).
-7. Add a new Windows Environment System Variable, with the Variable name 'OPENAI_API_KEY' and set a Variable value to your OpenAI API key.
+4. Set up your OpenAI API account - [OpenAI Platform](https://platform.openai.com/auth/login) and add funds to a credit balance.
+5. Set up an API key in your OpenAI API account profile - [User settings - OpenAI API](https://platform.openai.com/settings/profile?tab=api-keys).
+6. Add a new Windows Environment System Variable, with the Variable name 'OPENAI_API_KEY' and set a Variable value to your OpenAI API key.
 
-After that, you will be able to generate a new Game World both from the game Main Menu or by running a python script 'run.py' from '...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API' folder:
+After that, you will be able to generate a new Game World both from the game Main Menu or by running a python script `run.py` from `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` folder:
 ```
    python3 run.py
 ```
 ## OpenAI API Settings
 
-The folder '...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API' contains the following scripts that make calls to OpenAI after you run the 'run.py' script:
+The folder `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` from the extracted game contains the following scripts that make calls to OpenAI after you run the `run.py` script:
 1. "api_request_dialogue.py" - Generates dialogues with all enemies groups.
 2. "api_request_levels.py" - Generates levels and chooses terrains for them.
 3. "api_request_main_character.py" - Generates a protagonist, including name, class, backstory, and protagonist group.
 4. "api_request_narrative.py" - Generates story, game messages and the main antagonist.
 5. "api_request_quests.py" - Generates quests for each level.
 6. "api_request_unit_data.py" - Generates enemy units.
+
+You can find all the prompts in these scripts in the extracted game folder or in the Unity project on GitHub (https://github.com/AIChubar/GPTJRPG/tree/master/Assets/StreamingAssets/API).
 
 You can modify the OpenAI API parameters here, such as the 'model' that will be used and the 'temperature', by changing the variables set at the beginning of the script, 'model_param' and 'temperature_param'.
 We recommend using either GPT-4o (model_param = "gpt-4o") or GPT-3.5 turbo (model_param = "gpt-3.5-turbo-0125") models and temperature within the range 0.5 and 1.0.
@@ -74,7 +74,6 @@ The Game World **Darkened Veil** is generated using both setups and can be disti
 
 Here, you can find information about the game GPT JRPG, namely controls, game flow, UI, and a description of some systems.
 
-
 ## Controls
 
 The game is controlled using a keyboard and a mouse:
@@ -87,7 +86,7 @@ Interaction with UI buttons - **Left Mouse Button Click**
 
 The core gameplay involves progressing through levels, engaging with enemies, completing quests, and managing units to form a strong and balanced team. The main goal is to defeat the world antagonist. The game's difficulty and the necessity of adapting the playstyle come from the fact that units do not heal after battles. Players must carefully select battles that can provide an item that might help recruit new units or heal the group.
 
-To progress through the levels, you need to complete quests with a reward "pass to the next level" and a final quest is indicated with a reward "win".
+To progress through the levels, you need to complete quests with a reward "pass to the next level", and a final quest is indicated with a reward "win".
 
 ![Level](./images/level.png)
 
