@@ -57,7 +57,7 @@ You can modify the OpenAI API parameters here, such as the `model` that will be 
 We recommend using either GPT-4o (`model_param = "gpt-4o"`) or GPT-3.5 turbo (`model_param = "gpt-3.5-turbo-0125"`) models and temperature within the range 0.5 and 1.0.
 
 The current model parameter for all scripts is set to use the model GPT-4o (`model_param = "gpt-4o"`). The Temperature is set to 0.6 for all scripts except the dialogue query, for which the temperature equals 1.0.
-The cost of creating one world currently ranges between $0.6$ and $0.8$. The most costly part is the dialogue query, and lowering its model parameter to GPT-3.5 turbo (`model_param = "gpt-3.5-turbo-0125"`) reduces costs to approximately $0.3.
+The cost of creating one world currently ranges between $0.6 and $0.8. The most costly part is the dialogue query, and lowering its model parameter to GPT-3.5 turbo (`model_param = "gpt-3.5-turbo-0125"`) reduces costs to approximately $0.3.
 
 Setting the temperature above the recommended value may cause a broken structure and can make this Game World unlaunchable.
 
