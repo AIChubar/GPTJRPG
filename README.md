@@ -16,11 +16,11 @@ The game only supports the Windows OS and doesn't require any additional softwar
 
  ![Menu](./images/menu.png)
 
-Description of the default Game Worlds can be found here [Default Game Worlds](#default-game-worlds-settings)) 
+Description of the default Game Worlds can be found here [Default Game Worlds](#default-game-worlds-settings)
 
 ## OpenAI API Application
 
-In order to be able to generate a new Game World, you need to have an OpenAI account with enough credits on a balance (at least 1.0$ for the Game World generation with default settings, which is explained in more detail [OpenAI API Settings](#openai-api-settings)). Follow these steps to set up the environment to be able to launch the Game World Generator:
+In order to be able to generate a new Game World, you need to have an OpenAI account with enough credits on a balance (at least 1.0$ for the Game World generation with default settings, which is explained in more detail [OpenAI API Settings](#openai-api-settings). Follow these steps to set up the environment to be able to launch the Game World Generator:
 
 1. Have at least Python 3.7.1 or newer installed. You can follow these official guidelines for beginners - [BeginnersGuide/Download | Python Wiki](https://wiki.python.org/moin/BeginnersGuide/Download)
 2. Upgrade the PIP to the latest version:
@@ -35,8 +35,8 @@ In order to be able to generate a new Game World, you need to have an OpenAI acc
    ```
    pip install --upgrade jsons
    ```
-5. Set up your OpenAI API account - [OpenAI Platform](https://www.google.com]](https://platform.openai.com/auth/login) and add funds to a credit balance.
-6. Set up an API key in your OpenAI API account profile - [User settings - OpenAI API](https://www.google.com]](https://platform.openai.com/settings/profile?tab=api-keys).
+5. Set up your OpenAI API account - [OpenAI Platform](https://platform.openai.com/auth/login) and add funds to a credit balance.
+6. Set up an API key in your OpenAI API account profile - [User settings - OpenAI API](https://platform.openai.com/settings/profile?tab=api-keys).
 7. Add a new Windows Environment System Variable, with the Variable name 'OPENAI_API_KEY' and set a Variable value to your OpenAI API key.
 
 After that, you will be able to generate a new Game World both from the game Main Menu or by running a python script 'run.py' from '...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API' folder:
