@@ -22,7 +22,7 @@ Description of the default Game Worlds can be found here [Default Game Worlds](#
 
 ## OpenAI API Application
 
-In order to be able to generate a new Game World, you need to have an OpenAI account with enough credits on a balance (at least 1.0$ for the Game World generation with default settings, which is explained in more detail [OpenAI API Settings](#openai-api-settings). Follow these steps to set up the environment to be able to launch the Game World Generator:
+In order to be able to generate a new Game World, you need to have an OpenAI account with enough credits on a balance (at least 1.0$ for the Game World generation with default settings, which is explained in more detail [OpenAI API Queries](#openai-api-queries)). Follow these steps to set up the environment to be able to launch the Game World Generator:
 
 1. Have at least Python 3.7.1 or newer installed. You can follow these official guidelines for beginners - [BeginnersGuide/Download | Python Wiki](https://wiki.python.org/moin/BeginnersGuide/Download)
 2. Upgrade the PIP to the latest version:
@@ -41,7 +41,7 @@ After that, you will be able to generate a new Game World both from the game Mai
 ```
    python3 run.py
 ```
-## OpenAI API Settings
+## OpenAI API Queries
 
 The folder `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API` from the extracted game contains the following scripts that make calls to OpenAI after you run the `run.py` script:
 1. `api_request_dialogue.py` - Generates dialogues with all enemies groups.
@@ -61,7 +61,7 @@ The cost of creating one world currently ranges between $0.6$ and $0.8$. The mos
 
 Setting the temperature above the recommended value may cause a broken structure and can make this Game World unlaunchable.
 
-## Default Game Worlds Settings
+## Default Game Worlds
 
 The Game Worlds available in the game and generated ones can be found in the `...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\Worlds` folder. We used two API parameter setups to generate the default Game Worlds:
 
