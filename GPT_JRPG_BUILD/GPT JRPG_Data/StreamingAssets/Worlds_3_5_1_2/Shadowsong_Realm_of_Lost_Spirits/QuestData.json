@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Ethereal Abyss",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Echoes of the Abyss",
+          "questDescription": "Navigate through the treacherous Ethereal Abyss and decide the fate of the Azure Ooze Horde. Will you eliminate the malevolent ooze creatures or forge an unlikely alliance?",
+          "questObjective": "Aqua Glorm"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Healing the Viscous",
+          "questDescription": "Seek out the Toxic Slime Pulsar and bring about peace by uniting its dark sorcery with your cause.",
+          "questObjective": "Rippling Phagecaster"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Alliance Disrupted",
+          "questDescription": "Defeat the infernal Viscous Azure Blob to earn the amulet of alliance and prove your prowess in the Ethereal Abyss.",
+          "questObjective": "Morphic Geldon"
+        }
+      ]
+    },
+    {
+      "levelName": "Serpent's Embrace",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Bonds of Ice and Serpent",
+          "questDescription": "Delve into the frozen Serpent's Embrace and decide the destiny of the Ice Serpent Guard. Will you unite their chilling power or bring an end to their icy reign?",
+          "questObjective": "Glacial Scalewatcher"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Sorcery Unveiled",
+          "questDescription": "Embark on a journey to unite with the Mystical Naga Enchantress and harness the arcane energies of the Naga Sorceress Cove.",
+          "questObjective": "Veilspire Illusionist"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Wings of Frost and Fire",
+          "questDescription": "Confront the Blizzard Gryphon in the Snowy Griffin Squadron and claim the amulet of alliance as a token of victory.",
+          "questObjective": "Frostclaw Stormwing"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadows of Oblivion",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Eternal Shadows Confrontation",
+          "questDescription": "Face the ultimate battle in the Shadows of Oblivion and defeat the fearsome Inferno Bloodflame to emerge victorious.",
+          "questObjective": "Scorchflame Incendion"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Gaia's Earthly Harmony",
+          "questDescription": "Discover the Ancient Gargoyle Legion and unite their protective power to restore balance with the amulet of healing.",
+          "questObjective": "Sabrewing Earthshield"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadowsbane Victory",
+          "questDescription": "Vanquish the dread Abyssal Demon Eviscerator in the Magma Demon Horde to claim the amulet of alliance and seal your prowess in the dark realms.",
+          "questObjective": "Shadethorn Marauder"
+        }
+      ]
+    }
+  ]
+}

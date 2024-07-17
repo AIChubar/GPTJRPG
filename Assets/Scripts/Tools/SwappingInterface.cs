@@ -43,7 +43,7 @@ public class SwappingInterface : MonoBehaviour
     }
 
     /// <summary>
-    /// Method that attempts to swap currently dragged item with the one under the mouth cursor..
+    /// Method that attempts to swap currently dragged item with the one under the mouth cursor.
     /// </summary>
     public void SwapCurrentItem()
     {

@@ -1,0 +1,39 @@
+{
+  "name": "Lyria Fireheart",
+  "race": "phoenix",
+  "characterClass": "healer",
+  "occupation": "Flamekeeper of Eternal Radiance",
+  "backStory": "Lyria Fireheart, a mystical phoenix with the gift of healing flames, embodies the essence of everlasting light in the Ethereal Empire. Born from the heart of the celestial sun, she spreads warmth and restoration to all in need, a beacon of hope in the darkest of times.",
+  "protagonistGroup": {
+    "groupName": "Eternal Luminary Guardians",
+    "units": [
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "golden_dragon",
+        "thirdAttribute": "quicksilver",
+        "characteristicName": "Silverscale Quickflare Warden",
+        "artisticName": "Aetherion Flamebringer",
+        "powerLevel": "mighty",
+        "unitClass": "berserker"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "anubis_guard",
+        "thirdAttribute": "",
+        "characteristicName": "Ancient Sentinel Guardian",
+        "artisticName": "Ankhbearer Sentinel",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "pit_fiend",
+        "thirdAttribute": "",
+        "characteristicName": "Infernal Abyss Reaver",
+        "artisticName": "Mordath Shadowbane",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  }
+}

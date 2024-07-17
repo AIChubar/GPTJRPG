@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Whispering Shadows",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of the Forgotten",
+          "questDescription": "In the eerie realm of Whispering Shadows, the dark-grass whispers secrets of forgotten sorrows. You must either defeat or unite with the Ethereal Nightstalker, Duskreaper, to uncover the path forward.",
+          "questObjective": "Duskreaper"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Guardian of the Shadows",
+          "questDescription": "The shadows hold ancient powers waiting to be harnessed. Seek out the Mystical Forest Guardian, Silvanius the Eternal, and unite with them to receive the amulet of healing.",
+          "questObjective": "Silvanius the Eternal"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Whispers of Betrayal",
+          "questDescription": "The whispers of betrayal echo through the dark-grass. Defeat the Ethereal Nightmarish Stalker, Shadewhisper, to earn the amulet of alliance.",
+          "questObjective": "Shadewhisper the Haunting Phantom"
+        }
+      ]
+    },
+    {
+      "levelName": "Mystic Veil",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Veiled Shadows",
+          "questDescription": "Traverse the sands of time in the mystical land of Mystic Veil. You must either defeat or unite with the Ethereal Voidwalker, Shadowsoul the Veiled Phantom, to reveal the way forward.",
+          "questObjective": "Shadowsoul the Veiled Phantom"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Whispers of Harmony",
+          "questDescription": "Harmony lies within the enchanted shadows. Find the Mystical Forest Guardian, Silvanius the Eternal, and unite with them to receive the amulet of healing.",
+          "questObjective": "Silvanius the Eternal"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Mystical Confrontation",
+          "questDescription": "A mystical confrontation awaits in the shimmering sands. Defeat the Infernal Mystic Serpent, Mystflame, to claim the amulet of alliance.",
+          "questObjective": "Mystflame the Enigmatic Conjurer"
+        }
+      ]
+    },
+    {
+      "levelName": "Cryptic Abyss",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Throne of Darkness",
+          "questDescription": "Descend into the depths of the Cryptic Abyss and face the legendary Void King of the Crypts, Necrothar the Unyielding. Defeat Necrothar to claim victory and restore light to the realm.",
+          "questObjective": "Necrothar the Unyielding"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Alliance of Shadows",
+          "questDescription": "The shadows hold the key to healing. Seek out the Mystical Forest Guardian, Silvanius the Eternal, and unite with them to receive the amulet of healing.",
+          "questObjective": "Silvanius the Eternal"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkness Unleashed",
+          "questDescription": "Darkness must be vanquished to forge alliances. Defeat the Infernal Flamebringer, Blazefury, to earn the amulet of alliance.",
+          "questObjective": "Blazefury the Scorching Conjuror"
+        }
+      ]
+    }
+  ]
+}

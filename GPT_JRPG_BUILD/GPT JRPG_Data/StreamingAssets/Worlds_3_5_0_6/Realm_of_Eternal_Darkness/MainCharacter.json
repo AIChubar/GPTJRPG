@@ -1,0 +1,39 @@
+{
+  "name": "Thorn the Arcane Enchanter",
+  "race": "beast",
+  "characterClass": "sorcerer",
+  "occupation": "Arcane Enchanter",
+  "backStory": "Thorn the Arcane Enchanter, a mystical beast sorcerer, emerges from the depths of the Celestial Realm of Enchanted Forests. With an ancient connection to the magical energies of nature, Thorn seeks to harness the arcane forces to combat the darkness threatening the realm.",
+  "protagonistGroup": {
+    "groupName": "Enchanted Guardians",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "dryad",
+        "thirdAttribute": "",
+        "characteristicName": "Mystical Forest Sentinel",
+        "artisticName": "Sylvanara the Enchanted Guardian",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "grand_avatar",
+        "thirdAttribute": "",
+        "characteristicName": "Ethereal Avatar of Light",
+        "artisticName": "Aetherius the Radiant Spirit",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "stalker",
+        "characteristicName": "Shadowed Soul Stalker",
+        "artisticName": "Duskfang the Phantom Hunter",
+        "powerLevel": "legendary",
+        "unitClass": "trickster"
+      }
+    ]
+  }
+}

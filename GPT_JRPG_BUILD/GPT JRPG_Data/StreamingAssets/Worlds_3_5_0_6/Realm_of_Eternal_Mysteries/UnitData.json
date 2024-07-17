@@ -1,0 +1,211 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Shadows",
+      "enemyGroups": [
+        {
+          "groupName": "Shadowy Whispers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Spectral Haunter",
+              "artisticName": "Soulshadow the Whispering Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "stone_ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Stone Sentinel",
+              "artisticName": "Gargoth the Silent Guardian",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Nightmarish Stalker",
+              "artisticName": "Shadewhisper the Haunting Phantom",
+              "powerLevel": "legendary",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Enigmatic Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Soulreaper",
+              "artisticName": "Wraithblade the Phantom Slayer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Mystical Forest Guardian",
+              "artisticName": "Silvanius the Eternal",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Infernal Flamebringer",
+              "artisticName": "Blazefury the Scorching Conjuror",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Mystic Veil",
+      "enemyGroups": [
+        {
+          "groupName": "Mystical Mirage",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Voidwalker",
+              "artisticName": "Shadowsoul the Veiled Phantom",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "stone_ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Stone Sentinel",
+              "artisticName": "Gargoth the Silent Guardian",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Nightfall Stalker",
+              "artisticName": "Dusktwist the Mystical Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Enchanted Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "eater",
+              "characteristicName": "Spectral Soulfeaster",
+              "artisticName": "Wraithscar the Devouring Phantom",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Mystical Forest Guardian",
+              "artisticName": "Silvanius the Eternal",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "mystic",
+              "characteristicName": "Infernal Mystic Serpent",
+              "artisticName": "Mystflame the Enigmatic Conjurer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Cryptic Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Spectral Soulreaper",
+              "artisticName": "Wraithblade the Phantom Slayer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "stone_ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Stone Sentinel",
+              "artisticName": "Gargoth the Silent Guardian",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Nightfall Stalker",
+              "artisticName": "Dusktwist the Mystical Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Cavernous Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Voidwalker",
+              "artisticName": "Shadowsoul the Veiled Phantom",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "faun",
+              "thirdAttribute": "",
+              "characteristicName": "Mystical Forest Guardian",
+              "artisticName": "Silvanius the Eternal",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "firebrand",
+              "characteristicName": "Infernal Flamebringer",
+              "artisticName": "Blazefury the Scorching Conjuror",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

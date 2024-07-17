@@ -1,0 +1,91 @@
+{
+  "unitClass": {
+    "fighter": {
+      "healthCoefficient": 0.9,
+      "damageCoefficient": 1.2,
+      "armourCoefficient": 0.9
+    },
+    "sorcerer": {
+      "healthCoefficient": 0.6,
+      "damageCoefficient": 1.4,
+      "armourCoefficient": 1.0
+    },
+    "paladin": {
+      "healthCoefficient": 1.6,
+      "damageCoefficient": 0.7,
+      "armourCoefficient": 0.7
+    },
+    "protector": {
+      "healthCoefficient": 2.1,
+      "damageCoefficient": 0.1,
+      "armourCoefficient": 1.2
+    },
+    "bastion": {
+      "healthCoefficient": 0.7,
+      "damageCoefficient": 0.7,
+      "armourCoefficient": 1.6
+    },
+    "healer": {
+      "healthCoefficient": 1.0,
+      "damageCoefficient": 1.0,
+      "armourCoefficient": 1.0
+    },
+    "trickster": {
+      "healthCoefficient": 1.2,
+      "damageCoefficient": 1.2,
+      "armourCoefficient": 0.6
+    },
+    "berserker": {
+      "healthCoefficient": 1.5,
+      "damageCoefficient": 1.5,
+      "armourCoefficient": 0
+    },
+    "marksman": {
+      "healthCoefficient": 1.0,
+      "damageCoefficient": 2.0,
+      "armourCoefficient": 0
+    },
+    "shaman": {
+      "healthCoefficient": 1.3,
+      "damageCoefficient": 1.3,
+      "armourCoefficient": 0.4
+    }
+  },
+  "powerLevelAttributes": {
+    "feeble": {
+      "health": 100,
+      "damage": 15,
+      "armour": 4
+    },
+    "weak": {
+      "health": 110,
+      "damage": 18,
+      "armour": 5
+    },
+    "moderate": {
+      "health": 120,
+      "damage": 21,
+      "armour": 6
+    },
+    "strong": {
+      "health": 135,
+      "damage": 24,
+      "armour": 7
+    },  
+    "mighty": {
+      "health": 150,
+      "damage": 27,
+      "armour": 8
+    },
+    "formidable": {
+      "health": 175,
+      "damage": 30,
+      "armour": 10
+    },
+    "legendary": {
+      "health": 200,
+      "damage": 35,
+      "armour": 12
+    }
+  }
+}

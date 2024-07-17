@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Ethereal Woods",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows of the Abyss",
+          "questDescription": "The Shadowed Abyssal Horror, Nocturnal Dreadstalker, threatens the balance in Ethereal Woods. You must either defeat or unite with this legendary sorcerer to proceed.",
+          "questObjective": "Nocturnal Dreadstalker"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Guardians of the Woods",
+          "questDescription": "The Sylvan Guardian, Elven Warding Sentinel, seeks allies to protect the Ethereal Woods. Join forces with this formidable bastion to receive the amulet of healing.",
+          "questObjective": "Sylvan Guardian"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Mimicking Shadows",
+          "questDescription": "The Radiant Illusionist, Luminous Shapechanging Spirit, must be defeated to gain the amulet of alliance. Beware of its tricky illusions and formidable powers.",
+          "questObjective": "Luminous Shapechanging Spirit"
+        }
+      ]
+    },
+    {
+      "levelName": "Luminous Caverns",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Inferno's Trial",
+          "questDescription": "The Blazebringer Salamander, Infernal Tempest Bringer, challenges all who enter the Luminous Caverns. Decide whether to defeat or ally with this formidable sorcerer to progress.",
+          "questObjective": "Infernal Tempest Bringer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Serpentine Harmony",
+          "questDescription": "The Abyssal Serpent Sage, Serpentine Ritual Guardian, holds the key to healing in the Luminous Caverns. Unite with this strong fighter to receive the amulet of healing.",
+          "questObjective": "Abyssal Serpent Sage"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Echoes of Mirage",
+          "questDescription": "Defeat the Spectral Equine Mirage, Phantasmal Centaur Echo, to earn the amulet of alliance. Beware of its moderate powers and elusive nature.",
+          "questObjective": "Phantasmal Centaur Echo"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Shadows' Bane",
+          "questDescription": "Your ultimate challenge awaits in the Shadowed Citadel. You must vanquish the Ethereal Shadow Stalker, Aurorium, to claim victory and bring light back to the Celestial Realm of Radiant Harmony.",
+          "questObjective": "Aurorium"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Sentinel's Embrace",
+          "questDescription": "The Ethereal Sentinel, Spectral Guardian Statue, stands as a guardian in the Shadowed Citadel. Unite with this mighty protector to receive the amulet of healing.",
+          "questObjective": "Spectral Guardian Statue"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Spellweaver's End",
+          "questDescription": "The Necrotic Spellweaver, Ancient Undead Archmage, must be defeated to earn the amulet of alliance. Face the formidable sorcerer and claim your reward.",
+          "questObjective": "Ancient Undead Archmage"
+        }
+      ]
+    }
+  ]
+}

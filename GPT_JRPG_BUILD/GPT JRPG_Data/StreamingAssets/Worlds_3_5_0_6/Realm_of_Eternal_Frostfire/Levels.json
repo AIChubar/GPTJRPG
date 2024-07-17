@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Frostbite Caverns",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Welcome to the Frostbite Caverns, a treacherous maze of icy tunnels and snow-covered chambers. The sharp chill in the air bites at your skin as you navigate through the glittering snow, but beware the deep-dark holes that lurk beneath the frozen surface, ready to swallow the unwary traveler whole."
+    },
+    {
+      "levelName": "Shadowed Grove",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Step into the Shadowed Grove, where gnarled trees cast eerie silhouettes on the dark grass beneath your feet. The tranquil facade of the grove hides a sinister secret - murky waters that flow like liquid shadows, concealing dangers that lie beneath the surface. Tread carefully, for the waters here hold more than just a reflection of the moonlight."
+    },
+    {
+      "levelName": "Ethereal Abyss",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Venture into the Ethereal Abyss, a realm suspended in the void between fractured wall platforms. The ground beneath your feet is unstable, cracked like shattered glass, while rivers of molten lava flow ominously below. In the heart of this fiery abyss stands Zyralith the Wraith, the legendary Void Stalker, emanating a chilling aura that freezes the very air around you."
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Shadows Path",
+      "enemyGroups": [
+        {
+          "groupName": "Ethereal Whispers",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Echoing Void Guardian",
+              "artisticName": "Spectral Echo",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Wailing Soul of Despair",
+              "artisticName": "Haunting Banshee",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Voidwalker of the Lost",
+              "artisticName": "Ethereal Shade",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowed Phantoms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Silent Watcher of the Abyss",
+              "artisticName": "Phantom Sentinel",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Spectral Lament of Sorrow",
+              "artisticName": "Ethereal Wailer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Stalker of the Unknown",
+              "artisticName": "Shadowed Specter",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Lost Souls Legion",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Watcher of Eternity",
+              "artisticName": "Spectral Guardian",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Whispering Echo of Regret",
+              "artisticName": "Soulbound Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Wraith of Shadow",
+              "artisticName": "Spectral Phantom",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Watchers",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Echoing Guardian of the Beyond",
+              "artisticName": "Spectral Watcher",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Wailing Spirit of Vengeance",
+              "artisticName": "Ghostly Wraith",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Watcher of the Abyss",
+              "artisticName": "Ethereal Observer",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Guardian's Sanctum",
+      "enemyGroups": [
+        {
+          "groupName": "Guardians of the Void",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Ancient Guardian of the Abyss",
+              "artisticName": "Soulbound Ushabti",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Protector of Eternity",
+              "artisticName": "Sentinel of the Void",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Soulkeeper of the Lost",
+              "artisticName": "Guardian Ushabti",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Wraith's Haunting Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Phantoms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Voidborn Guardian of Shadows",
+              "artisticName": "Spectral Phantasm",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Echoing Spirit of Desolation",
+              "artisticName": "Wailing Shade",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Soulbound Wraith of Torment",
+              "artisticName": "Ethereal Haunter",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Wraith's Minions",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Sentinel of Doom",
+              "artisticName": "Phantom Dreadguard",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Spectral Echo of Agony",
+              "artisticName": "Ethereal Tormentor",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Stalker of the Abyss",
+              "artisticName": "Shadowed Phantom",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Soulbound Legion",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Watcher of Souls",
+              "artisticName": "Spectral Soulkeeper",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Wailing Spirit of Redemption",
+              "artisticName": "Ghostly Redeemer",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Wraith of Despair",
+              "artisticName": "Spectral Desolator",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Shadows",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Guardian of the Void",
+              "artisticName": "Phantom Shadowguard",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Echoing Lament of Doom",
+              "artisticName": "Wailing Specter",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void Wraith of Shadows",
+              "artisticName": "Ethereal Shadowstalker",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

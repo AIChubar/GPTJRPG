@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "holy",
+      "secondAttribute": "dragon_ascended",
+      "thirdAttribute": "",
+      "characteristicName": "Ascended Dragon",
+      "artisticName": "Seraphel",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 70,
+      "friendliness": 20,
+      "intellect": 85,
+      "strategicThinking": 90,
+      "indifference": 10,
+      "flexibility": 40,
+      "communicationSkills": 75,
+      "morality": 95,
+      "chaoticity": 30
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Nyxara, shadow-weaver of the Umbral Caverns, your dark arts end here. Turn back, or face the wrath of the Guardians of Light.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "You underestimate my power, Seraphel. My shadows will consume your light!",
+        "enemyAnswer": "Your arrogance blinds you. Light prevails even in the darkest of times. Prepare to be dismantled.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Let's see if your light can withstand the chill of my Soulflame!",
+            "enemyAnswer": "Your Soulflame is but a flicker in the presence of celestial radiance. This fight was inevitable.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I thrive in inevitable battles. Let your end be a lesson to others.",
+                "enemyAnswer": "Then welcome the embrace of destiny. We clash now!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I'll turn your celestial radiance into everlasting night!",
+                "enemyAnswer": "Feel the true power of light as it obliterates your darkness. This ends now.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will unleash the horrors you cannot fathom!",
+            "enemyAnswer": "Summon them all, Nyxara. The more you send, the brighter my light shall shine.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then let my shadows dance with your light until one consumes the other!",
+                "enemyAnswer": "Your dance will end in defeat. Come, meet your fate.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Step aside, or face oblivion with your pride!",
+                "enemyAnswer": "Pride and justice go hand in hand. I step aside for no evil!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "You cannot fathom the depths of darkness I command.",
+            "enemyAnswer": "Darkness, even at its depths, is no match for the purity of light!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll revel in destroying your so-called purity!",
+                "enemyAnswer": "Purity will prevail over malevolence. Stand ready to be vanquished.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "My command over shadows will shatter your purity!",
+                "enemyAnswer": "Your shadows are weak against divine light. Prepare to be erased.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "What makes you so righteous, Seraphel? Have you never strayed from your path of light?",
+        "enemyAnswer": "My path is guided by principles of justice and purity. Straying is the way of the weak.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Principles are chains that prevent you from seeing true power!",
+            "enemyAnswer": "True power lies in righteousness and discipline, not in chaos and malevolence. You will be stopped.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll show you the strength of chaos!",
+                "enemyAnswer": "Your chaotic strength is hollow. I will put an end to your delusions.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Discipline? How boring. How mundane. How...weak.",
+                "enemyAnswer": "Weakness lies in a lack of purpose and conviction. Your jesting ends here.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your principles will be your undoing. Darkness has no chains.",
+            "enemyAnswer": "Darkness may not have chains, but it lacks true direction. Your downfall is certain.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Direction? My only direction is absolute dominion!",
+                "enemyAnswer": "Dominion sought through shadows ends in failure. And now, we clash!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Principles are the arrogances of the blind.",
+                "enemyAnswer": "Blind are those who think darkness can bring clarity. Your end is nigh.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Straying is the way of progress. Stagnation is the fallacy of the self-righteous.",
+            "enemyAnswer": "Progress through corruption breeds catastrophe. As an avatar of light, I shall stop you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then try, and fail!",
+                "enemyAnswer": "Failure isn't an option for me. Prepare yourself, darkness!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I'll bring the catastrophe, and you shall witness it!",
+                "enemyAnswer": "Witness your own defeat instead. Let the battle begin.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Step aside, dragon. The Shattered Realms of Dusk are mine to command now.",
+        "enemyAnswer": "Command this realm? You? Such delusions. I cannot allow this heresy to continue.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Heresy? Nay, destiny! And it shall be mine!",
+            "enemyAnswer": "Destiny forged in darkness is destined to crumble. You will not succeed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You shall witness the birth of my new world!",
+                "enemyAnswer": "And I shall be the one to stop it before it begins. Here and now, we fight!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Nothing will stand in my way, not even you!",
+                "enemyAnswer": "I stand against you, unwavering and unyielding. Prepare for battle!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The Guardians of Light shall fall, starting with you.",
+            "enemyAnswer": "The Guardians of Light are stronger than you believe. I will show you our true power.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Show me then, and I'll shatter it!",
+                "enemyAnswer": "Prepare to be overwhelmed by the light's might. This ends now.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You are but the first to fall in my conquest.",
+                "enemyAnswer": "I am the first and last barrier you will face. Ready yourself.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your light will be snuffed out by my shadows.",
+            "enemyAnswer": "Your shadows lack the strength to challenge the divine. Face the power of light!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Divinity is an illusion. True power is in the darkness.",
+                "enemyAnswer": "Such illusions blind you to reality. This is where your journey ends.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "My shadows are more potent than any light.",
+                "enemyAnswer": "They are but fleeting shadows. Face the eternal light!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

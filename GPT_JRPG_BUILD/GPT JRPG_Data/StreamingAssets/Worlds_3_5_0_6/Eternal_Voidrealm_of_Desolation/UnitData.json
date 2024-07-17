@@ -1,0 +1,147 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadowed Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Dark Ooze Horde",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Plague",
+              "artisticName": "Abyssal Slime",
+              "powerLevel": "moderate",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "spectral",
+              "characteristicName": "Spectral Blood Ooze",
+              "artisticName": "Shadowy Blob",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "acid",
+              "characteristicName": "Acidic Ooze Devourer",
+              "artisticName": "Venomous Sludge",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Eldritch Aberration Pack",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "giant_orange_brain",
+              "thirdAttribute": "",
+              "characteristicName": "Mindflayer Monstrosity",
+              "artisticName": "Eldritch Cerebrum",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "lab_rat",
+              "thirdAttribute": "",
+              "characteristicName": "Plague Rat Swarm",
+              "artisticName": "Shadowed Vermin",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "death",
+              "characteristicName": "Deathbringer Ooze",
+              "artisticName": "Corrupted Sludge",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Sands",
+      "enemyGroups": [
+        {
+          "groupName": "Phantom Specter Legion",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Spectral Lion Guardian",
+              "artisticName": "Wraithclaw the Phantom Beast",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "hydra",
+              "characteristicName": "Ethereal Hydra Sentinel",
+              "artisticName": "Specter Serpent",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "naga",
+              "characteristicName": "Spectral Naga Guardian",
+              "artisticName": "Phantom Serpentia",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Voidwalker's Domain",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Serpent's Legion",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "hydra",
+              "characteristicName": "Mystic Hydra Sentinel",
+              "artisticName": "Abyssal Serpent",
+              "powerLevel": "legendary",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Ethereal Lion Guardian",
+              "artisticName": "Spectral Fang",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Ethereal Void Stalker",
+              "artisticName": "Soulwraith",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Shadows",
+      "enemyGroups": [
+        {
+          "groupName": "The Darkling Horde",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Whispering Soul Haunters",
+              "artisticName": "Spectra the Shadowed Wraith",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Phantom Warriors",
+              "artisticName": "Phantasmal Legionnaires",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void-touched Spectres",
+              "artisticName": "Netheral the Ethereal Revenant",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "The Abyssal Abominations",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "death",
+              "characteristicName": "Deathly Azure Oozelings",
+              "artisticName": "Gloomslick the Visceral Horror",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "spectral",
+              "characteristicName": "Spectral Ooze Monstrosities",
+              "artisticName": "Phantom Slimes",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "void",
+              "characteristicName": "Void-infused Aberrations",
+              "artisticName": "Nihilus the Voidspawned Horror",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Shadowed Legionnaires",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Shadowed Wraith Monarchs",
+              "artisticName": "Nyxaris' Emissaries",
+              "powerLevel": "legendary",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadowed Wraith Assassins",
+              "artisticName": "Umbrath the Shadebringer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Shadowed Wraith Stalkers",
+              "artisticName": "Nocturna the Shadowstalker",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Nightshade Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Nightshade Ghost Warriors",
+              "artisticName": "Eclipsar the Phantom Knight",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Void-touched Spectral Knights",
+              "artisticName": "Shadewraith the Haunting Revenant",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Nightfall Stalker Shades",
+              "artisticName": "Duskshroud the Shadowed Phantom",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Twilight",
+      "enemyGroups": [
+        {
+          "groupName": "The Lava Serpentids",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "serpent",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Lava Serpent Guardians",
+              "artisticName": "Ignissia the Molten Serpent",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "serpent",
+              "thirdAttribute": "cobra",
+              "characteristicName": "Crimson Serpent Cobras",
+              "artisticName": "Venomstrike the Fiery Viper",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "serpent",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Infernal Serpent Wardens",
+              "artisticName": "Pyrothor the Flame Guardian",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Rusty Chain Guardians",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Rusty Chain Binders",
+              "artisticName": "Ferrum the Chain Constrictor",
+              "powerLevel": "moderate",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Chain Phantoms",
+              "artisticName": "Spectrus the Chain Specter",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "serpent",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Rusty Chain Serpentids",
+              "artisticName": "Rustscale the Corroded Guardian",
+              "powerLevel": "moderate",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Ember Elementalists",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "golem",
+              "thirdAttribute": "fire",
+              "characteristicName": "Emberstone Golems",
+              "artisticName": "Pyris the Flame Guardian",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "fire",
+              "characteristicName": "Inferno Elementals",
+              "artisticName": "Scorchius the Ember Elemental",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "phoenix",
+              "thirdAttribute": "",
+              "characteristicName": "Blaze Phoenixes",
+              "artisticName": "Flarewing the Phoenix",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Cursed Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Cursed Shadow Warriors",
+              "artisticName": "Shadowbane the Haunted Knight",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Abyssal Shadow Specters",
+              "artisticName": "Voidshroud the Shadow Revenant",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Twilight Shadow Stalkers",
+              "artisticName": "Duskmist the Shadow Phantom",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "enemyGroups": [
+        {
+          "groupName": "The Voidwalkers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Voidborne Spectral Shades",
+              "artisticName": "Abyssal the Voidwalker",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Lichborn Voidweavers",
+              "artisticName": "Necroshade the Void Sorcerer",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "king",
+              "characteristicName": "Ethereal Lich Kings",
+              "artisticName": "Soulrend the Void Monarch",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "The Abyssal Phantasms",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Abyssal Phantasmal Horrors",
+              "artisticName": "Shadeclaw the Phantasmal Horror",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "kraken",
+              "characteristicName": "Spectral Kraken Shades",
+              "artisticName": "Abyssal the Kraken Shade",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Voidbound Phantoms",
+              "artisticName": "Eldrazi the Voidbinder",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "The Shadowed Revenants",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Shadowed Revenant Warriors",
+              "artisticName": "Duskblade the Shadowed Knight",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Voidtouched Shadow Wraiths",
+              "artisticName": "Shadeclaw the Void Revenant",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Abyssal Shadowstalkers",
+              "artisticName": "Duskwraith the Shadowed Phantom",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "The Ethereal Shades",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Shadow Warriors",
+              "artisticName": "Necroshade the Ghostblade",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Voidtouched Spectral Sentinels",
+              "artisticName": "Shadebane the Ethereal Guardian",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Nightstalkers",
+              "artisticName": "Duskwraith the Shadowed Stalker",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Veins of Inferno",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Welcome to Veins of Inferno, a domain where the ground spasms with veins of liquid fire. The landscape is riddled with volatile stitches of molten stone, treacherous underfoot, casting licks of flame at those bold enough to trespass. Fiery pits of bubbling lava stand as monuments to the angers of the earth itself, sealing away all semblance of safety beneath ardent convulsions. The scorched air suffocates with acrid mists, promising peril for those unable to endure its relentless embrace."
+    },
+    {
+      "levelName": "Gloaming Marsh",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Step into Gloaming Marsh, a stretch of land where the dark grass grows thick, clutching at your ankles with unseen malevolence. Marshlands, brimming with deceptively quiet waters, lie in wait to swallow the unwary. Murky hollows whisper ancient secrets both dreadful and alluring. The air is filled with the calls of nocturnal creatures and the echoes of distant spirits yearning to see the dawn again."
+    },
+    {
+      "levelName": "Citadel of Harrowing Light",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Ascend to the Citadel of Harrowing Light, where the fractured platforms span chasms plunging into insidious darkness. These ghostly, unstable pathways tread across expanses fractured by chaos, and an abyssal gravity threatens to envelope any fallen adventurer. The citadel within houses none other than Arkundil, also known as Gale of Mitas, the legendary protector of the holy Guardians of Radiance. Bathed in oppressive light that sears and blinds, this throne of divine presence is a perilous site where the ultimate confrontation awaits."
+    }
+  ]
+}

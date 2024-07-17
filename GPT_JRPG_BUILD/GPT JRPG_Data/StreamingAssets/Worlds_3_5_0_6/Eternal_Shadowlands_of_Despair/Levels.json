@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Cursed Crypts of Woe",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Welcome to the Cursed Crypts of Woe, where the dark-grass whispers of ancient sorrows and the shadows conceal treacherous deep-dark holes waiting to claim unsuspecting souls. Beware the echoes of lost spirits that haunt this accursed realm."
+    },
+    {
+      "levelName": "Frostbite Peaks of Sorrow",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "water",
+      "levelDescription": "Traverse the Frostbite Peaks of Sorrow, where the snow-covered terrain glistens with icy despair and the chilling waters pose a deadly obstacle to those who dare to venture through this frozen wasteland. The howling winds carry the lament of the fallen across the desolate landscape."
+    },
+    {
+      "levelName": "Necrotic Abyss of Desolation",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Descend into the Necrotic Abyss of Desolation, where the charred lava-rock paths lead to a fiery inferno below. The scorching lava presents a harrowing challenge as you face the malevolent presence of Mortisus the Soul Devourer, the legendary Lich Necromancer, in his dark lair."
+    }
+  ]
+}

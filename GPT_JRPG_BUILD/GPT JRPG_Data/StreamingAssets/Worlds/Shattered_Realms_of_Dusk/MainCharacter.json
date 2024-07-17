@@ -1,0 +1,39 @@
+{
+  "name": "Nyxara",
+  "race": "Dark Elf",
+  "characterClass": "Necromancer",
+  "occupation": "Shadow Weaver",
+  "backStory": "Nyxara was born in the shadowed depths of the Umbral Caverns, a realm where light is a distant memory. Raised by a coven of necromancers, she was taught the dark arts from a young age. Her natural affinity for shadow magic made her a prodigy, and she quickly rose through the ranks. Driven by a desire to bring eternal night to the Shattered Realms of Dusk, Nyxara seeks to harness the power of the ancient ruins and the forbidden magics within. With each step, she gathers dark allies and prepares to face the Guardians of Light in a battle that will determine the fate of the world.",
+  "protagonistGroup": {
+    "groupName": "Nyxara's Shadow Court",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "king",
+        "characteristicName": "Wraith King",
+        "artisticName": "Mortrus",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "demon",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Shadow Demon",
+        "artisticName": "Umbra",
+        "powerLevel": "formidable",
+        "unitClass": "marksman"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "stalker",
+        "characteristicName": "Stalker Wraith",
+        "artisticName": "Noctis",
+        "powerLevel": "legendary",
+        "unitClass": "bastion"
+      }
+    ]
+  }
+}

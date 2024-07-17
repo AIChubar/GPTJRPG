@@ -1,0 +1,39 @@
+{
+  "name": "Thalia Nightshade",
+  "race": "serpentide",
+  "characterClass": "marksman",
+  "occupation": "Shadow Archer",
+  "backStory": "Thalia Nightshade, a cunning serpentide marksman known as the Shadow Archer, emerges from the Abyssal Waters of Eternal Dusk. With unparalleled skill in archery and a mysterious past veiled in shadows, Thalia vows to bring down the darkness that threatens the realm.",
+  "protagonistGroup": {
+    "groupName": "Twilight Hunters",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Spectral Soulreaper",
+        "artisticName": "Wraithblade the Phantom Slayer",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "stone_ghost",
+        "thirdAttribute": "",
+        "characteristicName": "Ancient Stone Sentinel",
+        "artisticName": "Gargoth the Silent Guardian",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "salamander",
+        "thirdAttribute": "firebrand",
+        "characteristicName": "Infernal Flamebringer",
+        "artisticName": "Blazefury the Scorching Conjuror",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

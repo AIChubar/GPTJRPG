@@ -1,0 +1,169 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "lurking_horror",
+      "thirdAttribute": "",
+      "characteristicName": "Lurking Horror",
+      "artisticName": "Nyrak",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 40,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I sense your presence, intruder. What purpose do you have in these dark lands?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek power to overthrow the forces of light.",
+        "enemyAnswer": "Ambitious, aren't we? Power is what drives us all, in the end.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will not be stopped, even by creatures like you.",
+            "enemyAnswer": "Bold words from one who treads on the edge of darkness. We shall see if you can back them up.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare for a battle then, I will show you the extent of my power.",
+                "enemyAnswer": "So be it. Let our strength be tested in the shadows. Attack!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense a formidable foe. Let's call a truce for now.",
+                "enemyAnswer": "Truce? An interesting proposal, but one that holds no place in the heart of shadows. Attack!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I acknowledge your strength. Is there a way we can cooperate?",
+            "enemyAnswer": "Cooperate? Such a rare concept in these lands. But perhaps there is potential in unity.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us join forces and crush our enemies together.",
+                "enemyAnswer": "An alliance of shadows, a pact of darkness. Very well, consider me your ally.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "I will respect your domain and avoid confrontation.",
+                "enemyAnswer": "Respect where respect is due. Your decision is wise. Ignore.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I see wisdom in caution. Let us part ways without conflict.",
+            "enemyAnswer": "Caution may be your saving grace, for the shadows hold many dangers. Farewell then, wanderer.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am merely passing through. No harm intended.",
+        "enemyAnswer": "Passing through, yet you disturb the balance of shadows. Explain yourself.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My presence is a mere coincidence, I mean no disruption.",
+            "enemyAnswer": "Coincidence or not, your aura bears the mark of upheaval. Be cautious, wanderer.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will heed your warning and continue on my way peacefully.",
+                "enemyAnswer": "Peaceful intentions or not, the shadows seldom welcome strangers. Ignore.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I sense hostility in your tone. Are you threatening me?",
+                "enemyAnswer": "Threatening? Merely a hint of the lurking dangers within these lands. Beware, traveler.",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I will keep my guard up and leave you to your domain.",
+                    "enemyAnswer": "A wise decision. Leave before the shadows consume you. Ignore.",
+                    "outcome": "ignore"
+                  },
+                  {
+                    "playerOption": "If you seek conflict, you shall find it. Prepare yourself.",
+                    "enemyAnswer": "Conflict is not sought, but faced when necessary. Take heed, for the shadows are unforgiving. Attack!",
+                    "outcome": "attack"
+                  }
+                ]
+              },
+              {
+                "playerOption": "Apologies for the disturbance, I will be on my way.",
+                "enemyAnswer": "Apologies hold no weight in the realm of shadows, but your departure is wise. Ignore.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to explore and learn. Your presence intrigues me.",
+        "enemyAnswer": "Intrigued by shadows and darkness, a peculiar interest for one such as you. What do you seek to learn?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I seek knowledge of the ancient magics that linger in these lands.",
+            "enemyAnswer": "Ancient magics weave a dangerous tapestry. Approach with care, seeker of knowledge.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will proceed with caution and respect for the mysteries of the dark.",
+                "enemyAnswer": "Caution and respect, virtues seldom found. Your path may lead to enlightenment or despair. Ignore.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you possess knowledge to share, I am willing to listen and learn.",
+                "enemyAnswer": "Knowledge is power, but power comes at a price. Will you pay it, seeker?",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I am prepared to pay any price for the wisdom of the shadows.",
+                    "enemyAnswer": "A bold claim, but one that may be tested in time. Consider me your ally in the pursuit of knowledge.",
+                    "outcome": "ally"
+                  },
+                  {
+                    "playerOption": "Knowledge is valuable, but I will not risk my safety for it.",
+                    "enemyAnswer": "Safety over wisdom, a choice made in the shadows. Your caution grants you favor. Ignore.",
+                    "outcome": "ignore"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand the creatures that dwell in darkness, like yourself.",
+            "enemyAnswer": "Understanding comes with time and experience, two things you may lack. Proceed cautiously, curious one.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will observe and learn from a distance, without interfering.",
+                "enemyAnswer": "Observation is a skill, interference a risk. Your path of passive learning may serve you well. Ignore.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If you are willing, I would like to converse more about the shadows and their inhabitants.",
+                "enemyAnswer": "Conversations in shadows reveal truths and deceptions. Will you decipher them, seeker of shadows?",
+                "playerCharacterAnswers": [
+                  {
+                    "playerOption": "I accept the challenge of uncovering the mysteries within your words.",
+                    "enemyAnswer": "Challenge accepted, seeker of truths. Let our words dance in the shadows of understanding. Ally.",
+                    "outcome": "ally"
+                  },
+                  {
+                    "playerOption": "I believe some mysteries are best left unsolved. I will depart in peace.",
+                    "enemyAnswer": "Wise words from one who dabbles in shadows. Depart in peace, and may the darkness protect you. Ignore.",
+                    "outcome": "ignore"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

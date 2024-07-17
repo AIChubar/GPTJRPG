@@ -1,0 +1,39 @@
+{
+  "name": "Thalindra Evergreen",
+  "race": "Wood Elf",
+  "characterClass": "Druid",
+  "occupation": "Preserver of Nature",
+  "backStory": "Born deep within the heart of the Whispering Wilderness, Thalindra Evergreen flourished amidst ancient groves and crystalline brooks. As a child of Cindul, an ancient grove-haven untarnished by time, she was nurtured by the very essence of nature. Thalindra passed countless days learning the harmonic languages of the trees, rivers, and skies. Guided by the Great Eldertree's wisdom, she grew into a guardian of balance and beauty, seeking to shield her verdant sanctuary from the encroaching darkness. When nature's synchronicity was disturbed by wanderers and malevolent forces, Thalindra emerged from the verdant foliage, wielding her druidic powers to heal and protect. Overflowing with spiritual serenity and fierce determination born from hardship weather-tested well-planted agonies amid filigree hearts purposed returning lushness self-sacrific ing and ancestral accordance_velenting in-born carving arcane rebounding values haunting sha no light achieves.",
+  "protagonistGroup": {
+    "groupName": "Thalindra's Circle of Verdancy",
+    "units": [
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "hydra",
+        "thirdAttribute": "",
+        "characteristicName": "Hydra Behemoth of Breath",
+        "artisticName": "Ydroviax the Resplendent Maw",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "dryad",
+        "thirdAttribute": "",
+        "characteristicName": "Elder Dryad Shieldkeeper",
+        "artisticName": "Mystelra, Guardian Nymph",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "centaur",
+        "characteristicName": "Spectral Hooven Avenger",
+        "artisticName": "Argavian, Whisper of Wrath",
+        "powerLevel": "legendary",
+        "unitClass": "marksman"
+      }
+    ]
+  }
+}

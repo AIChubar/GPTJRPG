@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "The Murky Marshes",
+      "walkableTerrain": "tundra-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Murky Marshes are a treacherous expanse of tundra-sand, where the ground is soft and treacherous, ready to swallow the unwary. Dark waters form perilous obstacles, hiding ancient creatures that lurk beneath the surface. This is a place where only the most cunning can navigate, as the shadows themselves seem to whisper secrets of the past."
+    },
+    {
+      "levelName": "The Fractured Peaks",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Fractured Peaks are a series of jagged mountains, their paths formed by fractured-wall-platforms that barely hold together. Deep-dark-holes punctuate the landscape, threatening to swallow any who misstep into their abyssal depths. The air is thick with the echoing cries of unseen creatures, and the only light comes from the occasional flicker of phosphorescent fungi."
+    },
+    {
+      "levelName": "The Celestial Citadel",
+      "walkableTerrain": "grey-brick-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Celestial Citadel stands as the final bastion of the Divine Guardians within the Twilight Abyss. Grey-brick-platforms form the paths that wind through this holy fortress, while pools of lava serve as deadly obstacles, symbolizing the clash between light and dark. Here, Seraphina the Radiant awaits, her legendary power ready to cleanse the shadows. The protagonist must confront her, for the fate of the Twilight Abyss hangs in the balance."
+    }
+  ]
+}

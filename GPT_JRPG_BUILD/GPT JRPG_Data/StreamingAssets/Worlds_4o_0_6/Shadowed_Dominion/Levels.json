@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Twilight Ruins",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "In the heart of the Shadowed Dominion lie the Twilight Ruins, where the remnants of a once-great city are now overrun by creeping shadows and twisted foliage. The ground is covered in dark grass that seems to whisper as you tread upon it, hiding treacherous deep-dark-holes that can swallow the unwary. The ruins are haunted by restless spirits, their mournful wails echoing through the eerie twilight. This place is a testament to the power struggles that have torn this land asunder, and now it stands as a battleground for those who seek to claim its dark secrets."
+    },
+    {
+      "levelName": "Crimson Wastes",
+      "walkableTerrain": "tundra-sand",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Crimson Wastes stretch across the Shadowed Dominion like a scar, a barren expanse of tundra-sand that glows with an unnatural red hue. Rivers of molten lava snake through the landscape, creating impassable barriers and deadly traps. The air is thick with the scent of sulfur, and the ground trembles with the distant rumble of volcanic activity. This desolate wasteland is home to fierce warriors and cunning tricksters who thrive in its harsh conditions. It is a place where only the strongest can survive, and where the weak are quickly consumed by the unforgiving environment."
+    },
+    {
+      "levelName": "Sanctum of the Unyielding Light",
+      "walkableTerrain": "grey-brick-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Sanctum of the Unyielding Light is the final bastion of Oros, the Titan Annihilator, and his Guardians of the Radiant Realm. This imposing fortress is built upon grey-brick-platforms that radiate an oppressive, holy aura. Cascading waterfalls of purifying water flow from its heights, creating barriers that cleanse any darkness they touch. The air is charged with divine energy, and the very ground seems to hum with power. Here, Oros, the Unyielding Light, stands ready to purge the Shadowed Dominion of its darkness, his legendary presence a beacon of destruction for all who dwell in the shadows. It is within this sanctum that the fate of the Shadowed Dominion will be decided, and where the final battle between light and darkness will take place."
+    }
+  ]
+}

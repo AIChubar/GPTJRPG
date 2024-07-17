@@ -1,0 +1,64 @@
+{
+    "levelsUnits" : [
+      {
+        "levelName" : "",
+        "enemyGroups" : [
+          {
+            "groupName" : "",
+            "units" :
+            [
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitClass" :""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "levelName" : "",
+        "enemyGroups" : [
+          {
+            "groupName" : "",
+            "units" :
+            [
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitClass" :""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "levelName" : "",
+        "enemyGroups" : [
+          {
+            "groupName" : "",
+            "units" :
+            [
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitClass" :""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

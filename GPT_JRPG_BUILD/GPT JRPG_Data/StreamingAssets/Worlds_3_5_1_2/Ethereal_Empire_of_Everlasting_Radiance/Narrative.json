@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "titan",
+    "thirdAttribute": "brawler",
+    "characteristicName": "Divine Sentinel Titan",
+    "artisticName": "Guardian of Celestial Realms",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "Celestial Conclave",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "cherub",
+        "thirdAttribute": "",
+        "characteristicName": "Ethereal Guardian Cherub",
+        "artisticName": "Celestial Cherubim",
+        "powerLevel": "mighty",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "warmonger",
+        "characteristicName": "Harbinger of Divinity",
+        "artisticName": "Archangel Azurion",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  },
+  "worldName": "Ethereal Empire of Everlasting Radiance",
+  "story": "In the Ethereal Empire of Everlasting Radiance, the Celestial Conclave of angelic beings has reigned over the realms, preserving peace and harmony. However, a great darkness threatens to engulf the land as the Divine Sentinel Titan, once a protector, has grown corrupt and seeks to enslave the mortal beings under his rule. The Harbinger of Divinity, Archangel Azurion, has joined forces with the Ethereal Guardian Cherub to stop the Titan's destructive rampage and save their world from annihilation.",
+  "greetingGameMessage": "Welcome, brave traveler, to the Ethereal Empire of Everlasting Radiance. Beware, for shadows loom over the once bright skies, and a powerful evil threatens to consume the realm. Will you rise up and aid the Celestial Conclave in their darkest hour?",
+  "defeatEndingMessage": "With the defeat of the Divine Sentinel Titan, the Ethereal Empire of Everlasting Radiance is saved from destruction. The Celestial Conclave can now restore peace and balance to the realms, ensuring that all beings can thrive once more.",
+  "gameOverMessage": "Alas, the darkness has prevailed. The corrupted Titan's forces overwhelm you, plunging the Ethereal Empire of Everlasting Radiance into eternal chaos and despair. The Celestial Conclave's light fades, and the realm faces a future shrouded in darkness."
+}

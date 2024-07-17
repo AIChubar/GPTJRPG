@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "The Blighted Grounds",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Embrace or Eradicate: The Revenant's Lament",
+          "questDescription": "The haunted whispers of the Blighted Grounds echo with memories of Yagarmaz, the Cursed Revenant. Will you form an unprecedented alliance with this spectral warrior whose animosity hangs like a shroud, or will you extinguish his spirit once and for all?",
+          "questObjective": "Yagarmaz"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Diffuse the Unseen's Shadows",
+          "questDescription": "Lorahka the Unseen, a master of veiled trickery, roams the Blighted Grounds with the sinister mission of deepening its darkness. By forging a union with Lorahka, will you call her unreadable power to your side?",
+          "questObjective": "Lorahka the Unseen"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Dismiss the Malevolent",
+          "questDescription": "Hatred simmers within Zarafka, the Malevolent Gazer whose unholy eyes pierce both dauntless heroes and malevolent villains alike. Drive out his malignant presence from the Blighted Grounds, acquiring for yourself the revered Amulet of Alliance.",
+          "questObjective": "Zarafka"
+        }
+      ]
+    },
+    {
+      "levelName": "Searing Dunes of Perdition",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Heat of the Knight",
+          "questDescription": "Amidst the dunes, the encompassing inferno calls forth Brakus Flamebringer, the Commanding Inferno Knight. Your task is to either align his fierce spirit with your own or silence his power, securing a path to continue through the scorching sands.",
+          "questObjective": "Brakus Flamebringer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Voice of the Shadows",
+          "questDescription": "Within hidden shadows slithers Datheron, a Shade Mephit whose allegiance to spectral forces makes him key to the aligning of powers. Convince him to unite with you, earning a gift of healing seldom dreamed within the realms.",
+          "questObjective": "Datheron"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Bane of Fire",
+          "questDescription": "Ignizaran, the Crimson Wyrm, poses a legendary threat within the burning perimeter of Searing Dunes. Vanquishing Ignizaran shall not only threaten no more but also earn you the illustrious Amulet of Alliance coveted by countless treaties.",
+          "questObjective": "Ignizaran"
+        }
+      ]
+    },
+    {
+      "levelName": "The Titan's Sepulcher",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Fall of the Annihilator",
+          "questDescription": "Face the ultimate trial as you challenge Olymorr, the Annihilator Titan, in his sanctified sepulcher. The destiny of Veiled Consecration hangs in the ether; emerge victorious, and reshape the balance entire.",
+          "questObjective": "Olymorr"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Enlist the Echo",
+          "questDescription": "Klebius, the Shadow Torturer, exists between eindecia and desolation within this sepulcher. What frightful, veiled whispers could he then rekindle if persuaded to align with your cause? Gain the Amulet of Healing in recruiting his cloak-and-dagger malice.",
+          "questObjective": "Klebius"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Call to Chaos Unbent",
+          "questDescription": "Seekers bereft cross paths with Safines, the Lightwalking Apys patrolling the hauntingly Holy Division of shared fates below fractured-wall-platforms perils. Ruthlessly expunge this vessel, resisting subterfuge\u2019s tempt at manic affection.",
+          "questObjective": "Safines"
+        }
+      ]
+    }
+  ]
+}

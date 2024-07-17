@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "wight",
+      "thirdAttribute": "king",
+      "characteristicName": "Wight King",
+      "artisticName": "Morghul",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 50,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to approach me, mortal? Speak quickly, for your presence here is an affront to the darkness.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek no quarrel, I only wish to pass through peacefully.",
+        "enemyAnswer": "Peace? There is no place for peace in these cursed lands. You are either conqueror or conquered.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Understood, I shall leave you to your domain.",
+            "enemyAnswer": "As you should. Your wisdom in retreat is acknowledged. Begone from my sight.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I will not back down. Stand aside or face the consequences.",
+            "enemyAnswer": "Bold words from a mere mortal. Prepare to face the wrath of the undead.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "Your arrogance blinds you, Wight King. I am not one to fear your empty threats.",
+        "enemyAnswer": "Arrogance? You are amusing, mortal. But your defiance shall be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have faced greater foes than you and emerged victorious. Yield or face defeat.",
+            "enemyAnswer": "Impudent fool. Your bravado will cost you dearly. Prepare for eternal darkness.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Let us put our differences aside. There are greater threats in these lands than each other.",
+            "enemyAnswer": "Ha! Cowardice masked as diplomacy. There is no unity between the living and the dead.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "Enough of this banter. I will not waste words with the likes of you. Prepare for battle.",
+        "enemyAnswer": "Ahh, the straightforward approach. How refreshing. Let us dance the dance of death, mortal.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I relish the challenge. Let our blades meet in combat.",
+            "enemyAnswer": "So be it. May your soul find peace in the darkness that awaits.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I see no honor in this fight. Perhaps another time, Wight King.",
+            "enemyAnswer": "Honor? In a world consumed by darkness? Your words amuse me. Leave before I change my mind.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

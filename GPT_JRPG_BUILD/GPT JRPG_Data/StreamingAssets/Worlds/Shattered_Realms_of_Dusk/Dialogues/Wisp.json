@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "phantom",
+      "secondAttribute": "spectral",
+      "thirdAttribute": "ghost",
+      "characteristicName": "Spectral Ghost",
+      "artisticName": "Wisp",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 70,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 50,
+      "indifference": 60,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 15,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Who dares disturb the eternal slumber of the Withered Grove?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "It is I, Nyxara, seeking the power of darkness to consume this realm.",
+        "enemyAnswer": "Nyxara, the Shadow Weaver. Your ambitions mirror the void. You shall find no allies here.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "All I need are those who can be bent to my will. Help me or face obliteration.",
+            "enemyAnswer": "You overestimate your strength. The shadows will not bow to you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then you will perish in the darkness.",
+                "enemyAnswer": "Try if you dare, but you will regret this encounter.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I\u2019ll find others more willing to serve my cause.",
+                "enemyAnswer": "Leave, while you still can. The phantoms of this grove hold no loyalty to you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to join forces against the Guardians of Light.",
+            "enemyAnswer": "Join forces? Your darkness is compelling, but trust is a rare commodity here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We share a common enemy. That should be enough.",
+                "enemyAnswer": "Common enemies don't always make for loyal friends. Be gone.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "My powers can offer protection even to the spectral.",
+                "enemyAnswer": "Foolish necromancer, spirits desire no such protection.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Reveal your secrets, or pay the price.",
+            "enemyAnswer": "Secrets stay hidden for a reason; you will find only woe.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then I shall unravel them myself, starting with you.",
+                "enemyAnswer": "An ambitious one, but ambition has its limits.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I\u2019ll spare you if you tell me what I seek.",
+                "enemyAnswer": "You speak of mercy, but offer only threats. Begone before it gets worse.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking answers that only the dead may provide.",
+        "enemyAnswer": "The dead whisper many secrets, but not to those who traverse with malevolence.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I can make the dead speak, even if it means tearing them apart.",
+            "enemyAnswer": "The phantoms will resist, and you will be forsaken by their wrath.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let their wrath come. I fear nothing.",
+                "enemyAnswer": "Then prepare for an eternity of torment.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps we can come to an understanding.",
+                "enemyAnswer": "Misunderstanding is the root of all conflict. Leave and ponder your actions.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer an exchange: knowledge for power.",
+            "enemyAnswer": "An intriguing offer, but power comes at a costly price.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "No price is too high for victory.",
+                "enemyAnswer": "Arrogance blinds you. Such blindness will be your end.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Name your price. I am willing to pay.",
+                "enemyAnswer": "We desire nothing of yours. Leave this place immediately.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Guide me through the Grove, and I shall reward you.",
+            "enemyAnswer": "Phantoms do not crave rewards of the living. Your offer is futile.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Everyone has a price, even specters.",
+                "enemyAnswer": "You understand nothing of our desires. Depart before you find despair.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Then I will find my own way.",
+                "enemyAnswer": "Stray not from the path, lest you join the restless spirits.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Out of my way, spirit. I have no time for games.",
+        "enemyAnswer": "Such arrogance will lead you to your doom.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have faced greater threats than you and prevailed.",
+            "enemyAnswer": "You mistake bravado for strength. Meet your match now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Bring it on, specter!",
+                "enemyAnswer": "Feel the wrath of the restless dead.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "This place is not worth my time.",
+                "enemyAnswer": "Then leave and never return.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Respect the power of a Shadow Weaver.",
+            "enemyAnswer": "Respect is earned, not demanded. You shall earn none here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "So be it. I will tear through this Grove.",
+                "enemyAnswer": "A fool's errand. Best of luck evading the spirits.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Then I will show you my power.",
+                "enemyAnswer": "Show your worth, and face the consequences.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Games are for children. Phantoms should know their place.",
+            "enemyAnswer": "We know our place, and it is here to haunt you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You haunt no one, spirit.",
+                "enemyAnswer": "Then face the wrath of the spectral host.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Do as you wish. I am leaving.",
+                "enemyAnswer": "Indeed, and never return.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

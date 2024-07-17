@@ -1,0 +1,41 @@
+{
+      "name": "",
+      "race": "",
+      "characterClass": "",
+      "occupation": "",
+      "backStory": "",
+      "protagonistGroup" :
+      {
+            "groupName" : "",
+            "units" :
+            [
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitClass" :""
+              },
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitClass" :""
+              },
+              {
+                "firstAttribute": "",
+                "secondAttribute": "",
+                "thirdAttribute" : "",
+                "characteristicName" : "",
+                "artisticName" : "",
+                "powerLevel" :"",
+                "unitClass" :""
+              }
+            ]
+      }
+}

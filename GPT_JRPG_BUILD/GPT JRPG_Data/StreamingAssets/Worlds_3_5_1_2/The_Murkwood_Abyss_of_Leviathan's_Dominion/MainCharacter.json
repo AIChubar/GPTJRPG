@@ -1,0 +1,39 @@
+{
+  "name": "Eldryn Emberbane",
+  "race": "hell",
+  "characterClass": "paladin",
+  "occupation": "Infernal Crusader of Flames",
+  "backStory": "Eldryn Emberbane, a fierce devil of righteous fury, carries the eternal flame through the shadows of the Abyssal Realms, purging darkness with a blade bathed in infernal fire. Born from the depths of brimstone, Eldryn marches through the veil of despair, a beacon of light in the encroaching night.",
+  "protagonistGroup": {
+    "groupName": "Blazing Legion",
+    "units": [
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "naga",
+        "thirdAttribute": "ritualist",
+        "characteristicName": "Abyssal Hex Weaver",
+        "artisticName": "Thavra Hexclasp",
+        "powerLevel": "mighty",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "sphinx",
+        "thirdAttribute": "",
+        "characteristicName": "Mystical Guardian Sentinel",
+        "artisticName": "Riddlemark Warder",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "stalker",
+        "characteristicName": "Ethereal Shadow Reaper",
+        "artisticName": "Soulshatter Grimbeast",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadowed Abyss",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Welcome to the Shadowed Abyss, where the ground is covered in eerie dark-dirt and treacherous deep-dark-holes that threaten to swallow the unwary traveler whole."
+    },
+    {
+      "levelName": "Spectral Sands",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Traverse the Spectral Sands, a haunting landscape of pink-sand shimmering under a ghostly light, with mystical waters blocking the path ahead."
+    },
+    {
+      "levelName": "Voidwalker's Domain",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Enter the treacherous realm of the Voidwalker, where fractured-wall-platforms float above rivers of molten lava, creating a hazardous path towards the legendary Soulwraith's lair."
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Ethereal Woods",
+      "enemyGroups": [
+        {
+          "groupName": "Veiled Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Ethereal Wraithstalker",
+              "artisticName": "Shadowveil Grimlurker",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Stonehide Mountain Monstrosity",
+              "artisticName": "Roughwood Thundertroll",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Mystic Planes Weaver",
+              "artisticName": "Vortexdream Warpbringer",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Enchanted Sentries",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "simulacrum",
+              "thirdAttribute": "centaur",
+              "characteristicName": "Echoing Ancient Guardian",
+              "artisticName": "Rimeshield Etherealkin",
+              "powerLevel": "moderate",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "aquamancer",
+              "characteristicName": "Tidal Wavecaller",
+              "artisticName": "Seamist Serenah",
+              "powerLevel": "weak",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "dwarf",
+              "thirdAttribute": "",
+              "characteristicName": "Ironbound Mountain Guardian",
+              "artisticName": "Adamantstone Earthwarden",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Mystical Phantoms",
+          "units": [
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "kenku_winged",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Harbinger of Avian Fury",
+              "artisticName": "Galeshriek Skyrender",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "minotaur",
+              "thirdAttribute": "",
+              "characteristicName": "Monstrous Labyrinth Champion",
+              "artisticName": "Bloodwall Minotrox",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "lord",
+              "characteristicName": "Cursed Undying Ruler",
+              "artisticName": "Wraithbound Deathlord",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Wardens",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "soul",
+              "thirdAttribute": "drowned",
+              "characteristicName": "Sorrowful Depths Walker",
+              "artisticName": "Abyssal Lamentationwraith",
+              "powerLevel": "moderate",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Cerulean Essence Seer",
+              "artisticName": "Soulwhisper Aquaethereal",
+              "powerLevel": "weak",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skull",
+              "thirdAttribute": "flying",
+              "characteristicName": "Haunting Skyborne Skull",
+              "artisticName": "Deathflit Mistcranium",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Frostbite Canyon",
+      "enemyGroups": [
+        {
+          "groupName": "Frozen Phalanx",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "missing",
+              "characteristicName": "Chilling Memory Wraith",
+              "artisticName": "Frostveil Echoseeker",
+              "powerLevel": "moderate",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "fire",
+              "characteristicName": "Infernal Flame Drakewyrm",
+              "artisticName": "Scorchwing Pyrodrake",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "crystalid",
+              "thirdAttribute": "",
+              "characteristicName": "Luminescent Crystal Weaver",
+              "artisticName": "Frostgaze Prismord",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Icy Crescendo",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Frostbound Serpent Guardian",
+              "artisticName": "Glacialcoil Frostwarder",
+              "powerLevel": "moderate",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "imp",
+              "thirdAttribute": "torturer",
+              "characteristicName": "Malevolent Fiendtormentor",
+              "artisticName": "Agonybender Hellimp",
+              "powerLevel": "weak",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "elf",
+              "thirdAttribute": "militia",
+              "characteristicName": "Frostbow Elven Sentinel",
+              "artisticName": "Iceshadow Glacierguard",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Glacier Revenants",
+          "units": [
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "sphinx",
+              "thirdAttribute": "",
+              "characteristicName": "Frozen Enigma Sentinel",
+              "artisticName": "Glacierfrost Riddleward",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Frozen Bone Wyrmvers",
+              "artisticName": "Frostspine Skeletalon",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Chilling Mist Wyrmkin",
+              "artisticName": "Frostwing Gloomwyrm",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Catacombs",
+      "enemyGroups": [
+        {
+          "groupName": "Midnight Enforcers",
+          "units": [
+            {
+              "firstAttribute": "humanoid",
+              "secondAttribute": "gnome_mage",
+              "thirdAttribute": "",
+              "characteristicName": "Arcane Gnome Conjurer",
+              "artisticName": "Mysticorb Glimmerbeard",
+              "powerLevel": "weak",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "necromancer",
+              "characteristicName": "Dreaded Soulweave Lich",
+              "artisticName": "Cryptcaller Necroshade",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Forgotten Granite Sentinel",
+              "artisticName": "Ruinbound Stoneguard",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadowfell Conspirators",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Ethereal Spectral Prophet",
+              "artisticName": "Hollowshade Omenseer",
+              "powerLevel": "weak",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "golden",
+              "characteristicName": "Voidflame Goldendrake",
+              "artisticName": "Duskglower Aurorake",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "moth",
+              "thirdAttribute": "",
+              "characteristicName": "Twilight Herald Moth",
+              "artisticName": "Duskwake Glimmermoth",
+              "powerLevel": "moderate",
+              "unitClass": "shaman"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkened Guardians",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Infernal Lavaspawn Drake",
+              "artisticName": "Moltenfire Cinderwyrm",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "dragon",
+              "characteristicName": "Shadebound Voidspirit",
+              "artisticName": "Abyssaldrift Wraithrazor",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "lurking_horror",
+              "thirdAttribute": "",
+              "characteristicName": "Whispering Abyss Dread",
+              "artisticName": "Mistslither Shadowhaunt",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Ebon Crypt Revenants",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wight",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Spectral Soulhunter",
+              "artisticName": "Gloomspire Shadebearer",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "anubis_guard",
+              "thirdAttribute": "",
+              "characteristicName": "Shadowed Guardian Sentinel",
+              "artisticName": "Nightveil Tombwarden",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "witch",
+              "characteristicName": "Whispersong Enchantress",
+              "artisticName": "Coralmoan Abysschanter",
+              "powerLevel": "moderate",
+              "unitClass": "shaman"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

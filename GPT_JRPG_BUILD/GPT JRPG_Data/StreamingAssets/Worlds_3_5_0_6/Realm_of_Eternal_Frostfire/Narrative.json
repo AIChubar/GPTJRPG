@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "warrior",
+    "characteristicName": "Void Stalker",
+    "artisticName": "Zyralith the Wraith",
+    "powerLevel": "legendary",
+    "unitClass": "fighter"
+  },
+  "antagonistGroup": {
+    "groupName": "Dread Legion",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "simulacrum",
+        "thirdAttribute": "dragon",
+        "characteristicName": "Frostscale Serpent",
+        "artisticName": "Glaciora the Frostscale",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "devil",
+        "thirdAttribute": "red",
+        "characteristicName": "Infernal Overlord",
+        "artisticName": "Malphas the Infernal",
+        "powerLevel": "legendary",
+        "unitClass": "berserker"
+      }
+    ]
+  },
+  "worldName": "Realm of Eternal Frostfire",
+  "story": "In the Realm of Eternal Frostfire, a dark and icy land shrouded in eternal twilight, a malevolent force known as Zyralith the Wraith rules with an iron fist. Zyralith, also known as the Void Stalker, is a ghostly warrior who commands the Dread Legion, a formidable army of creatures. Alongside Zyralith, Glaciora the Frostscale, a powerful Frostscale Serpent, and Malphas the Infernal, the fiery Infernal Overlord, stand as the terrifying leaders of the Legion. The land is gripped by fear and despair as the Dread Legion spreads chaos and destruction wherever they go, seeking to plunge the realm into eternal darkness.",
+  "greetingGameMessage": "Welcome, traveler, to the Realm of Eternal Frostfire. Beware the chilling embrace of Zyralith the Wraith and his Dread Legion. May your courage guide you in the face of darkness.",
+  "defeatEndingMessage": "With the defeat of Zyralith the Wraith and the Dread Legion, the Realm of Eternal Frostfire is finally free from their tyranny. The land begins to heal, and hope flickers once more in the hearts of its inhabitants.",
+  "gameOverMessage": "Alas, the darkness of the Dread Legion proved too overwhelming. The Realm of Eternal Frostfire is forever shrouded in eternal frostfire, a grim reminder of the valiant efforts that fell short."
+}

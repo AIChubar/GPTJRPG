@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Shadows of Despair",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Harmony Amidst Shadows",
+          "questDescription": "Restore balance in the Shadows of Despair by either eliminating or uniting with one of the Ethereal Nightmares.",
+          "questObjective": "Phantomshade"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Echoes of Compassion",
+          "questDescription": "Seek out and unite with the Spectral Void Wraith, Phantomshade, to harness its healing powers.",
+          "questObjective": "Phantomshade"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadows' Demise",
+          "questDescription": "Defeat the Ethereal Shadow Stalker, Darkwhisper, to earn the amulet of alliance.",
+          "questObjective": "Darkwhisper"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Wasteland",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Whispers of Unity",
+          "questDescription": "Decide the fate of the Illusory Trickster, Mysticwhisper, by either joining forces or putting an end to its deception.",
+          "questObjective": "Mysticwhisper"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Guardian's Embrace",
+          "questDescription": "Unite with the Ethereal Forest Guardian, Willowshade, to receive the amulet of healing and protection.",
+          "questObjective": "Willowshade"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Siren's Song",
+          "questDescription": "Defeat the Siren of the Depths, Abyssal Songstress, to claim the amulet of alliance and silence her haunting melodies.",
+          "questObjective": "Abyssal Songstress"
+        }
+      ]
+    },
+    {
+      "levelName": "Void's Embrace",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Embrace the Void",
+          "questDescription": "Confront the Nethermourn, the Ethereal Void Stalker, in a final battle to claim victory and bring light to the Void's Embrace.",
+          "questObjective": "Nethermourn"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Shadows' Respite",
+          "questDescription": "Unite with the Frostbound Wraith, Iceveil Wraith, to receive the amulet of healing and soothe the icy chill of the void.",
+          "questObjective": "Iceveil Wraith"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Conqueror's Triumph",
+          "questDescription": "Defeat the Rotten Ghoul Hound, Blighted Fleshhound, to earn the amulet of alliance and cleanse the void of its putrid presence.",
+          "questObjective": "Blighted Fleshhound"
+        }
+      ]
+    }
+  ]
+}

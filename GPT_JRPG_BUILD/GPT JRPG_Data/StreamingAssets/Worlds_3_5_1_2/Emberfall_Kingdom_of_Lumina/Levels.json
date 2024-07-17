@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Blazing Sands",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Trek through the Blazing Sands where the pink sands scorch under the relentless sun. Beware of the molten lava streams that flow across the treacherous desert, presenting a formidable challenge for even the most seasoned adventurer."
+    },
+    {
+      "levelName": "Frostbitten Ravine",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Traverse the Frostbitten Ravine blanketed in pristine snow, the air icy and unforgiving. Beware of the chilling abyss lurking beneath the thin ice, a deep dark hole that threatens to swallow all who misstep on this frozen path."
+    },
+    {
+      "levelName": "Shadowed Catacombs",
+      "walkableTerrain": "dark-dirt",
+      "obstacleTerrain": "water",
+      "levelDescription": "Descend into the Shadowed Catacombs, a labyrinth of darkness and decay. Navigate the eerie dark dirt pathways but beware of the hidden water traps that can submerge unwary adventurers in the cold depths of the underground tunnels."
+    }
+  ]
+}

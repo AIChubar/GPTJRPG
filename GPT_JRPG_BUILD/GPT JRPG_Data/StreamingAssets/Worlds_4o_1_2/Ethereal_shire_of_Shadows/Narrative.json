@@ -1,0 +1,41 @@
+{
+  "storyType": "good",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "lich",
+    "thirdAttribute": "necromancer",
+    "characteristicName": "Necromancer Lich",
+    "artisticName": "Morathos the Deathweaver",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "Shadow Cabal",
+    "units": [
+      {
+        "firstAttribute": "humanoid",
+        "secondAttribute": "deep_elf",
+        "thirdAttribute": "death_mage",
+        "characteristicName": "Deep Elf Death Mage",
+        "artisticName": "Elara the Dark Conjurer",
+        "powerLevel": "mighty",
+        "unitClass": "berserker"
+      },
+      {
+        "firstAttribute": "abomination",
+        "secondAttribute": "ooze",
+        "thirdAttribute": "plague",
+        "characteristicName": "Plague Ooze",
+        "artisticName": "Virul the Malignant Sludge",
+        "powerLevel": "formidable",
+        "unitClass": "shaman"
+      }
+    ]
+  },
+  "worldName": "Ethereal shire of Shadows",
+  "story": "The world of Ethereal Shire of Shadows is a land where shadows dance between moments of resplendent light. Here, ancient forests whisper secrets of forgotten times, vast magic-infused meadows hum with ethereal melodies, ",
+  "and rivers of crystalline clarity meander under constantly shifting skies. Towers of shimmering stone rise into the heavens, and in the east, the enigmatic Shadewood Forest is perpetually cloaked in twilight.": "However, this tranquil beauty is shattered by a looming peril. Morathos the Deathweaver, a former archmage corrupted by the dark arts of necromancy, seeks to shroud the world in eternal darkness, resurrecting armies of undead to do his bidding. He is aided by the Shadow Cabal, a group of malevolent sorcerers and twisted monsters. This vile consortium, populated with ancient elf sorcerers and plague-spreading oozes, works tirelessly to unleash the shadow onto Ethereal Shire's vibrant lands. Valiant warriors, stalwart adventurers, and cunning scouts have all fallen prey to their designs. There lies a daunting despair but also a flicker of hope that finely trained spirits and heroes from adjacent realms might turn the tide against this darkest threat.",
+  "greetingGameMessage": "Dear descendent, welcome to the Ethereal Shire of Shadows\u2014it is a land at the edges of twilight and dawn. A tranquil world awakening beneath your footfalls, shaded with looming dangers yours to discover and vanquish!",
+  "defeatEndingMessage": "Doom swathed the entire world as Morathos the Deathweaver captured boundless forces of life together onto subjugated whispers of sorrow. Shadow throne paved with bones stands brightly indeed but steadily just till fall bury.",
+  "gameOverMessage": "All life withered under creeping shadows created by annihilate final existence until former Morathos total terror forensic led only followers emanating darker tale ought decide erase all..."
+}

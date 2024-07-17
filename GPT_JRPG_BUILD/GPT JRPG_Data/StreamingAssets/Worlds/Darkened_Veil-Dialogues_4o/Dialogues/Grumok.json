@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beast",
+      "secondAttribute": "troll",
+      "thirdAttribute": "forest",
+      "characteristicName": "Forest Troll",
+      "artisticName": "Grumok",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 85,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 40,
+      "indifference": 20,
+      "flexibility": 25,
+      "communicationSkills": 35,
+      "morality": 15,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You stumble into Grumok's domain, puny creature! Speak quick, or be eaten slow!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek the dark artifacts within this forest. Lend me your strength, and I shall share my power with you.",
+        "enemyAnswer": "Grumok not care for puny artifacts. Grumok care for strength. Show you strong, then maybe talk.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Very well, I'll prove my strength. Let's wrestle, beast!",
+            "enemyAnswer": "Grumok like wrestle! But if you lose, Grumok feast on you!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Agreed. Prepare yourself!",
+                "enemyAnswer": "Grumok ready!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "On second thought, maybe we can find another way.",
+                "enemyAnswer": "Coward! Grumok crush weaklings!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "No, I won't fight you. I have other means to gain strength.",
+            "enemyAnswer": "Grumok see you weak, not worth time.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll prove to you I'm not weak! Give me a chance!",
+                "enemyAnswer": "Grumok give no more chances.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Then I'll leave you to your forest. Farewell, Grumok.",
+                "enemyAnswer": "Leave quick, or Grumok change mind.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have dark magic that can enhance your power. Interested?",
+            "enemyAnswer": "Grumok not trust magic. Magic tricky.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "It's not tricky if you know how to use it. Let me show you.",
+                "enemyAnswer": "Grumok still not trust. Leave or fight!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Fair enough, beasts don't understand true power.",
+                "enemyAnswer": "Grumok crush insult!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Step aside, troll! I have no time for your games.",
+        "enemyAnswer": "Grumok not like tone. You walk away, or Grumok smash!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Try smashing me, then, if you dare!",
+            "enemyAnswer": "Grumok gladly smash!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Foolish troll. Prepare to be obliterated!",
+                "enemyAnswer": "Grumok break you!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Just as expected from a mindless brute.",
+                "enemyAnswer": "Grumok not mindless! Grumok strong!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Very well, I'll walk away for now.",
+            "enemyAnswer": "Good choice. Grumok watch you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Remember this moment, troll. I'll be back.",
+                "enemyAnswer": "Grumok not afraid. You come back, Grumok ready.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Run along now, and maybe I'll spare your life next time.",
+                "enemyAnswer": "Grumok not like threats. Come back and fight!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Not worth my energy. Goodbye.",
+            "enemyAnswer": "Grumok tired of weaklings. Go!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You'll regret this, beast.",
+                "enemyAnswer": "Grumok regret nothing. Weaklings not matter.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Farewell, insignificant creature.",
+                "enemyAnswer": "Grumok not care. Leave now.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I could use a brute like you in my ranks. Join me, and we shall conquer together.",
+        "enemyAnswer": "Grumok not follow puny creature. Grumok have own strength.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You fool. Together, we could be unstoppable!",
+            "enemyAnswer": "Grumok not need help to be strong.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "So be it. I'll find stronger allies.",
+                "enemyAnswer": "Good luck. Grumok strong alone.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Very well. Farewell, stubborn troll.",
+                "enemyAnswer": "Grumok not care. Go!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your loss. Many others are eager to join me.",
+            "enemyAnswer": "Grumok not care for others. Leave now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You'll soon regret not joining me.",
+                "enemyAnswer": "Grumok regret nothing. Go!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "They shall prove more useful than you, anyway.",
+                "enemyAnswer": "Grumok not need you. Go!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Think on this, Grumok: power is greater when shared.",
+            "enemyAnswer": "Grumok need no sharing. Grumok strong alone.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A pity. Your strength could have grown tenfold.",
+                "enemyAnswer": "Grumok tired of talk. Leave before Grumok smash!",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Then you shall remain weak in the grand scheme.",
+                "enemyAnswer": "Grumok not weak! Grumok show you strength!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Morvath",
+  "race": "Shadowborn",
+  "characterClass": "Dark Sorcerer",
+  "occupation": "Eclipse Seeker",
+  "backStory": "Morvath was born from the very essence of darkness in the heart of the Abyssal Chasm. He was raised by the Night Witches, who taught him the arcane secrets of shadow magic and the art of bending darkness to his will. As he grew, Morvath's power became unmatched, and he was driven by a singular purpose: to extinguish the last remnants of light and plunge the world into eternal night. His ultimate goal is to destroy Aurelius the Undying and his Guardians of the Light, and to claim the Heart of Light for himself, ensuring the reign of darkness over the Darkened Spires of Eternity.",
+  "protagonistGroup": {
+    "groupName": "Morvath's Shadow Legion",
+    "units": [
+      {
+        "firstAttribute": "abomination",
+        "secondAttribute": "ooze",
+        "thirdAttribute": "void",
+        "characteristicName": "Void Ooze",
+        "artisticName": "Zaroth",
+        "powerLevel": "formidable",
+        "unitClass": "shaman"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "balrug",
+        "thirdAttribute": "",
+        "characteristicName": "Balrug Fiend",
+        "artisticName": "Infernos",
+        "powerLevel": "mighty",
+        "unitClass": "berserker"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "dragon",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Shadow Dragon",
+        "artisticName": "Umbros",
+        "powerLevel": "legendary",
+        "unitClass": "protector"
+      }
+    ]
+  }
+}

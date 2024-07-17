@@ -1,0 +1,152 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "holy",
+      "secondAttribute": "human_ascended",
+      "thirdAttribute": "",
+      "characteristicName": "Ascended Human",
+      "artisticName": "Michael",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 80,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 75,
+      "morality": 10,
+      "chaoticity": 30
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare to stand before me, dark entity? What purpose do you have in this accursed realm?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek the Heart of Light to bring eternal darkness to this world.",
+        "enemyAnswer": "Ha! You think darkness can triumph over light? Foolish and reckless.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My power surpasses the feeble light you cling to.",
+            "enemyAnswer": "Arrogance and hubris will be your downfall. Prepare for the wrath of the light!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Enough talk. Let our powers clash in battle!",
+                "enemyAnswer": "So be it, dark one. Face the might of the light!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see the futility in facing you. I shall retreat for now.",
+                "enemyAnswer": "Pathetic coward. Flee back to the shadows where you belong!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The Heart of Light will be mine, and your resistance is futile.",
+            "enemyAnswer": "You underestimate the strength of our cause. Darkness will never prevail here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will crush your feeble attempts to protect the Heart.",
+                "enemyAnswer": "Bold words from a darkened soul. Prepare to be vanquished!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there is room for negotiation. Join me, and together we can rule this realm.",
+                "enemyAnswer": "Betray my kin for darkness? Never! You stand alone in your wickedness.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your light is but a fleeting flame before the shadows of eternity.",
+            "enemyAnswer": "Insolent creature, darkness will never snuff out the light of hope.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let us settle this with a duel of powers.",
+                "enemyAnswer": "Your challenge is accepted. The light shall prevail!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense the strength in your resolve. Perhaps we can find common ground.",
+                "enemyAnswer": "There is no common ground between us, creature of darkness. Prepare for judgment.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am here to offer you a chance to join forces with me in embracing the darkness.",
+        "enemyAnswer": "Darkness is not the path to redemption. Your offer is as empty as the void.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Your resistance is noted. But consider the power we could wield together.",
+            "enemyAnswer": "Power built on shadows is brittle and hollow. I will not be swayed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "It seems words have failed us. Let our actions speak for us.",
+                "enemyAnswer": "Indeed, actions speak louder than words. Prepare for the clash of wills!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I see there is no room for negotiation. Allow me to part ways peacefully.",
+                "enemyAnswer": "Your departure is of no consequence. Darkness will never prevail here.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer you one last chance to join me before the darkness consumes you.",
+            "enemyAnswer": "The darkness holds no sway over the light within me. Your offer is futile.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "So be it. Let our powers decide the victor.",
+                "enemyAnswer": "Your fate is sealed, dark one. The light shall banish your shadows.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I sense your unwavering resolve. I shall depart and leave you to your light.",
+                "enemyAnswer": "Wise choice. Darkness has no place in the presence of the light.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "It seems our paths diverge here. May the shadows of eternity guide your way.",
+            "enemyAnswer": "The shadows may guide, but the light shall always illuminate the true path.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let our parting be peaceful, and may our powers never clash.",
+                "enemyAnswer": "Agreed. May the balance between light and dark remain unbroken.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Farewell, ascended one. May your light shine bright in the darkness.",
+                "enemyAnswer": "And may your darkness find solace in the shadows. Farewell.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have no intentions of engaging in a futile battle with you. Let us go our separate ways.",
+        "enemyAnswer": "A wise choice, dark entity. The light will always stand against the shadows.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "May our paths never cross again. Let the darkness and light find their own paths.",
+            "enemyAnswer": "Agreed. Let the balance of this realm remain undisturbed by our presence.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I bid you farewell, ascended one. May the twists of fate be kind to us both.",
+            "enemyAnswer": "And to you, dark harbinger. May your shadows find peace in the abyss.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "devil",
+      "thirdAttribute": "red",
+      "characteristicName": "Red Devil",
+      "artisticName": "Azazel",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 60,
+      "strategicThinking": 40,
+      "indifference": 30,
+      "flexibility": 20,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 60,
+      "braveness": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare enter my domain, Shadow Conqueror? Prepare for the flames of hell to consume you!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Bold words from a mere devil. Stand aside, or be extinguished.",
+        "enemyAnswer": "Ha! Your arrogance amuses me. Let's see if you can back it up.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I will crush you and your kin without breaking a sweat.",
+            "enemyAnswer": "We'll see about that, worm.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare to be eradicated!",
+                "enemyAnswer": "Bring it on, invader!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Fall before my power, Azazel!",
+                "enemyAnswer": "Your power is nothing compared to mine!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "The fires of hell are but a flicker to the dark magic I wield.",
+            "enemyAnswer": "Your dark magic is nothing but a trifle.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Insult me again, and I'll roast you alive.",
+                "enemyAnswer": "I'd like to see you try!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Return to your infernal pit, wretch.",
+                "enemyAnswer": "You will regret this day, fool.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no time for your games. Move or perish.",
+            "enemyAnswer": "I will not move, not for you or anyone.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then you will meet your end.",
+                "enemyAnswer": "Let's settle this once and for all.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Foolish devil, your death is but a stepping stone.",
+                "enemyAnswer": "Death will soon be yours!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Azazel, your reputation precedes you, but I have no quarrel with you.",
+        "enemyAnswer": "Words of a coward. Prove your worth or perish.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I have defeated stronger foes than you.",
+            "enemyAnswer": "Empty boasts. Face me if you dare.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your end is nigh, Azazel!",
+                "enemyAnswer": "Prepare to burn, fool.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You underestimate me at your peril.",
+                "enemyAnswer": "Come then, show me what you can do.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek only to pass. Stand aside.",
+            "enemyAnswer": "Your pleas fall on deaf ears. Fight or flee.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will not flee. Prepare yourself.",
+                "enemyAnswer": "Good. I grow tired of waiting.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well, but don't expect mercy.",
+                "enemyAnswer": "Mercy is for the weak. Fight!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have an offer that might interest you.",
+            "enemyAnswer": "I doubt anything you offer can sway me.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Join forces with me, and we shall rule together.",
+                "enemyAnswer": "Your offer tempts me, but I will not be swayed.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Help me and gain power beyond imagination.",
+                "enemyAnswer": "Tempting, but I'll pass. Now, begone.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Leave while you can, Azazel. I spare you out of mercy.",
+        "enemyAnswer": "Mercy? From you? Hah! I'll show you what mercy means in hell!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Undoubtedly, hell awaits you after I'm done.",
+            "enemyAnswer": "We'll see who burns first!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Feel the wrath of my dark magic!",
+                "enemyAnswer": "Taste my flames!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your demise is inevitable.",
+                "enemyAnswer": "You're about to find out just how wrong you are.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your overconfidence will be your downfall.",
+            "enemyAnswer": "And your arrogance will be yours.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let's end this now, Azazel.",
+                "enemyAnswer": "With pleasure!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Prepare to be obliterated.",
+                "enemyAnswer": "You first!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I could use a devil like you in my ranks.",
+            "enemyAnswer": "Tempting, but I serve no one.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then face your fate.",
+                "enemyAnswer": "Bring it on, Shadow Conqueror!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your loss. Die like the rest.",
+                "enemyAnswer": "Not today!",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

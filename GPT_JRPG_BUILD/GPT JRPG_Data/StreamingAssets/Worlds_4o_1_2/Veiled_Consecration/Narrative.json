@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "titan",
+    "thirdAttribute": "annihilator",
+    "characteristicName": "Annihilator Titan",
+    "artisticName": "Olymorr",
+    "powerLevel": "legendary",
+    "unitClass": "paladin"
+  },
+  "antagonistGroup": {
+    "groupName": "Guardians of the Light",
+    "units": [
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "imp",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Shadow Torturer",
+        "artisticName": "Klebius",
+        "powerLevel": "mighty",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "merfolk",
+        "thirdAttribute": "fighter",
+        "characteristicName": "Aquamancer Warrior",
+        "artisticName": "Fionalea",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Veiled Consecration",
+  "story": "The world of Veiled Consecration has always been one of stark dualities: beauty and wretchedness, tranquility and chaos, benevolence and malice. In this world, powerful entities have risen to maintain the delicate equilibrium and guard its fragile fabric. The Guardians of the Light, led by the venerable yet intimidating Olymorr, are legendary defenders bound to protecting the high sanctities of the cosmos. However, darkness doesn't remain absent for long. The brooding harbingers of destruction, lurking in the world's shadows, seek to dissolve this fine balance with forces unfamiliar in Veiled Consecration.",
+  "greetingGameMessage": "Welcome, dark spirit, to the realm of Veiled Consecration. An intricate world lies before you, teeming with possibility and teetering on the brink of profound shift. Your essence shall stir its core.",
+  "defeatEndingMessage": "Against all odds, the titan has fallen. Light has stumbled. Whisper of darkness sweeps across Veiled Consecration - this threshold shudders still under possibility unshaped. How will you shape it, victorious one?",
+  "gameOverMessage": "Recoil in despair, defeated unto raising the fists of your folly! Balance shall reassert. Olymorr and his Guardians invoke as veils shred illusions not pleasant. Darkness, returning to silent embrace, for now abides elsewhere."
+}

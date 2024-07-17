@@ -1,0 +1,191 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "imp",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Shadow Imp",
+      "artisticName": "Zelrok",
+      "powerLevel": "moderate"
+    },
+    "personaMetrics": {
+      "aggressiveness": 70,
+      "friendliness": 10,
+      "intellect": 45,
+      "strategicThinking": 60,
+      "indifference": 15,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 5,
+      "chaoticity": 85,
+      "braveness": 40
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Well, well, what do we have here? Another fool who thinks they can conquer the Darkened Veil. What brings you to my shadows?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come for power, Zelrok. Join me, and you will be rewarded.",
+        "enemyAnswer": "Hah! What makes you think I need your rewards when I have shadows to play with?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The shadows are but fleeting; my dominion will be eternal.",
+            "enemyAnswer": "Quite confident, aren't you? Show me your strength, then.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well, prepare yourself.",
+                "enemyAnswer": "Your arrogance will be your downfall. Let\u2019s see if you have what it takes!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Strength isn't the only path. We can share the spoils.",
+                "enemyAnswer": "Hmm, sharing sounds weak, but perhaps the shadows need a stronger ally.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "You underestimate the dark power I possess.",
+            "enemyAnswer": "Big words, little substance. Let\u2019s test your mettle.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You will regret doubting me.",
+                "enemyAnswer": "I doubt I will. Enough talk, fight!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Or perhaps we could form an unholy alliance and crush the light together?",
+                "enemyAnswer": "An alliance? Interesting. The shadows speak highly of your potential.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "I\u2019ve no time for banter. Step aside, or face annihilation.",
+            "enemyAnswer": "Force over words, eh? Fine by me. En garde!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Consider it your final warning.",
+                "enemyAnswer": "Warnings are for the weak. Let\u2019s end this.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well, face your fate.",
+                "enemyAnswer": "Come then, I thrive in combat!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek to unleash true darkness upon the world, greater than any shadow you command.",
+        "enemyAnswer": "Bold claim! What makes you think you can outdarken me?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My power dwarfs yours; join me or be crushed.",
+            "enemyAnswer": "Let\u2019s see if your strength is as great as your words!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare for battle, then.",
+                "enemyAnswer": "I accept your challenge. Let\u2019s dance in the shadows!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Spare yourself and join my ranks.",
+                "enemyAnswer": "Fine, I\u2019ll give you a chance. But cross me, and you\u2019ll wish you hadn\u2019t.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "Or we can rule together, spreading fear and darkness.",
+            "enemyAnswer": "Spreading fear does sound tempting. Perhaps you are worthy.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Together, none shall oppose us.",
+                "enemyAnswer": "Very well, let\u2019s terrify the world.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "You will see the wisdom in my words soon enough.",
+                "enemyAnswer": "Hmph. I might. For now, you have my attention.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "Step aside, or be obliterated by the darkness I command.",
+            "enemyAnswer": "You think you can scare me with threats? I thrive on them!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You\u2019ve been warned.",
+                "enemyAnswer": "Enough. Your arrogance ends now.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The choice is yours, make it wisely.",
+                "enemyAnswer": "Wisdom? Hah! I choose battle!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Do you wish to linger in the shadows or rise to true power?",
+        "enemyAnswer": "True power, you say? What would a mere mortal know of it?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I know the taste of conquest, unlike any other.",
+            "enemyAnswer": "Words, words. Let\u2019s see if you can back them up.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Enough talk, let\u2019s fight!",
+                "enemyAnswer": "Finally, action! Bring it on!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Join me and taste victory together.",
+                "enemyAnswer": "Victory... a tempting offer. Alright, I\u2019m in.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your shadows can be a key to might unimaginable.",
+            "enemyAnswer": "Might unimaginable, you say? Convince me further.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your power combined with mine will be unstoppable.",
+                "enemyAnswer": "You make a convincing proposition. Let\u2019s join forces.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "Or perhaps you\u2019d prefer to stay insignificant.",
+                "enemyAnswer": "Insignificant? Your arrogance infuriates me. Prepare to fight!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "You have a choice: dwell in shadows or conquer the world.",
+            "enemyAnswer": "Ha! You presume too much. The shadows are my refuge.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A refuge or a cage? Choose wisely.",
+                "enemyAnswer": "I grow tired of this. Leave now, lest I change my mind.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Stay in your shadows then, I will find true power elsewhere.",
+                "enemyAnswer": "Run along, darkling. I have no time for pretenders.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

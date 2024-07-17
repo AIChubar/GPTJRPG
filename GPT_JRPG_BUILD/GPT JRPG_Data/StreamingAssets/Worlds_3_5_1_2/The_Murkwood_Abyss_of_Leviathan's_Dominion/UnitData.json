@@ -1,0 +1,135 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Abyssal Caverns",
+      "enemyGroups": [
+        {
+          "groupName": "Tidecaller's Echo",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "lion",
+              "characteristicName": "Shadowed Soulstalkers",
+              "artisticName": "Kraitha the Soulslasher",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Twilight Serpentscales",
+              "artisticName": "Nagrodil the Duskblade",
+              "powerLevel": "mighty",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "hydra",
+              "thirdAttribute": "",
+              "characteristicName": "Dreaded Maws of Abyss",
+              "artisticName": "Xylothor the Devourer",
+              "powerLevel": "strong",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Darkwater Phantoms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Whispering Haunters",
+              "artisticName": "Xaltherion the Ephemeral",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Shadow Slitherers",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "worldbinder",
+              "thirdAttribute": "",
+              "characteristicName": "Blackened Shroudcasters",
+              "artisticName": "Necrathys the Voidweaver",
+              "powerLevel": "strong",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Serpentine Shoreline",
+      "enemyGroups": [
+        {
+          "groupName": "Duskblade Whiplashers",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "troll",
+              "thirdAttribute": "rock",
+              "characteristicName": "Stonecrusher Ravagers",
+              "artisticName": "Gorthak the Boulderfiend",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Crimson Sirens",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Bloodbound Enchantresses",
+              "artisticName": "Maralys the Sanguine Sorceress",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Void Tidecallers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Abyssal Soulshadows",
+              "artisticName": "Maerthas the Void Wraith",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Leviathan's Lair",
+      "enemyGroups": [
+        {
+          "groupName": "Molten Conjurers",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "salamander",
+              "thirdAttribute": "stormcaller",
+              "characteristicName": "Infernal Tempestweavers",
+              "artisticName": "Pyrothor the Infernocaller",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

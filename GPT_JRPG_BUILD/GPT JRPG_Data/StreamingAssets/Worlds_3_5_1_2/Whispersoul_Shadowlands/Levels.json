@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadowsong Thicket",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "water",
+      "levelDescription": "Welcome to Shadowsong Thicket, where dark grass whispers eerie melodies and hidden dangers lurk beneath the murky waters. Traverse carefully to avoid falling victim to the treacherous depths."
+    },
+    {
+      "levelName": "Ethereal Desolation",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Journey through the chilling landscape of Ethereal Desolation, where the cold, unforgiving snow blankets the ground. Beware the gaping deep-dark holes that threaten to swallow all who dare to venture too close."
+    },
+    {
+      "levelName": "Veil of Shadows",
+      "walkableTerrain": "tundra-sand",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Step into the Veil of Shadows, a realm cloaked in tundra sand and colored by molten lava rivers that sear the land. In the heart of this fiery domain awaits the legendary Ethereal Specter of the Void, a trickster of unmatched power and cunning."
+    }
+  ]
+}

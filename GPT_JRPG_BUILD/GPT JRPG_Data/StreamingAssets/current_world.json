@@ -1,0 +1,95 @@
+{
+  "worldName": "Shadowrand_Expanse",
+  "enemiesMain": [
+    {
+      "firstAttribute": "abomination",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "acid",
+      "characteristicName": "Corrosive Flame",
+      "artisticName": "Zerrax",
+      "powerLevel": "mighty",
+      "unitClass": "shaman"
+    },
+    {
+      "firstAttribute": "hell",
+      "secondAttribute": "devil",
+      "thirdAttribute": "hairy",
+      "characteristicName": "Infernal Furry",
+      "artisticName": "Rhastal",
+      "powerLevel": "strong",
+      "unitClass": "fighter"
+    },
+    {
+      "firstAttribute": "abomination",
+      "secondAttribute": "orb_guardian",
+      "thirdAttribute": "",
+      "characteristicName": "Inferno Watcher",
+      "artisticName": "Qixi",
+      "powerLevel": "formidable",
+      "unitClass": "marksman"
+    },
+    {
+      "firstAttribute": "hell",
+      "secondAttribute": "salamander",
+      "thirdAttribute": "stormcaller",
+      "characteristicName": "Stormkindler",
+      "artisticName": "Vyranon",
+      "powerLevel": "formidable",
+      "unitClass": "sorcerer"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "wight",
+      "thirdAttribute": "shadow",
+      "characteristicName": "Ebon Obliterator",
+      "artisticName": "Vyrric",
+      "powerLevel": "formidable",
+      "unitClass": "marksman"
+    },
+    {
+      "firstAttribute": "relict",
+      "secondAttribute": "satyr",
+      "thirdAttribute": "",
+      "characteristicName": "Trickster of Swamps",
+      "artisticName": "Javischa",
+      "powerLevel": "moderate",
+      "unitClass": "trickster"
+    },
+    {
+      "firstAttribute": "phantom",
+      "secondAttribute": "lurking_horror",
+      "thirdAttribute": "",
+      "characteristicName": "Faintmar Swarm Wyrm",
+      "artisticName": "Baladrak",
+      "powerLevel": "mighty",
+      "unitClass": "shaman"
+    },
+    {
+      "firstAttribute": "undead",
+      "secondAttribute": "ghost",
+      "thirdAttribute": "flayed",
+      "characteristicName": "Flayed Nightmare Husk",
+      "artisticName": "Nithrial",
+      "powerLevel": "strong",
+      "unitClass": "marksman"
+    },
+    {
+      "firstAttribute": "holy",
+      "secondAttribute": "angel",
+      "thirdAttribute": "macewielder",
+      "characteristicName": "Celestial Basher",
+      "artisticName": "Elidora",
+      "powerLevel": "strong",
+      "unitClass": "protector"
+    },
+    {
+      "firstAttribute": "holy",
+      "secondAttribute": "cherub",
+      "thirdAttribute": "",
+      "characteristicName": "Veiled Stranger",
+      "artisticName": "Ezekion",
+      "powerLevel": "moderate",
+      "unitClass": "shaman"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "void",
+    "characteristicName": "Ethereal Voidstalker",
+    "artisticName": "Netherbane",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "The Shadow Legion",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "lord",
+        "characteristicName": "Ancient Lord of Decay",
+        "artisticName": "Gravewraith",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "shapeshifter",
+        "thirdAttribute": "radiant",
+        "characteristicName": "Luminous Mimic of Deception",
+        "artisticName": "Mirageform",
+        "powerLevel": "legendary",
+        "unitClass": "trickster"
+      }
+    ]
+  },
+  "worldName": "Ethereal Realm of Eternal Shadows",
+  "story": "In the Ethereal Realm of Eternal Shadows, a dark presence looms over the land. The Netherbane, a powerful Ethereal Voidstalker, commands The Shadow Legion, an army of undead and relicts. The Ancient Lord of Decay, Gravewraith, and the Luminous Mimic of Deception, Mirageform, serve as the Netherbane's formidable allies. The world is shrouded in darkness and despair, with the forces of evil threatening to consume everything in their path.",
+  "greetingGameMessage": "Welcome, traveler, to the Ethereal Realm of Eternal Shadows. Beware the shadows that dance with malice, for the darkness here holds ancient evils that seek to corrupt your soul.",
+  "defeatEndingMessage": "With the defeat of the Netherbane and The Shadow Legion, the Ethereal Realm of Eternal Shadows is finally free from the grip of darkness. Light and hope return to the land, and the people rejoice in the newfound peace.",
+  "gameOverMessage": "Alas, the darkness proved too strong for you. The Netherbane and The Shadow Legion reign supreme, spreading their malevolent influence across the Ethereal Realm of Eternal Shadows. All hope is lost as the world succumbs to eternal night."
+}

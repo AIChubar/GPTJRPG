@@ -1,0 +1,39 @@
+{
+  "name": "Kaelara Moonshroud",
+  "race": "serpentide",
+  "characterClass": "paladin",
+  "occupation": "Keeper of Lunar Serenity",
+  "backStory": "Kaelara Moonshroud, a mystical naga warrior blessed by the lunar spirits, roams the ethereal shores of the Moonlit Tides, defending the balance between light and shadow. Born under the celestial moon, Kaelara wields her silvered blade to uphold harmony and protect the realm from encroaching darkness.",
+  "protagonistGroup": {
+    "groupName": "Moonlit Guardians",
+    "units": [
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "ice_drake",
+        "thirdAttribute": "golden",
+        "characteristicName": "Frostcale Goldflame Warden",
+        "artisticName": "Glacial Aurorablaze",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "dryad",
+        "thirdAttribute": "",
+        "characteristicName": "Nature's Verdant Sentinel",
+        "artisticName": "Thornwood Echokeeper",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "shadow",
+        "characteristicName": "Ethereal Nightshade Revenant",
+        "artisticName": "Soulshadow Duskstalker",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

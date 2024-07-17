@@ -1,0 +1,163 @@
+{
+  "enemySpeakerInfo": {
+    "unit" : {
+      "firstAttribute": "",
+      "secondAttribute": "",
+      "thirdAttribute" : "",
+      "characteristicName" : "",
+      "artisticName" : "",
+      "powerLevel" :""
+    },
+    "personaMetrics" :
+    {
+        "aggressiveness": 0,
+        "friendliness": 0,
+        "intellect": 0,
+        "strategicThinking": 0,
+        "indifference": 0,
+        "flexibility": 0,
+        "communicationSkills": 0,
+        "morality": 0,
+        "chaoticity": 0
+    }
+  },
+  
+  "dialogueTree":
+    {
+      "enemyPhrase" : "",
+      "playerCharacterAnswers" : [
+        {"playerOption" : "",
+        "enemyAnswer" : "",
+          "playerCharacterAnswers":
+          [
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]},
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]},
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]}
+          ]},
+        {"playerOption" : "",
+          "enemyAnswer" : "",
+          "playerCharacterAnswers":
+          [
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]},
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]},
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]}
+          ]},
+        {"playerOption" : "",
+          "enemyAnswer" : "",
+          "playerCharacterAnswers":
+          [
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]},
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]},
+            {"playerOption" : "",
+              "enemyAnswer" : "",
+              "playerCharacterAnswers":
+              [
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                },
+                {"playerOption" : "",
+                  "enemyAnswer" : "",
+                  "outcome": ""
+                }
+              ]}
+          ]}
+        ]
+    }
+}

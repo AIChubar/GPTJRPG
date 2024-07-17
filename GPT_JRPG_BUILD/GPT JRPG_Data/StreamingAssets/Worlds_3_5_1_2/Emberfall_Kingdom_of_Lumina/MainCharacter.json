@@ -1,0 +1,39 @@
+{
+  "name": "Ariak Stormbringer",
+  "race": "birdlike",
+  "characterClass": "conjurer",
+  "occupation": "Seeker of the Storm's Wisdom",
+  "backStory": "Ariak Stormbringer, a winged kenku with a talent for magic, journeys through the skies of the Emberfall Kingdom in search of ancient knowledge held within the storms. Tasked with unraveling the secrets of the elements, Ariak stands as a beacon of hope in the face of encroaching darkness.",
+  "protagonistGroup": {
+    "groupName": "Lightning Vortex Vanguard",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "shapeshifter",
+        "thirdAttribute": "radiant",
+        "characteristicName": "Luminous Seraphic Evoker",
+        "artisticName": "Zephyr Wyndcaller",
+        "powerLevel": "mighty",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "griffon",
+        "thirdAttribute": "",
+        "characteristicName": "Stormwing Sky Sentinel",
+        "artisticName": "Aeris Thunderclaw",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "serpentide",
+        "secondAttribute": "merfolk",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Aqua Sentinel Guardian",
+        "artisticName": "Nami Tidecaller",
+        "powerLevel": "legendary",
+        "unitClass": "paladin"
+      }
+    ]
+  }
+}

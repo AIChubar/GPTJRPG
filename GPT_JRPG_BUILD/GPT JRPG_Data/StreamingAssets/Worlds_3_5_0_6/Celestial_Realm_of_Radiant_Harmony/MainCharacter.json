@@ -1,0 +1,39 @@
+{
+  "name": "Eldric Stormbringer",
+  "race": "humanoid",
+  "characterClass": "sorcerer",
+  "occupation": "Arcane Enchanter",
+  "backStory": "Eldric Stormbringer, a powerful humanoid sorcerer known as the Arcane Enchanter, emerges from the depths of the Celestial Realm of Radiant Harmony. With a mysterious past shrouded in ancient secrets, Eldric wields the forces of magic to combat the darkness that threatens to engulf the realm.",
+  "protagonistGroup": {
+    "groupName": "Radiant Guardians",
+    "units": [
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "shapeshifter",
+        "thirdAttribute": "radiant",
+        "characteristicName": "Mystical Form Weaver of Light",
+        "artisticName": "Aetheria the Luminous Illusionist",
+        "powerLevel": "mighty",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "drake",
+        "thirdAttribute": "ice",
+        "characteristicName": "Frostbound Guardian",
+        "artisticName": "Glacia the Frost Wyrm",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "vampire",
+        "thirdAttribute": "knight",
+        "characteristicName": "Shadowed Blood Knight",
+        "artisticName": "Valerian the Nightblade",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Frostfire Caverns",
+      "walkableTerrain": "snow",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Welcome to the Frostfire Caverns, where the icy snow crunches beneath your feet, contrasting with the raging rivers of lava that flow through the treacherous tunnels. The chilling winds carry whispers of the Shadow Legion's presence, warning you of the imminent danger ahead."
+    },
+    {
+      "levelName": "Shadowed Tundra",
+      "walkableTerrain": "tundra-sand",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Traverse the Shadowed Tundra, where the cold tundra sand muffles your steps, concealing the yawning chasms of deep dark holes that threaten to swallow the unwary. The air is heavy with the echoes of the Nightmare Wraith's sinister laughter, sending shivers down your spine."
+    },
+    {
+      "levelName": "Ethereal Abyss",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Descend into the depths of the Ethereal Abyss, where fractured wall platforms float above the dark waters below. The eerie glow of the void water illuminates the ghostly figures of the Shadow Legion, led by the legendary sorcerer, the Nightmare Wraith, whose power emanates from the very depths of this haunting realm."
+    }
+  ]
+}

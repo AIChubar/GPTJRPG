@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Whispering Shadows",
+      "enemyGroups": [
+        {
+          "groupName": "Echoed Dread",
+          "units": [
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "grand_avatar",
+              "thirdAttribute": "",
+              "characteristicName": "Desolate Phantasmal Lord",
+              "artisticName": "Astrahes the Sapient Shade",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "ghost",
+              "characteristicName": "Phantasmal Haunting Ghost",
+              "artisticName": "Igdiris the Spector",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "phantom",
+              "secondAttribute": "spectral",
+              "thirdAttribute": "worm",
+              "characteristicName": "Whispering Worm Specter",
+              "artisticName": "Serlynth the Forlorn",
+              "powerLevel": "moderate",
+              "unitClass": "berserker"
+            }
+          ]
+        },
+        {
+          "groupName": "Tenebrous Heathens",
+          "units": [
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "centaur",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Centaur Nightstalker",
+              "artisticName": "Kurnath The Cimmerian",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "spriggan",
+              "thirdAttribute": "enchanter",
+              "characteristicName": "Spriggan Shadow Enchanter",
+              "artisticName": "Verdeline Wokehiss",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "spriggan",
+              "thirdAttribute": "defender",
+              "characteristicName": "Spriggan Guardian",
+              "artisticName": "Masked Telaeish",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Umbral Harbingers",
+          "units": [
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "tentacle",
+              "characteristicName": "Tentacled Night Ooze",
+              "artisticName": "Malvirox the Corrupted",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "orb_guardian",
+              "thirdAttribute": "",
+              "characteristicName": "Orb Sentinel",
+              "artisticName": "Haelcar Bloodeye",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "abomination",
+              "secondAttribute": "ooze",
+              "thirdAttribute": "spectral",
+              "characteristicName": "Spectral Ooze",
+              "artisticName": "Haunter Kethi",
+              "powerLevel": "moderate",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Vault of Terrors",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Gonebone Guardian",
+              "artisticName": "Lord Anatheme",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Phantom Slayer",
+              "artisticName": "Vhel Radithlan",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wight",
+              "thirdAttribute": "king",
+              "characteristicName": "King of Wights",
+              "artisticName": "Necros the Immortal Fang",
+              "powerLevel": "formidable",
+              "unitClass": "bastion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Spectral Veil Sands",
+      "enemyGroups": [
+        {
+          "groupName": "Desert Scourge",
+          "units": [
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "wyvern",
+              "thirdAttribute": "",
+              "characteristicName": "Duskbeast",
+              "artisticName": "Sarif, Wing of Whispers",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "entropic_weaver",
+              "thirdAttribute": "",
+              "characteristicName": "Weaver of Demise",
+              "artisticName": "Ghastia Nightclad",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "beast",
+              "secondAttribute": "venom",
+              "thirdAttribute": "",
+              "characteristicName": "Poison Serpent",
+              "artisticName": "Strigisthoth Venowhisp",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Haunts of the Deep Seer",
+          "units": [
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "raven",
+              "thirdAttribute": "",
+              "characteristicName": "Forsaken Raven",
+              "artisticName": "Durakoth Norkail",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "kenku_winged",
+              "thirdAttribute": "",
+              "characteristicName": "Wuorath Nagimor",
+              "artisticName": "Ebon Avian Empath",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "birdlike",
+              "secondAttribute": "manticore",
+              "thirdAttribute": "",
+              "characteristicName": "Dread Manticore",
+              "artisticName": "Ark'larash Rothwick",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            }
+          ]
+        },
+        {
+          "groupName": "Phantom Garden Glints",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "serpent",
+              "thirdAttribute": "cobra",
+              "characteristicName": "Cobra Scourge",
+              "artisticName": "Ssumgol Hissstream",
+              "powerLevel": "formidable",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "sharpshooter",
+              "characteristicName": "Night Fang",
+              "artisticName": "Mithlax Hevendred",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Twilight Sorcerer",
+              "artisticName": "Noria Serpentwhisper",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            }
+          ]
+        },
+        {
+          "groupName": "Ethereal Mirages",
+          "units": [
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "giant",
+              "thirdAttribute": "stone",
+              "characteristicName": "Stone Guardian",
+              "artisticName": "Kahel Reskaarl",
+              "powerLevel": "mighty",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "air",
+              "characteristicName": "Air Elemental",
+              "artisticName": "Hur'an Dreinos",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "primordial",
+              "secondAttribute": "elemental",
+              "thirdAttribute": "stone",
+              "characteristicName": "Rock Mauler",
+              "artisticName": "Lonith Crag",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Obsidian Brawl",
+      "enemyGroups": [
+        {
+          "groupName": "Titan Wyrmclaw",
+          "units": [
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "dragon",
+              "thirdAttribute": "iron",
+              "characteristicName": "Iron Wyrmling Enforcer",
+              "artisticName": "Grakyax the Gnashing",
+              "powerLevel": "formidable",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "fire",
+              "characteristicName": "Inferno Drake",
+              "artisticName": "Vurkos the Infernal",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "death",
+              "characteristicName": "Deathwind Drake",
+              "artisticName": "Jogtan Morgath",
+              "powerLevel": "deadly",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Ash Heralds",
+          "units": [
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "lava_worm",
+              "thirdAttribute": "",
+              "characteristicName": "Feast of Fiery Etihe",
+              "artisticName": "Selvron Cursequell",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "balrug",
+              "thirdAttribute": "",
+              "characteristicName": "Fiery Tyrant",
+              "artisticName": "Balstrem Flamewretch",
+              "powerLevel": "mighty",
+              "unitClass": "berserker"
+            },
+            {
+              "firstAttribute": "hell",
+              "secondAttribute": "hell_knight",
+              "thirdAttribute": "breaker",
+              "characteristicName": "Breaker Scion",
+              "artisticName": "Uloth Dorrath",
+              "powerLevel": "deadly",
+              "unitClass": "protector"
+            }
+          ]
+        },
+        {
+          "groupName": "Dread Watch",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Angelhorn Brave",
+              "artisticName": "Alshera Knightfall",
+              "powerLevel": "formidable",
+              "unitClass": "shaman"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "opal_guardian",
+              "thirdAttribute": "",
+              "characteristicName": "Form of Stained",
+              "artisticName": "Sir Lagryth Boonbinder",
+              "powerLevel": "mighty",
+              "unitClass": "defender"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "shedu",
+              "thirdAttribute": "",
+              "characteristicName": "Soul Balbrake Shroud",
+              "artisticName": "Hiniel Presrisit",
+              "powerLevel": "strong",
+              "unitClass": "marksman"
+            }
+          ]
+        },
+        {
+          "groupName": "Eclipsing Sentinels",
+          "units": [
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "brawler",
+              "characteristicName": "Titanic Restore Chains",
+              "artisticName": "Porenus Weststar",
+              "powerLevel": "formidable",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "shieldden",
+              "characteristicName": "Wielder Roughtwisp",
+              "artisticName": "Hurad Throgra",
+              "powerLevel": "mighty",
+              "unitClass": "marksman"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "cherub",
+              "thirdAttribute": "",
+              "characteristicName": "Splendor Stavederoids",
+              "artisticName": "Kilaho Sorlpther the",
+              "powerLevel": "deadly",
+              "unitClass": "trickster"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "storyType" : "",
+    "antagonist" : {
+            "firstAttribute": "",
+            "secondAttribute": "",
+            "thirdAttribute" : "",
+            "characteristicName" : "",
+            "artisticName" : "",
+            "powerLevel" :"",
+            "unitClass" :""
+          },
+    "antagonistGroup" : {
+        "groupName" : "",
+        "units" :
+        [
+          {
+            "firstAttribute": "",
+            "secondAttribute": "",
+            "thirdAttribute" : "",
+            "characteristicName" : "",
+            "artisticName" : "",
+            "powerLevel" :"",
+            "unitClass" :""
+          },
+          {
+            "firstAttribute": "",
+            "secondAttribute": "",
+            "thirdAttribute" : "",
+            "characteristicName" : "",
+            "artisticName" : "",
+            "powerLevel" :"",
+            "unitClass" :""
+          }
+        ]
+      },
+    "worldName" : "",
+    "story": "",
+    "greetingGameMessage": "",
+    "defeatEndingMessage": "",
+    "gameOverMessage" : "",
+
+}

@@ -1,0 +1,113 @@
+{
+    "worldName": "Veil_of_Shadows",
+    "enemiesMain": [
+        {
+            "firstAttribute": "abomination",
+            "secondAttribute": "ooze",
+            "thirdAttribute": "plague",
+            "characteristicName": "Plague Ooze",
+            "artisticName": "Morghul",
+            "powerLevel": "strong",
+            "unitClass": "shaman"
+        },
+        {
+            "firstAttribute": "beast",
+            "secondAttribute": "lindwurm",
+            "thirdAttribute": "",
+            "characteristicName": "Lindwurm Beast",
+            "artisticName": "Gorash",
+            "powerLevel": "mighty",
+            "unitClass": "fighter"
+        },
+        {
+            "firstAttribute": "phantom",
+            "secondAttribute": "lurking_horror",
+            "thirdAttribute": "",
+            "characteristicName": "Lurking Horror",
+            "artisticName": "Nox",
+            "powerLevel": "strong",
+            "unitClass": "trickster"
+        },
+        {
+            "firstAttribute": "undead",
+            "secondAttribute": "skeleton",
+            "thirdAttribute": "warrior",
+            "characteristicName": "Skeleton Warrior",
+            "artisticName": "Boneclaw",
+            "powerLevel": "moderate",
+            "unitClass": "fighter"
+        },
+        {
+            "firstAttribute": "hell",
+            "secondAttribute": "salamander",
+            "thirdAttribute": "firebrand",
+            "characteristicName": "Firebrand Salamander",
+            "artisticName": "Ignis",
+            "powerLevel": "strong",
+            "unitClass": "fighter"
+        },
+        {
+            "firstAttribute": "draconid",
+            "secondAttribute": "drake",
+            "thirdAttribute": "fire",
+            "characteristicName": "Fire Drake",
+            "artisticName": "Pyros",
+            "powerLevel": "strong",
+            "unitClass": "marksman"
+        },
+        {
+            "firstAttribute": "hell",
+            "secondAttribute": "devil",
+            "thirdAttribute": "red",
+            "characteristicName": "Red Devil",
+            "artisticName": "Inferno",
+            "powerLevel": "strong",
+            "unitClass": "fighter"
+        },
+        {
+            "firstAttribute": "hell",
+            "secondAttribute": "hell_knight",
+            "thirdAttribute": "defender",
+            "characteristicName": "Hell Knight Defender",
+            "artisticName": "Karn",
+            "powerLevel": "formidable",
+            "unitClass": "protector"
+        },
+        {
+            "firstAttribute": "holy",
+            "secondAttribute": "angel",
+            "thirdAttribute": "macewielder",
+            "characteristicName": "Macewielding Angel",
+            "artisticName": "Gabriel",
+            "powerLevel": "mighty",
+            "unitClass": "paladin"
+        },
+        {
+            "firstAttribute": "holy",
+            "secondAttribute": "human_ascended",
+            "thirdAttribute": "",
+            "characteristicName": "Ascended Human",
+            "artisticName": "Michael",
+            "powerLevel": "strong",
+            "unitClass": "fighter"
+        },
+        {
+            "firstAttribute": "holy",
+            "secondAttribute": "shedu",
+            "thirdAttribute": "",
+            "characteristicName": "Shedu Sentinel",
+            "artisticName": "Metatron",
+            "powerLevel": "formidable",
+            "unitClass": "protector"
+        },
+        {
+            "firstAttribute": "holy",
+            "secondAttribute": "ophan",
+            "thirdAttribute": "",
+            "characteristicName": "Ophan Guardian",
+            "artisticName": "Raziel",
+            "powerLevel": "legendary",
+            "unitClass": "bastion"
+        }
+    ]
+}

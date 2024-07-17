@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "The Forsaken Forest",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Forsaken Forest is a twisted expanse of dark-grass, where the very ground seems to pulse with malevolence. Shadows cling to the gnarled trees, and deep-dark-holes litter the landscape, waiting to swallow the unwary. The air is thick with the scent of decay, and the whispers of lost souls echo through the gloom. This once-thriving woodland is now a place of despair, where even the bravest fear to tread."
+    },
+    {
+      "levelName": "The Blighted Sands",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Blighted Sands stretch out in a desolate expanse of pink-sand, a hauntingly beautiful yet deadly terrain. The ground is cracked and scorched, with rivers of lava snaking through the wasteland. The heat is oppressive, and the air shimmers with a toxic haze. This forsaken desert is a testament to the destructive power that has ravaged Valthoria, leaving nothing but desolation in its wake."
+    },
+    {
+      "levelName": "The Titan's Crucible",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Titan's Crucible is a treacherous arena of fractured-wall-platforms, suspended over a churning sea of water. This desolate battleground is where Arvoth the Purifier, the Titan Annihilator, awaits. The platforms are precarious, and the raging waters below threaten to swallow any who falter. The sky is a stormy tumult, reflecting the epic struggle that is about to unfold. Here, in this crucible of chaos, the fate of Valthoria will be decided."
+    }
+  ]
+}

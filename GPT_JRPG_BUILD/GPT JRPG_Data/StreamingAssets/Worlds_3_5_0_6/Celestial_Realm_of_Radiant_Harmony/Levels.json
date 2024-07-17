@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Ethereal Woods",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "Welcome to the Ethereal Woods, where the shadows dance upon the dark-grass pathways. Beware the deep-dark-holes that lurk beneath the surface, ready to swallow the unwary traveler whole."
+    },
+    {
+      "levelName": "Luminous Caverns",
+      "walkableTerrain": "rusty-chain-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Descend into the Luminous Caverns, where rusty-chain-platforms guide your way through the molten rivers of lava. The heat radiates off the walls, creating an ominous glow in the depths."
+    },
+    {
+      "levelName": "Shadowed Citadel",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "Enter the Shadowed Citadel, a fortress of fractured-wall-platforms surrounded by mysterious waters. Within its walls, the legendary Ethereal Shadow Stalker, Aurorium, awaits, cloaked in darkness and power."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Luminous Shadowlands",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Ethereal Ooze Devourer Confrontation",
+          "questDescription": "Locate and confront the Ethereal Ooze Devourer lurking in the depths of the glowing azure slime pools.",
+          "questObjective": "Ethereal Ooze Devourer"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Radiant Hydra Sentinel Alliance",
+          "questDescription": "Forge an alliance with the Radiant Hydra Sentinel to gain its protection and wisdom in the Luminous Shadowlands.",
+          "questObjective": "Radiant Hydra Sentinel"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Shadow Phantom Creeper Elimination",
+          "questDescription": "Eliminate the elusive Shadow Phantom Creeper haunting the shadows of the Whispering Twilight Grove.",
+          "questObjective": "Shadow Phantom Creeper"
+        }
+      ]
+    },
+    {
+      "levelName": "Whispering Twilight Grove",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Twilight Naga Enchantress Encounter",
+          "questDescription": "Encounter the Twilight Naga Enchantress and decide whether to join forces or face her arcane powers in battle.",
+          "questObjective": "Twilight Naga Enchantress"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Ethereal Avatar Pact",
+          "questDescription": "Form a pact with the Ethereal Avatar to unlock ancient secrets hidden within the Enchanted Forest Phantoms.",
+          "questObjective": "Ethereal Avatar"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Ethereal Ghost Haunter's Banishment",
+          "questDescription": "Banish the malevolent presence of the Ethereal Ghost Haunter from the Whispering Twilight Grove to restore peace.",
+          "questObjective": "Spectral Ghost Phantom"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Void Sanctum",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Phantom Wraith Confrontation",
+          "questDescription": "Confront the legendary Phantom Wraith, the Ethereal Void Stalker, to free the Ethereal Realm of Luminous Enigma from darkness.",
+          "questObjective": "Phantom Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Void Weaver Conjurer Alliance",
+          "questDescription": "Seek an alliance with the formidable Void Weaver Conjurer to harness the power of the Void in the Ethereal Void Sanctum.",
+          "questObjective": "Void Weaver Conjurer"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Darkfire Imp Tormentor's Defeat",
+          "questDescription": "Defeat the Darkfire Imp Tormentor of the Fiery Shadowflame Cult to quell the flames of chaos in the Ethereal Void Sanctum.",
+          "questObjective": "Darkfire Imp Tormentor"
+        }
+      ]
+    }
+  ]
+}

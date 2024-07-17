@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "Frostfire Caverns",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Trial of Frozen Flames",
+          "questDescription": "Embark on a quest to either defeat or unite with the Luminous Serpent Guardian in the Frozen Inferno group.",
+          "questObjective": "Luminous Serpent Guardian"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Harmony Among Elements",
+          "questDescription": "Seek out the Arctic Feathered Guardian from the Icy Shadows group and unite to restore balance.",
+          "questObjective": "Arctic Feathered Guardian"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Defeat the Frozen Naga Sentinel",
+          "questDescription": "The Glacial Stone Crusher in the Glacial Phantoms group demands the elimination of the Frozen Naga Sentinel.",
+          "questObjective": "Frozen Naga Sentinel"
+        }
+      ]
+    },
+    {
+      "levelName": "Shadowed Tundra",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Shadows of the Chillspire Wraith Dragon",
+          "questDescription": "Confront the Chillspire Wraith Dragon from the Frostbitten Shadows group, choosing to either defeat or unite with it.",
+          "questObjective": "Chillspire Wraith Dragon"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Embrace the Frostscale Naga Warrior",
+          "questDescription": "Find and unite with the Glacial Serpent Guardian in the Chilling Phantasms group, embodied as the Frostscale Naga Warrior.",
+          "questObjective": "Frostscale Naga Warrior"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Vanquish the Frostveil Phantom Hunter",
+          "questDescription": "The Glacial Decay Demon in the Frostfire Legion group tasks you with defeating the Frostveil Phantom Hunter.",
+          "questObjective": "Frostveil Phantom Hunter"
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Abyss",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Final Confrontation: Nightmare Wraith",
+          "questDescription": "Prepare for the ultimate battle against the legendary sorcerer, the Nightmare Wraith, in the heart of the Ethereal Abyss.",
+          "questObjective": "Nightmare Wraith"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Alliance with the Glacial Frostwyrm",
+          "questDescription": "Form an alliance with the Glacial Frostwyrm from the Ethereal Frostguard group to gain its frosty powers.",
+          "questObjective": "Glacial Frostwyrm"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Defeat the Frozen Inferno Demon",
+          "questDescription": "The Glacial Decay Demon in the Voidfrost Legion group demands the elimination of the Frozen Inferno Demon.",
+          "questObjective": "Frozen Inferno Demon"
+        }
+      ]
+    }
+  ]
+}

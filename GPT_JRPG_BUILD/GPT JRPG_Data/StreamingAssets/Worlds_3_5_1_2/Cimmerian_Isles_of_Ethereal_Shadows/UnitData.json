@@ -1,0 +1,403 @@
+{
+  "levelsUnits": [
+    {
+      "levelName": "Shadowed Ruins",
+      "enemyGroups": [
+        {
+          "groupName": "Ebonshroud Watchers",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Nullmist Wraith Sentinel",
+              "artisticName": "Shadeveil Phantasma",
+              "powerLevel": "formidable",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "stone_ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Spiritbound Stoneward",
+              "artisticName": "Gravestone Guardian",
+              "powerLevel": "strong",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Boneclad Legionnaire",
+              "artisticName": "Dreadsteel Marrowmancer",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Hexed Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Ethereal Gloomblade",
+              "artisticName": "Shadowed Executioner",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Sarenshard Behemoth",
+              "artisticName": "Obelisk Guardian",
+              "powerLevel": "strong",
+              "unitClass": "bastion"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Skullsplit Marauder",
+              "artisticName": "Gravesworn Revenant",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Spectral Sentries",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "shadow",
+              "characteristicName": "Shadowflare Wraithstalker",
+              "artisticName": "Ebonmist Spectre",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "stone_ghost",
+              "thirdAttribute": "",
+              "characteristicName": "Hollowguard Sentinel",
+              "artisticName": "Soulwarden Gargoyle",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Duskfall Revenant",
+              "artisticName": "Blightbone Swordsman",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Nightfall Phantasms",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "ghost",
+              "thirdAttribute": "void",
+              "characteristicName": "Eclipseshade Wraithshadow",
+              "artisticName": "Twilight Veilgeist",
+              "powerLevel": "formidable",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "sphinx",
+              "thirdAttribute": "",
+              "characteristicName": "Mystic Eyes Sphinx",
+              "artisticName": "Glimmerharbor Diviner",
+              "powerLevel": "moderate",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "skeleton",
+              "thirdAttribute": "warrior",
+              "characteristicName": "Graveborn Marauder",
+              "artisticName": "Wraithsteel Ravager",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Ethereal Grove",
+      "enemyGroups": [
+        {
+          "groupName": "Gloomsylph Protectors",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "guardian",
+              "characteristicName": "Slithershade Warder",
+              "artisticName": "Serpentwrath Sentinel",
+              "powerLevel": "mighty",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "dryad",
+              "thirdAttribute": "",
+              "characteristicName": "Verdantbloom Maiden",
+              "artisticName": "Ivybreeze Enchantress",
+              "powerLevel": "strong",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "ice_drake",
+              "thirdAttribute": "golden",
+              "characteristicName": "Frostgale Goldclaw",
+              "artisticName": "Glacierfire Wyrmheart",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Silentwood Mystics",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "naga",
+              "thirdAttribute": "mage",
+              "characteristicName": "Venommist Sorceress",
+              "artisticName": "Sangrestorm Enchantress",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "ushabti",
+              "thirdAttribute": "",
+              "characteristicName": "Oasis Behemoth",
+              "artisticName": "Sunblessed Warder",
+              "powerLevel": "moderate",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "death",
+              "characteristicName": "Frostshadow Deathwing",
+              "artisticName": "Voidfrost Glacierbane",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Sirenshade Keepers",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "siren",
+              "thirdAttribute": "witch",
+              "characteristicName": "Tidelost Enchantress",
+              "artisticName": "Seawhisper Temptress",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "boggart",
+              "thirdAttribute": "",
+              "characteristicName": "Blightshine Imp",
+              "artisticName": "Wraithspore Spook",
+              "powerLevel": "weak",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "fire",
+              "characteristicName": "Cinderforge Flamedrake",
+              "artisticName": "Blazeheart Inferno Wyrm",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Feybloom Wardens",
+          "units": [
+            {
+              "firstAttribute": "serpentide",
+              "secondAttribute": "merfolk",
+              "thirdAttribute": "aquamancer",
+              "characteristicName": "Coralmist Aquablast",
+              "artisticName": "Abyssalreign Watersinger",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "relict",
+              "secondAttribute": "treefolk",
+              "thirdAttribute": "",
+              "characteristicName": "Verdeloom Keeper",
+              "artisticName": "Moonleaf Guardian",
+              "powerLevel": "strong",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "draconid",
+              "secondAttribute": "drake",
+              "thirdAttribute": "forest",
+              "characteristicName": "Mossveil Treedrake",
+              "artisticName": "Thornbark Greenwyrm",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Lor'thelar's Abyss",
+      "enemyGroups": [
+        {
+          "groupName": "Abyssal Wardens",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "stalker",
+              "characteristicName": "Nightfall Soulbrand",
+              "artisticName": "Duskwraith Harbinger",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "angel",
+              "thirdAttribute": "warmonger",
+              "characteristicName": "Celestial Primevalost",
+              "artisticName": "Glorybring Primarch",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "ogre",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Bloodmourn Bludgeoner",
+              "artisticName": "Doomcrush Brute",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Shroudweaver Coven",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "lich",
+              "thirdAttribute": "mage",
+              "characteristicName": "Abyssal Souldrainer",
+              "artisticName": "Shadowencased Necromonarch",
+              "powerLevel": "legendary",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "titan",
+              "thirdAttribute": "brawler",
+              "characteristicName": "Radiant Battlecolossus",
+              "artisticName": "Gleamforge Juggernaut",
+              "powerLevel": "formidable",
+              "unitClass": "fighter"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "minotaur",
+              "thirdAttribute": "",
+              "characteristicName": "Hulklord Battletitan",
+              "artisticName": "Betemoth Crushchampion",
+              "powerLevel": "mighty",
+              "unitClass": "fighter"
+            }
+          ]
+        },
+        {
+          "groupName": "Abyssal Shadows",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "wraith",
+              "thirdAttribute": "king",
+              "characteristicName": "Voidbane Overlord",
+              "artisticName": "Doomgale Shadowlord",
+              "powerLevel": "legendary",
+              "unitClass": "paladin"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "archangel",
+              "thirdAttribute": "",
+              "characteristicName": "Glorious Valiance Seraphim",
+              "artisticName": "Radiantglory Aegis",
+              "powerLevel": "legendary",
+              "unitClass": "protector"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "spriggan",
+              "thirdAttribute": "berserker",
+              "characteristicName": "Enchantedwood Frenzy",
+              "artisticName": "Brumblethorn Rampager",
+              "powerLevel": "mighty",
+              "unitClass": "trickster"
+            }
+          ]
+        },
+        {
+          "groupName": "Netherstorm Legion",
+          "units": [
+            {
+              "firstAttribute": "undead",
+              "secondAttribute": "phantom",
+              "thirdAttribute": "",
+              "characteristicName": "Eternitybound Phantasm",
+              "artisticName": "Soulbound Voidwraith",
+              "powerLevel": "formidable",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "holy",
+              "secondAttribute": "transcendent",
+              "thirdAttribute": "peacemaker",
+              "characteristicName": "Harmony's Gracekeeper",
+              "artisticName": "Etherglow Illuminator",
+              "powerLevel": "mighty",
+              "unitClass": "sorcerer"
+            },
+            {
+              "firstAttribute": "horde",
+              "secondAttribute": "kyklops",
+              "thirdAttribute": "fighter",
+              "characteristicName": "Doomwatch Cyclopean",
+              "artisticName": "Rampartwatch Colossus",
+              "powerLevel": "strong",
+              "unitClass": "fighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

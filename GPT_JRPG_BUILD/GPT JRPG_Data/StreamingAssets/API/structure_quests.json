@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        }
+      ]
+    },
+    {
+      "levelName": "",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        }
+      ]
+    },
+    {
+      "levelName": "",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "",
+          "questDescription": "",
+          "questObjective": ""
+        }
+      ]
+    }
+  ]
+}

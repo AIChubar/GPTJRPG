@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Shadows of Despair",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "As you step into the Shadows of Despair, the dark-grass beneath your feet seems to wither under the weight of sorrow. The air is heavy with the echoes of lost souls, and the looming presence of deep-dark-holes threatens to swallow any glimmer of hope that dares to flicker in this desolate realm."
+    },
+    {
+      "levelName": "Ethereal Wasteland",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Traverse the Ethereal Wasteland, where the pink-sand shifts like whispers in the wind. Beware the mirage-like waters that distort reality, concealing treacherous depths beneath their serene surface. The ethereal beauty of this wasteland belies the dangers that lurk within."
+    },
+    {
+      "levelName": "Void's Embrace",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "In the heart of darkness lies Void's Embrace, a realm of searing heat and jagged lava-rock formations. The molten rivers of lava flow like veins of fire, a stark contrast to the cold emptiness that surrounds you. Here, the malevolent presence of the Nethermourn, the Ethereal Void Stalker, awaits, cloaked in shadows and fueled by the abyssal depths of the void."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "storyType": "good",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "stalker",
+    "characteristicName": "forlorn shadow apparition",
+    "artisticName": "Ethereal Specter of the Void",
+    "powerLevel": "legendary",
+    "unitClass": "trickster"
+  },
+  "antagonistGroup": {
+    "groupName": "Spectral Revenants",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "lich",
+        "thirdAttribute": "lord",
+        "characteristicName": "ancient necromancer behemoth",
+        "artisticName": "Archlich Dreadlord",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      },
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "wraith",
+        "thirdAttribute": "shadow",
+        "characteristicName": "lurking shadow entity",
+        "artisticName": "Shadow Wraith of Oblivion",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Whispersoul Shadowlands",
+  "story": "In the realm of Whispersoul Shadowlands, a perpetual darkness engulfs the land, filled with eerie whispers and shadows that twist into menacing forms. The ancient Ethereal Specter of the Void haunts the land, weaving malevolent schemes with its spectral powers. The Spectral Revenants, led by the Archlich Dreadlord and the Shadow Wraith of Oblivion, spread terror and despair among the living, seeking to expand their undead dominion and extinguish all light.",
+  "greetingGameMessage": "Welcome to the chilling realm of Whispersoul Shadowlands, adventurer. Beware the shadows that inch closer with each step, for the darkness here hungers for souls.",
+  "defeatEndingMessage": "With the defeat of the Ethereal Specter of the Void and the Spectral Revenants, the land of Whispersoul Shadowlands is freed from their grasp. The darkness begins to fade, and the whispers subside as hope is restored to the realm.",
+  "gameOverMessage": "Alas, the darkness proves too powerful to overcome. With the Ethereal Specter of the Void and its minions triumphant, Whispersoul Shadowlands descends further into eternal shadow, with no light to pierce the veil of despair."
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Lyra Silverthorn",
+  "race": "humanoid",
+  "characterClass": "paladin",
+  "occupation": "Guardian of Sacred Light",
+  "backStory": "Lyra Silverthorn, a noble dwarf warrior with a sacred mission to protect the realms from the encroaching darkness, wields both sword and shield to defend the innocent and uphold justice. Born from the ancient mountains, Lyra carries the light of hope into the darkest shadows, standing strong against the cursed legions of Zarothus.",
+  "protagonistGroup": {
+    "groupName": "Radiant Defenders",
+    "units": [
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "ice_drake",
+        "thirdAttribute": "golden",
+        "characteristicName": "Frozen Guardian Serpent",
+        "artisticName": "Frostwyrm Shieldbearer",
+        "powerLevel": "mighty",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "dryad",
+        "thirdAttribute": "",
+        "characteristicName": "Nature's Tranquil Sentinel",
+        "artisticName": "Verdant Leafwatcher",
+        "powerLevel": "formidable",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "shadow_dragon",
+        "thirdAttribute": "storm",
+        "characteristicName": "Umbral Stormwing Protector",
+        "artisticName": "Duskfall Skyshield",
+        "powerLevel": "legendary",
+        "unitClass": "fighter"
+      }
+    ]
+  }
+}

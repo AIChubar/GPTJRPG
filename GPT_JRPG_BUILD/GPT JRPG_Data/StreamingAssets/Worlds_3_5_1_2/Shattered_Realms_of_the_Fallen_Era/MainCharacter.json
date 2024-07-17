@@ -1,0 +1,39 @@
+{
+  "name": "Lyria Flamesong",
+  "race": "humanoid",
+  "characterClass": "healer",
+  "occupation": "Guardian of Eternal Fire",
+  "backStory": "Lyria Flamesong, a mystical human healer with a unique connection to the eternal flames, roams the blazing expanse of the Emberfall Kingdom, bringing warmth and healing to all in need. Born from the heart of the sacred fire, she spreads restoration and light to dispel the shadows of darkness.",
+  "protagonistGroup": {
+    "groupName": "Flamekeeper's Fellowship",
+    "units": [
+      {
+        "firstAttribute": "undead",
+        "secondAttribute": "ghost",
+        "thirdAttribute": "warrior",
+        "characteristicName": "Ethereal Flameblade Warden",
+        "artisticName": "Spiritflame Swordsworn",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "dryad",
+        "thirdAttribute": "",
+        "characteristicName": "Nature's Radiant Guardian",
+        "artisticName": "Glowbloom Lifewarden",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "draconid",
+        "secondAttribute": "golden_dragon",
+        "thirdAttribute": "quicksilver",
+        "characteristicName": "Celestial Goldflame Guardian",
+        "artisticName": "Aurorion Sunfire",
+        "powerLevel": "legendary",
+        "unitClass": "sorcerer"
+      }
+    ]
+  }
+}

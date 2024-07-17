@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "Whispering Shadows",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "In the eerie realm of Whispering Shadows, the dark-grass whispers secrets of forgotten sorrows. Beware the deep-dark-holes that hide ancient terrors waiting to ensnare the unwary traveler."
+    },
+    {
+      "levelName": "Mystic Veil",
+      "walkableTerrain": "pink-sand",
+      "obstacleTerrain": "water",
+      "levelDescription": "Traverse the sands of time in the mystical land of Mystic Veil, where pink-sand shimmers under an ethereal glow. Beware the shimmering waters that conceal mysterious depths and unseen dangers."
+    },
+    {
+      "levelName": "Cryptic Abyss",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "lava",
+      "levelDescription": "Descend into the depths of the Cryptic Abyss, where fractured-wall-platforms lead to the lair of the legendary Void King of the Crypts, Necrothar the Unyielding. Beware the rivers of lava that flow like molten veins, guarding the throne of darkness."
+    }
+  ]
+}

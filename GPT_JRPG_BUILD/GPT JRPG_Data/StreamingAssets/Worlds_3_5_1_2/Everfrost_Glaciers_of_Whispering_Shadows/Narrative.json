@@ -1,0 +1,40 @@
+{
+  "storyType": "neutral",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "ghost",
+    "thirdAttribute": "dragon",
+    "characteristicName": "Ethereal Shadow Walker",
+    "artisticName": "Atheronius the Soulreaper",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "The Cursed Legion",
+    "units": [
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "spectral",
+        "thirdAttribute": "beast",
+        "characteristicName": "Phantom Moon Beasts",
+        "artisticName": "Lycanrox Purrspectra",
+        "powerLevel": "mighty",
+        "unitClass": "fighter"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "boggart",
+        "thirdAttribute": "",
+        "characteristicName": "Cursed Bog Guardians",
+        "artisticName": "Mossbark Heartgnarl",
+        "powerLevel": "formidable",
+        "unitClass": "protector"
+      }
+    ]
+  },
+  "worldName": "Everfrost Glaciers of Whispering Shadows",
+  "story": "In the realm of Everfrost Glaciers, encased by eternal ice and haunted by the unseen Whispering Shadows, a curse looms over the land. The Ethereal Shadow Walker, Atheronius the Soulreaper, leads his undead minions - The Cursed Legion, spreading darkness and fear. As they march, the Phantom Moon Beasts, commanded by Lycanrox Purrspectra, and the Cursed Bog Guardians, under Mossbark Heartgnarl's protection, sow chaos and despair.",
+  "greetingGameMessage": "Welcome, traveler, to the Everfrost Glaciers of Whispering Shadows. Beware the chilling winds and elusive spirits that haunt this land.",
+  "defeatEndingMessage": "Victory echoes through the vast glaciers as the Ethereal Shadow Walker, Atheronius, falls to your might. The darkness dissipates, and the world breathes a sigh of relief.",
+  "gameOverMessage": "Alas, your valiant effort has come to naught. The Everfrost Glaciers remain shrouded in darkness as the Cursed Legion triumphs, spreading their malevolence unchecked."
+}

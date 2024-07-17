@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abomination",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "tentacle",
+      "characteristicName": "Tentacle Ooze",
+      "artisticName": "Gorath",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 85,
+      "friendliness": 10,
+      "intellect": 25,
+      "strategicThinking": 20,
+      "indifference": 70,
+      "flexibility": 30,
+      "communicationSkills": 15,
+      "morality": 5,
+      "chaoticity": 75
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Squish... invade my domain do you? Gorath loathes intruders...",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Step aside, ooze. I'm not here for you.",
+        "enemyAnswer": "Gorath squelches at your arrogance. You dare dismiss the might of Gorath!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You're a mere obstacle. I will wipe you away.",
+            "enemyAnswer": "Bold words. Gorath will enjoy devouring your flesh!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare to be annihilated!",
+                "enemyAnswer": "Gorath hungers for battle. Onward to your doom!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Fear not the dark. It only makes me stronger.",
+                "enemyAnswer": "Gorath will relish breaking you, piece by piece.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I'm just passing through. Stay out of my way.",
+            "enemyAnswer": "Gorath cares not for your passage. Trouble me and you will regret it.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am no mere traveler. I am your doom.",
+                "enemyAnswer": "Gorath will smother you in agony!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Then stay out of mine, ooze. This is a warning.",
+                "enemyAnswer": "Gorath sees nothing worth challenging. Go, before I change my mind.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "You wouldn't want to fight someone like me.",
+            "enemyAnswer": "Gorath fears nothing, least of all you!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then let's see who's stronger.",
+                "enemyAnswer": "Gorath welcomes your futile struggle!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps you are wise. But I am merciless.",
+                "enemyAnswer": "Mercy is for the weak. Gorath will consume you!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I've heard of your might, Gorath. Join me and you will be rewarded.",
+        "enemyAnswer": "Bah, Gorath holds no interest in your empty promises.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Do you dare refuse the Shadow Conqueror?",
+            "enemyAnswer": "Gorath sees only an inflated ego. Prove your worth or be devoured.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then face my power, ooze.",
+                "enemyAnswer": "Gorath is ready to crush you.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Very well. Align with me or perish.",
+                "enemyAnswer": "Gorath remains unfazed. Begone.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Reconsider. I offer power beyond imagining.",
+            "enemyAnswer": "Gorath doubts your sincerity. Prove your strength, or begone.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare to be obliterated, fool.",
+                "enemyAnswer": "Gorath will feast on your remains.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You've made a grave mistake, Gorath.",
+                "enemyAnswer": "Gorath tires of your threats. I will devour you.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "You will regret this. You could have had it all.",
+            "enemyAnswer": "Gorath has no need of your baubles. Leave now.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I'll show you why I am feared.",
+                "enemyAnswer": "Gorath welcomes your challenge!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "A pity. You had potential.",
+                "enemyAnswer": "Spare me your pity. Begone.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Step aside or face the darkness within me.",
+        "enemyAnswer": "Gorath is not frightened by shadows. Show your worth!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I am the Dark Warlock, master of shadows. You cannot withstand me.",
+            "enemyAnswer": "Gorath sifts through your boasts. Prove it, or die.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare to be eradicated!",
+                "enemyAnswer": "Gorath awaits your futile attempts.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The darkness consumes everything. Even you.",
+                "enemyAnswer": "Gorath fears no darkness. Come and try.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "You are but a speck in my path to power.",
+            "enemyAnswer": "Gorath detests being called a mere speck. Enough talk!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Are you ready to be obliterated?",
+                "enemyAnswer": "Gorath will engulf you whole!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You will pay for your insolence, ooze.",
+                "enemyAnswer": "Gorath shows no mercy, nor will he receive it.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Defy me, and you will face annihilation.",
+            "enemyAnswer": "Gorath shrugs at annihilation. Your threats are meaningless.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "You'll wish you heeded my warning.",
+                "enemyAnswer": "Gorath takes no heed. You will regret this.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The time for words is over. Prepare to die.",
+                "enemyAnswer": "Gorath is ready. Come, and meet your end!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

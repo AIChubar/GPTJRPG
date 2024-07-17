@@ -1,0 +1,40 @@
+{
+  "storyType": "good",
+  "antagonist": {
+    "firstAttribute": "undead",
+    "secondAttribute": "lich",
+    "thirdAttribute": "lord",
+    "characteristicName": "Void King of the Crypts",
+    "artisticName": "Necrothar the Unyielding",
+    "powerLevel": "legendary",
+    "unitClass": "sorcerer"
+  },
+  "antagonistGroup": {
+    "groupName": "Ethereal Phalanx",
+    "units": [
+      {
+        "firstAttribute": "phantom",
+        "secondAttribute": "lurking_horror",
+        "thirdAttribute": "",
+        "characteristicName": "Shadowy Nightstalker",
+        "artisticName": "Duskreaper",
+        "powerLevel": "legendary",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "relict",
+        "secondAttribute": "faun",
+        "thirdAttribute": "",
+        "characteristicName": "Mystical Forest Guardian",
+        "artisticName": "Silvanius the Eternal",
+        "powerLevel": "legendary",
+        "unitClass": "protector"
+      }
+    ]
+  },
+  "worldName": "Realm of Eternal Mysteries",
+  "story": "In the Realm of Eternal Mysteries, a dark force has risen. The Void King of the Crypts, Necrothar the Unyielding, commands an army of undead and spectral beings known as the Ethereal Phalanx. As they spread darkness and despair, the land is shrouded in shadows and fear. The people cry out for a hero to rise and vanquish this malevolent threat.",
+  "greetingGameMessage": "Welcome, brave adventurer, to the Realm of Eternal Mysteries. Beware the shadows that whisper of ancient evils lurking in the darkness. Only courage and valor can drive back the encroaching darkness.",
+  "defeatEndingMessage": "The hero has fallen, and the Realm of Eternal Mysteries is consumed by the darkness of the Void King. The land is forever tainted by his malevolent presence, and all hope seems lost.",
+  "gameOverMessage": "The darkness prevails as the Void King and his Ethereal Phalanx conquer all. The Realm of Eternal Mysteries descends into eternal night, a realm of shadows and despair for all eternity."
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Nyxia Thornvenom",
+  "race": "Dark Elf",
+  "characterClass": "Sorcerer",
+  "occupation": "Venomous Shadowmancer",
+  "backStory": "In the labyrinthine heart of the Eclipsed Dominion, where nature's harmony spiraled into eerie nocturnal symphonies, Nyxia Thornvenom was born amidst twisting coils of shadow and luminescent venom. As a Dark Elf of enigmatic allegiance, Nyxia's intrinsic nature darkened with whispered prophecies of a domain overshadowed with eternal twilight. Infused with malevolent verdancy by Icarian roots scorched with vengeance, she was molded by a dynasty devoted to arcane shadow-wielding forbidden magick. Haunted by the pall of silence over the Empyreal Cascade, Nyxia quenched her seminal fury in a fathomless hunger to bend reality. With fidelity inexorably falling towards malevolent despotic supremacy, she embodies rebellion clenching intuit strides towards dominion wielded breath casting eclipses in her wake.",
+  "protagonistGroup": {
+    "groupName": "Nyxia's Vendettas",
+    "units": [
+      {
+        "firstAttribute": "abomination",
+        "secondAttribute": "ooze",
+        "thirdAttribute": "tentacle",
+        "characteristicName": "Tentacle Creeping Handler",
+        "artisticName": "Zu'gorth the Protophone",
+        "powerLevel": "legendary",
+        "unitClass": "protector"
+      },
+      {
+        "firstAttribute": "beast",
+        "secondAttribute": "lindwurm",
+        "thirdAttribute": "",
+        "characteristicName": "Nightfang Occult Hunter",
+        "artisticName": "Sigristh, The Midnight Maw",
+        "powerLevel": "formidable",
+        "unitClass": "trickster"
+      },
+      {
+        "firstAttribute": "hell",
+        "secondAttribute": "balrug",
+        "thirdAttribute": "",
+        "characteristicName": "Hellish Fire Tyrant",
+        "artisticName": "Gorgathrim, Scourge of The Dread Pyres",
+        "powerLevel": "mighty",
+        "unitClass": "berserker"
+      }
+    ]
+  }
+}

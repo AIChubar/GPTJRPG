@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "The Forsaken Forest",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "The Shadow's Trial",
+          "questDescription": "Deep within the Forsaken Forest, a powerful Spectral Ooze known as Phantor lurks. To pass through this twisted expanse, you must either bend Phantor to your will or destroy it.",
+          "questObjective": "Phantor"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Alliance of the Undead",
+          "questDescription": "Forge an unholy alliance with Mortis, the Wraith Stalker. His spectral prowess will prove invaluable in your dark quest.",
+          "questObjective": "Mortis"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Beastly Menace",
+          "questDescription": "Hunt down and slay Brutus, the Juggernaut Beast, who roams the forest with destructive force. His defeat will bring you the Amulet of Alliance.",
+          "questObjective": "Brutus"
+        }
+      ]
+    },
+    {
+      "levelName": "The Blighted Sands",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "The Infernal Challenge",
+          "questDescription": "In the heart of the Blighted Sands, Infernos, the Balrug, stands as a formidable obstacle. Overcome or ally with him to advance.",
+          "questObjective": "Infernos"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Pact with the Phoenix",
+          "questDescription": "Form a dark pact with Ashara, the Phoenix. Her fiery essence will bolster your dark powers.",
+          "questObjective": "Ashara"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Dragon's Bane",
+          "questDescription": "Vanquish Aurelion, the Golden Dragon, whose radiant presence threatens your dominion. Claim the Amulet of Alliance upon his defeat.",
+          "questObjective": "Aurelion"
+        }
+      ]
+    },
+    {
+      "levelName": "The Titan's Crucible",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "The Final Confrontation",
+          "questDescription": "Face Arvoth the Purifier in the Titan's Crucible. Only by defeating this legendary paladin can you claim ultimate victory and dominate Valthoria.",
+          "questObjective": "Arvoth the Purifier"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Alliance with the Ascended",
+          "questDescription": "Forge an alliance with Hadriel, the Shedu. His ancient wisdom and power will aid you in the final battle.",
+          "questObjective": "Hadriel"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Bane of the Golem",
+          "questDescription": "Destroy Titanus, the Guardian Golem. His defeat will grant you the Amulet of Alliance, strengthening your dark forces.",
+          "questObjective": "Titanus"
+        }
+      ]
+    }
+  ]
+}
