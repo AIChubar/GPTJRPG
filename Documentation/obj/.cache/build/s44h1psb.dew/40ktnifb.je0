@@ -1,0 +1,278 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="Global.html" name="" title=""></a>
+
+                    <ul class="nav level2">
+                          <li>
+                              <a href="Global.AbilityIndication.html" name="" title="AbilityIndication">AbilityIndication</a>
+                          </li>
+                          <li>
+                              <a href="Global.AudioManager.html" name="" title="AudioManager">AudioManager</a>
+                          </li>
+                          <li>
+                              <a href="Global.BattleJournal.html" name="" title="BattleJournal">BattleJournal</a>
+                          </li>
+                          <li>
+                              <a href="Global.BattleSystem.html" name="" title="BattleSystem">BattleSystem</a>
+                          </li>
+                          <li>
+                              <a href="Global.BattleSystem.BattleState.html" name="" title="BattleSystem.BattleState">BattleSystem.BattleState</a>
+                          </li>
+                          <li>
+                              <a href="Global.ChatController.html" name="" title="ChatController">ChatController</a>
+                          </li>
+                          <li>
+                              <a href="Global.DialogueButton.html" name="" title="DialogueButton">DialogueButton</a>
+                          </li>
+                          <li>
+                              <a href="Global.DialogueHUD.html" name="" title="DialogueHUD">DialogueHUD</a>
+                          </li>
+                          <li>
+                              <a href="Global.DialogueHUD.Outcome.html" name="" title="DialogueHUD.Outcome">DialogueHUD.Outcome</a>
+                          </li>
+                          <li>
+                              <a href="Global.DontDestroy.html" name="" title="DontDestroy">DontDestroy</a>
+                          </li>
+                          <li>
+                              <a href="Global.DoorScript.html" name="" title="DoorScript">DoorScript</a>
+                          </li>
+                          <li>
+                              <a href="Global.DropdownAttribute.html" name="" title="DropdownAttribute">DropdownAttribute</a>
+                          </li>
+                          <li>
+                              <a href="Global.DropdownSample.html" name="" title="DropdownSample">DropdownSample</a>
+                          </li>
+                          <li>
+                              <a href="Global.EndLevelOnEnter.html" name="" title="EndLevelOnEnter">EndLevelOnEnter</a>
+                          </li>
+                          <li>
+                              <a href="Global.EnvMapAnimator.html" name="" title="EnvMapAnimator">EnvMapAnimator</a>
+                          </li>
+                          <li>
+                              <a href="Global.FloatingText.html" name="" title="FloatingText">FloatingText</a>
+                          </li>
+                          <li>
+                              <a href="Global.GameData.html" name="" title="GameData">GameData</a>
+                          </li>
+                          <li>
+                              <a href="Global.GameEvents.html" name="" title="GameEvents">GameEvents</a>
+                          </li>
+                          <li>
+                              <a href="Global.GameManager.html" name="" title="GameManager">GameManager</a>
+                          </li>
+                          <li>
+                              <a href="Global.GameMessageController.html" name="" title="GameMessageController">GameMessageController</a>
+                          </li>
+                          <li>
+                              <a href="Global.GetItemNameCallback.html" name="" title="GetItemNameCallback">GetItemNameCallback</a>
+                          </li>
+                          <li>
+                              <a href="Global.GridObject.html" name="" title="GridObject">GridObject</a>
+                          </li>
+                          <li>
+                              <a href="Global.GridSystem.html" name="" title="GridSystem">GridSystem</a>
+                          </li>
+                          <li>
+                              <a href="Global.GroupInfoHUD.html" name="" title="GroupInfoHUD">GroupInfoHUD</a>
+                          </li>
+                          <li>
+                              <a href="Global.HealthBarUnit.html" name="" title="HealthBarUnit">HealthBarUnit</a>
+                          </li>
+                          <li>
+                              <a href="Global.Hero.html" name="" title="Hero">Hero</a>
+                          </li>
+                          <li>
+                              <a href="Global.InfoHUD.html" name="" title="InfoHUD">InfoHUD</a>
+                          </li>
+                          <li>
+                              <a href="Global.ItemDrag.html" name="" title="ItemDrag">ItemDrag</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.html" name="" title="JSONReader">JSONReader</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.CurrentWorld.html" name="" title="JSONReader.CurrentWorld">JSONReader.CurrentWorld</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.DialogueInfo.html" name="" title="JSONReader.DialogueInfo">JSONReader.DialogueInfo</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.DialogueTree.html" name="" title="JSONReader.DialogueTree">JSONReader.DialogueTree</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.EnemySpeakerInfo.html" name="" title="JSONReader.EnemySpeakerInfo">JSONReader.EnemySpeakerInfo</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.GameWorld.html" name="" title="JSONReader.GameWorld">JSONReader.GameWorld</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.Level.html" name="" title="JSONReader.Level">JSONReader.Level</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.Levels.html" name="" title="JSONReader.Levels">JSONReader.Levels</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.LevelUnits.html" name="" title="JSONReader.LevelUnits">JSONReader.LevelUnits</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.MainCharacter.html" name="" title="JSONReader.MainCharacter">JSONReader.MainCharacter</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.Metrics.html" name="" title="JSONReader.Metrics">JSONReader.Metrics</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.NarrativeData.html" name="" title="JSONReader.NarrativeData">JSONReader.NarrativeData</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.PlayerCharacterAnswer.html" name="" title="JSONReader.PlayerCharacterAnswer">JSONReader.PlayerCharacterAnswer</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.PowerLevelAttribute.html" name="" title="JSONReader.PowerLevelAttribute">JSONReader.PowerLevelAttribute</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.QuestJSON.html" name="" title="JSONReader.QuestJSON">JSONReader.QuestJSON</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.QuestLevel.html" name="" title="JSONReader.QuestLevel">JSONReader.QuestLevel</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.QuestLevels.html" name="" title="JSONReader.QuestLevels">JSONReader.QuestLevels</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.UnitGroup.html" name="" title="JSONReader.UnitGroup">JSONReader.UnitGroup</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.UnitJSON.html" name="" title="JSONReader.UnitJSON">JSONReader.UnitJSON</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.UnitsData.html" name="" title="JSONReader.UnitsData">JSONReader.UnitsData</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.UnitsStats.html" name="" title="JSONReader.UnitsStats">JSONReader.UnitsStats</a>
+                          </li>
+                          <li>
+                              <a href="Global.JSONReader.UnitTypeCoefficient.html" name="" title="JSONReader.UnitTypeCoefficient">JSONReader.UnitTypeCoefficient</a>
+                          </li>
+                          <li>
+                              <a href="Global.KnowledgeBase.html" name="" title="KnowledgeBase">KnowledgeBase</a>
+                          </li>
+                          <li>
+                              <a href="Global.KnowledgeBase.KBState.html" name="" title="KnowledgeBase.KBState">KnowledgeBase.KBState</a>
+                          </li>
+                          <li>
+                              <a href="Global.LevelGenerator.html" name="" title="LevelGenerator">LevelGenerator</a>
+                          </li>
+                          <li>
+                              <a href="Global.MainMenu.html" name="" title="MainMenu">MainMenu</a>
+                          </li>
+                          <li>
+                              <a href="Global.ObjectForInfoHUD.html" name="" title="ObjectForInfoHUD">ObjectForInfoHUD</a>
+                          </li>
+                          <li>
+                              <a href="Global.OutcomeButtons.html" name="" title="OutcomeButtons">OutcomeButtons</a>
+                          </li>
+                          <li>
+                              <a href="Global.PalettesData.html" name="" title="PalettesData">PalettesData</a>
+                          </li>
+                          <li>
+                              <a href="Global.PaletteSelection.html" name="" title="PaletteSelection">PaletteSelection</a>
+                          </li>
+                          <li>
+                              <a href="Global.Pause.html" name="" title="Pause">Pause</a>
+                          </li>
+                          <li>
+                              <a href="Global.Pause.UIState.html" name="" title="Pause.UIState">Pause.UIState</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerInput.html" name="" title="PlayerInput">PlayerInput</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerInput.IPlayerActions.html" name="" title="PlayerInput.IPlayerActions">PlayerInput.IPlayerActions</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerInput.PlayerActions.html" name="" title="PlayerInput.PlayerActions">PlayerInput.PlayerActions</a>
+                          </li>
+                          <li>
+                              <a href="Global.PointGizmo.html" name="" title="PointGizmo">PointGizmo</a>
+                          </li>
+                          <li>
+                              <a href="Global.ProceduralFloor.html" name="" title="ProceduralFloor">ProceduralFloor</a>
+                          </li>
+                          <li>
+                              <a href="Global.QuestButton.html" name="" title="QuestButton">QuestButton</a>
+                          </li>
+                          <li>
+                              <a href="Global.QuestMenu.html" name="" title="QuestMenu">QuestMenu</a>
+                          </li>
+                          <li>
+                              <a href="Global.RecruitSystem.html" name="" title="RecruitSystem">RecruitSystem</a>
+                          </li>
+                          <li>
+                              <a href="Global.ReflectionExtensions.html" name="" title="ReflectionExtensions">ReflectionExtensions</a>
+                          </li>
+                          <li>
+                              <a href="Global.ReflectionItem.html" name="" title="ReflectionItem">ReflectionItem</a>
+                          </li>
+                          <li>
+                              <a href="Global.ReflectionItemType.html" name="" title="ReflectionItemType">ReflectionItemType</a>
+                          </li>
+                          <li>
+                              <a href="Global.ReflectionSystem.html" name="" title="ReflectionSystem">ReflectionSystem</a>
+                          </li>
+                          <li>
+                              <a href="Global.SceneController.html" name="" title="SceneController">SceneController</a>
+                          </li>
+                          <li>
+                              <a href="Global.ScriptRunner.html" name="" title="ScriptRunner">ScriptRunner</a>
+                          </li>
+                          <li>
+                              <a href="Global.Sound.html" name="" title="Sound">Sound</a>
+                          </li>
+                          <li>
+                              <a href="Global.SwappingInterface.html" name="" title="SwappingInterface">SwappingInterface</a>
+                          </li>
+                          <li>
+                              <a href="Global.Unit.html" name="" title="Unit">Unit</a>
+                          </li>
+                          <li>
+                              <a href="Global.Unit.UnitType.html" name="" title="Unit.UnitType">Unit.UnitType</a>
+                          </li>
+                          <li>
+                              <a href="Global.UnitClass.html" name="" title="UnitClass">UnitClass</a>
+                          </li>
+                          <li>
+                              <a href="Global.UnitGroupInfo.html" name="" title="UnitGroupInfo">UnitGroupInfo</a>
+                          </li>
+                          <li>
+                              <a href="Global.UnitHUD.html" name="" title="UnitHUD">UnitHUD</a>
+                          </li>
+                          <li>
+                              <a href="Global.WorldButton.html" name="" title="WorldButton">WorldButton</a>
+                          </li>
+                          <li>
+                              <a href="Global.WorldEnemy.html" name="" title="WorldEnemy">WorldEnemy</a>
+                          </li>
+                          <li>
+                              <a href="Global.WorldManager.html" name="" title="WorldManager">WorldManager</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

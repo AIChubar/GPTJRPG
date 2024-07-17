@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JSONReader.PowerLevelAttribute
+  commentId: T:Global.JSONReader.PowerLevelAttribute
+  id: JSONReader.PowerLevelAttribute
+  parent: Global
+  children:
+  - Global.JSONReader.PowerLevelAttribute.armour
+  - Global.JSONReader.PowerLevelAttribute.damage
+  - Global.JSONReader.PowerLevelAttribute.health
+  langs:
+  - csharp
+  - vb
+  name: JSONReader.PowerLevelAttribute
+  nameWithType: JSONReader.PowerLevelAttribute
+  fullName: JSONReader.PowerLevelAttribute
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: PowerLevelAttribute
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 192
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class JSONReader.PowerLevelAttribute
+    content.vb: >-
+      <Serializable>
+
+      Public Class JSONReader.PowerLevelAttribute
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.JSONReader.PowerLevelAttribute.health
+  commentId: F:Global.JSONReader.PowerLevelAttribute.health
+  id: health
+  parent: Global.JSONReader.PowerLevelAttribute
+  langs:
+  - csharp
+  - vb
+  name: health
+  nameWithType: JSONReader.PowerLevelAttribute.health
+  fullName: JSONReader.PowerLevelAttribute.health
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: health
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 195
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int health
+    return:
+      type: System.Int32
+    content.vb: Public health As Integer
+- uid: Global.JSONReader.PowerLevelAttribute.damage
+  commentId: F:Global.JSONReader.PowerLevelAttribute.damage
+  id: damage
+  parent: Global.JSONReader.PowerLevelAttribute
+  langs:
+  - csharp
+  - vb
+  name: damage
+  nameWithType: JSONReader.PowerLevelAttribute.damage
+  fullName: JSONReader.PowerLevelAttribute.damage
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: damage
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 196
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int damage
+    return:
+      type: System.Int32
+    content.vb: Public damage As Integer
+- uid: Global.JSONReader.PowerLevelAttribute.armour
+  commentId: F:Global.JSONReader.PowerLevelAttribute.armour
+  id: armour
+  parent: Global.JSONReader.PowerLevelAttribute
+  langs:
+  - csharp
+  - vb
+  name: armour
+  nameWithType: JSONReader.PowerLevelAttribute.armour
+  fullName: JSONReader.PowerLevelAttribute.armour
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: armour
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 197
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int armour
+    return:
+      type: System.Int32
+    content.vb: Public armour As Integer
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

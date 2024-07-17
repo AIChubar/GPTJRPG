@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  id: ReflectionExtensions
+  parent: Global
+  children:
+  - Global.ReflectionExtensions.AllCharacterAreInBrackets(System.String,System.Char)
+  - Global.ReflectionExtensions.GetFieldBypassProtection(System.Type,System.String)
+  - Global.ReflectionExtensions.GetPropertyBypassProtection(System.Type,System.String)
+  - Global.ReflectionExtensions.IndexIsInBrackets(System.String,System.Int32)
+  - Global.ReflectionExtensions.MathCharacterNotInBracketsExists(System.String)
+  - Global.ReflectionExtensions.RemoveAllCharacterThatNotInBrackets(System.String,System.Char)
+  - Global.ReflectionExtensions.SplitAt(System.String,System.Int32[])
+  - Global.ReflectionExtensions.SplitIgnoringSplitterInBrackets(System.String,System.Char)
+  - Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ReflectionExtensions
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static class ReflectionExtensions
+    content.vb: Public Module ReflectionExtensions
+  inheritance:
+  - System.Object
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  id: ToStringWithQuotes(System.Object)
+  isExtensionMethod: true
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ToStringWithQuotes
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static string ToStringWithQuotes(this object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToStringWithQuotes(obj As Object) As String
+  overload: Global.ReflectionExtensions.ToStringWithQuotes*
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+- uid: Global.ReflectionExtensions.GetFieldBypassProtection(System.Type,System.String)
+  commentId: M:Global.ReflectionExtensions.GetFieldBypassProtection(System.Type,System.String)
+  id: GetFieldBypassProtection(System.Type,System.String)
+  isExtensionMethod: true
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetFieldBypassProtection(Type, string)
+  nameWithType: ReflectionExtensions.GetFieldBypassProtection(Type, string)
+  fullName: ReflectionExtensions.GetFieldBypassProtection(System.Type, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GetFieldBypassProtection
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static FieldInfo GetFieldBypassProtection(this Type type, string fieldName)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: fieldName
+      type: System.String
+    return:
+      type: System.Reflection.FieldInfo
+    content.vb: Public Shared Function GetFieldBypassProtection(type As Type, fieldName As String) As FieldInfo
+  overload: Global.ReflectionExtensions.GetFieldBypassProtection*
+  nameWithType.vb: ReflectionExtensions.GetFieldBypassProtection(Type, String)
+  fullName.vb: ReflectionExtensions.GetFieldBypassProtection(System.Type, String)
+  name.vb: GetFieldBypassProtection(Type, String)
+- uid: Global.ReflectionExtensions.GetPropertyBypassProtection(System.Type,System.String)
+  commentId: M:Global.ReflectionExtensions.GetPropertyBypassProtection(System.Type,System.String)
+  id: GetPropertyBypassProtection(System.Type,System.String)
+  isExtensionMethod: true
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyBypassProtection(Type, string)
+  nameWithType: ReflectionExtensions.GetPropertyBypassProtection(Type, string)
+  fullName: ReflectionExtensions.GetPropertyBypassProtection(System.Type, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GetPropertyBypassProtection
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static PropertyInfo GetPropertyBypassProtection(this Type type, string fieldName)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: fieldName
+      type: System.String
+    return:
+      type: System.Reflection.PropertyInfo
+    content.vb: Public Shared Function GetPropertyBypassProtection(type As Type, fieldName As String) As PropertyInfo
+  overload: Global.ReflectionExtensions.GetPropertyBypassProtection*
+  nameWithType.vb: ReflectionExtensions.GetPropertyBypassProtection(Type, String)
+  fullName.vb: ReflectionExtensions.GetPropertyBypassProtection(System.Type, String)
+  name.vb: GetPropertyBypassProtection(Type, String)
+- uid: Global.ReflectionExtensions.SplitIgnoringSplitterInBrackets(System.String,System.Char)
+  commentId: M:Global.ReflectionExtensions.SplitIgnoringSplitterInBrackets(System.String,System.Char)
+  id: SplitIgnoringSplitterInBrackets(System.String,System.Char)
+  isExtensionMethod: true
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitIgnoringSplitterInBrackets(string, char)
+  nameWithType: ReflectionExtensions.SplitIgnoringSplitterInBrackets(string, char)
+  fullName: ReflectionExtensions.SplitIgnoringSplitterInBrackets(string, char)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SplitIgnoringSplitterInBrackets
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 49
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static string[] SplitIgnoringSplitterInBrackets(this string str, char splitter)
+    parameters:
+    - id: str
+      type: System.String
+    - id: splitter
+      type: System.Char
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function SplitIgnoringSplitterInBrackets(str As String, splitter As Char) As String()
+  overload: Global.ReflectionExtensions.SplitIgnoringSplitterInBrackets*
+  nameWithType.vb: ReflectionExtensions.SplitIgnoringSplitterInBrackets(String, Char)
+  fullName.vb: ReflectionExtensions.SplitIgnoringSplitterInBrackets(String, Char)
+  name.vb: SplitIgnoringSplitterInBrackets(String, Char)
+- uid: Global.ReflectionExtensions.SplitAt(System.String,System.Int32[])
+  commentId: M:Global.ReflectionExtensions.SplitAt(System.String,System.Int32[])
+  id: SplitAt(System.String,System.Int32[])
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitAt(string, params int[])
+  nameWithType: ReflectionExtensions.SplitAt(string, params int[])
+  fullName: ReflectionExtensions.SplitAt(string, params int[])
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SplitAt
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 67
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static string[] SplitAt(string source, params int[] index)
+    parameters:
+    - id: source
+      type: System.String
+    - id: index
+      type: System.Int32[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function SplitAt(source As String, ParamArray index As Integer()) As String()
+  overload: Global.ReflectionExtensions.SplitAt*
+  nameWithType.vb: ReflectionExtensions.SplitAt(String, ParamArray Integer())
+  fullName.vb: ReflectionExtensions.SplitAt(String, ParamArray Integer())
+  name.vb: SplitAt(String, ParamArray Integer())
+- uid: Global.ReflectionExtensions.IndexIsInBrackets(System.String,System.Int32)
+  commentId: M:Global.ReflectionExtensions.IndexIsInBrackets(System.String,System.Int32)
+  id: IndexIsInBrackets(System.String,System.Int32)
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: IndexIsInBrackets(string, int)
+  nameWithType: ReflectionExtensions.IndexIsInBrackets(string, int)
+  fullName: ReflectionExtensions.IndexIsInBrackets(string, int)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: IndexIsInBrackets
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 82
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static bool IndexIsInBrackets(string str, int index)
+    parameters:
+    - id: str
+      type: System.String
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IndexIsInBrackets(str As String, index As Integer) As Boolean
+  overload: Global.ReflectionExtensions.IndexIsInBrackets*
+  nameWithType.vb: ReflectionExtensions.IndexIsInBrackets(String, Integer)
+  fullName.vb: ReflectionExtensions.IndexIsInBrackets(String, Integer)
+  name.vb: IndexIsInBrackets(String, Integer)
+- uid: Global.ReflectionExtensions.AllCharacterAreInBrackets(System.String,System.Char)
+  commentId: M:Global.ReflectionExtensions.AllCharacterAreInBrackets(System.String,System.Char)
+  id: AllCharacterAreInBrackets(System.String,System.Char)
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AllCharacterAreInBrackets(string, char)
+  nameWithType: ReflectionExtensions.AllCharacterAreInBrackets(string, char)
+  fullName: ReflectionExtensions.AllCharacterAreInBrackets(string, char)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AllCharacterAreInBrackets
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 126
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static bool AllCharacterAreInBrackets(string str, char c)
+    parameters:
+    - id: str
+      type: System.String
+    - id: c
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function AllCharacterAreInBrackets(str As String, c As Char) As Boolean
+  overload: Global.ReflectionExtensions.AllCharacterAreInBrackets*
+  nameWithType.vb: ReflectionExtensions.AllCharacterAreInBrackets(String, Char)
+  fullName.vb: ReflectionExtensions.AllCharacterAreInBrackets(String, Char)
+  name.vb: AllCharacterAreInBrackets(String, Char)
+- uid: Global.ReflectionExtensions.MathCharacterNotInBracketsExists(System.String)
+  commentId: M:Global.ReflectionExtensions.MathCharacterNotInBracketsExists(System.String)
+  id: MathCharacterNotInBracketsExists(System.String)
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: MathCharacterNotInBracketsExists(string)
+  nameWithType: ReflectionExtensions.MathCharacterNotInBracketsExists(string)
+  fullName: ReflectionExtensions.MathCharacterNotInBracketsExists(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: MathCharacterNotInBracketsExists
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 145
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static bool MathCharacterNotInBracketsExists(string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function MathCharacterNotInBracketsExists(str As String) As Boolean
+  overload: Global.ReflectionExtensions.MathCharacterNotInBracketsExists*
+  nameWithType.vb: ReflectionExtensions.MathCharacterNotInBracketsExists(String)
+  fullName.vb: ReflectionExtensions.MathCharacterNotInBracketsExists(String)
+  name.vb: MathCharacterNotInBracketsExists(String)
+- uid: Global.ReflectionExtensions.RemoveAllCharacterThatNotInBrackets(System.String,System.Char)
+  commentId: M:Global.ReflectionExtensions.RemoveAllCharacterThatNotInBrackets(System.String,System.Char)
+  id: RemoveAllCharacterThatNotInBrackets(System.String,System.Char)
+  parent: Global.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllCharacterThatNotInBrackets(string, char)
+  nameWithType: ReflectionExtensions.RemoveAllCharacterThatNotInBrackets(string, char)
+  fullName: ReflectionExtensions.RemoveAllCharacterThatNotInBrackets(string, char)
+  type: Method
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: RemoveAllCharacterThatNotInBrackets
+    path: ../Assets/DropdownAttributes/Core/Scripts/AdvancedReflection/ReflectionExtensions.cs
+    startLine: 153
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static string RemoveAllCharacterThatNotInBrackets(string str, char c)
+    parameters:
+    - id: str
+      type: System.String
+    - id: c
+      type: System.Char
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveAllCharacterThatNotInBrackets(str As String, c As Char) As String
+  overload: Global.ReflectionExtensions.RemoveAllCharacterThatNotInBrackets*
+  nameWithType.vb: ReflectionExtensions.RemoveAllCharacterThatNotInBrackets(String, Char)
+  fullName.vb: ReflectionExtensions.RemoveAllCharacterThatNotInBrackets(String, Char)
+  name.vb: RemoveAllCharacterThatNotInBrackets(String, Char)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes*
+  commentId: Overload:Global.ReflectionExtensions.ToStringWithQuotes
+  name: ToStringWithQuotes
+  nameWithType: ReflectionExtensions.ToStringWithQuotes
+  fullName: ReflectionExtensions.ToStringWithQuotes
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.ReflectionExtensions.GetFieldBypassProtection*
+  commentId: Overload:Global.ReflectionExtensions.GetFieldBypassProtection
+  name: GetFieldBypassProtection
+  nameWithType: ReflectionExtensions.GetFieldBypassProtection
+  fullName: ReflectionExtensions.GetFieldBypassProtection
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Reflection.FieldInfo
+  commentId: T:System.Reflection.FieldInfo
+  parent: System.Reflection
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: System.Reflection.FieldInfo
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+- uid: Global.ReflectionExtensions.GetPropertyBypassProtection*
+  commentId: Overload:Global.ReflectionExtensions.GetPropertyBypassProtection
+  name: GetPropertyBypassProtection
+  nameWithType: ReflectionExtensions.GetPropertyBypassProtection
+  fullName: ReflectionExtensions.GetPropertyBypassProtection
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: Global.ReflectionExtensions.SplitIgnoringSplitterInBrackets*
+  commentId: Overload:Global.ReflectionExtensions.SplitIgnoringSplitterInBrackets
+  name: SplitIgnoringSplitterInBrackets
+  nameWithType: ReflectionExtensions.SplitIgnoringSplitterInBrackets
+  fullName: ReflectionExtensions.SplitIgnoringSplitterInBrackets
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Global.ReflectionExtensions.SplitAt*
+  commentId: Overload:Global.ReflectionExtensions.SplitAt
+  name: SplitAt
+  nameWithType: ReflectionExtensions.SplitAt
+  fullName: ReflectionExtensions.SplitAt
+- uid: System.Int32[]
+  isExternal: true
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Global.ReflectionExtensions.IndexIsInBrackets*
+  commentId: Overload:Global.ReflectionExtensions.IndexIsInBrackets
+  name: IndexIsInBrackets
+  nameWithType: ReflectionExtensions.IndexIsInBrackets
+  fullName: ReflectionExtensions.IndexIsInBrackets
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.ReflectionExtensions.AllCharacterAreInBrackets*
+  commentId: Overload:Global.ReflectionExtensions.AllCharacterAreInBrackets
+  name: AllCharacterAreInBrackets
+  nameWithType: ReflectionExtensions.AllCharacterAreInBrackets
+  fullName: ReflectionExtensions.AllCharacterAreInBrackets
+- uid: Global.ReflectionExtensions.MathCharacterNotInBracketsExists*
+  commentId: Overload:Global.ReflectionExtensions.MathCharacterNotInBracketsExists
+  name: MathCharacterNotInBracketsExists
+  nameWithType: ReflectionExtensions.MathCharacterNotInBracketsExists
+  fullName: ReflectionExtensions.MathCharacterNotInBracketsExists
+- uid: Global.ReflectionExtensions.RemoveAllCharacterThatNotInBrackets*
+  commentId: Overload:Global.ReflectionExtensions.RemoveAllCharacterThatNotInBrackets
+  name: RemoveAllCharacterThatNotInBrackets
+  nameWithType: ReflectionExtensions.RemoveAllCharacterThatNotInBrackets
+  fullName: ReflectionExtensions.RemoveAllCharacterThatNotInBrackets

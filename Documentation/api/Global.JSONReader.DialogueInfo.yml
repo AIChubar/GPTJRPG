@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JSONReader.DialogueInfo
+  commentId: T:Global.JSONReader.DialogueInfo
+  id: JSONReader.DialogueInfo
+  parent: Global
+  children:
+  - Global.JSONReader.DialogueInfo.dialogueTree
+  - Global.JSONReader.DialogueInfo.enemySpeakerInfo
+  langs:
+  - csharp
+  - vb
+  name: JSONReader.DialogueInfo
+  nameWithType: JSONReader.DialogueInfo
+  fullName: JSONReader.DialogueInfo
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: DialogueInfo
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 132
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class JSONReader.DialogueInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Class JSONReader.DialogueInfo
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.JSONReader.DialogueInfo.enemySpeakerInfo
+  commentId: F:Global.JSONReader.DialogueInfo.enemySpeakerInfo
+  id: enemySpeakerInfo
+  parent: Global.JSONReader.DialogueInfo
+  langs:
+  - csharp
+  - vb
+  name: enemySpeakerInfo
+  nameWithType: JSONReader.DialogueInfo.enemySpeakerInfo
+  fullName: JSONReader.DialogueInfo.enemySpeakerInfo
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: enemySpeakerInfo
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 135
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.EnemySpeakerInfo enemySpeakerInfo
+    return:
+      type: Global.JSONReader.EnemySpeakerInfo
+    content.vb: Public enemySpeakerInfo As JSONReader.EnemySpeakerInfo
+- uid: Global.JSONReader.DialogueInfo.dialogueTree
+  commentId: F:Global.JSONReader.DialogueInfo.dialogueTree
+  id: dialogueTree
+  parent: Global.JSONReader.DialogueInfo
+  langs:
+  - csharp
+  - vb
+  name: dialogueTree
+  nameWithType: JSONReader.DialogueInfo.dialogueTree
+  fullName: JSONReader.DialogueInfo.dialogueTree
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: dialogueTree
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 137
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [SerializeReference]
+
+      public JSONReader.DialogueTree dialogueTree
+    return:
+      type: Global.JSONReader.DialogueTree
+    content.vb: >-
+      <SerializeReference>
+
+      Public dialogueTree As JSONReader.DialogueTree
+  attributes:
+  - type: UnityEngine.SerializeReference
+    ctor: UnityEngine.SerializeReference.#ctor
+    arguments: []
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.JSONReader.EnemySpeakerInfo
+  commentId: T:Global.JSONReader.EnemySpeakerInfo
+  name: JSONReader.EnemySpeakerInfo
+  nameWithType: JSONReader.EnemySpeakerInfo
+  fullName: JSONReader.EnemySpeakerInfo
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.EnemySpeakerInfo
+    name: EnemySpeakerInfo
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.EnemySpeakerInfo
+    name: EnemySpeakerInfo
+- uid: Global.JSONReader.DialogueTree
+  commentId: T:Global.JSONReader.DialogueTree
+  name: JSONReader.DialogueTree
+  nameWithType: JSONReader.DialogueTree
+  fullName: JSONReader.DialogueTree
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueTree
+    name: DialogueTree
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueTree
+    name: DialogueTree

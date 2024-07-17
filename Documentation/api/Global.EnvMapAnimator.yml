@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EnvMapAnimator
+  commentId: T:Global.EnvMapAnimator
+  id: EnvMapAnimator
+  parent: Global
+  children:
+  - Global.EnvMapAnimator.RotationSpeeds
+  langs:
+  - csharp
+  - vb
+  name: EnvMapAnimator
+  nameWithType: EnvMapAnimator
+  fullName: EnvMapAnimator
+  type: Class
+  source:
+    remote:
+      path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: EnvMapAnimator
+    path: ../Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class EnvMapAnimator : MonoBehaviour'
+    content.vb: Public Class EnvMapAnimator Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.EnvMapAnimator.RotationSpeeds
+  commentId: F:Global.EnvMapAnimator.RotationSpeeds
+  id: RotationSpeeds
+  parent: Global.EnvMapAnimator
+  langs:
+  - csharp
+  - vb
+  name: RotationSpeeds
+  nameWithType: EnvMapAnimator.RotationSpeeds
+  fullName: EnvMapAnimator.RotationSpeeds
+  type: Field
+  source:
+    remote:
+      path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: RotationSpeeds
+    path: ../Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 RotationSpeeds
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public RotationSpeeds As Vector3
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3

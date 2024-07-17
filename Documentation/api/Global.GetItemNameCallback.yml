@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GetItemNameCallback
+  commentId: T:Global.GetItemNameCallback
+  id: GetItemNameCallback
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GetItemNameCallback
+  nameWithType: GetItemNameCallback
+  fullName: GetItemNameCallback
+  type: Delegate
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GetItemNameCallback
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public delegate string GetItemNameCallback(object baseMaster, object master)
+    parameters:
+    - id: baseMaster
+      type: System.Object
+    - id: master
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Delegate Function GetItemNameCallback(baseMaster As Object, master As Object) As String
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+references:
+- uid: Global
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

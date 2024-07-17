@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerInput.IPlayerActions
+  commentId: T:Global.PlayerInput.IPlayerActions
+  id: PlayerInput.IPlayerActions
+  parent: Global
+  children:
+  - Global.PlayerInput.IPlayerActions.OnKB(UnityEngine.InputSystem.InputAction.CallbackContext)
+  - Global.PlayerInput.IPlayerActions.OnMove(UnityEngine.InputSystem.InputAction.CallbackContext)
+  - Global.PlayerInput.IPlayerActions.OnPause(UnityEngine.InputSystem.InputAction.CallbackContext)
+  langs:
+  - csharp
+  - vb
+  name: PlayerInput.IPlayerActions
+  nameWithType: PlayerInput.IPlayerActions
+  fullName: PlayerInput.IPlayerActions
+  type: Interface
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: IPlayerActions
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 275
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public interface PlayerInput.IPlayerActions
+    content.vb: Public Interface PlayerInput.IPlayerActions
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.PlayerInput.IPlayerActions.OnMove(UnityEngine.InputSystem.InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IPlayerActions.OnMove(UnityEngine.InputSystem.InputAction.CallbackContext)
+  id: OnMove(UnityEngine.InputSystem.InputAction.CallbackContext)
+  parent: Global.PlayerInput.IPlayerActions
+  langs:
+  - csharp
+  - vb
+  name: OnMove(CallbackContext)
+  nameWithType: PlayerInput.IPlayerActions.OnMove(InputAction.CallbackContext)
+  fullName: PlayerInput.IPlayerActions.OnMove(UnityEngine.InputSystem.InputAction.CallbackContext)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnMove
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 277
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: void OnMove(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: UnityEngine.InputSystem.InputAction.CallbackContext
+    content.vb: Sub OnMove(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IPlayerActions.OnMove*
+- uid: Global.PlayerInput.IPlayerActions.OnPause(UnityEngine.InputSystem.InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IPlayerActions.OnPause(UnityEngine.InputSystem.InputAction.CallbackContext)
+  id: OnPause(UnityEngine.InputSystem.InputAction.CallbackContext)
+  parent: Global.PlayerInput.IPlayerActions
+  langs:
+  - csharp
+  - vb
+  name: OnPause(CallbackContext)
+  nameWithType: PlayerInput.IPlayerActions.OnPause(InputAction.CallbackContext)
+  fullName: PlayerInput.IPlayerActions.OnPause(UnityEngine.InputSystem.InputAction.CallbackContext)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnPause
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 278
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: void OnPause(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: UnityEngine.InputSystem.InputAction.CallbackContext
+    content.vb: Sub OnPause(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IPlayerActions.OnPause*
+- uid: Global.PlayerInput.IPlayerActions.OnKB(UnityEngine.InputSystem.InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IPlayerActions.OnKB(UnityEngine.InputSystem.InputAction.CallbackContext)
+  id: OnKB(UnityEngine.InputSystem.InputAction.CallbackContext)
+  parent: Global.PlayerInput.IPlayerActions
+  langs:
+  - csharp
+  - vb
+  name: OnKB(CallbackContext)
+  nameWithType: PlayerInput.IPlayerActions.OnKB(InputAction.CallbackContext)
+  fullName: PlayerInput.IPlayerActions.OnKB(UnityEngine.InputSystem.InputAction.CallbackContext)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnKB
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 279
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: void OnKB(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: UnityEngine.InputSystem.InputAction.CallbackContext
+    content.vb: Sub OnKB(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IPlayerActions.OnKB*
+references:
+- uid: Global
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.PlayerInput.IPlayerActions.OnMove*
+  commentId: Overload:Global.PlayerInput.IPlayerActions.OnMove
+  name: OnMove
+  nameWithType: PlayerInput.IPlayerActions.OnMove
+  fullName: PlayerInput.IPlayerActions.OnMove
+- uid: UnityEngine.InputSystem.InputAction.CallbackContext
+  commentId: T:UnityEngine.InputSystem.InputAction.CallbackContext
+  parent: UnityEngine.InputSystem
+  isExternal: true
+  name: InputAction.CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: UnityEngine.InputSystem.InputAction.CallbackContext
+  spec.csharp:
+  - uid: UnityEngine.InputSystem.InputAction
+    name: InputAction
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.InputSystem.InputAction.CallbackContext
+    name: CallbackContext
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine.InputSystem.InputAction
+    name: InputAction
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.InputSystem.InputAction.CallbackContext
+    name: CallbackContext
+    isExternal: true
+- uid: UnityEngine.InputSystem
+  commentId: N:UnityEngine.InputSystem
+  isExternal: true
+  name: UnityEngine.InputSystem
+  nameWithType: UnityEngine.InputSystem
+  fullName: UnityEngine.InputSystem
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+    isExternal: true
+- uid: Global.PlayerInput.IPlayerActions.OnPause*
+  commentId: Overload:Global.PlayerInput.IPlayerActions.OnPause
+  name: OnPause
+  nameWithType: PlayerInput.IPlayerActions.OnPause
+  fullName: PlayerInput.IPlayerActions.OnPause
+- uid: Global.PlayerInput.IPlayerActions.OnKB*
+  commentId: Overload:Global.PlayerInput.IPlayerActions.OnKB
+  name: OnKB
+  nameWithType: PlayerInput.IPlayerActions.OnKB
+  fullName: PlayerInput.IPlayerActions.OnKB

@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GroupInfoHUD
+  commentId: T:Global.GroupInfoHUD
+  id: GroupInfoHUD
+  parent: Global
+  children:
+  - Global.GroupInfoHUD.OnHealButtonClicked
+  - Global.GroupInfoHUD.Swap(System.Int32,System.Int32)
+  - Global.GroupInfoHUD.UpdateHUD
+  langs:
+  - csharp
+  - vb
+  name: GroupInfoHUD
+  nameWithType: GroupInfoHUD
+  fullName: GroupInfoHUD
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UI/GroupInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GroupInfoHUD
+    path: ../Assets/Scripts/UI/GroupInfoHUD.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that controls the Group Info Window UI element.\n"
+  example: []
+  syntax:
+    content: 'public class GroupInfoHUD : SwappingInterface'
+    content.vb: Public Class GroupInfoHUD Inherits SwappingInterface
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - Global.SwappingInterface
+  inheritedMembers:
+  - Global.SwappingInterface.items
+  - Global.SwappingInterface.canvas
+  - Global.SwappingInterface.Start
+  - Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  - Global.SwappingInterface.SwapCurrentItem
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.GroupInfoHUD.UpdateHUD
+  commentId: M:Global.GroupInfoHUD.UpdateHUD
+  id: UpdateHUD
+  parent: Global.GroupInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: UpdateHUD()
+  nameWithType: GroupInfoHUD.UpdateHUD()
+  fullName: GroupInfoHUD.UpdateHUD()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/GroupInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UpdateHUD
+    path: ../Assets/Scripts/UI/GroupInfoHUD.cs
+    startLine: 40
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void UpdateHUD()
+    content.vb: Public Sub UpdateHUD()
+  overload: Global.GroupInfoHUD.UpdateHUD*
+- uid: Global.GroupInfoHUD.Swap(System.Int32,System.Int32)
+  commentId: M:Global.GroupInfoHUD.Swap(System.Int32,System.Int32)
+  id: Swap(System.Int32,System.Int32)
+  parent: Global.GroupInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: Swap(int, int)
+  nameWithType: GroupInfoHUD.Swap(int, int)
+  fullName: GroupInfoHUD.Swap(int, int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/GroupInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Swap
+    path: ../Assets/Scripts/UI/GroupInfoHUD.cs
+    startLine: 75
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nOverriden method of the <xref href=\"SwappingInterface\" data-throw-if-not-resolved=\"false\"></xref>. Swaps dragged object with one under the mouth cursor.\n"
+  example: []
+  syntax:
+    content: protected override void Swap(int currentIndex, int targetIndex)
+    parameters:
+    - id: currentIndex
+      type: System.Int32
+      description: Index of the dragged object.
+    - id: targetIndex
+      type: System.Int32
+      description: Index of the object under the mouth cursor.
+    content.vb: Protected Overrides Sub Swap(currentIndex As Integer, targetIndex As Integer)
+  overridden: Global.SwappingInterface.Swap(System.Int32,System.Int32)
+  overload: Global.GroupInfoHUD.Swap*
+  nameWithType.vb: GroupInfoHUD.Swap(Integer, Integer)
+  fullName.vb: GroupInfoHUD.Swap(Integer, Integer)
+  name.vb: Swap(Integer, Integer)
+- uid: Global.GroupInfoHUD.OnHealButtonClicked
+  commentId: M:Global.GroupInfoHUD.OnHealButtonClicked
+  id: OnHealButtonClicked
+  parent: Global.GroupInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: OnHealButtonClicked()
+  nameWithType: GroupInfoHUD.OnHealButtonClicked()
+  fullName: GroupInfoHUD.OnHealButtonClicked()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/GroupInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnHealButtonClicked
+    path: ../Assets/Scripts/UI/GroupInfoHUD.cs
+    startLine: 93
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nHeals all <xref href=\"JSONReader.UnitJSON\" data-throw-if-not-resolved=\"false\"></xref> of the player&apos;s group.\n"
+  example: []
+  syntax:
+    content: public void OnHealButtonClicked()
+    content.vb: Public Sub OnHealButtonClicked()
+  overload: Global.GroupInfoHUD.OnHealButtonClicked*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: Global.SwappingInterface
+  commentId: T:Global.SwappingInterface
+  name: SwappingInterface
+  nameWithType: SwappingInterface
+  fullName: SwappingInterface
+- uid: Global.SwappingInterface.items
+  commentId: F:Global.SwappingInterface.items
+  parent: Global.SwappingInterface
+  name: items
+  nameWithType: SwappingInterface.items
+  fullName: SwappingInterface.items
+- uid: Global.SwappingInterface.canvas
+  commentId: F:Global.SwappingInterface.canvas
+  parent: Global.SwappingInterface
+  name: canvas
+  nameWithType: SwappingInterface.canvas
+  fullName: SwappingInterface.canvas
+- uid: Global.SwappingInterface.Start
+  commentId: M:Global.SwappingInterface.Start
+  parent: Global.SwappingInterface
+  name: Start()
+  nameWithType: SwappingInterface.Start()
+  fullName: SwappingInterface.Start()
+  spec.csharp:
+  - uid: Global.SwappingInterface.Start
+    name: Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.SwappingInterface.Start
+    name: Start
+  - name: (
+  - name: )
+- uid: Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  commentId: M:Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  parent: Global.SwappingInterface
+  isExternal: true
+  name: SetCurrentItem(RectTransform)
+  nameWithType: SwappingInterface.SetCurrentItem(RectTransform)
+  fullName: SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  spec.csharp:
+  - uid: Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+    name: SetCurrentItem
+  - name: (
+  - uid: UnityEngine.RectTransform
+    name: RectTransform
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+    name: SetCurrentItem
+  - name: (
+  - uid: UnityEngine.RectTransform
+    name: RectTransform
+    isExternal: true
+  - name: )
+- uid: Global.SwappingInterface.SwapCurrentItem
+  commentId: M:Global.SwappingInterface.SwapCurrentItem
+  parent: Global.SwappingInterface
+  name: SwapCurrentItem()
+  nameWithType: SwappingInterface.SwapCurrentItem()
+  fullName: SwappingInterface.SwapCurrentItem()
+  spec.csharp:
+  - uid: Global.SwappingInterface.SwapCurrentItem
+    name: SwapCurrentItem
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.SwappingInterface.SwapCurrentItem
+    name: SwapCurrentItem
+  - name: (
+  - name: )
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.GroupInfoHUD.UpdateHUD*
+  commentId: Overload:Global.GroupInfoHUD.UpdateHUD
+  name: UpdateHUD
+  nameWithType: GroupInfoHUD.UpdateHUD
+  fullName: GroupInfoHUD.UpdateHUD
+- uid: SwappingInterface
+  commentId: T:SwappingInterface
+  isExternal: true
+- uid: Global.SwappingInterface.Swap(System.Int32,System.Int32)
+  commentId: M:Global.SwappingInterface.Swap(System.Int32,System.Int32)
+  parent: Global.SwappingInterface
+  isExternal: true
+  name: Swap(int, int)
+  nameWithType: SwappingInterface.Swap(int, int)
+  fullName: SwappingInterface.Swap(int, int)
+  nameWithType.vb: SwappingInterface.Swap(Integer, Integer)
+  fullName.vb: SwappingInterface.Swap(Integer, Integer)
+  name.vb: Swap(Integer, Integer)
+  spec.csharp:
+  - uid: Global.SwappingInterface.Swap(System.Int32,System.Int32)
+    name: Swap
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.SwappingInterface.Swap(System.Int32,System.Int32)
+    name: Swap
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.GroupInfoHUD.Swap*
+  commentId: Overload:Global.GroupInfoHUD.Swap
+  name: Swap
+  nameWithType: GroupInfoHUD.Swap
+  fullName: GroupInfoHUD.Swap
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: JSONReader.UnitJSON
+  commentId: T:JSONReader.UnitJSON
+  isExternal: true
+- uid: Global.GroupInfoHUD.OnHealButtonClicked*
+  commentId: Overload:Global.GroupInfoHUD.OnHealButtonClicked
+  name: OnHealButtonClicked
+  nameWithType: GroupInfoHUD.OnHealButtonClicked
+  fullName: GroupInfoHUD.OnHealButtonClicked

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Concept | GPT JRPG documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Concept | GPT JRPG documentation ">
+    
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p sourcefile="index.md" sourcestartlinenumber="1"><a href="https://github.com/AIChubar/GPTJRPG" sourcefile="index.md" sourcestartlinenumber="1">https://github.com/AIChubar/GPTJRPG</a></p>
+<h1 id="concept" sourcefile="index.md" sourcestartlinenumber="3">Concept</h1>
+<p sourcefile="index.md" sourcestartlinenumber="5">This project was created for the master diploma thesis &quot;Generating game content with generative language models&quot; for Charles University in Prague.
+This includes the JRPG game made in Unity specifically for this thesis and the application that generates game content for it using the OpenAI API GPT model.
+The generated content, including story, quests, characters, and asset selection, is consolidated into a Game World concept.</p>
+<h1 id="setting-up-the-project" sourcefile="index.md" sourcestartlinenumber="9">Setting up the project</h1>
+<h2 id="gpt-jrpg-game" sourcefile="index.md" sourcestartlinenumber="11">GPT JRPG Game</h2>
+<p sourcefile="index.md" sourcestartlinenumber="13">The game only supports the Windows OS and doesn't require any additional software installed. The following steps should be done in order to play the game:</p>
+<ol sourcefile="index.md" sourcestartlinenumber="15">
+<li sourcefile="index.md" sourcestartlinenumber="15">Extract the compressed <code sourcefile="index.md" sourcestartlinenumber="15">GPT_JRPG_BUILD.zip</code> file locally.</li>
+<li sourcefile="index.md" sourcestartlinenumber="16">Launch the <code sourcefile="index.md" sourcestartlinenumber="16">GPT JRPG.exe</code> executable that can be found in the extracted folder.</li>
+<li sourcefile="index.md" sourcestartlinenumber="17">Choose one of the available Game Worlds and click the button <code sourcefile="index.md" sourcestartlinenumber="17">Start Game</code></li>
+</ol>
+<p sourcefile="index.md" sourcestartlinenumber="19"><img src="./images/menu.png" sourcefile="index.md" sourcestartlinenumber="19" alt="Menu"></p>
+<p sourcefile="index.md" sourcestartlinenumber="21">Description of the default Game Worlds can be found here <a href="#default-game-worlds" sourcefile="index.md" sourcestartlinenumber="21">Default Game Worlds</a></p>
+<h2 id="openai-api-application" sourcefile="index.md" sourcestartlinenumber="23">OpenAI API Application</h2>
+<p sourcefile="index.md" sourcestartlinenumber="25">In order to be able to generate a new Game World, you need to have an OpenAI account with enough credits on a balance (at least 1.0$ for the Game World generation with default settings, which is explained in more detail <a href="#openai-api-queries" sourcefile="index.md" sourcestartlinenumber="25">OpenAI API Queries</a>). Follow these steps to set up the environment to be able to launch the Game World Generator:</p>
+<ol sourcefile="index.md" sourcestartlinenumber="27">
+<li sourcefile="index.md" sourcestartlinenumber="27">Have at least Python 3.7.1 or newer installed. You can follow these official guidelines for beginners - <a href="https://wiki.python.org/moin/BeginnersGuide/Download" sourcefile="index.md" sourcestartlinenumber="27">BeginnersGuide/Download | Python Wiki</a></li>
+<li sourcefile="index.md" sourcestartlinenumber="28">Upgrade the PIP to the latest version:
+<pre><code sourcefile="index.md" sourcestartlinenumber="29">pip install --upgrade pip
+</code></pre>
+</li>
+<li sourcefile="index.md" sourcestartlinenumber="32">Install the OpenAI API library by running the following command from the terminal:
+<pre><code sourcefile="index.md" sourcestartlinenumber="33">pip install --upgrade openai
+</code></pre>
+</li>
+<li sourcefile="index.md" sourcestartlinenumber="36">Set up your OpenAI API account - <a href="https://platform.openai.com/auth/login" sourcefile="index.md" sourcestartlinenumber="36">OpenAI Platform</a> and add funds to a credit balance.</li>
+<li sourcefile="index.md" sourcestartlinenumber="37">Set up an API key in your OpenAI API account profile - <a href="https://platform.openai.com/settings/profile?tab=api-keys" sourcefile="index.md" sourcestartlinenumber="37">User settings - OpenAI API</a>.</li>
+<li sourcefile="index.md" sourcestartlinenumber="38">Add a new Windows Environment System Variable, with the Variable name <code sourcefile="index.md" sourcestartlinenumber="38">OPENAI_API_KEY</code> and set a Variable value to your OpenAI API key.</li>
+</ol>
+<p sourcefile="index.md" sourcestartlinenumber="40">After that, you will be able to generate a new Game World both from the game Main Menu or by running a python script <code sourcefile="index.md" sourcestartlinenumber="40">run.py</code> from <code sourcefile="index.md" sourcestartlinenumber="40">...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API</code> extracted game folder:</p>
+<pre><code sourcefile="index.md" sourcestartlinenumber="41">   python3 run.py
+</code></pre>
+<h2 id="openai-api-queries" sourcefile="index.md" sourcestartlinenumber="44">OpenAI API Queries</h2>
+<p sourcefile="index.md" sourcestartlinenumber="46">The folder <code sourcefile="index.md" sourcestartlinenumber="46">...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\API</code> from the extracted game contains the following scripts that make calls to OpenAI after you run the <code sourcefile="index.md" sourcestartlinenumber="46">run.py</code> script:</p>
+<ol sourcefile="index.md" sourcestartlinenumber="47">
+<li sourcefile="index.md" sourcestartlinenumber="47"><code sourcefile="index.md" sourcestartlinenumber="47">api_request_dialogue.py</code> - Generates dialogues with all enemies groups.</li>
+<li sourcefile="index.md" sourcestartlinenumber="48"><code sourcefile="index.md" sourcestartlinenumber="48">api_request_levels.py</code> - Generates levels and chooses terrains for them.</li>
+<li sourcefile="index.md" sourcestartlinenumber="49"><code sourcefile="index.md" sourcestartlinenumber="49">api_request_main_character.py</code> - Generates a protagonist, including name, class, backstory, and protagonist group.</li>
+<li sourcefile="index.md" sourcestartlinenumber="50"><code sourcefile="index.md" sourcestartlinenumber="50">api_request_narrative.py</code> - Generates story, game messages and the main antagonist.</li>
+<li sourcefile="index.md" sourcestartlinenumber="51"><code sourcefile="index.md" sourcestartlinenumber="51">api_request_quests.py</code> - Generates quests for each level.</li>
+<li sourcefile="index.md" sourcestartlinenumber="52"><code sourcefile="index.md" sourcestartlinenumber="52">api_request_unit_data.py</code> - Generates enemy units.</li>
+</ol>
+<p sourcefile="index.md" sourcestartlinenumber="54">You can find all the prompts in these scripts in the extracted game folder or in the Unity project on GitHub (<a href="https://github.com/AIChubar/GPTJRPG/tree/master/Assets/StreamingAssets/API" sourcefile="index.md" sourcestartlinenumber="54">https://github.com/AIChubar/GPTJRPG/tree/master/Assets/StreamingAssets/API</a>).</p>
+<p sourcefile="index.md" sourcestartlinenumber="56">You can modify the OpenAI API parameters here, such as the <code sourcefile="index.md" sourcestartlinenumber="56">model</code> that will be used and the <code sourcefile="index.md" sourcestartlinenumber="56">temperature</code>, by changing the variables set at the beginning of the script, <code sourcefile="index.md" sourcestartlinenumber="56">model_param</code> and <code sourcefile="index.md" sourcestartlinenumber="56">temperature_param</code>.
+We recommend using either GPT-4o (<code sourcefile="index.md" sourcestartlinenumber="57">model_param = &quot;gpt-4o&quot;</code>) or GPT-3.5 turbo (<code sourcefile="index.md" sourcestartlinenumber="57">model_param = &quot;gpt-3.5-turbo-0125&quot;</code>) models and temperature within the range 0.5 and 1.0.</p>
+<p sourcefile="index.md" sourcestartlinenumber="59">The current model parameter for all scripts is set to use the model GPT-4o (<code sourcefile="index.md" sourcestartlinenumber="59">model_param = &quot;gpt-4o&quot;</code>). The Temperature is set to 0.6 for all scripts except the dialogue query, for which the temperature equals 1.0.
+The cost of creating one world currently ranges between $0.6 and $0.8. The most costly part is the dialogue query, and lowering its model parameter to GPT-3.5 turbo (<code sourcefile="index.md" sourcestartlinenumber="60">model_param = &quot;gpt-3.5-turbo-0125&quot;</code>) reduces costs to approximately $0.3.</p>
+<p sourcefile="index.md" sourcestartlinenumber="62">Setting the temperature above the recommended value may cause a broken structure and can make this Game World unlaunchable.</p>
+<h2 id="default-game-worlds" sourcefile="index.md" sourcestartlinenumber="64">Default Game Worlds</h2>
+<p sourcefile="index.md" sourcestartlinenumber="66">The Game Worlds available in the game and generated ones can be found in the <code sourcefile="index.md" sourcestartlinenumber="66">...\GPT_JRPG_BUILD\GPT JRPG_Data\StreamingAssets\Worlds</code> folder. We used two API parameter setups to generate the default Game Worlds:</p>
+<ul sourcefile="index.md" sourcestartlinenumber="68">
+<li sourcefile="index.md" sourcestartlinenumber="68">The default temperature (described above) and the GPT-4o model for all queries. This setup was used to generate the Shattered Realms of Dusk Game World.</li>
+<li sourcefile="index.md" sourcestartlinenumber="69">The default temperature (described above) and the GPT-4o model are used for all queries except the dialogue, which uses the GPT 3.5 turbo model. This setup was used to generate Darkened Spires of Eternity.</li>
+</ul>
+<p sourcefile="index.md" sourcestartlinenumber="71">The Game World <strong sourcefile="index.md" sourcestartlinenumber="71">Darkened Veil</strong> is generated using both setups and can be distinguished in the Menu by the additional subtitle to the Game World name you can see on the screenshot of the menu above.</p>
+<h1 id="game-documentation" sourcefile="index.md" sourcestartlinenumber="73">Game Documentation</h1>
+<p sourcefile="index.md" sourcestartlinenumber="75">Here, you can find information about the game GPT JRPG, namely controls, game flow, UI, and a description of some systems.</p>
+<h2 id="controls" sourcefile="index.md" sourcestartlinenumber="77">Controls</h2>
+<p sourcefile="index.md" sourcestartlinenumber="79">The game is controlled using a keyboard and a mouse:
+Movements - <strong sourcefile="index.md" sourcestartlinenumber="80">WASD</strong>
+Pause Menu - <strong sourcefile="index.md" sourcestartlinenumber="81">ESC</strong>
+Knowledge Base - <strong sourcefile="index.md" sourcestartlinenumber="82">J</strong>
+Interaction with UI buttons - <strong sourcefile="index.md" sourcestartlinenumber="83">Left Mouse Button Click</strong></p>
+<h2 id="game-flow" sourcefile="index.md" sourcestartlinenumber="85">Game Flow</h2>
+<p sourcefile="index.md" sourcestartlinenumber="87">The core gameplay involves progressing through levels, engaging with enemies, completing quests, and managing units to form a strong and balanced team. The main goal is to defeat the world antagonist. The game's difficulty and the necessity of adapting the playstyle come from the fact that units do not heal after battles. Players must carefully select battles that can provide an item that might help recruit new units or heal the group.</p>
+<p sourcefile="index.md" sourcestartlinenumber="89">To progress through the levels, you need to complete quests with a reward <code sourcefile="index.md" sourcestartlinenumber="89">pass to the next level</code>, and a final quest is indicated with a reward <code sourcefile="index.md" sourcestartlinenumber="89">win</code>.</p>
+<p sourcefile="index.md" sourcestartlinenumber="91"><img src="./images/level.png" sourcefile="index.md" sourcestartlinenumber="91" alt="Level"></p>
+<h2 id="ui" sourcefile="index.md" sourcestartlinenumber="93">UI</h2>
+<p sourcefile="index.md" sourcestartlinenumber="95">UI is an important part of the game. It allows the player to receive information about the current Game World and perform certain actions.</p>
+<h3 id="quest-journal" sourcefile="index.md" sourcestartlinenumber="97">Quest Journal</h3>
+<p sourcefile="index.md" sourcestartlinenumber="99">Here, players can find all the information about the quests. Each quest has a colour indentation, whether it is completed (green), failed (red) or currently available (white). By clicking on the quest more detailed information can be found.</p>
+<p sourcefile="index.md" sourcestartlinenumber="101"><img src="./images/quests.png" sourcefile="index.md" sourcestartlinenumber="101" alt="Quests"></p>
+<h3 id="group-info" sourcefile="index.md" sourcestartlinenumber="103">Group Info</h3>
+<p sourcefile="index.md" sourcestartlinenumber="105">The current protagonist group data is displayed in the group info menu. The units’ positions here correspond to those in battle and can be swapped. Information about the available items and units that can be healed with the amulet of healing can also be found here. An amulet of alliance is used to force an enemy to be recruited.</p>
+<p sourcefile="index.md" sourcestartlinenumber="107"><img src="./images/group.png" sourcefile="index.md" sourcestartlinenumber="107" alt="Group"></p>
+<h3 id="knowledge-base" sourcefile="index.md" sourcestartlinenumber="109">Knowledge Base</h3>
+<p sourcefile="index.md" sourcestartlinenumber="111">The knowledge base contains data about the current Game World, such as the descriptions of levels, stories, units, and also unit classes available in the game. Here is what the bestiary with all existing units in the game looks like.</p>
+<p sourcefile="index.md" sourcestartlinenumber="113"><img src="./images/bestiary.png" sourcefile="index.md" sourcestartlinenumber="113" alt="Bestiary"></p>
+<h3 id="dialogue-window" sourcefile="index.md" sourcestartlinenumber="115">Dialogue Window</h3>
+<p sourcefile="index.md" sourcestartlinenumber="117">Open upon interacting with the enemy. During the dialogue, the player answers to the world enemy phrases by choosing from the available answers. At some point, the dialogue ends, and buttons with the possible actions appear depending on the dialogue outcome.</p>
+<p sourcefile="index.md" sourcestartlinenumber="119"><img src="./images/dialogue.png" sourcefile="index.md" sourcestartlinenumber="119" alt="Dialogue"></p>
+<h3 id="recruit-menu" sourcefile="index.md" sourcestartlinenumber="121">Recruit Menu</h3>
+<p sourcefile="index.md" sourcestartlinenumber="123">Open upon interacting with the enemy. During the dialogue, the player answers to the world enemy phrases by choosing from the available answers. At some point, the dialogue ends, and buttons with the possible actions appear depending on the dialogue outcome.</p>
+<p sourcefile="index.md" sourcestartlinenumber="125"><img src="./images/recruit.png" sourcefile="index.md" sourcestartlinenumber="125" alt="Recruit"></p>
+<h2 id="battle-system" sourcefile="index.md" sourcestartlinenumber="127">Battle System</h2>
+<p sourcefile="index.md" sourcestartlinenumber="129">The game features a turn-based battle system. Combat is structured into rounds, with each round concluding once every protagonist unit has performed its action. There are three types of actions available during combat:</p>
+<ul sourcefile="index.md" sourcestartlinenumber="131">
+<li sourcefile="index.md" sourcestartlinenumber="131"><strong sourcefile="index.md" sourcestartlinenumber="131">Attack</strong> - deals damage to a chosen enemy unit.</li>
+<li sourcefile="index.md" sourcestartlinenumber="132"><strong sourcefile="index.md" sourcestartlinenumber="132">Defend</strong> - doubles the armour.</li>
+<li sourcefile="index.md" sourcestartlinenumber="133"><strong sourcefile="index.md" sourcestartlinenumber="133">Ability</strong> - uses the unique for each class ability. You can find information about classes in the Knowledge Base inside the game.</li>
+</ul>
+<p sourcefile="index.md" sourcestartlinenumber="135"><img src="./images/battlescene.png" sourcefile="index.md" sourcestartlinenumber="135" alt="Battle"></p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      GPTJRPG documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

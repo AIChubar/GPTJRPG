@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.WorldEnemy
+  commentId: T:Global.WorldEnemy
+  id: WorldEnemy
+  parent: Global
+  children:
+  - Global.WorldEnemy.boss
+  - Global.WorldEnemy.dialogueInfo
+  - Global.WorldEnemy.groupData
+  - Global.WorldEnemy.SetGroup(JSONReader.UnitGroup,JSONReader.DialogueInfo,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: WorldEnemy
+  nameWithType: WorldEnemy
+  fullName: WorldEnemy
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/WorldEnemy.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: WorldEnemy
+    path: ../Assets/Scripts/LevelScripts/WorldEnemy.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript for the object representing <xref href=\"JSONReader.UnitGroup\" data-throw-if-not-resolved=\"false\"></xref> on the <xref href=\"JSONReader.LevelUnits\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public class WorldEnemy : MonoBehaviour'
+    content.vb: Public Class WorldEnemy Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.WorldEnemy.groupData
+  commentId: F:Global.WorldEnemy.groupData
+  id: groupData
+  parent: Global.WorldEnemy
+  langs:
+  - csharp
+  - vb
+  name: groupData
+  nameWithType: WorldEnemy.groupData
+  fullName: WorldEnemy.groupData
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/WorldEnemy.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: groupData
+    path: ../Assets/Scripts/LevelScripts/WorldEnemy.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public JSONReader.UnitGroup groupData
+    return:
+      type: Global.JSONReader.UnitGroup
+    content.vb: >-
+      <HideInInspector>
+
+      Public groupData As JSONReader.UnitGroup
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.WorldEnemy.dialogueInfo
+  commentId: F:Global.WorldEnemy.dialogueInfo
+  id: dialogueInfo
+  parent: Global.WorldEnemy
+  langs:
+  - csharp
+  - vb
+  name: dialogueInfo
+  nameWithType: WorldEnemy.dialogueInfo
+  fullName: WorldEnemy.dialogueInfo
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/WorldEnemy.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: dialogueInfo
+    path: ../Assets/Scripts/LevelScripts/WorldEnemy.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public JSONReader.DialogueInfo dialogueInfo
+    return:
+      type: Global.JSONReader.DialogueInfo
+    content.vb: >-
+      <HideInInspector>
+
+      Public dialogueInfo As JSONReader.DialogueInfo
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.WorldEnemy.boss
+  commentId: F:Global.WorldEnemy.boss
+  id: boss
+  parent: Global.WorldEnemy
+  langs:
+  - csharp
+  - vb
+  name: boss
+  nameWithType: WorldEnemy.boss
+  fullName: WorldEnemy.boss
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/WorldEnemy.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: boss
+    path: ../Assets/Scripts/LevelScripts/WorldEnemy.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public bool boss
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <HideInInspector>
+
+      Public boss As Boolean
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.WorldEnemy.SetGroup(JSONReader.UnitGroup,JSONReader.DialogueInfo,System.Boolean)
+  commentId: M:Global.WorldEnemy.SetGroup(JSONReader.UnitGroup,JSONReader.DialogueInfo,System.Boolean)
+  id: SetGroup(JSONReader.UnitGroup,JSONReader.DialogueInfo,System.Boolean)
+  parent: Global.WorldEnemy
+  langs:
+  - csharp
+  - vb
+  name: SetGroup(UnitGroup, DialogueInfo, bool)
+  nameWithType: WorldEnemy.SetGroup(JSONReader.UnitGroup, JSONReader.DialogueInfo, bool)
+  fullName: WorldEnemy.SetGroup(JSONReader.UnitGroup, JSONReader.DialogueInfo, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/WorldEnemy.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SetGroup
+    path: ../Assets/Scripts/LevelScripts/WorldEnemy.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSets up data about this World Enemy. \n"
+  example: []
+  syntax:
+    content: public void SetGroup(JSONReader.UnitGroup gd, JSONReader.DialogueInfo di, bool isBoss = false)
+    parameters:
+    - id: gd
+      type: Global.JSONReader.UnitGroup
+      description: Unit Group data.
+    - id: di
+      type: Global.JSONReader.DialogueInfo
+      description: Dialogue data.
+    - id: isBoss
+      type: System.Boolean
+      description: True if this World Enemy is a main Antagonist.
+    content.vb: Public Sub SetGroup(gd As JSONReader.UnitGroup, di As JSONReader.DialogueInfo, isBoss As Boolean = False)
+  overload: Global.WorldEnemy.SetGroup*
+  nameWithType.vb: WorldEnemy.SetGroup(JSONReader.UnitGroup, JSONReader.DialogueInfo, Boolean)
+  fullName.vb: WorldEnemy.SetGroup(JSONReader.UnitGroup, JSONReader.DialogueInfo, Boolean)
+  name.vb: SetGroup(UnitGroup, DialogueInfo, Boolean)
+references:
+- uid: JSONReader.UnitGroup
+  commentId: T:JSONReader.UnitGroup
+  isExternal: true
+- uid: JSONReader.LevelUnits
+  commentId: T:JSONReader.LevelUnits
+  isExternal: true
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.JSONReader.UnitGroup
+  commentId: T:Global.JSONReader.UnitGroup
+  name: JSONReader.UnitGroup
+  nameWithType: JSONReader.UnitGroup
+  fullName: JSONReader.UnitGroup
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+- uid: Global.JSONReader.DialogueInfo
+  commentId: T:Global.JSONReader.DialogueInfo
+  name: JSONReader.DialogueInfo
+  nameWithType: JSONReader.DialogueInfo
+  fullName: JSONReader.DialogueInfo
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueInfo
+    name: DialogueInfo
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueInfo
+    name: DialogueInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.WorldEnemy.SetGroup*
+  commentId: Overload:Global.WorldEnemy.SetGroup
+  name: SetGroup
+  nameWithType: WorldEnemy.SetGroup
+  fullName: WorldEnemy.SetGroup

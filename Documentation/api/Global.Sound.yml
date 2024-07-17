@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Sound
+  commentId: T:Global.Sound
+  id: Sound
+  parent: Global
+  children:
+  - Global.Sound.Clip
+  - Global.Sound.Loop
+  - Global.Sound.Name
+  - Global.Sound.Pitch
+  - Global.Sound.Source
+  - Global.Sound.Volume
+  langs:
+  - csharp
+  - vb
+  name: Sound
+  nameWithType: Sound
+  fullName: Sound
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Tools/Sound.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Sound
+    path: ../Assets/Scripts/Tools/Sound.cs
+    startLine: 3
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Sound
+    content.vb: >-
+      <Serializable>
+
+      Public Class Sound
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.Sound.Name
+  commentId: F:Global.Sound.Name
+  id: Name
+  parent: Global.Sound
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Sound.Name
+  fullName: Sound.Name
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/Sound.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Name
+    path: ../Assets/Scripts/Tools/Sound.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+- uid: Global.Sound.Clip
+  commentId: F:Global.Sound.Clip
+  id: Clip
+  parent: Global.Sound
+  langs:
+  - csharp
+  - vb
+  name: Clip
+  nameWithType: Sound.Clip
+  fullName: Sound.Clip
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/Sound.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Clip
+    path: ../Assets/Scripts/Tools/Sound.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public AudioClip Clip
+    return:
+      type: UnityEngine.AudioClip
+    content.vb: Public Clip As AudioClip
+- uid: Global.Sound.Loop
+  commentId: F:Global.Sound.Loop
+  id: Loop
+  parent: Global.Sound
+  langs:
+  - csharp
+  - vb
+  name: Loop
+  nameWithType: Sound.Loop
+  fullName: Sound.Loop
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/Sound.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Loop
+    path: ../Assets/Scripts/Tools/Sound.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public bool Loop
+    return:
+      type: System.Boolean
+    content.vb: Public [Loop] As Boolean
+- uid: Global.Sound.Volume
+  commentId: F:Global.Sound.Volume
+  id: Volume
+  parent: Global.Sound
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: Sound.Volume
+  fullName: Sound.Volume
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/Sound.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Volume
+    path: ../Assets/Scripts/Tools/Sound.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Range(0, 1)]
+
+      public float Volume
+    return:
+      type: System.Single
+    content.vb: >-
+      <Range(0, 1)>
+
+      Public Volume As Single
+  attributes:
+  - type: UnityEngine.RangeAttribute
+    ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
+    arguments:
+    - type: System.Single
+      value: {}
+    - type: System.Single
+      value: {}
+- uid: Global.Sound.Pitch
+  commentId: F:Global.Sound.Pitch
+  id: Pitch
+  parent: Global.Sound
+  langs:
+  - csharp
+  - vb
+  name: Pitch
+  nameWithType: Sound.Pitch
+  fullName: Sound.Pitch
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/Sound.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Pitch
+    path: ../Assets/Scripts/Tools/Sound.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Range(0.1, 3)]
+
+      public float Pitch
+    return:
+      type: System.Single
+    content.vb: >-
+      <Range(0.1, 3)>
+
+      Public Pitch As Single
+  attributes:
+  - type: UnityEngine.RangeAttribute
+    ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
+    arguments:
+    - type: System.Single
+      value: {}
+    - type: System.Single
+      value: {}
+- uid: Global.Sound.Source
+  commentId: F:Global.Sound.Source
+  id: Source
+  parent: Global.Sound
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Sound.Source
+  fullName: Sound.Source
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/Sound.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Source
+    path: ../Assets/Scripts/Tools/Sound.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public AudioSource Source
+    return:
+      type: UnityEngine.AudioSource
+    content.vb: >-
+      <HideInInspector>
+
+      Public Source As AudioSource
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.AudioClip
+  commentId: T:UnityEngine.AudioClip
+  parent: UnityEngine
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: UnityEngine.AudioClip
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine.AudioSource
+  commentId: T:UnityEngine.AudioSource
+  parent: UnityEngine
+  isExternal: true
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: UnityEngine.AudioSource

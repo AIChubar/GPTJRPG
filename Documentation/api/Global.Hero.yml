@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Hero
+  commentId: T:Global.Hero
+  id: Hero
+  parent: Global
+  children:
+  - Global.Hero.allyGroup
+  - Global.Hero.amuletOfAlliance
+  - Global.Hero.amuletOfHealing
+  - Global.Hero.heroBackStory
+  - Global.Hero.heroClass
+  - Global.Hero.heroName
+  - Global.Hero.heroProfession
+  - Global.Hero.heroRace
+  langs:
+  - csharp
+  - vb
+  name: Hero
+  nameWithType: Hero
+  fullName: Hero
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Hero
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that manages Protagonist Hero Object controls and logic.\n"
+  example: []
+  syntax:
+    content: 'public class Hero : MonoBehaviour'
+    content.vb: Public Class Hero Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.Hero.allyGroup
+  commentId: F:Global.Hero.allyGroup
+  id: allyGroup
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: allyGroup
+  nameWithType: Hero.allyGroup
+  fullName: Hero.allyGroup
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: allyGroup
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nProtagonist Group.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public JSONReader.UnitGroup allyGroup
+    return:
+      type: Global.JSONReader.UnitGroup
+    content.vb: >-
+      <HideInInspector>
+
+      Public allyGroup As JSONReader.UnitGroup
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.Hero.heroName
+  commentId: F:Global.Hero.heroName
+  id: heroName
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: heroName
+  nameWithType: Hero.heroName
+  fullName: Hero.heroName
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: heroName
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string heroName
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public heroName As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.Hero.heroRace
+  commentId: F:Global.Hero.heroRace
+  id: heroRace
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: heroRace
+  nameWithType: Hero.heroRace
+  fullName: Hero.heroRace
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: heroRace
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string heroRace
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public heroRace As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.Hero.heroClass
+  commentId: F:Global.Hero.heroClass
+  id: heroClass
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: heroClass
+  nameWithType: Hero.heroClass
+  fullName: Hero.heroClass
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: heroClass
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string heroClass
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public heroClass As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.Hero.heroProfession
+  commentId: F:Global.Hero.heroProfession
+  id: heroProfession
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: heroProfession
+  nameWithType: Hero.heroProfession
+  fullName: Hero.heroProfession
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: heroProfession
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string heroProfession
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public heroProfession As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.Hero.heroBackStory
+  commentId: F:Global.Hero.heroBackStory
+  id: heroBackStory
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: heroBackStory
+  nameWithType: Hero.heroBackStory
+  fullName: Hero.heroBackStory
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: heroBackStory
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 29
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string heroBackStory
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public heroBackStory As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.Hero.amuletOfHealing
+  commentId: F:Global.Hero.amuletOfHealing
+  id: amuletOfHealing
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: amuletOfHealing
+  nameWithType: Hero.amuletOfHealing
+  fullName: Hero.amuletOfHealing
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: amuletOfHealing
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int amuletOfHealing
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public amuletOfHealing As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.Hero.amuletOfAlliance
+  commentId: F:Global.Hero.amuletOfAlliance
+  id: amuletOfAlliance
+  parent: Global.Hero
+  langs:
+  - csharp
+  - vb
+  name: amuletOfAlliance
+  nameWithType: Hero.amuletOfAlliance
+  fullName: Hero.amuletOfAlliance
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/Hero.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: amuletOfAlliance
+    path: ../Assets/Scripts/LevelScripts/Hero.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int amuletOfAlliance
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public amuletOfAlliance As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.JSONReader.UnitGroup
+  commentId: T:Global.JSONReader.UnitGroup
+  name: JSONReader.UnitGroup
+  nameWithType: JSONReader.UnitGroup
+  fullName: JSONReader.UnitGroup
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

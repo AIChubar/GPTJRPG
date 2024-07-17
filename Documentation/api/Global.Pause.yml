@@ -1,0 +1,654 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Pause
+  commentId: T:Global.Pause
+  id: Pause
+  parent: Global
+  children:
+  - Global.Pause.BeginBattle
+  - Global.Pause.ButtonClick
+  - Global.Pause.MainMenu
+  - Global.Pause.questMenu
+  - Global.Pause.ResumeGame
+  - Global.Pause.ShowGameMessageMenu(System.Boolean,System.String)
+  - Global.Pause.ShowGroupInfoMenu
+  - Global.Pause.ShowPauseMenu
+  - Global.Pause.ShowQuestMenu
+  - Global.Pause.ShowRecruitSystemMenu(JSONReader.UnitGroup)
+  - Global.Pause.ShowUnitInteractionMenu(JSONReader.DialogueInfo,JSONReader.UnitGroup)
+  langs:
+  - csharp
+  - vb
+  name: Pause
+  nameWithType: Pause
+  fullName: Pause
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Pause
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that contains the information about the Game Object it attached, to be shown by <xref href=\"InfoHUD\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public class Pause : MonoBehaviour'
+    content.vb: Public Class Pause Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.Pause.questMenu
+  commentId: F:Global.Pause.questMenu
+  id: questMenu
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: questMenu
+  nameWithType: Pause.questMenu
+  fullName: Pause.questMenu
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: questMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("UI Elements")]
+
+      [SerializeField]
+
+      public QuestMenu questMenu
+    return:
+      type: Global.QuestMenu
+    content.vb: >-
+      <Header("UI Elements")>
+
+      <SerializeField>
+
+      Public questMenu As QuestMenu
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: Global.Pause.ButtonClick
+  commentId: F:Global.Pause.ButtonClick
+  id: ButtonClick
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ButtonClick
+  nameWithType: Pause.ButtonClick
+  fullName: Pause.ButtonClick
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ButtonClick
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound ButtonClick
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public ButtonClick As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.Pause.ShowUnitInteractionMenu(JSONReader.DialogueInfo,JSONReader.UnitGroup)
+  commentId: M:Global.Pause.ShowUnitInteractionMenu(JSONReader.DialogueInfo,JSONReader.UnitGroup)
+  id: ShowUnitInteractionMenu(JSONReader.DialogueInfo,JSONReader.UnitGroup)
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ShowUnitInteractionMenu(DialogueInfo, UnitGroup)
+  nameWithType: Pause.ShowUnitInteractionMenu(JSONReader.DialogueInfo, JSONReader.UnitGroup)
+  fullName: Pause.ShowUnitInteractionMenu(JSONReader.DialogueInfo, JSONReader.UnitGroup)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowUnitInteractionMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 78
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled from the <xref href=\"WorldEnemy.OnCollisionEnter2D(UnityEngine.Collision2D)\" data-throw-if-not-resolved=\"false\"></xref> when <xref href=\"Hero\" data-throw-if-not-resolved=\"false\"></xref> collide with the <xref href=\"WorldEnemy\" data-throw-if-not-resolved=\"false\"></xref>. Opens up the <xref href=\"DialogueHUD\" data-throw-if-not-resolved=\"false\"></xref> UI.\n"
+  example: []
+  syntax:
+    content: public void ShowUnitInteractionMenu(JSONReader.DialogueInfo dialogueInfo, JSONReader.UnitGroup group)
+    parameters:
+    - id: dialogueInfo
+      type: Global.JSONReader.DialogueInfo
+    - id: group
+      type: Global.JSONReader.UnitGroup
+    content.vb: Public Sub ShowUnitInteractionMenu(dialogueInfo As JSONReader.DialogueInfo, group As JSONReader.UnitGroup)
+  overload: Global.Pause.ShowUnitInteractionMenu*
+- uid: Global.Pause.ShowGameMessageMenu(System.Boolean,System.String)
+  commentId: M:Global.Pause.ShowGameMessageMenu(System.Boolean,System.String)
+  id: ShowGameMessageMenu(System.Boolean,System.String)
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ShowGameMessageMenu(bool, string)
+  nameWithType: Pause.ShowGameMessageMenu(bool, string)
+  fullName: Pause.ShowGameMessageMenu(bool, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowGameMessageMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 87
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nOpens up the <xref href=\"GameMessageController\" data-throw-if-not-resolved=\"false\"></xref> UI.\n"
+  example: []
+  syntax:
+    content: public void ShowGameMessageMenu(bool isGameOver, string gameMessage)
+    parameters:
+    - id: isGameOver
+      type: System.Boolean
+    - id: gameMessage
+      type: System.String
+    content.vb: Public Sub ShowGameMessageMenu(isGameOver As Boolean, gameMessage As String)
+  overload: Global.Pause.ShowGameMessageMenu*
+  nameWithType.vb: Pause.ShowGameMessageMenu(Boolean, String)
+  fullName.vb: Pause.ShowGameMessageMenu(Boolean, String)
+  name.vb: ShowGameMessageMenu(Boolean, String)
+- uid: Global.Pause.ShowRecruitSystemMenu(JSONReader.UnitGroup)
+  commentId: M:Global.Pause.ShowRecruitSystemMenu(JSONReader.UnitGroup)
+  id: ShowRecruitSystemMenu(JSONReader.UnitGroup)
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ShowRecruitSystemMenu(UnitGroup)
+  nameWithType: Pause.ShowRecruitSystemMenu(JSONReader.UnitGroup)
+  fullName: Pause.ShowRecruitSystemMenu(JSONReader.UnitGroup)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowRecruitSystemMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 97
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled from the <xref href=\"OutcomeButtons.OnClickedFight\" data-throw-if-not-resolved=\"false\"></xref> while inside the <xref href=\"DialogueHUD\" data-throw-if-not-resolved=\"false\"></xref>. Opens up the <xref href=\"RecruitSystem\" data-throw-if-not-resolved=\"false\"></xref> UI.\n"
+  example: []
+  syntax:
+    content: public void ShowRecruitSystemMenu(JSONReader.UnitGroup group)
+    parameters:
+    - id: group
+      type: Global.JSONReader.UnitGroup
+    content.vb: Public Sub ShowRecruitSystemMenu(group As JSONReader.UnitGroup)
+  overload: Global.Pause.ShowRecruitSystemMenu*
+- uid: Global.Pause.BeginBattle
+  commentId: M:Global.Pause.BeginBattle
+  id: BeginBattle
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: BeginBattle()
+  nameWithType: Pause.BeginBattle()
+  fullName: Pause.BeginBattle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: BeginBattle
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 106
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled from the <xref href=\"OutcomeButtons.OnClickedFight\" data-throw-if-not-resolved=\"false\"></xref> while inside the <xref href=\"DialogueHUD\" data-throw-if-not-resolved=\"false\"></xref>. Switches to the Battle Scene.\n"
+  example: []
+  syntax:
+    content: public void BeginBattle()
+    content.vb: Public Sub BeginBattle()
+  overload: Global.Pause.BeginBattle*
+- uid: Global.Pause.ResumeGame
+  commentId: M:Global.Pause.ResumeGame
+  id: ResumeGame
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ResumeGame()
+  nameWithType: Pause.ResumeGame()
+  fullName: Pause.ResumeGame()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ResumeGame
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 114
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Pause UI window. Closes the pause menu.\n"
+  example: []
+  syntax:
+    content: public void ResumeGame()
+    content.vb: Public Sub ResumeGame()
+  overload: Global.Pause.ResumeGame*
+- uid: Global.Pause.ShowQuestMenu
+  commentId: M:Global.Pause.ShowQuestMenu
+  id: ShowQuestMenu
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ShowQuestMenu()
+  nameWithType: Pause.ShowQuestMenu()
+  fullName: Pause.ShowQuestMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowQuestMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 126
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Pause UI window. Shows the <xref href=\"QuestMenu\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void ShowQuestMenu()
+    content.vb: Public Sub ShowQuestMenu()
+  overload: Global.Pause.ShowQuestMenu*
+- uid: Global.Pause.ShowPauseMenu
+  commentId: M:Global.Pause.ShowPauseMenu
+  id: ShowPauseMenu
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ShowPauseMenu()
+  nameWithType: Pause.ShowPauseMenu()
+  fullName: Pause.ShowPauseMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowPauseMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 136
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nShows the main Pause UI window.\n"
+  example: []
+  syntax:
+    content: public void ShowPauseMenu()
+    content.vb: Public Sub ShowPauseMenu()
+  overload: Global.Pause.ShowPauseMenu*
+- uid: Global.Pause.ShowGroupInfoMenu
+  commentId: M:Global.Pause.ShowGroupInfoMenu
+  id: ShowGroupInfoMenu
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ShowGroupInfoMenu()
+  nameWithType: Pause.ShowGroupInfoMenu()
+  fullName: Pause.ShowGroupInfoMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowGroupInfoMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 145
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Pause UI window. Shows the <xref href=\"GroupInfoHUD\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void ShowGroupInfoMenu()
+    content.vb: Public Sub ShowGroupInfoMenu()
+  overload: Global.Pause.ShowGroupInfoMenu*
+- uid: Global.Pause.MainMenu
+  commentId: M:Global.Pause.MainMenu
+  id: MainMenu
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: MainMenu()
+  nameWithType: Pause.MainMenu()
+  fullName: Pause.MainMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: MainMenu
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 155
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Pause UI window. Returns to the <xref href=\"Pause.MainMenu\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void MainMenu()
+    content.vb: Public Sub MainMenu()
+  overload: Global.Pause.MainMenu*
+references:
+- uid: InfoHUD
+  commentId: T:InfoHUD
+  isExternal: true
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.QuestMenu
+  commentId: T:Global.QuestMenu
+  name: QuestMenu
+  nameWithType: QuestMenu
+  fullName: QuestMenu
+- uid: Global.Sound
+  commentId: T:Global.Sound
+  name: Sound
+  nameWithType: Sound
+  fullName: Sound
+- uid: WorldEnemy.OnCollisionEnter2D(UnityEngine.Collision2D)
+  commentId: M:WorldEnemy.OnCollisionEnter2D(UnityEngine.Collision2D)
+  isExternal: true
+- uid: Hero
+  commentId: T:Hero
+  isExternal: true
+- uid: WorldEnemy
+  commentId: T:WorldEnemy
+  isExternal: true
+- uid: DialogueHUD
+  commentId: T:DialogueHUD
+  isExternal: true
+- uid: Global.Pause.ShowUnitInteractionMenu*
+  commentId: Overload:Global.Pause.ShowUnitInteractionMenu
+  name: ShowUnitInteractionMenu
+  nameWithType: Pause.ShowUnitInteractionMenu
+  fullName: Pause.ShowUnitInteractionMenu
+- uid: Global.JSONReader.DialogueInfo
+  commentId: T:Global.JSONReader.DialogueInfo
+  name: JSONReader.DialogueInfo
+  nameWithType: JSONReader.DialogueInfo
+  fullName: JSONReader.DialogueInfo
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueInfo
+    name: DialogueInfo
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueInfo
+    name: DialogueInfo
+- uid: Global.JSONReader.UnitGroup
+  commentId: T:Global.JSONReader.UnitGroup
+  name: JSONReader.UnitGroup
+  nameWithType: JSONReader.UnitGroup
+  fullName: JSONReader.UnitGroup
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+- uid: GameMessageController
+  commentId: T:GameMessageController
+  isExternal: true
+- uid: Global.Pause.ShowGameMessageMenu*
+  commentId: Overload:Global.Pause.ShowGameMessageMenu
+  name: ShowGameMessageMenu
+  nameWithType: Pause.ShowGameMessageMenu
+  fullName: Pause.ShowGameMessageMenu
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OutcomeButtons.OnClickedFight
+  commentId: M:OutcomeButtons.OnClickedFight
+  isExternal: true
+- uid: RecruitSystem
+  commentId: T:RecruitSystem
+  isExternal: true
+- uid: Global.Pause.ShowRecruitSystemMenu*
+  commentId: Overload:Global.Pause.ShowRecruitSystemMenu
+  name: ShowRecruitSystemMenu
+  nameWithType: Pause.ShowRecruitSystemMenu
+  fullName: Pause.ShowRecruitSystemMenu
+- uid: Global.Pause.BeginBattle*
+  commentId: Overload:Global.Pause.BeginBattle
+  name: BeginBattle
+  nameWithType: Pause.BeginBattle
+  fullName: Pause.BeginBattle
+- uid: Global.Pause.ResumeGame*
+  commentId: Overload:Global.Pause.ResumeGame
+  name: ResumeGame
+  nameWithType: Pause.ResumeGame
+  fullName: Pause.ResumeGame
+- uid: QuestMenu
+  commentId: T:QuestMenu
+  isExternal: true
+- uid: Global.Pause.ShowQuestMenu*
+  commentId: Overload:Global.Pause.ShowQuestMenu
+  name: ShowQuestMenu
+  nameWithType: Pause.ShowQuestMenu
+  fullName: Pause.ShowQuestMenu
+- uid: Global.Pause.ShowPauseMenu*
+  commentId: Overload:Global.Pause.ShowPauseMenu
+  name: ShowPauseMenu
+  nameWithType: Pause.ShowPauseMenu
+  fullName: Pause.ShowPauseMenu
+- uid: GroupInfoHUD
+  commentId: T:GroupInfoHUD
+  isExternal: true
+- uid: Global.Pause.ShowGroupInfoMenu*
+  commentId: Overload:Global.Pause.ShowGroupInfoMenu
+  name: ShowGroupInfoMenu
+  nameWithType: Pause.ShowGroupInfoMenu
+  fullName: Pause.ShowGroupInfoMenu
+- uid: Pause.MainMenu
+  commentId: M:Pause.MainMenu
+  isExternal: true
+- uid: Global.Pause.MainMenu*
+  commentId: Overload:Global.Pause.MainMenu
+  name: MainMenu
+  nameWithType: Pause.MainMenu
+  fullName: Pause.MainMenu

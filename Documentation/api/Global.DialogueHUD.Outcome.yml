@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DialogueHUD.Outcome
+  commentId: T:Global.DialogueHUD.Outcome
+  id: DialogueHUD.Outcome
+  parent: Global
+  children:
+  - Global.DialogueHUD.Outcome.FIGHT
+  - Global.DialogueHUD.Outcome.IGNORE
+  - Global.DialogueHUD.Outcome.RECRUIT
+  langs:
+  - csharp
+  - vb
+  name: DialogueHUD.Outcome
+  nameWithType: DialogueHUD.Outcome
+  fullName: DialogueHUD.Outcome
+  type: Enum
+  source:
+    remote:
+      path: Assets/Scripts/UI/DialogueHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Outcome
+    path: ../Assets/Scripts/UI/DialogueHUD.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nEnum, which members represent what is the outcome of the dialogue.\n"
+  example: []
+  syntax:
+    content: public enum DialogueHUD.Outcome
+    content.vb: Public Enum DialogueHUD.Outcome
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.DialogueHUD.Outcome.RECRUIT
+  commentId: F:Global.DialogueHUD.Outcome.RECRUIT
+  id: RECRUIT
+  parent: Global.DialogueHUD.Outcome
+  langs:
+  - csharp
+  - vb
+  name: RECRUIT
+  nameWithType: DialogueHUD.Outcome.RECRUIT
+  fullName: DialogueHUD.Outcome.RECRUIT
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/DialogueHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: RECRUIT
+    path: ../Assets/Scripts/UI/DialogueHUD.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: RECRUIT = 0
+    return:
+      type: Global.DialogueHUD.Outcome
+- uid: Global.DialogueHUD.Outcome.IGNORE
+  commentId: F:Global.DialogueHUD.Outcome.IGNORE
+  id: IGNORE
+  parent: Global.DialogueHUD.Outcome
+  langs:
+  - csharp
+  - vb
+  name: IGNORE
+  nameWithType: DialogueHUD.Outcome.IGNORE
+  fullName: DialogueHUD.Outcome.IGNORE
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/DialogueHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: IGNORE
+    path: ../Assets/Scripts/UI/DialogueHUD.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: IGNORE = 1
+    return:
+      type: Global.DialogueHUD.Outcome
+- uid: Global.DialogueHUD.Outcome.FIGHT
+  commentId: F:Global.DialogueHUD.Outcome.FIGHT
+  id: FIGHT
+  parent: Global.DialogueHUD.Outcome
+  langs:
+  - csharp
+  - vb
+  name: FIGHT
+  nameWithType: DialogueHUD.Outcome.FIGHT
+  fullName: DialogueHUD.Outcome.FIGHT
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/DialogueHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: FIGHT
+    path: ../Assets/Scripts/UI/DialogueHUD.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: FIGHT = 2
+    return:
+      type: Global.DialogueHUD.Outcome
+references:
+- uid: Global
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.DialogueHUD.Outcome
+  commentId: T:Global.DialogueHUD.Outcome
+  name: DialogueHUD.Outcome
+  nameWithType: DialogueHUD.Outcome
+  fullName: DialogueHUD.Outcome
+  spec.csharp:
+  - uid: Global.DialogueHUD
+    name: DialogueHUD
+  - name: .
+  - uid: Global.DialogueHUD.Outcome
+    name: Outcome
+  spec.vb:
+  - uid: Global.DialogueHUD
+    name: DialogueHUD
+  - name: .
+  - uid: Global.DialogueHUD.Outcome
+    name: Outcome

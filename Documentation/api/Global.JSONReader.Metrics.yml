@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JSONReader.Metrics
+  commentId: T:Global.JSONReader.Metrics
+  id: JSONReader.Metrics
+  parent: Global
+  children:
+  - Global.JSONReader.Metrics.aggressiveness
+  - Global.JSONReader.Metrics.chaoticity
+  - Global.JSONReader.Metrics.communicationSkills
+  - Global.JSONReader.Metrics.flexibility
+  - Global.JSONReader.Metrics.friendliness
+  - Global.JSONReader.Metrics.indifference
+  - Global.JSONReader.Metrics.intellect
+  - Global.JSONReader.Metrics.morality
+  - Global.JSONReader.Metrics.strategicThinking
+  langs:
+  - csharp
+  - vb
+  name: JSONReader.Metrics
+  nameWithType: JSONReader.Metrics
+  fullName: JSONReader.Metrics
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Metrics
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 146
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class JSONReader.Metrics
+    content.vb: >-
+      <Serializable>
+
+      Public Class JSONReader.Metrics
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.JSONReader.Metrics.aggressiveness
+  commentId: F:Global.JSONReader.Metrics.aggressiveness
+  id: aggressiveness
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: aggressiveness
+  nameWithType: JSONReader.Metrics.aggressiveness
+  fullName: JSONReader.Metrics.aggressiveness
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: aggressiveness
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 149
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int aggressiveness
+    return:
+      type: System.Int32
+    content.vb: Public aggressiveness As Integer
+- uid: Global.JSONReader.Metrics.friendliness
+  commentId: F:Global.JSONReader.Metrics.friendliness
+  id: friendliness
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: friendliness
+  nameWithType: JSONReader.Metrics.friendliness
+  fullName: JSONReader.Metrics.friendliness
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: friendliness
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 150
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int friendliness
+    return:
+      type: System.Int32
+    content.vb: Public friendliness As Integer
+- uid: Global.JSONReader.Metrics.intellect
+  commentId: F:Global.JSONReader.Metrics.intellect
+  id: intellect
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: intellect
+  nameWithType: JSONReader.Metrics.intellect
+  fullName: JSONReader.Metrics.intellect
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: intellect
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 151
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int intellect
+    return:
+      type: System.Int32
+    content.vb: Public intellect As Integer
+- uid: Global.JSONReader.Metrics.strategicThinking
+  commentId: F:Global.JSONReader.Metrics.strategicThinking
+  id: strategicThinking
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: strategicThinking
+  nameWithType: JSONReader.Metrics.strategicThinking
+  fullName: JSONReader.Metrics.strategicThinking
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: strategicThinking
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 152
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int strategicThinking
+    return:
+      type: System.Int32
+    content.vb: Public strategicThinking As Integer
+- uid: Global.JSONReader.Metrics.indifference
+  commentId: F:Global.JSONReader.Metrics.indifference
+  id: indifference
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: indifference
+  nameWithType: JSONReader.Metrics.indifference
+  fullName: JSONReader.Metrics.indifference
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: indifference
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 153
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int indifference
+    return:
+      type: System.Int32
+    content.vb: Public indifference As Integer
+- uid: Global.JSONReader.Metrics.flexibility
+  commentId: F:Global.JSONReader.Metrics.flexibility
+  id: flexibility
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: flexibility
+  nameWithType: JSONReader.Metrics.flexibility
+  fullName: JSONReader.Metrics.flexibility
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: flexibility
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 154
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int flexibility
+    return:
+      type: System.Int32
+    content.vb: Public flexibility As Integer
+- uid: Global.JSONReader.Metrics.communicationSkills
+  commentId: F:Global.JSONReader.Metrics.communicationSkills
+  id: communicationSkills
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: communicationSkills
+  nameWithType: JSONReader.Metrics.communicationSkills
+  fullName: JSONReader.Metrics.communicationSkills
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: communicationSkills
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 155
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int communicationSkills
+    return:
+      type: System.Int32
+    content.vb: Public communicationSkills As Integer
+- uid: Global.JSONReader.Metrics.morality
+  commentId: F:Global.JSONReader.Metrics.morality
+  id: morality
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: morality
+  nameWithType: JSONReader.Metrics.morality
+  fullName: JSONReader.Metrics.morality
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: morality
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 156
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int morality
+    return:
+      type: System.Int32
+    content.vb: Public morality As Integer
+- uid: Global.JSONReader.Metrics.chaoticity
+  commentId: F:Global.JSONReader.Metrics.chaoticity
+  id: chaoticity
+  parent: Global.JSONReader.Metrics
+  langs:
+  - csharp
+  - vb
+  name: chaoticity
+  nameWithType: JSONReader.Metrics.chaoticity
+  fullName: JSONReader.Metrics.chaoticity
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: chaoticity
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 157
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int chaoticity
+    return:
+      type: System.Int32
+    content.vb: Public chaoticity As Integer
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class KnowledgeBase
+ | GPT JRPG documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class KnowledgeBase
+ | GPT JRPG documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global.KnowledgeBase">
+
+
+  <h1 id="Global_KnowledgeBase" data-uid="Global.KnowledgeBase" class="text-break">Class KnowledgeBase
+</h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Script that controls the Knowledge Base UI object containing various information about the game.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">KnowledgeBase</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Global_KnowledgeBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class KnowledgeBase : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase_ButtonClick.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase.ButtonClick%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L54">View Source</a>
+  </span>
+  <h4 id="Global_KnowledgeBase_ButtonClick" data-uid="Global.KnowledgeBase.ButtonClick">ButtonClick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Dropdown(&quot;AudioManager.Instance.Sounds&quot;, &quot;Name&quot;)]
+public Sound ButtonClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Sound.html">Sound</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase_OnClickedKnowledgeBase.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase.OnClickedKnowledgeBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L193">View Source</a>
+  </span>
+  <a id="Global_KnowledgeBase_OnClickedKnowledgeBase_" data-uid="Global.KnowledgeBase.OnClickedKnowledgeBase*"></a>
+  <h4 id="Global_KnowledgeBase_OnClickedKnowledgeBase" data-uid="Global.KnowledgeBase.OnClickedKnowledgeBase">OnClickedKnowledgeBase()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Called by the button that is always available on the screen. Calls <span class="xref">KnowledgeBase.ShowKnowledgeBase</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnClickedKnowledgeBase()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase_ShowClassesMenu.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase.ShowClassesMenu%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L171">View Source</a>
+  </span>
+  <a id="Global_KnowledgeBase_ShowClassesMenu_" data-uid="Global.KnowledgeBase.ShowClassesMenu*"></a>
+  <h4 id="Global_KnowledgeBase_ShowClassesMenu" data-uid="Global.KnowledgeBase.ShowClassesMenu">ShowClassesMenu()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Called by Button from main Knowledge Base UI window. Shows the information about the <span class="xref">Unit</span> Classes and their abilities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowClassesMenu()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase_ShowGameInfoMenu.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase.ShowGameInfoMenu%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L182">View Source</a>
+  </span>
+  <a id="Global_KnowledgeBase_ShowGameInfoMenu_" data-uid="Global.KnowledgeBase.ShowGameInfoMenu*"></a>
+  <h4 id="Global_KnowledgeBase_ShowGameInfoMenu" data-uid="Global.KnowledgeBase.ShowGameInfoMenu">ShowGameInfoMenu()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Called by Button from main Knowledge Base UI window. Shows the Bestiary with the information about all the <span class="xref">JSONReader.UnitJSON</span> in the Game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowGameInfoMenu()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase_ShowHeroInfoMenu.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase.ShowHeroInfoMenu%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L151">View Source</a>
+  </span>
+  <a id="Global_KnowledgeBase_ShowHeroInfoMenu_" data-uid="Global.KnowledgeBase.ShowHeroInfoMenu*"></a>
+  <h4 id="Global_KnowledgeBase_ShowHeroInfoMenu" data-uid="Global.KnowledgeBase.ShowHeroInfoMenu">ShowHeroInfoMenu()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Called by Button from main Knowledge Base UI window. Shows the information about the Protagonist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowHeroInfoMenu()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase_ShowKnowledgeBase.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase.ShowKnowledgeBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L201">View Source</a>
+  </span>
+  <a id="Global_KnowledgeBase_ShowKnowledgeBase_" data-uid="Global.KnowledgeBase.ShowKnowledgeBase*"></a>
+  <h4 id="Global_KnowledgeBase_ShowKnowledgeBase" data-uid="Global.KnowledgeBase.ShowKnowledgeBase">ShowKnowledgeBase()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Shows the main Knowledge Base UI window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowKnowledgeBase()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase_ShowWorldMenu.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase.ShowWorldMenu%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L161">View Source</a>
+  </span>
+  <a id="Global_KnowledgeBase_ShowWorldMenu_" data-uid="Global.KnowledgeBase.ShowWorldMenu*"></a>
+  <h4 id="Global_KnowledgeBase_ShowWorldMenu" data-uid="Global.KnowledgeBase.ShowWorldMenu">ShowWorldMenu()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Called by Button from main Knowledge Base UI window. Shows the general information about the current Game World.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowWorldMenu()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Global.ReflectionExtensions.html#Global_ReflectionExtensions_ToStringWithQuotes_System_Object_">ReflectionExtensions.ToStringWithQuotes(object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_KnowledgeBase.md&amp;value=---%0Auid%3A%20Global.KnowledgeBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/UI/KnowledgeBase.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      GPTJRPG documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

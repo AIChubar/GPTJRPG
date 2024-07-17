@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.QuestMenu
+  commentId: T:Global.QuestMenu
+  id: QuestMenu
+  parent: Global
+  children:
+  - Global.QuestMenu.AddButton(JSONReader.QuestJSON)
+  - Global.QuestMenu.ButtonClick
+  - Global.QuestMenu.currentQuest
+  - Global.QuestMenu.OnClicked(UnityEngine.GameObject)
+  - Global.QuestMenu.questButtonParent
+  - Global.QuestMenu.questButtonPrefab
+  - Global.QuestMenu.questHUD
+  - Global.QuestMenu.questPieceParent
+  - Global.QuestMenu.questPiecePrefab
+  - Global.QuestMenu.SetQuests
+  - Global.QuestMenu.UpdateButtons
+  - Global.QuestMenu.UpdateQuestHUD
+  langs:
+  - csharp
+  - vb
+  name: QuestMenu
+  nameWithType: QuestMenu
+  fullName: QuestMenu
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: QuestMenu
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that controls the Quest Menu Window UI element.\n"
+  example: []
+  syntax:
+    content: 'public class QuestMenu : MonoBehaviour'
+    content.vb: Public Class QuestMenu Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.QuestMenu.currentQuest
+  commentId: F:Global.QuestMenu.currentQuest
+  id: currentQuest
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: currentQuest
+  nameWithType: QuestMenu.currentQuest
+  fullName: QuestMenu.currentQuest
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: currentQuest
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nQuest Button selected inside the Quest Menu.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [Tooltip("Quest Button selected inside the Quest Menu.")]
+
+      public QuestButton currentQuest
+    return:
+      type: Global.QuestButton
+    content.vb: >-
+      <HideInInspector>
+
+      <Tooltip("Quest Button selected inside the Quest Menu.")>
+
+      Public currentQuest As QuestButton
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.QuestMenu.questButtonPrefab
+  commentId: F:Global.QuestMenu.questButtonPrefab
+  id: questButtonPrefab
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: questButtonPrefab
+  nameWithType: QuestMenu.questButtonPrefab
+  fullName: QuestMenu.questButtonPrefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: questButtonPrefab
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPrefab for the <xref href=\"QuestButton\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Prefab for the QuestButton.")]
+
+      public GameObject questButtonPrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Prefab for the QuestButton.")>
+
+      Public questButtonPrefab As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.QuestMenu.questButtonParent
+  commentId: F:Global.QuestMenu.questButtonParent
+  id: questButtonParent
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: questButtonParent
+  nameWithType: QuestMenu.questButtonParent
+  fullName: QuestMenu.questButtonParent
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: questButtonParent
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScrollView content object for Quest Buttons.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("ScrollView content object for Quest Buttons.")]
+
+      public GameObject questButtonParent
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("ScrollView content object for Quest Buttons.")>
+
+      Public questButtonParent As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.QuestMenu.ButtonClick
+  commentId: F:Global.QuestMenu.ButtonClick
+  id: ButtonClick
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: ButtonClick
+  nameWithType: QuestMenu.ButtonClick
+  fullName: QuestMenu.ButtonClick
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ButtonClick
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 38
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound ButtonClick
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public ButtonClick As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.QuestMenu.questPiecePrefab
+  commentId: F:Global.QuestMenu.questPiecePrefab
+  id: questPiecePrefab
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: questPiecePrefab
+  nameWithType: QuestMenu.questPiecePrefab
+  fullName: QuestMenu.questPiecePrefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: questPiecePrefab
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 44
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPrefab for the <xref href=\"QuestMenu.questDetails\" data-throw-if-not-resolved=\"false\"></xref> information chunk.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Prefab for the questDetails information chunk.")]
+
+      public GameObject questPiecePrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Prefab for the questDetails information chunk.")>
+
+      Public questPiecePrefab As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.QuestMenu.questPieceParent
+  commentId: F:Global.QuestMenu.questPieceParent
+  id: questPieceParent
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: questPieceParent
+  nameWithType: QuestMenu.questPieceParent
+  fullName: QuestMenu.questPieceParent
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: questPieceParent
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 50
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScrollView content object for <xref href=\"QuestMenu.questDetails\" data-throw-if-not-resolved=\"false\"></xref> information chunks.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("ScrollView content object for questDetails information chunks.")]
+
+      public GameObject questPieceParent
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("ScrollView content object for questDetails information chunks.")>
+
+      Public questPieceParent As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.QuestMenu.questHUD
+  commentId: F:Global.QuestMenu.questHUD
+  id: questHUD
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: questHUD
+  nameWithType: QuestMenu.questHUD
+  fullName: QuestMenu.questHUD
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: questHUD
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 56
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nQuest HUD that is showing the minimized information about currently available quests.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Quest HUD that is showing the minimized information about currently available quests.")]
+
+      public GameObject questHUD
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Quest HUD that is showing the minimized information about currently available quests.")>
+
+      Public questHUD As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.QuestMenu.SetQuests
+  commentId: M:Global.QuestMenu.SetQuests
+  id: SetQuests
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: SetQuests()
+  nameWithType: QuestMenu.SetQuests()
+  fullName: QuestMenu.SetQuests()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SetQuests
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 60
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSets up the all <xref href=\"QuestButton\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void SetQuests()
+    content.vb: Public Sub SetQuests()
+  overload: Global.QuestMenu.SetQuests*
+- uid: Global.QuestMenu.UpdateQuestHUD
+  commentId: M:Global.QuestMenu.UpdateQuestHUD
+  id: UpdateQuestHUD
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: UpdateQuestHUD()
+  nameWithType: QuestMenu.UpdateQuestHUD()
+  fullName: QuestMenu.UpdateQuestHUD()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UpdateQuestHUD
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 86
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nUpdates the <xref href=\"QuestMenu.questHUD\" data-throw-if-not-resolved=\"false\"></xref> content.\n"
+  example: []
+  syntax:
+    content: public void UpdateQuestHUD()
+    content.vb: Public Sub UpdateQuestHUD()
+  overload: Global.QuestMenu.UpdateQuestHUD*
+- uid: Global.QuestMenu.OnClicked(UnityEngine.GameObject)
+  commentId: M:Global.QuestMenu.OnClicked(UnityEngine.GameObject)
+  id: OnClicked(UnityEngine.GameObject)
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: OnClicked(GameObject)
+  nameWithType: QuestMenu.OnClicked(GameObject)
+  fullName: QuestMenu.OnClicked(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnClicked
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 106
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod that is delegated to the <xref href=\"QuestButton\" data-throw-if-not-resolved=\"false\"></xref>. Chooses the new <xref href=\"QuestMenu.currentQuest\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void OnClicked(GameObject button)
+    parameters:
+    - id: button
+      type: UnityEngine.GameObject
+    content.vb: Public Sub OnClicked(button As GameObject)
+  overload: Global.QuestMenu.OnClicked*
+- uid: Global.QuestMenu.UpdateButtons
+  commentId: M:Global.QuestMenu.UpdateButtons
+  id: UpdateButtons
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: UpdateButtons()
+  nameWithType: QuestMenu.UpdateButtons()
+  fullName: QuestMenu.UpdateButtons()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UpdateButtons
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 150
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nUpdates the position and the colour of <xref href=\"QuestButton\" data-throw-if-not-resolved=\"false\"></xref>s depending on their status.\n"
+  example: []
+  syntax:
+    content: public void UpdateButtons()
+    content.vb: Public Sub UpdateButtons()
+  overload: Global.QuestMenu.UpdateButtons*
+- uid: Global.QuestMenu.AddButton(JSONReader.QuestJSON)
+  commentId: M:Global.QuestMenu.AddButton(JSONReader.QuestJSON)
+  id: AddButton(JSONReader.QuestJSON)
+  parent: Global.QuestMenu
+  langs:
+  - csharp
+  - vb
+  name: AddButton(QuestJSON)
+  nameWithType: QuestMenu.AddButton(JSONReader.QuestJSON)
+  fullName: QuestMenu.AddButton(JSONReader.QuestJSON)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestMenu.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AddButton
+    path: ../Assets/Scripts/UI/QuestMenu.cs
+    startLine: 178
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nAdds new Quest Button to the list.\n"
+  example: []
+  syntax:
+    content: public void AddButton(JSONReader.QuestJSON quest)
+    parameters:
+    - id: quest
+      type: Global.JSONReader.QuestJSON
+      description: Quest data for the added Quest Button.
+    content.vb: Public Sub AddButton(quest As JSONReader.QuestJSON)
+  overload: Global.QuestMenu.AddButton*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.QuestButton
+  commentId: T:Global.QuestButton
+  name: QuestButton
+  nameWithType: QuestButton
+  fullName: QuestButton
+- uid: QuestButton
+  commentId: T:QuestButton
+  isExternal: true
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Global.Sound
+  commentId: T:Global.Sound
+  name: Sound
+  nameWithType: Sound
+  fullName: Sound
+- uid: QuestMenu.questDetails
+  commentId: F:QuestMenu.questDetails
+  isExternal: true
+- uid: Global.QuestMenu.SetQuests*
+  commentId: Overload:Global.QuestMenu.SetQuests
+  name: SetQuests
+  nameWithType: QuestMenu.SetQuests
+  fullName: QuestMenu.SetQuests
+- uid: QuestMenu.questHUD
+  commentId: F:QuestMenu.questHUD
+  isExternal: true
+- uid: Global.QuestMenu.UpdateQuestHUD*
+  commentId: Overload:Global.QuestMenu.UpdateQuestHUD
+  name: UpdateQuestHUD
+  nameWithType: QuestMenu.UpdateQuestHUD
+  fullName: QuestMenu.UpdateQuestHUD
+- uid: QuestMenu.currentQuest
+  commentId: F:QuestMenu.currentQuest
+  isExternal: true
+- uid: Global.QuestMenu.OnClicked*
+  commentId: Overload:Global.QuestMenu.OnClicked
+  name: OnClicked
+  nameWithType: QuestMenu.OnClicked
+  fullName: QuestMenu.OnClicked
+- uid: Global.QuestMenu.UpdateButtons*
+  commentId: Overload:Global.QuestMenu.UpdateButtons
+  name: UpdateButtons
+  nameWithType: QuestMenu.UpdateButtons
+  fullName: QuestMenu.UpdateButtons
+- uid: Global.QuestMenu.AddButton*
+  commentId: Overload:Global.QuestMenu.AddButton
+  name: AddButton
+  nameWithType: QuestMenu.AddButton
+  fullName: QuestMenu.AddButton
+- uid: Global.JSONReader.QuestJSON
+  commentId: T:Global.JSONReader.QuestJSON
+  name: JSONReader.QuestJSON
+  nameWithType: JSONReader.QuestJSON
+  fullName: JSONReader.QuestJSON
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.QuestJSON
+    name: QuestJSON
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.QuestJSON
+    name: QuestJSON

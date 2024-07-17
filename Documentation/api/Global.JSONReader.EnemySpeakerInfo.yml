@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JSONReader.EnemySpeakerInfo
+  commentId: T:Global.JSONReader.EnemySpeakerInfo
+  id: JSONReader.EnemySpeakerInfo
+  parent: Global
+  children:
+  - Global.JSONReader.EnemySpeakerInfo.personaMetrics
+  - Global.JSONReader.EnemySpeakerInfo.unit
+  langs:
+  - csharp
+  - vb
+  name: JSONReader.EnemySpeakerInfo
+  nameWithType: JSONReader.EnemySpeakerInfo
+  fullName: JSONReader.EnemySpeakerInfo
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: EnemySpeakerInfo
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 139
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class JSONReader.EnemySpeakerInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Class JSONReader.EnemySpeakerInfo
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.JSONReader.EnemySpeakerInfo.unit
+  commentId: F:Global.JSONReader.EnemySpeakerInfo.unit
+  id: unit
+  parent: Global.JSONReader.EnemySpeakerInfo
+  langs:
+  - csharp
+  - vb
+  name: unit
+  nameWithType: JSONReader.EnemySpeakerInfo.unit
+  fullName: JSONReader.EnemySpeakerInfo.unit
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: unit
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 142
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.UnitJSON unit
+    return:
+      type: Global.JSONReader.UnitJSON
+    content.vb: Public unit As JSONReader.UnitJSON
+- uid: Global.JSONReader.EnemySpeakerInfo.personaMetrics
+  commentId: F:Global.JSONReader.EnemySpeakerInfo.personaMetrics
+  id: personaMetrics
+  parent: Global.JSONReader.EnemySpeakerInfo
+  langs:
+  - csharp
+  - vb
+  name: personaMetrics
+  nameWithType: JSONReader.EnemySpeakerInfo.personaMetrics
+  fullName: JSONReader.EnemySpeakerInfo.personaMetrics
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: personaMetrics
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 143
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.Metrics personaMetrics
+    return:
+      type: Global.JSONReader.Metrics
+    content.vb: Public personaMetrics As JSONReader.Metrics
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.JSONReader.UnitJSON
+  commentId: T:Global.JSONReader.UnitJSON
+  name: JSONReader.UnitJSON
+  nameWithType: JSONReader.UnitJSON
+  fullName: JSONReader.UnitJSON
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitJSON
+    name: UnitJSON
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitJSON
+    name: UnitJSON
+- uid: Global.JSONReader.Metrics
+  commentId: T:Global.JSONReader.Metrics
+  name: JSONReader.Metrics
+  nameWithType: JSONReader.Metrics
+  fullName: JSONReader.Metrics
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.Metrics
+    name: Metrics
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.Metrics
+    name: Metrics

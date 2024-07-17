@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.QuestButton
+  commentId: T:Global.QuestButton
+  id: QuestButton
+  parent: Global
+  children:
+  - Global.QuestButton.completed
+  - Global.QuestButton.failed
+  - Global.QuestButton.quest
+  - Global.QuestButton.SetQuest(JSONReader.QuestJSON)
+  langs:
+  - csharp
+  - vb
+  name: QuestButton
+  nameWithType: QuestButton
+  fullName: QuestButton
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestButton.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: QuestButton
+    path: ../Assets/Scripts/UI/QuestButton.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript for the UI element representing the Quest Button. Exists inside the <xref href=\"QuestMenu\" data-throw-if-not-resolved=\"false\"></xref> UI.\n"
+  example: []
+  syntax:
+    content: 'public class QuestButton : MonoBehaviour'
+    content.vb: Public Class QuestButton Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.QuestButton.quest
+  commentId: F:Global.QuestButton.quest
+  id: quest
+  parent: Global.QuestButton
+  langs:
+  - csharp
+  - vb
+  name: quest
+  nameWithType: QuestButton.quest
+  fullName: QuestButton.quest
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestButton.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: quest
+    path: ../Assets/Scripts/UI/QuestButton.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nQuest that is represented by this Quest Button.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public JSONReader.QuestJSON quest
+    return:
+      type: Global.JSONReader.QuestJSON
+    content.vb: >-
+      <HideInInspector>
+
+      Public quest As JSONReader.QuestJSON
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.QuestButton.completed
+  commentId: F:Global.QuestButton.completed
+  id: completed
+  parent: Global.QuestButton
+  langs:
+  - csharp
+  - vb
+  name: completed
+  nameWithType: QuestButton.completed
+  fullName: QuestButton.completed
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestButton.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: completed
+    path: ../Assets/Scripts/UI/QuestButton.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public bool completed
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <HideInInspector>
+
+      Public completed As Boolean
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.QuestButton.failed
+  commentId: F:Global.QuestButton.failed
+  id: failed
+  parent: Global.QuestButton
+  langs:
+  - csharp
+  - vb
+  name: failed
+  nameWithType: QuestButton.failed
+  fullName: QuestButton.failed
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestButton.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: failed
+    path: ../Assets/Scripts/UI/QuestButton.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public bool failed
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <HideInInspector>
+
+      Public failed As Boolean
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.QuestButton.SetQuest(JSONReader.QuestJSON)
+  commentId: M:Global.QuestButton.SetQuest(JSONReader.QuestJSON)
+  id: SetQuest(JSONReader.QuestJSON)
+  parent: Global.QuestButton
+  langs:
+  - csharp
+  - vb
+  name: SetQuest(QuestJSON)
+  nameWithType: QuestButton.SetQuest(JSONReader.QuestJSON)
+  fullName: QuestButton.SetQuest(JSONReader.QuestJSON)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/QuestButton.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SetQuest
+    path: ../Assets/Scripts/UI/QuestButton.cs
+    startLine: 108
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSets up the quest.\n"
+  example: []
+  syntax:
+    content: public void SetQuest(JSONReader.QuestJSON q)
+    parameters:
+    - id: q
+      type: Global.JSONReader.QuestJSON
+      description: Quest that is going to be represented by this Quest Button.
+    content.vb: Public Sub SetQuest(q As JSONReader.QuestJSON)
+  overload: Global.QuestButton.SetQuest*
+references:
+- uid: QuestMenu
+  commentId: T:QuestMenu
+  isExternal: true
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.JSONReader.QuestJSON
+  commentId: T:Global.JSONReader.QuestJSON
+  name: JSONReader.QuestJSON
+  nameWithType: JSONReader.QuestJSON
+  fullName: JSONReader.QuestJSON
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.QuestJSON
+    name: QuestJSON
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.QuestJSON
+    name: QuestJSON
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.QuestButton.SetQuest*
+  commentId: Overload:Global.QuestButton.SetQuest
+  name: SetQuest
+  nameWithType: QuestButton.SetQuest
+  fullName: QuestButton.SetQuest

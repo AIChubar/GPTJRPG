@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SwappingInterface
+  commentId: T:Global.SwappingInterface
+  id: SwappingInterface
+  parent: Global
+  children:
+  - Global.SwappingInterface.canvas
+  - Global.SwappingInterface.items
+  - Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  - Global.SwappingInterface.Start
+  - Global.SwappingInterface.Swap(System.Int32,System.Int32)
+  - Global.SwappingInterface.SwapCurrentItem
+  langs:
+  - csharp
+  - vb
+  name: SwappingInterface
+  nameWithType: SwappingInterface
+  fullName: SwappingInterface
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Tools/SwappingInterface.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SwappingInterface
+    path: ../Assets/Scripts/Tools/SwappingInterface.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nClass that is used for inheritance. Provide an interface for dragging and dropping <xref href=\"ItemDrag\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public class SwappingInterface : MonoBehaviour'
+    content.vb: Public Class SwappingInterface Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - Global.GroupInfoHUD
+  - Global.RecruitSystem
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.SwappingInterface.items
+  commentId: F:Global.SwappingInterface.items
+  id: items
+  parent: Global.SwappingInterface
+  langs:
+  - csharp
+  - vb
+  name: items
+  nameWithType: SwappingInterface.items
+  fullName: SwappingInterface.items
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/SwappingInterface.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: items
+    path: ../Assets/Scripts/Tools/SwappingInterface.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected List<ItemDrag> items
+    return:
+      type: System.Collections.Generic.List{ItemDrag}
+    content.vb: >-
+      <SerializeField>
+
+      Protected items As List(Of ItemDrag)
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: Global.SwappingInterface.canvas
+  commentId: F:Global.SwappingInterface.canvas
+  id: canvas
+  parent: Global.SwappingInterface
+  langs:
+  - csharp
+  - vb
+  name: canvas
+  nameWithType: SwappingInterface.canvas
+  fullName: SwappingInterface.canvas
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/SwappingInterface.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: canvas
+    path: ../Assets/Scripts/Tools/SwappingInterface.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Canvas canvas
+    return:
+      type: UnityEngine.Canvas
+    content.vb: Public canvas As Canvas
+- uid: Global.SwappingInterface.Start
+  commentId: M:Global.SwappingInterface.Start
+  id: Start
+  parent: Global.SwappingInterface
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: SwappingInterface.Start()
+  fullName: SwappingInterface.Start()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/SwappingInterface.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Start
+    path: ../Assets/Scripts/Tools/SwappingInterface.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: protected void Start()
+    content.vb: Protected Sub Start()
+  overload: Global.SwappingInterface.Start*
+- uid: Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  commentId: M:Global.SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  id: SetCurrentItem(UnityEngine.RectTransform)
+  parent: Global.SwappingInterface
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentItem(RectTransform)
+  nameWithType: SwappingInterface.SetCurrentItem(RectTransform)
+  fullName: SwappingInterface.SetCurrentItem(UnityEngine.RectTransform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/SwappingInterface.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SetCurrentItem
+    path: ../Assets/Scripts/Tools/SwappingInterface.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSets the item that is currently being dragged.\n"
+  example: []
+  syntax:
+    content: public void SetCurrentItem(RectTransform item)
+    parameters:
+    - id: item
+      type: UnityEngine.RectTransform
+    content.vb: Public Sub SetCurrentItem(item As RectTransform)
+  overload: Global.SwappingInterface.SetCurrentItem*
+- uid: Global.SwappingInterface.SwapCurrentItem
+  commentId: M:Global.SwappingInterface.SwapCurrentItem
+  id: SwapCurrentItem
+  parent: Global.SwappingInterface
+  langs:
+  - csharp
+  - vb
+  name: SwapCurrentItem()
+  nameWithType: SwappingInterface.SwapCurrentItem()
+  fullName: SwappingInterface.SwapCurrentItem()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/SwappingInterface.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SwapCurrentItem
+    path: ../Assets/Scripts/Tools/SwappingInterface.cs
+    startLine: 47
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod that attempts to swap currently dragged item with the one under the mouth cursor..\n"
+  example: []
+  syntax:
+    content: public void SwapCurrentItem()
+    content.vb: Public Sub SwapCurrentItem()
+  overload: Global.SwappingInterface.SwapCurrentItem*
+- uid: Global.SwappingInterface.Swap(System.Int32,System.Int32)
+  commentId: M:Global.SwappingInterface.Swap(System.Int32,System.Int32)
+  id: Swap(System.Int32,System.Int32)
+  parent: Global.SwappingInterface
+  langs:
+  - csharp
+  - vb
+  name: Swap(int, int)
+  nameWithType: SwappingInterface.Swap(int, int)
+  fullName: SwappingInterface.Swap(int, int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/SwappingInterface.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Swap
+    path: ../Assets/Scripts/Tools/SwappingInterface.cs
+    startLine: 81
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: protected virtual void Swap(int currentIndex, int targetIndex)
+    parameters:
+    - id: currentIndex
+      type: System.Int32
+    - id: targetIndex
+      type: System.Int32
+    content.vb: Protected Overridable Sub Swap(currentIndex As Integer, targetIndex As Integer)
+  overload: Global.SwappingInterface.Swap*
+  nameWithType.vb: SwappingInterface.Swap(Integer, Integer)
+  fullName.vb: SwappingInterface.Swap(Integer, Integer)
+  name.vb: Swap(Integer, Integer)
+references:
+- uid: ItemDrag
+  commentId: T:ItemDrag
+  isExternal: true
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.Collections.Generic.List{ItemDrag}
+  commentId: T:System.Collections.Generic.List{ItemDrag}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ItemDrag>
+  nameWithType: List<ItemDrag>
+  fullName: System.Collections.Generic.List<ItemDrag>
+  nameWithType.vb: List(Of ItemDrag)
+  fullName.vb: System.Collections.Generic.List(Of ItemDrag)
+  name.vb: List(Of ItemDrag)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.ItemDrag
+    name: ItemDrag
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ItemDrag
+    name: ItemDrag
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: UnityEngine.Canvas
+  commentId: T:UnityEngine.Canvas
+  parent: UnityEngine
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: UnityEngine.Canvas
+- uid: Global.SwappingInterface.Start*
+  commentId: Overload:Global.SwappingInterface.Start
+  name: Start
+  nameWithType: SwappingInterface.Start
+  fullName: SwappingInterface.Start
+- uid: Global.SwappingInterface.SetCurrentItem*
+  commentId: Overload:Global.SwappingInterface.SetCurrentItem
+  name: SetCurrentItem
+  nameWithType: SwappingInterface.SetCurrentItem
+  fullName: SwappingInterface.SetCurrentItem
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: Global.SwappingInterface.SwapCurrentItem*
+  commentId: Overload:Global.SwappingInterface.SwapCurrentItem
+  name: SwapCurrentItem
+  nameWithType: SwappingInterface.SwapCurrentItem
+  fullName: SwappingInterface.SwapCurrentItem
+- uid: Global.SwappingInterface.Swap*
+  commentId: Overload:Global.SwappingInterface.Swap
+  name: Swap
+  nameWithType: SwappingInterface.Swap
+  fullName: SwappingInterface.Swap
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

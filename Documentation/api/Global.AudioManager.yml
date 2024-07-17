@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AudioManager
+  commentId: T:Global.AudioManager
+  id: AudioManager
+  parent: Global
+  children:
+  - Global.AudioManager.instance
+  - Global.AudioManager.Instance
+  - Global.AudioManager.IsPlaying(Sound)
+  - Global.AudioManager.PauseSounds(System.Boolean)
+  - Global.AudioManager.Play(Sound)
+  - Global.AudioManager.SetPitch(Sound,System.Single)
+  - Global.AudioManager.Sounds
+  - Global.AudioManager.Stop(Sound)
+  langs:
+  - csharp
+  - vb
+  name: AudioManager
+  nameWithType: AudioManager
+  fullName: AudioManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AudioManager
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript containing all sounds used in the game.\n"
+  example: []
+  syntax:
+    content: 'public class AudioManager : MonoBehaviour'
+    content.vb: Public Class AudioManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.AudioManager.Sounds
+  commentId: F:Global.AudioManager.Sounds
+  id: Sounds
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Sounds
+  nameWithType: AudioManager.Sounds
+  fullName: AudioManager.Sounds
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Sounds
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nList of sounds which can be used in the game.\n"
+  example: []
+  syntax:
+    content: >-
+      [SerializeField]
+
+      [Tooltip("List of sounds which can be used in the game.")]
+
+      public List<Sound> Sounds
+    return:
+      type: System.Collections.Generic.List{Sound}
+    content.vb: >-
+      <SerializeField>
+
+      <Tooltip("List of sounds which can be used in the game.")>
+
+      Public Sounds As List(Of Sound)
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.AudioManager.instance
+  commentId: F:Global.AudioManager.instance
+  id: instance
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: AudioManager.instance
+  fullName: AudioManager.instance
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: instance
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCurrent static instance of the class.\n"
+  example: []
+  syntax:
+    content: public static AudioManager instance
+    return:
+      type: Global.AudioManager
+    content.vb: Public Shared instance As AudioManager
+- uid: Global.AudioManager.Instance
+  commentId: P:Global.AudioManager.Instance
+  id: Instance
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: AudioManager.Instance
+  fullName: AudioManager.Instance
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Instance
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCurrent static instance of the class.\n"
+  example: []
+  syntax:
+    content: public static AudioManager Instance { get; set; }
+    parameters: []
+    return:
+      type: Global.AudioManager
+    content.vb: Public Shared Property Instance As AudioManager
+  overload: Global.AudioManager.Instance*
+- uid: Global.AudioManager.Play(Sound)
+  commentId: M:Global.AudioManager.Play(Sound)
+  id: Play(Sound)
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Play(Sound)
+  nameWithType: AudioManager.Play(Sound)
+  fullName: AudioManager.Play(Sound)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Play
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 74
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPlay given sound.\n"
+  example: []
+  syntax:
+    content: public void Play(Sound soundObj)
+    parameters:
+    - id: soundObj
+      type: Global.Sound
+      description: Sound object to be played.
+    content.vb: Public Sub Play(soundObj As Sound)
+  overload: Global.AudioManager.Play*
+- uid: Global.AudioManager.Stop(Sound)
+  commentId: M:Global.AudioManager.Stop(Sound)
+  id: Stop(Sound)
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Stop(Sound)
+  nameWithType: AudioManager.Stop(Sound)
+  fullName: AudioManager.Stop(Sound)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Stop
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 86
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nStop given sound.\n"
+  example: []
+  syntax:
+    content: public void Stop(Sound soundObj)
+    parameters:
+    - id: soundObj
+      type: Global.Sound
+      description: Sound object to be played.
+    content.vb: Public Sub [Stop](soundObj As Sound)
+  overload: Global.AudioManager.Stop*
+- uid: Global.AudioManager.SetPitch(Sound,System.Single)
+  commentId: M:Global.AudioManager.SetPitch(Sound,System.Single)
+  id: SetPitch(Sound,System.Single)
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: SetPitch(Sound, float)
+  nameWithType: AudioManager.SetPitch(Sound, float)
+  fullName: AudioManager.SetPitch(Sound, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SetPitch
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 99
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSet pitch of the given sound.\n"
+  example: []
+  syntax:
+    content: public void SetPitch(Sound soundObj, float pitch)
+    parameters:
+    - id: soundObj
+      type: Global.Sound
+      description: Sound object.
+    - id: pitch
+      type: System.Single
+      description: Pitch value.
+    content.vb: Public Sub SetPitch(soundObj As Sound, pitch As Single)
+  overload: Global.AudioManager.SetPitch*
+  nameWithType.vb: AudioManager.SetPitch(Sound, Single)
+  fullName.vb: AudioManager.SetPitch(Sound, Single)
+  name.vb: SetPitch(Sound, Single)
+- uid: Global.AudioManager.IsPlaying(Sound)
+  commentId: M:Global.AudioManager.IsPlaying(Sound)
+  id: IsPlaying(Sound)
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: IsPlaying(Sound)
+  nameWithType: AudioManager.IsPlaying(Sound)
+  fullName: AudioManager.IsPlaying(Sound)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: IsPlaying
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 110
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCheck if the given sound is currently playing.\n"
+  example: []
+  syntax:
+    content: public bool IsPlaying(Sound soundObj)
+    parameters:
+    - id: soundObj
+      type: Global.Sound
+      description: Sound object.
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsPlaying(soundObj As Sound) As Boolean
+  overload: Global.AudioManager.IsPlaying*
+- uid: Global.AudioManager.PauseSounds(System.Boolean)
+  commentId: M:Global.AudioManager.PauseSounds(System.Boolean)
+  id: PauseSounds(System.Boolean)
+  parent: Global.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: PauseSounds(bool)
+  nameWithType: AudioManager.PauseSounds(bool)
+  fullName: AudioManager.PauseSounds(bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/AudioManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: PauseSounds
+    path: ../Assets/Scripts/Tools/AudioManager.cs
+    startLine: 122
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPause or unpause all sounds.\n"
+  example: []
+  syntax:
+    content: public void PauseSounds(bool isPause)
+    parameters:
+    - id: isPause
+      type: System.Boolean
+      description: True if pause the sound. False if unpause the sound.
+    content.vb: Public Sub PauseSounds(isPause As Boolean)
+  overload: Global.AudioManager.PauseSounds*
+  nameWithType.vb: AudioManager.PauseSounds(Boolean)
+  fullName.vb: AudioManager.PauseSounds(Boolean)
+  name.vb: PauseSounds(Boolean)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.Collections.Generic.List{Sound}
+  commentId: T:System.Collections.Generic.List{Sound}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Sound>
+  nameWithType: List<Sound>
+  fullName: System.Collections.Generic.List<Sound>
+  nameWithType.vb: List(Of Sound)
+  fullName.vb: System.Collections.Generic.List(Of Sound)
+  name.vb: List(Of Sound)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Sound
+    name: Sound
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Sound
+    name: Sound
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: Global.AudioManager
+  commentId: T:Global.AudioManager
+  name: AudioManager
+  nameWithType: AudioManager
+  fullName: AudioManager
+- uid: Global.AudioManager.Instance*
+  commentId: Overload:Global.AudioManager.Instance
+  name: Instance
+  nameWithType: AudioManager.Instance
+  fullName: AudioManager.Instance
+- uid: Global.AudioManager.Play*
+  commentId: Overload:Global.AudioManager.Play
+  name: Play
+  nameWithType: AudioManager.Play
+  fullName: AudioManager.Play
+- uid: Global.Sound
+  commentId: T:Global.Sound
+  name: Sound
+  nameWithType: Sound
+  fullName: Sound
+- uid: Global.AudioManager.Stop*
+  commentId: Overload:Global.AudioManager.Stop
+  name: Stop
+  nameWithType: AudioManager.Stop
+  fullName: AudioManager.Stop
+- uid: Global.AudioManager.SetPitch*
+  commentId: Overload:Global.AudioManager.SetPitch
+  name: SetPitch
+  nameWithType: AudioManager.SetPitch
+  fullName: AudioManager.SetPitch
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.AudioManager.IsPlaying*
+  commentId: Overload:Global.AudioManager.IsPlaying
+  name: IsPlaying
+  nameWithType: AudioManager.IsPlaying
+  fullName: AudioManager.IsPlaying
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.AudioManager.PauseSounds*
+  commentId: Overload:Global.AudioManager.PauseSounds
+  name: PauseSounds
+  nameWithType: AudioManager.PauseSounds
+  fullName: AudioManager.PauseSounds

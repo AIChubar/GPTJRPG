@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class SceneController
+ | GPT JRPG documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class SceneController
+ | GPT JRPG documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global.SceneController">
+
+
+  <h1 id="Global_SceneController" data-uid="Global.SceneController" class="text-break">Class SceneController
+</h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="2">Script for manipulating scenes, smooth scenes changing.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">SceneController</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Global_SceneController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SceneController : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_SceneController_BattleMusic.md&amp;value=---%0Auid%3A%20Global.SceneController.BattleMusic%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/Tools/SceneController.cs/#L26">View Source</a>
+  </span>
+  <h4 id="Global_SceneController_BattleMusic" data-uid="Global.SceneController.BattleMusic">BattleMusic</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Dropdown(&quot;AudioManager.Instance.Sounds&quot;, &quot;Name&quot;)]
+public Sound BattleMusic</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Sound.html">Sound</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_SceneController_LevelMusic.md&amp;value=---%0Auid%3A%20Global.SceneController.LevelMusic%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/Tools/SceneController.cs/#L20">View Source</a>
+  </span>
+  <h4 id="Global_SceneController_LevelMusic" data-uid="Global.SceneController.LevelMusic">LevelMusic</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Dropdown(&quot;AudioManager.Instance.Sounds&quot;, &quot;Name&quot;)]
+public Sound LevelMusic</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Sound.html">Sound</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_SceneController_MenuMusic.md&amp;value=---%0Auid%3A%20Global.SceneController.MenuMusic%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/Tools/SceneController.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Global_SceneController_MenuMusic" data-uid="Global.SceneController.MenuMusic">MenuMusic</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Dropdown(&quot;AudioManager.Instance.Sounds&quot;, &quot;Name&quot;)]
+public Sound MenuMusic</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Sound.html">Sound</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_SceneController_LoadScene_System_Int32_System_Single_System_Single_System_Single_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.SceneController.LoadScene(System.Int32%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/Tools/SceneController.cs/#L60">View Source</a>
+  </span>
+  <a id="Global_SceneController_LoadScene_" data-uid="Global.SceneController.LoadScene*"></a>
+  <h4 id="Global_SceneController_LoadScene_System_Int32_System_Single_System_Single_System_Single_System_Boolean_System_Boolean_" data-uid="Global.SceneController.LoadScene(System.Int32,System.Single,System.Single,System.Single,System.Boolean,System.Boolean)">LoadScene(int, float, float, float, bool, bool)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="2">Method that adds or removes an outline from the given GameObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadScene(int index, float closingDuration = 1, float openingDuration = 1, float waitTime = 1, bool additive = false, bool toUnload = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="1">Scene of the index to be loaded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">closingDuration</span></td>
+        <td><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="1">Duration of the fading in animation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">openingDuration</span></td>
+        <td><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="1">Duration of the fading out animation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">waitTime</span></td>
+        <td><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="1">Duration when the screen is fully faded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">additive</span></td>
+        <td><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="1">If the additive scene is loaded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">toUnload</span></td>
+        <td><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="1">If the additive scene is unloaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_SceneController_UnloadScene_System_Int32_System_Single_System_Single_System_Single_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.SceneController.UnloadScene(System.Int32%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/Tools/SceneController.cs/#L65">View Source</a>
+  </span>
+  <a id="Global_SceneController_UnloadScene_" data-uid="Global.SceneController.UnloadScene*"></a>
+  <h4 id="Global_SceneController_UnloadScene_System_Int32_System_Single_System_Single_System_Single_System_Boolean_System_Boolean_" data-uid="Global.SceneController.UnloadScene(System.Int32,System.Single,System.Single,System.Single,System.Boolean,System.Boolean)">UnloadScene(int, float, float, float, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnloadScene(int index, float closingDuration = 1, float openingDuration = 1, float waitTime = 0.4, bool additive = false, bool toUnload = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">closingDuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">openingDuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">waitTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">additive</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">toUnload</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Global.ReflectionExtensions.html#Global_ReflectionExtensions_ToStringWithQuotes_System_Object_">ReflectionExtensions.ToStringWithQuotes(object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AIChubar/GPTJRPG/new/master/apiSpec/new?filename=Global_SceneController.md&amp;value=---%0Auid%3A%20Global.SceneController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AIChubar/GPTJRPG/blob/master/Assets/Scripts/Tools/SceneController.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      GPTJRPG documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ObjectForInfoHUD
+  commentId: T:Global.ObjectForInfoHUD
+  id: ObjectForInfoHUD
+  parent: Global
+  children:
+  - Global.ObjectForInfoHUD.abilityButton
+  - Global.ObjectForInfoHUD.firstRow
+  - Global.ObjectForInfoHUD.image
+  - Global.ObjectForInfoHUD.secondRow
+  - Global.ObjectForInfoHUD.thirdRow
+  langs:
+  - csharp
+  - vb
+  name: ObjectForInfoHUD
+  nameWithType: ObjectForInfoHUD
+  fullName: ObjectForInfoHUD
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UI/ObjectForInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ObjectForInfoHUD
+    path: ../Assets/Scripts/UI/ObjectForInfoHUD.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that contains the information about the Game Object it attached, to be shown by <xref href=\"InfoHUD\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public class ObjectForInfoHUD : MonoBehaviour'
+    content.vb: Public Class ObjectForInfoHUD Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.ObjectForInfoHUD.firstRow
+  commentId: F:Global.ObjectForInfoHUD.firstRow
+  id: firstRow
+  parent: Global.ObjectForInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: firstRow
+  nameWithType: ObjectForInfoHUD.firstRow
+  fullName: ObjectForInfoHUD.firstRow
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/ObjectForInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: firstRow
+    path: ../Assets/Scripts/UI/ObjectForInfoHUD.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string firstRow
+    return:
+      type: System.String
+    content.vb: Public firstRow As String
+- uid: Global.ObjectForInfoHUD.secondRow
+  commentId: F:Global.ObjectForInfoHUD.secondRow
+  id: secondRow
+  parent: Global.ObjectForInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: secondRow
+  nameWithType: ObjectForInfoHUD.secondRow
+  fullName: ObjectForInfoHUD.secondRow
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/ObjectForInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: secondRow
+    path: ../Assets/Scripts/UI/ObjectForInfoHUD.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string secondRow
+    return:
+      type: System.String
+    content.vb: Public secondRow As String
+- uid: Global.ObjectForInfoHUD.thirdRow
+  commentId: F:Global.ObjectForInfoHUD.thirdRow
+  id: thirdRow
+  parent: Global.ObjectForInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: thirdRow
+  nameWithType: ObjectForInfoHUD.thirdRow
+  fullName: ObjectForInfoHUD.thirdRow
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/ObjectForInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: thirdRow
+    path: ../Assets/Scripts/UI/ObjectForInfoHUD.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string thirdRow
+    return:
+      type: System.String
+    content.vb: Public thirdRow As String
+- uid: Global.ObjectForInfoHUD.image
+  commentId: F:Global.ObjectForInfoHUD.image
+  id: image
+  parent: Global.ObjectForInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: ObjectForInfoHUD.image
+  fullName: ObjectForInfoHUD.image
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/ObjectForInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: image
+    path: ../Assets/Scripts/UI/ObjectForInfoHUD.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Image image
+    return:
+      type: UnityEngine.UI.Image
+    content.vb: Public image As Image
+- uid: Global.ObjectForInfoHUD.abilityButton
+  commentId: F:Global.ObjectForInfoHUD.abilityButton
+  id: abilityButton
+  parent: Global.ObjectForInfoHUD
+  langs:
+  - csharp
+  - vb
+  name: abilityButton
+  nameWithType: ObjectForInfoHUD.abilityButton
+  fullName: ObjectForInfoHUD.abilityButton
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/ObjectForInfoHUD.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: abilityButton
+    path: ../Assets/Scripts/UI/ObjectForInfoHUD.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public bool abilityButton
+    return:
+      type: System.Boolean
+    content.vb: Public abilityButton As Boolean
+references:
+- uid: InfoHUD
+  commentId: T:InfoHUD
+  isExternal: true
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.UI.Image
+  commentId: T:UnityEngine.UI.Image
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: UnityEngine.UI.Image
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

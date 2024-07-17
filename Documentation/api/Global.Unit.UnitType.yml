@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Unit.UnitType
+  commentId: T:Global.Unit.UnitType
+  id: Unit.UnitType
+  parent: Global
+  children:
+  - Global.Unit.UnitType.bastion
+  - Global.Unit.UnitType.berserker
+  - Global.Unit.UnitType.fighter
+  - Global.Unit.UnitType.healer
+  - Global.Unit.UnitType.marksman
+  - Global.Unit.UnitType.paladin
+  - Global.Unit.UnitType.protector
+  - Global.Unit.UnitType.shaman
+  - Global.Unit.UnitType.sorcerer
+  - Global.Unit.UnitType.trickster
+  langs:
+  - csharp
+  - vb
+  name: Unit.UnitType
+  nameWithType: Unit.UnitType
+  fullName: Unit.UnitType
+  type: Enum
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UnitType
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nUnit classes.\n"
+  example: []
+  syntax:
+    content: public enum Unit.UnitType
+    content.vb: Public Enum Unit.UnitType
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.Unit.UnitType.fighter
+  commentId: F:Global.Unit.UnitType.fighter
+  id: fighter
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: fighter
+  nameWithType: Unit.UnitType.fighter
+  fullName: Unit.UnitType.fighter
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: fighter
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: fighter = 0
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.sorcerer
+  commentId: F:Global.Unit.UnitType.sorcerer
+  id: sorcerer
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: sorcerer
+  nameWithType: Unit.UnitType.sorcerer
+  fullName: Unit.UnitType.sorcerer
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: sorcerer
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: sorcerer = 1
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.paladin
+  commentId: F:Global.Unit.UnitType.paladin
+  id: paladin
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: paladin
+  nameWithType: Unit.UnitType.paladin
+  fullName: Unit.UnitType.paladin
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: paladin
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: paladin = 2
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.protector
+  commentId: F:Global.Unit.UnitType.protector
+  id: protector
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: protector
+  nameWithType: Unit.UnitType.protector
+  fullName: Unit.UnitType.protector
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: protector
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: protector = 3
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.bastion
+  commentId: F:Global.Unit.UnitType.bastion
+  id: bastion
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: bastion
+  nameWithType: Unit.UnitType.bastion
+  fullName: Unit.UnitType.bastion
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: bastion
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: bastion = 4
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.healer
+  commentId: F:Global.Unit.UnitType.healer
+  id: healer
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: healer
+  nameWithType: Unit.UnitType.healer
+  fullName: Unit.UnitType.healer
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: healer
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: healer = 5
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.trickster
+  commentId: F:Global.Unit.UnitType.trickster
+  id: trickster
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: trickster
+  nameWithType: Unit.UnitType.trickster
+  fullName: Unit.UnitType.trickster
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: trickster
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: trickster = 6
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.berserker
+  commentId: F:Global.Unit.UnitType.berserker
+  id: berserker
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: berserker
+  nameWithType: Unit.UnitType.berserker
+  fullName: Unit.UnitType.berserker
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: berserker
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: berserker = 7
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.marksman
+  commentId: F:Global.Unit.UnitType.marksman
+  id: marksman
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: marksman
+  nameWithType: Unit.UnitType.marksman
+  fullName: Unit.UnitType.marksman
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: marksman
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: marksman = 8
+    return:
+      type: Global.Unit.UnitType
+- uid: Global.Unit.UnitType.shaman
+  commentId: F:Global.Unit.UnitType.shaman
+  id: shaman
+  parent: Global.Unit.UnitType
+  langs:
+  - csharp
+  - vb
+  name: shaman
+  nameWithType: Unit.UnitType.shaman
+  fullName: Unit.UnitType.shaman
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/Unit.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: shaman
+    path: ../Assets/Scripts/BattleScripts/Unit.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: shaman = 9
+    return:
+      type: Global.Unit.UnitType
+references:
+- uid: Global
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.Unit.UnitType
+  commentId: T:Global.Unit.UnitType
+  name: Unit.UnitType
+  nameWithType: Unit.UnitType
+  fullName: Unit.UnitType
+  spec.csharp:
+  - uid: Global.Unit
+    name: Unit
+  - name: .
+  - uid: Global.Unit.UnitType
+    name: UnitType
+  spec.vb:
+  - uid: Global.Unit
+    name: Unit
+  - name: .
+  - uid: Global.Unit.UnitType
+    name: UnitType

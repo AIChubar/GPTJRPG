@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DropdownAttribute
+  commentId: T:Global.DropdownAttribute
+  id: DropdownAttribute
+  parent: Global
+  children:
+  - Global.DropdownAttribute.#ctor(System.String,System.String)
+  - Global.DropdownAttribute.#ctor(System.String)
+  - Global.DropdownAttribute.GetItemName
+  - Global.DropdownAttribute.ItemNameProperty
+  - Global.DropdownAttribute.List
+  - Global.DropdownAttribute.ListPath
+  - Global.DropdownAttribute.SelectedID
+  - Global.DropdownAttribute.Type
+  langs:
+  - csharp
+  - vb
+  name: DropdownAttribute
+  nameWithType: DropdownAttribute
+  fullName: DropdownAttribute
+  type: Class
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: DropdownAttribute
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\n[Dropdown(path, displayProperty)]\n\n- path:            the path of the List\n- displayProperty: the property you want to display in the dropdown selection\n\n"
+  example: []
+  syntax:
+    content: 'public class DropdownAttribute : PropertyAttribute'
+    content.vb: Public Class DropdownAttribute Inherits PropertyAttribute
+  inheritance:
+  - System.Object
+  - System.Attribute
+  - UnityEngine.PropertyAttribute
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.DropdownAttribute.Type
+  commentId: F:Global.DropdownAttribute.Type
+  id: Type
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DropdownAttribute.Type
+  fullName: DropdownAttribute.Type
+  type: Field
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Type
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Type Type
+    return:
+      type: System.Type
+    content.vb: Public Type As Type
+- uid: Global.DropdownAttribute.ListPath
+  commentId: F:Global.DropdownAttribute.ListPath
+  id: ListPath
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: ListPath
+  nameWithType: DropdownAttribute.ListPath
+  fullName: DropdownAttribute.ListPath
+  type: Field
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ListPath
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string ListPath
+    return:
+      type: System.String
+    content.vb: Public ListPath As String
+- uid: Global.DropdownAttribute.ItemNameProperty
+  commentId: F:Global.DropdownAttribute.ItemNameProperty
+  id: ItemNameProperty
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: ItemNameProperty
+  nameWithType: DropdownAttribute.ItemNameProperty
+  fullName: DropdownAttribute.ItemNameProperty
+  type: Field
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ItemNameProperty
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string ItemNameProperty
+    return:
+      type: System.String
+    content.vb: Public ItemNameProperty As String
+- uid: Global.DropdownAttribute.List
+  commentId: F:Global.DropdownAttribute.List
+  id: List
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: DropdownAttribute.List
+  fullName: DropdownAttribute.List
+  type: Field
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: List
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<Object> List
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Object}
+    content.vb: Public List As List(Of [Object])
+- uid: Global.DropdownAttribute.SelectedID
+  commentId: F:Global.DropdownAttribute.SelectedID
+  id: SelectedID
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: SelectedID
+  nameWithType: DropdownAttribute.SelectedID
+  fullName: DropdownAttribute.SelectedID
+  type: Field
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SelectedID
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int SelectedID
+    return:
+      type: System.Int32
+    content.vb: Public SelectedID As Integer
+- uid: Global.DropdownAttribute.GetItemName
+  commentId: F:Global.DropdownAttribute.GetItemName
+  id: GetItemName
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: GetItemName
+  nameWithType: DropdownAttribute.GetItemName
+  fullName: DropdownAttribute.GetItemName
+  type: Field
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GetItemName
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GetItemNameCallback GetItemName
+    return:
+      type: Global.GetItemNameCallback
+    content.vb: Public GetItemName As GetItemNameCallback
+- uid: Global.DropdownAttribute.#ctor(System.String,System.String)
+  commentId: M:Global.DropdownAttribute.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: DropdownAttribute(string, string)
+  nameWithType: DropdownAttribute.DropdownAttribute(string, string)
+  fullName: DropdownAttribute.DropdownAttribute(string, string)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: .ctor
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DropdownAttribute(string listPath, string ItemNameProperty)
+    parameters:
+    - id: listPath
+      type: System.String
+    - id: ItemNameProperty
+      type: System.String
+    content.vb: Public Sub New(listPath As String, ItemNameProperty As String)
+  overload: Global.DropdownAttribute.#ctor*
+  nameWithType.vb: DropdownAttribute.New(String, String)
+  fullName.vb: DropdownAttribute.New(String, String)
+  name.vb: New(String, String)
+- uid: Global.DropdownAttribute.#ctor(System.String)
+  commentId: M:Global.DropdownAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Global.DropdownAttribute
+  langs:
+  - csharp
+  - vb
+  name: DropdownAttribute(string)
+  nameWithType: DropdownAttribute.DropdownAttribute(string)
+  fullName: DropdownAttribute.DropdownAttribute(string)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: .ctor
+    path: ../Assets/DropdownAttributes/Core/Scripts/DropdownAttribute.cs
+    startLine: 32
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DropdownAttribute(string listPath)
+    parameters:
+    - id: listPath
+      type: System.String
+    content.vb: Public Sub New(listPath As String)
+  overload: Global.DropdownAttribute.#ctor*
+  nameWithType.vb: DropdownAttribute.New(String)
+  fullName.vb: DropdownAttribute.New(String)
+  name.vb: New(String)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Attribute
+  commentId: T:System.Attribute
+  parent: System
+  isExternal: true
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: UnityEngine.PropertyAttribute
+  commentId: T:UnityEngine.PropertyAttribute
+  parent: UnityEngine
+  isExternal: true
+  name: PropertyAttribute
+  nameWithType: PropertyAttribute
+  fullName: UnityEngine.PropertyAttribute
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{UnityEngine.Object}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Object>
+  nameWithType: List<Object>
+  fullName: System.Collections.Generic.List<UnityEngine.Object>
+  nameWithType.vb: List(Of Object)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Object)
+  name.vb: List(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.GetItemNameCallback
+  commentId: T:Global.GetItemNameCallback
+  name: GetItemNameCallback
+  nameWithType: GetItemNameCallback
+  fullName: GetItemNameCallback
+- uid: Global.DropdownAttribute.#ctor*
+  commentId: Overload:Global.DropdownAttribute.#ctor
+  name: DropdownAttribute
+  nameWithType: DropdownAttribute.DropdownAttribute
+  fullName: DropdownAttribute.DropdownAttribute
+  nameWithType.vb: DropdownAttribute.New
+  fullName.vb: DropdownAttribute.New
+  name.vb: New

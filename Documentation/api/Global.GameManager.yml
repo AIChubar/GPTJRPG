@@ -1,0 +1,2262 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GameManager
+  commentId: T:Global.GameManager
+  id: GameManager
+  parent: Global
+  children:
+  - Global.GameManager.abilityIndicationPrefab
+  - Global.GameManager.armouredSprite
+  - Global.GameManager.atlasAbility
+  - Global.GameManager.atlasUnit
+  - Global.GameManager.AttackSound
+  - Global.GameManager.attackSprite
+  - Global.GameManager.BastionSound
+  - Global.GameManager.battleJournal
+  - Global.GameManager.battleResult
+  - Global.GameManager.battleSystem
+  - Global.GameManager.BerserkerSound
+  - Global.GameManager.ButtonClick
+  - Global.GameManager.classesDescriptions
+  - Global.GameManager.DeathSound
+  - Global.GameManager.DefendSound
+  - Global.GameManager.errorSprite
+  - Global.GameManager.floatingTextPrefab
+  - Global.GameManager.gameData
+  - Global.GameManager.gameManager
+  - Global.GameManager.GetSpriteAbility(JSONReader.UnitJSON)
+  - Global.GameManager.GetSpriteUnit(JSONReader.UnitJSON)
+  - Global.GameManager.HealerSound
+  - Global.GameManager.hero
+  - Global.GameManager.inBattle
+  - Global.GameManager.kbButton
+  - Global.GameManager.kbOpened
+  - Global.GameManager.levelIndex
+  - Global.GameManager.map
+  - Global.GameManager.MarksmanSound
+  - Global.GameManager.OutlineObject(UnityEngine.GameObject,System.Boolean)
+  - Global.GameManager.PaladinSound
+  - Global.GameManager.pauseMenu
+  - Global.GameManager.pauseOpened
+  - Global.GameManager.ProtectorSound
+  - Global.GameManager.SceneAdditive
+  - Global.GameManager.SceneFinishedLoading
+  - Global.GameManager.SceneFinishedUnloading
+  - Global.GameManager.SceneLoaded
+  - Global.GameManager.SceneUnloaded
+  - Global.GameManager.ShamanSound
+  - Global.GameManager.SorcererSound
+  - Global.GameManager.transitioning
+  - Global.GameManager.TricksterSound
+  - Global.GameManager.villain
+  - Global.GameManager.world
+  langs:
+  - csharp
+  - vb
+  name: GameManager
+  nameWithType: GameManager
+  fullName: GameManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GameManager
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMain game Script containing data that contains fields and method used accessed from multiple other scripts.\n"
+  example: []
+  syntax:
+    content: 'public class GameManager : MonoBehaviour'
+    content.vb: Public Class GameManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.GameManager.battleJournal
+  commentId: F:Global.GameManager.battleJournal
+  id: battleJournal
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: battleJournal
+  nameWithType: GameManager.battleJournal
+  fullName: GameManager.battleJournal
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: battleJournal
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCurrent <xref href=\"BattleJournal\" data-throw-if-not-resolved=\"false\"></xref> for the Battle Scene.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [Tooltip("Current BattleJournal for the Battle Scene.")]
+
+      public BattleJournal battleJournal
+    return:
+      type: Global.BattleJournal
+    content.vb: >-
+      <HideInInspector>
+
+      <Tooltip("Current BattleJournal for the Battle Scene.")>
+
+      Public battleJournal As BattleJournal
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.floatingTextPrefab
+  commentId: F:Global.GameManager.floatingTextPrefab
+  id: floatingTextPrefab
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: floatingTextPrefab
+  nameWithType: GameManager.floatingTextPrefab
+  fullName: GameManager.floatingTextPrefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: floatingTextPrefab
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 24
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPrefab of the UI object used as the damage number text floating above the damaged <xref href=\"Unit\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Prefab of the UI object used as the damage number text floating above the damaged Unit")]
+
+      public GameObject floatingTextPrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Prefab of the UI object used as the damage number text floating above the damaged Unit")>
+
+      Public floatingTextPrefab As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.inBattle
+  commentId: F:Global.GameManager.inBattle
+  id: inBattle
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: inBattle
+  nameWithType: GameManager.inBattle
+  fullName: GameManager.inBattle
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: inBattle
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 31
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nTrue if player is currently in the Battle Scene.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [Tooltip("True if player is currently in the Battle Scene.")]
+
+      public bool inBattle
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <HideInInspector>
+
+      <Tooltip("True if player is currently in the Battle Scene.")>
+
+      Public inBattle As Boolean
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.gameData
+  commentId: F:Global.GameManager.gameData
+  id: gameData
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: gameData
+  nameWithType: GameManager.gameData
+  fullName: GameManager.gameData
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: gameData
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nContains units data for the current Battle.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Contains units data for the current Battle.")]
+
+      public GameData gameData
+    return:
+      type: Global.GameData
+    content.vb: >-
+      <Tooltip("Contains units data for the current Battle.")>
+
+      Public gameData As GameData
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.transitioning
+  commentId: F:Global.GameManager.transitioning
+  id: transitioning
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: transitioning
+  nameWithType: GameManager.transitioning
+  fullName: GameManager.transitioning
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: transitioning
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 43
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nTrue if the scene is still transitioning.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("True if the scene is still transitioning.")]
+
+      public bool transitioning
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("True if the scene is still transitioning.")>
+
+      Public transitioning As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.battleResult
+  commentId: F:Global.GameManager.battleResult
+  id: battleResult
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: battleResult
+  nameWithType: GameManager.battleResult
+  fullName: GameManager.battleResult
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: battleResult
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 49
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\n<xref href=\"BattleSystem.BattleState\" data-throw-if-not-resolved=\"false\"></xref> of the current Battle.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("BattleSystem.BattleState of the current Battle.")]
+
+      public BattleSystem.BattleState battleResult
+    return:
+      type: Global.BattleSystem.BattleState
+    content.vb: >-
+      <Tooltip("BattleSystem.BattleState of the current Battle.")>
+
+      Public battleResult As BattleSystem.BattleState
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.world
+  commentId: F:Global.GameManager.world
+  id: world
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: world
+  nameWithType: GameManager.world
+  fullName: GameManager.world
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: world
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 56
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\n<xref href=\"JSONReader.GameWorld\" data-throw-if-not-resolved=\"false\"></xref> of the current game instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [Tooltip("JSONReader.GameWorld of the current game instance.")]
+
+      public JSONReader.GameWorld world
+    return:
+      type: Global.JSONReader.GameWorld
+    content.vb: >-
+      <HideInInspector>
+
+      <Tooltip("JSONReader.GameWorld of the current game instance.")>
+
+      Public world As JSONReader.GameWorld
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.errorSprite
+  commentId: F:Global.GameManager.errorSprite
+  id: errorSprite
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: errorSprite
+  nameWithType: GameManager.errorSprite
+  fullName: GameManager.errorSprite
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: errorSprite
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 62
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSprite that is used if there was an error when finding a needed sprite.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Sprite that is used if there was an error when finding a needed sprite.")]
+
+      public Sprite errorSprite
+    return:
+      type: UnityEngine.Sprite
+    content.vb: >-
+      <Tooltip("Sprite that is used if there was an error when finding a needed sprite.")>
+
+      Public errorSprite As Sprite
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.armouredSprite
+  commentId: F:Global.GameManager.armouredSprite
+  id: armouredSprite
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: armouredSprite
+  nameWithType: GameManager.armouredSprite
+  fullName: GameManager.armouredSprite
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: armouredSprite
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 68
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSprite of the armour up Button.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Sprite of the armour up Button.")]
+
+      public Sprite armouredSprite
+    return:
+      type: UnityEngine.Sprite
+    content.vb: >-
+      <Tooltip("Sprite of the armour up Button.")>
+
+      Public armouredSprite As Sprite
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.attackSprite
+  commentId: F:Global.GameManager.attackSprite
+  id: attackSprite
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: attackSprite
+  nameWithType: GameManager.attackSprite
+  fullName: GameManager.attackSprite
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: attackSprite
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 73
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSprite of the attack Button.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Sprite of the attack Button.")]
+
+      public Sprite attackSprite
+    return:
+      type: UnityEngine.Sprite
+    content.vb: >-
+      <Tooltip("Sprite of the attack Button.")>
+
+      Public attackSprite As Sprite
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.abilityIndicationPrefab
+  commentId: F:Global.GameManager.abilityIndicationPrefab
+  id: abilityIndicationPrefab
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: abilityIndicationPrefab
+  nameWithType: GameManager.abilityIndicationPrefab
+  fullName: GameManager.abilityIndicationPrefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: abilityIndicationPrefab
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 79
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPrefab of the GameObject used to indicate who was affected by the <xref href=\"Unit\" data-throw-if-not-resolved=\"false\"></xref> Ability.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Prefab of the GameObject used to indicate who was affected by the Unit Ability.")]
+
+      public GameObject abilityIndicationPrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Prefab of the GameObject used to indicate who was affected by the Unit Ability.")>
+
+      Public abilityIndicationPrefab As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.levelIndex
+  commentId: F:Global.GameManager.levelIndex
+  id: levelIndex
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: levelIndex
+  nameWithType: GameManager.levelIndex
+  fullName: GameManager.levelIndex
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: levelIndex
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 83
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int levelIndex
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public levelIndex As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.GameManager.hero
+  commentId: F:Global.GameManager.hero
+  id: hero
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: hero
+  nameWithType: GameManager.hero
+  fullName: GameManager.hero
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: hero
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 85
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Hero hero
+    return:
+      type: Global.Hero
+    content.vb: Public hero As Hero
+- uid: Global.GameManager.pauseMenu
+  commentId: F:Global.GameManager.pauseMenu
+  id: pauseMenu
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: pauseMenu
+  nameWithType: GameManager.pauseMenu
+  fullName: GameManager.pauseMenu
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: pauseMenu
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 87
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Pause pauseMenu
+    return:
+      type: Global.Pause
+    content.vb: Public pauseMenu As Pause
+- uid: Global.GameManager.map
+  commentId: F:Global.GameManager.map
+  id: map
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: map
+  nameWithType: GameManager.map
+  fullName: GameManager.map
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: map
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 92
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPrefab of the GameObject used to indicate who was affected by the <xref href=\"Unit\" data-throw-if-not-resolved=\"false\"></xref> Ability.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Prefab of the GameObject used to indicate who was affected by the Unit Ability.")]
+
+      public GameObject map
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Prefab of the GameObject used to indicate who was affected by the Unit Ability.")>
+
+      Public map As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.atlasUnit
+  commentId: F:Global.GameManager.atlasUnit
+  id: atlasUnit
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: atlasUnit
+  nameWithType: GameManager.atlasUnit
+  fullName: GameManager.atlasUnit
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: atlasUnit
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 98
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nAtlas of all unit sprites, accessed when the <xref href=\"Unit\" data-throw-if-not-resolved=\"false\"></xref> is created.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Atlas of all unit sprites, accessed when the Unit is created.")]
+
+      public SpriteAtlas atlasUnit
+    return:
+      type: UnityEngine.U2D.SpriteAtlas
+    content.vb: >-
+      <Tooltip("Atlas of all unit sprites, accessed when the Unit is created.")>
+
+      Public atlasUnit As SpriteAtlas
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.atlasAbility
+  commentId: F:Global.GameManager.atlasAbility
+  id: atlasAbility
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: atlasAbility
+  nameWithType: GameManager.atlasAbility
+  fullName: GameManager.atlasAbility
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: atlasAbility
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 104
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nAtlas of all ability icons.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Atlas of all ability icons.")]
+
+      public SpriteAtlas atlasAbility
+    return:
+      type: UnityEngine.U2D.SpriteAtlas
+    content.vb: >-
+      <Tooltip("Atlas of all ability icons.")>
+
+      Public atlasAbility As SpriteAtlas
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.battleSystem
+  commentId: F:Global.GameManager.battleSystem
+  id: battleSystem
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: battleSystem
+  nameWithType: GameManager.battleSystem
+  fullName: GameManager.battleSystem
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: battleSystem
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 106
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public BattleSystem battleSystem
+    return:
+      type: Global.BattleSystem
+    content.vb: >-
+      <HideInInspector>
+
+      Public battleSystem As BattleSystem
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.GameManager.villain
+  commentId: F:Global.GameManager.villain
+  id: villain
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: villain
+  nameWithType: GameManager.villain
+  fullName: GameManager.villain
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: villain
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 114
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMain Game Antagonist object.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public GameObject villain
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <HideInInspector>
+
+      Public villain As GameObject
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.GameManager.kbOpened
+  commentId: F:Global.GameManager.kbOpened
+  id: kbOpened
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: kbOpened
+  nameWithType: GameManager.kbOpened
+  fullName: GameManager.kbOpened
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: kbOpened
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 119
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nTrue if the <xref href=\"KnowledgeBase\" data-throw-if-not-resolved=\"false\"></xref> is active.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public bool kbOpened
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <HideInInspector>
+
+      Public kbOpened As Boolean
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.GameManager.pauseOpened
+  commentId: F:Global.GameManager.pauseOpened
+  id: pauseOpened
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: pauseOpened
+  nameWithType: GameManager.pauseOpened
+  fullName: GameManager.pauseOpened
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: pauseOpened
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 123
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nTrue if the <xref href=\"Pause\" data-throw-if-not-resolved=\"false\"></xref> is active.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public bool pauseOpened
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <HideInInspector>
+
+      Public pauseOpened As Boolean
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.GameManager.kbButton
+  commentId: F:Global.GameManager.kbButton
+  id: kbButton
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: kbButton
+  nameWithType: GameManager.kbButton
+  fullName: GameManager.kbButton
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: kbButton
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 129
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nButton object that opens the <xref href=\"KnowledgeBase\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Button object that opens the KnowledgeBase")]
+
+      public Button kbButton
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <Tooltip("Button object that opens the KnowledgeBase")>
+
+      Public kbButton As Button
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.ButtonClick
+  commentId: F:Global.GameManager.ButtonClick
+  id: ButtonClick
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: ButtonClick
+  nameWithType: GameManager.ButtonClick
+  fullName: GameManager.ButtonClick
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ButtonClick
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 132
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound ButtonClick
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public ButtonClick As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.DeathSound
+  commentId: F:Global.GameManager.DeathSound
+  id: DeathSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: DeathSound
+  nameWithType: GameManager.DeathSound
+  fullName: GameManager.DeathSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: DeathSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 134
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound DeathSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public DeathSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.SorcererSound
+  commentId: F:Global.GameManager.SorcererSound
+  id: SorcererSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: SorcererSound
+  nameWithType: GameManager.SorcererSound
+  fullName: GameManager.SorcererSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SorcererSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 136
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound SorcererSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public SorcererSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.PaladinSound
+  commentId: F:Global.GameManager.PaladinSound
+  id: PaladinSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: PaladinSound
+  nameWithType: GameManager.PaladinSound
+  fullName: GameManager.PaladinSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: PaladinSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 138
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound PaladinSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public PaladinSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.ProtectorSound
+  commentId: F:Global.GameManager.ProtectorSound
+  id: ProtectorSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: ProtectorSound
+  nameWithType: GameManager.ProtectorSound
+  fullName: GameManager.ProtectorSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ProtectorSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 140
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound ProtectorSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public ProtectorSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.BastionSound
+  commentId: F:Global.GameManager.BastionSound
+  id: BastionSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: BastionSound
+  nameWithType: GameManager.BastionSound
+  fullName: GameManager.BastionSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: BastionSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 142
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound BastionSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public BastionSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.HealerSound
+  commentId: F:Global.GameManager.HealerSound
+  id: HealerSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: HealerSound
+  nameWithType: GameManager.HealerSound
+  fullName: GameManager.HealerSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: HealerSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 144
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound HealerSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public HealerSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.TricksterSound
+  commentId: F:Global.GameManager.TricksterSound
+  id: TricksterSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: TricksterSound
+  nameWithType: GameManager.TricksterSound
+  fullName: GameManager.TricksterSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: TricksterSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 146
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound TricksterSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public TricksterSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.BerserkerSound
+  commentId: F:Global.GameManager.BerserkerSound
+  id: BerserkerSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: BerserkerSound
+  nameWithType: GameManager.BerserkerSound
+  fullName: GameManager.BerserkerSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: BerserkerSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 148
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound BerserkerSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public BerserkerSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.MarksmanSound
+  commentId: F:Global.GameManager.MarksmanSound
+  id: MarksmanSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: MarksmanSound
+  nameWithType: GameManager.MarksmanSound
+  fullName: GameManager.MarksmanSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: MarksmanSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 150
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound MarksmanSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public MarksmanSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.ShamanSound
+  commentId: F:Global.GameManager.ShamanSound
+  id: ShamanSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: ShamanSound
+  nameWithType: GameManager.ShamanSound
+  fullName: GameManager.ShamanSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShamanSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 152
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound ShamanSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public ShamanSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.AttackSound
+  commentId: F:Global.GameManager.AttackSound
+  id: AttackSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: AttackSound
+  nameWithType: GameManager.AttackSound
+  fullName: GameManager.AttackSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AttackSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 154
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound AttackSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public AttackSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.DefendSound
+  commentId: F:Global.GameManager.DefendSound
+  id: DefendSound
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: DefendSound
+  nameWithType: GameManager.DefendSound
+  fullName: GameManager.DefendSound
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: DefendSound
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 156
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound DefendSound
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public DefendSound As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.GameManager.classesDescriptions
+  commentId: F:Global.GameManager.classesDescriptions
+  id: classesDescriptions
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: classesDescriptions
+  nameWithType: GameManager.classesDescriptions
+  fullName: GameManager.classesDescriptions
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: classesDescriptions
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 161
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nDictionary that contains descriptions for class abilities.\n"
+  example: []
+  syntax:
+    content: public Dictionary<Unit.UnitType, UnitClass> classesDescriptions
+    return:
+      type: System.Collections.Generic.Dictionary{Unit.UnitType,UnitClass}
+    content.vb: Public classesDescriptions As Dictionary(Of Unit.UnitType, UnitClass)
+- uid: Global.GameManager.gameManager
+  commentId: P:Global.GameManager.gameManager
+  id: gameManager
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: gameManager
+  nameWithType: GameManager.gameManager
+  fullName: GameManager.gameManager
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: gameManager
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 174
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static GameManager gameManager { get; }
+    parameters: []
+    return:
+      type: Global.GameManager
+    content.vb: Public Shared Property gameManager As GameManager
+  overload: Global.GameManager.gameManager*
+- uid: Global.GameManager.SceneUnloaded
+  commentId: M:Global.GameManager.SceneUnloaded
+  id: SceneUnloaded
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: SceneUnloaded()
+  nameWithType: GameManager.SceneUnloaded()
+  fullName: GameManager.SceneUnloaded()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SceneUnloaded
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 191
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod called when the battle scene is unloaded in <xref href=\"SceneController\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void SceneUnloaded()
+    content.vb: Public Sub SceneUnloaded()
+  overload: Global.GameManager.SceneUnloaded*
+- uid: Global.GameManager.SceneFinishedUnloading
+  commentId: M:Global.GameManager.SceneFinishedUnloading
+  id: SceneFinishedUnloading
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: SceneFinishedUnloading()
+  nameWithType: GameManager.SceneFinishedUnloading()
+  fullName: GameManager.SceneFinishedUnloading()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SceneFinishedUnloading
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 206
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod called when the scene is unloaded and finished transitioning in <xref href=\"SceneController\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void SceneFinishedUnloading()
+    content.vb: Public Sub SceneFinishedUnloading()
+  overload: Global.GameManager.SceneFinishedUnloading*
+- uid: Global.GameManager.SceneLoaded
+  commentId: M:Global.GameManager.SceneLoaded
+  id: SceneLoaded
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: SceneLoaded()
+  nameWithType: GameManager.SceneLoaded()
+  fullName: GameManager.SceneLoaded()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SceneLoaded
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 223
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod called when the scene is loaded in <xref href=\"SceneController\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void SceneLoaded()
+    content.vb: Public Sub SceneLoaded()
+  overload: Global.GameManager.SceneLoaded*
+- uid: Global.GameManager.SceneFinishedLoading
+  commentId: M:Global.GameManager.SceneFinishedLoading
+  id: SceneFinishedLoading
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: SceneFinishedLoading()
+  nameWithType: GameManager.SceneFinishedLoading()
+  fullName: GameManager.SceneFinishedLoading()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SceneFinishedLoading
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 241
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod called when the scene is loaded and finished transitioning in <xref href=\"SceneController\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void SceneFinishedLoading()
+    content.vb: Public Sub SceneFinishedLoading()
+  overload: Global.GameManager.SceneFinishedLoading*
+- uid: Global.GameManager.SceneAdditive
+  commentId: M:Global.GameManager.SceneAdditive
+  id: SceneAdditive
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: SceneAdditive()
+  nameWithType: GameManager.SceneAdditive()
+  fullName: GameManager.SceneAdditive()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SceneAdditive
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 251
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod called when the additive scene is loaded in <xref href=\"SceneController\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void SceneAdditive()
+    content.vb: Public Sub SceneAdditive()
+  overload: Global.GameManager.SceneAdditive*
+- uid: Global.GameManager.GetSpriteUnit(JSONReader.UnitJSON)
+  commentId: M:Global.GameManager.GetSpriteUnit(JSONReader.UnitJSON)
+  id: GetSpriteUnit(JSONReader.UnitJSON)
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: GetSpriteUnit(UnitJSON)
+  nameWithType: GameManager.GetSpriteUnit(JSONReader.UnitJSON)
+  fullName: GameManager.GetSpriteUnit(JSONReader.UnitJSON)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GetSpriteUnit
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 265
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nGet unit sprite from <xref href=\"GameManager.atlasUnit\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public Sprite GetSpriteUnit(JSONReader.UnitJSON unit)
+    parameters:
+    - id: unit
+      type: Global.JSONReader.UnitJSON
+      description: <xref href="Unit" data-throw-if-not-resolved="false"></xref> for which the sprite should be returned.
+    return:
+      type: UnityEngine.Sprite
+    content.vb: Public Function GetSpriteUnit(unit As JSONReader.UnitJSON) As Sprite
+  overload: Global.GameManager.GetSpriteUnit*
+- uid: Global.GameManager.GetSpriteAbility(JSONReader.UnitJSON)
+  commentId: M:Global.GameManager.GetSpriteAbility(JSONReader.UnitJSON)
+  id: GetSpriteAbility(JSONReader.UnitJSON)
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: GetSpriteAbility(UnitJSON)
+  nameWithType: GameManager.GetSpriteAbility(JSONReader.UnitJSON)
+  fullName: GameManager.GetSpriteAbility(JSONReader.UnitJSON)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GetSpriteAbility
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 282
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nGet ability sprite from <xref href=\"GameManager.atlasAbility\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public Sprite GetSpriteAbility(JSONReader.UnitJSON unit)
+    parameters:
+    - id: unit
+      type: Global.JSONReader.UnitJSON
+      description: <xref href="Unit" data-throw-if-not-resolved="false"></xref> for which class ability the sprite should be returned.
+    return:
+      type: UnityEngine.Sprite
+    content.vb: Public Function GetSpriteAbility(unit As JSONReader.UnitJSON) As Sprite
+  overload: Global.GameManager.GetSpriteAbility*
+- uid: Global.GameManager.OutlineObject(UnityEngine.GameObject,System.Boolean)
+  commentId: M:Global.GameManager.OutlineObject(UnityEngine.GameObject,System.Boolean)
+  id: OutlineObject(UnityEngine.GameObject,System.Boolean)
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: OutlineObject(GameObject, bool)
+  nameWithType: GameManager.OutlineObject(GameObject, bool)
+  fullName: GameManager.OutlineObject(UnityEngine.GameObject, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/GameManager.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OutlineObject
+    path: ../Assets/Scripts/Tools/GameManager.cs
+    startLine: 296
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nMethod that adds or removes an outline from the given GameObject.\n"
+  example: []
+  syntax:
+    content: public void OutlineObject(GameObject ob, bool outlined)
+    parameters:
+    - id: ob
+      type: UnityEngine.GameObject
+      description: GameObject to be outlined.
+    - id: outlined
+      type: System.Boolean
+      description: If true, outlines, otherwise remove an outline.
+    content.vb: Public Sub OutlineObject(ob As GameObject, outlined As Boolean)
+  overload: Global.GameManager.OutlineObject*
+  nameWithType.vb: GameManager.OutlineObject(GameObject, Boolean)
+  fullName.vb: GameManager.OutlineObject(UnityEngine.GameObject, Boolean)
+  name.vb: OutlineObject(GameObject, Boolean)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: BattleJournal
+  commentId: T:BattleJournal
+  isExternal: true
+- uid: Global.BattleJournal
+  commentId: T:Global.BattleJournal
+  name: BattleJournal
+  nameWithType: BattleJournal
+  fullName: BattleJournal
+- uid: Unit
+  commentId: T:Unit
+  isExternal: true
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.GameData
+  commentId: T:Global.GameData
+  name: GameData
+  nameWithType: GameData
+  fullName: GameData
+- uid: BattleSystem.BattleState
+  commentId: T:BattleSystem.BattleState
+  isExternal: true
+- uid: Global.BattleSystem.BattleState
+  commentId: T:Global.BattleSystem.BattleState
+  name: BattleSystem.BattleState
+  nameWithType: BattleSystem.BattleState
+  fullName: BattleSystem.BattleState
+  spec.csharp:
+  - uid: Global.BattleSystem
+    name: BattleSystem
+  - name: .
+  - uid: Global.BattleSystem.BattleState
+    name: BattleState
+  spec.vb:
+  - uid: Global.BattleSystem
+    name: BattleSystem
+  - name: .
+  - uid: Global.BattleSystem.BattleState
+    name: BattleState
+- uid: JSONReader.GameWorld
+  commentId: T:JSONReader.GameWorld
+  isExternal: true
+- uid: Global.JSONReader.GameWorld
+  commentId: T:Global.JSONReader.GameWorld
+  name: JSONReader.GameWorld
+  nameWithType: JSONReader.GameWorld
+  fullName: JSONReader.GameWorld
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.GameWorld
+    name: GameWorld
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.GameWorld
+    name: GameWorld
+- uid: UnityEngine.Sprite
+  commentId: T:UnityEngine.Sprite
+  parent: UnityEngine
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: UnityEngine.Sprite
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Hero
+  commentId: T:Global.Hero
+  name: Hero
+  nameWithType: Hero
+  fullName: Hero
+- uid: Global.Pause
+  commentId: T:Global.Pause
+  name: Pause
+  nameWithType: Pause
+  fullName: Pause
+- uid: UnityEngine.U2D.SpriteAtlas
+  commentId: T:UnityEngine.U2D.SpriteAtlas
+  parent: UnityEngine.U2D
+  isExternal: true
+  name: SpriteAtlas
+  nameWithType: SpriteAtlas
+  fullName: UnityEngine.U2D.SpriteAtlas
+- uid: UnityEngine.U2D
+  commentId: N:UnityEngine.U2D
+  isExternal: true
+  name: UnityEngine.U2D
+  nameWithType: UnityEngine.U2D
+  fullName: UnityEngine.U2D
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.U2D
+    name: U2D
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.U2D
+    name: U2D
+    isExternal: true
+- uid: Global.BattleSystem
+  commentId: T:Global.BattleSystem
+  name: BattleSystem
+  nameWithType: BattleSystem
+  fullName: BattleSystem
+- uid: KnowledgeBase
+  commentId: T:KnowledgeBase
+  isExternal: true
+- uid: Pause
+  commentId: T:Pause
+  isExternal: true
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true
+- uid: Global.Sound
+  commentId: T:Global.Sound
+  name: Sound
+  nameWithType: Sound
+  fullName: Sound
+- uid: System.Collections.Generic.Dictionary{Unit.UnitType,UnitClass}
+  commentId: T:System.Collections.Generic.Dictionary{Unit.UnitType,UnitClass}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Unit.UnitType, UnitClass>
+  nameWithType: Dictionary<Unit.UnitType, UnitClass>
+  fullName: System.Collections.Generic.Dictionary<Unit.UnitType, UnitClass>
+  nameWithType.vb: Dictionary(Of Unit.UnitType, UnitClass)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Unit.UnitType, UnitClass)
+  name.vb: Dictionary(Of Unit.UnitType, UnitClass)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: Global.Unit
+    name: Unit
+  - name: .
+  - uid: Global.Unit.UnitType
+    name: UnitType
+  - name: ','
+  - name: " "
+  - uid: Global.UnitClass
+    name: UnitClass
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Unit
+    name: Unit
+  - name: .
+  - uid: Global.Unit.UnitType
+    name: UnitType
+  - name: ','
+  - name: " "
+  - uid: Global.UnitClass
+    name: UnitClass
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: Global.GameManager.gameManager*
+  commentId: Overload:Global.GameManager.gameManager
+  name: gameManager
+  nameWithType: GameManager.gameManager
+  fullName: GameManager.gameManager
+- uid: Global.GameManager
+  commentId: T:Global.GameManager
+  name: GameManager
+  nameWithType: GameManager
+  fullName: GameManager
+- uid: SceneController
+  commentId: T:SceneController
+  isExternal: true
+- uid: Global.GameManager.SceneUnloaded*
+  commentId: Overload:Global.GameManager.SceneUnloaded
+  name: SceneUnloaded
+  nameWithType: GameManager.SceneUnloaded
+  fullName: GameManager.SceneUnloaded
+- uid: Global.GameManager.SceneFinishedUnloading*
+  commentId: Overload:Global.GameManager.SceneFinishedUnloading
+  name: SceneFinishedUnloading
+  nameWithType: GameManager.SceneFinishedUnloading
+  fullName: GameManager.SceneFinishedUnloading
+- uid: Global.GameManager.SceneLoaded*
+  commentId: Overload:Global.GameManager.SceneLoaded
+  name: SceneLoaded
+  nameWithType: GameManager.SceneLoaded
+  fullName: GameManager.SceneLoaded
+- uid: Global.GameManager.SceneFinishedLoading*
+  commentId: Overload:Global.GameManager.SceneFinishedLoading
+  name: SceneFinishedLoading
+  nameWithType: GameManager.SceneFinishedLoading
+  fullName: GameManager.SceneFinishedLoading
+- uid: Global.GameManager.SceneAdditive*
+  commentId: Overload:Global.GameManager.SceneAdditive
+  name: SceneAdditive
+  nameWithType: GameManager.SceneAdditive
+  fullName: GameManager.SceneAdditive
+- uid: GameManager.atlasUnit
+  commentId: F:GameManager.atlasUnit
+  isExternal: true
+- uid: Global.GameManager.GetSpriteUnit*
+  commentId: Overload:Global.GameManager.GetSpriteUnit
+  name: GetSpriteUnit
+  nameWithType: GameManager.GetSpriteUnit
+  fullName: GameManager.GetSpriteUnit
+- uid: Global.JSONReader.UnitJSON
+  commentId: T:Global.JSONReader.UnitJSON
+  name: JSONReader.UnitJSON
+  nameWithType: JSONReader.UnitJSON
+  fullName: JSONReader.UnitJSON
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitJSON
+    name: UnitJSON
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitJSON
+    name: UnitJSON
+- uid: GameManager.atlasAbility
+  commentId: F:GameManager.atlasAbility
+  isExternal: true
+- uid: Global.GameManager.GetSpriteAbility*
+  commentId: Overload:Global.GameManager.GetSpriteAbility
+  name: GetSpriteAbility
+  nameWithType: GameManager.GetSpriteAbility
+  fullName: GameManager.GetSpriteAbility
+- uid: Global.GameManager.OutlineObject*
+  commentId: Overload:Global.GameManager.OutlineObject
+  name: OutlineObject
+  nameWithType: GameManager.OutlineObject
+  fullName: GameManager.OutlineObject

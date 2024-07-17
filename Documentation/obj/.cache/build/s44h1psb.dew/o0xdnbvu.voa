@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Namespace 
+ | GPT JRPG documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Namespace 
+ | GPT JRPG documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global">
+
+  <h1 id="Global" data-uid="Global" class="text-break">Namespace 
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+</h3>
+      <h4><a class="xref" href="Global.AbilityIndication.html">AbilityIndication</a></h4>
+      <section><p sourcefile="api/Global.AbilityIndication.yml" sourcestartlinenumber="2">Script that controls object used to indicate who was affected by the <span class="xref">Unit</span> Ability.</p>
+</section>
+      <h4><a class="xref" href="Global.AudioManager.html">AudioManager</a></h4>
+      <section><p sourcefile="api/Global.AudioManager.yml" sourcestartlinenumber="2">Script containing all sounds used in the game.</p>
+</section>
+      <h4><a class="xref" href="Global.BattleJournal.html">BattleJournal</a></h4>
+      <section><p sourcefile="api/Global.BattleJournal.yml" sourcestartlinenumber="2">Battle Journal logic and controls.</p>
+</section>
+      <h4><a class="xref" href="Global.BattleSystem.html">BattleSystem</a></h4>
+      <section><p sourcefile="api/Global.BattleSystem.yml" sourcestartlinenumber="2">Script that manages the Battle. Contains data about the Units participating in a Battle and references to UI elements.</p>
+</section>
+      <h4><a class="xref" href="Global.ChatController.html">ChatController</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.DialogueButton.html">DialogueButton</a></h4>
+      <section><p sourcefile="api/Global.DialogueButton.yml" sourcestartlinenumber="2">Script for the Button UI representing <span class="xref">JSONReader.PlayerCharacterAnswer.playerCharacterAnswers</span>.</p>
+</section>
+      <h4><a class="xref" href="Global.DialogueHUD.html">DialogueHUD</a></h4>
+      <section><p sourcefile="api/Global.DialogueHUD.yml" sourcestartlinenumber="2">Script that controls the Dialogue Window UI element.</p>
+</section>
+      <h4><a class="xref" href="Global.DontDestroy.html">DontDestroy</a></h4>
+      <section><p sourcefile="api/Global.DontDestroy.yml" sourcestartlinenumber="2">Script for objects that should not be destroyed when the scene is switched.</p>
+</section>
+      <h4><a class="xref" href="Global.DoorScript.html">DoorScript</a></h4>
+      <section><p sourcefile="api/Global.DoorScript.yml" sourcestartlinenumber="2">Script attached to a door object. Called when the door should be opened.</p>
+</section>
+      <h4><a class="xref" href="Global.DropdownAttribute.html">DropdownAttribute</a></h4>
+      <section><p sourcefile="api/Global.DropdownAttribute.yml" sourcestartlinenumber="2">[Dropdown(path, displayProperty)]</p>
+<ul sourcefile="api/Global.DropdownAttribute.yml" sourcestartlinenumber="4">
+<li sourcefile="api/Global.DropdownAttribute.yml" sourcestartlinenumber="4">path:            the path of the List</li>
+<li sourcefile="api/Global.DropdownAttribute.yml" sourcestartlinenumber="5">displayProperty: the property you want to display in the dropdown selection</li>
+</ul>
+</section>
+      <h4><a class="xref" href="Global.DropdownSample.html">DropdownSample</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.EndLevelOnEnter.html">EndLevelOnEnter</a></h4>
+      <section><p sourcefile="api/Global.EndLevelOnEnter.yml" sourcestartlinenumber="2">Changes the scene when the player interact with the trigger.</p>
+</section>
+      <h4><a class="xref" href="Global.EnvMapAnimator.html">EnvMapAnimator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FloatingText.html">FloatingText</a></h4>
+      <section><p sourcefile="api/Global.FloatingText.yml" sourcestartlinenumber="2">Script that controls the text that floats above the object.</p>
+</section>
+      <h4><a class="xref" href="Global.GameData.html">GameData</a></h4>
+      <section><p sourcefile="api/Global.GameData.yml" sourcestartlinenumber="2">Script for the object that contains units data for the current Battle.</p>
+</section>
+      <h4><a class="xref" href="Global.GameEvents.html">GameEvents</a></h4>
+      <section><p sourcefile="api/Global.GameEvents.yml" sourcestartlinenumber="2">Class containing all events in the game.</p>
+</section>
+      <h4><a class="xref" href="Global.GameManager.html">GameManager</a></h4>
+      <section><p sourcefile="api/Global.GameManager.yml" sourcestartlinenumber="2">Main game Script containing data that contains fields and method used accessed from multiple other scripts.</p>
+</section>
+      <h4><a class="xref" href="Global.GameMessageController.html">GameMessageController</a></h4>
+      <section><p sourcefile="api/Global.GameMessageController.yml" sourcestartlinenumber="2">Script that controls the GameMessageMenu UI element. Used when the game starts and after the game is finished.</p>
+</section>
+      <h4><a class="xref" href="Global.GridObject.html">GridObject</a></h4>
+      <section><p sourcefile="api/Global.GridObject.yml" sourcestartlinenumber="2">Script for the Grid Tile.</p>
+</section>
+      <h4><a class="xref" href="Global.GridSystem.html">GridSystem</a></h4>
+      <section><p sourcefile="api/Global.GridSystem.yml" sourcestartlinenumber="2">Script that holds and assign objects to an existing grid.</p>
+</section>
+      <h4><a class="xref" href="Global.GroupInfoHUD.html">GroupInfoHUD</a></h4>
+      <section><p sourcefile="api/Global.GroupInfoHUD.yml" sourcestartlinenumber="2">Script that controls the Group Info Window UI element.</p>
+</section>
+      <h4><a class="xref" href="Global.HealthBarUnit.html">HealthBarUnit</a></h4>
+      <section><p sourcefile="api/Global.HealthBarUnit.yml" sourcestartlinenumber="2">Health Bar that can be attached to a unit.</p>
+</section>
+      <h4><a class="xref" href="Global.Hero.html">Hero</a></h4>
+      <section><p sourcefile="api/Global.Hero.yml" sourcestartlinenumber="2">Script that manages Protagonist Hero Object controls and logic.</p>
+</section>
+      <h4><a class="xref" href="Global.InfoHUD.html">InfoHUD</a></h4>
+      <section><p sourcefile="api/Global.InfoHUD.yml" sourcestartlinenumber="2">Script that controls Information UI element used for different objects.</p>
+</section>
+      <h4><a class="xref" href="Global.ItemDrag.html">ItemDrag</a></h4>
+      <section><p sourcefile="api/Global.ItemDrag.yml" sourcestartlinenumber="2">Script that makes the GameObject it assigned draggable.</p>
+</section>
+      <h4><a class="xref" href="Global.JSONReader.html">JSONReader</a></h4>
+      <section><p sourcefile="api/Global.JSONReader.yml" sourcestartlinenumber="2">Class that parses the JSON representation of the Game World.</p>
+</section>
+      <h4><a class="xref" href="Global.JSONReader.CurrentWorld.html">JSONReader.CurrentWorld</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.DialogueInfo.html">JSONReader.DialogueInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.DialogueTree.html">JSONReader.DialogueTree</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.EnemySpeakerInfo.html">JSONReader.EnemySpeakerInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.GameWorld.html">JSONReader.GameWorld</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.Level.html">JSONReader.Level</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.Levels.html">JSONReader.Levels</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.LevelUnits.html">JSONReader.LevelUnits</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.MainCharacter.html">JSONReader.MainCharacter</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.Metrics.html">JSONReader.Metrics</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.NarrativeData.html">JSONReader.NarrativeData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.PlayerCharacterAnswer.html">JSONReader.PlayerCharacterAnswer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.PowerLevelAttribute.html">JSONReader.PowerLevelAttribute</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.QuestJSON.html">JSONReader.QuestJSON</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.QuestLevel.html">JSONReader.QuestLevel</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.QuestLevels.html">JSONReader.QuestLevels</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.UnitGroup.html">JSONReader.UnitGroup</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.UnitJSON.html">JSONReader.UnitJSON</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.UnitsData.html">JSONReader.UnitsData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.UnitsStats.html">JSONReader.UnitsStats</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONReader.UnitTypeCoefficient.html">JSONReader.UnitTypeCoefficient</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.KnowledgeBase.html">KnowledgeBase</a></h4>
+      <section><p sourcefile="api/Global.KnowledgeBase.yml" sourcestartlinenumber="2">Script that controls the Knowledge Base UI object containing various information about the game.</p>
+</section>
+      <h4><a class="xref" href="Global.LevelGenerator.html">LevelGenerator</a></h4>
+      <section><p sourcefile="api/Global.LevelGenerator.yml" sourcestartlinenumber="2">Script that Generates <span class="xref">WorldEnemy</span> for the current Level.</p>
+</section>
+      <h4><a class="xref" href="Global.MainMenu.html">MainMenu</a></h4>
+      <section><p sourcefile="api/Global.MainMenu.yml" sourcestartlinenumber="2">Main menu logic and controls.</p>
+</section>
+      <h4><a class="xref" href="Global.ObjectForInfoHUD.html">ObjectForInfoHUD</a></h4>
+      <section><p sourcefile="api/Global.ObjectForInfoHUD.yml" sourcestartlinenumber="2">Script that contains the information about the Game Object it attached, to be shown by <span class="xref">InfoHUD</span>.</p>
+</section>
+      <h4><a class="xref" href="Global.OutcomeButtons.html">OutcomeButtons</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PalettesData.html">PalettesData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PaletteSelection.html">PaletteSelection</a></h4>
+      <section><p sourcefile="api/Global.PaletteSelection.yml" sourcestartlinenumber="2">Script that swaps the tiles sprites according to a chosen Tile Palette.</p>
+</section>
+      <h4><a class="xref" href="Global.Pause.html">Pause</a></h4>
+      <section><p sourcefile="api/Global.Pause.yml" sourcestartlinenumber="2">Script that contains the information about the Game Object it attached, to be shown by <span class="xref">InfoHUD</span>.</p>
+</section>
+      <h4><a class="xref" href="Global.PlayerInput.html">PlayerInput</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PointGizmo.html">PointGizmo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ProceduralFloor.html">ProceduralFloor</a></h4>
+      <section><p sourcefile="api/Global.ProceduralFloor.yml" sourcestartlinenumber="2">Script randomly changing map tiles to one of the given tiles.</p>
+</section>
+      <h4><a class="xref" href="Global.QuestButton.html">QuestButton</a></h4>
+      <section><p sourcefile="api/Global.QuestButton.yml" sourcestartlinenumber="2">Script for the UI element representing the Quest Button. Exists inside the <span class="xref">QuestMenu</span> UI.</p>
+</section>
+      <h4><a class="xref" href="Global.QuestMenu.html">QuestMenu</a></h4>
+      <section><p sourcefile="api/Global.QuestMenu.yml" sourcestartlinenumber="2">Script that controls the Quest Menu Window UI element.</p>
+</section>
+      <h4><a class="xref" href="Global.RecruitSystem.html">RecruitSystem</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ReflectionExtensions.html">ReflectionExtensions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ReflectionItem.html">ReflectionItem</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ReflectionSystem.html">ReflectionSystem</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SceneController.html">SceneController</a></h4>
+      <section><p sourcefile="api/Global.SceneController.yml" sourcestartlinenumber="2">Script for manipulating scenes, smooth scenes changing.</p>
+</section>
+      <h4><a class="xref" href="Global.ScriptRunner.html">ScriptRunner</a></h4>
+      <section><p sourcefile="api/Global.ScriptRunner.yml" sourcestartlinenumber="2">Script that creates a new Game World.</p>
+</section>
+      <h4><a class="xref" href="Global.Sound.html">Sound</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SwappingInterface.html">SwappingInterface</a></h4>
+      <section><p sourcefile="api/Global.SwappingInterface.yml" sourcestartlinenumber="2">Class that is used for inheritance. Provide an interface for dragging and dropping <span class="xref">ItemDrag</span>.</p>
+</section>
+      <h4><a class="xref" href="Global.Unit.html">Unit</a></h4>
+      <section><p sourcefile="api/Global.Unit.yml" sourcestartlinenumber="2">Script that controls and contains the data for an object in a Battle, representing a <span class="xref">JSONReader.UnitJSON</span>.</p>
+</section>
+      <h4><a class="xref" href="Global.UnitClass.html">UnitClass</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UnitGroupInfo.html">UnitGroupInfo</a></h4>
+      <section><p sourcefile="api/Global.UnitGroupInfo.yml" sourcestartlinenumber="2">Auxiliary script for <span class="xref">KnowledgeBase</span> UI elements. Used in bestiary to show
+the <span class="xref">JSONReader.UnitJSON</span> inside <span class="xref">JSONReader.UnitGroup</span> which are inside <span class="xref">JSONReader.LevelUnits</span>.</p>
+</section>
+      <h4><a class="xref" href="Global.UnitHUD.html">UnitHUD</a></h4>
+      <section><p sourcefile="api/Global.UnitHUD.yml" sourcestartlinenumber="2">Script that controls Unit UI element.</p>
+</section>
+      <h4><a class="xref" href="Global.WorldButton.html">WorldButton</a></h4>
+      <section><p sourcefile="api/Global.WorldButton.yml" sourcestartlinenumber="2">Script for the UI element representing the Game World Button.</p>
+</section>
+      <h4><a class="xref" href="Global.WorldEnemy.html">WorldEnemy</a></h4>
+      <section><p sourcefile="api/Global.WorldEnemy.yml" sourcestartlinenumber="2">Script for the object representing <span class="xref">JSONReader.UnitGroup</span> on the <span class="xref">JSONReader.LevelUnits</span>.</p>
+</section>
+      <h4><a class="xref" href="Global.WorldManager.html">WorldManager</a></h4>
+      <section><p sourcefile="api/Global.WorldManager.yml" sourcestartlinenumber="2">Class that is responsible for storing and managing Game Worlds.</p>
+</section>
+    <h3 id="structs">Structs
+</h3>
+      <h4><a class="xref" href="Global.PlayerInput.PlayerActions.html">PlayerInput.PlayerActions</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+</h3>
+      <h4><a class="xref" href="Global.PlayerInput.IPlayerActions.html">PlayerInput.IPlayerActions</a></h4>
+      <section></section>
+    <h3 id="enums">Enums
+</h3>
+      <h4><a class="xref" href="Global.BattleSystem.BattleState.html">BattleSystem.BattleState</a></h4>
+      <section><p sourcefile="api/Global.BattleSystem.BattleState.yml" sourcestartlinenumber="2">State of the current Battle.</p>
+</section>
+      <h4><a class="xref" href="Global.DialogueHUD.Outcome.html">DialogueHUD.Outcome</a></h4>
+      <section><p sourcefile="api/Global.DialogueHUD.Outcome.yml" sourcestartlinenumber="2">Enum, which members represent what is the outcome of the dialogue.</p>
+</section>
+      <h4><a class="xref" href="Global.KnowledgeBase.KBState.html">KnowledgeBase.KBState</a></h4>
+      <section><p sourcefile="api/Global.KnowledgeBase.KBState.yml" sourcestartlinenumber="2">State of the Knowledge Base Menu.</p>
+</section>
+      <h4><a class="xref" href="Global.Pause.UIState.html">Pause.UIState</a></h4>
+      <section><p sourcefile="api/Global.Pause.UIState.yml" sourcestartlinenumber="2">State of the Pause Menu.</p>
+</section>
+      <h4><a class="xref" href="Global.ReflectionItemType.html">ReflectionItemType</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Unit.UnitType.html">Unit.UnitType</a></h4>
+      <section><p sourcefile="api/Global.Unit.UnitType.yml" sourcestartlinenumber="2">Unit classes.</p>
+</section>
+    <h3 id="delegates">Delegates
+</h3>
+      <h4><a class="xref" href="Global.GetItemNameCallback.html">GetItemNameCallback</a></h4>
+      <section></section>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      GPTJRPG documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

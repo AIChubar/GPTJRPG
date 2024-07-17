@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ScriptRunner
+  commentId: T:Global.ScriptRunner
+  id: ScriptRunner
+  parent: Global
+  children:
+  - Global.ScriptRunner.creating
+  - Global.ScriptRunner.GenerateNewWorld
+  langs:
+  - csharp
+  - vb
+  name: ScriptRunner
+  nameWithType: ScriptRunner
+  fullName: ScriptRunner
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/MainMenuScripts/ScriptRunner.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ScriptRunner
+    path: ../Assets/Scripts/MainMenuScripts/ScriptRunner.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that creates a new Game World.\n"
+  example: []
+  syntax:
+    content: 'public class ScriptRunner : MonoBehaviour'
+    content.vb: Public Class ScriptRunner Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.ScriptRunner.creating
+  commentId: F:Global.ScriptRunner.creating
+  id: creating
+  parent: Global.ScriptRunner
+  langs:
+  - csharp
+  - vb
+  name: creating
+  nameWithType: ScriptRunner.creating
+  fullName: ScriptRunner.creating
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/MainMenuScripts/ScriptRunner.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: creating
+    path: ../Assets/Scripts/MainMenuScripts/ScriptRunner.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject creating
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public creating As GameObject
+- uid: Global.ScriptRunner.GenerateNewWorld
+  commentId: M:Global.ScriptRunner.GenerateNewWorld
+  id: GenerateNewWorld
+  parent: Global.ScriptRunner
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewWorld()
+  nameWithType: ScriptRunner.GenerateNewWorld()
+  fullName: ScriptRunner.GenerateNewWorld()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/MainMenuScripts/ScriptRunner.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GenerateNewWorld
+    path: ../Assets/Scripts/MainMenuScripts/ScriptRunner.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nThis method calls a coroutine that runs a Shell Script. Which runs several Python Scripts to create the Game World.\n"
+  example: []
+  syntax:
+    content: public void GenerateNewWorld()
+    content.vb: Public Sub GenerateNewWorld()
+  overload: Global.ScriptRunner.GenerateNewWorld*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Global.ScriptRunner.GenerateNewWorld*
+  commentId: Overload:Global.ScriptRunner.GenerateNewWorld
+  name: GenerateNewWorld
+  nameWithType: ScriptRunner.GenerateNewWorld
+  fullName: ScriptRunner.GenerateNewWorld

@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DoorScript
+  commentId: T:Global.DoorScript
+  id: DoorScript
+  parent: Global
+  children:
+  - Global.DoorScript.OpenDoor
+  langs:
+  - csharp
+  - vb
+  name: DoorScript
+  nameWithType: DoorScript
+  fullName: DoorScript
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/DoorScript.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: DoorScript
+    path: ../Assets/Scripts/LevelScripts/DoorScript.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript attached to a door object. Called when the door should be opened.\n"
+  example: []
+  syntax:
+    content: 'public class DoorScript : MonoBehaviour'
+    content.vb: Public Class DoorScript Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.DoorScript.OpenDoor
+  commentId: M:Global.DoorScript.OpenDoor
+  id: OpenDoor
+  parent: Global.DoorScript
+  langs:
+  - csharp
+  - vb
+  name: OpenDoor()
+  nameWithType: DoorScript.OpenDoor()
+  fullName: DoorScript.OpenDoor()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/DoorScript.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OpenDoor
+    path: ../Assets/Scripts/LevelScripts/DoorScript.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nOpens the door, making it available to interact with. Called when the corresponding quest is completed.\n"
+  example: []
+  syntax:
+    content: public void OpenDoor()
+    content.vb: Public Sub OpenDoor()
+  overload: Global.DoorScript.OpenDoor*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.DoorScript.OpenDoor*
+  commentId: Overload:Global.DoorScript.OpenDoor
+  name: OpenDoor
+  nameWithType: DoorScript.OpenDoor
+  fullName: DoorScript.OpenDoor

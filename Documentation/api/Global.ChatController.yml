@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ChatController
+  commentId: T:Global.ChatController
+  id: ChatController
+  parent: Global
+  children:
+  - Global.ChatController.ChatDisplayOutput
+  - Global.ChatController.ChatInputField
+  - Global.ChatController.ChatScrollbar
+  langs:
+  - csharp
+  - vb
+  name: ChatController
+  nameWithType: ChatController
+  fullName: ChatController
+  type: Class
+  source:
+    remote:
+      path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ChatController
+    path: ../Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class ChatController : MonoBehaviour'
+    content.vb: Public Class ChatController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.ChatController.ChatInputField
+  commentId: F:Global.ChatController.ChatInputField
+  id: ChatInputField
+  parent: Global.ChatController
+  langs:
+  - csharp
+  - vb
+  name: ChatInputField
+  nameWithType: ChatController.ChatInputField
+  fullName: ChatController.ChatInputField
+  type: Field
+  source:
+    remote:
+      path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ChatInputField
+    path: ../Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_InputField ChatInputField
+    return:
+      type: TMPro.TMP_InputField
+    content.vb: Public ChatInputField As TMP_InputField
+- uid: Global.ChatController.ChatDisplayOutput
+  commentId: F:Global.ChatController.ChatDisplayOutput
+  id: ChatDisplayOutput
+  parent: Global.ChatController
+  langs:
+  - csharp
+  - vb
+  name: ChatDisplayOutput
+  nameWithType: ChatController.ChatDisplayOutput
+  fullName: ChatController.ChatDisplayOutput
+  type: Field
+  source:
+    remote:
+      path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ChatDisplayOutput
+    path: ../Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_Text ChatDisplayOutput
+    return:
+      type: TMPro.TMP_Text
+    content.vb: Public ChatDisplayOutput As TMP_Text
+- uid: Global.ChatController.ChatScrollbar
+  commentId: F:Global.ChatController.ChatScrollbar
+  id: ChatScrollbar
+  parent: Global.ChatController
+  langs:
+  - csharp
+  - vb
+  name: ChatScrollbar
+  nameWithType: ChatController.ChatScrollbar
+  fullName: ChatController.ChatScrollbar
+  type: Field
+  source:
+    remote:
+      path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ChatScrollbar
+    path: ../Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Scrollbar ChatScrollbar
+    return:
+      type: UnityEngine.UI.Scrollbar
+    content.vb: Public ChatScrollbar As Scrollbar
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: TMPro.TMP_InputField
+  commentId: T:TMPro.TMP_InputField
+  parent: TMPro
+  isExternal: true
+  name: TMP_InputField
+  nameWithType: TMP_InputField
+  fullName: TMPro.TMP_InputField
+- uid: TMPro
+  commentId: N:TMPro
+  isExternal: true
+  name: TMPro
+  nameWithType: TMPro
+  fullName: TMPro
+- uid: TMPro.TMP_Text
+  commentId: T:TMPro.TMP_Text
+  parent: TMPro
+  isExternal: true
+  name: TMP_Text
+  nameWithType: TMP_Text
+  fullName: TMPro.TMP_Text
+- uid: UnityEngine.UI.Scrollbar
+  commentId: T:UnityEngine.UI.Scrollbar
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Scrollbar
+  nameWithType: Scrollbar
+  fullName: UnityEngine.UI.Scrollbar
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true

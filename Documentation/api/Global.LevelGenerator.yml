@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LevelGenerator
+  commentId: T:Global.LevelGenerator
+  id: LevelGenerator
+  parent: Global
+  children:
+  - Global.LevelGenerator.enemyPrefab
+  langs:
+  - csharp
+  - vb
+  name: LevelGenerator
+  nameWithType: LevelGenerator
+  fullName: LevelGenerator
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/LevelGenerator.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: LevelGenerator
+    path: ../Assets/Scripts/LevelScripts/LevelGenerator.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that Generates <xref href=\"WorldEnemy\" data-throw-if-not-resolved=\"false\"></xref> for the current Level.\n"
+  example: []
+  syntax:
+    content: 'public class LevelGenerator : MonoBehaviour'
+    content.vb: Public Class LevelGenerator Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.LevelGenerator.enemyPrefab
+  commentId: F:Global.LevelGenerator.enemyPrefab
+  id: enemyPrefab
+  parent: Global.LevelGenerator
+  langs:
+  - csharp
+  - vb
+  name: enemyPrefab
+  nameWithType: LevelGenerator.enemyPrefab
+  fullName: LevelGenerator.enemyPrefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/LevelGenerator.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: enemyPrefab
+    path: ../Assets/Scripts/LevelScripts/LevelGenerator.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPrefab for the <xref href=\"WorldEnemy\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Prefab for the WorldEnemy")]
+
+      public GameObject enemyPrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Prefab for the WorldEnemy")>
+
+      Public enemyPrefab As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+references:
+- uid: WorldEnemy
+  commentId: T:WorldEnemy
+  isExternal: true
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject

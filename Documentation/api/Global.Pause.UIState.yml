@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Pause.UIState
+  commentId: T:Global.Pause.UIState
+  id: Pause.UIState
+  parent: Global
+  children:
+  - Global.Pause.UIState.ESCPAUSE
+  - Global.Pause.UIState.GAMEMESSAGE
+  - Global.Pause.UIState.GROUPINFO
+  - Global.Pause.UIState.QUESTMENU
+  - Global.Pause.UIState.RECRUITSYSTEM
+  - Global.Pause.UIState.UNITINTERACTION
+  - Global.Pause.UIState.UNPAUSED
+  langs:
+  - csharp
+  - vb
+  name: Pause.UIState
+  nameWithType: Pause.UIState
+  fullName: Pause.UIState
+  type: Enum
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UIState
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nState of the Pause Menu.\n"
+  example: []
+  syntax:
+    content: public enum Pause.UIState
+    content.vb: Public Enum Pause.UIState
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.Pause.UIState.GAMEMESSAGE
+  commentId: F:Global.Pause.UIState.GAMEMESSAGE
+  id: GAMEMESSAGE
+  parent: Global.Pause.UIState
+  langs:
+  - csharp
+  - vb
+  name: GAMEMESSAGE
+  nameWithType: Pause.UIState.GAMEMESSAGE
+  fullName: Pause.UIState.GAMEMESSAGE
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GAMEMESSAGE
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: GAMEMESSAGE = 0
+    return:
+      type: Global.Pause.UIState
+- uid: Global.Pause.UIState.UNITINTERACTION
+  commentId: F:Global.Pause.UIState.UNITINTERACTION
+  id: UNITINTERACTION
+  parent: Global.Pause.UIState
+  langs:
+  - csharp
+  - vb
+  name: UNITINTERACTION
+  nameWithType: Pause.UIState.UNITINTERACTION
+  fullName: Pause.UIState.UNITINTERACTION
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UNITINTERACTION
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: UNITINTERACTION = 1
+    return:
+      type: Global.Pause.UIState
+- uid: Global.Pause.UIState.ESCPAUSE
+  commentId: F:Global.Pause.UIState.ESCPAUSE
+  id: ESCPAUSE
+  parent: Global.Pause.UIState
+  langs:
+  - csharp
+  - vb
+  name: ESCPAUSE
+  nameWithType: Pause.UIState.ESCPAUSE
+  fullName: Pause.UIState.ESCPAUSE
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ESCPAUSE
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: ESCPAUSE = 2
+    return:
+      type: Global.Pause.UIState
+- uid: Global.Pause.UIState.UNPAUSED
+  commentId: F:Global.Pause.UIState.UNPAUSED
+  id: UNPAUSED
+  parent: Global.Pause.UIState
+  langs:
+  - csharp
+  - vb
+  name: UNPAUSED
+  nameWithType: Pause.UIState.UNPAUSED
+  fullName: Pause.UIState.UNPAUSED
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UNPAUSED
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: UNPAUSED = 3
+    return:
+      type: Global.Pause.UIState
+- uid: Global.Pause.UIState.GROUPINFO
+  commentId: F:Global.Pause.UIState.GROUPINFO
+  id: GROUPINFO
+  parent: Global.Pause.UIState
+  langs:
+  - csharp
+  - vb
+  name: GROUPINFO
+  nameWithType: Pause.UIState.GROUPINFO
+  fullName: Pause.UIState.GROUPINFO
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GROUPINFO
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: GROUPINFO = 4
+    return:
+      type: Global.Pause.UIState
+- uid: Global.Pause.UIState.RECRUITSYSTEM
+  commentId: F:Global.Pause.UIState.RECRUITSYSTEM
+  id: RECRUITSYSTEM
+  parent: Global.Pause.UIState
+  langs:
+  - csharp
+  - vb
+  name: RECRUITSYSTEM
+  nameWithType: Pause.UIState.RECRUITSYSTEM
+  fullName: Pause.UIState.RECRUITSYSTEM
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: RECRUITSYSTEM
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: RECRUITSYSTEM = 5
+    return:
+      type: Global.Pause.UIState
+- uid: Global.Pause.UIState.QUESTMENU
+  commentId: F:Global.Pause.UIState.QUESTMENU
+  id: QUESTMENU
+  parent: Global.Pause.UIState
+  langs:
+  - csharp
+  - vb
+  name: QUESTMENU
+  nameWithType: Pause.UIState.QUESTMENU
+  fullName: Pause.UIState.QUESTMENU
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/Pause.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: QUESTMENU
+    path: ../Assets/Scripts/UI/Pause.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: QUESTMENU = 6
+    return:
+      type: Global.Pause.UIState
+references:
+- uid: Global
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.Pause.UIState
+  commentId: T:Global.Pause.UIState
+  name: Pause.UIState
+  nameWithType: Pause.UIState
+  fullName: Pause.UIState
+  spec.csharp:
+  - uid: Global.Pause
+    name: Pause
+  - name: .
+  - uid: Global.Pause.UIState
+    name: UIState
+  spec.vb:
+  - uid: Global.Pause
+    name: Pause
+  - name: .
+  - uid: Global.Pause.UIState
+    name: UIState

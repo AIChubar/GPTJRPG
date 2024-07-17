@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JSONReader.GameWorld
+  commentId: T:Global.JSONReader.GameWorld
+  id: JSONReader.GameWorld
+  parent: Global
+  children:
+  - Global.JSONReader.GameWorld.dialogues
+  - Global.JSONReader.GameWorld.levels
+  - Global.JSONReader.GameWorld.mainCharacter
+  - Global.JSONReader.GameWorld.narrativeData
+  - Global.JSONReader.GameWorld.questData
+  - Global.JSONReader.GameWorld.unitsData
+  langs:
+  - csharp
+  - vb
+  name: JSONReader.GameWorld
+  nameWithType: JSONReader.GameWorld
+  fullName: JSONReader.GameWorld
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GameWorld
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class JSONReader.GameWorld
+    content.vb: >-
+      <Serializable>
+
+      Public Class JSONReader.GameWorld
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.JSONReader.GameWorld.narrativeData
+  commentId: F:Global.JSONReader.GameWorld.narrativeData
+  id: narrativeData
+  parent: Global.JSONReader.GameWorld
+  langs:
+  - csharp
+  - vb
+  name: narrativeData
+  nameWithType: JSONReader.GameWorld.narrativeData
+  fullName: JSONReader.GameWorld.narrativeData
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: narrativeData
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.NarrativeData narrativeData
+    return:
+      type: Global.JSONReader.NarrativeData
+    content.vb: Public narrativeData As JSONReader.NarrativeData
+- uid: Global.JSONReader.GameWorld.mainCharacter
+  commentId: F:Global.JSONReader.GameWorld.mainCharacter
+  id: mainCharacter
+  parent: Global.JSONReader.GameWorld
+  langs:
+  - csharp
+  - vb
+  name: mainCharacter
+  nameWithType: JSONReader.GameWorld.mainCharacter
+  fullName: JSONReader.GameWorld.mainCharacter
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: mainCharacter
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.MainCharacter mainCharacter
+    return:
+      type: Global.JSONReader.MainCharacter
+    content.vb: Public mainCharacter As JSONReader.MainCharacter
+- uid: Global.JSONReader.GameWorld.levels
+  commentId: F:Global.JSONReader.GameWorld.levels
+  id: levels
+  parent: Global.JSONReader.GameWorld
+  langs:
+  - csharp
+  - vb
+  name: levels
+  nameWithType: JSONReader.GameWorld.levels
+  fullName: JSONReader.GameWorld.levels
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: levels
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.Level[] levels
+    return:
+      type: Global.JSONReader.Level[]
+    content.vb: Public levels As JSONReader.Level()
+- uid: Global.JSONReader.GameWorld.unitsData
+  commentId: F:Global.JSONReader.GameWorld.unitsData
+  id: unitsData
+  parent: Global.JSONReader.GameWorld
+  langs:
+  - csharp
+  - vb
+  name: unitsData
+  nameWithType: JSONReader.GameWorld.unitsData
+  fullName: JSONReader.GameWorld.unitsData
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: unitsData
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.UnitsData unitsData
+    return:
+      type: Global.JSONReader.UnitsData
+    content.vb: Public unitsData As JSONReader.UnitsData
+- uid: Global.JSONReader.GameWorld.questData
+  commentId: F:Global.JSONReader.GameWorld.questData
+  id: questData
+  parent: Global.JSONReader.GameWorld
+  langs:
+  - csharp
+  - vb
+  name: questData
+  nameWithType: JSONReader.GameWorld.questData
+  fullName: JSONReader.GameWorld.questData
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: questData
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public JSONReader.QuestLevel[] questData
+    return:
+      type: Global.JSONReader.QuestLevel[]
+    content.vb: Public questData As JSONReader.QuestLevel()
+- uid: Global.JSONReader.GameWorld.dialogues
+  commentId: F:Global.JSONReader.GameWorld.dialogues
+  id: dialogues
+  parent: Global.JSONReader.GameWorld
+  langs:
+  - csharp
+  - vb
+  name: dialogues
+  nameWithType: JSONReader.GameWorld.dialogues
+  fullName: JSONReader.GameWorld.dialogues
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: dialogues
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [SerializeReference]
+
+      public Dictionary<string, JSONReader.DialogueInfo> dialogues
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,JSONReader.DialogueInfo}
+    content.vb: >-
+      <SerializeReference>
+
+      Public dialogues As Dictionary(Of String, JSONReader.DialogueInfo)
+  attributes:
+  - type: UnityEngine.SerializeReference
+    ctor: UnityEngine.SerializeReference.#ctor
+    arguments: []
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.JSONReader.NarrativeData
+  commentId: T:Global.JSONReader.NarrativeData
+  name: JSONReader.NarrativeData
+  nameWithType: JSONReader.NarrativeData
+  fullName: JSONReader.NarrativeData
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.NarrativeData
+    name: NarrativeData
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.NarrativeData
+    name: NarrativeData
+- uid: Global.JSONReader.MainCharacter
+  commentId: T:Global.JSONReader.MainCharacter
+  name: JSONReader.MainCharacter
+  nameWithType: JSONReader.MainCharacter
+  fullName: JSONReader.MainCharacter
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.MainCharacter
+    name: MainCharacter
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.MainCharacter
+    name: MainCharacter
+- uid: Global.JSONReader.Level[]
+  isExternal: true
+  name: Level[]
+  nameWithType: JSONReader.Level[]
+  fullName: JSONReader.Level[]
+  nameWithType.vb: JSONReader.Level()
+  fullName.vb: JSONReader.Level()
+  name.vb: Level()
+  spec.csharp:
+  - uid: Global.JSONReader.Level
+    name: Level
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.JSONReader.Level
+    name: Level
+  - name: (
+  - name: )
+- uid: Global.JSONReader.UnitsData
+  commentId: T:Global.JSONReader.UnitsData
+  name: JSONReader.UnitsData
+  nameWithType: JSONReader.UnitsData
+  fullName: JSONReader.UnitsData
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitsData
+    name: UnitsData
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitsData
+    name: UnitsData
+- uid: Global.JSONReader.QuestLevel[]
+  isExternal: true
+  name: QuestLevel[]
+  nameWithType: JSONReader.QuestLevel[]
+  fullName: JSONReader.QuestLevel[]
+  nameWithType.vb: JSONReader.QuestLevel()
+  fullName.vb: JSONReader.QuestLevel()
+  name.vb: QuestLevel()
+  spec.csharp:
+  - uid: Global.JSONReader.QuestLevel
+    name: QuestLevel
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.JSONReader.QuestLevel
+    name: QuestLevel
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,JSONReader.DialogueInfo}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,JSONReader.DialogueInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<string, JSONReader.DialogueInfo>
+  nameWithType: Dictionary<string, JSONReader.DialogueInfo>
+  fullName: System.Collections.Generic.Dictionary<string, JSONReader.DialogueInfo>
+  nameWithType.vb: Dictionary(Of String, JSONReader.DialogueInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, JSONReader.DialogueInfo)
+  name.vb: Dictionary(Of String, JSONReader.DialogueInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueInfo
+    name: DialogueInfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.DialogueInfo
+    name: DialogueInfo
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

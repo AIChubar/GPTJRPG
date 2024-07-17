@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FloatingText
+  commentId: T:Global.FloatingText
+  id: FloatingText
+  parent: Global
+  children:
+  - Global.FloatingText.LaunchText(System.Int32)
+  - Global.FloatingText.lifeTime
+  - Global.FloatingText.textSpeed
+  langs:
+  - csharp
+  - vb
+  name: FloatingText
+  nameWithType: FloatingText
+  fullName: FloatingText
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/FloatingText.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: FloatingText
+    path: ../Assets/Scripts/BattleScripts/FloatingText.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that controls the text that floats above the object.\n"
+  example: []
+  syntax:
+    content: 'public class FloatingText : MonoBehaviour'
+    content.vb: Public Class FloatingText Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.FloatingText.textSpeed
+  commentId: F:Global.FloatingText.textSpeed
+  id: textSpeed
+  parent: Global.FloatingText
+  langs:
+  - csharp
+  - vb
+  name: textSpeed
+  nameWithType: FloatingText.textSpeed
+  fullName: FloatingText.textSpeed
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/FloatingText.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: textSpeed
+    path: ../Assets/Scripts/BattleScripts/FloatingText.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float textSpeed
+    return:
+      type: System.Single
+    content.vb: Public textSpeed As Single
+- uid: Global.FloatingText.lifeTime
+  commentId: F:Global.FloatingText.lifeTime
+  id: lifeTime
+  parent: Global.FloatingText
+  langs:
+  - csharp
+  - vb
+  name: lifeTime
+  nameWithType: FloatingText.lifeTime
+  fullName: FloatingText.lifeTime
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/FloatingText.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: lifeTime
+    path: ../Assets/Scripts/BattleScripts/FloatingText.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float lifeTime
+    return:
+      type: System.Single
+    content.vb: Public lifeTime As Single
+- uid: Global.FloatingText.LaunchText(System.Int32)
+  commentId: M:Global.FloatingText.LaunchText(System.Int32)
+  id: LaunchText(System.Int32)
+  parent: Global.FloatingText
+  langs:
+  - csharp
+  - vb
+  name: LaunchText(int)
+  nameWithType: FloatingText.LaunchText(int)
+  fullName: FloatingText.LaunchText(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/FloatingText.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: LaunchText
+    path: ../Assets/Scripts/BattleScripts/FloatingText.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nLaunches the Text object.\n"
+  example: []
+  syntax:
+    content: public void LaunchText(int hpDif)
+    parameters:
+    - id: hpDif
+      type: System.Int32
+      description: Number to be displayed/>.
+    content.vb: Public Sub LaunchText(hpDif As Integer)
+  overload: Global.FloatingText.LaunchText*
+  nameWithType.vb: FloatingText.LaunchText(Integer)
+  fullName.vb: FloatingText.LaunchText(Integer)
+  name.vb: LaunchText(Integer)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.FloatingText.LaunchText*
+  commentId: Overload:Global.FloatingText.LaunchText
+  name: LaunchText
+  nameWithType: FloatingText.LaunchText
+  fullName: FloatingText.LaunchText
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

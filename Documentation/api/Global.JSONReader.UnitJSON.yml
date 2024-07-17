@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JSONReader.UnitJSON
+  commentId: T:Global.JSONReader.UnitJSON
+  id: JSONReader.UnitJSON
+  parent: Global
+  children:
+  - Global.JSONReader.UnitJSON.armour
+  - Global.JSONReader.UnitJSON.artisticName
+  - Global.JSONReader.UnitJSON.characteristicName
+  - Global.JSONReader.UnitJSON.currentHP
+  - Global.JSONReader.UnitJSON.damage
+  - Global.JSONReader.UnitJSON.firstAttribute
+  - Global.JSONReader.UnitJSON.friendly
+  - Global.JSONReader.UnitJSON.maxHP
+  - Global.JSONReader.UnitJSON.powerLevel
+  - Global.JSONReader.UnitJSON.secondAttribute
+  - Global.JSONReader.UnitJSON.thirdAttribute
+  - Global.JSONReader.UnitJSON.unitClass
+  langs:
+  - csharp
+  - vb
+  name: JSONReader.UnitJSON
+  nameWithType: JSONReader.UnitJSON
+  fullName: JSONReader.UnitJSON
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: UnitJSON
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 107
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class JSONReader.UnitJSON
+    content.vb: >-
+      <Serializable>
+
+      Public Class JSONReader.UnitJSON
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.JSONReader.UnitJSON.firstAttribute
+  commentId: F:Global.JSONReader.UnitJSON.firstAttribute
+  id: firstAttribute
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: firstAttribute
+  nameWithType: JSONReader.UnitJSON.firstAttribute
+  fullName: JSONReader.UnitJSON.firstAttribute
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: firstAttribute
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 110
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string firstAttribute
+    return:
+      type: System.String
+    content.vb: Public firstAttribute As String
+- uid: Global.JSONReader.UnitJSON.secondAttribute
+  commentId: F:Global.JSONReader.UnitJSON.secondAttribute
+  id: secondAttribute
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: secondAttribute
+  nameWithType: JSONReader.UnitJSON.secondAttribute
+  fullName: JSONReader.UnitJSON.secondAttribute
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: secondAttribute
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 111
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string secondAttribute
+    return:
+      type: System.String
+    content.vb: Public secondAttribute As String
+- uid: Global.JSONReader.UnitJSON.thirdAttribute
+  commentId: F:Global.JSONReader.UnitJSON.thirdAttribute
+  id: thirdAttribute
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: thirdAttribute
+  nameWithType: JSONReader.UnitJSON.thirdAttribute
+  fullName: JSONReader.UnitJSON.thirdAttribute
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: thirdAttribute
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 112
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string thirdAttribute
+    return:
+      type: System.String
+    content.vb: Public thirdAttribute As String
+- uid: Global.JSONReader.UnitJSON.characteristicName
+  commentId: F:Global.JSONReader.UnitJSON.characteristicName
+  id: characteristicName
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: characteristicName
+  nameWithType: JSONReader.UnitJSON.characteristicName
+  fullName: JSONReader.UnitJSON.characteristicName
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: characteristicName
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 113
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string characteristicName
+    return:
+      type: System.String
+    content.vb: Public characteristicName As String
+- uid: Global.JSONReader.UnitJSON.artisticName
+  commentId: F:Global.JSONReader.UnitJSON.artisticName
+  id: artisticName
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: artisticName
+  nameWithType: JSONReader.UnitJSON.artisticName
+  fullName: JSONReader.UnitJSON.artisticName
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: artisticName
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 114
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string artisticName
+    return:
+      type: System.String
+    content.vb: Public artisticName As String
+- uid: Global.JSONReader.UnitJSON.powerLevel
+  commentId: F:Global.JSONReader.UnitJSON.powerLevel
+  id: powerLevel
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: powerLevel
+  nameWithType: JSONReader.UnitJSON.powerLevel
+  fullName: JSONReader.UnitJSON.powerLevel
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: powerLevel
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 115
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string powerLevel
+    return:
+      type: System.String
+    content.vb: Public powerLevel As String
+- uid: Global.JSONReader.UnitJSON.unitClass
+  commentId: F:Global.JSONReader.UnitJSON.unitClass
+  id: unitClass
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: unitClass
+  nameWithType: JSONReader.UnitJSON.unitClass
+  fullName: JSONReader.UnitJSON.unitClass
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: unitClass
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 116
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string unitClass
+    return:
+      type: System.String
+    content.vb: Public unitClass As String
+- uid: Global.JSONReader.UnitJSON.maxHP
+  commentId: F:Global.JSONReader.UnitJSON.maxHP
+  id: maxHP
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: maxHP
+  nameWithType: JSONReader.UnitJSON.maxHP
+  fullName: JSONReader.UnitJSON.maxHP
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: maxHP
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 118
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int maxHP
+    return:
+      type: System.Int32
+    content.vb: Public maxHP As Integer
+- uid: Global.JSONReader.UnitJSON.currentHP
+  commentId: F:Global.JSONReader.UnitJSON.currentHP
+  id: currentHP
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: currentHP
+  nameWithType: JSONReader.UnitJSON.currentHP
+  fullName: JSONReader.UnitJSON.currentHP
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: currentHP
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 119
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int currentHP
+    return:
+      type: System.Int32
+    content.vb: Public currentHP As Integer
+- uid: Global.JSONReader.UnitJSON.damage
+  commentId: F:Global.JSONReader.UnitJSON.damage
+  id: damage
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: damage
+  nameWithType: JSONReader.UnitJSON.damage
+  fullName: JSONReader.UnitJSON.damage
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: damage
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 120
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int damage
+    return:
+      type: System.Int32
+    content.vb: Public damage As Integer
+- uid: Global.JSONReader.UnitJSON.armour
+  commentId: F:Global.JSONReader.UnitJSON.armour
+  id: armour
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: armour
+  nameWithType: JSONReader.UnitJSON.armour
+  fullName: JSONReader.UnitJSON.armour
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: armour
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 121
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int armour
+    return:
+      type: System.Int32
+    content.vb: Public armour As Integer
+- uid: Global.JSONReader.UnitJSON.friendly
+  commentId: F:Global.JSONReader.UnitJSON.friendly
+  id: friendly
+  parent: Global.JSONReader.UnitJSON
+  langs:
+  - csharp
+  - vb
+  name: friendly
+  nameWithType: JSONReader.UnitJSON.friendly
+  fullName: JSONReader.UnitJSON.friendly
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/JSONReader.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: friendly
+    path: ../Assets/Scripts/LevelScripts/JSONReader.cs
+    startLine: 122
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public bool friendly
+    return:
+      type: System.Boolean
+    content.vb: Public friendly As Boolean
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

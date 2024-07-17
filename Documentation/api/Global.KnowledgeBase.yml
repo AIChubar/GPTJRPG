@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.KnowledgeBase
+  commentId: T:Global.KnowledgeBase
+  id: KnowledgeBase
+  parent: Global
+  children:
+  - Global.KnowledgeBase.ButtonClick
+  - Global.KnowledgeBase.OnClickedKnowledgeBase
+  - Global.KnowledgeBase.ShowClassesMenu
+  - Global.KnowledgeBase.ShowGameInfoMenu
+  - Global.KnowledgeBase.ShowHeroInfoMenu
+  - Global.KnowledgeBase.ShowKnowledgeBase
+  - Global.KnowledgeBase.ShowWorldMenu
+  langs:
+  - csharp
+  - vb
+  name: KnowledgeBase
+  nameWithType: KnowledgeBase
+  fullName: KnowledgeBase
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: KnowledgeBase
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript that controls the Knowledge Base UI object containing various information about the game.\n"
+  example: []
+  syntax:
+    content: 'public class KnowledgeBase : MonoBehaviour'
+    content.vb: Public Class KnowledgeBase Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.KnowledgeBase.ButtonClick
+  commentId: F:Global.KnowledgeBase.ButtonClick
+  id: ButtonClick
+  parent: Global.KnowledgeBase
+  langs:
+  - csharp
+  - vb
+  name: ButtonClick
+  nameWithType: KnowledgeBase.ButtonClick
+  fullName: KnowledgeBase.ButtonClick
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ButtonClick
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 53
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Dropdown("AudioManager.Instance.Sounds", "Name")]
+
+      public Sound ButtonClick
+    return:
+      type: Global.Sound
+    content.vb: >-
+      <Dropdown("AudioManager.Instance.Sounds", "Name")>
+
+      Public ButtonClick As Sound
+  attributes:
+  - type: Global.DropdownAttribute
+    ctor: Global.DropdownAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: {}
+    - type: System.String
+      value: {}
+- uid: Global.KnowledgeBase.ShowHeroInfoMenu
+  commentId: M:Global.KnowledgeBase.ShowHeroInfoMenu
+  id: ShowHeroInfoMenu
+  parent: Global.KnowledgeBase
+  langs:
+  - csharp
+  - vb
+  name: ShowHeroInfoMenu()
+  nameWithType: KnowledgeBase.ShowHeroInfoMenu()
+  fullName: KnowledgeBase.ShowHeroInfoMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowHeroInfoMenu
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 150
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Knowledge Base UI window. Shows the information about the Protagonist.\n"
+  example: []
+  syntax:
+    content: public void ShowHeroInfoMenu()
+    content.vb: Public Sub ShowHeroInfoMenu()
+  overload: Global.KnowledgeBase.ShowHeroInfoMenu*
+- uid: Global.KnowledgeBase.ShowWorldMenu
+  commentId: M:Global.KnowledgeBase.ShowWorldMenu
+  id: ShowWorldMenu
+  parent: Global.KnowledgeBase
+  langs:
+  - csharp
+  - vb
+  name: ShowWorldMenu()
+  nameWithType: KnowledgeBase.ShowWorldMenu()
+  fullName: KnowledgeBase.ShowWorldMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowWorldMenu
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 160
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Knowledge Base UI window. Shows the general information about the current Game World.\n"
+  example: []
+  syntax:
+    content: public void ShowWorldMenu()
+    content.vb: Public Sub ShowWorldMenu()
+  overload: Global.KnowledgeBase.ShowWorldMenu*
+- uid: Global.KnowledgeBase.ShowClassesMenu
+  commentId: M:Global.KnowledgeBase.ShowClassesMenu
+  id: ShowClassesMenu
+  parent: Global.KnowledgeBase
+  langs:
+  - csharp
+  - vb
+  name: ShowClassesMenu()
+  nameWithType: KnowledgeBase.ShowClassesMenu()
+  fullName: KnowledgeBase.ShowClassesMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowClassesMenu
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 170
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Knowledge Base UI window. Shows the information about the <xref href=\"Unit\" data-throw-if-not-resolved=\"false\"></xref> Classes and their abilities.\n"
+  example: []
+  syntax:
+    content: public void ShowClassesMenu()
+    content.vb: Public Sub ShowClassesMenu()
+  overload: Global.KnowledgeBase.ShowClassesMenu*
+- uid: Global.KnowledgeBase.ShowGameInfoMenu
+  commentId: M:Global.KnowledgeBase.ShowGameInfoMenu
+  id: ShowGameInfoMenu
+  parent: Global.KnowledgeBase
+  langs:
+  - csharp
+  - vb
+  name: ShowGameInfoMenu()
+  nameWithType: KnowledgeBase.ShowGameInfoMenu()
+  fullName: KnowledgeBase.ShowGameInfoMenu()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowGameInfoMenu
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 181
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by Button from main Knowledge Base UI window. Shows the Bestiary with the information about all the <xref href=\"JSONReader.UnitJSON\" data-throw-if-not-resolved=\"false\"></xref> in the Game.\n"
+  example: []
+  syntax:
+    content: public void ShowGameInfoMenu()
+    content.vb: Public Sub ShowGameInfoMenu()
+  overload: Global.KnowledgeBase.ShowGameInfoMenu*
+- uid: Global.KnowledgeBase.OnClickedKnowledgeBase
+  commentId: M:Global.KnowledgeBase.OnClickedKnowledgeBase
+  id: OnClickedKnowledgeBase
+  parent: Global.KnowledgeBase
+  langs:
+  - csharp
+  - vb
+  name: OnClickedKnowledgeBase()
+  nameWithType: KnowledgeBase.OnClickedKnowledgeBase()
+  fullName: KnowledgeBase.OnClickedKnowledgeBase()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnClickedKnowledgeBase
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 192
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled by the button that is always available on the screen. Calls <xref href=\"KnowledgeBase.ShowKnowledgeBase\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void OnClickedKnowledgeBase()
+    content.vb: Public Sub OnClickedKnowledgeBase()
+  overload: Global.KnowledgeBase.OnClickedKnowledgeBase*
+- uid: Global.KnowledgeBase.ShowKnowledgeBase
+  commentId: M:Global.KnowledgeBase.ShowKnowledgeBase
+  id: ShowKnowledgeBase
+  parent: Global.KnowledgeBase
+  langs:
+  - csharp
+  - vb
+  name: ShowKnowledgeBase()
+  nameWithType: KnowledgeBase.ShowKnowledgeBase()
+  fullName: KnowledgeBase.ShowKnowledgeBase()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UI/KnowledgeBase.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: ShowKnowledgeBase
+    path: ../Assets/Scripts/UI/KnowledgeBase.cs
+    startLine: 200
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nShows the main Knowledge Base UI window.\n"
+  example: []
+  syntax:
+    content: public void ShowKnowledgeBase()
+    content.vb: Public Sub ShowKnowledgeBase()
+  overload: Global.KnowledgeBase.ShowKnowledgeBase*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.Sound
+  commentId: T:Global.Sound
+  name: Sound
+  nameWithType: Sound
+  fullName: Sound
+- uid: Global.KnowledgeBase.ShowHeroInfoMenu*
+  commentId: Overload:Global.KnowledgeBase.ShowHeroInfoMenu
+  name: ShowHeroInfoMenu
+  nameWithType: KnowledgeBase.ShowHeroInfoMenu
+  fullName: KnowledgeBase.ShowHeroInfoMenu
+- uid: Global.KnowledgeBase.ShowWorldMenu*
+  commentId: Overload:Global.KnowledgeBase.ShowWorldMenu
+  name: ShowWorldMenu
+  nameWithType: KnowledgeBase.ShowWorldMenu
+  fullName: KnowledgeBase.ShowWorldMenu
+- uid: Unit
+  commentId: T:Unit
+  isExternal: true
+- uid: Global.KnowledgeBase.ShowClassesMenu*
+  commentId: Overload:Global.KnowledgeBase.ShowClassesMenu
+  name: ShowClassesMenu
+  nameWithType: KnowledgeBase.ShowClassesMenu
+  fullName: KnowledgeBase.ShowClassesMenu
+- uid: JSONReader.UnitJSON
+  commentId: T:JSONReader.UnitJSON
+  isExternal: true
+- uid: Global.KnowledgeBase.ShowGameInfoMenu*
+  commentId: Overload:Global.KnowledgeBase.ShowGameInfoMenu
+  name: ShowGameInfoMenu
+  nameWithType: KnowledgeBase.ShowGameInfoMenu
+  fullName: KnowledgeBase.ShowGameInfoMenu
+- uid: KnowledgeBase.ShowKnowledgeBase
+  commentId: M:KnowledgeBase.ShowKnowledgeBase
+  isExternal: true
+- uid: Global.KnowledgeBase.OnClickedKnowledgeBase*
+  commentId: Overload:Global.KnowledgeBase.OnClickedKnowledgeBase
+  name: OnClickedKnowledgeBase
+  nameWithType: KnowledgeBase.OnClickedKnowledgeBase
+  fullName: KnowledgeBase.OnClickedKnowledgeBase
+- uid: Global.KnowledgeBase.ShowKnowledgeBase*
+  commentId: Overload:Global.KnowledgeBase.ShowKnowledgeBase
+  name: ShowKnowledgeBase
+  nameWithType: KnowledgeBase.ShowKnowledgeBase
+  fullName: KnowledgeBase.ShowKnowledgeBase

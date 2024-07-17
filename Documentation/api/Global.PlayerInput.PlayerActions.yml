@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerInput.PlayerActions
+  commentId: T:Global.PlayerInput.PlayerActions
+  id: PlayerInput.PlayerActions
+  parent: Global
+  children:
+  - Global.PlayerInput.PlayerActions.#ctor(PlayerInput)
+  - Global.PlayerInput.PlayerActions.AddCallbacks(PlayerInput.IPlayerActions)
+  - Global.PlayerInput.PlayerActions.Disable
+  - Global.PlayerInput.PlayerActions.Enable
+  - Global.PlayerInput.PlayerActions.enabled
+  - Global.PlayerInput.PlayerActions.Get
+  - Global.PlayerInput.PlayerActions.KB
+  - Global.PlayerInput.PlayerActions.Move
+  - Global.PlayerInput.PlayerActions.op_Implicit(PlayerInput.PlayerActions)~UnityEngine.InputSystem.InputActionMap
+  - Global.PlayerInput.PlayerActions.Pause
+  - Global.PlayerInput.PlayerActions.RemoveCallbacks(PlayerInput.IPlayerActions)
+  - Global.PlayerInput.PlayerActions.SetCallbacks(PlayerInput.IPlayerActions)
+  langs:
+  - csharp
+  - vb
+  name: PlayerInput.PlayerActions
+  nameWithType: PlayerInput.PlayerActions
+  fullName: PlayerInput.PlayerActions
+  type: Struct
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: PlayerActions
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 220
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public struct PlayerInput.PlayerActions
+    content.vb: Public Structure PlayerInput.PlayerActions
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.PlayerInput.PlayerActions.#ctor(PlayerInput)
+  commentId: M:Global.PlayerInput.PlayerActions.#ctor(PlayerInput)
+  id: '#ctor(PlayerInput)'
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: PlayerActions(PlayerInput)
+  nameWithType: PlayerInput.PlayerActions.PlayerActions(PlayerInput)
+  fullName: PlayerInput.PlayerActions.PlayerActions(PlayerInput)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: .ctor
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 223
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public PlayerActions(PlayerInput wrapper)
+    parameters:
+    - id: wrapper
+      type: Global.PlayerInput
+    content.vb: Public Sub New(wrapper As PlayerInput)
+  overload: Global.PlayerInput.PlayerActions.#ctor*
+  nameWithType.vb: PlayerInput.PlayerActions.New(PlayerInput)
+  fullName.vb: PlayerInput.PlayerActions.New(PlayerInput)
+  name.vb: New(PlayerInput)
+- uid: Global.PlayerInput.PlayerActions.Move
+  commentId: P:Global.PlayerInput.PlayerActions.Move
+  id: Move
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: PlayerInput.PlayerActions.Move
+  fullName: PlayerInput.PlayerActions.Move
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Move
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 224
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public InputAction Move { get; }
+    parameters: []
+    return:
+      type: UnityEngine.InputSystem.InputAction
+    content.vb: Public ReadOnly Property Move As InputAction
+  overload: Global.PlayerInput.PlayerActions.Move*
+- uid: Global.PlayerInput.PlayerActions.Pause
+  commentId: P:Global.PlayerInput.PlayerActions.Pause
+  id: Pause
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Pause
+  nameWithType: PlayerInput.PlayerActions.Pause
+  fullName: PlayerInput.PlayerActions.Pause
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Pause
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 225
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public InputAction Pause { get; }
+    parameters: []
+    return:
+      type: UnityEngine.InputSystem.InputAction
+    content.vb: Public ReadOnly Property Pause As InputAction
+  overload: Global.PlayerInput.PlayerActions.Pause*
+- uid: Global.PlayerInput.PlayerActions.KB
+  commentId: P:Global.PlayerInput.PlayerActions.KB
+  id: KB
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: KB
+  nameWithType: PlayerInput.PlayerActions.KB
+  fullName: PlayerInput.PlayerActions.KB
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: KB
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 226
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public InputAction KB { get; }
+    parameters: []
+    return:
+      type: UnityEngine.InputSystem.InputAction
+    content.vb: Public ReadOnly Property KB As InputAction
+  overload: Global.PlayerInput.PlayerActions.KB*
+- uid: Global.PlayerInput.PlayerActions.Get
+  commentId: M:Global.PlayerInput.PlayerActions.Get
+  id: Get
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Get()
+  nameWithType: PlayerInput.PlayerActions.Get()
+  fullName: PlayerInput.PlayerActions.Get()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Get
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 227
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public InputActionMap Get()
+    return:
+      type: UnityEngine.InputSystem.InputActionMap
+    content.vb: Public Function [Get]() As InputActionMap
+  overload: Global.PlayerInput.PlayerActions.Get*
+- uid: Global.PlayerInput.PlayerActions.Enable
+  commentId: M:Global.PlayerInput.PlayerActions.Enable
+  id: Enable
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Enable()
+  nameWithType: PlayerInput.PlayerActions.Enable()
+  fullName: PlayerInput.PlayerActions.Enable()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Enable
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 228
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void Enable()
+    content.vb: Public Sub Enable()
+  overload: Global.PlayerInput.PlayerActions.Enable*
+- uid: Global.PlayerInput.PlayerActions.Disable
+  commentId: M:Global.PlayerInput.PlayerActions.Disable
+  id: Disable
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Disable()
+  nameWithType: PlayerInput.PlayerActions.Disable()
+  fullName: PlayerInput.PlayerActions.Disable()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: Disable
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 229
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void Disable()
+    content.vb: Public Sub Disable()
+  overload: Global.PlayerInput.PlayerActions.Disable*
+- uid: Global.PlayerInput.PlayerActions.enabled
+  commentId: P:Global.PlayerInput.PlayerActions.enabled
+  id: enabled
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: enabled
+  nameWithType: PlayerInput.PlayerActions.enabled
+  fullName: PlayerInput.PlayerActions.enabled
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: enabled
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 230
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public bool enabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property enabled As Boolean
+  overload: Global.PlayerInput.PlayerActions.enabled*
+- uid: Global.PlayerInput.PlayerActions.op_Implicit(PlayerInput.PlayerActions)~UnityEngine.InputSystem.InputActionMap
+  commentId: M:Global.PlayerInput.PlayerActions.op_Implicit(PlayerInput.PlayerActions)~UnityEngine.InputSystem.InputActionMap
+  id: op_Implicit(PlayerInput.PlayerActions)~UnityEngine.InputSystem.InputActionMap
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputActionMap(PlayerActions)
+  nameWithType: PlayerInput.PlayerActions.implicit operator InputActionMap(PlayerInput.PlayerActions)
+  fullName: PlayerInput.PlayerActions.implicit operator UnityEngine.InputSystem.InputActionMap(PlayerInput.PlayerActions)
+  type: Operator
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: op_Implicit
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 231
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static implicit operator InputActionMap(PlayerInput.PlayerActions set)
+    parameters:
+    - id: set
+      type: Global.PlayerInput.PlayerActions
+    return:
+      type: UnityEngine.InputSystem.InputActionMap
+    content.vb: Public Shared Widening Operator CType([set] As PlayerInput.PlayerActions) As InputActionMap
+  overload: Global.PlayerInput.PlayerActions.op_Implicit*
+  nameWithType.vb: PlayerInput.PlayerActions.CType(PlayerInput.PlayerActions)
+  fullName.vb: PlayerInput.PlayerActions.CType(PlayerInput.PlayerActions)
+  name.vb: CType(PlayerActions)
+- uid: Global.PlayerInput.PlayerActions.AddCallbacks(PlayerInput.IPlayerActions)
+  commentId: M:Global.PlayerInput.PlayerActions.AddCallbacks(PlayerInput.IPlayerActions)
+  id: AddCallbacks(PlayerInput.IPlayerActions)
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: AddCallbacks(IPlayerActions)
+  nameWithType: PlayerInput.PlayerActions.AddCallbacks(PlayerInput.IPlayerActions)
+  fullName: PlayerInput.PlayerActions.AddCallbacks(PlayerInput.IPlayerActions)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AddCallbacks
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 232
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void AddCallbacks(PlayerInput.IPlayerActions instance)
+    parameters:
+    - id: instance
+      type: Global.PlayerInput.IPlayerActions
+    content.vb: Public Sub AddCallbacks(instance As PlayerInput.IPlayerActions)
+  overload: Global.PlayerInput.PlayerActions.AddCallbacks*
+- uid: Global.PlayerInput.PlayerActions.RemoveCallbacks(PlayerInput.IPlayerActions)
+  commentId: M:Global.PlayerInput.PlayerActions.RemoveCallbacks(PlayerInput.IPlayerActions)
+  id: RemoveCallbacks(PlayerInput.IPlayerActions)
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: RemoveCallbacks(IPlayerActions)
+  nameWithType: PlayerInput.PlayerActions.RemoveCallbacks(PlayerInput.IPlayerActions)
+  fullName: PlayerInput.PlayerActions.RemoveCallbacks(PlayerInput.IPlayerActions)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: RemoveCallbacks
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 260
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void RemoveCallbacks(PlayerInput.IPlayerActions instance)
+    parameters:
+    - id: instance
+      type: Global.PlayerInput.IPlayerActions
+    content.vb: Public Sub RemoveCallbacks(instance As PlayerInput.IPlayerActions)
+  overload: Global.PlayerInput.PlayerActions.RemoveCallbacks*
+- uid: Global.PlayerInput.PlayerActions.SetCallbacks(PlayerInput.IPlayerActions)
+  commentId: M:Global.PlayerInput.PlayerActions.SetCallbacks(PlayerInput.IPlayerActions)
+  id: SetCallbacks(PlayerInput.IPlayerActions)
+  parent: Global.PlayerInput.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: SetCallbacks(IPlayerActions)
+  nameWithType: PlayerInput.PlayerActions.SetCallbacks(PlayerInput.IPlayerActions)
+  fullName: PlayerInput.PlayerActions.SetCallbacks(PlayerInput.IPlayerActions)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Tools/PlayerInput.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: SetCallbacks
+    path: ../Assets/Scripts/Tools/PlayerInput.cs
+    startLine: 266
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void SetCallbacks(PlayerInput.IPlayerActions instance)
+    parameters:
+    - id: instance
+      type: Global.PlayerInput.IPlayerActions
+    content.vb: Public Sub SetCallbacks(instance As PlayerInput.IPlayerActions)
+  overload: Global.PlayerInput.PlayerActions.SetCallbacks*
+references:
+- uid: Global
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.PlayerInput.PlayerActions.#ctor*
+  commentId: Overload:Global.PlayerInput.PlayerActions.#ctor
+  name: PlayerActions
+  nameWithType: PlayerInput.PlayerActions.PlayerActions
+  fullName: PlayerInput.PlayerActions.PlayerActions
+  nameWithType.vb: PlayerInput.PlayerActions.New
+  fullName.vb: PlayerInput.PlayerActions.New
+  name.vb: New
+- uid: Global.PlayerInput
+  commentId: T:Global.PlayerInput
+  name: PlayerInput
+  nameWithType: PlayerInput
+  fullName: PlayerInput
+- uid: Global.PlayerInput.PlayerActions.Move*
+  commentId: Overload:Global.PlayerInput.PlayerActions.Move
+  name: Move
+  nameWithType: PlayerInput.PlayerActions.Move
+  fullName: PlayerInput.PlayerActions.Move
+- uid: UnityEngine.InputSystem.InputAction
+  commentId: T:UnityEngine.InputSystem.InputAction
+  parent: UnityEngine.InputSystem
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: UnityEngine.InputSystem.InputAction
+- uid: UnityEngine.InputSystem
+  commentId: N:UnityEngine.InputSystem
+  isExternal: true
+  name: UnityEngine.InputSystem
+  nameWithType: UnityEngine.InputSystem
+  fullName: UnityEngine.InputSystem
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+    isExternal: true
+- uid: Global.PlayerInput.PlayerActions.Pause*
+  commentId: Overload:Global.PlayerInput.PlayerActions.Pause
+  name: Pause
+  nameWithType: PlayerInput.PlayerActions.Pause
+  fullName: PlayerInput.PlayerActions.Pause
+- uid: Global.PlayerInput.PlayerActions.KB*
+  commentId: Overload:Global.PlayerInput.PlayerActions.KB
+  name: KB
+  nameWithType: PlayerInput.PlayerActions.KB
+  fullName: PlayerInput.PlayerActions.KB
+- uid: Global.PlayerInput.PlayerActions.Get*
+  commentId: Overload:Global.PlayerInput.PlayerActions.Get
+  name: Get
+  nameWithType: PlayerInput.PlayerActions.Get
+  fullName: PlayerInput.PlayerActions.Get
+- uid: UnityEngine.InputSystem.InputActionMap
+  commentId: T:UnityEngine.InputSystem.InputActionMap
+  parent: UnityEngine.InputSystem
+  isExternal: true
+  name: InputActionMap
+  nameWithType: InputActionMap
+  fullName: UnityEngine.InputSystem.InputActionMap
+- uid: Global.PlayerInput.PlayerActions.Enable*
+  commentId: Overload:Global.PlayerInput.PlayerActions.Enable
+  name: Enable
+  nameWithType: PlayerInput.PlayerActions.Enable
+  fullName: PlayerInput.PlayerActions.Enable
+- uid: Global.PlayerInput.PlayerActions.Disable*
+  commentId: Overload:Global.PlayerInput.PlayerActions.Disable
+  name: Disable
+  nameWithType: PlayerInput.PlayerActions.Disable
+  fullName: PlayerInput.PlayerActions.Disable
+- uid: Global.PlayerInput.PlayerActions.enabled*
+  commentId: Overload:Global.PlayerInput.PlayerActions.enabled
+  name: enabled
+  nameWithType: PlayerInput.PlayerActions.enabled
+  fullName: PlayerInput.PlayerActions.enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.PlayerInput.PlayerActions.op_Implicit*
+  commentId: Overload:Global.PlayerInput.PlayerActions.op_Implicit
+  isExternal: true
+  name: implicit operator InputActionMap
+  nameWithType: PlayerInput.PlayerActions.implicit operator InputActionMap
+  fullName: PlayerInput.PlayerActions.implicit operator UnityEngine.InputSystem.InputActionMap
+  nameWithType.vb: PlayerInput.PlayerActions.CType
+  fullName.vb: PlayerInput.PlayerActions.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+  - name: " "
+  - uid: UnityEngine.InputSystem.InputActionMap*
+    name: InputActionMap
+    isExternal: true
+- uid: Global.PlayerInput.PlayerActions
+  commentId: T:Global.PlayerInput.PlayerActions
+  name: PlayerInput.PlayerActions
+  nameWithType: PlayerInput.PlayerActions
+  fullName: PlayerInput.PlayerActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.PlayerActions
+    name: PlayerActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.PlayerActions
+    name: PlayerActions
+- uid: Global.PlayerInput.PlayerActions.AddCallbacks*
+  commentId: Overload:Global.PlayerInput.PlayerActions.AddCallbacks
+  name: AddCallbacks
+  nameWithType: PlayerInput.PlayerActions.AddCallbacks
+  fullName: PlayerInput.PlayerActions.AddCallbacks
+- uid: Global.PlayerInput.IPlayerActions
+  commentId: T:Global.PlayerInput.IPlayerActions
+  name: PlayerInput.IPlayerActions
+  nameWithType: PlayerInput.IPlayerActions
+  fullName: PlayerInput.IPlayerActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IPlayerActions
+    name: IPlayerActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IPlayerActions
+    name: IPlayerActions
+- uid: Global.PlayerInput.PlayerActions.RemoveCallbacks*
+  commentId: Overload:Global.PlayerInput.PlayerActions.RemoveCallbacks
+  name: RemoveCallbacks
+  nameWithType: PlayerInput.PlayerActions.RemoveCallbacks
+  fullName: PlayerInput.PlayerActions.RemoveCallbacks
+- uid: Global.PlayerInput.PlayerActions.SetCallbacks*
+  commentId: Overload:Global.PlayerInput.PlayerActions.SetCallbacks
+  name: SetCallbacks
+  nameWithType: PlayerInput.PlayerActions.SetCallbacks
+  fullName: PlayerInput.PlayerActions.SetCallbacks

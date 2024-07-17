@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.BattleJournal
+  commentId: T:Global.BattleJournal
+  id: BattleJournal
+  parent: Global
+  children:
+  - Global.BattleJournal.AddActionDescription(System.String)
+  - Global.BattleJournal.OnJournalClosed
+  - Global.BattleJournal.OnJournalOpened
+  langs:
+  - csharp
+  - vb
+  name: BattleJournal
+  nameWithType: BattleJournal
+  fullName: BattleJournal
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/BattleJournal.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: BattleJournal
+    path: ../Assets/Scripts/BattleScripts/BattleJournal.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nBattle Journal logic and controls.\n"
+  example: []
+  syntax:
+    content: 'public class BattleJournal : MonoBehaviour'
+    content.vb: Public Class BattleJournal Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.BattleJournal.AddActionDescription(System.String)
+  commentId: M:Global.BattleJournal.AddActionDescription(System.String)
+  id: AddActionDescription(System.String)
+  parent: Global.BattleJournal
+  langs:
+  - csharp
+  - vb
+  name: AddActionDescription(string)
+  nameWithType: BattleJournal.AddActionDescription(string)
+  fullName: BattleJournal.AddActionDescription(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/BattleJournal.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AddActionDescription
+    path: ../Assets/Scripts/BattleScripts/BattleJournal.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nAdd new string to a Battle Journal.\n"
+  example: []
+  syntax:
+    content: public void AddActionDescription(string action)
+    parameters:
+    - id: action
+      type: System.String
+      description: String to be added.
+    content.vb: Public Sub AddActionDescription(action As String)
+  overload: Global.BattleJournal.AddActionDescription*
+  nameWithType.vb: BattleJournal.AddActionDescription(String)
+  fullName.vb: BattleJournal.AddActionDescription(String)
+  name.vb: AddActionDescription(String)
+- uid: Global.BattleJournal.OnJournalOpened
+  commentId: M:Global.BattleJournal.OnJournalOpened
+  id: OnJournalOpened
+  parent: Global.BattleJournal
+  langs:
+  - csharp
+  - vb
+  name: OnJournalOpened()
+  nameWithType: BattleJournal.OnJournalOpened()
+  fullName: BattleJournal.OnJournalOpened()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/BattleJournal.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnJournalOpened
+    path: ../Assets/Scripts/BattleScripts/BattleJournal.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled when the journal is opened.\n"
+  example: []
+  syntax:
+    content: public void OnJournalOpened()
+    content.vb: Public Sub OnJournalOpened()
+  overload: Global.BattleJournal.OnJournalOpened*
+- uid: Global.BattleJournal.OnJournalClosed
+  commentId: M:Global.BattleJournal.OnJournalClosed
+  id: OnJournalClosed
+  parent: Global.BattleJournal
+  langs:
+  - csharp
+  - vb
+  name: OnJournalClosed()
+  nameWithType: BattleJournal.OnJournalClosed()
+  fullName: BattleJournal.OnJournalClosed()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/BattleScripts/BattleJournal.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: OnJournalClosed
+    path: ../Assets/Scripts/BattleScripts/BattleJournal.cs
+    startLine: 44
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCalled when the journal is closed.\n"
+  example: []
+  syntax:
+    content: public void OnJournalClosed()
+    content.vb: Public Sub OnJournalClosed()
+  overload: Global.BattleJournal.OnJournalClosed*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Global.BattleJournal.AddActionDescription*
+  commentId: Overload:Global.BattleJournal.AddActionDescription
+  name: AddActionDescription
+  nameWithType: BattleJournal.AddActionDescription
+  fullName: BattleJournal.AddActionDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.BattleJournal.OnJournalOpened*
+  commentId: Overload:Global.BattleJournal.OnJournalOpened
+  name: OnJournalOpened
+  nameWithType: BattleJournal.OnJournalOpened
+  fullName: BattleJournal.OnJournalOpened
+- uid: Global.BattleJournal.OnJournalClosed*
+  commentId: Overload:Global.BattleJournal.OnJournalClosed
+  name: OnJournalClosed
+  nameWithType: BattleJournal.OnJournalClosed
+  fullName: BattleJournal.OnJournalClosed

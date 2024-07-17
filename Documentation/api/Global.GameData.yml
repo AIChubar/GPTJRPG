@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GameData
+  commentId: T:Global.GameData
+  id: GameData
+  parent: Global
+  children:
+  - Global.GameData.allies
+  - Global.GameData.AssignAllyGroup(JSONReader.UnitGroup)
+  - Global.GameData.AssignEnemyGroup(JSONReader.UnitGroup,System.Boolean)
+  - Global.GameData.battleUnitPrefab
+  - Global.GameData.enemies
+  - Global.GameData.isBossFight
+  langs:
+  - csharp
+  - vb
+  name: GameData
+  nameWithType: GameData
+  fullName: GameData
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/GameData.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: GameData
+    path: ../Assets/Scripts/LevelScripts/GameData.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nScript for the object that contains units data for the current Battle.\n"
+  example: []
+  syntax:
+    content: 'public class GameData : MonoBehaviour'
+    content.vb: Public Class GameData Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+- uid: Global.GameData.battleUnitPrefab
+  commentId: F:Global.GameData.battleUnitPrefab
+  id: battleUnitPrefab
+  parent: Global.GameData
+  langs:
+  - csharp
+  - vb
+  name: battleUnitPrefab
+  nameWithType: GameData.battleUnitPrefab
+  fullName: GameData.battleUnitPrefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/GameData.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: battleUnitPrefab
+    path: ../Assets/Scripts/LevelScripts/GameData.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nPrefab for the <xref href=\"Unit\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Prefab for the Unit object.")]
+
+      public GameObject battleUnitPrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Tooltip("Prefab for the Unit object.")>
+
+      Public battleUnitPrefab As GameObject
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameData.enemies
+  commentId: F:Global.GameData.enemies
+  id: enemies
+  parent: Global.GameData
+  langs:
+  - csharp
+  - vb
+  name: enemies
+  nameWithType: GameData.enemies
+  fullName: GameData.enemies
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/GameData.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: enemies
+    path: ../Assets/Scripts/LevelScripts/GameData.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nEnemy Units for the current Battle.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [Tooltip("Enemy Units for the current Battle.")]
+
+      public JSONReader.UnitGroup enemies
+    return:
+      type: Global.JSONReader.UnitGroup
+    content.vb: >-
+      <HideInInspector>
+
+      <Tooltip("Enemy Units for the current Battle.")>
+
+      Public enemies As JSONReader.UnitGroup
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameData.isBossFight
+  commentId: F:Global.GameData.isBossFight
+  id: isBossFight
+  parent: Global.GameData
+  langs:
+  - csharp
+  - vb
+  name: isBossFight
+  nameWithType: GameData.isBossFight
+  fullName: GameData.isBossFight
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/GameData.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: isBossFight
+    path: ../Assets/Scripts/LevelScripts/GameData.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nIs the current fight against the main Antagonist.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public bool isBossFight
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <HideInInspector>
+
+      Public isBossFight As Boolean
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: Global.GameData.allies
+  commentId: F:Global.GameData.allies
+  id: allies
+  parent: Global.GameData
+  langs:
+  - csharp
+  - vb
+  name: allies
+  nameWithType: GameData.allies
+  fullName: GameData.allies
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/GameData.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: allies
+    path: ../Assets/Scripts/LevelScripts/GameData.cs
+    startLine: 30
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nAlly Units for the current Battle.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [Tooltip("Ally Units for the current Battle.")]
+
+      public JSONReader.UnitGroup allies
+    return:
+      type: Global.JSONReader.UnitGroup
+    content.vb: >-
+      <HideInInspector>
+
+      <Tooltip("Ally Units for the current Battle.")>
+
+      Public allies As JSONReader.UnitGroup
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Global.GameData.AssignEnemyGroup(JSONReader.UnitGroup,System.Boolean)
+  commentId: M:Global.GameData.AssignEnemyGroup(JSONReader.UnitGroup,System.Boolean)
+  id: AssignEnemyGroup(JSONReader.UnitGroup,System.Boolean)
+  parent: Global.GameData
+  langs:
+  - csharp
+  - vb
+  name: AssignEnemyGroup(UnitGroup, bool)
+  nameWithType: GameData.AssignEnemyGroup(JSONReader.UnitGroup, bool)
+  fullName: GameData.AssignEnemyGroup(JSONReader.UnitGroup, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/GameData.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AssignEnemyGroup
+    path: ../Assets/Scripts/LevelScripts/GameData.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSets up <xref href=\"GameData.enemies\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void AssignEnemyGroup(JSONReader.UnitGroup enemyG, bool boss)
+    parameters:
+    - id: enemyG
+      type: Global.JSONReader.UnitGroup
+      description: Enemy Group data.
+    - id: boss
+      type: System.Boolean
+      description: True if boss Battle.
+    content.vb: Public Sub AssignEnemyGroup(enemyG As JSONReader.UnitGroup, boss As Boolean)
+  overload: Global.GameData.AssignEnemyGroup*
+  nameWithType.vb: GameData.AssignEnemyGroup(JSONReader.UnitGroup, Boolean)
+  fullName.vb: GameData.AssignEnemyGroup(JSONReader.UnitGroup, Boolean)
+  name.vb: AssignEnemyGroup(UnitGroup, Boolean)
+- uid: Global.GameData.AssignAllyGroup(JSONReader.UnitGroup)
+  commentId: M:Global.GameData.AssignAllyGroup(JSONReader.UnitGroup)
+  id: AssignAllyGroup(JSONReader.UnitGroup)
+  parent: Global.GameData
+  langs:
+  - csharp
+  - vb
+  name: AssignAllyGroup(UnitGroup)
+  nameWithType: GameData.AssignAllyGroup(JSONReader.UnitGroup)
+  fullName: GameData.AssignAllyGroup(JSONReader.UnitGroup)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LevelScripts/GameData.cs
+      branch: master
+      repo: https://github.com/AIChubar/GPTJRPG
+    id: AssignAllyGroup
+    path: ../Assets/Scripts/LevelScripts/GameData.cs
+    startLine: 46
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nSets up <xref href=\"GameData.allies\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void AssignAllyGroup(JSONReader.UnitGroup allyG)
+    parameters:
+    - id: allyG
+      type: Global.JSONReader.UnitGroup
+      description: Ally Group data.
+    content.vb: Public Sub AssignAllyGroup(allyG As JSONReader.UnitGroup)
+  overload: Global.GameData.AssignAllyGroup*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Global.ReflectionExtensions.ToStringWithQuotes
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  parent: Global.ReflectionExtensions
+  definition: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  commentId: M:Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+  isExternal: true
+  name: ToStringWithQuotes(object)
+  nameWithType: ReflectionExtensions.ToStringWithQuotes(object)
+  fullName: ReflectionExtensions.ToStringWithQuotes(object)
+  nameWithType.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  fullName.vb: ReflectionExtensions.ToStringWithQuotes(Object)
+  name.vb: ToStringWithQuotes(Object)
+  spec.csharp:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Global.ReflectionExtensions.ToStringWithQuotes(System.Object)
+    name: ToStringWithQuotes
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: Global.ReflectionExtensions
+  commentId: T:Global.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: ReflectionExtensions
+- uid: Unit
+  commentId: T:Unit
+  isExternal: true
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Global.JSONReader.UnitGroup
+  commentId: T:Global.JSONReader.UnitGroup
+  name: JSONReader.UnitGroup
+  nameWithType: JSONReader.UnitGroup
+  fullName: JSONReader.UnitGroup
+  spec.csharp:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+  spec.vb:
+  - uid: Global.JSONReader
+    name: JSONReader
+  - name: .
+  - uid: Global.JSONReader.UnitGroup
+    name: UnitGroup
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GameData.enemies
+  commentId: F:GameData.enemies
+  isExternal: true
+- uid: Global.GameData.AssignEnemyGroup*
+  commentId: Overload:Global.GameData.AssignEnemyGroup
+  name: AssignEnemyGroup
+  nameWithType: GameData.AssignEnemyGroup
+  fullName: GameData.AssignEnemyGroup
+- uid: GameData.allies
+  commentId: F:GameData.allies
+  isExternal: true
+- uid: Global.GameData.AssignAllyGroup*
+  commentId: Overload:Global.GameData.AssignAllyGroup
+  name: AssignAllyGroup
+  nameWithType: GameData.AssignAllyGroup
+  fullName: GameData.AssignAllyGroup
