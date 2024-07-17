@@ -1,7 +1,10 @@
 import openai
 import os
 import json
-import re
+
+
+model_param = "gpt-4o"
+temperature_param = 0.6
 
 with open('structure_unit_data.json', 'r') as file:
     structure_content = file.read()
@@ -29,8 +32,8 @@ folder_path = os.path.join(os.pardir, "Worlds")
 
 
 response = openai.chat.completions.create(
-    model="gpt-4o",
-    temperature=0.6,
+    model=model_param,
+    temperature=temperature_param,
     max_tokens=4096,
     response_format={"type": "json_object"},
     messages=[

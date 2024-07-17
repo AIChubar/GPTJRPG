@@ -107,7 +107,7 @@ public class Pause : MonoBehaviour
     public void BeginBattle()
     {
         ResumeGame();
-        SceneController.LoadScene(2, 1, 1, 0.6f, true);
+        SceneController.LoadScene(2, 1f, 1f, 0.9f, true);
     }
     /// <summary>
     /// Called by Button from main Pause UI window. Closes the pause menu.

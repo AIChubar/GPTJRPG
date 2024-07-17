@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abomination",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "plague",
+      "characteristicName": "Plague Ooze",
+      "artisticName": "Morghul",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 10,
+      "strategicThinking": 60,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I see your shadow approaching, dark one. What business do you have in these cursed fields?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come seeking power to crush all in my path. Bow before me.",
+        "enemyAnswer": "Power-hungry and foolish, a deadly combination. You seek to dominate, but your arrogance will be your downfall.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You dare to challenge me? I'll show you true power.",
+            "enemyAnswer": "Foolish mortal, your bravado will only lead to your demise. Prepare to face the wrath of darkness.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I sense your strength. Perhaps we can join forces for mutual benefit.",
+            "enemyAnswer": "Alliances are fleeting in the realm of shadows. I stand alone, and so shall you.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come in peace, seeking knowledge of the shadows that dwell in these lands.",
+        "enemyAnswer": "Peace? Knowledge? Such trivial pursuits for one like you. The shadows here whisper of your impending doom.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The shadows speak true, but they also hide great power. Let us share in our discoveries.",
+            "enemyAnswer": "You speak of unity where chaos reigns. Your naivety will cost you dearly, wanderer of shadows.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Knowledge is power, and power is what I seek. Perhaps we can learn from each other.",
+            "enemyAnswer": "Knowledge is a double-edged sword, and you wield it carelessly. The shadows will claim you in the end.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am Morvath, the Eclipse Seeker. I walk the path of darkness to claim what is rightfully mine.",
+        "enemyAnswer": "Morvath, the seeker of eclipses, comes to the cursed lands. Your path is dark, but the shadows here are not yours to command.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The shadows heed my call. Stand aside or face the consequences.",
+            "enemyAnswer": "Bold words from a shadowborn abomination. Your fate is sealed in darkness, Eclipse Seeker.",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Let the darkness unite us, for the shadows hold secrets beyond your grasp.",
+            "enemyAnswer": "Unity with darkness? A fool's errand. The shadows shun your kind, Eclipse Seeker.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

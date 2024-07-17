@@ -1,0 +1,191 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "primordial",
+      "secondAttribute": "golem",
+      "thirdAttribute": "stone",
+      "characteristicName": "Stone Golem",
+      "artisticName": "Granite",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 70,
+      "friendliness": 10,
+      "intellect": 40,
+      "strategicThinking": 60,
+      "indifference": 30,
+      "flexibility": 20,
+      "communicationSkills": 20,
+      "morality": 25,
+      "chaoticity": 50,
+      "braveness": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Intruder... why do you tread on the obsidian lands of Granite?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I come seeking power. Will you aid me or fall before me?",
+        "enemyAnswer": "You are bold, mortal. Power comes at a cost.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then name your price, and we shall see if it is within my reach.",
+            "enemyAnswer": "The price is your submission to the ancient stones.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will never submit. Prepare to be shattered!",
+                "enemyAnswer": "Then prepare to face the wrath of the primordial!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "If submission brings power, then I shall bend.",
+                "enemyAnswer": "Wise choice. The power of the stones is yours.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "No cost is too great for me! Face your end!",
+            "enemyAnswer": "Foolish mortal, you misunderstand your place.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "We shall see whose place is misunderstood.",
+                "enemyAnswer": "Enough talk. Feel the strength of the earth!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps there's wisdom in your words. Let's talk terms.",
+                "enemyAnswer": "There is no talking. Only the ancient will decide.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Aid me, and I will elevate you beyond your primordial essence.",
+            "enemyAnswer": "You dare to presume you can elevate the primordial?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Yes, with my magic, anything is possible.",
+                "enemyAnswer": "Your arrogance will be your downfall.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps I overestimated. Let me reconsider.",
+                "enemyAnswer": "Your hesitation marks you as weak. Begone.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek knowledge of the ancients. Guide me or be destroyed.",
+        "enemyAnswer": "Knowledge is not for the weak. Prove your worth.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Challenge accepted. Name your trial.",
+            "enemyAnswer": "Face the molten depths and return unscathed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I shall return victorious.",
+                "enemyAnswer": "Many have tried, none have succeeded. Prove me wrong.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If it means power, I shall endure anything.",
+                "enemyAnswer": "Then descend, and let the flames judge you.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "My power is proof enough. Bow before my might.",
+            "enemyAnswer": "Boastful words. The strength of stone shall test them.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I fear no test. Let's end this.",
+                "enemyAnswer": "Then perish in the shadow of the ancient!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Wisdom lies in patience. Show me your secrets.",
+                "enemyAnswer": "Patience is no match for the ancients. Begone.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Knowledge demands respect, not brute force.",
+            "enemyAnswer": "Respect is earned through trial. Do you accept?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I accept. Lead the way.",
+                "enemyAnswer": "The path is harsh. Survive, and we shall speak again.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "No. I demand the knowledge now.",
+                "enemyAnswer": "Demanding will get you nothing but ruin.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Your presence here is an affront to the darkness. Leave, or be crushed.",
+        "enemyAnswer": "The stones do not tremble before shadows.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then I shall shatter them with my power.",
+            "enemyAnswer": "Your power is insignificant against the ancient might.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let's see who uproots whom.",
+                "enemyAnswer": "Prepare for your end!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Why waste time fighting? Join me instead.",
+                "enemyAnswer": "Join a creature of shadows? Absurd!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer you a chance to join the winning side.",
+            "enemyAnswer": "Allegiance with darkness is a hollow offer.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Hollow or not, it is your only option.",
+                "enemyAnswer": "I'd rather be shattered than serve.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Consider it a temporary alliance, then.",
+                "enemyAnswer": "Your persistence is futile. Leave here.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Darkness will consume you if you resist.",
+            "enemyAnswer": "The ancient stone has withstood greater threats than you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then be destroyed as they were.",
+                "enemyAnswer": "Face the fate of the fallen!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps you underestimate the power of darkness.",
+                "enemyAnswer": "And you overestimate it. Depart.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

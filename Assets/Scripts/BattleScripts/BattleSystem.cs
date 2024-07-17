@@ -581,9 +581,9 @@ public class BattleSystem : MonoBehaviour
                         {
                             if (obj.abilityButton)
                             {
-                                if (GameManager.gameManager == null || GameManager.gameManager.Equals(null))
+                                if (GameManager.gameManager == null || GameManager.gameManager.Equals(null) || _currentAlly == null || _currentAlly.Equals(null))
                                 {
-                                    Debug.LogError("Game Manager is not initialized");
+                                    return;
                                 }
                                 var currentClass = GameManager.gameManager.classesDescriptions[_currentAlly.GetComponent<Unit>().unitType];
                                 obj.firstRow = currentClass.className;

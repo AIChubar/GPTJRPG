@@ -1,0 +1,82 @@
+{
+  "questLevels": [
+    {
+      "levelName": "The Forsaken Fields",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "The Cursed Cleansing",
+          "questDescription": "Venture into the heart of The Forsaken Fields and confront the twisted abomination known as Morghul. Will you destroy this Plague Ooze or bend it to your will?",
+          "questObjective": "Morghul"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Beastly Alliance",
+          "questDescription": "Seek out Krag, the formidable Rock Troll of The Twisted Beasts. Gain his allegiance to fortify your strength against the light.",
+          "questObjective": "Krag"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Phantom Exorcism",
+          "questDescription": "Exorcise the malevolent spirit known as Wraithus, the Worldbinder Phantom, from these cursed lands to weaken the forces of light.",
+          "questObjective": "Wraithus"
+        }
+      ]
+    },
+    {
+      "levelName": "Infernal Chasm",
+      "questList": [
+        {
+          "questType": "kill or unite",
+          "questReward": "pass to the next level",
+          "questName": "Fiery Crucible",
+          "questDescription": "Face the fearsome Ignis, the Firebrand Salamander. Will you extinguish its flames or turn its fiery wrath against your foes?",
+          "questObjective": "Ignis"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Drake's Pact",
+          "questDescription": "Form an alliance with Pyros, the Fire Drake. His fiery breath will be a formidable addition to your arsenal.",
+          "questObjective": "Pyros"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Devil's Demise",
+          "questDescription": "Bring an end to Infernos, the Balrug Fiend, to lessen the infernal strength of the Devil's Brigade.",
+          "questObjective": "Infernos"
+        }
+      ]
+    },
+    {
+      "levelName": "Sanctum of Despair",
+      "questList": [
+        {
+          "questType": "kill",
+          "questReward": "win",
+          "questName": "Annihilator's Fall",
+          "questDescription": "Confront Aurelius the Undying in the heart of the Sanctum of Despair. Destroy him to shatter the Heart of Light and plunge the world into eternal darkness.",
+          "questObjective": "Aurelius the Undying"
+        },
+        {
+          "questType": "unite",
+          "questReward": "amulet of healing",
+          "questName": "Angel's Accord",
+          "questDescription": "Persuade Gabriel, the Macewielding Angel, to join your cause. His holy power could be a devastating weapon against the light.",
+          "questObjective": "Gabriel"
+        },
+        {
+          "questType": "kill",
+          "questReward": "amulet of alliance",
+          "questName": "Titan's Downfall",
+          "questDescription": "Eliminate Thamiel, the Titanic Brawler, to weaken the holy defenders and pave the way to ultimate victory.",
+          "questObjective": "Thamiel"
+        }
+      ]
+    }
+  ]
+}

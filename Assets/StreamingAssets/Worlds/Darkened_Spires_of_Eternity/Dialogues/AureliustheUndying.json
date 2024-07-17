@@ -1,0 +1,104 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "holy",
+      "secondAttribute": "titan",
+      "thirdAttribute": "annihilator",
+      "characteristicName": "Titanic Annihilator",
+      "artisticName": "Aurelius the Undying",
+      "powerLevel": "legendary"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 80,
+      "strategicThinking": 85,
+      "indifference": 10,
+      "flexibility": 20,
+      "communicationSkills": 60,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare venture into my domain, mortal? What brings you to challenge the might of Aurelius the Undying?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek the power of the Heart of Light to bring balance to this realm.",
+        "enemyAnswer": "Balance, you speak of balance? There is no balance while darkness envelopes this world. Your endeavors are futile.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The darkness can be lifted, and I will use the Heart of Light to achieve it.",
+            "enemyAnswer": "Deluded fool. The Heart of Light is beyond your reach. Prepare to face the wrath of the Shadows.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will face whatever challenges come my way to fulfill my purpose.",
+                "enemyAnswer": "So be it. Your purpose ends here, in the shadows of eternity. Brace yourself for your doom!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I refuse to back down. The darkness will yield to the light.",
+                "enemyAnswer": "Bold words from one so naive. Darkness will always prevail. Embrace your fate, fool!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have come to face Aurelius and claim the Heart of Light for my own.",
+            "enemyAnswer": "Claim the Heart of Light? You are nothing but a speck of dust in the grand tapestry of eternity. Prepare for oblivion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I am more than you think, and I will prove it by defeating you.",
+                "enemyAnswer": "Overconfidence will be your downfall, interloper. Face the eternal darkness with defiance!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Defeating you is the first step towards claiming what is rightfully mine.",
+                "enemyAnswer": "Rightfully yours? Such arrogance. Your path leads only to annihilation. Embrace the void!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I am a shadow that seeks to engulf this world in eternal darkness, starting with you.",
+        "enemyAnswer": "A fellow agent of darkness, I see. Yet, your power pales in comparison to the abyss from whence I hail.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My darkness shall swallow even the mightiest of lights, starting with the Heart of Light.",
+            "enemyAnswer": "Ha! Your arrogance blinds you. The Heart of Light will never succumb to the likes of you. Prepare for oblivion.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Oblivion is but a stepping stone on my path to dominion over this world.",
+                "enemyAnswer": "Dominion? Your ambition knows no bounds, yet your downfall is assured. Embrace the shadows' embrace.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "The embrace of shadow consumes all. I am merely an instrument of its will.",
+                "enemyAnswer": "Instrument or not, your fate is sealed. The darkness claims you now, puppet of shadows!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your darkness shall be engulfed by an even greater void, starting with me.",
+            "enemyAnswer": "Audacious words, shadow. Yet, the void you seek is but a fleeting dream in the vast expanse of eternity.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Dreams manifest into reality through the will of the void. Prepare for your end.",
+                "enemyAnswer": "Bold words from one so insignificant. The abyss awaits your futile struggle. Embrace your oblivion!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Insignificance is a matter of perspective. The void will reveal the truth in due time.",
+                "enemyAnswer": "Your truth leads only to annihilation. Embrace the emptiness that awaits, for it shall be your final resting place.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

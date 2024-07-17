@@ -49,6 +49,7 @@ public class QuestButton : MonoBehaviour
             
             GameEvents.gameEvents.OnUnitKilled -= GameEvents_OnUnitKilled;
             GameEvents.gameEvents.OnUnitUnited -= GameEvents_OnUnitUnited;
+            GameEvents.gameEvents.OnUnitIgnored -= GameEvents_OnUnitIgnored;
         }
     }
 
@@ -78,7 +79,27 @@ public class QuestButton : MonoBehaviour
             }
             GameEvents.gameEvents.OnUnitKilled -= GameEvents_OnUnitKilled;
             GameEvents.gameEvents.OnUnitUnited -= GameEvents_OnUnitUnited;
+            GameEvents.gameEvents.OnUnitIgnored -= GameEvents_OnUnitIgnored;
+
         }
+    }
+    
+    private void GameEvents_OnUnitIgnored(JSONReader.UnitJSON unitData)
+    {
+        if (quest.questObjective == unitData.artisticName || quest.questObjective == unitData.characteristicName)
+        {
+            failed = true;
+            if (quest.questReward == "pass to the next level")
+            {
+                failed = false;
+                completed = true;
+                GameObject.FindGameObjectWithTag("LevelDoor").GetComponent<DoorScript>().OpenDoor();
+            }
+        }
+        GameEvents.gameEvents.OnUnitKilled -= GameEvents_OnUnitKilled;
+        GameEvents.gameEvents.OnUnitUnited -= GameEvents_OnUnitUnited;
+        GameEvents.gameEvents.OnUnitIgnored -= GameEvents_OnUnitIgnored;
+        
     }
     
     /// <summary>
@@ -95,5 +116,6 @@ public class QuestButton : MonoBehaviour
             _questNameTMP.text = quest.questName;
         GameEvents.gameEvents.OnUnitKilled += GameEvents_OnUnitKilled;
         GameEvents.gameEvents.OnUnitUnited += GameEvents_OnUnitUnited;
+        GameEvents.gameEvents.OnUnitIgnored += GameEvents_OnUnitIgnored;
     }
 }

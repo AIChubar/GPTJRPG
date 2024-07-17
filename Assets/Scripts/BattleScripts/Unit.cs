@@ -25,7 +25,6 @@ public class Unit : MonoBehaviour
     /// <summary>
     /// This Unit Data.
     /// </summary>
-    [HideInInspector]
     [UnityEngine.Tooltip("This Unit Data.")]
     public JSONReader.UnitJSON unitData;
 

@@ -38,6 +38,10 @@ public class OutcomeButtons : MonoBehaviour
 
     public void OnClickedIgnore()
     {
+        foreach (var unitData in _dialogueHUD.group.units)
+        {
+            GameEvents.gameEvents.UnitIgnored(unitData);
+        }
         GameManager.gameManager.pauseMenu.ResumeGame();
         AudioManager.instance.Play(ButtonClick);
     }

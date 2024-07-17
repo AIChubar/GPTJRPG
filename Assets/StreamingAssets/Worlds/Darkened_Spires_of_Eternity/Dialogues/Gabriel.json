@@ -1,0 +1,146 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "holy",
+      "secondAttribute": "angel",
+      "thirdAttribute": "macewielder",
+      "characteristicName": "Macewielding Angel",
+      "artisticName": "Gabriel",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 70,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 80,
+      "morality": 70,
+      "chaoticity": 30
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I am Gabriel, the Macewielding Angel. What business do you have meddling in the affairs of the Guardians of the Light?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I am Morvath, the Dark Sorcerer. I seek the power of the Heart of Light to bring darkness upon this world.",
+        "enemyAnswer": "A Dark Sorcerer seeking the power of light? Your presence reeks of malevolence.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The darkness will consume all in time. I offer you power beyond your wildest dreams if you join me.",
+            "enemyAnswer": "Power from darkness? My allegiance lies with the light, I shall not succumb to your temptations.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Your loyalty to the light blinds you. Prepare to face the shadows.",
+                "enemyAnswer": "I will not falter in my duty. Light shall prevail over darkness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I respect your conviction. Farewell, Gabriel.",
+                "enemyAnswer": "May the light guide your path, Morvath.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I see you are unwavering in your dedication. Perhaps we could settle this without bloodshed.",
+            "enemyAnswer": "There can be no alliance between light and darkness. Our paths diverge here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I understand. Farewell, Gabriel.",
+                "enemyAnswer": "May the light shield you from the shadows, Morvath.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "So be it. Let our blades decide the victor.",
+                "enemyAnswer": "As you wish. Prepare for the light's judgment.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your resolve is admirable. I shall take my leave.",
+            "enemyAnswer": "May the light continue to illuminate your path, Morvath.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am but a traveler passing through. I mean no harm to the Guardians of the Light.",
+        "enemyAnswer": "Traveler or not, your presence brings a shadow over these lands. Be gone, dark one.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I shall heed your warning and depart. Farewell, Gabriel.",
+            "enemyAnswer": "May the light vanquish the darkness that follows you, traveler.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I sense a tension in these lands. Is there a way to bring peace?",
+            "enemyAnswer": "Peace is found in the light, not in the shadows you seek. Leave this place.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I shall respect your wishes and leave in peace.",
+                "enemyAnswer": "May your path be free of darkness, traveler.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If peace cannot be achieved, then darkness will reign.",
+                "enemyAnswer": "So be it. Let the light guide those who resist the shadows.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I will take my leave. May the light watch over these lands.",
+            "enemyAnswer": "The light will forever guard against the encroaching darkness. Be on your way, traveler.",
+            "outcome": "ignore"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am Morvath, the Eclipse Seeker. I come in search of knowledge and power.",
+        "enemyAnswer": "Knowledge and power that threatens the balance of this realm. Your presence is unwelcome.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "The balance is an illusion. Embrace the shadows, Gabriel, and discover true power.",
+            "enemyAnswer": "The shadows you wield are not of the light. I shall not be swayed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "If you refuse the shadows, then prepare to face them in battle.",
+                "enemyAnswer": "I stand ready to face your darkness with the light's radiance.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "May your path be forever bathed in light, Gabriel.",
+                "enemyAnswer": "And may the shadows never cloud your judgment, Morvath.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "I seek to understand, not to harm. Can we not find common ground?",
+            "enemyAnswer": "Common ground between light and darkness is but a fleeting dream. Our paths diverge here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well. I shall respect your boundaries. Farewell, Gabriel.",
+                "enemyAnswer": "May the light always guide your way, Morvath.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "If understanding cannot be reached, then let fate decide our course.",
+                "enemyAnswer": "So be it. Let the light reveal the truth of our encounter.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I see there is no room for negotiation. Farewell, Gabriel.",
+            "enemyAnswer": "May the light continue to push back the shadows, Eclipse Seeker.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

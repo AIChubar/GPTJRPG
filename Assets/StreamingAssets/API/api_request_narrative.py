@@ -1,16 +1,13 @@
 import openai
 import os
 import json
-import re
+
+model_param = "gpt-4o"
+temperature_param = 0.6
 
 with open('structure_narrative.json', 'r') as file:
     structure_content = file.read()
 
-with open('units.json', 'r') as file:
-    units_content = file.read()
-
-with open('units_stats.json', 'r') as file:
-    units_stats_content = file.read()
 
 folder_path = os.path.join(os.pardir, "Worlds")
 folder_names = [name for name in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, name))]
@@ -26,8 +23,8 @@ def separate_words(name):
 formatted_names = '\n'.join([separate_words(name) for name in folder_names])
 print(formatted_names)
 response = openai.chat.completions.create(
-    model="gpt-4o",
-    temperature=0.6,
+    model=model_param,
+    temperature=temperature_param,
     max_tokens=4096,
     response_format={"type": "json_object"},
     messages=[

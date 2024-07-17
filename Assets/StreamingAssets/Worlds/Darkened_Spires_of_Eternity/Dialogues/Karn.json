@@ -1,0 +1,76 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "hell_knight",
+      "thirdAttribute": "defender",
+      "characteristicName": "Hell Knight Defender",
+      "artisticName": "Karn",
+      "powerLevel": "formidable"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 60,
+      "strategicThinking": 80,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 50,
+      "morality": 10,
+      "chaoticity": 70
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "You dare wander into these forsaken lands, interloper. What brings you to face the might of Karn, the Hell Knight Defender?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek the power of darkness to command the shadows at my will.",
+        "enemyAnswer": "Ah, a fellow seeker of darkness. Your ambition resonates with the chaos that swirls in these lands. But what can you offer in return?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My power is unmatched. Together, we can conquer all who oppose us.",
+            "enemyAnswer": "Unmatched power, you claim? Karn respects strength above all. Join forces, and our foes shall tremble.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "I have no need for alliances. Stand aside or face the consequences.",
+            "enemyAnswer": "Bold words, stranger. Karn bows to none. Prepare to feel the wrath of the Hell Knight!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I am on a quest to restore balance and vanquish the forces of darkness that threaten this world.",
+        "enemyAnswer": "Balance, you speak of? Karn sees only the inevitability of chaos and destruction. What makes you think you can defy such forces?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "My resolve is unwavering. I will not falter in the face of darkness.",
+            "enemyAnswer": "Unwavering resolve, hm? Karn admires determination. Perhaps there is merit in your defiance after all.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "Your ignorance blinds you, Hell Knight. Prepare to face the consequences of your actions.",
+            "enemyAnswer": "Ignorance? You dare insult Karn's knowledge? Your fate is sealed, fool.",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I come seeking knowledge and understanding of the dark arts. Will you share your wisdom with me?",
+        "enemyAnswer": "Knowledge is power, but power is earned, not given freely. What makes you think you are worthy of Karn's teachings?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I humbly seek to learn from one as formidable as you, to further my mastery of the shadows.",
+            "enemyAnswer": "Humble yet ambitious. Karn senses potential in your humility. Together, we may unravel the mysteries of darkness.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "Your arrogance will be your downfall, Hell Knight. Prepare to face the consequences of underestimating me.",
+            "enemyAnswer": "Arrogance? Ha! Karn relishes in the challenge. Let us see if you can back up your words, intruder.",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

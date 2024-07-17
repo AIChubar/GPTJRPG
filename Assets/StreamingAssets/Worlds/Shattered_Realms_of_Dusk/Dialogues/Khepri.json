@@ -1,0 +1,192 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "undead",
+      "secondAttribute": "mummy",
+      "thirdAttribute": "guardian",
+      "characteristicName": "Mummy Guardian",
+      "artisticName": "Khepri",
+      "powerLevel": "formidable",
+      "unitClass": "protector"
+    },
+    "personaMetrics": {
+      "aggressiveness": 75,
+      "friendliness": 10,
+      "intellect": 60,
+      "strategicThinking": 65,
+      "indifference": 35,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 25,
+      "chaoticity": 50,
+      "braveness": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Intruder, you dare trespass in my sanctum? Prepare to face the wrath of the ancient dead.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I seek only to harness the dark powers within these ruins. Stand aside and you will be spared.",
+        "enemyAnswer": "You seek to claim what does not belong to you. The spirits of these ruins will not be so easily swayed.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I command powers beyond your understanding. Allow me passage, and I might consider an alliance.",
+            "enemyAnswer": "Alliance with a dark elf necromancer? Ha! Your arrogance will be your downfall.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then face my wrath and be obliterated, ancient guardian!",
+                "enemyAnswer": "Your threats mean nothing to me. Prepare yourself!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You leave me no choice but to destroy you.",
+                "enemyAnswer": "So be it. Your end comes swiftly.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I merely wish to coexist. The Shattered Realms can accommodate both our ambitions.",
+            "enemyAnswer": "Your intentions are clear as day, necromancer. Coexistence is a fool's hope.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then perhaps a truce, for now, to face a greater threat?",
+                "enemyAnswer": "A temporary truce? Your deceit is transparent.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "I shall force you to yield, one way or another.",
+                "enemyAnswer": "You are only prolonging the inevitable.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "You underestimate the power of shadow. Relinquish control or perish.",
+            "enemyAnswer": "Shadow has no dominion here. You will taste despair.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prepare for the true power of necromancy!",
+                "enemyAnswer": "Come, let's see whose power reigns supreme.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your arrogance blinds you. Farewell, ancient fool.",
+                "enemyAnswer": "Coward. Begone before I change my mind.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I have come for the secrets of the ancients. Help me and I can reward you.",
+        "enemyAnswer": "Pathetic creature, no reward can sway the undying.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Perhaps power is what you seek? Join me, and together we can rule.",
+            "enemyAnswer": "I bow to no power but my own. Let's end this.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "A shame. You would have made a useful ally.",
+                "enemyAnswer": "Prepare to see the true might of an ancient guardian.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I was offering you a chance, but you prefer destruction.",
+                "enemyAnswer": "Indeed. To dust you will return.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Your refusal is noted. Face my wrath.",
+            "enemyAnswer": "Your wrath is nothing but a whisper to the dead.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Die, ancient one!",
+                "enemyAnswer": "Let us see who dies today.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Your resistance will be your undoing.",
+                "enemyAnswer": "Enough talk. Face me!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I see you are beyond reason. I will find another way.",
+            "enemyAnswer": "Begone, necromancer. Your presence is a blight.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Consider yourself fortunate. We shall not meet again.",
+                "enemyAnswer": "May it be so. Begone.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Your time will come, ancient fool.",
+                "enemyAnswer": "It is you who will face an end before mine.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Show me the way to the heart of these ruins, and your existence will continue undisturbed.",
+        "enemyAnswer": "No one commands the guardian of these ruins. Leave now or face eternal torment.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "You have chosen poorly. I will tear these secrets from your cold, dead hands.",
+            "enemyAnswer": "You will find no victory here, shadow weaver.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Darkness will consume you.",
+                "enemyAnswer": "Then come, let it consume us both.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I will shatter your bones and claim victory.",
+                "enemyAnswer": "You are nothing but dust. Face your doom.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I offer you an escape from this cursed existence.",
+            "enemyAnswer": "Your words mean nothing to an ancient guardian.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then perish.",
+                "enemyAnswer": "Your arrogance seals your fate.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "It seems you yearn for oblivion.",
+                "enemyAnswer": "I yearn only to see you fall.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Very well, guardian. I will find another way.",
+            "enemyAnswer": "Leave while you still can, necromancer.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "This isn't over.",
+                "enemyAnswer": "It is, for now. Leave.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "You will regret this.",
+                "enemyAnswer": "Your threats are empty. Begone.",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

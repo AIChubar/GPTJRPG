@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "holy",
+      "secondAttribute": "shedu",
+      "thirdAttribute": "",
+      "characteristicName": "Shedu",
+      "artisticName": "Nergal",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 30,
+      "friendliness": 35,
+      "intellect": 65,
+      "strategicThinking": 50,
+      "indifference": 20,
+      "flexibility": 40,
+      "communicationSkills": 70,
+      "morality": 90,
+      "chaoticity": 10
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Dark one, you stand before Nergal, guardian of light and justice. Speak your intentions or face the wrath of holiness.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Your light will be snuffed out, just as day succumbs to night.",
+        "enemyAnswer": "Bold words for one who dwells in the shadows. What power can darkness wield against purity?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "More than you can comprehend, holy one. The darkest shadows hide ancient secrets.",
+            "enemyAnswer": "Shadows and secrets are weak against the blinding light of truth. Prepare for your defeat.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I have defeated many who thought the same. You will be no different.",
+                "enemyAnswer": "Your hubris will be your downfall. The light shall prevail.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Perhaps, but I am not so easily vanquished.",
+                "enemyAnswer": "Then face the holy wrath and perish in the light.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Darkness is the rightful state of this world. All shall return to it.",
+            "enemyAnswer": "Such blasphemies will not go unchallenged. You will repent or be destroyed.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "I will never repent. My conviction is stronger than your light.",
+                "enemyAnswer": "Very well, we shall test your conviction with the blade of righteousness.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Then let the world decide who is right.",
+                "enemyAnswer": "The world has already decided. It seeks the light, not your darkness.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "You assume much, holy one. Perhaps there is more to darkness than you think.",
+            "enemyAnswer": "I have studied the darkness, I know its corruptions. It has no place here.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then you are a fool, for you have learned nothing of true power.",
+                "enemyAnswer": "Insulting a being of light will yield you no results but your own demise.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Then let us see which knowledge prevails.",
+                "enemyAnswer": "Knowledge means little against the righteous fury of the light.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek the power hidden within these lands. Stand aside or be obliterated.",
+        "enemyAnswer": "Power is dangerous and corrupting. Why pursue such folly?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Because only power can reshape the world as it should be.",
+            "enemyAnswer": "You speak as one blinded by ambitions. The light will not let you prevail.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Ambition births greatness. Your light has blinded you to this truth.",
+                "enemyAnswer": "You are mistaken. True greatness lies in humility and service.",
+                "outcome": "ignore"
+              },
+              {
+                "playerOption": "Fool! I will show you the might that ambition brings.",
+                "enemyAnswer": "Your misguided beliefs will bring your swift downfall.",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Only power can cleanse this fractured world.",
+            "enemyAnswer": "The world does not seek cleansing through darkness. Your path leads only to ruin.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then prepare to be part of that ruin.",
+                "enemyAnswer": "I shall defend the light till my last breath.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "You underestimate the cleansing power of shadows.",
+                "enemyAnswer": "Your shadows will find no foothold here. Leave or face destruction.",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Power is the only truth. The weak must submit to the strong.",
+            "enemyAnswer": "Strength without purpose is dangerous. Submit to the light and find peace.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Never! Peace is a lie the weak tell themselves.",
+                "enemyAnswer": "You will find no peace, only the obliteration you seek.",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I shall show you how dangerous your underestimation is.",
+                "enemyAnswer": "Then prove your worth in battle, though it will be your last.",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Perhaps we can find common ground. The world is dying, after all.",
+        "enemyAnswer": "There is wisdom in seeking peace. What do you propose?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "A truce, until we understand these lands better.",
+            "enemyAnswer": "A wise choice. Let us hope we can reach a greater understanding.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Yes, together, we might restore balance.",
+                "enemyAnswer": "For now, we shall walk this path in mutual respect. May the light guide us.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "Indeed, let us cease hostilities.",
+                "enemyAnswer": "Agreed. Perhaps it is not too late for redemption and peace.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "We share a common enemy in ignorance and chaos.",
+            "enemyAnswer": "Indeed, knowledge and order are valued above all. What is your suggestion?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Exchange knowledge, to fortify our strengths against chaos.",
+                "enemyAnswer": "A noble endeavor. Let us share what we know and prepare for the trials ahead.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "Form a temporary alliance to defeat our mutual enemies.",
+                "enemyAnswer": "Very well. For now, our goals align, and we shall unite against the dark forces.",
+                "outcome": "ally"
+              }
+            ]
+          },
+          {
+            "playerOption": "The light and dark need not be enemies. What say you?",
+            "enemyAnswer": "A curious thought, but potentially fruitful. What is it you propose?",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "An alliance, to protect the realms.",
+                "enemyAnswer": "For now, I accept your proposal. May the light and shadows coexist in harmony.",
+                "outcome": "ally"
+              },
+              {
+                "playerOption": "A ceasefire, to better understand each other's strengths.",
+                "enemyAnswer": "Agreed. Understanding brings wisdom, and wisdom brings peace.",
+                "outcome": "ally"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

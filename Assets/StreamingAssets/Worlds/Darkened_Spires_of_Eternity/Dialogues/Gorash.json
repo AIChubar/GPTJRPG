@@ -1,0 +1,122 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "beast",
+      "secondAttribute": "lindwurm",
+      "thirdAttribute": "",
+      "characteristicName": "Lindwurm Beast",
+      "artisticName": "Gorash",
+      "powerLevel": "mighty"
+    },
+    "personaMetrics": {
+      "aggressiveness": 95,
+      "friendliness": 5,
+      "intellect": 20,
+      "strategicThinking": 50,
+      "indifference": 10,
+      "flexibility": 30,
+      "communicationSkills": 15,
+      "morality": 20,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "I care not for words, but if you wish to speak, go on, weakling.",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "Challenge Gorash to a fight.",
+        "enemyAnswer": "Hah! A brave one, are you? Let us see if your courage matches your foolishness.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Prepare for battle.",
+            "enemyAnswer": "You shall regret facing the might of Gorash!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Attack with all your strength!",
+                "enemyAnswer": "A futile attempt! Feel the wrath of a true beast!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Try to reason with Gorash.",
+                "enemyAnswer": "Reason?! Weakling, there is no reasoning with a Lindwurm!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "Retreat and reconsider your approach.",
+            "enemyAnswer": "Running like a coward, are we? Pathetic.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Turn back and face Gorash.",
+                "enemyAnswer": "Too late for regrets! Tremble before my power!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Continue retreating."
+              }
+            ]
+          },
+          {
+            "playerOption": "Try to find a peaceful resolution.",
+            "enemyAnswer": "Peaceful resolution?! Ha! Prepare for your end, fool.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Offer a truce."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Attempt to engage in dialogue with Gorash.",
+        "enemyAnswer": "Speak, then. But make it swift, or face the consequences.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Inquire about Gorash's origins.",
+            "enemyAnswer": "I am no tale-teller. My origins matter not to the likes of you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Apologize for prying."
+              }
+            ]
+          },
+          {
+            "playerOption": "Ask about Gorash's intentions.",
+            "enemyAnswer": "Intentions? To crush all who oppose me, including you.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Offer allegiance to Gorash."
+              }
+            ]
+          },
+          {
+            "playerOption": "Discuss the possibility of cooperation.",
+            "enemyAnswer": "Cooperation? With you? Such a notion is laughable.",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Insist on finding common ground."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Remain silent and observe Gorash's reaction.",
+        "enemyAnswer": "Silence... An interesting choice. Perhaps you are not completely useless after all.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Break the silence and challenge Gorash.",
+            "enemyAnswer": "So, you do possess some semblance of courage. Let us test it in battle!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Continue observing silently.",
+            "enemyAnswer": "Very well. I shall ignore your presence, insignificant one.",
+            "outcome": "ignore"
+          }
+        ]
+      }
+    ]
+  }
+}

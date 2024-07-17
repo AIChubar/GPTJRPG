@@ -1,0 +1,91 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "hell",
+      "secondAttribute": "devil",
+      "thirdAttribute": "red",
+      "characteristicName": "Red Devil",
+      "artisticName": "Inferno",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 90,
+      "friendliness": 10,
+      "intellect": 50,
+      "strategicThinking": 70,
+      "indifference": 20,
+      "flexibility": 30,
+      "communicationSkills": 40,
+      "morality": 10,
+      "chaoticity": 80
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Ah, what do we have here? A shadow-weaver. What brings your dark arts to my fiery domain?",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I'm here to bring eternal night to this realm. Stand aside, or be eradicated.",
+        "enemyAnswer": "Eternal night, you say? That doesn't sound half bad. Why should I trust you, though?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Join me, and power beyond your wildest dreams will be yours.",
+            "enemyAnswer": "Interesting proposal. You've got guts, I'll give you that. Very well, I'll join your dark court.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "You don't need to trust me, you just need to obey.",
+            "enemyAnswer": "Hah! You have spirit, but that won't save you. Prepare to be incinerated!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Do you wish to challenge the might of the Shadow Weaver?",
+            "enemyAnswer": "Hmm, I like a good challenge. Let's see if you can back up your words with power!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I seek power and allies. Will you join me, or must I destroy you?",
+        "enemyAnswer": "Power, you say? The idea intrigues me. Can you prove your worth?",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I command legions of the damned. Isn't that proof enough?",
+            "enemyAnswer": "Legions, you say? Alright, I'll lend you my strength\u2014for now.",
+            "outcome": "ally"
+          },
+          {
+            "playerOption": "Show me your strength, and perhaps you'll learn mine.",
+            "enemyAnswer": "Oh, I will show you strength alright, but it won't be a lesson you'll enjoy!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "Your curiosity will be the end of you. Prepare to face your doom.",
+            "enemyAnswer": "Prepare yourself, then. Flames will consume you!",
+            "outcome": "attack"
+          }
+        ]
+      },
+      {
+        "playerOption": "I'm just passing through. Don't interfere, and you won't get hurt.",
+        "enemyAnswer": "Passing through my domain without so much as an offer? That's not very wise.",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Take this offering and let me pass.",
+            "enemyAnswer": "An offering? Fair enough. Proceed, shadow-weaver. We shall ignore each other for now.",
+            "outcome": "ignore"
+          },
+          {
+            "playerOption": "I owe you nothing. Stand aside or be destroyed.",
+            "enemyAnswer": "Hah! Such arrogance! Let's see if you can back it up!",
+            "outcome": "attack"
+          },
+          {
+            "playerOption": "I did not come to barter. Out of my way.",
+            "enemyAnswer": "Bold move. But no one passes through without a test of strength!",
+            "outcome": "attack"
+          }
+        ]
+      }
+    ]
+  }
+}

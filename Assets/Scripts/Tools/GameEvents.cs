@@ -26,6 +26,11 @@ public class GameEvents : MonoBehaviour
     /// Called when the option to unite with a World Enemy is chosen as the Dialogue Outcome.
     /// </summary>
     public event Action<JSONReader.UnitJSON> OnUnitUnited;
+    
+    /// <summary>
+    /// Called when the option to unite with a World Enemy is chosen as the Dialogue Outcome.
+    /// </summary>
+    public event Action<JSONReader.UnitJSON> OnUnitIgnored;
     /// <summary>
     /// Called when unit receives damage.
     /// </summary>
@@ -45,7 +50,13 @@ public class GameEvents : MonoBehaviour
             OnUnitUnited(unit);
         }
     }
-
+    public void UnitIgnored(JSONReader.UnitJSON unit)
+    {
+        if (OnUnitIgnored != null)
+        {
+            OnUnitIgnored(unit);
+        }
+    }
     public void UnitHPChanged(Unit unit)
     {
         if (OnUnitHPChanged != null)

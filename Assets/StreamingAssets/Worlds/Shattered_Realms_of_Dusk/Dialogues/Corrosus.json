@@ -1,0 +1,190 @@
+{
+  "enemySpeakerInfo": {
+    "unit": {
+      "firstAttribute": "abomination",
+      "secondAttribute": "ooze",
+      "thirdAttribute": "acid",
+      "characteristicName": "Acidic Ooze",
+      "artisticName": "Corrosus",
+      "powerLevel": "strong"
+    },
+    "personaMetrics": {
+      "aggressiveness": 85,
+      "friendliness": 10,
+      "intellect": 30,
+      "strategicThinking": 40,
+      "indifference": 20,
+      "flexibility": 20,
+      "communicationSkills": 30,
+      "morality": 10,
+      "chaoticity": 75
+    }
+  },
+  "dialogueTree": {
+    "enemyPhrase": "Intruder! You dare step into our territory? Prepare to be melted!",
+    "playerCharacterAnswers": [
+      {
+        "playerOption": "I have no quarrel with you. Let me pass and I'll leave you be.",
+        "enemyAnswer": "No quarrel? Your presence itself is an affront!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then you leave me no choice but to destroy you.",
+            "enemyAnswer": "You'll find no easy prey here!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Very well. Let's end this.",
+                "enemyAnswer": "Come, face your doom!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I doubt you'll find me an easy target either.",
+                "enemyAnswer": "Bold words for someone who'll soon be nothing but a puddle!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "I have no intention of fighting you. We can coexist.",
+            "enemyAnswer": "Coexist? In this shattered realm? Foolishness!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Believe what you will, but I'm serious. What do you want?",
+                "enemyAnswer": "I want you gone!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Is there no way for us to come to an agreement?",
+                "enemyAnswer": "Agreements are for the weak!",
+                "outcome": "ignore"
+              }
+            ]
+          },
+          {
+            "playerOption": "If you insist on fighting, at least tell me why.",
+            "enemyAnswer": "I need no reason beyond your trespass!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then let's fight.",
+                "enemyAnswer": "Prepare yourself!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "A shame. We could have been allies.",
+                "enemyAnswer": "Too late for that!",
+                "outcome": "ignore"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "Your threats mean nothing to me. Stand aside.",
+        "enemyAnswer": "Big words for a doomed fool!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "I'd like to see you try and doom me.",
+            "enemyAnswer": "So be it! Prepare for suffering!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Not if I make you suffer first.",
+                "enemyAnswer": "We'll see about that!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "This isn't a game, ooze.",
+                "enemyAnswer": "You're right. It's a slaughter!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Do you really think you can stop me?",
+            "enemyAnswer": "I know I can!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Prove it then.",
+                "enemyAnswer": "With pleasure!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "On second thought, maybe I'll spare you.",
+                "enemyAnswer": "Coward! You'll not escape unscathed!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Running away is your best option.",
+            "enemyAnswer": "Run? Me? Never!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then face your end with dignity.",
+                "enemyAnswer": "Dignity is for the defeated!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Last chance. Run or face me.",
+                "enemyAnswer": "I choose to fight!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "playerOption": "I'm here for something, and nothing will stand in my way.",
+        "enemyAnswer": "You'll find nothing but pain here!",
+        "playerCharacterAnswers": [
+          {
+            "playerOption": "Then bring the pain!",
+            "enemyAnswer": "With pleasure!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Let's see who endures.",
+                "enemyAnswer": "You'll break before I do!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "I can endure more than you can imagine.",
+                "enemyAnswer": "We'll find out now!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "Do you really want to die trying to stop me?",
+            "enemyAnswer": "I'll die if necessary!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "So be it. Prepare to die.",
+                "enemyAnswer": "I'm ready!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Then I'll make it quick.",
+                "enemyAnswer": "Not if I kill you first!",
+                "outcome": "attack"
+              }
+            ]
+          },
+          {
+            "playerOption": "You don't have to die. Move aside.",
+            "enemyAnswer": "I'm not budging!",
+            "playerCharacterAnswers": [
+              {
+                "playerOption": "Then meet your end.",
+                "enemyAnswer": "Let's get this over with!",
+                "outcome": "attack"
+              },
+              {
+                "playerOption": "Foolish, but your choice.",
+                "enemyAnswer": "No turning back now!",
+                "outcome": "attack"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

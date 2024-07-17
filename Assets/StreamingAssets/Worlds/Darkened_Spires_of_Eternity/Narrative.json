@@ -1,0 +1,40 @@
+{
+  "storyType": "evil",
+  "antagonist": {
+    "firstAttribute": "holy",
+    "secondAttribute": "titan",
+    "thirdAttribute": "annihilator",
+    "characteristicName": "Titanic Annihilator",
+    "artisticName": "Aurelius the Undying",
+    "powerLevel": "legendary",
+    "unitClass": "protector"
+  },
+  "antagonistGroup": {
+    "groupName": "Guardians of the Light",
+    "units": [
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "angel",
+        "thirdAttribute": "shieldwielder",
+        "characteristicName": "Shieldwielding Angel",
+        "artisticName": "Seraphiel the Radiant",
+        "powerLevel": "mighty",
+        "unitClass": "paladin"
+      },
+      {
+        "firstAttribute": "holy",
+        "secondAttribute": "daeva",
+        "thirdAttribute": "warmonger",
+        "characteristicName": "Warmongering Daeva",
+        "artisticName": "Azazel the Valiant",
+        "powerLevel": "formidable",
+        "unitClass": "fighter"
+      }
+    ]
+  },
+  "worldName": "Darkened Spires of Eternity",
+  "story": "In the world of Darkened Spires of Eternity, shadows dance under the pale moonlight and the air is thick with the whispers of ancient evils. The land is a labyrinth of towering black spires, each one pulsating with a dark energy that seems to have a life of its own. Rivers of molten lava carve their way through the landscape, and the sky is perpetually overcast with swirling, ominous clouds. The denizens of this world are as varied as they are sinister, from cunning tricksters to brutish warriors, all vying for dominance in a realm where morality is but a forgotten tale.\n\nAt the heart of this dark domain stands the fortress of Aurelius the Undying, a Titanic Annihilator whose very presence can bring even the most stalwart of hearts to despair. Aurelius is the eternal guardian of a sacred artifact known as the Heart of Light, an object of immense power that could potentially banish the shadows and restore balance to the world. However, Aurelius is not alone in this sacred task. Flanking him are Seraphiel the Radiant, a Shieldwielding Angel, and Azazel the Valiant, a Warmongering Daeva. Together, they form the Guardians of the Light, a formidable trio that stands as the last bastion against the encroaching darkness.\n\nBut the forces of evil are relentless, and the dark entities that inhabit this world will stop at nothing to shatter the Heart of Light and plunge the world into eternal night. The protagonist, a malevolent being of great power, has been summoned to this world with one mission: to destroy Aurelius and his guardians, and claim the Heart of Light for the forces of darkness.",
+  "greetingGameMessage": "Welcome, dark one. You have been summoned to the Darkened Spires of Eternity, a world teetering on the brink of eternal night. The Heart of Light is all that stands between this realm and absolute darkness. Will you seize it and bring forth the age of shadows?",
+  "defeatEndingMessage": "Aurelius the Undying stands victorious. The Heart of Light remains protected, and the forces of darkness are driven back into the shadows. The world of Darkened Spires of Eternity breathes a sigh of relief, for now.",
+  "gameOverMessage": "The Guardians of the Light have fallen, and the Heart of Light is shattered. Darkness envelops the land, and the Darkened Spires of Eternity are plunged into an age of despair and chaos. The malevolent forces now rule unchallenged."
+}

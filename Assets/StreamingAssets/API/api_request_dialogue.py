@@ -3,7 +3,8 @@ import os
 import json
 import re
 
-
+model_param = "gpt-4o"
+temperature_param = 1
 
 with open('units.json', 'r') as file:
     units_content = file.read()
@@ -40,8 +41,8 @@ for level in units_data["levelsUnits"]:
         dialogue_file_path = os.path.join(dialogue_folder_path, f"{artistic_name}.json")
 
         response = openai.chat.completions.create(
-            model="gpt-4o",
-            temperature=1.0,
+            model=model_param,
+            temperature=temperature_param,
             max_tokens=4096,
             response_format={"type": "json_object"},
             messages=[
@@ -99,8 +100,8 @@ os.makedirs(dialogue_folder_path, exist_ok=True)
 dialogue_file_path = os.path.join(dialogue_folder_path, f"{artistic_name}.json")
 
 response = openai.chat.completions.create(
-    model="gpt-3.5-turbo-0125",
-    temperature=1.2,
+    model=model_param,
+    temperature=temperature_param,
     response_format={"type": "json_object"},
     messages=[
         {

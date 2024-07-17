@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "levelName": "The Forsaken Fields",
+      "walkableTerrain": "dark-grass",
+      "obstacleTerrain": "deep-dark-hole",
+      "levelDescription": "The Forsaken Fields stretch out like a cursed carpet, the dark-grass whispering ancient curses with each gust of wind. Deep-dark-holes are scattered throughout, appearing as if the earth itself has been torn open by the hands of vengeful spirits. The air is thick with the scent of decay, and the sky looms heavy with dark clouds. This treacherous terrain is the first test of your resolve."
+    },
+    {
+      "levelName": "Infernal Chasm",
+      "walkableTerrain": "lava-rock",
+      "obstacleTerrain": "lava",
+      "levelDescription": "The Infernal Chasm is a hellish landscape where rivers of molten lava carve through jagged lava-rock, creating an ever-shifting maze of fiery peril. The ground beneath is unstable, and the heat is suffocating. Lava streams threaten to consume any who dare to traverse this burning abyss. This is the domain of Azazel the Valiant, the Warmongering Daeva, whose fiery wrath knows no bounds."
+    },
+    {
+      "levelName": "Sanctum of Despair",
+      "walkableTerrain": "fractured-wall-platform",
+      "obstacleTerrain": "water",
+      "levelDescription": "The Sanctum of Despair is a labyrinthine fortress built upon fractured-wall-platforms that seem to hang precariously over an abyss of dark, swirling water. Each step echoes with the weight of impending doom. At the heart of this dread sanctuary stands Aurelius the Undying, the Titanic Annihilator. His presence is a palpable force, and the Heart of Light glows with a holy radiance, protected by Seraphiel the Radiant, the Shieldwielding Angel. This is the final battleground, where the fate of the Darkened Spires of Eternity will be decided."
+    }
+  ]
+}
